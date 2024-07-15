@@ -1,0 +1,13 @@
+# libraries for fine-tuning models
+pip install accelerate==0.21.0 peft==0.4.0 bitsandbytes==0.40.2 transformers==4.31.0 trl==0.4.7
+pip install datasets
+pip install scipy
+pip install tensorboardX
+
+# libraries for fine-tuning Salmon
+pip install seqeval
+pip install scikit-learn
+
+# libraries for evaluation
+pip install nltk
+
