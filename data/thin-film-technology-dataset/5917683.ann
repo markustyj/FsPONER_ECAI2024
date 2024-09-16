@@ -1,0 +1,17 @@
+T1	Component 2 25	thin-film magnetic head
+T3	Component 98 128	electrically conducting layers
+T4	Component 158 174	connecting track
+T5	Component 192 199	winding
+T6	EnergyFlow 226 247	electrical resistance
+T7	Component 307 324	connecting tracks
+T8	Component 351 357	layers
+T9	Component 381 398	connecting tracks
+T10	Function 417 447	additional manufacturing steps
+T11	Component 41 49	windings
+T2	Component 249 265	auxiliary tracks
+R1	PartOf Arg1:T1 Arg2:T11
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T5
+R4	Spatial Arg1:T2 Arg2:T7
+R5	Form Arg1:T2 Arg2:T8
+R6	Spatial Arg1:T2 Arg2:T9

@@ -1,0 +1,46 @@
+T1	Component 2 15	magnetic head
+T2	Component 23 48	exchange isolated poletip
+T3	Component 67 73	shield
+T4	Component 80 89	MR sensor
+T5	Component 96 106	write pole
+T6	Component 113 129	inductive sensor
+T7	Component 135 142	poletip
+T8	Material 165 186	high B.sub.s material
+T9	EnergyFlow 201 205	flux
+T10	Component 231 253	much larger pole layer
+T11	Component 308 315	poletip
+T12	Component 337 349	shield layer
+T13	Component 375 387	shield layer
+T15	ScientificConcept 474 479	noise
+T16	Component 487 493	sensor
+T17	Component 505 517	shield layer
+T18	EnergyFlow 541 558	inductive circuit
+T19	Component 577 584	poletip
+T20	Material 597 617	nonmagnetic material
+T21	Component 619 624	heads
+T22	Effect 677 691	high overwrite
+T24	Attribution 276 283	poletip
+T25	Shape 257 263	funnel
+T26	Function 292 302	saturation
+T14	System 393 420	unfavorable domain patterns
+T27	Component 443 450	poletip
+T23	Effect 703 723	remarkably low noise
+R1	Causitive Arg1:T20 Arg2:T19
+R2	Purpose Arg1:T21 Arg2:T22
+R3	Purpose Arg1:T21 Arg2:T23
+R4	Spatial Arg1:T11 Arg2:T12
+R5	Spatial Arg1:T13 Arg2:T14
+R6	Spatial Arg1:T14 Arg2:T27
+R7	Generate Arg1:T16 Arg2:T15
+R8	Purpose Arg1:T17 Arg2:T18
+R9	Purpose Arg1:T11 Arg2:T13
+R10	Purpose Arg1:T11 Arg2:T15
+R11	MadeOf Arg1:T7 Arg2:T8
+R12	Causitive Arg1:T9 Arg2:T10
+R13	Purpose Arg1:T7 Arg2:T9
+R14	Spatial Arg1:T10 Arg2:T25
+R15	Attr Arg1:T9 Arg2:T24
+R16	PartOf Arg1:T1 Arg2:T2
+R17	Spatial Arg1:T3 Arg2:T5
+R18	PartOf Arg1:T4 Arg2:T3
+R19	PartOf Arg1:T6 Arg2:T5

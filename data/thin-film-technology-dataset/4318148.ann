@@ -1,0 +1,44 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 54 69	conductor layer
+T3	Shape 82 96	spiral pattern
+T4	Component 127 145	magnetic substrate
+T5	Component 149 178	non-magnetic insulating layer
+T6	Shape 206 212	spaces
+T7	Component 234 250	conductive layer
+T8	Attribution 277 286	thickness
+T9	Component 294 312	non-magnetic layer
+T10	Component 354 369	conductor layer
+T11	Component 373 410	further non-magnetic insulating layer
+T12	Component 417 431	magnetic layer
+T13	Component 463 481	non-magnetic layer
+T14	Shape 485 488	gap
+T15	Location 506 510	side
+T16	Component 518 528	lamination
+T17	Component 541 555	magnetic layer
+T18	Component 564 582	magnetic substrate
+T19	Component 599 636	further non-magnetic insulating layer
+T20	EnergyFlow 640 656	magnetic circuit
+T21	Component 669 683	magnetic layer
+T22	Component 692 710	magnetic substrate
+T23	Component 722 738	conductive layer
+T24	Shape 760 763	gap
+T25	Component 116 121	turns
+T26	Component 221 226	turns
+R1	Spatial Arg1:T14 Arg2:T15
+R2	Purpose Arg1:T5 Arg2:T6
+R3	PartOf Arg1:T7 Arg2:T26
+R4	Spatial Arg1:T11 Arg2:T13
+R5	Spatial Arg1:T12 Arg2:T13
+R6	Attr Arg1:T16 Arg2:T15
+R7	Spatial Arg1:T16 Arg2:T17
+R8	Spatial Arg1:T16 Arg2:T18
+R9	Spatial Arg1:T18 Arg2:T19
+R11	PartOf Arg1:T3 Arg2:T2
+R10	PartOf Arg1:T2 Arg2:T25
+R12	Spatial Arg1:T2 Arg2:T4
+R13	Spatial Arg1:T6 Arg2:T26
+R14	Attr Arg1:T9 Arg2:T8
+R15	Spatial Arg1:T22 Arg2:T23
+R16	PartOf Arg1:T22 Arg2:T24
+R17	Manner Arg1:T21 Arg2:T20
+R18	Causitive Arg1:T1 Arg2:T2

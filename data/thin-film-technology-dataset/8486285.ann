@@ -1,0 +1,57 @@
+T1	Component 24 34	write pole
+T3	Component 73 88	substrate layer
+T5	Shape 142 158	damascene trench
+T7	Component 197 209	buffer layer
+T8	Component 235 247	buffer layer
+T9	Component 342 347	layer
+T10	Material 351 368	magnetic material
+T11	Material 397 423	first sacrificial material
+T12	Material 445 462	magnetic material
+T14	Component 542 547	wafer
+T15	Material 562 579	magnetic material
+T16	Material 599 625	first sacrificial material
+T18	Component 774 779	wafer
+T19	Material 808 825	magnetic material
+T2	Component 55 65	stop layer
+T20	Component 94 99	wafer
+T4	Component 105 115	stop layer
+T6	Component 166 181	substrate layer
+T21	Component 219 229	stop layer
+T22	Component 291 301	stop layer
+T23	Component 378 383	wafer
+T24	Location 431 437	region
+T25	Shape 473 489	damascene trench
+T13	Function 504 532	milling or etching operation
+T26	Material 644 670	first sacrificial material
+T17	Material 684 711	second sacrificial material
+T27	Component 721 726	wafer
+T28	Function 745 764	polishing operation
+T29	Location 794 800	region
+T30	Shape 836 852	damascene trench
+T31	Material 858 885	second sacrificial material
+T32	Component 895 907	buffer layer
+T33	Shape 126 133	opening
+T34	Shape 258 265	opening
+T35	Shape 276 283	opening
+R1	Spatial Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T20 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T33
+R4	Spatial Arg1:T33 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T5
+R6	Spatial Arg1:T7 Arg2:T21
+R7	PartOf Arg1:T8 Arg2:T34
+R8	PartOf Arg1:T22 Arg2:T35
+R9	Spatial Arg1:T34 Arg2:T35
+R10	PartOf Arg1:T10 Arg2:T9
+R11	Spatial Arg1:T9 Arg2:T23
+R12	PartOf Arg1:T12 Arg2:T24
+R13	Spatial Arg1:T11 Arg2:T24
+R15	Oper Arg1:T13 Arg2:T15
+R16	Oper Arg1:T13 Arg2:T26
+R17	Spatial Arg1:T17 Arg2:T27
+R18	PartOf Arg1:T19 Arg2:T29
+R19	Spatial Arg1:T19 Arg2:T30
+R20	Spatial Arg1:T19 Arg2:T31
+R21	Spatial Arg1:T19 Arg2:T32
+R22	Oper Arg1:T28 Arg2:T29
+R14	Spatial Arg1:T12 Arg2:T25

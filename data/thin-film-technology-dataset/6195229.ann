@@ -1,0 +1,63 @@
+T3	System 72 97	inductive write structure
+T4	Component 104 127	magnetoresistive sensor
+T7	Component 234 242	pole tip
+T8	Shape 279 285	window
+T13	Component 574 590	protection layer
+T14	Shape 595 601	window
+T15	Shape 630 638	channels
+T17	Component 680 688	pedestal
+T18	Shape 738 746	channels
+T19	EnergyFlow 755 768	magnetic flux
+T23	Component 999 1023	magnetoresistive element
+T24	Component 28 58	thin film merged magnetic head
+T1	Component 135 161	patterned protection layer
+T2	Component 175 206	second shield/bottom pole layer
+T5	System 250 275	inductive write structure
+T6	Component 305 321	protection layer
+T25	Function 330 341	manufacture
+T26	System 347 360	configuration
+T27	Component 373 391	first shield layer
+T9	Component 395 419	magnetoresistive element
+T28	Component 423 442	second shield layer
+T10	Component 456 467	bottom pole
+T29	Component 471 487	protection layer
+T30	Shape 491 508	protection window
+T31	Shape 512 521	write gap
+T11	Component 525 533	top pole
+T32	System 541 559	pole tip structure
+T12	Function 617 626	formation
+T33	Component 646 665	second shield layer
+T16	System 707 732	inductive write structure
+T34	Component 795 814	second shield layer
+T20	Attribution 826 831	width
+T35	System 839 857	pole tip structure
+T21	Function 882 894	side writing
+T36	Effect 902 924	consequent improvement
+T37	Effect 928 949	off-track performance
+T38	Attribution 955 960	width
+T39	Component 968 987	second shield layer
+R1	PartOf Arg1:T24 Arg2:T3
+R2	PartOf Arg1:T24 Arg2:T4
+R3	Causitive Arg1:T24 Arg2:T1
+R4	PartOf Arg1:T1 Arg2:T2
+R5	PartOf Arg1:T5 Arg2:T7
+R6	Spatial Arg1:T8 Arg2:T6
+R7	PartOf Arg1:T26 Arg2:T27
+R8	PartOf Arg1:T26 Arg2:T9
+R9	PartOf Arg1:T26 Arg2:T28
+R10	Form Arg1:T28 Arg2:T10
+R11	PartOf Arg1:T26 Arg2:T29
+R12	PartOf Arg1:T26 Arg2:T30
+R13	PartOf Arg1:T26 Arg2:T31
+R14	PartOf Arg1:T26 Arg2:T11
+R15	PartOf Arg1:T26 Arg2:T32
+R16	Spatial Arg1:T15 Arg2:T33
+R17	Spatial Arg1:T33 Arg2:T17
+R18	Causitive Arg1:T17 Arg2:T16
+R19	Oper Arg1:T12 Arg2:T15
+R20	Causitive Arg1:T18 Arg2:T19
+R21	Attr Arg1:T35 Arg2:T20
+R22	Spatial Arg1:T19 Arg2:T34
+R23	Attr Arg1:T39 Arg2:T38
+R24	Causitive Arg1:T38 Arg2:T23
+R25	Purpose Arg1:T37 Arg2:T36

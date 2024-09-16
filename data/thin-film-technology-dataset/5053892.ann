@@ -1,0 +1,15 @@
+T1	Component 2 36	thin film magnetic read/write head
+T2	Component 71 75	head
+T3	Function 89 104	first operation
+T4	Function 114 128	read operation
+T5	Function 155 170	first operation
+T6	Component 227 231	head
+T7	Function 245 261	second operation
+T8	Function 271 286	write operation
+T10	Component 342 346	head
+T9	Function 375 390	first operation
+R1	Purpose Arg1:T2 Arg2:T3
+R2	InstanceOf Arg1:T4 Arg2:T3
+R3	Purpose Arg1:T6 Arg2:T7
+R4	InstanceOf Arg1:T8 Arg2:T7
+R5	Purpose Arg1:T10 Arg2:T9

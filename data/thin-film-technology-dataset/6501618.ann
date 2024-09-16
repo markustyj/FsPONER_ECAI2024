@@ -1,0 +1,77 @@
+T1	Component 2 23	first magnetic member
+T2	Location 36 54	first pole portion
+T3	Location 61 79	first yoke portion
+T4	Component 117 126	substrate
+T5	Component 134 148	write gap film
+T6	Component 178 199	first magnetic member
+T7	Component 203 212	thin film
+T8	Component 251 266	insulating film
+T9	Component 287 306	antireflection film
+T10	Attribution 324 331	surface
+T11	Component 339 354	insulating film
+T12	Location 368 384	inclined portion
+T13	Component 399 413	write gap film
+T14	Component 419 438	antireflection film
+T15	Function 457 481	photolithography process
+T16	Component 494 523	patterned antireflection film
+T17	Location 547 563	inclined portion
+T18	PhysicsFlow 573 584	photoresist
+T19	Component 615 634	antireflection film
+T20	Component 643 658	insulating film
+T21	Function 682 706	photolithography process
+T22	Component 713 735	second magnetic member
+T23	Component 746 757	resistframe
+T24	Shape 767 789	given enclosed pattern
+T25	System 798 814	enclosed pattern
+T26	Component 822 833	resistframe
+T27	Component 864 883	antireflection film
+T28	Component 889 911	second magnetic member
+T29	Location 924 943	second pole portion
+T30	Location 960 978	first pole portion
+T31	Component 985 999	write gap film
+T32	Location 1027 1045	first pole portion
+T33	Component 1050 1069	air bearing surface
+T34	Material 1085 1110	magnetic recording medium
+T35	Location 1117 1136	second yoke portion
+T36	Location 1167 1185	first yoke portion
+T37	Location 1193 1208	remote position
+T38	Component 1218 1237	air bearing surface
+T39	Component 1256 1279	thin film magnetic head
+T40	Component 1291 1310	antireflection film
+T41	Component 1323 1338	insulating film
+T42	Location 1347 1366	second pole portion
+T43	Component 1374 1396	second magnetic member
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R5	Spatial Arg1:T5 Arg2:T6
+R6	Causitive Arg1:T8 Arg2:T7
+R7	Attr Arg1:T11 Arg2:T10
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T13 Arg2:T12
+R10	PartOf Arg1:T11 Arg2:T12
+R11	Oper Arg1:T15 Arg2:T14
+R12	Purpose Arg1:T15 Arg2:T16
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T18 Arg2:T19
+R15	Spatial Arg1:T18 Arg2:T20
+R16	Oper Arg1:T21 Arg2:T18
+R17	PartOf Arg1:T23 Arg2:T24
+R18	Form Arg1:T22 Arg2:T23
+R19	Oper Arg1:T21 Arg2:T22
+R20	PartOf Arg1:T26 Arg2:T25
+R21	Spatial Arg1:T25 Arg2:T27
+R22	PartOf Arg1:T28 Arg2:T29
+R23	Spatial Arg1:T29 Arg2:T30
+R24	Manner Arg1:T31 Arg2:T29
+R25	Spatial Arg1:T33 Arg2:T34
+R26	Spatial Arg1:T35 Arg2:T36
+R27	Manner Arg1:T37 Arg2:T36
+R28	PartOf Arg1:T39 Arg2:T40
+R29	Spatial Arg1:T40 Arg2:T41
+R30	PartOf Arg1:T43 Arg2:T42
+R31	Spatial Arg1:T40 Arg2:T42
+R3	Causitive Arg1:T4 Arg2:T1
+R4	Spatial Arg1:T41 Arg2:T42
+#1	AnnotatorNotes R5	cover，空间关系更合适一些
+#2	AnnotatorNotes R14	cover，用spatial更合适
+#3	AnnotatorNotes R15	用spatial更合适些

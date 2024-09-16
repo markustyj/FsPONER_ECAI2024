@@ -1,0 +1,21 @@
+T1	System 29 49	magnetic head device
+T2	Component 69 100	thin film magnetic head element
+T3	Component 108 117	substrate
+T4	Component 123 154	thin film magnetic head element
+T5	Component 167 197	magnetoresistance (MR) element
+T6	Component 203 212	substrate
+T7	Component 234 244	MR element
+T8	Attribution 261 273	side surface
+T9	Component 281 290	substrate
+T10	Attribution 296 308	side surface
+T12	Component 391 422	thin film magnetic head element
+T13	Attribution 433 445	side surface
+T15	ScientificConcept 610 624	subject matter
+T11	Component 340 370	magnetically degenerated layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	Attr Arg1:T9 Arg2:T8
+R5	Causitive Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T12 Arg2:T13
+R7	Spatial Arg1:T11 Arg2:T12

@@ -1,0 +1,33 @@
+T1	Component 24 48	thin-film magnetic heads
+T2	Component 60 89	piezoelectric driven actuator
+T3	Component 124 140	mass manufacture
+T4	Component 144 158	magnetic heads
+T5	Component 164 172	actuator
+T6	Component 195 203	row tool
+T7	Component 219 228	lever arm
+T8	Component 276 297	piezoelectric element
+T9	Component 339 360	piezoelectric element
+T10	EnergyFlow 366 371	force
+T11	Component 388 396	row tool
+T12	Component 423 432	lever arm
+T13	Component 475 498	piezoelectric actuators
+T14	Component 552 575	magnetic head component
+T15	System 581 584	row
+T16	Component 102 111	row tools
+T17	ScientificConcept 310 331	physical displacement
+T18	Function 453 463	deflection
+T19	System 465 471	Arrays
+T20	Function 522 543	individual adjustment
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T3
+R3	Purpose Arg1:T2 Arg2:T16
+R4	Purpose Arg1:T16 Arg2:T3
+R5	PartOf Arg1:T5 Arg2:T7
+R6	Attr Arg1:T9 Arg2:T17
+R7	Generate Arg1:T11 Arg2:T10
+R8	Causitive Arg1:T8 Arg2:T7
+R9	PartOf Arg1:T15 Arg2:T14
+R10	Oper Arg1:T20 Arg2:T14
+R11	PartOf Arg1:T13 Arg2:T19
+R12	Oper Arg1:T18 Arg2:T12
+R13	Purpose Arg1:T19 Arg2:T20

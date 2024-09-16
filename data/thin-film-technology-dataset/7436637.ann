@@ -1,0 +1,34 @@
+T1	Component 3 26	magnetoresistive sensor
+T2	Component 36 55	hard magnetic layer
+T3	Attribution 75 88	stripe height
+T4	Component 96 108	pinned layer
+T5	Component 134 146	pinned layer
+T6	Component 152 164	pinned layer
+T7	Attribution 184 197	stripe height
+T8	Component 205 215	free layer
+T9	Attribution 228 251	back stripe height edge
+T10	Component 259 271	pinned layer
+T11	Attribution 300 318	stripe height edge
+T12	Component 326 336	free layer
+T13	Component 342 354	pinned layer
+T14	EnergyFlow 391 410	net magnetic moment
+T15	Function 421 443	magnetostatic coupling
+T16	Component 456 475	hard magnetic layer
+T17	Component 484 496	pinned layer
+T18	EnergyFlow 506 512	moment
+T19	Component 520 526	layers
+T20	Component 532 551	hard magnetic layer
+T21	Component 596 613	AFM pinning layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T4 Arg2:T3
+R3	Manner Arg1:T3 Arg2:T2
+R4	Purpose Arg1:T2 Arg2:T5
+R5	Manner Arg1:T7 Arg2:T6
+R6	Attr Arg1:T8 Arg2:T7
+R7	Attr Arg1:T10 Arg2:T9
+R8	Attr Arg1:T12 Arg2:T11
+R9	Generate Arg1:T13 Arg2:T14
+R10	Attr Arg1:T19 Arg2:T18
+R11	Form Arg1:T20 Arg2:T21
+R14	Causitive Arg1:T15 Arg2:T18
+R15	Comparison Arg1:T9 Arg2:T11

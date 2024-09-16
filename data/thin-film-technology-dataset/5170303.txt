@@ -1,0 +1,1 @@
+An inductive thin film magnetic head carried on a substrate having a reduced susceptibility to the "glitch" effect or "remote read" effect. The inductive thin film head uses a three point approach using hard axis only drive fields, narrow paddles and shortened pole tips which are spaced apart from a saw alley when the substrate is sliced.

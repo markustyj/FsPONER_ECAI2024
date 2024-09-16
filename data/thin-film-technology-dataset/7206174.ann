@@ -1,0 +1,39 @@
+T1	Component 3 35	magnetoresistance effect element
+T2	Component 76 101	first ferromagnetic layer
+T3	Component 117 126	substrate
+T4	Component 132 157	first ferromagnetic layer
+T5	Component 181 193	pinned layer
+T6	Shape 202 207	shape
+T7	Shape 213 218	strip
+T8	Location 227 244	both end portions
+T9	Component 254 268	electrode pads
+T10	Component 285 297	pinned layer
+T11	Function 330 341	ion milling
+T12	Location 370 390	nano-contact portion
+T13	Component 395 411	insulating layer
+T14	Material 438 457	insulating material
+T15	Component 467 486	etched pinned layer
+T16	Location 498 518	nano-contact portion
+T17	Component 522 548	second ferromagnetic layer
+T18	Location 589 609	nano-contact portion
+T19	Component 620 646	second ferromagnetic layer
+T20	Component 670 680	free layer
+T21	Location 685 690	shape
+T22	Shape 694 699	strip
+T24	Component 735 749	electrode pads
+T23	Location 713 725	end portions
+R2	Form Arg1:T4 Arg2:T5
+R4	Form Arg1:T19 Arg2:T20
+R1	Spatial Arg1:T2 Arg2:T3
+R6	Oper Arg1:T11 Arg2:T10
+R7	Form Arg1:T9 Arg2:T8
+R8	Form Arg1:T13 Arg2:T15
+R3	PartOf Arg1:T22 Arg2:T21
+R9	Attr Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T5 Arg2:T8
+R10	Spatial Arg1:T13 Arg2:T14
+R11	Spatial Arg1:T15 Arg2:T16
+R12	Spatial Arg1:T17 Arg2:T18
+R13	Attr Arg1:T20 Arg2:T21
+R14	PartOf Arg1:T20 Arg2:T23
+R15	Spatial Arg1:T23 Arg2:T24

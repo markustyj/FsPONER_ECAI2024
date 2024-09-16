@@ -1,0 +1,51 @@
+T1	Component 2 16	recording head
+T2	Component 32 49	bottom pole layer
+T4	Component 81 95	top pole layer
+T5	Component 128 147	recording gap layer
+T6	Component 186 200	recording head
+T7	Component 224 238	thin-film coil
+T9	Component 290 294	coil
+T10	Component 337 354	bottom pole layer
+T14	Location 473 487	sloped portion
+T17	Location 572 586	sloped portion
+T18	Component 594 603	gap layer
+T19	Component 639 658	air bearing surface
+T21	Location 709 723	sloped portion
+T23	Component 777 793	top shield layer
+T24	Component 821 835	top pole layer
+T25	Attribution 851 867	flat top surface
+T3	Location 62 74	pole portion
+T26	Location 108 120	pole portion
+T27	Location 167 180	pole portions
+T8	Component 258 284	bottom and top pole layers
+T28	Component 320 331	pole layers
+T29	Location 368 380	pole portion
+T11	Location 384 396	flat portion
+T30	Location 403 417	sloped portion
+T12	Component 448 467	recording gap layer
+T13	Location 423 435	pole portion
+T15	Location 501 513	pole portion
+T16	Location 522 534	flat portion
+T20	Location 688 700	pole portion
+T22	Component 741 764	convexity forming layer
+T31	Component 799 815	reproducing head
+T32	Component 875 884	gap layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T26
+R5	PartOf Arg1:T1 Arg2:T5
+R6	Spatial Arg1:T5 Arg2:T27
+R7	PartOf Arg1:T6 Arg2:T7
+R8	Spatial Arg1:T7 Arg2:T8
+R9	PartOf Arg1:T10 Arg2:T29
+R10	PartOf Arg1:T10 Arg2:T11
+R11	PartOf Arg1:T10 Arg2:T30
+R12	Spatial Arg1:T13 Arg2:T12
+R13	Spatial Arg1:T14 Arg2:T15
+R14	Spatial Arg1:T14 Arg2:T16
+#1	AnnotatorNotes T17	从...到... 这种关系如何标注
+R15	PartOf Arg1:T31 Arg2:T23
+R16	Manner Arg1:T22 Arg2:T23
+R17	PartOf Arg1:T32 Arg2:T25
+R18	Manner Arg1:T24 Arg2:T25

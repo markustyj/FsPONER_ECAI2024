@@ -1,0 +1,19 @@
+T2	Component 52 60	MR layer
+T3	Component 89 108	soft magnetic layer
+T4	Component 128 136	MR layer
+T5	Component 142 166	nonmagnetic spacer layer
+T1	Component 5 38	magnetoresistive (MR) read sensor
+T6	Component 170 207	antiferromagnetic stabilization layer
+T11	Material 211 214	NiO
+T7	EnergyFlow 226 269	stabilizing exchange-coupled magnetic field
+T8	Component 277 298	transverse bias layer
+T9	Component 317 338	transverse bias layer
+T10	Function 390 406	sensor operation
+T12	Location 363 382	preferred direction
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T3 Arg2:T2
+R3	Causitive Arg1:T5 Arg2:T3
+R4	MadeOf Arg1:T6 Arg2:T11
+R5	Causitive Arg1:T7 Arg2:T8
+R6	Manner Arg1:T12 Arg2:T9
+R7	Causitive Arg1:T6 Arg2:T7

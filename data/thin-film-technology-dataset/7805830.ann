@@ -1,0 +1,63 @@
+T1	Component 3 9	device
+T2	Attribution 22 38	mounting surface
+T3	System 61 81	head gimbal assembly
+T4	Attribution 127 143	mounting surface
+T6	System 202 205	HGA
+T7	Attribution 246 262	mounting surface
+T8	ScientificConcept 280 289	mechanism
+T9	System 344 347	HGA
+T10	Component 373 379	device
+T11	System 404 407	HGA
+T12	Component 413 431	rotating test disc
+T13	Component 452 461	test disc
+T14	System 467 470	HGA
+T15	Attribution 496 512	mounting surface
+T16	Component 520 531	air bearing
+T17	Attribution 538 547	interface
+T18	Component 553 559	slider
+T19	System 567 570	HGA
+T20	Component 579 588	test disc
+T22	System 673 676	HGA
+T24	ScientificConcept 730 739	mechanism
+T25	System 767 770	HGA
+T26	Component 796 805	test disc
+T27	System 83 86	HGA
+T5	Effect 631 665	precise and repeatable positioning
+T21	ScientificConcept 685 707	dimensional tolerances
+T23	ScientificConcept 712 722	vibrations
+T28	Component 91 98	housing
+T29	Component 176 183	housing
+T30	Component 215 222	housing
+T31	ScientificConcept 151 160	mechanism
+T32	Component 360 367	housing
+T33	Component 299 328	pneumatically actuated finger
+R1	Alias Arg1:T3 Arg2:T27
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T28
+R4	PartOf Arg1:T1 Arg2:T31
+R5	Causitive Arg1:T2 Arg2:T3
+R6	Manner Arg1:T4 Arg2:T28
+R7	Causitive Arg1:T2 Arg2:T27
+R8	Manner Arg1:T7 Arg2:T30
+R10	Causitive Arg1:T31 Arg2:T29
+R9	Causitive Arg1:T31 Arg2:T6
+R11	InstanceOf Arg1:T8 Arg2:T33
+R12	Causitive Arg1:T33 Arg2:T9
+R13	Causitive Arg1:T9 Arg2:T32
+R14	Purpose Arg1:T10 Arg2:T11
+R15	Causitive Arg1:T11 Arg2:T12
+R16	PartOf Arg1:T19 Arg2:T18
+R18	Spatial Arg1:T16 Arg2:T17
+R19	Spatial Arg1:T18 Arg2:T20
+R17	Spatial Arg1:T18 Arg2:T17
+R20	Spatial Arg1:T20 Arg2:T17
+R21	Causitive Arg1:T14 Arg2:T13
+R22	Spatial Arg1:T15 Arg2:T17
+R23	Causitive Arg1:T15 Arg2:T14
+R24	Causitive Arg1:T16 Arg2:T14
+R25	Causitive Arg1:T25 Arg2:T26
+R26	Manner Arg1:T5 Arg2:T22
+R27	PartOf Arg1:T24 Arg2:T23
+R28	PartOf Arg1:T24 Arg2:T21
+R29	Spatial Arg1:T21 Arg2:T25
+R30	Spatial Arg1:T23 Arg2:T25

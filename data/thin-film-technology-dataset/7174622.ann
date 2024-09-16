@@ -1,0 +1,63 @@
+T1	Component 30 36	slider
+T2	Component 56 81	first ferromagnetic layer
+T3	Component 85 111	second ferromagnetic layer
+T4	Component 120 143	antiferromagnetic layer
+T5	Component 159 164	layer
+T6	Material 168 187	protective material
+T7	Location 191 204	proximal ends
+T10	Location 300 312	proximal end
+T11	Component 318 342	non-magnetic metal layer
+T12	Component 357 382	first ferromagnetic layer
+T14	Location 426 439	recessed area
+T15	Location 478 491	recessed area
+T16	Material 497 516	protective material
+T17	Component 547 552	layer
+T18	Material 556 575	protective material
+T19	Location 593 597	ends
+T20	Component 605 630	first ferromagnetic layer
+T21	Component 636 662	second ferromagnetic layer
+T22	Component 672 695	antiferromagnetic layer
+T23	Location 717 721	ends
+T25	Material 743 762	protective material
+T26	Location 784 797	recessed area
+T27	Component 805 829	non-magnetic metal layer
+T8	Component 214 220	layers
+T9	Component 246 250	disk
+T28	Attribution 251 258	surface
+T13	Component 392 396	disk
+T29	Attribution 397 404	surface
+T30	Attribution 522 527	depth
+T24	Component 729 733	disk
+T31	Attribution 734 741	surface
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	MadeOf Arg1:T5 Arg2:T6
+R5	Attr Arg1:T9 Arg2:T28
+R7	PartOf Arg1:T8 Arg2:T7
+R8	PartOf Arg1:T11 Arg2:T10
+R9	Attr Arg1:T13 Arg2:T29
+R10	Spatial Arg1:T11 Arg2:T12
+R11	Form Arg1:T10 Arg2:T14
+R12	Causitive Arg1:T16 Arg2:T15
+R13	Manner Arg1:T15 Arg2:T30
+R14	MadeOf Arg1:T17 Arg2:T18
+R15	PartOf Arg1:T20 Arg2:T19
+R16	PartOf Arg1:T21 Arg2:T19
+R17	PartOf Arg1:T22 Arg2:T19
+R18	Attr Arg1:T24 Arg2:T31
+R19	PartOf Arg1:T27 Arg2:T26
+R20	Causitive Arg1:T5 Arg2:T7
+#1	AnnotatorNotes R20	漏标了，这块可以套用模板：A do B 介词(to/into/on/…) C：如果A是事物，B是事物，C是事物，那么A--makemove--》B,B--makemove—>C，当然A被省略了
+#3	AnnotatorNotes R11	这个很明显是一个form关系
+#4	AnnotatorNotes T10	这个proximal end，即所谓的近端，从句子中可以看出是相对于句子后面的from the disk surface而言，所以可以在proximal end 和 surface之间添加一个spatial关系
+#5	AnnotatorNotes R12	显然不是说，以某种方式来填充，而是用某物来填充，所以是一个使动被动关系
+#6	AnnotatorNotes R13	填充某物到某容器中直至一定深度，这个“直至一定深度”说的是填充的方式，属于manner
+R21	PartOf Arg1:T26 Arg2:T25
+#7	AnnotatorNotes R21	漏标了，protective material在recessed area中间，用ownership进行标注
+R22	Spatial Arg1:T18 Arg2:T19
+#8	AnnotatorNotes R22	漏标了，相对位置标spatial
+R23	Causitive Arg1:T31 Arg2:T23
+#9	AnnotatorNotes R23	漏标了，burnishing of the ends by the disk surface：以磁盘表面来擦拭终端，使用被动关系
+R6	Spatial Arg1:T8 Arg2:T28
+R24	Spatial Arg1:T10 Arg2:T29

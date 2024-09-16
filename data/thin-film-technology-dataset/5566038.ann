@@ -1,0 +1,28 @@
+T1	Component 2 22	thin film transducer
+T2	EnergyFlow 74 95	electrostatic charges
+T3	Component 113 117	core
+T4	Component 299 306	air gap
+T6	Component 352 368	insulation layer
+T7	Component 389 393	core
+T8	Component 30 52	electrical connections
+T9	Function 61 70	discharge
+T10	Component 104 108	coil
+T11	Attribution 159 178	conductive surfaces
+T12	Component 209 213	coil
+T13	Component 218 222	core
+T14	Attribution 244 252	surfaces
+T5	EnergyFlow 316 333	breakdown voltage
+T15	Component 380 384	coil
+T16	Component 401 411	transducer
+R1	Oper Arg1:T9 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T10
+R3	Spatial Arg1:T2 Arg2:T3
+R6	Spatial Arg1:T11 Arg2:T12
+R7	Spatial Arg1:T11 Arg2:T13
+R8	Causitive Arg1:T14 Arg2:T4
+R9	Attr Arg1:T4 Arg2:T5
+R10	PartOf Arg1:T16 Arg2:T15
+R11	PartOf Arg1:T16 Arg2:T7
+R12	Comparison Arg1:T6 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T8
+R5	Purpose Arg1:T8 Arg2:T9

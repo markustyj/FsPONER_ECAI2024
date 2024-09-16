@@ -1,0 +1,28 @@
+T1	Component 2 16	thin film head
+T2	Component 78 106	first non-magnetic seedlayer
+T3	Component 112 121	substrate
+T4	Location 133 147	bottom portion
+T5	Component 153 166	magnetic core
+T6	Component 174 202	first non-magnetic seedlayer
+T7	Component 217 246	second non-magnetic seedlayer
+T8	Location 261 272	top portion
+T9	Component 280 293	magnetic core
+T10	Component 301 330	second non-magnetic seedlayer
+T11	Shape 334 337	gap
+T12	Material 351 372	non-magnetic material
+T13	Location 395 418	top and bottom portions
+T14	Component 426 439	magnetic core
+T15	ScientificConcept 445 454	stability
+T16	Component 462 476	thin film head
+T17	State 488 501	relaxed state
+T18	Attribution 510 526	read performance
+R1	Causitive Arg1:T2 Arg2:T3
+R2	MadeOf Arg1:T11 Arg2:T12
+R3	Spatial Arg1:T11 Arg2:T13
+R4	Attr Arg1:T14 Arg2:T13
+R5	PartOf Arg1:T5 Arg2:T4
+R7	PartOf Arg1:T9 Arg2:T8
+R8	Spatial Arg1:T8 Arg2:T10
+R9	Attr Arg1:T16 Arg2:T15
+R10	Attr Arg1:T16 Arg2:T18
+R6	Spatial Arg1:T4 Arg2:T6

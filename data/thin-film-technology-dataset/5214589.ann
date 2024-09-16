@@ -1,0 +1,31 @@
+T1	Function 9 26	lapping operation
+T5	Function 170 183	magnetization
+T6	EnergyFlow 188 206	saturation current
+T7	Component 214 218	head
+T8	InfoFlow 260 300	amplitude modulated analog output signal
+T11	Component 455 459	head
+T12	Function 478 495	lapping operation
+T3	Component 68 91	thin film magnetic head
+T14	Attribution 40 61	optimum throat height
+T2	Component 96 114	M-H looper circuit
+T4	Component 142 151	head coil
+T15	EnergyFlow 236 255	given drive current
+T10	Attribution 410 432	optimum throat heights
+T13	InfoFlow 529 547	difference signals
+T16	InfoFlow 322 346	resultant digital number
+T9	InfoFlow 362 381	stored data signals
+T17	Function 441 447	design
+T18	Function 564 574	comparison
+R1	Attr Arg1:T3 Arg2:T14
+R2	Causitive Arg1:T2 Arg2:T4
+R3	Purpose Arg1:T2 Arg2:T5
+R4	Purpose Arg1:T2 Arg2:T6
+R5	Attr Arg1:T7 Arg2:T6
+R6	Purpose Arg1:T5 Arg2:T15
+R7	Purpose Arg1:T6 Arg2:T15
+R8	Comparison Arg1:T16 Arg2:T9
+R9	Oper Arg1:T17 Arg2:T11
+R10	Attr Arg1:T9 Arg2:T10
+R11	Purpose Arg1:T10 Arg2:T17
+R12	Generate Arg1:T18 Arg2:T13
+R13	Purpose Arg1:T12 Arg2:T13

@@ -1,0 +1,56 @@
+T2	Attribution 130 142	main surface
+T3	Material 173 194	non-magnetic material
+T4	Shape 209 216	grooves
+T6	Component 271 298	inter-layer insulation film
+T9	Component 382 409	inter-layer insulation film
+T10	Component 418 441	main magnetic pole film
+T11	Component 530 553	main magnetic pole film
+T12	Shape 575 586	return path
+T13	Component 595 609	thin film head
+T14	Attribution 617 643	exposed laminated end face
+T15	Material 671 687	recording medium
+T16	Shape 722 733	return path
+T17	Attribution 749 775	exposed laminated end face
+T19	Component 842 865	main magnetic pole film
+T20	Component 900 923	main magnetic pole film
+T1	Component 2 61	perpendicular magnetic recording/reproducing thin film head
+T24	EnergyFlow 69 85	single pole type
+T25	Component 98 113	magnetic member
+T26	Location 150 165	grooved portion
+T27	Location 224 239	grooved portion
+T5	Component 241 266	thin film conductor coils
+T7	Component 305 328	main magnetic pole film
+T8	Component 351 376	thin film conductor coils
+T28	Component 463 478	magnetic member
+T29	Shape 489 500	return path
+T30	Component 506 521	magnetic member
+T31	Component 696 711	magnetic member
+T18	Attribution 816 826	same width
+T21	Location 932 950	remaining portions
+T22	Location 966 982	parallel portion
+T23	Component 1034 1057	main magnetic pole film
+T32	Others 999 1024	non-parallel relationship
+R1	PartOf Arg1:T24 Arg2:T1
+R2	Form Arg1:T25 Arg2:T24
+R3	PartOf Arg1:T2 Arg2:T26
+R4	PartOf Arg1:T1 Arg2:T2
+R5	PartOf Arg1:T4 Arg2:T27
+R6	Spatial Arg1:T3 Arg2:T4
+R7	PartOf Arg1:T1 Arg2:T3
+R8	PartOf Arg1:T1 Arg2:T5
+R9	PartOf Arg1:T1 Arg2:T6
+R10	PartOf Arg1:T1 Arg2:T7
+R11	Spatial Arg1:T8 Arg2:T28
+R12	Spatial Arg1:T9 Arg2:T28
+R13	Spatial Arg1:T10 Arg2:T28
+R14	Purpose Arg1:T28 Arg2:T29
+R15	Attr Arg1:T13 Arg2:T14
+R16	Spatial Arg1:T14 Arg2:T15
+R17	Spatial Arg1:T30 Arg2:T11
+R18	Manner Arg1:T12 Arg2:T11
+R19	Spatial Arg1:T14 Arg2:T31
+R20	Form Arg1:T31 Arg2:T16
+R21	Spatial Arg1:T16 Arg2:T17
+R22	Spatial Arg1:T19 Arg2:T20
+R23	Spatial Arg1:T21 Arg2:T32
+R24	Spatial Arg1:T22 Arg2:T32

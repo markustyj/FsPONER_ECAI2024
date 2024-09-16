@@ -1,0 +1,36 @@
+T1	Location 3 40	lower magnetic pole front end portion
+T2	Component 58 88	lower magnetic pole main layer
+T3	Location 103 140	upper magnetic pole front end portion
+T4	Component 147 182	upper magnetic pole front end layer
+T5	Attribution 200 212	flat surface
+T6	Attribution 234 254	track width accuracy
+T7	Component 258 272	thin film head
+T8	Attribution 278 284	height
+T9	Location 292 329	lower magnetic pole front end portion
+T10	EnergyFlow 364 388	magnetic field intensity
+T11	Attribution 425 430	width
+T12	Component 455 490	upper magnetic pole front end layer
+T13	Location 510 547	lower magnetic pole front end portion
+T16	Location 623 641	off-track position
+T17	Location 647 663	respective parts
+T18	Component 671 675	head
+T19	Effect 711 750	high recording magnetic field intensity
+T20	Value 761 769	716 kA/m
+T21	Location 392 415	projection step portion
+T14	EnergyFlow 553 595	unnecessary medium in-plane magnetic field
+T15	Value 771 777	9000Oe
+R1	PartOf Arg1:T18 Arg2:T17
+R2	PartOf Arg1:T2 Arg2:T1
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Spatial Arg1:T3 Arg2:T5
+R5	Purpose Arg1:T5 Arg2:T6
+R6	Attr Arg1:T7 Arg2:T6
+R7	Attr Arg1:T9 Arg2:T8
+R8	Purpose Arg1:T9 Arg2:T10
+R9	Attr Arg1:T21 Arg2:T11
+R10	Comparison Arg1:T11 Arg2:T12
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Manner Arg1:T14 Arg2:T16
+R13	Purpose Arg1:T17 Arg2:T19
+R14	Measurement Arg1:T19 Arg2:T20
+R15	Alias Arg1:T20 Arg2:T15

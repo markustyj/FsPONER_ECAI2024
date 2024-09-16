@@ -1,0 +1,52 @@
+T4	Component 196 215	ferromagnetic films
+T5	Component 470 489	ferromagnetic films
+T6	Component 561 573	pinned layer
+T7	Component 591 596	films
+T10	ScientificConcept 757 773	magnetic moments
+T11	Component 893 912	ferromagnetic films
+T12	Component 1088 1094	sensor
+T13	Effect 1106 1130	higher recording density
+T14	Component 2 41	spin valve magnetoresistive (MR) sensor
+T1	Component 49 95	multifilm laminated pinned ferromagnetic layer
+T2	Component 112 150	conventional single-layer pinned layer
+T15	Component 156 178	laminated pinned layer
+T3	Component 232 267	antiferromagnetically coupling film
+T16	Function 272 293	appropriate selection
+T17	Attribution 301 310	thickness
+T18	Component 318 353	antiferromagnetically coupling film
+T19	Material 372 392	material combination
+T20	Component 410 464	ferromagnetic and antiferromagnetically coupling films
+T21	ScientificConcept 497 526	antiferromagnetically coupled
+T22	Material 600 611	nickel-iron
+T23	Material 613 619	Ni--Fe
+T24	Component 636 655	ruthenium (Ru) film
+T8	Attribution 665 674	thickness
+T25	Value 699 707	10 .ANG.
+T26	Component 719 745	pinned ferromagnetic films
+T9	ScientificConcept 821 828	moments
+T28	Component 987 999	dipole field
+T29	Component 1024 1048	free ferromagnetic layer
+T30	Attribution 1069 1080	sensitivity
+T31	System 1151 1189	magnetic recording data storage system
+T32	Attribution 934 948	same thickness
+R1	Causitive Arg1:T14 Arg2:T1
+R2	Purpose Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T15 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T3
+R5	Oper Arg1:T16 Arg2:T17
+R6	Attr Arg1:T18 Arg2:T17
+R7	Purpose Arg1:T19 Arg2:T20
+R8	Causitive Arg1:T5 Arg2:T21
+R9	Form Arg1:T7 Arg2:T6
+R10	MadeOf Arg1:T7 Arg2:T22
+R11	MadeOf Arg1:T7 Arg2:T23
+R12	Alias Arg1:T22 Arg2:T23
+R13	Spatial Arg1:T7 Arg2:T24
+R14	Measurement Arg1:T8 Arg2:T25
+R15	Attr Arg1:T24 Arg2:T8
+R16	Attr Arg1:T26 Arg2:T10
+R17	Attr Arg1:T11 Arg2:T32
+R18	Causitive Arg1:T11 Arg2:T9
+R19	Causitive Arg1:T28 Arg2:T29
+R20	Attr Arg1:T12 Arg2:T30
+R21	Purpose Arg1:T31 Arg2:T13

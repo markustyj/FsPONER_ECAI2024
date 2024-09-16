@@ -1,0 +1,58 @@
+T1	Component 3 26	magnetoresistive sensor
+T3	System 65 85	flux guide structure
+T4	Component 87 120	First and second hard bias layers
+T5	Component 125 136	lead layers
+T6	Location 153 158	sides
+T7	Component 164 176	sensor stack
+T8	Component 182 198	hard bias layers
+T9	Component 203 208	leads
+T10	Attribution 216 229	stripe height
+T11	Attribution 255 268	stripe height
+T12	Component 274 284	free layer
+T13	Component 301 311	free layer
+T14	Attribution 336 345	back edge
+T15	Component 353 377	lead and hard bias layer
+T17	Component 399 409	free layer
+T18	Attribution 434 443	back edge
+T21	Component 489 504	back flux guide
+T22	Component 521 527	sensor
+T23	Component 539 549	free layer
+T24	Attribution 574 584	front edge
+T25	Component 592 617	lead and hard bias layers
+T26	Component 631 647	front flux guide
+T27	Component 653 665	pinned layer
+T28	Attribution 699 708	back edge
+T29	Component 716 726	free layer
+T30	Component 742 754	pinned layer
+T31	Effect 762 803	strong shape enhanced magnetic anisotropy
+T32	Component 36 58	shape enhanced pinning
+T2	Component 451 477	leads and hard bias layers
+R1	PartOf Arg1:T1 Arg2:T32
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T7 Arg2:T6
+R4	Manner Arg1:T7 Arg2:T4
+R5	Manner Arg1:T7 Arg2:T5
+R6	Attr Arg1:T8 Arg2:T10
+R7	Attr Arg1:T9 Arg2:T10
+R8	Attr Arg1:T12 Arg2:T11
+R9	Comparison Arg1:T10 Arg2:T11
+R10	Purpose Arg1:T8 Arg2:T13
+R11	Purpose Arg1:T9 Arg2:T13
+R12	Attr Arg1:T15 Arg2:T14
+R13	Manner Arg1:T15 Arg2:T13
+R14	Attr Arg1:T2 Arg2:T18
+R15	Manner Arg1:T17 Arg2:T2
+R16	Purpose Arg1:T17 Arg2:T21
+R17	PartOf Arg1:T22 Arg2:T23
+R18	Manner Arg1:T23 Arg2:T25
+R19	Attr Arg1:T25 Arg2:T24
+R20	Purpose Arg1:T22 Arg2:T26
+R22	Attr Arg1:T29 Arg2:T28
+R23	Purpose Arg1:T27 Arg2:T30
+R24	Attr Arg1:T30 Arg2:T31
+R21	Spatial Arg1:T27 Arg2:T28
+#1	AnnotatorNotes R13	建议，manner直接指向更具体的实体，即back edge
+#2	AnnotatorNotes R4	manner指向更具体的实体，即side
+#3	AnnotatorNotes R5	同样问题
+#4	AnnotatorNotes R23	这个句子比较特殊，providing所依赖的先行词是主句整个句子，并非pinned layer，所以不需要在两个pinned layer之间加一个purpose关系，因为这两个pinned layer说的是同一个实体
+#5	AnnotatorNotes R18	manner标得有些问题

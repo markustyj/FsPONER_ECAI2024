@@ -1,0 +1,24 @@
+T1	Component 41 84	perpendicular magnetic recording transducer
+T3	Component 244 281	perpendicular magnetic recording pole
+T4	System 287 311	CMP uniformity structure
+T5	Attribution 318 324	height
+T6	Attribution 350 369	desired pole height
+T7	Component 421 430	insulator
+T8	System 438 462	CMP uniformity structure
+T9	Function 480 483	CMP
+T10	Component 511 520	insulator
+T11	Function 526 529	CMP
+T12	Component 555 592	perpendicular magnetic recording pole
+T13	Attribution 611 626	exposed surface
+T14	Component 634 677	perpendicular magnetic recording transducer
+T15	Function 112 119	plating
+T16	System 174 234	chemical mechanical planarization (CMP) uniformity structure
+R1	Oper Arg1:T15 Arg2:T1
+R2	Spatial Arg1:T16 Arg2:T3
+R3	Attr Arg1:T4 Arg2:T5
+R4	Comparison Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Oper Arg1:T9 Arg2:T10
+R7	Causitive Arg1:T11 Arg2:T12
+R8	Attr Arg1:T14 Arg2:T13
+R9	Causitive Arg1:T11 Arg2:T13

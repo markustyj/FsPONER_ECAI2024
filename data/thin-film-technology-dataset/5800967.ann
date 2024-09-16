@@ -1,0 +1,39 @@
+T1	Component 40 81	substantially planar photoimageable layer
+T2	Component 89 111	first thin film member
+T3	Component 126 135	substrate
+T4	Component 141 177	substrate and first thin film member
+T5	Component 197 220	first photoresist layer
+T6	Shape 257 265	asperity
+T7	Component 283 306	first photoresist layer
+T8	Component 317 339	first thin film member
+T9	Component 362 385	first photoresist layer
+T10	Shape 401 409	asperity
+T11	PhysicsFlow 419 437	photoresist fields
+T12	Component 473 495	first thin film member
+T13	Location 511 524	cross section
+T14	Shape 530 538	asperity
+T16	PhysicsFlow 619 637	photoresist fields
+T17	Component 648 672	second photoresist layer
+T18	System 696 715	resultant structure
+T19	Shape 726 734	asperity
+T20	Component 767 791	second photoresist layer
+T21	PhysicsFlow 801 819	photoresist fields
+T22	PhysicsFlow 828 846	photoresist fields
+T23	Component 889 912	second thin film member
+T24	Location 941 958	remaining portion
+T25	Component 966 989	upper photoresist layer
+T26	Component 1044 1060	thin film member
+T27	Attribution 455 465	same plane
+R1	Spatial Arg1:T2 Arg2:T3
+R2	Spatial Arg1:T1 Arg2:T2
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T9 Arg2:T10
+R7	PartOf Arg1:T9 Arg2:T11
+R8	Purpose Arg1:T17 Arg2:T18
+R9	Spatial Arg1:T20 Arg2:T21
+R10	Spatial Arg1:T11 Arg2:T12
+R11	PartOf Arg1:T25 Arg2:T24
+R12	Spatial Arg1:T24 Arg2:T26
+R13	Manner Arg1:T23 Arg2:T24

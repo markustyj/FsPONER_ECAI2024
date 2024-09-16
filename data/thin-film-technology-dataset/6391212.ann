@@ -1,0 +1,61 @@
+T1	Component 3 52	inductive pinched-gap thin film head (TFH) device
+T2	Component 60 69	pole-tips
+T3	Function 83 102	substantial contact
+T4	Attribution 115 125	side-edges
+T5	Location 156 175	pinched-gap segment
+T6	Function 181 200	substantial contact
+T7	Attribution 213 234	pole-tips' side-edges
+T8	Shape 262 272	flux lines
+T9	Attribution 292 297	edges
+T10	Attribution 302 309	corners
+T11	Function 321 336	write operation
+T12	EnergyFlow 342 362	write magnetic field
+T13	Location 404 423	pinched-gap segment
+T14	Attribution 442 468	written medium track width
+T15	Attribution 498 503	width
+T16	Location 511 530	pinched-gap segment
+T17	Effect 536 547	high degree
+T18	EnergyFlow 551 574	magnetization coherency
+T19	Effect 579 598	virtual elimination
+T20	ScientificConcept 606 622	track-edge noise
+T21	Effect 628 667	improved (medium) signal-to-noise ratio
+T22	Effect 680 700	substantial increase
+T23	Attribution 708 721	track density
+T24	Function 722 762	Photolithographic definition and etching
+T25	Shape 770 778	gap-vias
+T26	Component 786 801	bottom pole-tip
+T27	Function 815 825	deposition
+T28	Component 833 845	top pole-tip
+T29	Function 859 889	precise and consistent control
+T30	Attribution 897 902	width
+T31	Location 910 929	pinched-gap segment
+T32	Component 939 952	written track
+T33	Value 971 978	1 .mu.m
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T5
+R3	Manner Arg1:T4 Arg2:T2
+R4	Oper Arg1:T3 Arg2:T2
+R5	Oper Arg1:T6 Arg2:T7
+R8	Causitive Arg1:T6 Arg2:T8
+R10	Attr Arg1:T16 Arg2:T15
+R12	Oper Arg1:T19 Arg2:T20
+R13	Purpose Arg1:T15 Arg2:T14
+R15	Purpose Arg1:T16 Arg2:T17
+R16	Manner Arg1:T22 Arg2:T23
+R17	Purpose Arg1:T21 Arg2:T23
+R18	Measurement Arg1:T33 Arg2:T30
+R19	Oper Arg1:T24 Arg2:T25
+R20	Oper Arg1:T27 Arg2:T28
+R21	Oper Arg1:T29 Arg2:T30
+R22	Attr Arg1:T31 Arg2:T30
+R23	Spatial Arg1:T32 Arg2:T30
+R24	Spatial Arg1:T25 Arg2:T26
+R25	Purpose Arg1:T24 Arg2:T29
+R6	Manner Arg1:T9 Arg2:T8
+R7	Manner Arg1:T10 Arg2:T8
+#1	AnnotatorNotes R6	我直接在上面改了，原来标注的是spatial关系，但句子意思是“从边缘和拐角散发出来的磁通线”，显然描述磁通线辐射的方式
+R9	Manner Arg1:T13 Arg2:T12
+#2	AnnotatorNotes R9	原来标注spatial，我直接改了，原因是这种磁场、光线、水流穿过某物体，实际上是在说传播的方式，和spatial描述的实物和实物的空间关系还是有区别的
+R14	Purpose Arg1:T16 Arg2:T19
+R11	Manner Arg1:T17 Arg2:T18
+#3	AnnotatorNotes R23	宽度和写轨道之间的关系应该是attr，类似width of the pinched-gap segment

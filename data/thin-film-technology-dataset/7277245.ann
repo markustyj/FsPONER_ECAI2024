@@ -1,0 +1,72 @@
+T1	EnergyFlow 3 23	write driver circuit
+T2	Material 30 53	magnetic storage medium
+T3	Component 79 89	write head
+T5	EnergyFlow 132 152	first driver circuit
+T6	Function 161 166	input
+T7	Function 174 180	output
+T8	Shape 208 218	first node
+T9	Component 226 236	write head
+T13	EnergyFlow 345 363	additional current
+T16	Others 416 439	first transition period
+T17	EnergyFlow 448 455	current
+T18	Component 476 486	write head
+T19	Location 492 507	first direction
+T20	EnergyFlow 512 519	current
+T21	Component 540 550	write head
+T22	Location 556 572	second direction
+T23	EnergyFlow 576 597	second driver circuit
+T24	Function 606 611	input
+T25	Function 619 625	output
+T26	Shape 648 659	second node
+T27	Component 667 677	write head
+T30	EnergyFlow 748 774	said second driver circuit
+T31	EnergyFlow 788 806	additional current
+T32	Function 810 820	said input
+T33	EnergyFlow 824 850	said second driver circuit
+T34	Others 860 884	second transition period
+T35	EnergyFlow 893 900	current
+T36	Component 921 931	write head
+T37	Location 935 956	said second direction
+T38	EnergyFlow 961 968	current
+T39	Component 989 999	write head
+T40	Location 1003 1023	said first direction
+T4	Shape 97 119	first and second nodes
+T10	Component 240 257	first charge pump
+T41	Function 276 286	said input
+T11	Function 291 302	said output
+T12	EnergyFlow 306 331	said first driver circuit
+T14	Function 367 377	said input
+T15	EnergyFlow 381 406	said first driver circuit
+T28	Component 681 699	second charge pump
+T42	Function 718 728	said input
+T29	Function 733 744	said output
+R1	PartOf Arg1:T1 Arg2:T5
+R2	Purpose Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T27 Arg2:T26
+R5	PartOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T5 Arg2:T7
+R7	Causitive Arg1:T1 Arg2:T3
+R8	Causitive Arg1:T5 Arg2:T8
+R9	PartOf Arg1:T9 Arg2:T8
+R10	PartOf Arg1:T12 Arg2:T11
+R11	PartOf Arg1:T15 Arg2:T14
+R12	Causitive Arg1:T10 Arg2:T13
+R13	Causitive Arg1:T13 Arg2:T14
+R14	Manner Arg1:T19 Arg2:T17
+R15	Manner Arg1:T22 Arg2:T20
+R16	PartOf Arg1:T23 Arg2:T24
+R17	PartOf Arg1:T23 Arg2:T25
+R18	Causitive Arg1:T23 Arg2:T26
+R19	Causitive Arg1:T10 Arg2:T41
+R20	Causitive Arg1:T10 Arg2:T11
+R21	Causitive Arg1:T28 Arg2:T42
+R22	Causitive Arg1:T28 Arg2:T29
+R23	PartOf Arg1:T30 Arg2:T29
+R24	Causitive Arg1:T28 Arg2:T31
+R25	Causitive Arg1:T32 Arg2:T31
+R26	PartOf Arg1:T33 Arg2:T32
+R28	Causitive Arg1:T38 Arg2:T39
+R29	Manner Arg1:T40 Arg2:T39
+R27	Causitive Arg1:T35 Arg2:T36
+R30	Manner Arg1:T37 Arg2:T36

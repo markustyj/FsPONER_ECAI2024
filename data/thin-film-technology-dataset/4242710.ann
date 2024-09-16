@@ -1,0 +1,14 @@
+T1	Component 2 26	thin film inductive head
+T2	Material 42 66	nickel-iron binary alloy
+T3	Component 70 109	nickel-iron-X ternary alloy pole pieces
+T4	ScientificConcept 127 152	negative magnetostriction
+T5	EnergyFlow 162 201	saturation magnetostriction coefficient
+T6	Value 218 258	-1.times.10.sup.--6 to -5.times.10.sup.--6
+T7	Value 209 214	range
+T8	Value 218 258	-1.times.10.sup.-6 to -5.times.10.sup.-6
+R1	Form Arg1:T2 Arg2:T1
+R2	Form Arg1:T3 Arg2:T1
+R3	Measurement Arg1:T7 Arg2:T8
+R4	Attr Arg1:T5 Arg2:T7
+R5	Attr Arg1:T4 Arg2:T5
+R6	Attr Arg1:T1 Arg2:T4

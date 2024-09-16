@@ -1,0 +1,39 @@
+T1	Component 2 33	magnetoresistive (MR) read head
+T3	Component 76 85	gap layer
+T4	Component 94 103	MR sensor
+T5	Location 115 118	top
+T6	Component 126 141	lower gap layer
+T7	Component 147 156	MR sensor
+T8	Component 168 178	free layer
+T9	Component 185 197	pinned layer
+T10	Location 210 213	top
+T11	Component 221 236	lower gap layer
+T12	Component 242 269	three-layer hard bias layer
+T13	Component 290 300	free layer
+T14	Component 308 317	MR sensor
+T15	Component 329 340	lead layers
+T16	Location 355 358	top
+T17	Component 366 381	hard bias layer
+T18	Component 401 410	MR sensor
+T19	Shape 439 448	upper gap
+T20	Component 453 465	shield layer
+T21	Location 477 480	top
+T22	Component 488 499	lead layers
+T2	Component 59 71	lower shield
+R1	PartOf Arg1:T7 Arg2:T8
+R2	PartOf Arg1:T7 Arg2:T9
+R3	PartOf Arg1:T1 Arg2:T2
+R4	PartOf Arg1:T1 Arg2:T3
+R5	Attr Arg1:T6 Arg2:T5
+R6	Spatial Arg1:T4 Arg2:T5
+R7	PartOf Arg1:T3 Arg2:T4
+R8	Attr Arg1:T11 Arg2:T10
+R9	Spatial Arg1:T12 Arg2:T10
+R10	PartOf Arg1:T14 Arg2:T13
+R11	Purpose Arg1:T12 Arg2:T13
+R12	Spatial Arg1:T15 Arg2:T16
+R13	Attr Arg1:T17 Arg2:T16
+R14	Causitive Arg1:T15 Arg2:T18
+R15	Attr Arg1:T22 Arg2:T21
+R16	Spatial Arg1:T20 Arg2:T21
+R17	Spatial Arg1:T19 Arg2:T21

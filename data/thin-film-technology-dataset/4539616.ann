@@ -1,0 +1,39 @@
+T1	Component 22 45	thin film magnetic head
+T2	Component 77 92	conductor layer
+T3	Component 107 136	non-magnetic insulating layer
+T4	Component 151 165	magnetic poles
+T5	Component 188 192	coil
+T6	Component 196 208	plural turns
+T7	Attribution 215 221	height
+T8	Attribution 243 248	width
+T9	Shape 253 256	gap
+T10	Component 295 299	head
+T11	Component 331 360	non-magnetic insulating layer
+T12	Component 386 402	insulating layer
+T13	Component 414 424	mask layer
+T14	Component 447 451	mask
+T15	Material 478 483	metal
+T16	Component 500 515	conductor layer
+T17	Component 542 552	mask layer
+T18	Component 571 576	metal
+T19	Component 611 618	coating
+T20	Component 624 653	non-magnetic insulating layer
+T21	Component 685 700	conductor layer
+T22	Component 706 710	head
+T23	Effect 735 753	magnetic recording
+T24	Effect 758 785	reproducing characteristics
+R1	Attr Arg1:T22 Arg2:T24
+R2	Attr Arg1:T22 Arg2:T23
+R4	Spatial Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T5
+R3	PartOf Arg1:T3 Arg2:T2
+R6	Comparison Arg1:T7 Arg2:T8
+R7	Comparison Arg1:T7 Arg2:T9
+R8	Attr Arg1:T2 Arg2:T7
+R9	Form Arg1:T2 Arg2:T5
+R10	Causitive Arg1:T13 Arg2:T12
+R11	Form Arg1:T13 Arg2:T14
+R12	Purpose Arg1:T15 Arg2:T16
+R13	PartOf Arg1:T20 Arg2:T19
+R14	Spatial Arg1:T17 Arg2:T18
+R15	Form Arg1:T10 Arg2:T21

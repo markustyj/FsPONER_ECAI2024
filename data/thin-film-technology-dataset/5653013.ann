@@ -1,0 +1,70 @@
+T3	Component 99 115	first lead layer
+T5	Component 226 242	first lead layer
+T6	Location 266 280	bottom portion
+T8	Location 362 373	top portion
+T14	Component 630 639	MR stripe
+T15	Location 652 675	top and bottom portions
+T16	Component 683 692	MR stripe
+T18	Component 740 749	MR stripe
+T19	EnergyFlow 757 770	sense current
+T20	Component 796 805	MR stripe
+T22	EnergyFlow 905 918	sense current
+T24	Location 1026 1040	bottom portion
+T25	Component 1048 1057	MR stripe
+T1	Component 21 49	thin film orthogonal MR head
+T2	Component 79 95	single MR stripe
+T4	Component 154 171	second lead layer
+T29	Component 288 297	MR stripe
+T7	Component 323 340	second lead layer
+T30	Component 381 390	MR stripe
+T9	Component 455 466	first layer
+T10	Component 531 548	second lead layer
+T11	Component 593 610	second lead layer
+T12	EnergyFlow 711 730	magnetic bias field
+T13	Component 1068 1095	well formed second pole tip
+T17	Location 1101 1119	write head portion
+T21	Location 126 147	first and second ends
+T23	Location 182 203	first and second ends
+T26	Location 209 218	first end
+T27	Location 306 315	first end
+T28	Location 392 418	First and second terminals
+T31	Location 437 447	second end
+T32	Location 490 504	first terminal
+T33	Location 513 523	second end
+T34	Location 572 587	second terminal
+T35	Location 814 840	first and second terminals
+T36	Location 851 877	first and second terminals
+T37	Component 927 936	MR stripe
+T38	Component 967 976	MR stripe
+T39	Component 982 992	first lead
+T40	Function 941 959	transverse biasing
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T21
+R4	PartOf Arg1:T1 Arg2:T4
+R5	PartOf Arg1:T4 Arg2:T23
+R6	PartOf Arg1:T5 Arg2:T26
+R7	Spatial Arg1:T26 Arg2:T6
+R8	PartOf Arg1:T29 Arg2:T6
+R9	PartOf Arg1:T7 Arg2:T27
+R10	Spatial Arg1:T27 Arg2:T8
+R11	PartOf Arg1:T30 Arg2:T8
+R12	PartOf Arg1:T9 Arg2:T31
+R13	Spatial Arg1:T31 Arg2:T32
+R14	PartOf Arg1:T10 Arg2:T33
+R15	Spatial Arg1:T33 Arg2:T34
+R16	Spatial Arg1:T11 Arg2:T14
+R17	PartOf Arg1:T16 Arg2:T15
+R18	Spatial Arg1:T14 Arg2:T15
+R19	Causitive Arg1:T11 Arg2:T12
+R20	Causitive Arg1:T12 Arg2:T18
+R21	Causitive Arg1:T19 Arg2:T20
+R22	Manner Arg1:T35 Arg2:T19
+R23	Causitive Arg1:T36 Arg2:T22
+R24	Causitive Arg1:T22 Arg2:T37
+R25	Oper Arg1:T40 Arg2:T38
+R26	Purpose Arg1:T36 Arg2:T40
+R27	PartOf Arg1:T25 Arg2:T24
+R28	Spatial Arg1:T39 Arg2:T24
+R29	PartOf Arg1:T17 Arg2:T13
+#1	AnnotatorNotes R23	感觉是符合A do B for C

@@ -1,0 +1,63 @@
+T1	Component 2 25	thin-film magnetic head
+T3	Component 64 86	non-magnetic substrate
+T4	Material 93 109	recording medium
+T5	Component 161 191	ring-head-like conduction body
+T6	Component 203 214	magnet legs
+T7	Component 229 234	poles
+T8	Material 246 262	recording medium
+T9	Location 301 310	direction
+T10	Function 314 320	motion
+T11	Component 328 332	head
+T12	ScientificConcept 347 369	predetermined distance
+T13	Component 411 428	flat coil winding
+T14	Shape 466 471	space
+T15	Component 491 502	magnet legs
+T16	Component 514 527	magnetic head
+T17	Component 606 619	magnetic head
+T18	Effect 632 655	write and read function
+T20	Component 690 705	conduction body
+T21	EnergyFlow 719 732	magnetic flux
+T22	Component 756 780	ring-head-like head part
+T23	Component 799 810	magnet legs
+T24	Component 814 822	leg part
+T25	Component 844 853	head part
+T26	Component 884 896	coil winding
+T27	Effect 918 931	read function
+T29	Component 965 982	flat coil winding
+T30	Effect 1003 1017	write function
+T31	Component 1024 1031	winding
+T32	Component 1097 1114	read coil winding
+T33	Component 1127 1138	magnet legs
+T34	Component 1146 1170	ring-head-like head part
+T35	Component 1179 1196	extended leg part
+T37	Component 1263 1276	coil windings
+T38	Function 39 58	stratified build-up
+T2	Component 434 439	turns
+T39	EnergyFlow 558 588	sufficiently high read voltage
+T19	ScientificConcept 1204 1238	corresponding geometric dimensions
+R1	PartOf Arg1:T5 Arg2:T6
+R2	PartOf Arg1:T6 Arg2:T7
+R3	Manner Arg1:T14 Arg2:T2
+R4	Oper Arg1:T38 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T38
+R6	MadeOf Arg1:T4 Arg2:T3
+R7	Oper Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T5 Arg2:T12
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Spatial Arg1:T7 Arg2:T8
+R11	Manner Arg1:T9 Arg2:T7
+R12	PartOf Arg1:T5 Arg2:T13
+R13	PartOf Arg1:T13 Arg2:T2
+R14	Generate Arg1:T16 Arg2:T39
+R15	Attr Arg1:T17 Arg2:T18
+R16	Form Arg1:T23 Arg2:T22
+R17	Spatial Arg1:T24 Arg2:T25
+R18	Generate Arg1:T20 Arg2:T21
+R19	PartOf Arg1:T23 Arg2:T24
+R20	Purpose Arg1:T26 Arg2:T27
+R21	Purpose Arg1:T29 Arg2:T30
+R22	PartOf Arg1:T34 Arg2:T33
+R23	Spatial Arg1:T31 Arg2:T32
+R24	Attr Arg1:T35 Arg2:T19
+R25	Manner Arg1:T37 Arg2:T35
+R26	Manner Arg1:T37 Arg2:T33

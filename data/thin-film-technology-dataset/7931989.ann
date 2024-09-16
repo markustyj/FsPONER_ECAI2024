@@ -1,0 +1,64 @@
+T1	Component 35 54	thin-film batteries
+T6	Material 284 300	cathode material
+T7	Component 334 350	hard electrolyte
+T8	Location 354 364	both sides
+T9	Component 370 392	foil-core anode sheets
+T10	Material 403 417	anode material
+T12	Material 453 469	hard electrolyte
+T13	Location 473 483	both sides
+T16	Component 603 636	hard glass-like electrolyte layer
+T17	Component 647 697	smooth hard positive-electrode lithium-metal layer
+T18	Component 781 792	hard layers
+T21	EnergyFlow 925 940	other electrode
+T22	Component 956 978	soft electrolyte layer
+T24	Shape 1009 1012	gap
+T25	Component 1021 1044	hard electrolyte layers
+T26	Material 62 98	composite multi-layered electrolytes
+T2	Material 104 120	soft electrolyte
+T3	Material 129 145	hard electrolyte
+T4	EnergyFlow 159 193	negative and/or positive electrode
+T5	Component 203 222	resulting batteries
+T27	Material 308 319	LiCoO.sub.2
+T14	Material 507 543	soft (e.g., polymer gel) electrolyte
+T28	Component 245 269	foil-core cathode sheets
+T11	Material 425 438	lithium metal
+T15	EnergyFlow 563 582	alternating cathode
+T29	Component 587 599	anode sheets
+T30	Consequence 738 770	randomly spaced pinholes/defects
+T19	EnergyFlow 816 848	positive and negative electrodes
+T20	EnergyFlow 854 863	electrode
+T31	Consequence 866 896	dendrite-short-causing defects
+T32	Consequence 943 950	defects
+T33	Material 993 997	ions
+T23	Shape 1055 1063	pinholes
+R1	Purpose Arg1:T22 Arg2:T23
+R2	Spatial Arg1:T24 Arg2:T25
+R3	Purpose Arg1:T22 Arg2:T33
+R4	Manner Arg1:T24 Arg2:T33
+R5	PartOf Arg1:T20 Arg2:T31
+R6	PartOf Arg1:T21 Arg2:T32
+R7	Spatial Arg1:T20 Arg2:T21
+R8	Spatial Arg1:T18 Arg2:T19
+R9	Purpose Arg1:T16 Arg2:T30
+R10	PartOf Arg1:T16 Arg2:T17
+R11	MadeOf Arg1:T26 Arg2:T2
+R12	PartOf Arg1:T1 Arg2:T26
+R13	Purpose Arg1:T26 Arg2:T4
+R14	Spatial Arg1:T26 Arg2:T3
+R15	PartOf Arg1:T1 Arg2:T5
+R16	Spatial Arg1:T15 Arg2:T29
+R17	Manner Arg1:T8 Arg2:T7
+R18	Manner Arg1:T13 Arg2:T12
+R19	PartOf Arg1:T28 Arg2:T6
+R20	PartOf Arg1:T6 Arg2:T27
+R21	PartOf Arg1:T9 Arg2:T10
+R22	PartOf Arg1:T10 Arg2:T11
+R23	Spatial Arg1:T6 Arg2:T7
+R24	Spatial Arg1:T10 Arg2:T12
+R25	Causitive Arg1:T28 Arg2:T14
+R26	Causitive Arg1:T9 Arg2:T14
+#1	AnnotatorNotes T1	这个句子的标引问题还比较多
+#2	AnnotatorNotes R20	isA的关系
+#3	AnnotatorNotes R22	isA
+#4	AnnotatorNotes T14	electrolyte像三明治一样被夹在alternating cathode 和 anode sheets之间，那么应该是三者之间都有spatial关系
+#5	AnnotatorNotes R5	一般主体的后果、效果，用purpose标注

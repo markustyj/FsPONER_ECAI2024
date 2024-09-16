@@ -1,0 +1,52 @@
+T1	Component 49 58	pole tips
+T2	Component 64 87	thin film magnetic head
+T3	Component 93 117	separate metallic layers
+T4	Material 127 138	Permalloy (
+T5	Material 138 149	Ni-Fe alloy
+T6	Material 179 198	insulating material
+T7	Material 207 222	silicon dioxide
+T8	Material 226 241	AL.sub.2 O.sub.
+T9	Component 267 284	insulative spacer
+T10	Component 292 311	final magnetic head
+T11	PhysicsFlow 315 327	photo-resist
+T12	Attribution 346 353	surface
+T13	Component 361 379	top metallic layer
+T14	System 386 409	imagewise configuration
+T15	Shape 427 432	shape
+T16	Component 440 448	top pole
+T17	Component 454 462	top pole
+T18	PhysicsFlow 486 498	photo-resist
+T19	EnergyFlow 512 525	top electrode
+T20	Material 554 570	protective metal
+T21	Component 588 592	mask
+T22	Function 604 620	chemical etching
+T23	Component 628 644	insulative layer
+T24	EnergyFlow 650 666	bottom electrode
+T25	Component 684 693	etch stop
+T26	System 700 718	integral structure
+T27	Component 737 741	mask
+T28	Function 753 769	chemical etching
+T29	EnergyFlow 777 793	bottom electrode
+T30	Component 808 817	pole tips
+T31	Component 170 175	layer
+R1	PartOf Arg1:T2 Arg2:T1
+R2	MadeOf Arg1:T31 Arg2:T6
+R3	InstanceOf Arg1:T4 Arg2:T3
+R4	InstanceOf Arg1:T5 Arg2:T3
+R5	Spatial Arg1:T31 Arg2:T5
+R6	Spatial Arg1:T31 Arg2:T4
+R7	InstanceOf Arg1:T7 Arg2:T6
+R8	InstanceOf Arg1:T8 Arg2:T6
+R9	PartOf Arg1:T10 Arg2:T9
+R10	Form Arg1:T3 Arg2:T9
+R11	Attr Arg1:T13 Arg2:T12
+R12	Attr Arg1:T16 Arg2:T15
+R13	Causitive Arg1:T12 Arg2:T11
+R14	Purpose Arg1:T11 Arg2:T15
+R15	Oper Arg1:T22 Arg2:T23
+R16	Form Arg1:T19 Arg2:T21
+R17	Form Arg1:T24 Arg2:T25
+R18	Causitive Arg1:T20 Arg2:T19
+R19	Oper Arg1:T28 Arg2:T29
+R20	Form Arg1:T26 Arg2:T27
+R21	Purpose Arg1:T27 Arg2:T30

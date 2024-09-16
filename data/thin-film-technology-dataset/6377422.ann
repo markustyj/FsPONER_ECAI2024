@@ -1,0 +1,26 @@
+T1	Component 3 21	improved disc head
+T2	Effect 26 51	increased wear protection
+T3	Component 57 66	disc head
+T4	Component 76 88	wear members
+T5	Component 125 144	transducer elements
+T6	Component 150 164	thin film head
+T7	Component 170 182	wear members
+T8	Attribution 230 243	lower surface
+T9	Attribution 251 255	head
+T11	Material 300 324	relatively hard material
+T13	Component 363 367	head
+T14	Component 386 405	transducer elements
+T10	Component 267 271	disc
+T15	Attribution 272 279	surface
+T12	Effect 329 355	increasing wear resistance
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T6 Arg2:T5
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Attr Arg1:T10 Arg2:T15
+R6	Spatial Arg1:T8 Arg2:T15
+R7	Attr Arg1:T9 Arg2:T8
+R8	Manner Arg1:T8 Arg2:T7
+R9	MadeOf Arg1:T7 Arg2:T11
+R10	Purpose Arg1:T11 Arg2:T12
+R11	Spatial Arg1:T11 Arg2:T14

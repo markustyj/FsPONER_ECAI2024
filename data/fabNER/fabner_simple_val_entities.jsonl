@@ -1,0 +1,11880 @@
+Properties: CONPRI
+microstructure: CONPRI
+mechanical properties: CONPRI
+hardness: PRO
+fatigue: PRO
+bending: MANP
+fatigue damage: PRO
+fatigue: PRO
+process: CONPRI
+scanning electron microscopy: CHAR
+
+surface: CONPRI
+additive: MATE
+welded: MANP
+quality: CONPRI
+be: MATE
+
+fatigue: PRO
+endurance limit: PRO
+surface defects: CONPRI
+welding: MANP
+imperfections: CONPRI
+AlSi5: MATE
+wire and arc additive manufacturing: MANP
+cold metal transfer: MANP
+
+Ti alloy: MATE
+Al alloy: MATE
+Ti: MATE
+layer: PARA
+
+Ti alloy: MATE
+melted: CONPRI
+layer: PARA
+Al alloy: MATE
+heat: CONPRI
+
+component: MACEQ
+dissimilar alloys: MATE
+be: MATE
+
+interface: CONPRI
+Ti: MATE
+Al alloys: MATE
+layer: PARA
+layer: PARA
+
+layer: PARA
+Ti7Al5Si12: MATE
+layer: PARA
+Ti: MATE
+
+Element: MATE
+layer: PARA
+
+hardness: PRO
+interface: CONPRI
+Al: MATE
+Ti alloys: MATE
+
+average: CONPRI
+strength: PRO
+component: MACEQ
+MPa: CONPRI
+
+fracture: CONPRI
+interface: CONPRI
+
+finite element model: CONPRI
+heat propagation: CONPRI
+thin-walled component: APPL
+fabricated: CONPRI
+gas metal arc welding: MANP
+additive manufacturing: MANP
+
+heat evolution: CONPRI
+thermal cycle: PARA
+feature: FEAT
+temperature gradient: PARA
+molten pool: CONPRI
+deposited layers: CHAR
+
+temperature: PARA
+simulations: ENAT
+thermocouples: MACEQ
+
+As: MATE
+deposition process: MANP
+substrate: MATE
+molten pool: CONPRI
+
+temperature gradient: PARA
+molten pool: CONPRI
+deposition: CONPRI
+
+heat dissipation: CONPRI
+molten pool: CONPRI
+layer: PARA
+deposition direction: PARA
+layer: PARA
+
+deposition: CONPRI
+heat conduction: CONPRI
+heat dissipation: CONPRI
+orientation: CONPRI
+heat dissipation: CONPRI
+
+arc-welding-based additive manufacturing: MANP
+
+additive: MATE
+subtractive manufacturing: MANP
+methodology: CONPRI
+
+Deposition paths: PARA
+welding: MANP
+parameters: CONPRI
+
+interface: CONPRI
+CAD models: ENAT
+as: MATE
+
+Arc welding: MANP
+additive manufacturing: MANP
+metal: MATE
+components: MACEQ
+capital cost: CONPRI
+build envelope: PARA
+deposition rates: PARA
+
+arc welding: MANP
+be: MATE
+additive manufacturing system: MACEQ
+
+step: CONPRI
+arc-welding-based additive manufacturing: MANP
+automation: CONPRI
+CAD-to-part: CONPRI
+
+gas metal arc welding: MANP
+additively manufacture: MANP
+components: MACEQ
+
+bead modelling: CONPRI
+slicing: CONPRI
+deposition path planning: CONPRI
+weld: FEAT
+post-process machining: MANP
+
+bead modelling: CONPRI
+database: ENAT
+process control: CONPRI
+path planning: ENAT
+
+thin-walled aluminium structure: MACEQ
+fabricated: CONPRI
+CAD model: ENAT
+as: MATE
+
+arc-welding-based additive manufacturing: MANP
+industrial: APPL
+
+Laser additive manufacturing: MANP
+alloy: MATE
+mm: MANP
+penetration joint: CONPRI
+EBW: MANP
+
+fusion zone: CONPRI
+microhardness: CONPRI
+base metal: MATE
+heat affected zone: CONPRI
+
+tensile: PRO
+samples: CONPRI
+base metal: MATE
+
+L-joint: FEAT
+strength: PRO
+ductility: PRO
+T-joint: FEAT
+
+fabrication: MANP
+laser additive manufacturing: MANP
+LAM: MANP
+electron beam welding: MANP
+EBW: MANP
+manufacturing: MANP
+components: MACEQ
+reduction: CONPRI
+internal stress: PRO
+
+microstructure: CONPRI
+mechanical property: CONPRI
+EBW: MANP
+component: MACEQ
+Ti–6.5Al–3.5Mo–1.5Zr–0.3Si: MATE
+welded: MANP
+defects: CONPRI
+
+microstructure: CONPRI
+base metal: MATE
+BM: MATE
+basket-weave morphology: CONPRI
+lamellar: CONPRI
+
+heat affected zone: CONPRI
+HAZ: CONPRI
+lamellar: CONPRI
+precipitates: MATE
+
+solidification rate: PARA
+fusion zone: CONPRI
+FZ: CONPRI
+microhardness: CONPRI
+
+tensile: PRO
+samples: CONPRI
+BM: MATE
+fracture: CONPRI
+fracture: CONPRI
+
+T-joint: FEAT
+L-joint: FEAT
+ultimate tensile strength: PRO
+yield strength: PRO
+elongation: PRO
+reduction of area: CHAR
+morphology: CONPRI
+columnar grains: PRO
+texture: FEAT
+deposition direction: PARA
+
+Laser-based Manufacturing: MANP
+configuration: CONPRI
+process parameters: CONPRI
+quality: CONPRI
+boundaries: FEAT
+
+prediction: CONPRI
+performance: CONPRI
+adaptive control: CONPRI
+process modeling: CONPRI
+
+Laser-based Manufacturing: MANP
+adaptive control: CONPRI
+empirical: CONPRI
+design: FEAT
+Laser welding: MANP
+Laser-based Additive Manufacturing: MANP
+
+penetration depth: PARA
+as: MATE
+quality: CONPRI
+adaptive control: CONPRI
+processes: CONPRI
+
+solidification phase: CONPRI
+
+oxygen: MATE
+weld zone: CONPRI
+microstructures: MATE
+base metal: MATE
+annealing: MANP
+
+plasticity: PRO
+strength: PRO
+base metal: MATE
+
+Columnar grain boundary: CONPRI
+weld zone: CONPRI
+microcracks: CONPRI
+
+Gas tungsten arc welding: MANP
+laser: ENAT
+additive manufactured: MANP
+alloy: MATE
+annealing treatment: MANP
+
+tensile properties: PRO
+heat: CONPRI
+weld zone: CONPRI
+designed: FEAT
+weld zone: CONPRI
+tensile properties: PRO
+alloy: MATE
+
+Microstructures: MATE
+microhardness: CONPRI
+tensile tests: CHAR
+mechanical properties: CONPRI
+fracture: CONPRI
+
+oxygen: MATE
+weld zone: CONPRI
+phase nucleation sites: CONPRI
+lead: MATE
+morphologies: CONPRI
+base metal: MATE
+weld zone: CONPRI
+
+lead: MATE
+microstructures: MATE
+annealing treatment: MANP
+volume fractions: PARA
+
+plasticity: PRO
+tensile specimens: MACEQ
+columnar grain boundary: CONPRI
+weld zone: CONPRI
+be: MATE
+nucleation: CONPRI
+microcracks: CONPRI
+in situ: CONPRI
+
+WZ: CONPRI
+cross section: CONPRI
+tensile specimens: MACEQ
+plasticity: PRO
+alloy: MATE
+
+Ultrasonic additive manufacturing: MANP
+UAM: MANP
+solid-state: CONPRI
+additive manufacturing: MANP
+ultrasonic welding: MANP
+fabricate: MANP
+
+fabricated: CONPRI
+UAM: MANP
+reduction: CONPRI
+strength: PRO
+welding interfaces: FEAT
+Z-direction: FEAT
+
+post-weld heat treatments: MANP
+PWHT: CONPRI
+Al-6061: MATE
+fabricated: CONPRI
+UAM: MANP
+process: CONPRI
+mechanical strength: PRO
+UAM: MANP
+builds: CHAR
+
+Tensile testing: CHAR
+digital image correlation: CONPRI
+DIC: CONPRI
+metallography: CONPRI
+multi-scale structure characterization: CHAR
+SEM-EBSD: ENAT
+mechanical: APPL
+UAM: MANP
+builds: CHAR
+
+PWHTs: MANP
+Z-strength: PRO
+MPa: CONPRI
+
+strength: PRO
+material aging: CONPRI
+grain growth: CONPRI
+bond interface: CONPRI
+
+Ultrasonic additive manufacturing: MANP
+UAM: MANP
+solid-state: CONPRI
+additive manufacturing process: MANP
+ultrasonic welding: MANP
+fabricate: MANP
+three-dimensional: CONPRI
+3-D: CONPRI
+components: MACEQ
+
+technology: CONPRI
+tensile strength: PRO
+z-axis: CONPRI
+
+z-axis properties: CONPRI
+post-processing treatments: MANP
+
+stability: PRO
+grains: CONPRI
+interface: CONPRI
+post-weld heat treatments: MANP
+
+stability: PRO
+grains: CONPRI
+post-weld heat treatments: MANP
+
+Aluminum alloy: MATE
+builds: CHAR
+fabricated: CONPRI
+ultrasonic additive manufacturing: MANP
+post-weld heat treated: MANP
+
+grains: CONPRI
+post-weld heat treatments: MANP
+temperatures: PARA
+
+no entity in this sentence 
+
+rapid grain growth: CONPRI
+
+Transmission electron microscopy: CHAR
+atom-probe tomography: CHAR
+oxygen: MATE
+magnesium: MATE
+
+nano-dispersed oxides: MATE
+grain growth: CONPRI
+grain boundary: CONPRI
+grain boundary: CONPRI
+magnesium: MATE
+oxygen: MATE
+grain boundary energy: CONPRI
+
+Additive manufacturing: MANP
+be: MATE
+prototypes: CONPRI
+mechanical parts: MACEQ
+be: MATE
+as: MATE
+cladding: MANP
+electron beam: CONPRI
+
+research: CONPRI
+additive manufacturing system: MACEQ
+metal: MATE
+
+surface finishing: MANP
+
+additive manufacturing system: MACEQ
+Fronius TPS 4000 CMT R: MACEQ
+machine: MACEQ
+CNC milling: MANP
+
+material: MATE
+layer: PARA
+
+simple: MANP
+geometries: CONPRI
+as: MATE
+cylindrical: CONPRI
+manufactured: CONPRI
+
+overhang features: FEAT
+supports: APPL
+slicing: CONPRI
+weld-deposition: CONPRI
+
+kinematics: CONPRI
+work piece: MACEQ
+fabricating: MANP
+fully dense: PARA
+metallic parts: MACEQ
+
+modelling: ENAT
+weld-bead: FEAT
+layer thickness: PARA
+layer: PARA
+bead-on-bead deposition: CONPRI
+
+MATLAB code: CONPRI
+slice: CONPRI
+CAD model: ENAT
+tool path: CONPRI
+deposition: CONPRI
+layer: PARA
+
+Fabrication: MANP
+thin-walled parts: FEAT
+GMAW: MANP
+weld-deposition: CONPRI
+
+Gas Metal Arc Welding: MANP
+GMAW: MANP
+weld-deposition process: CONPRI
+Additive Manufacturing: MANP
+AM: MANP
+processes: CONPRI
+fully dense: PARA
+metallic: MATE
+
+high deposition rates: PARA
+material: MATE
+power efficiency: PARA
+metallic AM: MANP
+
+geometrical features: FEAT
+be: MATE
+weld-deposition based AM: MANP
+
+deposition: CONPRI
+as: MATE
+process: CONPRI
+bead-over-bead: CONPRI
+
+geometric modelling: CONPRI
+metallic structures: MACEQ
+undercut: FEAT
+
+degrees of freedom: CONPRI
+kinematics: CONPRI
+work piece: MACEQ
+deposition: CONPRI
+overhanging feature: FEAT
+deposition direction: PARA
+
+MATLAB code: CONPRI
+slice: CONPRI
+CAD model: ENAT
+tool path: CONPRI
+deposition: CONPRI
+layer: PARA
+thin-walled model: MACEQ
+
+geometrical model: CONPRI
+layer thickness: PARA
+layer: PARA
+bead-on-bead deposition: CONPRI
+experimental data: CONPRI
+
+thin-walled components: APPL
+fabricated: CONPRI
+model: CONPRI
+
+Additive layer manufacturing: MANP
+ALM: MANP
+gas tungsten arc welding: MANP
+GTAW: MANP
+as: MATE
+source: APPL
+technology: CONPRI
+Inconel 625: MATE
+components: MACEQ
+high deposition rate: PARA
+
+microstructure: CONPRI
+mechanical properties: CONPRI
+manufactured: CONPRI
+component: MACEQ
+
+manufactured: CONPRI
+Inconel 625: MATE
+cellular grains: CONPRI
+secondary dendrites: MATE
+columnar dendrites: MATE
+layer: PARA
+transition: CONPRI
+directional dendrites: MATE
+equiaxed grain: CONPRI
+
+segregation: CONPRI
+alloying elements: MATE
+Mo: MATE
+evolution: CONPRI
+
+dendrite: BIOP
+Laves phase: CONPRI
+
+microhardness: CONPRI
+tensile strength: PRO
+variation: CONPRI
+
+microhardness: CONPRI
+tensile strength: PRO
+layer: PARA
+
+weld pool: CONPRI
+temperature: PARA
+measurement: CHAR
+
+seam welding: MANP
+temperature: PARA
+melting materials: CONPRI
+AISI 304: MATE
+C-Mn steels: MATE
+Ni-based alloys: MATE
+Cu: MATE
+Ni: MATE
+Ti6Al4V: MATE
+temperature: PARA
+melting material: CONPRI
+AA6061: MATE
+
+seam welding: MANP
+metallic sheets: MATE
+
+rod: MACEQ
+Mo: MATE
+AISI 304: MATE
+sheet: MATE
+metallic stack: MATE
+pressure: CONPRI
+
+As: MATE
+as: MATE
+rod: MACEQ
+metallic sheet: MATE
+axial force: CONPRI
+
+dwell time: PARA
+metallic stack: MATE
+rod: MACEQ
+forming: MANP
+metallurgical bond: CONPRI
+metallic sheets: MATE
+
+seam welds: FEAT
+temperature: PARA
+metallic sheets: MATE
+AISI 304: MATE
+C-Mn steel: MATE
+Nickel-based alloys: MATE
+Cu: MATE
+Ti6Al4V: MATE
+temperature: PARA
+metallic sheets: MATE
+AA6061: MATE
+
+Optical: CHAR
+scanning electron microscopy: CHAR
+U-bend test: CHAR
+defect: CONPRI
+seam welds: FEAT
+be: MATE
+
+Tensile- shear testing: CHAR
+seam welds: FEAT
+AISI 304: MATE
+C-Mn steel: MATE
+Nickel-based alloy: MATE
+base metal: MATE
+AA6061: MATE
+
+metallurgical bonding: CONPRI
+interface: CONPRI
+metallic sheets: MATE
+interface: CONPRI
+dynamic: CONPRI
+diffusion: CONPRI
+
+be: MATE
+as: MATE
+welding: MANP
+cladding: MANP
+additive manufacturing: MANP
+
+titanium: MATE
+Additive Manufactured: MANP
+AM: MANP
+
+Keyhole welding: MANP
+pulsed laser beam: ENAT
+AM parts: MACEQ
+
+Metal AM: MANP
+porosities: PRO
+non-isotropic: CONPRI
+manufacturing process: MANP
+
+weld length: PARA
+geometry: CONPRI
+titanium: MATE
+AM parts: MACEQ
+
+laser: ENAT
+parameters: CONPRI
+quality welds: CONPRI
+aerospace: APPL
+pressure resistance: PRO
+
+additive manufacturing: MANP
+area: PARA
+AM: MANP
+
+AM machines: MACEQ
+welding: MANP
+AM parts: MACEQ
+
+welding: MANP
+additive manufactured: MANP
+steels: MATE
+
+weldability: PRO
+AM material: MATE
+
+bead: CHAR
+welds: FEAT
+AM parts: MACEQ
+sheet metal: MATE
+material: MATE
+316L stainless steel: MATE
+AM: MANP
+sheet metal: MATE
+welded: MANP
+laser welding: MANP
+
+Weld quality: PARA
+macroscopic images: CONPRI
+
+welds: FEAT
+AM parts: MACEQ
+welds: FEAT
+sheet metal: MATE
+
+penetration depths: PARA
+welding defects: CONPRI
+
+laser welding: MANP
+process: CONPRI
+welding: MANP
+AM parts: MACEQ
+
+Additive manufacturing: MANP
+AM: MANP
+Nickel-base superalloys: MATE
+as: MATE
+components: MACEQ
+gas turbines: MACEQ
+
+creep: PRO
+as: MATE
+component: MACEQ
+temperature: PARA
+
+creep behavior: PRO
+slow strain rate tensile: CONPRI
+SSRT: CONPRI
+
+IN738LC: MATE
+laser powder-bed-fusion: MANP
+L-PBF: MANP
+hot isostatic pressing: MANP
+HIP: MANP
+standard: CONPRI
+heat treatment: MANP
+
+samples: CONPRI
+SSRT: CONPRI
+strain rates: CONPRI
+
+research: CONPRI
+creep deformation mechanism: CONPRI
+AM: MANP
+IN738LC: MATE
+serial sectioning: ENAT
+electron backscatter diffraction: CHAR
+EBSD: CHAR
+transmission electron microscopy: CHAR
+TEM: CHAR
+
+creep: PRO
+AM polycrystalline IN738LC: MATE
+grain boundary sliding: CONPRI
+
+feature: FEAT
+grain boundaries: CONPRI
+AM: MANP
+IN738LC: MATE
+grain structure: CONPRI
+integrity: CONPRI
+deformation: CONPRI
+
+dislocation motion: CONPRI
+as: MATE
+process: CONPRI
+grain boundary sliding: CONPRI
+
+Dislocations: CONPRI
+precipitates: MATE
+Orowan looping: CONPRI
+
+screw dislocations: CONPRI
+subgrains: CONPRI
+grain: CONPRI
+
+research: CONPRI
+short-creep: CONPRI
+AM: MANP
+IN738LC: MATE
+
+creep deformation mechanism: CONPRI
+additive manufactured: MANP
+Nickel-base superalloys: MATE
+
+weld-based Additive Manufacturing: MANP
+AM: MANP
+fabricating: MANP
+metallic parts: MACEQ
+
+Additive: MATE
+build: PARA
+structure: CONPRI
+tilt structure: FEAT
+slant angle: PARA
+liquid metal: MATE
+boundary: FEAT
+support: APPL
+
+electromagnetically: CONPRI
+weld-based Additive Manufacturing: MANP
+ed: CHAR
+
+process: CONPRI
+liquid metal: MATE
+Lorentz force: CONPRI
+magnetic field: CONPRI
+liquid metal: MATE
+
+numerical simulations: ENAT
+mechanism: CONPRI
+electromagnetic confinement: CONPRI
+
+Experimental: CONPRI
+liquid metal: MATE
+electromagnetic confinement: CONPRI
+
+welding: MANP
+parameters: CONPRI
+tilt angle: FEAT
+electromagnetic confinement: CONPRI
+
+technologies: CONPRI
+be: MATE
+additive manufacturing: MANP
+flexibility in manufacturing: CONPRI
+geometries: CONPRI
+accuracy: CHAR
+material: MATE
+reduction: CONPRI
+
+reliability: CHAR
+deposition: CONPRI
+accuracy: CHAR
+
+technology: CONPRI
+additive manufacturing: MANP
+accuracy: CHAR
+deposition: CONPRI
+
+Plasma welding: MANP
+
+plasma: CONPRI
+arc: CONPRI
+
+Correlated: CONPRI
+Model: CONPRI
+Deposition: CONPRI
+errors: CONPRI
+
+Computer simulations: CONPRI
+deposition: CONPRI
+experimental: CONPRI
+
+Ultrasonic additive manufacturing: MANP
+UAM: MANP
+solid-state hybrid manufacturing: CONPRI
+
+electron back scatter diffraction: ENAT
+metal: MATE
+ultrasonic additive manufacturing: MANP
+
+aluminum: MATE
+interface: CONPRI
+ultrasonic additive manufacturing: MANP
+aluminum: MATE
+roll bonding: MANP
+aluminum alloys: MATE
+
+mechanism: CONPRI
+ultrasonic additive manufacturing: MANP
+deformation: CONPRI
+interface: CONPRI
+
+wire arc additive manufacturing: MANP
+WAAM: MANP
+cold metal transfer: MANP
+CMT: MANP
+technology: CONPRI
+densification: MANP
+phase: CONPRI
+microstructure: CONPRI
+mechanical properties: CONPRI
+
+be: MATE
+residual stresses: PRO
+cooling rate: PARA
+
+phase: CONPRI
+AM part: MACEQ
+as: MATE
+solute atoms: MATE
+base metal: MATE
+
+microstructure: CONPRI
+martensite: MATE
+ferrite: MATE
+Fe: MATE
+Cr: MATE
+phase: CONPRI
+grain boundaries: CONPRI
+
+Martensite: MATE
+layer: PARA
+metastable: PRO
+martensite: MATE
+ferrite: MATE
+carbon atoms: MATE
+
+hardness: PRO
+UTS: PRO
+layer: PARA
+ductility: PRO
+fracture: CONPRI
+ductile: PRO
+brittle fracture: CONPRI
+layer: PARA
+
+pores: PRO
+ductility: PRO
+CMT: MANP
+microstructures: MATE
+mechanical properties: CONPRI
+WAAM: MANP
+
+additive layer manufacturing: MANP
+ALM: MANP
+process: CONPRI
+alloy: MATE
+components: MACEQ
+
+Gas tungsten arc welding: MANP
+GTAW: MANP
+heat source: CONPRI
+in-situ: CONPRI
+alloying: FEAT
+Ti: MATE
+Al: MATE
+weld pool: CONPRI
+
+investigates: CONPRI
+morphology: CONPRI
+microstructure: CONPRI
+mechanical properties: CONPRI
+additively manufactured: MANP
+material: MATE
+manufactured: CONPRI
+component: MACEQ
+
+layer: PARA
+morphology: CONPRI
+epitaxial: PRO
+columnar grains: PRO
+layer: PARA
+
+fabricated: CONPRI
+alloy: MATE
+grains: CONPRI
+lamellar: CONPRI
+structure: CONPRI
+layer: PARA
+dendrites: BIOP
+
+Microhardness: CONPRI
+tensile testing: CHAR
+homogeneous: CONPRI
+material: MATE
+
+Ti substrate: MATE
+alloying: FEAT
+as: MATE
+as: MATE
+
+tensile properties: PRO
+vertical: CONPRI
+build: PARA
+microstructure: CONPRI
+
+microstructure: CONPRI
+strengthening mechanisms: CONPRI
+manufacturing approach: MANP
+
+density: PRO
+components: MACEQ
+additive layer manufacturing: MANP
+
+polymer melt: MATE
+extruded: MANP
+
+anisotropic: PRO
+
+Weld thickness: PARA
+mechanical strength: PRO
+weld: FEAT
+
+weld strength: PRO
+structure: CONPRI
+
+3D printing: MANP
+manufacturing processes: MANP
+strength: PRO
+
+fused-filament fabrication: MANP
+melting: MANP
+thermoplastic: MATE
+layer-by-layer: CONPRI
+extrusion: MANP
+viscoelastic: PRO
+material: MATE
+fabricate: MANP
+three-dimensional: CONPRI
+
+strength: PRO
+welds: FEAT
+melt: CONPRI
+interface: CONPRI
+
+diffusion: CONPRI
+as: MATE
+layer: PARA
+glass transition temperature: CONPRI
+
+Diffusion: CONPRI
+nozzle: MACEQ
+polymer: MATE
+microstructure: CONPRI
+welding: MANP
+
+model: CONPRI
+polymer: MATE
+diffusion: CONPRI
+polymer: MATE
+weld: FEAT
+structure: CONPRI
+
+weld thickness: PARA
+be: MATE
+polymer: MATE
+structure: CONPRI
+weld: FEAT
+anisotropic: PRO
+mechanical strength: PRO
+weld: FEAT
+
+microstructures: MATE
+Al alloy: MATE
+ultrasonic additive manufacturing: MANP
+ultrasonic welding: MANP
+mechanism: CONPRI
+
+microstructure: CONPRI
+weld: FEAT
+interface: CONPRI
+metal: MATE
+equiaxed grains: CONPRI
+recrystallization: CONPRI
+simple: MANP
+deformation: CONPRI
+surface: CONPRI
+
+Void: CONPRI
+weld: FEAT
+interface: CONPRI
+surface asperities: CONPRI
+pressure: CONPRI
+sonotrode: MACEQ
+deposition: CONPRI
+
+Transmission electron microscopy: CHAR
+metallic bonding: CONPRI
+surface: CONPRI
+oxide: MATE
+oxide: MATE
+interface: CONPRI
+
+oxide: MATE
+interface: CONPRI
+ultrasonic vibration: PARA
+
+theoretical: CONPRI
+metal: MATE
+bead: CHAR
+GMAW: MANP
+
+process parameters: CONPRI
+stability: PRO
+deposition: CONPRI
+
+effectiveness: CONPRI
+samples: CONPRI
+process: CONPRI
+
+wire arc additive manufacturing: MANP
+WAAM: MANP
+technology: CONPRI
+fabricate: MANP
+metallic: MATE
+components: MACEQ
+
+high deposition rates: PARA
+
+deposition process: MANP
+
+build direction: PARA
+
+be: MATE
+overhangs: PARA
+supports: APPL
+be: MATE
+
+deposition: CONPRI
+overhangs: PARA
+support: APPL
+deposition: CONPRI
+
+fabrication: MANP
+metallic parts: MACEQ
+overhanging structures: CONPRI
+wire arc additive manufacturing: MANP
+
+metal: MATE
+droplet: CONPRI
+weld bead geometry: PARA
+Gas Metal Arc Welding: MANP
+GMAW: MANP
+metal: MATE
+wire arc additive manufacturing: MANP
+
+process parameters: CONPRI
+feed: PARA
+nozzle: MACEQ
+stability: PRO
+deposition: CONPRI
+
+effectiveness: CONPRI
+fabricating: MANP
+samples: CONPRI
+overhangs: PARA
+
+Wire Arc Additive Manufacturing: MANP
+
+welding: MANP
+parameters: CONPRI
+deposited layer: CHAR
+
+MIG welding: MANP
+Inconel: MATE
+industrial: APPL
+as: MATE
+spool: MACEQ
+
+weld: FEAT
+parameters: CONPRI
+deposited layer: CHAR
+Taguchi method: CONPRI
+
+Waviness: FEAT
+weld: FEAT
+porosity: PRO
+weld bead: CONPRI
+surface: CONPRI
+be: MATE
+parameters: CONPRI
+manufacturing: MANP
+construction: APPL
+Wire Arc Additive Manufacturing: MANP
+
+parameters: CONPRI
+Welding: MANP
+feed: PARA
+
+parameter: CONPRI
+parameters: CONPRI
+
+mathematical: CONPRI
+regression model: CONPRI
+
+welding: MANP
+feed: PARA
+V: MATE
+bead Width: CHAR
+mm: MANP
+
+welding: MANP
+feed: PARA
+V: MATE
+bead Width: CHAR
+mm: MANP
+
+parameters: CONPRI
+correlated: CONPRI
+
+Additive Manufacturing: MANP
+processes: CONPRI
+high deposition rates: PARA
+
+welding: MANP
+parameters: CONPRI
+Electron Beam: CONPRI
+deposited layer: CHAR
+
+Electron Beam welding: MANP
+Ti6Al4V: MATE
+aerospace: APPL
+as: MATE
+
+weld: FEAT
+parameters: CONPRI
+deposited layer: CHAR
+Taguchi method: CONPRI
+
+weld: FEAT
+porosity: PRO
+weld bead: CONPRI
+surface: CONPRI
+be: MATE
+parameters: CONPRI
+manufacturing: MANP
+construction: APPL
+Electron Beam Additive Manufacturing: MANP
+
+parameters: CONPRI
+Welding: MANP
+Beam: MACEQ
+
+parameter: CONPRI
+parameters: CONPRI
+
+mathematical: CONPRI
+regression model: CONPRI
+
+welding: MANP
+beam: MACEQ
+bead Width: CHAR
+mm: MANP
+
+welding: MANP
+beam: MACEQ
+bead Width: CHAR
+mm: MANP
+
+parameters: CONPRI
+correlated: CONPRI
+
+laser welding: MANP
+laser-based additive manufacturing: MANP
+
+process parameters: CONPRI
+laser-based additive manufacturing: MANP
+
+additive manufacturing: MANP
+
+As: MATE
+additive manufacturing: MANP
+process parameters: CONPRI
+
+manuscript: CONPRI
+process parameters: CONPRI
+build: PARA
+porosity: PRO
+residual stress: PRO
+composition: CONPRI
+materials: CONPRI
+microstructure: CONPRI
+microsegregation: CONPRI
+as: MATE
+parameters: CONPRI
+be: MATE
+design: FEAT
+
+laser powder bed fusion: MANP
+elements: MATE
+be: MATE
+electron beam: CONPRI
+bed fusion: MANP
+direct energy deposition: MANP
+
+FSW: MANP
+H13 steel: MATE
+additive manufacturing: MANP
+AM: MANP
+
+Tool: MACEQ
+performance: CONPRI
+friction: CONPRI
+
+tool wear: CONPRI
+plastic deformation: PRO
+tool: MACEQ
+
+H13: MATE
+heat: CONPRI
+laser: ENAT
+tools: MACEQ
+
+Tool wear: CONPRI
+failure mechanism: PRO
+AM: MANP
+
+friction stir welding: MANP
+FSW: MANP
+solid state welding: MANP
+process: CONPRI
+joining: MANP
+melting point: PRO
+materials: CONPRI
+Cu: MATE
+Fe: MATE
+Ti: MATE
+alloys: MATE
+Al alloys: MATE
+fusion welding: MANP
+
+H13: MATE
+hardened: MANP
+as: MATE
+tool: MACEQ
+material: MATE
+aluminium alloys: MATE
+
+tool life: CONPRI
+plastic deformation: PRO
+wear: CONPRI
+temperatures: PARA
+welding: MANP
+melting point: PRO
+materials: CONPRI
+
+heat: CONPRI
+laser: ENAT
+Stellite: MATE
+H13 steel: MATE
+friction: CONPRI
+
+Stellite: MATE
+FSW: MANP
+additive manufacturing: MANP
+AM: MANP
+process: CONPRI
+H13 steel as: MATE
+material: MATE
+
+Stellite: MATE
+tool: MACEQ
+wear: CONPRI
+diffusion: CONPRI
+tool: MACEQ
+tool: MACEQ
+interface: CONPRI
+
+tools: MACEQ
+AM process: MANP
+deformation: CONPRI
+wear: CONPRI
+
+GMAW: MANP
+Gas Metal Arc Welding: MANP
+titanium: MATE
+industry: APPL
+spatter: CHAR
+welding: MANP
+arc: CONPRI
+waviness: FEAT
+weld bead: CONPRI
+
+laser welding: MANP
+CMT: MANP
+Cold Metal Transfer: MANP
+heat: CONPRI
+GMAW: MANP
+
+stabilization: CONPRI
+Ti-6Al-4 V: MATE
+beads: CHAR
+laser: ENAT
+GMAW: MANP
+bead: CHAR
+deposition: CONPRI
+
+laser beam: CONPRI
+welding: MANP
+welding: MANP
+arc: CONPRI
+CMT: MANP
+welding: MANP
+additively manufactured: MANP
+sample: CONPRI
+sample: CONPRI
+
+laser: ENAT
+be: MATE
+welding: MANP
+process: CONPRI
+weld-bead: FEAT
+layer: PARA
+deposition rate: PARA
+additive manufacture: MANP
+Ti-6Al-4 V: MATE
+
+Additive Manufacturing: MANP
+process: CONPRI
+technologies: CONPRI
+
+subtractive: MANP
+components: MACEQ
+be: MATE
+construction: APPL
+
+standard: CONPRI
+additive manufacturing: MANP
+be: MATE
+technologies: CONPRI
+
+experimental: CONPRI
+Wire Arc Additive Manufacturing: MANP
+WAAM: MANP
+process: CONPRI
+Cold Metal Transfer: MANP
+CMT: MANP
+thin-walled component: APPL
+
+forming process: MANP
+microstructural: CONPRI
+forming: MANP
+components: MACEQ
+compression tests: CHAR
+
+cylindrical: CONPRI
+additively manufactured: MANP
+machining: MANP
+
+be: MATE
+anisotropy: PRO
+workpiece: CONPRI
+welding: MANP
+samples: CONPRI
+welding: MANP
+
+component: MACEQ
+cast: MANP
+microstructure: CONPRI
+melting: MANP
+material: MATE
+solidification: CONPRI
+cooling rate: PARA
+
+cold forming: MANP
+additively manufactured: MANP
+hot forming: MANP
+heat treatment: MANP
+
+experimental: CONPRI
+microstructure: CONPRI
+material: MATE
+research: CONPRI
+homogenization: MANP
+optimization: CONPRI
+mechanical properties: CONPRI
+additive manufactured: MANP
+forming process: MANP
+
+experimental: CONPRI
+deposition: CONPRI
+WAAM: MANP
+
+Mechanism: CONPRI
+deposition: CONPRI
+
+welding: MANP
+parameters: CONPRI
+
+path planning: ENAT
+process parameter: CONPRI
+processes: CONPRI
+WAAM: MANP
+
+Wire Arc Additive Manufacturing: MANP
+WAAM: MANP
+technology: CONPRI
+fabricating: MANP
+metallic parts: MACEQ
+productivity: CONPRI
+flexibility: PRO
+
+welding: MANP
+processes: CONPRI
+WAAM: MANP
+overhanging features: FEAT
+support structures: FEAT
+
+research: CONPRI
+welding: MANP
+be: MATE
+deposition: CONPRI
+WAAM: MANP
+process: CONPRI
+
+experimental: CONPRI
+deposition: CONPRI
+additive manufacturing: MANP
+gas metal arc welding: MANP
+
+mechanism: CONPRI
+deposition: CONPRI
+
+mechanism: CONPRI
+welding: MANP
+parameters: CONPRI
+
+path planning: ENAT
+process parameter: CONPRI
+processes: CONPRI
+WAAM: MANP
+
+weld: FEAT
+deposition: CONPRI
+NDT: CONPRI
+
+defect: CONPRI
+tungsten: MATE
+rod: MACEQ
+verification: CONPRI
+
+sample: CONPRI
+manufactured: CONPRI
+
+performance: CONPRI
+inspection: CHAR
+defect: CONPRI
+tungsten: MATE
+rod: MACEQ
+weld: FEAT
+
+sample: CONPRI
+manufactured: CONPRI
+inspection: CHAR
+weld: FEAT
+
+tungsten: MATE
+rod: MACEQ
+
+be: MATE
+electron beam melting: MANP
+
+Process: CONPRI
+be: MATE
+support: APPL
+machine: MACEQ
+
+Additive manufactured: MANP
+columnar grain: PRO
+building direction: PARA
+
+Additive manufactured: MANP
+ductility: PRO
+building direction: PARA
+
+Additive manufactured: MANP
+creep: PRO
+building direction: PARA
+
+optimization: CONPRI
+support: APPL
+machine: MACEQ
+process parameters: CONPRI
+selective electron beam melting: MANP
+SEBM: MANP
+nickel-base superalloy: MATE
+
+extracted: CONPRI
+fabricate: MANP
+samples: CONPRI
+
+lead: MATE
+samples: CONPRI
+surfaces: CONPRI
+
+sample fabricated: CONPRI
+sample: CONPRI
+dimension: FEAT
+mm: MANP
+cross-sections: CONPRI
+columnar grains: PRO
+precipitates: MATE
+grain boundary crack: PRO
+temperature: PARA
+properties: CONPRI
+
+samples fabricated: CONPRI
+beam: MACEQ
+sample: CONPRI
+dimension: FEAT
+mm: MANP
+creep: PRO
+
+sample: CONPRI
+dimensions: FEAT
+mm: MANP
+mm: MANP
+SEBM: MANP
+samples: CONPRI
+mechanical properties: CONPRI
+cast: MANP
+alloys: MATE
+be: MATE
+testing: CHAR
+
+SEBM: MANP
+process: CONPRI
+parameters: CONPRI
+be: MATE
+
+samples: CONPRI
+surfaces: CONPRI
+quality: CONPRI
+mechanical properties: CONPRI
+
+gas tungsten arc welding: MANP
+GTAW: MANP
+additive manufacturing: MANP
+AM: MANP
+deposition: CONPRI
+gas metal arc welding: MANP
+GMAW: MANP
+
+lead: MATE
+deposition process: MANP
+deposition: CONPRI
+
+melting: MANP
+model: CONPRI
+arc: CONPRI
+
+weld bead offset tolerance capacity: PARA
+quantitatively: CONPRI
+sensitivity: PARA
+weld bead offset: PARA
+feed: PARA
+
+deposition: CONPRI
+weld: FEAT
+offset: CONPRI
+
+sample: CONPRI
+area: PARA
+model: CONPRI
+deposition: CONPRI
+
+experimental: CONPRI
+weld: FEAT
+melting: MANP
+stability: PRO
+accuracy: CHAR
+AM: MANP
+
+manufacturing technology: MANP
+prototyping: CONPRI
+machining: MANP
+
+material: MATE
+process optimization: CONPRI
+optimization: CONPRI
+sustainable: CONPRI
+
+process: CONPRI
+additive manufacturing: MANP
+AM: MANP
+processes: CONPRI
+product development: CONPRI
+
+additive manufacturing: MANP
+
+research: CONPRI
+process: CONPRI
+methodology: CONPRI
+automobile: APPL
+aerospace: APPL
+biomedical: APPL
+
+AM: MANP
+
+tool: MACEQ
+friction stir welding: MANP
+complex geometries: CONPRI
+
+fabricated: CONPRI
+AM techniques: MANP
+
+AM techniques: MANP
+composite: MATE
+materials: CONPRI
+
+subtractive: MANP
+additive manufacturing: MANP
+
+defects: CONPRI
+additive manufactured: MANP
+
+3D: CONPRI
+3D: CONPRI
+
+Volume: CONPRI
+distribution: CONPRI
+defects: CONPRI
+
+defects: CONPRI
+
+defects: CONPRI
+process parameters: CONPRI
+
+Molybdenum: MATE
+Mo: MATE
+material: MATE
+
+Additive manufacturing: MANP
+AM: MANP
+fabricating: MANP
+
+defects: CONPRI
+welding: MANP
+AM processes: MANP
+Mo: MATE
+alloys: MATE
+
+evolution: CONPRI
+defects: CONPRI
+Mo: MATE
+state-of-the-art: CONPRI
+high-resolution: PARA
+computed tomography: CHAR
+
+defects: CONPRI
+Mo: MATE
+spherical: CONPRI
+pores: PRO
+pores: PRO
+
+welded: MANP
+Mo: MATE
+heat: CONPRI
+process: CONPRI
+AM: MANP
+
+mechanism: CONPRI
+defects: CONPRI
+experimental: CONPRI
+
+Material extrusion: MANP
+additive manufacturing: MANP
+fused filament fabrication: MANP
+FFF: MANP
+area: PARA
+additive manufacturing: MANP
+
+FFF: MANP
+polymer feedstocks: MATE
+extruded: MANP
+three-dimensional: CONPRI
+layer-by-layer: CONPRI
+additive manufacturing: MANP
+
+heat transfer: CONPRI
+FFF: MANP
+finite element: CONPRI
+modeling: ENAT
+
+material properties: CONPRI
+layer: PARA
+print: MANP
+
+FFF: MANP
+diffusion: CONPRI
+weld: FEAT
+lead: MATE
+
+thermal diffusivity: CONPRI
+FFF: MANP
+FFF: MANP
+weld: FEAT
+thermal diffusivity: CONPRI
+ABS: MATE
+
+temperature: PARA
+extruded: MANP
+bead: CHAR
+surface: CONPRI
+bead: CHAR
+process monitoring: CONPRI
+property prediction: CONPRI
+performance: CONPRI
+
+Wire arc additive manufacturing: MANP
+WAAM: MANP
+additive manufacturing: MANP
+components: MACEQ
+deposition: CONPRI
+material: MATE
+layer-by-layer: CONPRI
+
+WAAM: MANP
+conventional machining: MANP
+high deposition rate: PARA
+
+research: CONPRI
+WAAM: MANP
+technologies: CONPRI
+GMAW: MANP
+gas metal arc welding: MANP
+PAW: MANP
+plasma arc welding: MANP
+
+processes: CONPRI
+variations: CONPRI
+manufacturing: MANP
+steel: MATE
+geometry: CONPRI
+process parameters: CONPRI
+deposition: CONPRI
+as: MATE
+as: MATE
+mechanical: APPL
+properties: CONPRI
+processes: CONPRI
+
+mechanical: APPL
+processes: CONPRI
+forging: MANP
+material: MATE
+UTS: PRO
+elongation: PRO
+vertical: CONPRI
+PAW: MANP
+GMAW: MANP
+UTS: PRO
+elongation: PRO
+additive manufacturing: MANP
+
+cold metal transfer: MANP
+wire and arc additive manufacturing: MANP
+manufacture: CONPRI
+steel: MATE
+component: MACEQ
+
+microstructure: CONPRI
+martensite: MATE
+
+deposition direction: PARA
+hardness: PRO
+tensile properties: PRO
+
+Tensile properties: PRO
+vertical: CONPRI
+anisotropy: PRO
+
+Fracture: CONPRI
+fracture: CONPRI
+
+Wire and arc additive manufacturing: MANP
+WAAM: MANP
+technology: CONPRI
+manufacture: CONPRI
+steel: MATE
+
+microstructure: CONPRI
+mechanical properties: CONPRI
+manufactured: CONPRI
+cold metal transfer: MANP
+CMT: MANP
+welding: MANP
+as: MATE
+source: APPL
+microstructure: CONPRI
+mechanical properties: CONPRI
+additively manufactured: MANP
+
+mechanical properties: CONPRI
+anisotropy: PRO
+microstructure: CONPRI
+
+microstructure: CONPRI
+martensite: MATE
+
+As: MATE
+microstructures: MATE
+
+hardness: PRO
+tensile testing: CHAR
+
+tensile properties: PRO
+ultimate tensile strength: PRO
+offset: CONPRI
+strength: PRO
+elongation: PRO
+anisotropy: PRO
+deposition direction: PARA
+
+defects: CONPRI
+tensile: PRO
+fracture: CONPRI
+
+WAAM: MANP
+technology: CONPRI
+steel: MATE
+
+Wire arc additive manufacturing: MANP
+WAAM: MANP
+metal additive manufacturing: MANP
+gas metal arc welding: MANP
+be: MATE
+metal: MATE
+complexity: CONPRI
+
+WAAM: MANP
+heat accumulation: PRO
+
+workpiece: CONPRI
+heat: CONPRI
+deposition process: MANP
+bead geometry: CHAR
+
+material: MATE
+heat transfer: CONPRI
+
+samples: CONPRI
+manufactured: CONPRI
+ER70S-6 as: MATE
+material: MATE
+as: MATE
+
+measurement: CHAR
+substrate: MATE
+process simulation: ENAT
+temperature: PARA
+
+impact: CONPRI
+process: CONPRI
+temperature: PARA
+as: MATE
+cooling: MANP
+
+s: MATE
+as: MATE
+productivity: CONPRI
+reduction: CONPRI
+heat accumulation: PRO
+cooling: MANP
+
+Friction: CONPRI
+additive manufacturing: MANP
+mm: MANP
+sheets: MATE
+alloy: MATE
+
+tool: MACEQ
+process parameters: CONPRI
+interfacial bonding: CONPRI
+additive manufactured: MANP
+defects: CONPRI
+additive: MATE
+microstructures: MATE
+hardness: PRO
+mechanical property: CONPRI
+
+tool: MACEQ
+bonding: CONPRI
+manufactured: CONPRI
+
+cylindrical: CONPRI
+process: CONPRI
+material: MATE
+bonding: CONPRI
+
+material: MATE
+bonding: CONPRI
+AS: MATE
+interface: CONPRI
+arc: CONPRI
+material: MATE
+interface: CONPRI
+
+defects: CONPRI
+bonding: CONPRI
+be: MATE
+defects: CONPRI
+
+defects: CONPRI
+oxides: MATE
+impurities: PRO
+bonding: CONPRI
+as: MATE
+as: MATE
+tool: MACEQ
+
+welding: MANP
+welding: MANP
+additive manufacturing processes: MANP
+alloy: MATE
+microstructure: CONPRI
+
+build: PARA
+hardness: PRO
+bonding: CONPRI
+
+AS: MATE
+hardness: PRO
+interface: CONPRI
+
+mechanical properties: CONPRI
+build: PARA
+tensile strength: PRO
+build: PARA
+base metal: MATE
+
+mechanical properties: CONPRI
+material: MATE
+defect: CONPRI
+bonding: CONPRI
+
+powder: MATE
+microstructure: CONPRI
+properties: CONPRI
+scanning electron microscopy: CHAR
+transmission electron microscopy: CHAR
+diffraction: CHAR
+tensile tests: CHAR
+
+heat affected zone: CONPRI
+HAZ: CONPRI
+O: MATE
+fusion: CONPRI
+
+HAZ: CONPRI
+be: MATE
+
+O: MATE
+
+microstructure: CONPRI
+fusion zone: CONPRI
+phase: CONPRI
+laser welding: MANP
+welding: MANP
+
+Columnar grains: PRO
+fusion zone: CONPRI
+grains: CONPRI
+fusion zone: CONPRI
+
+distribution: CONPRI
+fraction: CONPRI
+grain boundaries: CONPRI
+
+powder: MATE
+heterogeneous nucleation: CONPRI
+solidification: CONPRI
+welding: MANP
+
+tensile tests: CHAR
+temperature: PARA
+failure: CONPRI
+fusion zone: CONPRI
+HAZ: CONPRI
+
+tensile properties: PRO
+Mo: MATE
+as: MATE
+as: MATE
+microstructure: CONPRI
+fusion zone: CONPRI
+
+mm: MANP
+wire+arc additive manufacturing: MANP
+WAAM: MANP
+
+internal residual stress: PRO
+distributions: CONPRI
+contour: FEAT
+
+stress distributions: PRO
+WAAM: MANP
+dimension: FEAT
+stress distributions: PRO
+
+stress: PRO
+WAAM: MANP
+distribution: CONPRI
+as: MATE
+weld: FEAT
+stress: PRO
+extracted: CONPRI
+WAAM: MANP
+stress distribution: PRO
+
+stress distribution: PRO
+stress distribution: PRO
+
+Carbon fiber: MATE
+plastic: MATE
+composite material: MATE
+aerospace: APPL
+automobile: APPL
+stiffness: PRO
+lightweight: CONPRI
+corrosion resistance: CONPRI
+
+layer: PARA
+as: MATE
+Ti: MATE
+laminates: CONPRI
+
+weight: PARA
+stress cracking: CONPRI
+delamination: CONPRI
+temperatures: PARA
+
+be: MATE
+solid-state welding: MANP
+
+Ultrasonic Additive Manufacturing: MANP
+UAM: MANP
+process: CONPRI
+fabricating: MANP
+3D structures: CONPRI
+composites: MATE
+
+experimental: CONPRI
+feasibility: CONPRI
+UAM: MANP
+process: CONPRI
+
+process: CONPRI
+process parameters: CONPRI
+
+process parameters: CONPRI
+roughness: PRO
+shear strength: PRO
+fabricated: CONPRI
+UAM: MANP
+process: CONPRI
+
+surface roughness: PRO
+impact: CONPRI
+shear strengths: PRO
+UAM: MANP
+fabricated: CONPRI
+
+Arc: CONPRI
+construction: APPL
+low carbon steel: MATE
+Ti6Al4V: MATE
+Gas: CONPRI
+Arc: CONPRI
+Wire and Arc Additive Manufacturing: MANP
+process: CONPRI
+geometry: CONPRI
+process: CONPRI
+
+arc: CONPRI
+metal: MATE
+weld pool: CONPRI
+layer: PARA
+deposition: CONPRI
+welding: MANP
+
+distribution: CONPRI
+material: MATE
+homogeneous: CONPRI
+
+Arc: CONPRI
+geometry: CONPRI
+forces: CONPRI
+molten metal: MATE
+layer: PARA
+deposition: CONPRI
+
+welding: MANP
+arc: CONPRI
+heat: CONPRI
+area: PARA
+power: PARA
+density: PRO
+
+volume: CONPRI
+weight: PARA
+weld pool: CONPRI
+
+weld pool: CONPRI
+temperature: PARA
+surface tension: PRO
+force: CONPRI
+friction: CONPRI
+
+distribution: CONPRI
+arc pressure: PARA
+arc: CONPRI
+molten metal: MATE
+
+force: CONPRI
+molten metal: MATE
+resultant force: PARA
+weld pool: CONPRI
+
+arc: CONPRI
+arc welding: MANP
+orientation: CONPRI
+electrodes: MACEQ
+
+stability: PRO
+arc: CONPRI
+weld bead properties: CONPRI
+
+electrode: MACEQ
+orientation: CONPRI
+impact arc: CONPRI
+heat: CONPRI
+weld bead geometry: PARA
+
+arc: CONPRI
+orientation: CONPRI
+arc: CONPRI
+weld pool: CONPRI
+
+orientation: CONPRI
+arc: CONPRI
+weld bead: CONPRI
+weld: FEAT
+penetration: CONPRI
+as: MATE
+additive manufacturing: MANP
+cladding: MANP
+
+arc: CONPRI
+as: MATE
+process parameters: CONPRI
+
+gas metal arc welding: MANP
+machine: MACEQ
+design: FEAT
+controller: MACEQ
+arc: CONPRI
+
+additive manufacturing: MANP
+hot work steel: MATE
+gas metal arc welding: MANP
+GMAW: MANP
+process: CONPRI
+cold metal transfer: MANP
+CMT: MANP
+process: CONPRI
+
+arc: CONPRI
+mechanical properties: CONPRI
+microstructure: CONPRI
+material: MATE
+
+tool: MACEQ
+steel: MATE
+manufacturing: MANP
+plastic: MATE
+moulds: MACEQ
+hot extrusion: MANP
+dies: MACEQ
+forging: MANP
+dies: MACEQ
+
+steel: MATE
+be: MATE
+3D: CONPRI
+components: MACEQ
+reproducibility: CONPRI
+geometry: CONPRI
+deposition rate: PARA
+
+variation: CONPRI
+feed: PARA
+welding: MANP
+production: MANP
+weld beads: CONPRI
+mm: MANP
+
+mechanical properties: CONPRI
+be: MATE
+temperature: PARA
+electric arc: PARA
+
+temperature: PARA
+martensite: MATE
+temperature: PARA
+homogeneous: CONPRI
+hardness: PRO
+additively manufactured: MANP
+as: MATE
+as: MATE
+welding: MANP
+arc: CONPRI
+temperature: PARA
+Wire-arc additive manufacturing: MANP
+industrial: APPL
+
+tensile properties: PRO
+toughness: PRO
+welding: MANP
+
+evolution: CONPRI
+manufacturing: MANP
+thermocouples: MACEQ
+IR: CHAR
+camera: MACEQ
+process parameters: CONPRI
+
+as: MATE
+heat treatment: MANP
+hardness: PRO
+tensile: PRO
+notch: FEAT
+
+microstructure: CONPRI
+retained austenite: MATE
+ferrite: MATE
+as: MATE
+
+hardness: PRO
+yield stress: PRO
+tensile strength: PRO
+MPa: CONPRI
+toughness: PRO
+temperature: PARA
+
+heat treatment: MANP
+retained austenite: MATE
+yield stress: PRO
+MPa: CONPRI
+
+Ultrasonic additive manufacturing: MANP
+multi-material laminates: CONPRI
+material: MATE
+process: CONPRI
+additive manufacturing: MANP
+
+properties: CONPRI
+multi-material laminates: CONPRI
+interface: CONPRI
+be: MATE
+pores: PRO
+as: MATE
+as: MATE
+intermetallic: MATE
+
+process models: CONPRI
+junction: APPL
+ultrasonic additive manufacturing: MANP
+metals: MATE
+
+process models: CONPRI
+experimental data: CONPRI
+process: CONPRI
+sonotrode: MACEQ
+intermetallic: MATE
+bonding: CONPRI
+
+Ultrasonic additive manufacturing: MANP
+UAM: MANP
+solid-state: CONPRI
+manufacturing technology: MANP
+metallic parts: MACEQ
+additive: MATE
+metal: MATE
+subtractive machining: MANP
+
+UAM: MANP
+metal: MATE
+builds: CHAR
+material: MATE
+UAM: MANP
+strength: PRO
+steels: MATE
+
+investigates: CONPRI
+post-processing: CONPRI
+UAM: MANP
+steel: MATE
+quality: CONPRI
+UAM fabrication: MANP
+stainless steel: MATE
+SS: MATE
+builds: CHAR
+post-processing: CONPRI
+mechanical properties: CONPRI
+material: MATE
+
+UAM fabrication: MANP
+metals: MATE
+temperature: PARA
+strength: PRO
+UAM: MANP
+steel: MATE
+samples: CONPRI
+
+strength: PRO
+post-processing: CONPRI
+
+hot isostatic pressing: MANP
+HIP: MANP
+shear strength: PRO
+UAM: MANP
+samples: CONPRI
+MPa: CONPRI
+MPa: CONPRI
+samples: CONPRI
+
+Microstructural analyses: CHAR
+SEM: CHAR
+EBSD: CHAR
+body centered cubic: CONPRI
+BCC: CONPRI
+ferrite: MATE
+face centered cubic: CONPRI
+FCC: CONPRI
+austenite: MATE
+UAM: MANP
+SS: MATE
+
+weld quality: PARA
+UAM: MANP
+steel: MATE
+temperatures: PARA
+be: MATE
+reduction: CONPRI
+yield strength: PRO
+SS: MATE
+temperature: PARA
+
+HIP: MANP
+hardness: PRO
+UAM: MANP
+SS: MATE
+martensite: MATE
+
+layer: PARA
+layer: PARA
+grain boundary: CONPRI
+
+residual stresses: PRO
+structure: CONPRI
+impact: CONPRI
+fatigue life: PRO
+
+technology: CONPRI
+additive manufacturing: MANP
+AM: MANP
+industries: APPL
+as: MATE
+aerospace: APPL
+automotive: APPL
+structure: CONPRI
+residual stress: PRO
+microstructure: CONPRI
+manufacturing cost: CONPRI
+
+materials: CONPRI
+additive manufacturing: MANP
+fabrication: MANP
+be: MATE
+
+welding fabrication: MANP
+AM process: MANP
+crack growth: CONPRI
+as: MATE
+as: MATE
+
+additive manufacturing: MANP
+
+data: CONPRI
+fracture: CONPRI
+fatigue crack growth: CONPRI
+AM parts: MACEQ
+steel: MATE
+functionally graded structures: FEAT
+AM technique: MANP
+
+Nd : YAG: MATE
+laser beam: CONPRI
+arc: CONPRI
+tungsten inert gas: MANP
+process: CONPRI
+
+Mechanical properties: CONPRI
+material: MATE
+aerospace: APPL
+specifications: PARA
+
+mechanical tests: CHAR
+fatigue: PRO
+mechanical properties: CONPRI
+components: MACEQ
+cast: MANP
+wrought material: MATE
+properties: CONPRI
+properties: CONPRI
+aerospace: APPL
+
+strength: PRO
+composite: MATE
+materials: CONPRI
+conventional welding: MANP
+joining: MANP
+brittle: PRO
+thermal profiles: CONPRI
+solidification: CONPRI
+
+wire arc additive manufacturing: MANP
+WAAM: MANP
+process: CONPRI
+fabricate: MANP
+structural component: CONPRI
+average: CONPRI
+strength: PRO
+MPa: CONPRI
+feedstock materials: MATE
+steel: MATE
+MPa: CONPRI
+nickel: MATE
+MPa: CONPRI
+
+sample: CONPRI
+heterogeneity: CONPRI
+deposition: CONPRI
+
+mechanical response: CONPRI
+tensile testing: CHAR
+microstructure: CONPRI
+forming: MANP
+interface: CONPRI
+solid solutions: MATE
+Fe: MATE
+Ni: MATE
+interface: CONPRI
+
+research: CONPRI
+design: FEAT
+monolithic: PRO
+components: MACEQ
+properties: CONPRI
+
+Wire Arc Additive Manufacturing: MANP
+WAAM: MANP
+wire-based additive manufacturing: MANP
+technology: CONPRI
+industrial: APPL
+production: MANP
+components: MACEQ
+material: MATE
+deposition rates: PARA
+
+performance: CONPRI
+sustainability: CONPRI
+be: MATE
+
+performance: CONPRI
+manufacturing approaches: MANP
+material: MATE
+component: MACEQ
+
+Wire-arc additive manufacturing: MANP
+additive manufacturing: MANP
+high deposition rates: PARA
+manufacturing: MANP
+additive manufacturing: MANP
+
+technology: CONPRI
+industrial: APPL
+various materials: MATE
+
+alloy: MATE
+as: MATE
+WAAM: MANP
+
+aluminum: MATE
+wire drawing: MANP
+
+material: MATE
+process parameters: CONPRI
+
+mechanical properties: CONPRI
+
+properties: CONPRI
+as: MATE
+hardness: PRO
+optical microscopy: CHAR
+
+alloy: MATE
+WAAM: MANP
+lightweight: CONPRI
+
+alloy: MATE
+in-situ fabricated: CONPRI
+wire arc additive manufacturing: MANP
+
+silicon: MATE
+alloy: MATE
+hardness: PRO
+
+aluminum: MATE
+yield strength: PRO
+MPa: CONPRI
+
+crystal structures: PRO
+
+Cold Metal Transfer: MANP
+CMT: MANP
+welding: MANP
+additive manufacturing: MANP
+alloys: MATE
+silicon: MATE
+
+additive manufacturing: MANP
+samples: CONPRI
+aluminum: MATE
+design: FEAT
+
+performance: CONPRI
+samples: CONPRI
+samples: CONPRI
+strength: PRO
+ductility: PRO
+
+silicon: MATE
+hardness: PRO
+tensile strength: PRO
+offset: CONPRI
+Strength: PRO
+alloy: MATE
+
+X-ray diffraction: CHAR
+XRD: CHAR
+crystal structure: PRO
+
+aluminum: MATE
+tensile strength: PRO
+offset: CONPRI
+Strength: PRO
+yield strength: PRO
+MPa: CONPRI
+
+offset: CONPRI
+Strength: PRO
+MPa: CONPRI
+
+additive manufacturing: MANP
+AM: MANP
+process: CONPRI
+functional components: CONPRI
+as: MATE
+actuators: MACEQ
+structure: CONPRI
+designed: FEAT
+
+print: MANP
+be: MATE
+insert: MACEQ
+component: MACEQ
+
+be: MATE
+build plate: MACEQ
+
+research: CONPRI
+process: CONPRI
+failure: CONPRI
+layer: PARA
+cooling: MANP
+
+designed: FEAT
+strength: PRO
+reduction: CONPRI
+contact: APPL
+
+research: CONPRI
+methodology: CONPRI
+weld strength: PRO
+material extrusion: MANP
+layer: PARA
+interface: CONPRI
+as: MATE
+process: CONPRI
+
+infrared: CONPRI
+camera: MACEQ
+thermocouple: MACEQ
+layer: PARA
+layer: PARA
+interface: CONPRI
+
+impact: CONPRI
+toolpath: PARA
+design: FEAT
+layer: PARA
+interface: CONPRI
+area: PARA
+
+Polymer: MATE
+strength: PRO
+material properties: CONPRI
+rheology: PRO
+
+strength: PRO
+failure: CONPRI
+as: MATE
+
+be: MATE
+accurately: CHAR
+tensile loads: CHAR
+failure: CONPRI
+errors: CONPRI
+toolpath: PARA
+geometry: CONPRI
+
+Additive manufacturing: MANP
+AM: MANP
+build: PARA
+layer-by-layer: CONPRI
+as: MATE
+machining: MANP
+
+as: MATE
+technology: CONPRI
+prototyping: CONPRI
+
+AM: MANP
+as: MATE
+AM machines: MACEQ
+be: MATE
+manufactured: CONPRI
+
+feasibility: CONPRI
+AM: MANP
+metallic materials: MATE
+arc welding: MANP
+
+arc welding: MANP
+robot: MACEQ
+
+experiment: CONPRI
+be: MATE
+
+surface finishing: MANP
+additive manufactured: MANP
+
+surface finish: FEAT
+quality: CONPRI
+additive manufactured: MANP
+
+surface integrity: FEAT
+surface finishing: MANP
+
+surface roughness: PRO
+additive manufactured: MANP
+
+surface finishing: MANP
+components: MACEQ
+additive manufacturing: MANP
+
+surface finish: FEAT
+additive manufactured: MANP
+as: MATE
+transfer lines: CONPRI
+cooling: MANP
+
+surface finishing: MANP
+surface finishing: MANP
+additive manufactured: MANP
+
+surface finishing: MANP
+AlSi10Mg: MATE
+manufactured: CONPRI
+direct metal laser sintering: MANP
+
+surface finish: FEAT
+cavitation: CONPRI
+abrasive: MATE
+process parameters: CONPRI
+fluid: MATE
+fluid: MATE
+abrasive: MATE
+
+process: CONPRI
+surface finish: FEAT
+
+surface morphology: CHAR
+material: MATE
+mechanism: CONPRI
+
+surface integrity: FEAT
+microstructure: CONPRI
+surface: CONPRI
+hardness: PRO
+residual stress: PRO
+
+surface topography: CONPRI
+
+surface texture: FEAT
+parameters: CONPRI
+flatness: PRO
+surface: CONPRI
+surface finishing: MANP
+
+process: CONPRI
+additive manufactured: MANP
+
+Additive manufacturing: MANP
+be: MATE
+
+laser: ENAT
+AlSi10Mg: MATE
+material: MATE
+
+laser: ENAT
+welding: MANP
+Yb: MATE
+YAG: MATE
+laser: ENAT
+
+laser: ENAT
+power: PARA
+workpiece surface: CONPRI
+
+AlSi10Mg: MATE
+material: MATE
+SLM: MANP
+
+material: MATE
+corrosion resistance: CONPRI
+electrical conductivity: PRO
+thermal conductivity: PRO
+
+AlSi10Mg: MATE
+be: MATE
+print: MANP
+steel materials: MATE
+material: MATE
+prototype: CONPRI
+production: MANP
+
+welding: MANP
+laser welding: MANP
+material: MATE
+AlSi10Mg: MATE
+strength: PRO
+weld: FEAT
+material: MATE
+
+AlSi10Mg: MATE
+be: MATE
+be: MATE
+composition: CONPRI
+
+Additive manufacturing: MANP
+prototypes: CONPRI
+metal additive manufacturing: MANP
+
+metal additive manufacturing: MANP
+gas metal arc welding: MANP
+GMAW: MANP
+
+wire and arc additive manufacturing: MANP
+WAAM: MANP
+cold metal transfer: MANP
+CMT: MANP
+welding: MANP
+equipment: MACEQ
+CNC milling: MANP
+heat accumulation: PRO
+GMAW: MANP
+equipment: MACEQ
+surface finish: FEAT
+milling: MANP
+
+Additive: MATE
+material: MATE
+
+material: MATE
+additive: MATE
+
+material: MATE
+additive: MATE
+
+electrical: APPL
+material: MATE
+machining: MANP
+additive: MATE
+hybrid manufacturing: CONPRI
+
+manufacturing processes: MANP
+machine tool: MACEQ
+data: CONPRI
+sample process: CONPRI
+
+processes: CONPRI
+electrical: APPL
+as: MATE
+material: MATE
+
+hybrid manufacturing: CONPRI
+milling: MANP
+material: MATE
+
+electrical: APPL
+selective laser melting: MANP
+material: MATE
+data: CONPRI
+
+electrical: APPL
+material: MATE
+technologies: CONPRI
+gain: PARA
+sustainable manufacturing: CONPRI
+
+chemical composition: CONPRI
+metal: MATE
+be: MATE
+
+chemical composition: CONPRI
+be: MATE
+process: CONPRI
+
+additive manufacturing: MANP
+AM: MANP
+additive manufacturing: MANP
+arc welding: MANP
+metal: MATE
+melted: CONPRI
+arc: CONPRI
+
+mechanical: APPL
+properties: CONPRI
+be: MATE
+materials: CONPRI
+AM: MANP
+
+thermal stress: PRO
+residual stress: PRO
+interface: CONPRI
+materials: CONPRI
+
+chemical composition: CONPRI
+metal: MATE
+interface: CONPRI
+
+chemical compositions: CONPRI
+materials boundary: CONPRI
+
+chemical composition: CONPRI
+metal: MATE
+molten pool: CONPRI
+deposition process: MANP
+
+chemical composition: CONPRI
+interface: CONPRI
+
+Selective laser melting: MANP
+SLM: MANP
+industry: APPL
+
+Residual deformations: CONPRI
+internal stresses: PRO
+melting: MANP
+metal powder: MATE
+transient: CONPRI
+cooling: MANP
+quality: CONPRI
+process: CONPRI
+
+cracking: CONPRI
+lead: MATE
+
+additively manufactured: MANP
+production: MANP
+
+manufacturing process: MANP
+CAE: ENAT
+SLM: MANP
+process: CONPRI
+
+ANSYS: APPL
+Additive: MATE
+ANSYS: APPL
+Additive: MATE
+Additive: MATE
+software: CONPRI
+ANSYS: APPL
+Additive: MATE
+software: CONPRI
+Finite Element Methods: CONPRI
+FEM: CONPRI
+residual deformations: CONPRI
+
+calibration: CONPRI
+validation geometries: CONPRI
+SLM: MANP
+residual deformations: CONPRI
+3D scanning: CHAR
+
+calibration: CONPRI
+isotropic: PRO
+anisotropic: PRO
+sensitivity analyses: CONPRI
+model: CONPRI
+
+validation: CONPRI
+sample geometries: CONPRI
+wall thickness: FEAT
+deformation: CONPRI
+simulation: ENAT
+qualitative: CONPRI
+residual deformations: CONPRI
+accurate: CHAR
+
+accurate: CHAR
+calibrated: CONPRI
+
+geometries: CONPRI
+
+modelling: ENAT
+as: MATE
+as: MATE
+set: APPL
+material: MATE
+
+calibration: CONPRI
+material: MATE
+database: ENAT
+process simulation: ENAT
+industrial: APPL
+
+Mg: MATE
+WAAM: MANP
+
+Mg: MATE
+tensile strength: PRO
+hardness: PRO
+WAAM: MANP
+component: MACEQ
+
+WAAM: MANP
+component: MACEQ
+Al-Mg alloy: MATE
+lattice: CONPRI
+Mg: MATE
+
+Mg: MATE
+evaporated: MANP
+welding: MANP
+wire + arc additive manufacturing: MANP
+WAAM: MANP
+composition: CONPRI
+mechanical: APPL
+
+Mg: MATE
+WAAM: MANP
+alloy: MATE
+Mg: MATE
+mechanical properties: CONPRI
+chemical composition: CONPRI
+mechanical properties: CONPRI
+
+Mg: MATE
+distribution: CONPRI
+WAAM: MANP
+component: MACEQ
+element: MATE
+fusion zone: CONPRI
+substrate: MATE
+
+Mg: MATE
+tensile strength: PRO
+average: CONPRI
+WAAM: MANP
+component: MACEQ
+elongation: PRO
+
+WAAM: MANP
+alloy: MATE
+Mg: MATE
+lattice: CONPRI
+solubility: PRO
+Al: MATE
+WAAM: MANP
+
+Ring rolling: MANP
+forming process: MANP
+dimensions: FEAT
+cross sections: CONPRI
+
+mm: MANP
+diameter: CONPRI
+mechanical: APPL
+rolling: MANP
+machines: MACEQ
+be: MATE
+
+design: FEAT
+rolling mill: MACEQ
+productivity: CONPRI
+precursor: MATE
+
+mechanical: APPL
+machines: MACEQ
+process chain: ENAT
+shearing: MANP
+forging: MANP
+ring rolling: MANP
+as: MATE
+process: CONPRI
+
+cross sections: CONPRI
+forming: MANP
+geometry: CONPRI
+
+flexibility: PRO
+process: CONPRI
+additive manufacturing processes: MANP
+as: MATE
+additive manufacturing: MANP
+WAAM: MANP
+ring rolling: MANP
+process: CONPRI
+
+WAAM: MANP
+arc welding: MANP
+various materials: MATE
+high deposition rates: PARA
+
+cross section: CONPRI
+be: MATE
+ring rolling: MANP
+be: MATE
+
+research: CONPRI
+ring rolling: MANP
+additively manufactured: MANP
+
+hot forming: MANP
+WAAM: MANP
+ring rolling: MANP
+
+microstructure evolution: CONPRI
+mechanical properties: CONPRI
+be: MATE
+
+3D printed: MANP
+jigs: MACEQ
+
+design: FEAT
+jigs: MACEQ
+jig: MACEQ
+
+Additive manufactured parts: APPL
+production: MANP
+jigs: MACEQ
+orientations: CONPRI
+
+machining: MANP
+jigs: MACEQ
+be: MATE
+3D printing: MANP
+jigs: MACEQ
+precision: CHAR
+as: MATE
+as: MATE
+designed: FEAT
+
+components: MACEQ
+be: MATE
+laser welding: MANP
+wrought: CONPRI
+
+welding: MANP
+EBM: MANP
+build direction: PARA
+weld bead: CONPRI
+
+Microhardness: CONPRI
+microstructure: CONPRI
+
+Tensile properties: PRO
+EBM: MANP
+base metal: MATE
+defects: CONPRI
+
+mechanism: CONPRI
+stress: PRO
+columnar grains: PRO
+defects: CONPRI
+
+Electron beam melting: MANP
+EBM: MANP
+additive manufacturing process: MANP
+components: MACEQ
+Ti-6Al-4V: MATE
+
+EBM: MANP
+fabricating: MANP
+components: MACEQ
+joining: MANP
+Ti-6Al-4V: MATE
+wrought: CONPRI
+laser welding: MANP
+welding: MANP
+EBM: MANP
+build direction: PARA
+weld bead: CONPRI
+as: MATE
+
+welding: MANP
+microstructure: CONPRI
+microhardness: CONPRI
+base metals: MATE
+fusion zone: CONPRI
+as: MATE
+as: MATE
+macro: FEAT
+
+microhardness: CONPRI
+microstructure: CONPRI
+macro: FEAT
+properties: CONPRI
+EBM: MANP
+base metal: MATE
+defects: CONPRI
+EBM: MANP
+
+welding: MANP
+tensile strengths: PRO
+elongation: PRO
+as: MATE
+welding: MANP
+
+mechanism: CONPRI
+stress: PRO
+EBM: MANP
+base metal: MATE
+stress: PRO
+columnar grains: PRO
+defects: CONPRI
+
+Wire-arc additive manufacturing: MANP
+WAAM: MANP
+build rates: CHAR
+
+standard layer-by-layer: CONPRI
+build rate: CHAR
+contour: FEAT
+build rate: CHAR
+
+WAAM: MANP
+profile: FEAT
+weld bead: CONPRI
+
+build rate: CHAR
+layer: PARA
+be: MATE
+
+tool path: CONPRI
+
+Mathematical: CONPRI
+weld beads: CONPRI
+volume: CONPRI
+
+manufacturing: MANP
+mild steel: MATE
+
+boundary: FEAT
+
+ceramic-metal: MATE
+electrical: APPL
+corrosion resistance: CONPRI
+mechanical: APPL
+
+Ultrasonic additive manufacturing: MANP
+UAM: MANP
+temperature: PARA
+process: CONPRI
+material: MATE
+brittle: PRO
+
+zirconia: MATE
+YSZ: MATE
+Al: MATE
+UAM: MANP
+
+UAM: MANP
+composite: MATE
+joining: MANP
+ceramics: MATE
+metals: MATE
+temperature: PARA
+melting point: PRO
+aluminum: MATE
+
+welding interface: FEAT
+diffusion: CONPRI
+optical microscopy: CHAR
+X-ray: CHAR
+EDX: CHAR
+spectroscopy: CONPRI
+
+shear strengths: PRO
+heat-treated: MANP
+composites: MATE
+MPa: CONPRI
+MPa: CONPRI
+
+deformation: CONPRI
+failure mechanism: PRO
+composites: MATE
+finite element: CONPRI
+
+Additive manufacturing: MANP
+Polypropylene: MATE
+Al-Mg alloy: MATE
+
+joint: CONPRI
+welding: MANP
+mechanical: APPL
+
+Additive: MATE
+pattern: CONPRI
+temperature: PARA
+mechanical: APPL
+
+joining: MANP
+polymer: MATE
+
+Fused Deposition Modeling: MANP
+Polypropylene filament: MATE
+lap joint: CONPRI
+Polypropylene: MATE
+Al-Mg alloy: MATE
+substrate: MATE
+additive: MATE
+mechanical: APPL
+additive: MATE
+aluminum: MATE
+sheet: MATE
+
+joint interface: CONPRI
+area: PARA
+diameter: CONPRI
+mm: MANP
+preheating: MANP
+temperature: PARA
+mechanical properties: CONPRI
+
+joint interface: CONPRI
+area: PARA
+N: MATE
+N: MATE
+
+Preheating: MANP
+joint: CONPRI
+polymer: MATE
+additive: MATE
+adhesion: PRO
+
+Tungsten: MATE
+as: MATE
+plasma: CONPRI
+facing: MANP
+fusion: CONPRI
+temperature: PARA
+
+manufacturing: MANP
+tungsten: MATE
+geometries: CONPRI
+
+Additive manufacturing: MANP
+structural integrity: PRO
+
+thermomechanical: CONPRI
+simulations: ENAT
+in situ: CONPRI
+transition: CONPRI
+
+temperature: PARA
+K: MATE
+K: MATE
+be: MATE
+
+area: PARA
+residual stress: PRO
+morphology: CONPRI
+local orientation: CONPRI
+principal stress: PRO
+
+additively manufactured: MANP
+
+heating: MANP
+cooling: MANP
+additive manufactured: MANP
+metal deposition: CONPRI
+LMD: MANP
+components: MACEQ
+dimensional accuracy: CHAR
+cracking: CONPRI
+
+welding: MANP
+simulations: ENAT
+prediction: CONPRI
+optimization: CONPRI
+
+simulation: ENAT
+experimental: CONPRI
+be: MATE
+mechanical: APPL
+LMD: MANP
+geometry: CONPRI
+sample: CONPRI
+stainless steel: MATE
+
+in-situ digital image correlation: CONPRI
+simulation: ENAT
+
+benchmark: MANS
+performance: CONPRI
+welding: MANP
+simulation: ENAT
+additive manufacturing: MANP
+accuracy: CHAR
+
+Welding: MANP
+metals: MATE
+metals: MATE
+metallic glasses: MATE
+
+MG: MATE
+stainless steel: MATE
+SS: MATE
+LFP: MATE
+additive manufacturing: MANP
+MG: MATE
+laser: ENAT
+layer-by-layer: CONPRI
+SS: MATE
+transition: CONPRI
+
+SS: MATE
+V: MATE
+Ti: MATE
+Zr: MATE
+MG: MATE
+
+welding: MANP
+MG: MATE
+SS: MATE
+lead: MATE
+brittle: PRO
+welded: MANP
+MG: MATE
+SS: MATE
+be: MATE
+
+chemical composition: CONPRI
+energy dispersive spectroscopy: CHAR
+X-ray diffraction: CHAR
+
+materials: CONPRI
+base metals: MATE
+metals: MATE
+intermetallics: MATE
+joint: CONPRI
+
+bonding: CONPRI
+strength: PRO
+SS: MATE
+MG: MATE
+MPa: CONPRI
+
+manufacturing: MANP
+components: MACEQ
+titanium alloy Ti-6Al-4 V: MATE
+industrial sectors: CONPRI
+
+production: MANP
+Ti-6Al-4 V: MATE
+components: MACEQ
+forging: MANP
+tolerances: PARA
+machining: MANP
+
+technologies: CONPRI
+as: MATE
+additive manufacturing: MANP
+AM: MANP
+material: MATE
+
+AM: MANP
+forging: MANP
+be: MATE
+processes: CONPRI
+process chains: ENAT
+
+investigates: CONPRI
+Wire-Arc additive manufacturing: MANP
+WAAM: MANP
+hybrid manufacturing: CONPRI
+Ti-6Al-4 V: MATE
+aerospace components: MACEQ
+
+process: CONPRI
+forming: MANP
+AM processes: MANP
+
+process: CONPRI
+WAAM: MANP
+process: CONPRI
+
+be: MATE
+forming: MANP
+contour: FEAT
+
+process: CONPRI
+workpiece: CONPRI
+WAAM: MANP
+
+hybrid technologies: ENAT
+WAAM: MANP
+forging: MANP
+Ti-6Al-4 V: MATE
+production: MANP
+
+WAAM: MANP
+forging: MANP
+microstructures: MATE
+Ti-6Al-4 V alloy: MATE
+tensile properties: PRO
+specification: PARA
+cast: MANP
+Ti-6Al-4 V material: MATE
+
+WAAM: MANP
+mechanical properties: CONPRI
+technologies: CONPRI
+
+WAAM: MANP
+forging: MANP
+be: MATE
+manufacturing chains: CONPRI
+material: MATE
+flexibility: PRO
+forging: MANP
+
+joining: MANP
+aluminium: MATE
+composite: MATE
+sheets: MATE
+
+Wire arc additive manufacturing: MANP
+joining: MANP
+forming: MANP
+fabricate: MANP
+mechanical: APPL
+sheets: MATE
+
+limits: CONPRI
+model: CONPRI
+plastic deformation: PRO
+fracture: CONPRI
+
+Experimental: CONPRI
+finite element modelling: CHAR
+joining: MANP
+design: FEAT
+model: CONPRI
+
+joining: MANP
+design: FEAT
+aluminium: MATE
+
+Additive Manufacturing: MANP
+AM: MANP
+metals: MATE
+alloys: MATE
+
+Directed Energy Deposition: MANP
+DED: MANP
+Powder Bed Fusion: MANP
+PBF: MANP
+
+AM: MANP
+traditional manufacturing: MANP
+
+complex shape: PRO
+
+welding: MANP
+as: MATE
+component: MACEQ
+
+as: MATE
+AM: MANP
+DED: MANP
+
+PBF: MANP
+surface: CONPRI
+
+DED: MANP
+PBF: MANP
+surface finishing: MANP
+performance: CONPRI
+components: MACEQ
+heat treatment: MANP
+
+Modelling: ENAT
+AM: MANP
+as: MATE
+be: MATE
+product quality: CONPRI
+material: MATE
+
+finite element method: CONPRI
+processes: CONPRI
+superalloys: MATE
+
+Additive Manufacturing: MANP
+as: MATE
+industrial: APPL
+manufacturing: MANP
+complex geometry: CONPRI
+
+metal additive manufacturing: MANP
+thermo-mechanical distortion: CONPRI
+build: PARA
+heat: CONPRI
+
+strain: PRO
+as: MATE
+Metal Powder Bed Fusion Additive Manufacturing: MANP
+process: CONPRI
+laser: ENAT
+pattern: CONPRI
+layer: PARA
+printing process: MANP
+
+pattern: CONPRI
+model: CONPRI
+be: MATE
+quality: CONPRI
+
+neural network: CONPRI
+strain: PRO
+pattern: CONPRI
+build: PARA
+
+temperature: PARA
+profile: FEAT
+heat affected zone: CONPRI
+layer: PARA
+model: CONPRI
+
+pattern: CONPRI
+thermo-mechanical: CONPRI
+simulation: ENAT
+temperature: PARA
+profiles: FEAT
+layer: PARA
+simulation: ENAT
+
+neural network: CONPRI
+data: CONPRI
+pattern: CONPRI
+
+data: CONPRI
+pattern: CONPRI
+prediction: CONPRI
+neural network: CONPRI
+
+neural network: CONPRI
+strain: PRO
+pattern: CONPRI
+error: CONPRI
+
+neural network: CONPRI
+strain: PRO
+pattern: CONPRI
+pattern optimization: CONPRI
+model: CONPRI
+build: PARA
+accuracy: CHAR
+GD: MATE
+
+manufacturing process: MANP
+metal: MATE
+3D printing: MANP
+stainless steel material: MATE
+Structural Engineering: CONPRI
+
+structural design: FEAT
+Additive Manufactured: MANP
+steel: MATE
+imperfections: CONPRI
+be: MATE
+material properties: CONPRI
+orientation: CONPRI
+elements: MATE
+
+experimental: CONPRI
+mechanical: APPL
+Additive Manufactured: MANP
+steel elements: MATE
+geometry: CONPRI
+mechanical: APPL
+manufactured: CONPRI
+steel material: MATE
+
+Additive Manufacturing: MANP
+metallic: MATE
+elements: MATE
+engineering: APPL
+
+research: CONPRI
+technologies: CONPRI
+as: MATE
+Bed Fusion: MANP
+Additive Manufactured: MANP
+WAAM: MANP
+metallic elements: MATE
+as: MATE
+experimental: CONPRI
+mechanical properties: CONPRI
+
+experimental: CONPRI
+mechanical properties: CONPRI
+Additive Manufactured: MANP
+WAAM: MANP
+stainless steel material: MATE
+Topography: CHAR
+Structural Engineering: CONPRI
+
+surface: CONPRI
+material: MATE
+properties: CONPRI
+tensile: PRO
+compressive strengths: PRO
+elastic: PRO
+
+tools: MACEQ
+variability: CONPRI
+mechanical: APPL
+
+rapid prototyping: ENAT
+modelling: ENAT
+extruder: MACEQ
+deposition: CONPRI
+Metal: MATE
+Extrusion: MANP
+Bonding: CONPRI
+additive manufacturing: MANP
+AM: MANP
+process: CONPRI
+aluminium alloys: MATE
+
+process: CONPRI
+joining: MANP
+extruder: MACEQ
+design: FEAT
+welding: MANP
+
+AM process: MANP
+welding: MANP
+process: CONPRI
+extruder: MACEQ
+design: FEAT
+
+Plastic: MATE
+rapid prototyping: ENAT
+
+performance: CONPRI
+design: FEAT
+processed: CONPRI
+machine bed: MACEQ
+
+testing: CHAR
+as: MATE
+design: FEAT
+process: CONPRI
+be: MATE
+
+Qualitative: CONPRI
+mechanism: CONPRI
+surface tension: PRO
+
+forces: CONPRI
+mechanism: CONPRI
+
+Quantitative: CONPRI
+surface tension: PRO
+surface: CONPRI
+shear stress: PRO
+distribution: CONPRI
+
+3D: CONPRI
+solidification parameters: CONPRI
+
+prediction: CONPRI
+solidified microstructure: PRO
+
+transient three-dimensional: CONPRI
+model: CONPRI
+surface tension: PRO
+welding: MANP
+metallurgical: APPL
+laser: ENAT
+welding: MANP
+stainless steel: MATE
+
+Numerical simulation: ENAT
+experimental: CONPRI
+surface tension: PRO
+mechanism: CONPRI
+solidification: CONPRI
+
+temperature: PARA
+force: CONPRI
+surface tension: PRO
+surface: CONPRI
+shear stress: PRO
+quantitatively: CONPRI
+
+dimensional analysis: CHAR
+forces: CONPRI
+
+metallurgical: APPL
+model: CONPRI
+solidification parameters: CONPRI
+
+Temperature gradient: PARA
+be: MATE
+melt pool: MATE
+thermal conductivity: PRO
+
+surface tension: PRO
+surface tension: PRO
+area: PARA
+
+shear stress: PRO
+
+solidification parameters: CONPRI
+morphology: CONPRI
+prediction: CONPRI
+experimental: CONPRI
+
+surface tension: PRO
+solidification: CONPRI
+melt pool: MATE
+welding: MANP
+additive manufacturing process: MANP
+
+microstructure evolution: CONPRI
+tensile properties: PRO
+welded: MANP
+heat treatments: MANP
+
+heat treatment: MANP
+O: MATE
+O: MATE
+phase: CONPRI
+microstructural: CONPRI
+
+O: MATE
+microstructure: CONPRI
+heat affected zone: CONPRI
+O: MATE
+residual: CONPRI
+O: MATE
+O as: MATE
+base metal: MATE
+
+As: MATE
+microstructure: CONPRI
+heat affected zone: CONPRI
+O: MATE
+O: MATE
+base metal: MATE
+O: MATE
+O: MATE
+O: MATE
+fusion zone: CONPRI
+
+fusion zone: CONPRI
+O: MATE
+O: MATE
+O: MATE
+O: MATE
+
+O: MATE
+tensile strength: PRO
+strengthening: MANP
+O: MATE
+
+phase: CONPRI
+tensile strength: PRO
+
+plastic deformation: PRO
+temperature: PARA
+heat treatments: MANP
+O: MATE
+
+ductility: PRO
+heat-treated: MANP
+temperature: PARA
+O: MATE
+
+heat-treated: MANP
+ductility: PRO
+O: MATE
+volume fraction: PARA
+O: MATE
+
+Corrosion resistance: CONPRI
+carbon steel: MATE
+high speed steel: MATE
+
+Wear resistance: PRO
+carbon steel: MATE
+high speed steel: MATE
+
+Submerged arc welding: MANP
+technology: CONPRI
+wear: CONPRI
+corrosion resistance: CONPRI
+carbon steel: MATE
+
+steel: MATE
+HSS: MATE
+hot rolling: MANP
+wear: CONPRI
+corrosion: CONPRI
+
+surface property: CONPRI
+metal materials: MATE
+submerged arc welding: MANP
+industrial: APPL
+additive manufacturing: MANP
+
+resistance: PRO
+carbon steel: MATE
+corrosion: CONPRI
+wear: CONPRI
+
+HSS: MATE
+carbon steel: MATE
+
+Electrochemical corrosion: CONPRI
+wear: CONPRI
+corrosion: CONPRI
+tribological: CONPRI
+HSS: MATE
+
+wear: CONPRI
+corrosion behaviors: PRO
+potentiodynamic polarization: CHAR
+electrochemical: CONPRI
+spectroscopy: CONPRI
+wear: CONPRI
+coefficient of friction: PRO
+surface morphology: CHAR
+
+experimental: CONPRI
+corrosion: CONPRI
+density: PRO
+carbon steel: MATE
+HSS alloy: MATE
+
+resistance: PRO
+carbon steel: MATE
+resistance: PRO
+HSS: MATE
+
+corrosion resistance: CONPRI
+carbon steel: MATE
+HSS: MATE
+
+wear: CONPRI
+carbon steel: MATE
+carbon steel: MATE
+wear: CONPRI
+HSS: MATE
+
+wear: CONPRI
+carbon steel: MATE
+HSS: MATE
+
+wear resistance: PRO
+carbon steel: MATE
+HSS: MATE
+
+deposition: CONPRI
+heat dissipation: CONPRI
+three-dimensional: CONPRI
+substrate: MATE
+layer: PARA
+
+residual distortion: CONPRI
+be: MATE
+
+distortion: CONPRI
+be: MATE
+
+stress concentration: CHAR
+arc: CONPRI
+stress: PRO
+model: CONPRI
+model: CONPRI
+
+residual stress: PRO
+distortion: CONPRI
+wire arc additive manufacturing: MANP
+WAAM: MANP
+impact: CONPRI
+production: MANP
+
+WAAM: MANP
+heat: CONPRI
+residual stress: PRO
+distortion: CONPRI
+deposition: CONPRI
+
+temperature: PARA
+distortion: CONPRI
+residual stress: PRO
+
+variations: CONPRI
+temperature: PARA
+stress: PRO
+distortion: CONPRI
+model: CONPRI
+wire arc additive manufacturing: MANP
+model: CONPRI
+
+stress distribution: PRO
+
+experimental: CONPRI
+temperature gradient: PARA
+plastic: MATE
+distortion: CONPRI
+solidification: CONPRI
+
+layer by layer: CONPRI
+additive manufacturing: MANP
+
+configuration: CONPRI
+lead: MATE
+manufacturing: MANP
+failure: CONPRI
+be: MATE
+methodology: CONPRI
+
+methodology: CONPRI
+manufacturing: MANP
+additive manufacturing: MANP
+PLA: MATE
+deposition: CONPRI
+
+manufactured: CONPRI
+accuracy: CHAR
+dispersion: CONPRI
+manufactured: CONPRI
+
+additive manufacturing: MANP
+Directed Energy Deposition: MANP
+DED: MANP
+robot: MACEQ
+
+layer-by-layer: CONPRI
+optimization: CONPRI
+
+layer-by-layer: CONPRI
+robot: MACEQ
+PLA: MATE
+extrusion: MANP
+
+Experimental: CONPRI
+layer-by-layer: CONPRI
+optimization: CONPRI
+accuracy: CHAR
+manufacturing: MANP
+
+cold metal transfer additive manufacturing: MANP
+Ti-6Al-4V: MATE
+structure: CONPRI
+ultrasonic peening: MANP
+grains: CONPRI
+grains: CONPRI
+anisotropy: PRO
+tensile properties: PRO
+
+experimental: CONPRI
+weld: FEAT
+arc: CONPRI
+surface: CONPRI
+plastic deformation: PRO
+grain refinement: CHAR
+
+microstructure: CONPRI
+dislocations: CONPRI
+structure: CONPRI
+
+grains: CONPRI
+mechanical: APPL
+temperature range: PARA
+temperature: PARA
+liquidus: CONPRI
+Tl: MATE
+
+properties: CONPRI
+indentation: CONPRI
+ultimate tensile strength: PRO
+reduction: CONPRI
+anisotropic: PRO
+tensile tests: CHAR
+
+additively manufactured: MANP
+CMT: MANP
+
+Martensite: MATE
+FZ: CONPRI
+martensite: MATE
+layer: PARA
+
+orientation: CONPRI
+fiber: MATE
+layer: PARA
+properties: CONPRI
+microstructural evolution: CONPRI
+
+cold metal transfer: MANP
+CMT: MANP
+welding: MANP
+wire-arc additive manufacturing: MANP
+WAAM: MANP
+technology: CONPRI
+manufacture: CONPRI
+
+microstructural evolution: CONPRI
+properties: CONPRI
+
+martensite: MATE
+ferrite: MATE
+epitaxial: PRO
+grains: CONPRI
+martensite: MATE
+layer: PARA
+
+Fe: MATE
+segregation: CONPRI
+process: CONPRI
+Fe: MATE
+Cr: MATE
+cooling: MANP
+layer: PARA
+
+ferrite: MATE
+fiber: MATE
+layer: PARA
+orientation: CONPRI
+
+properties: CONPRI
+microstructural: CONPRI
+
+experimental: CONPRI
+properties: CONPRI
+base metal: MATE
+elastic moduli: PRO
+samples: CONPRI
+
+Titanium alloys: MATE
+strength: PRO
+weight: PARA
+creep: PRO
+temperature: PARA
+strength properties: PRO
+
+properties: CONPRI
+Ti alloys: MATE
+as: MATE
+material: MATE
+aerospace industry: APPL
+as: MATE
+gear: MACEQ
+
+fabrication: MANP
+Ti alloy: MATE
+mechanical properties: CONPRI
+
+technology: CONPRI
+Feed: PARA
+Additive Manufacturing: MANP
+fabrication: MANP
+titanium: MATE
+alloys: MATE
+
+set: APPL
+trend: CONPRI
+production: MANP
+components: MACEQ
+complexity: CONPRI
+
+additive manufacturing: MANP
+material utilization: CHAR
+deposition: CONPRI
+
+art: APPL
+processes: CONPRI
+process parameters: CONPRI
+microstructural: CONPRI
+residual stresses: PRO
+mechanical properties: CONPRI
+Ti-6Al-4V alloy: MATE
+
+Accurate: CHAR
+weld: FEAT
+defects: CONPRI
+robotic welding manufacturing: MANP
+complexity: CONPRI
+weld: FEAT
+defects: CONPRI
+
+defects: CONPRI
+aluminum alloy: MATE
+arc welding: MANP
+Neural Networks: CONPRI
+weld: FEAT
+images: CONPRI
+
+image: CONPRI
+weld: FEAT
+images: CONPRI
+weld: FEAT
+images: CONPRI
+seam: MANP
+
+classification: CONPRI
+weld: FEAT
+image: CONPRI
+designed: FEAT
+weld penetration defects: CONPRI
+
+robustness: PRO
+model: CONPRI
+weld: FEAT
+images: CONPRI
+welding: MANP
+model: CONPRI
+
+industry: APPL
+as: MATE
+welding: MANP
+arc: CONPRI
+complexity: CONPRI
+welding: MANP
+data: CONPRI
+image: CONPRI
+parameters optimization: CONPRI
+
+arc: CONPRI
+as: MATE
+model: CONPRI
+arc: CONPRI
+
+model: CONPRI
+performance: CONPRI
+classification: CONPRI
+accuracy: CHAR
+
+manufacturing: MANP
+metal additive manufacturing: MANP
+AM: MANP
+laser welding: MANP
+
+temperature: PARA
+heat exchanger: MACEQ
+fabricated: CONPRI
+
+heat exchanger core: MACEQ
+3D printed: MANP
+Inconel 718: MATE
+DMLS: MANP
+
+heat exchanger: MACEQ
+inlet: MACEQ
+
+experimental: CONPRI
+model: CONPRI
+
+heat transfer density: PARA
+heat exchangers: MACEQ
+
+additively manufactured: MANP
+heat exchanger: MACEQ
+Inconel 718: MATE
+temperature: PARA
+aerospace: APPL
+
+heat exchanger core: MACEQ
+mm: MANP
+mm: MANP
+mm: MANP
+fabricated: CONPRI
+as: MATE
+direct metal laser sintering: MANP
+
+welding: MANP
+additively manufactured: MANP
+heat exchanger core: MACEQ
+manufactured: CONPRI
+fabrication: MANP
+
+heat exchanger: MACEQ
+nitrogen: MATE
+N2: MATE
+as: MATE
+fluids: MATE
+
+heat: CONPRI
+heat transfer: CONPRI
+
+experimental: CONPRI
+model: CONPRI
+heat transfer: CONPRI
+pressure: CONPRI
+prediction: CONPRI
+additively manufactured: MANP
+heat exchanger: MACEQ
+
+heat exchangers: MACEQ
+heat transfer: CONPRI
+heat: CONPRI
+performance: CONPRI
+
+3D: CONPRI
+fluid flow: PRO
+deposition: CONPRI
+wire and arc additive manufacture: MANP
+
+heat source: CONPRI
+free surface deformation: CONPRI
+
+morphology: CONPRI
+molten pool: CONPRI
+deposited bead: CHAR
+WAAM: MANP
+process: CONPRI
+CFD: APPL
+
+heat dissipation: CONPRI
+radiation: MANP
+deposition: CONPRI
+
+three-dimensional: CONPRI
+model: CONPRI
+fluid flow: PRO
+heat transfer: CONPRI
+deposition: CONPRI
+plasma arc welding: MANP
+PAW: MANP
+wire and arc additive manufacture: MANP
+WAAM: MANP
+
+volume of fluid: CONPRI
+VOF: CONPRI
+porosity: PRO
+molten pool free surface: CONPRI
+solidification: CONPRI
+
+heat source: CONPRI
+arc: CONPRI
+molten pool: CONPRI
+
+Transient: CONPRI
+simulations: ENAT
+layer: PARA
+
+deposited bead: CHAR
+weld pool: CONPRI
+predicted: CONPRI
+experimental: CONPRI
+
+layer: PARA
+deposition: CONPRI
+force: CONPRI
+fluid flow: PRO
+heat dissipation: CONPRI
+radiation: MANP
+
+As: MATE
+layer: PARA
+molten pool: CONPRI
+deposited bead: CHAR
+layer height: PARA
+
+layer: PARA
+deposition: CONPRI
+support: APPL
+molten pool: CONPRI
+Y: MATE
+
+profile: FEAT
+deposited bead: CHAR
+pressure: CONPRI
+surface tension: PRO
+pressure: CONPRI
+bead: CHAR
+
+profiles: FEAT
+dimensions: FEAT
+deposited bead: CHAR
+molten pool: CONPRI
+experimental: CONPRI
+images: CONPRI
+process: CONPRI
+camera: MACEQ
+
+directed energy deposition additive manufacturing: MANP
+AM: MANP
+production: MANP
+structural components: CONPRI
+powder bed fusion: MANP
+PBF: MANP
+AM: MANP
+
+melt pool: MATE
+PBF: MANP
+microstructure: CONPRI
+porosity: PRO
+mechanical: APPL
+technology: CONPRI
+
+Wire + Arc Additive Manufacturing: MANP
+WAAM: MANP
+austenitic: MATE
+bead: CHAR
+variation: CONPRI
+material properties: CONPRI
+build: PARA
+
+grain: CONPRI
+properties: CONPRI
+electron back scatter diffraction: ENAT
+build: PARA
+fit: CONPRI
+distribution: CONPRI
+
+X-ray diffraction: CHAR
+texture: FEAT
+build direction: PARA
+anisotropic: PRO
+predictions: CONPRI
+diffraction: CHAR
+
+mechanical: APPL
+accurately: CHAR
+model: CONPRI
+microstructure: CONPRI
+data: CONPRI
+as: MATE
+
+build: PARA
+porosity: PRO
+tensile strength: PRO
+MPa: CONPRI
+MPa: CONPRI
+
+Additively manufactured: MANP
+metallic material: MATE
+process control: CONPRI
+quality: CONPRI
+
+structural components: CONPRI
+
+feasibility: CONPRI
+laser metal deposition: MANP
+LMD: MANP
+additive manufacturing: MANP
+fuselage: MACEQ
+aluminum: MATE
+
+alloying elements: MATE
+arc: CONPRI
+additive manufactured: MANP
+WAAM: MANP
+stainless steel: MATE
+structure: CONPRI
+
+austenite: MATE
+ferrite: MATE
+layer: PARA
+droplet: CONPRI
+
+Ni: MATE
+Cr: MATE
+N: MATE
+austenite: MATE
+chromium: MATE
+as: MATE
+nucleation: CONPRI
+
+nitrogen: MATE
+austenite: MATE
+WA: MANP
+grain boundary: CONPRI
+austenite: MATE
+
+epitaxial: PRO
+texture: FEAT
+deposition direction: PARA
+orientations: CONPRI
+austenite: MATE
+
+orientations: CONPRI
+austenite: MATE
+
+Cube: CONPRI
+austenite: MATE
+recrystallization: CONPRI
+Brass: MATE
+Brass: MATE
+Cu: MATE
+F: MANP
+austenite: MATE
+
+interphase: CONPRI
+boundaries: FEAT
+austenite: MATE
+ferrite: MATE
+orientation: CONPRI
+
+fabrication: MANP
+additive: MATE
+austenite: MATE
+mechanical properties: CONPRI
+
+microstructure: CONPRI
+engineering: APPL
+MPa: CONPRI
+yield strength: PRO
+
+Wire + Arc Additively Manufactured: MANP
+WAAM: MANP
+Inconel: MATE
+Laves phase: CONPRI
+microstructure: CONPRI
+
+heat treatment: MANP
+Laves phase: CONPRI
+phase: CONPRI
+
+grain structure: CONPRI
+heat treatments: MANP
+anisotropy: PRO
+temperature: PARA
+properties: CONPRI
+
+temperature: PARA
+properties: CONPRI
+WAAM: MANP
+specifications: PARA
+cast: MANP
+wrought material: MATE
+
+Wire + Arc Additive Manufacturing: MANP
+WAAM: MANP
+be: MATE
+components: MACEQ
+materials: CONPRI
+as: MATE
+superalloys: MATE
+
+Inconel: MATE
+WAAM: MANP
+process: CONPRI
+weldability: PRO
+
+deposition: CONPRI
+WAAM: MANP
+IN718: MATE
+micro-segregation: CONPRI
+Laves phase: CONPRI
+
+WAAM: MANP
+process: CONPRI
+columnar grain: PRO
+fibre: MATE
+anisotropy: PRO
+grain structure: CONPRI
+
+microstructure: CONPRI
+be: MATE
+heat treatments: MANP
+
+heat treatment: MANP
+be: MATE
+Laves phase: CONPRI
+standard: CONPRI
+phase: CONPRI
+
+Tensile test: CHAR
+Laves: CONPRI
+lead: MATE
+ductility: PRO
+
+heat treatment: MANP
+anisotropy: PRO
+grain structure: CONPRI
+isotropic: PRO
+temperature: PARA
+properties: CONPRI
+specifications: PARA
+cast: MANP
+wrought material: MATE
+
+heat treatments: MANP
+microstructure: CONPRI
+WAAM: MANP
+IN718: MATE
+mechanical properties: CONPRI
+
+Powder bed fusion process: MANP
+additive manufacturing: MANP
+
+manufacturing: MANP
+layer by layer: CONPRI
+fusion: CONPRI
+
+heat source: CONPRI
+heat: CONPRI
+powder: MATE
+material: MATE
+cross section: CONPRI
+area: PARA
+
+laser beam: CONPRI
+electron beam: CONPRI
+infrared: CONPRI
+beam: MACEQ
+as: MATE
+tool: MACEQ
+
+process: CONPRI
+heating: MANP
+powder: MATE
+
+Powder bed fusion process: MANP
+engineering material: MATE
+as: MATE
+ceramics: MATE
+composites: MATE
+
+industrial sectors: CONPRI
+as: MATE
+aerospace: APPL
+
+powder bed fusion process: MANP
+
+selective laser melting: MANP
+SLM: MANP
+selective laser sintering: MANP
+SLS: MANP
+electron beam melting: MANP
+EBM: MANP
+
+Wire and arc additive manufacturing: MANP
+WAAM: MANP
+cold metal transfer: MANP
+CMT: MANP
+as: MATE
+source: APPL
+additive manufacturing: MANP
+magnesium alloys: MATE
+heat: CONPRI
+
+microstructure: CONPRI
+mechanical properties: CONPRI
+material: MATE
+
+average: CONPRI
+dendrite: BIOP
+volume fraction: PARA
+eutectic: CONPRI
+
+microstructure: CONPRI
+layer: PARA
+layer: PARA
+vertical: CONPRI
+columnar dendrites: MATE
+columnar dendrites: MATE
+
+layer: PARA
+dendrites: BIOP
+transition: CONPRI
+
+tensile properties: PRO
+anisotropic: PRO
+epitaxial: PRO
+building direction: PARA
+
+tensile properties: PRO
+variation: CONPRI
+microstructures: MATE
+
+microstructure evolution: CONPRI
+manufacturing: MANP
+
+Electrical Discharge Machining: MANP
+forming: MANP
+manufacture: CONPRI
+welding: MANP
+
+Additive Manufacturing: MANP
+
+Selective Laser Melting: MANP
+Metal Powder: MATE
+fusion: CONPRI
+
+Selective Laser Melting: MANP
+manufacture: CONPRI
+channel: APPL
+
+Metal Powder: MATE
+build: PARA
+components: MACEQ
+
+manufacturing: MANP
+fusion: CONPRI
+components: MACEQ
+as: MATE
+Helium: MATE
+Bed: MACEQ
+
+conventional manufacturing: MANP
+Electrical Discharge Machining: MANP
+EDM: MANP
+forming: MANP
+
+Additive Manufacturing: MANP
+AM: MANP
+as: MATE
+
+fabrication: MANP
+AM: MANP
+
+solid-state: CONPRI
+friction stir welding: MANP
+FSW: MANP
+process: CONPRI
+fabricated: CONPRI
+selective laser melting: MANP
+SLM: MANP
+
+welding: MANP
+process: CONPRI
+microstructural evolution: CONPRI
+mechanical properties: CONPRI
+samples: CONPRI
+
+Microstructural: CONPRI
+FSW: MANP
+Si: MATE
+phase morphologies: CONPRI
+
+mechanical properties: CONPRI
+
+welded joint: FEAT
+SLM: MANP
+samples: CONPRI
+
+friction stir welding: MANP
+reduction: CONPRI
+tensile strength: PRO
+ductility: PRO
+
+fatigue: PRO
+strain: PRO
+FSW: MANP
+SLM: MANP
+samples: CONPRI
+fatigue life: PRO
+strain: PRO
+SLM: MANP
+samples: CONPRI
+performance: CONPRI
+
+Fracture: CONPRI
+samples: CONPRI
+pores: PRO
+lead: MATE
+SLM: MANP
+FSW: MANP
+
+carbon fiber: MATE
+polymer: MATE
+composites: MATE
+aluminum alloy: MATE
+strengths: PRO
+MPa: CONPRI
+MPa: CONPRI
+
+joining: MANP
+carbon fiber: MATE
+composites: MATE
+metals: MATE
+ultrasonic additive manufacturing: MANP
+UAM: MANP
+
+UAM: MANP
+metal: MATE
+3D printing: MANP
+transition: CONPRI
+
+Joint: CONPRI
+mechanical: APPL
+tensile tests: CHAR
+UAM: MANP
+strengths: PRO
+MPa: CONPRI
+
+be: MATE
+cured: MANP
+be: MATE
+metal: MATE
+metal: MATE
+as: MATE
+transition: CONPRI
+
+metal: MATE
+
+failure modes: PRO
+failure: CONPRI
+failure: CONPRI
+
+joint failure: CONPRI
+be: MATE
+strength: PRO
+
+Welded joints: FEAT
+SLM: MANP
+CR: MATE
+steels: MATE
+laser welding: MANP
+
+heat conduction: CONPRI
+welding: MANP
+
+pre-heat treatment: MANP
+strength: PRO
+weldability: PRO
+
+hardness: PRO
+welding: MANP
+
+welded joints: FEAT
+strength: PRO
+SLM: MANP
+metal: MATE
+MPa: CONPRI
+
+additive manufacturing: MANP
+residual stresses: PRO
+
+additive manufacturing: MANP
+weld: FEAT
+wrought: CONPRI
+
+pre-heat treatment: MANP
+laser beam: CONPRI
+Selective Laser: MANP
+SLM: MANP
+stainless steel: MATE
+Cold Rolled: MANP
+CR: MATE
+stainless steel: MATE
+
+mechanical tests: CHAR
+welds: FEAT
+
+pre-heat treatment: MANP
+SLM: MANP
+welded joint: FEAT
+strength: PRO
+
+laser welding: MANP
+microstructure: CONPRI
+microhardness: CONPRI
+welds: FEAT
+
+additive manufacturing: MANP
+AM: MANP
+simulation: ENAT
+support: APPL
+experimental: CONPRI
+
+welding: MANP
+AM processes: MANP
+heating: MANP
+cooling: MANP
+
+numerical simulation: ENAT
+quality: CONPRI
+be: MATE
+in-situ: CONPRI
+post-process: CONPRI
+
+validation: CONPRI
+thermomechanical: CONPRI
+simulation: ENAT
+model: CONPRI
+Directed Energy Deposition: MANP
+DED: MANP
+heat: CONPRI
+model: CONPRI
+s: MATE
+quality: CONPRI
+in-situ deformation: CONPRI
+
+in-situ deformations: CONPRI
+Image: CONPRI
+shrinkage: CONPRI
+as: MATE
+
+stiffness: PRO
+geometry: CONPRI
+
+numerical simulation: ENAT
+model: CONPRI
+set: APPL
+experiment: CONPRI
+in-situ: CONPRI
+
+deformations: CONPRI
+substrate: MATE
+stress relaxation: CONPRI
+
+prediction: CONPRI
+deformed shape: PRO
+simulation: ENAT
+accuracy: CHAR
+model: CONPRI
+stiffness: PRO
+be: MATE
+finite element model: CONPRI
+
+components: MACEQ
+titanium alloy Ti-6Al-4V: MATE
+industries: APPL
+aerospace: APPL
+automotive: APPL
+medical: APPL
+
+components: MACEQ
+forging: MANP
+post processing: CONPRI
+
+forging: MANP
+dies: MACEQ
+components: MACEQ
+material: MATE
+
+machining: MANP
+machining: MANP
+geometry: CONPRI
+
+technologies: CONPRI
+as: MATE
+additive manufacturing: MANP
+AM: MANP
+support: APPL
+process chains: ENAT
+production: MANP
+
+additive manufacturing: MANP
+manufacturing costs: CONPRI
+
+production: MANP
+AM: MANP
+components: MACEQ
+
+hybrid manufacturing: CONPRI
+forging: MANP
+AM: MANP
+
+manufacturing: MANP
+forging: MANP
+dies: MACEQ
+near-net-shape: MANP
+
+as: MATE
+geometries: CONPRI
+be: MATE
+additive manufacturing: MANP
+
+investigates: CONPRI
+powder: MATE
+laser metal deposition: MANP
+wire-arc additive manufacturing: MANP
+WAAM: MANP
+hybrid manufacturing: CONPRI
+Ti-6Al-4V: MATE
+aerospace: APPL
+
+manufacturing: MANP
+AM: MANP
+technology: CONPRI
+
+metal: MATE
+exposure: CONPRI
+AM: MANP
+metallic: MATE
+component: MACEQ
+particle: CONPRI
+filters: APPL
+metal: MATE
+
+Particles: CONPRI
+recycled: CONPRI
+powder: MATE
+
+particle: CONPRI
+transient: CONPRI
+AM: MANP
+welding: MANP
+
+Particle: CONPRI
+recycled: CONPRI
+powder: MATE
+metals: MATE
+
+metals: MATE
+AM: MANP
+
+cobalt: MATE
+trend: CONPRI
+metals: MATE
+exposure: CONPRI
+exposure: CONPRI
+AM: MANP
+
+transient: CONPRI
+emission: CHAR
+particles: CONPRI
+exposure: CONPRI
+
+company: APPL
+metal: MATE
+exposure: CONPRI
+particles: CONPRI
+design: FEAT
+AM: MANP
+
+HDPE: MATE
+fabricated: CONPRI
+layer-by-layer: CONPRI
+welding: MANP
+plastic: MATE
+
+polymer: MATE
+performance: CONPRI
+surface: CONPRI
+
+weight: PARA
+polymer: MATE
+heat exchangers: MACEQ
+properties: CONPRI
+
+polymer: MATE
+heat exchanger: MACEQ
+polymer: MATE
+layer-by-layer: CONPRI
+welding: MANP
+laser: ENAT
+additive manufacturing process: MANP
+fabricated: CONPRI
+
+high density polyethylene: MATE
+
+experimental: CONPRI
+heat transfer: CONPRI
+K: MATE
+fluid: MATE
+flow rate: PARA
+flow rate: PARA
+
+fabricating: MANP
+heat exchanger: MACEQ
+resistance: PRO
+polymer: MATE
+heat exchangers: MACEQ
+resistance: PRO
+
+heat transfer: CONPRI
+polymer: MATE
+heat exchanger: MACEQ
+heat exchanger: MACEQ
+performance: CONPRI
+surfaces: CONPRI
+
+Additive manufacturing: MANP
+AM: MANP
+sheet metal: MATE
+sheet metal: MATE
+substrate: MATE
+
+design freedom: CONPRI
+AM: MANP
+be: MATE
+geometry: CONPRI
+
+heat: CONPRI
+cooling rates: PARA
+AM processes: MANP
+microstructure: CONPRI
+as: MATE
+as: MATE
+substrate: MATE
+forming: MANP
+
+laser: ENAT
+deposition: CONPRI
+LMD: MANP
+formability: PRO
+sheet metals: MATE
+
+process: CONPRI
+pores: PRO
+microstructure: CONPRI
+mechanical properties: CONPRI
+reinforced: CONPRI
+
+optical microscopy: CHAR
+hardness: PRO
+tensile tests: CHAR
+
+formability: PRO
+sheets: MATE
+reinforcement: PARA
+
+heat: CONPRI
+heat affected zone: CONPRI
+HAZ: CONPRI
+strength: PRO
+recrystallization: CONPRI
+lead: MATE
+failure: CONPRI
+forming process: MANP
+limits: CONPRI
+forming: MANP
+capacity: CONPRI
+reinforced: CONPRI
+metals: MATE
+
+laser heat: PARA
+properties: CONPRI
+HAZ: CONPRI
+
+Ti-6Al-4V: MATE
+samples: CONPRI
+electron beam melting: MANP
+EBM: MANP
+welded: MANP
+solid-state: CONPRI
+friction welding: MANP
+process: CONPRI
+
+microstructure: CONPRI
+weld: FEAT
+sample: CONPRI
+grains: CONPRI
+phase: CONPRI
+
+Microstructural: CONPRI
+phase: CONPRI
+weld metal: MATE
+material: MATE
+grains: CONPRI
+
+variations: CONPRI
+microstructure: CONPRI
+mechanical properties: CONPRI
+material: MATE
+
+hardness: PRO
+weld zone: CONPRI
+hardness: PRO
+heat affected zone: CONPRI
+HAZ: CONPRI
+base metal as: MATE
+
+temperature: PARA
+ductility: PRO
+welded EBM: MANP
+samples: CONPRI
+
+ultimate strength: PRO
+welded: MANP
+samples: CONPRI
+EBM: MANP
+
+solid-state: CONPRI
+process: CONPRI
+joining: MANP
+additively manufactured: MANP
+ductility: PRO
+
+Laser: ENAT
+grains: CONPRI
+element: MATE
+distribution: CONPRI
+additive manufacturing: MANP
+
+tensile strength: PRO
+be: MATE
+additive manufacturing: MANP
+
+grains: CONPRI
+element: MATE
+laser: ENAT
+mechanical properties: CONPRI
+
+alloy: MATE
+fabricated: CONPRI
+additive manufacturing: MANP
+wire arc additive manufacturing: MANP
+
+laser energy: CONPRI
+fabricated: CONPRI
+microstructure: CONPRI
+mechanical properties: CONPRI
+
+laser energy: CONPRI
+laser: ENAT
+grains: CONPRI
+Si: MATE
+segregation: CONPRI
+
+As: MATE
+Si: MATE
+grain boundaries: CONPRI
+laser: ENAT
+
+interface: CONPRI
+Al: MATE
+Si: MATE
+crystal orientation: PRO
+Si: MATE
+Si: MATE
+Si: MATE
+phase: CONPRI
+Al: MATE
+
+mechanical properties: CONPRI
+laser: ENAT
+
+tensile strength: PRO
+yield strength: PRO
+elongation: PRO
+laser energy: CONPRI
+MPa: CONPRI
+MPa: CONPRI
+laser: ENAT
+
+mechanical properties: CONPRI
+Si: MATE
+segregation: CONPRI
+samples: CONPRI
+
+structure: CONPRI
+properties: CONPRI
+welded: MANP
+additively manufactured: MANP
+microstructural evolution: CONPRI
+fusion zone: CONPRI
+FZ: CONPRI
+heat affected zone: CONPRI
+HAZ: CONPRI
+
+grain growth: CONPRI
+evolution: CONPRI
+grain structure: CONPRI
+
+microstructure evolution: CONPRI
+HAZ: CONPRI
+FZ: CONPRI
+isothermal: CONPRI
+
+evolution: CONPRI
+grain structure: CONPRI
+topology: CONPRI
+dimensions: FEAT
+FZ: CONPRI
+HAZ: CONPRI
+
+spatial distributions: CHAR
+temperature: PARA
+heat transfer: CONPRI
+liquid metal: MATE
+topology: CONPRI
+
+experimental data: CONPRI
+arc welding: MANP
+aluminum alloy: MATE
+
+average: CONPRI
+columnar grains: PRO
+FZ: CONPRI
+equiaxed grains: CONPRI
+HAZ: CONPRI
+scanning speed: PARA
+
+weld: FEAT
+aspect ratio: FEAT
+columnar grains: PRO
+weld: FEAT
+interface: CONPRI
+
+grain size: PRO
+distributions: CONPRI
+distributions: CONPRI
+HAZ: CONPRI
+spatial variations: FEAT
+temperature: PARA
+welding: MANP
+parameters: CONPRI
+
+laser welding: MANP
+processes: CONPRI
+as: MATE
+additive manufacturing: MANP
+weld bead geometry: PARA
+penetration: CONPRI
+weld: FEAT
+be: MATE
+parameters: CONPRI
+
+process parameters: CONPRI
+engineering: APPL
+parameters: CONPRI
+
+laser power: PARA
+
+weld profile: FEAT
+welding: MANP
+range: PARA
+beam diameters: PARA
+mm: MANP
+mm: MANP
+
+weld bead geometry: PARA
+be: MATE
+distribution: CONPRI
+laser energy: CONPRI
+surface: CONPRI
+workpiece: CONPRI
+as: MATE
+density: PRO
+energy density: PARA
+
+penetration: CONPRI
+be: MATE
+optical: CHAR
+
+welds: FEAT
+beam diameters: PARA
+powder bed additive manufacturing: MANP
+
+Ultrasonic Additive Manufacturing: MANP
+UAM: MANP
+hybrid manufacturing: CONPRI
+layer-by-layer: CONPRI
+welding: MANP
+metal: MATE
+solid state: CONPRI
+CNC machining: MANP
+3D: CONPRI
+
+UAM: MANP
+fabrication: MANP
+metal: MATE
+components: MACEQ
+metal matrix: CONPRI
+plastic metal: MATE
+temperatures: PARA
+layer: PARA
+bonding: CONPRI
+
+UAM: MANP
+ultrasonic welding: MANP
+aluminium: MATE
+machined: MANP
+bonding: CONPRI
+
+be: MATE
+layer-by-layer: CONPRI
+fragile: CONPRI
+components: MACEQ
+as: MATE
+encapsulation: CONPRI
+
+manufacturing approach: MANP
+UAM: MANP
+process: CONPRI
+
+deformation: CONPRI
+aluminium: MATE
+UAM: MANP
+model: CONPRI
+prediction: CONPRI
+dimensions: FEAT
+tolerances: PARA
+set: APPL
+UAM: MANP
+process parameters: CONPRI
+
+power: PARA
+model: CONPRI
+component: MACEQ
+
+surface mount: ENAT
+resistor: MACEQ
+encapsulation: CONPRI
+metal matrix: CONPRI
+
+force: CONPRI
+UAM: MANP
+process: CONPRI
+
+fabrication: MANP
+three-dimensional: CONPRI
+additively manufactured: MANP
+metal composite: MATE
+
+Additive manufacturing: MANP
+metals: MATE
+manufacturing technology: MANP
+material: MATE
+powder: MATE
+heat source: CONPRI
+electron beam: CONPRI
+laser beam: CONPRI
+plasma: CONPRI
+electric arc: PARA
+
+Wire arc additive manufacturing: MANP
+WAAM: MANP
+precision: CHAR
+as: MATE
+laser: ENAT
+electron beam: CONPRI
+
+research: CONPRI
+gas metal arc welding: MANP
+GMAW: MANP
+process: CONPRI
+ER70S-6: MATE
+electrode: MACEQ
+structure: CONPRI
+parameters: CONPRI
+weld bead: CONPRI
+
+material: MATE
+mechanical properties: CONPRI
+penetration: CONPRI
+bonding strength: PRO
+preheating: MANP
+
+impact: CONPRI
+material: MATE
+
+impact test: CHAR
+samples: CONPRI
+deposition: CONPRI
+impact: CONPRI
+
+structure: CONPRI
+Brinell hardness: PRO
+metallography: CONPRI
+fractography: CHAR
+
+material: MATE
+impact: CONPRI
+ductile: PRO
+
+materials: CONPRI
+surface areas: PARA
+heat: CONPRI
+heat transfer: CONPRI
+
+shape memory alloys: MATE
+SMAs: MATE
+materials: CONPRI
+process: CONPRI
+manufacturability: CONPRI
+
+SMAs: MATE
+additive manufacturing: MANP
+fabricate: MANP
+complex geometries: CONPRI
+surface areas: PARA
+
+phase: CONPRI
+temperatures: PARA
+additively manufactured: MANP
+SMAs: MATE
+fabricated: CONPRI
+selective laser melting: MANP
+SLM: MANP
+be: MATE
+SLM: MANP
+parameters: CONPRI
+heat treatments: MANP
+temperatures: PARA
+be: MATE
+
+yield strength: PRO
+as: MATE
+precipitation hardening: MANP
+SLM: MANP
+fabricated: CONPRI
+alloy: MATE
+temperature: PARA
+as: MATE
+as: MATE
+K: MATE
+SMAs: MATE
+fabricated: CONPRI
+additive manufacturing: MANP
+
+yield strength: PRO
+stress hysteresis: PRO
+alloy: MATE
+stability: PRO
+
+alloys: MATE
+near-net-shape additive manufacturing: MANP
+
+solid-state: CONPRI
+materials: CONPRI
+additive manufacturing: MANP
+
+metal: MATE
+components: MACEQ
+high deposition rates: PARA
+Wire Arc Additive Manufacturing: MANP
+WAAM: MANP
+process: CONPRI
+
+research: CONPRI
+WAAM: MANP
+metallic feedstock materials: MATE
+
+defects: CONPRI
+components: MACEQ
+WAAM: MANP
+process: CONPRI
+alloys: MATE
+porosity: PRO
+cracking: CONPRI
+
+fabrication: MANP
+additively manufactured: MANP
+alloys: MATE
+
+Heat Treatment: MANP
+defects: CONPRI
+WAAM: MANP
+process: CONPRI
+
+materials: CONPRI
+manufacturing process: MANP
+
+Additive manufacturing: MANP
+AM: MANP
+directed energy deposition: MANP
+supports: APPL
+composition: CONPRI
+component: MACEQ
+functionally graded materials: MATE
+be: MATE
+fabricated: CONPRI
+
+composition: CONPRI
+cracking: CONPRI
+AM: MANP
+process: CONPRI
+composition: CONPRI
+be: MATE
+additively manufactured: MANP
+equilibrium: CONPRI
+
+segregation: CONPRI
+solidification: CONPRI
+lead: MATE
+composition: CONPRI
+melt: CONPRI
+
+tool: MACEQ
+predicted: CONPRI
+AM: MANP
+process: CONPRI
+Scheil-Gulliver model: CONPRI
+composition: CONPRI
+Ti-6Al-4V: MATE
+FGM: MANP
+Ti: MATE
+FGM: MANP
+
+predicted: CONPRI
+Scheil-Gulliver model: CONPRI
+experimental: CONPRI
+predictions: CONPRI
+equilibrium: CONPRI
+Scheil-Gulliver model: CONPRI
+be: MATE
+
+simulation: ENAT
+as: MATE
+FGM: MANP
+solidification phase: CONPRI
+experimental: CONPRI
+composition: CONPRI
+
+Ultrasonic additive manufacturing: MANP
+UAM: MANP
+solid-state: CONPRI
+manufacturing: MANP
+ultrasonic welding: MANP
+fabricate: MANP
+
+reduction: CONPRI
+strength: PRO
+welding interfaces: FEAT
+Z-direction: FEAT
+
+hot isostatic pressing: MANP
+HIP: MANP
+UAM: MANP
+builds: CHAR
+aluminum alloy: MATE
+
+Tensile testing: CHAR
+microstructure: CONPRI
+HIP: MANP
+brittle: PRO
+fracture: CONPRI
+strength: PRO
+ductility: PRO
+Z-direction: FEAT
+
+HIP: MANP
+voids: CONPRI
+recrystallized: MANP
+welding interfaces: FEAT
+HIP: MANP
+
+virtual binocular: MACEQ
+designed: FEAT
+monitor molten pool: CONPRI
+
+algorithms: CONPRI
+reconstruction: CONPRI
+accuracy: CHAR
+
+Molten pool: CONPRI
+wire and arc additive manufacturing: MANP
+
+measurement: CHAR
+layer: PARA
+geometry: CONPRI
+deposition process: MANP
+feedback: PARA
+process: CONPRI
+wire and arc additive manufacturing: MANP
+WAAM: MANP
+
+virtual binocular vision sensing: ENAT
+designed: FEAT
+layer: PARA
+layer: PARA
+
+step: CONPRI
+3-D: CONPRI
+sensing: APPL
+algorithms: CONPRI
+
+algorithms: CONPRI
+standard: CONPRI
+accuracy: CHAR
+algorithm: CONPRI
+
+standard: CONPRI
+as: MATE
+effectiveness: CONPRI
+sensing system: CHAR
+algorithms: CONPRI
+
+layer: PARA
+geometries: CONPRI
+WAAM: MANP
+process parameters: CONPRI
+
+errors: CONPRI
+layer: PARA
+geometry: CONPRI
+algorithm: CONPRI
+
+lay: CONPRI
+feedback: PARA
+layer: PARA
+geometry: CONPRI
+WAAM: MANP
+
+deformation: CONPRI
+ultrasonic additive manufacturing: MANP
+microstructural characterization: CHAR
+electron microscopy: CHAR
+
+surface: CONPRI
+contact: APPL
+sonotrode: MACEQ
+deformation: CONPRI
+shear direction: PRO
+strain rates: CONPRI
+welding: MANP
+
+plastic: MATE
+crushing: CONPRI
+interface: CONPRI
+
+surface: CONPRI
+oxide: MATE
+ultrasonic vibration: PARA
+metallurgical: APPL
+
+stainless steel: MATE
+manufactured: CONPRI
+LENS: MANP
+3D: CONPRI
+
+Orientation: CONPRI
+segregation: CONPRI
+solidification: CONPRI
+
+sample: CONPRI
+stainless steel: MATE
+manufactured: CONPRI
+Laser Engineered Net Shaping: MANP
+LENS: MANP
+3D: CONPRI
+
+properties: CONPRI
+microstructure: CONPRI
+
+3D: CONPRI
+grain: CONPRI
+orientation: CONPRI
+2D: CONPRI
+
+methodology: CONPRI
+orientation: CONPRI
+grains: CONPRI
+build: PARA
+
+grains: CONPRI
+solidification: CONPRI
+
+grains: CONPRI
+complex morphologies: CONPRI
+orientation: CONPRI
+as: MATE
+orientation: CONPRI
+
+solidification: CONPRI
+design: FEAT
+alloys: MATE
+additive manufacturing: MANP
+
+Wire Arc Additive Manufacturing: MANP
+WAAM: MANP
+Directed Energy Deposition: MANP
+DED: MANP
+process: CONPRI
+build: PARA
+Stainless Steel: MATE
+
+stainless steel: MATE
+stress corrosion cracking: CONPRI
+austenite: MATE
+ferrite: MATE
+
+process parameters: CONPRI
+cooling rate: PARA
+ferrite: MATE
+
+three-dimensional: CONPRI
+additive manufactured: MANP
+AM: MANP
+thermal cycles: PARA
+experimental: CONPRI
+
+cooling rates: PARA
+WAAM: MANP
+
+cooling rate: PARA
+temperatures: PARA
+austenite: MATE
+ferrite: MATE
+
+experimental: CONPRI
+quality: CONPRI
+mechanical properties: CONPRI
+wrought: CONPRI
+
+processes: CONPRI
+metal additive manufacturing: MANP
+industry: APPL
+
+solidification: CONPRI
+anisotropic: PRO
+properties: CONPRI
+powder: MATE
+
+additive: MATE
+bridge: APPL
+
+additive: MATE
+deposition: CONPRI
+solid-state process: CONPRI
+microstructures: MATE
+feed: PARA
+
+additive: MATE
+metal additive manufacturing: MANP
+
+Metal additive manufacturing: MANP
+technology: CONPRI
+cutting: MANP
+automotive: APPL
+aerospace: APPL
+medical: APPL
+
+additive: MATE
+deposition: CONPRI
+welding: MANP
+material: MATE
+defects: CONPRI
+pores: PRO
+inclusions: MATE
+fusion: CONPRI
+
+As: MATE
+defects: CONPRI
+additive manufactured: MANP
+
+metal: MATE
+additive manufactured: MANP
+defect: CONPRI
+technology: CONPRI
+
+Planning: MANP
+inclusion: MATE
+integrity: CONPRI
+additive manufacturing process: MANP
+be: MATE
+component: MACEQ
+
+flaw: CONPRI
+nondestructive testing: CHAR
+NDT: CONPRI
+
+experimental: CONPRI
+effectiveness: CONPRI
+laser: ENAT
+flaws: CONPRI
+Additively Manufactured: MANP
+titanium alloy: MATE
+defects: CONPRI
+
+surface: CONPRI
+s: MATE
+additive manufacturing process: MANP
+NDT: CONPRI
+inspection: CHAR
+
+Robot: MACEQ
+additive manufacturing: MANP
+technology: CONPRI
+
+robots: MACEQ
+be: MATE
+multi-material: CONPRI
+
+be: MATE
+hybrid systems: ENAT
+additive: MATE
+subtractive process: MANP
+
+additive manufacturing: MANP
+manufacturing: MANP
+
+additive manufacturing: MANP
+
+additive manufacturing: MANP
+be: MATE
+
+CAD model: ENAT
+additive manufacturing: MANP
+
+additive manufacturing systems: MACEQ
+
+mm: MANP
+welds: FEAT
+manufactured: CONPRI
+steel: MATE
+arc: CONPRI
+electron beam welding: MANP
+
+Residual stresses: PRO
+contour: FEAT
+drilling: MANP
+PWHT: CONPRI
+
+effectiveness: CONPRI
+PWHT: CONPRI
+weld: FEAT
+
+welding: MANP
+process: CONPRI
+impact: CONPRI
+performance: CONPRI
+components: MACEQ
+as: MATE
+pressure: CONPRI
+
+technologies: CONPRI
+fabrication: MANP
+components: MACEQ
+
+arc welding: MANP
+GTAW: MANP
+submerged arc welding: MANP
+SAW: MANP
+as: MATE
+as: MATE
+technology: CONPRI
+be: MATE
+electron beam welding: MANP
+
+residual stresses: PRO
+welding: MANP
+integrity: CONPRI
+components: MACEQ
+design: FEAT
+
+residual stress: PRO
+as: MATE
+as: MATE
+weld: FEAT
+manufactured: CONPRI
+process: CONPRI
+components: MACEQ
+
+mm: MANP
+
+Stability: PRO
+additive manufacturing: MANP
+optical measurements: CHAR
+
+Deposition: CONPRI
+feedback: PARA
+controller: MACEQ
+
+closed-loop control: MACEQ
+
+Additive manufacturing: MANP
+Gas: CONPRI
+Arc: CONPRI
+as: MATE
+heat source: CONPRI
+fabricating: MANP
+metal: MATE
+components: MACEQ
+layer: PARA
+
+sensor: MACEQ
+camera: MACEQ
+composite: MATE
+sensing: APPL
+fabrication: MANP
+
+manufacture: CONPRI
+controller: MACEQ
+feed: PARA
+layer: PARA
+
+optical measurement: CHAR
+controller: MACEQ
+
+process: CONPRI
+additive manufacturing: MANP
+designed: FEAT
+sensor: MACEQ
+closed-loop controller: MACEQ
+
+Titanium: MATE
+materials: CONPRI
+manufacturing: MANP
+implants: APPL
+areas: PARA
+dentistry: APPL
+
+titanium: MATE
+biocompatibility: PRO
+resistance: PRO
+corrosion: CONPRI
+
+Titanium: MATE
+alloys: MATE
+microstructure: CONPRI
+as: MATE
+stability: PRO
+SEM: CHAR
+
+fabricating: MANP
+additive manufacturing: MANP
+
+alloys: MATE
+Mn: MATE
+Ti: MATE
+Al: MATE
+C: MATE
+wire arc additive manufacturing: MANP
+technology: CONPRI
+
+solute atom: MATE
+particle: CONPRI
+density: PRO
+alloys: MATE
+annealing: MANP
+heat treatment: MANP
+temperature range: PARA
+
+Microstructure: CONPRI
+optical: CHAR
+scanning: CONPRI
+transmission: CHAR
+resolution: PARA
+electron microscopy: CHAR
+
+Work hardening: MANP
+tensile testing: CHAR
+
+deposition: CONPRI
+heat treatment: MANP
+alloy: MATE
+C: MATE
+Al: MATE
+Mn: MATE
+density: PRO
+particles: CONPRI
+density: PRO
+Al: MATE
+Ti: MATE
+particles: CONPRI
+hardness: PRO
+tensile strength: PRO
+strain hardening: MANP
+toughness: PRO
+
+solid solution: MATE
+precipitation: CONPRI
+work hardening: MANP
+fracture: CONPRI
+
+defect: CONPRI
+arc welding: MANP
+
+classification: CONPRI
+accuracy: CHAR
+
+Feature: FEAT
+pattern: CONPRI
+
+Fe: MATE
+Fe: MATE
+Accurate: CHAR
+weld: FEAT
+defect: CONPRI
+arc welding: MANP
+complexity: CONPRI
+weld: FEAT
+defects: CONPRI
+
+defect: CONPRI
+Al alloys: MATE
+arc welding: MANP
+arc: CONPRI
+spectroscopy: CONPRI
+
+feature: FEAT
+extracted: CONPRI
+components: MACEQ
+
+Feature: FEAT
+quantitatively: CONPRI
+accuracy: CHAR
+Component: MACEQ
+
+weld: FEAT
+defects: CONPRI
+performance: CONPRI
+support: APPL
+machine: MACEQ
+neural network: CONPRI
+
+pattern: CONPRI
+feature: FEAT
+mechanism: CONPRI
+weld: FEAT
+process: CONPRI
+
+additive manufacturing: MANP
+AM: MANP
+technologies: CONPRI
+industry: APPL
+
+cost model: CONPRI
+manufacturing cost: CONPRI
+build: PARA
+selective laser melting: MANP
+cost estimation: CONPRI
+
+framework: CONPRI
+process chain: ENAT
+
+quality control model: CONPRI
+process: CONPRI
+AM: MANP
+
+Additive Manufacturing: MANP
+AM: MANP
+manufacturing processes: MANP
+materials layer by layer: CONPRI
+
+AM technologies: MANP
+rapid prototyping: ENAT
+tooling: CONPRI
+direct manufacturing: CONPRI
+manufacturing: MANP
+industry: APPL
+
+industrial: APPL
+areas: PARA
+AM: MANP
+
+tools: MACEQ
+companies: APPL
+AM technologies: MANP
+research: CONPRI
+
+research: CONPRI
+industrial: APPL
+industry: APPL
+
+research: CONPRI
+AM technologies: MANP
+AM: MANP
+cost estimation: CONPRI
+AM: MANP
+design: FEAT
+process chains: ENAT
+quality: CONPRI
+AM: MANP
+
+Wire and arc additive manufacturing: MANP
+WAAM: MANP
+technology: CONPRI
+fabricating: MANP
+complex structure: CONPRI
+geometry: CONPRI
+
+planning: MANP
+deposition paths: PARA
+beads: CHAR
+model: CONPRI
+
+area: PARA
+beads: CHAR
+melted: CONPRI
+beads: CHAR
+
+research: CONPRI
+WAAM: MANP
+weld beads: CONPRI
+
+deposited bead: CHAR
+bead: CHAR
+as: MATE
+be: MATE
+
+designed: FEAT
+geometries: CONPRI
+beads: CHAR
+offset: CONPRI
+weld bead: CONPRI
+
+artificial neural network: ENAT
+offset: CONPRI
+weld bead: CONPRI
+
+algorithm: CONPRI
+deposition paths: PARA
+beads: CHAR
+
+validation: CONPRI
+
+surface: CONPRI
+flatness: PRO
+WAAM: MANP
+
+Wire + Arc Additive Manufacture: MANP
+manufacture: CONPRI
+tungsten: MATE
+components: MACEQ
+orientation: CONPRI
+wire feeding: PARA
+defects: CONPRI
+as: MATE
+fusion: CONPRI
+pores: PRO
+micro-cracks: CONPRI
+orientation: CONPRI
+wire feeding: PARA
+microstructure: CONPRI
+tungsten: MATE
+wire feeding: PARA
+tungsten: MATE
+manufacturing: MANP
+components: MACEQ
+materials: CONPRI
+susceptibility: PRO
+oxidation: MANP
+
+Powder metallurgy: MANP
+manufacturing process: MANP
+
+Wire + Arc Additive Manufacture: MANP
+metal: MATE
+as: MATE
+
+production: MANP
+tungsten: MATE
+
+orientation: CONPRI
+wire feeding: PARA
+tungsten: MATE
+
+wire feeding: PARA
+pores: PRO
+micro-cracks: CONPRI
+wire feeding: PARA
+
+microstructure: CONPRI
+defects: CONPRI
+deposition process: MANP
+
+thermal cycles: PARA
+material: MATE
+layer: PARA
+dimensions: FEAT
+deposition process: MANP
+
+production: MANP
+component: MACEQ
+dimension: FEAT
+mm: MANP
+
+Wire + Arc Additive Manufacture: MANP
+be: MATE
+tungsten: MATE
+fusion: CONPRI
+powder metallurgy manufacturing: MANP
+
+additive manufacturing: MANP
+AM: MANP
+power: PARA
+laser assisted MIG arc welding: MANP
+manufacture: CONPRI
+
+dimension: FEAT
+manufactured: CONPRI
+component: MACEQ
+laser power: PARA
+
+laser power: PARA
+range: PARA
+laser power: PARA
+deposition rate: PARA
+
+power: PARA
+laser: ENAT
+standard deviation: CHAR
+laser power: PARA
+materials: CONPRI
+AM: MANP
+fabricate: MANP
+laser power: PARA
+
+AM: MANP
+AM: MANP
+feasibility: CONPRI
+manufacture: CONPRI
+component: MACEQ
+surface quality: PARA
+stability: PRO
+deposition: CONPRI
+
+Wire and Arc Additive Manufacturing: MANP
+WAAM: MANP
+metal: MATE
+3D printing: MANP
+robotic welding: MANP
+
+material: MATE
+material: MATE
+
+Empirical: CONPRI
+WAAM: MANP
+deposition rate: PARA
+
+power: PARA
+stainless steel: MATE
+robotic arm: MACEQ
+
+material: MATE
+
+argon: MATE
+CO2: MATE
+gas: CONPRI
+Life Cycle: CONPRI
+
+sand casting: MANP
+CNC milling: MANP
+databases: ENAT
+
+impact: CONPRI
+WAAM: MANP
+
+impact: CONPRI
+stainless steel: MATE
+WAAM: MANP
+sand casting: MANP
+
+CNC milling: MANP
+material utilization fraction: PARA
+
+Stainless steel: MATE
+damage: PRO
+WAAM: MANP
+reduction: CONPRI
+
+designs: FEAT
+be: MATE
+manufacturing: MANP
+
+materials: CONPRI
+process settings: PARA
+
+tensile: PRO
+weld: FEAT
+design: FEAT
+
+tensile: PRO
+temperature: PARA
+metal: MATE
+weld joint design: FEAT
+
+interpass temperature: PARA
+residual stress: PRO
+welded joint: FEAT
+
+Stress concentration: CHAR
+residual stress: PRO
+fatigue life: PRO
+welded joints: FEAT
+
+stress concentration: CHAR
+welded joints: FEAT
+mathematical: CONPRI
+design: FEAT
+tensile: PRO
+weld: FEAT
+design: FEAT
+
+stress concentration: CHAR
+weld beads: CONPRI
+welded joint: FEAT
+fillet: FEAT
+T-joint: FEAT
+FEM: CONPRI
+
+stress concentration: CHAR
+welded joints: FEAT
+welded joints: FEAT
+weld bead: CONPRI
+stress concentration: CHAR
+weld bead: CONPRI
+design: FEAT
+
+weld: FEAT
+fillet: FEAT
+joint: CONPRI
+weld bead: CONPRI
+stress concentration: CHAR
+
+fillet: FEAT
+T-joint: FEAT
+design: FEAT
+stress concentration: CHAR
+weld: FEAT
+designed: FEAT
+stress concentration: CHAR
+weld: FEAT
+weld beads: CONPRI
+design: FEAT
+
+temperature: PARA
+weld metal: MATE
+fillet: FEAT
+residual stress: PRO
+weld: FEAT
+
+AlSi10Mg: MATE
+crushing: CONPRI
+
+Experimental: CONPRI
+numerical simulations: ENAT
+
+model: CONPRI
+calibrated: CONPRI
+tensile tests: CHAR
+
+surface: CONPRI
+element: MATE
+
+experimental: CONPRI
+quasi-static: CONPRI
+AlSi10Mg: MATE
+selective laser melting: MANP
+SLM: MANP
+
+finite element modelling: CHAR
+3D-printed parts: APPL
+material: MATE
+component: MACEQ
+deformations: CONPRI
+fracture: CONPRI
+
+tensile specimens: MACEQ
+extracted: CONPRI
+orientations: CONPRI
+model: CONPRI
+hardening: MANP
+s: MATE
+fracture: CONPRI
+calibrated: CONPRI
+experimental: CONPRI
+
+failure: CONPRI
+spherical: CONPRI
+actuator: MACEQ
+
+material: MATE
+finite element models: CONPRI
+prediction: CONPRI
+additively manufactured: MANP
+
+Wire and arc additive manufacturing: MANP
+WAAM: MANP
+fabricating: MANP
+components: MACEQ
+manufacturing: MANP
+industry: APPL
+
+anisotropic: PRO
+properties: CONPRI
+steel: MATE
+component: MACEQ
+WAAM: MANP
+mechanical testing: CHAR
+deformation: CONPRI
+component: MACEQ
+digital image correlation: CONPRI
+DIC: CONPRI
+
+microstructure: CONPRI
+texture: FEAT
+fracture: CONPRI
+area: PARA
+area: PARA
+mechanism: CONPRI
+anisotropy: PRO
+
+mechanical properties: CONPRI
+
+strain: PRO
+fracture: CONPRI
+strain: PRO
+evolution: CONPRI
+DIC: CONPRI
+
+areas: PARA
+be: MATE
+component: MACEQ
+scanning electron microscope: MACEQ
+SEM: CHAR
+electron backscatter diffraction: CHAR
+EBSD: CHAR
+phase composition: CONPRI
+phase morphology: CONPRI
+grain size: PRO
+texture: FEAT
+
+fractography: CHAR
+anisotropy: PRO
+fracture: CONPRI
+
+direct energy deposition: MANP
+metal additive manufacturing: MANP
+plasma: CONPRI
+as: MATE
+heat source: CONPRI
+
+process parameters: CONPRI
+stainless steel: MATE
+component: MACEQ
+
+phase: CONPRI
+microstructure: CONPRI
+density: PRO
+mechanical properties: CONPRI
+samples: CONPRI
+
+dendrites: BIOP
+be: MATE
+as: MATE
+substrate: MATE
+mm: MANP
+
+average: CONPRI
+sample: CONPRI
+
+Anisotropic: PRO
+isotropic: PRO
+
+Laser: ENAT
+powders: MATE
+
+experimental: CONPRI
+joint: CONPRI
+be: MATE
+additive: MATE
+
+laser: ENAT
+deposition layers: PARA
+weld: FEAT
+microstructure: CONPRI
+tensile properties: PRO
+
+morphology: CONPRI
+distributions: CONPRI
+intermetallic compounds: MATE
+brazing: APPL
+joint: CONPRI
+deposition layers: PARA
+
+deposition layers: PARA
+layer: PARA
+
+microstructure: CONPRI
+layer: PARA
+Ti7Al5Si12: MATE
+phase: CONPRI
+Ti: MATE
+Al: MATE
+Si: MATE
+phase: CONPRI
+
+tensile: PRO
+joint: CONPRI
+MPa: CONPRI
+aluminum: MATE
+metal: MATE
+tensile strength: PRO
+layer: PARA
+porosity: PRO
+defect: CONPRI
+
+wire arc additive manufacturing: MANP
+WAAM: MANP
+process: CONPRI
+arc: CONPRI
+droplet: CONPRI
+deposition process: MANP
+
+wire feeding: PARA
+wire feeding: PARA
+wire feeding: PARA
+droplet: CONPRI
+experiment: CONPRI
+
+droplet: CONPRI
+deposition process: MANP
+droplet: CONPRI
+bridging: CONPRI
+
+process: CONPRI
+bridging: CONPRI
+deposition: CONPRI
+
+As: MATE
+wire feeding: PARA
+droplet: CONPRI
+bridging: CONPRI
+
+surface: CONPRI
+base metal: MATE
+feed: PARA
+bridging: CONPRI
+
+droplet diameter: CONPRI
+wire feeding: PARA
+
+droplet: CONPRI
+droplet: CONPRI
+
+welding: MANP
+alloy: MATE
+Inconel 718: MATE
+laser: ENAT
+SLM: MANP
+
+welding: MANP
+heat treatment: MANP
+microhardness: CONPRI
+welding: MANP
+deformation: CONPRI
+microstructure: CONPRI
+welded joint: FEAT
+
+heat conduction: CONPRI
+metal additive manufacturing: MANP
+
+melt pool: MATE
+algorithm: CONPRI
+
+algorithm: CONPRI
+analytical solution: CONPRI
+
+transient: CONPRI
+scan pattern: PARA
+time scales: FEAT
+
+Solidification: CONPRI
+microstructure: CONPRI
+additively manufactured: MANP
+
+semi-analytical approaches: CONPRI
+heat conduction: CONPRI
+time scales: FEAT
+
+heat conduction: CONPRI
+additive manufacturing: MANP
+
+material properties: CONPRI
+process: CONPRI
+transient heat conduction: CONPRI
+heat sources: CONPRI
+
+algorithm: CONPRI
+simple: MANP
+process: CONPRI
+material: MATE
+additive manufacturing: MANP
+
+computational efficiency: CONPRI
+solution: CONPRI
+accuracy: CHAR
+
+WAAM: MANP
+build: PARA
+GMAW: MANP
+support: APPL
+
+hot cracking: CONPRI
+areas: PARA
+fusion boundary: CONPRI
+
+hardness: PRO
+vertical: CONPRI
+
+isotropic: PRO
+tensile strength: PRO
+
+wire arc additive manufacturing: MANP
+aluminium alloy: MATE
+gas metal arc welding: MANP
+deposition: CONPRI
+mm: MANP
+as: MATE
+material: MATE
+
+process: CONPRI
+be: MATE
+gas: CONPRI
+hot cracking: CONPRI
+
+Hardness: PRO
+hardness: PRO
+
+vertical: CONPRI
+support: APPL
+
+Mechanical testing: CHAR
+tensile strength: PRO
+MPa: CONPRI
+
+ductility: PRO
+orientations: CONPRI
+Y: MATE
+layer deposition direction: PARA
+
+intermetallic compounds: MATE
+weld quality: PARA
+
+product functionality: CHAR
+
+electrical conductivity: PRO
+layer: PARA
+be: MATE
+
+Modeling: ENAT
+prediction: CONPRI
+friction stir welding: MANP
+FSW: MANP
+process: CONPRI
+
+model: CONPRI
+diffusion: CONPRI
+FSW: MANP
+
+particles: CONPRI
+impact: CONPRI
+diffusion: CONPRI
+
+research: CONPRI
+model: CONPRI
+particles: CONPRI
+
+particles: CONPRI
+FSW: MANP
+
+model: CONPRI
+experimental data: CONPRI
+model: CONPRI
+case study: CONPRI
+
+manufacturing processes: MANP
+lead: MATE
+processes: CONPRI
+processes: CONPRI
+
+Inconel 718: MATE
+fabricated: CONPRI
+
+be: MATE
+sample: CONPRI
+
+Temperature gradient: PARA
+grain structure: CONPRI
+
+morphology: CONPRI
+grain structure: CONPRI
+cooling rate: PARA
+
+precipitate: MATE
+mechanical properties: CONPRI
+
+Inconel 718: MATE
+fabricated: CONPRI
+pulsed plasma arc additive manufacturing: MANP
+technology: CONPRI
+beam: MACEQ
+additive manufacturing: MANP
+
+heat: CONPRI
+layer by layer: CONPRI
+heat accumulation: PRO
+
+sample: CONPRI
+grain: CONPRI
+
+Columnar dendrites: MATE
+dendrites: BIOP
+cells: APPL
+dendrites: BIOP
+Laves phases: CONPRI
+MC: MATE
+be: MATE
+
+dendritic arm spacing: BIOP
+area: PARA
+sample: CONPRI
+
+standard: CONPRI
+heat treatment: MANP
+Laves phases: CONPRI
+
+be: MATE
+grain boundaries: CONPRI
+
+microstructural evolution: CONPRI
+precipitation: CONPRI
+
+sample: CONPRI
+tensile strength: PRO
+ductility: PRO
+cast: MANP
+alloy: MATE
+
+standard: CONPRI
+heat treatment: MANP
+tensile strength: PRO
+ductility: PRO
+wrought Inconel 718 alloy: MATE
+precipitation: CONPRI
+strengthening phases: CONPRI
+
+Maraging steel: MATE
+SLM: MANP
+FEM: CONPRI
+
+SEM: CHAR
+micro-CT: CHAR
+samples: CONPRI
+structural integrity: PRO
+
+modeling: ENAT
+geometries: CONPRI
+
+FESEM: CHAR
+lattice: CONPRI
+failure: CONPRI
+
+experiment: CONPRI
+simulations: ENAT
+
+Additive: MATE
+manufacturing: MANP
+powder bed fusion: MANP
+fabricating: MANP
+lightweight: CONPRI
+materials: CONPRI
+metallic: MATE
+
+structure: CONPRI
+designed: FEAT
+energy absorption: CHAR
+additively manufactured: MANP
+maraging steel: MATE
+powder: MATE
+bed fusion: MANP
+L-PBF: MANP
+
+cylindrical: CONPRI
+vertical: CONPRI
+manufactured: CONPRI
+tensile: PRO
+compression tests: CHAR
+L-PBF: MANP
+
+manufactured: CONPRI
+electron microscopy: CHAR
+scanning electron microscopy: CHAR
+micro-CT analysis: CHAR
+structural integrity: PRO
+
+mechanical testing: CHAR
+machine: MACEQ
+performance: CONPRI
+quasi-static: CONPRI
+compressive loading: PRO
+
+finite element model: CONPRI
+performance: CONPRI
+
+finite element models: CONPRI
+geometry: CONPRI
+lattice: CONPRI
+geometry: CONPRI
+
+model: CONPRI
+experimental: CONPRI
+finite element: CONPRI
+
+model: CONPRI
+failure: CONPRI
+lattice: CONPRI
+
+Metal: MATE
+Extrusion: MANP
+Bonding: CONPRI
+Additive Manufacturing: MANP
+solid-state process: CONPRI
+production: MANP
+3D metal structures: FEAT
+
+feedstock: MATE
+processed: CONPRI
+extruder: MACEQ
+component: MACEQ
+
+layer: PARA
+bonding: CONPRI
+samples: CONPRI
+process: CONPRI
+tensile testing: CHAR
+hardness: PRO
+microscope: MACEQ
+
+fabrication: MANP
+tensile specimens: MACEQ
+bond strength: CONPRI
+
+ultimate tensile strength: PRO
+substrate material: MATE
+alloy: MATE
+elongation: PRO
+fracture: CONPRI
+
+Microscope: MACEQ
+fully dense: PARA
+fracture: CONPRI
+bonding: CONPRI
+
+process: CONPRI
+optimization: CONPRI
+quality: CONPRI
+aluminum alloy: MATE
+
+steels: MATE
+range: PARA
+as: MATE
+structural components: CONPRI
+
+steels: MATE
+
+casting: MANP
+forging: MANP
+additive manufacturing processes: MANP
+components: MACEQ
+
+additive manufacturing process: MANP
+fabricate: MANP
+steel: MATE
+microstructural: CONPRI
+mechanical: APPL
+additive manufacturing: MANP
+component: MACEQ
+
+layered structure: CONPRI
+martensite: MATE
+anisotropic: PRO
+mechanical: APPL
+
+normalizing: CONPRI
+tempering: MANP
+austenite: MATE
+precipitate: MATE
+distributions: CONPRI
+mechanical: APPL
+properties: CONPRI
+mimic: MACEQ
+properties: CONPRI
+
+forming: MANP
+metallic glass: MATE
+ultrasonic additive manufacturing: MANP
+
+metallic glass: MATE
+be: MATE
+layer-by-layer: CONPRI
+ultrasonic vibration: PARA
+
+hardness: PRO
+metallic glass: MATE
+ultrasonic additive manufacturing: MANP
+
+metallic glass: MATE
+limits: CONPRI
+
+be: MATE
+manufacture: CONPRI
+metallic glass: MATE
+ultrasonic bonding: MANP
+
+ultrasonic vibration: PARA
+quality: CONPRI
+additive manufacturing: MANP
+metallic glass: MATE
+
+experimental: CONPRI
+amorphous structure: CONPRI
+metallic glass: MATE
+be: MATE
+ultrasonic vibration: PARA
+
+thermal properties: CONPRI
+hardness: PRO
+elastic modulus: PRO
+metallic glass: MATE
+material: MATE
+
+Additive manufacturing: MANP
+metallic glass: MATE
+ultrasonic bonding: MANP
+metallic glass: MATE
+
+additive manufacturing: MANP
+AM: MANP
+range: PARA
+industries: APPL
+process control: CONPRI
+mechanical: APPL
+manufactured: CONPRI
+components: MACEQ
+
+laser beam: CONPRI
+bed fusion: MANP
+as: MATE
+process: CONPRI
+manufacture: CONPRI
+metallic AM: MANP
+components: MACEQ
+
+Ti-6Al-4V alloy: MATE
+metal alloy: MATE
+biomedical: APPL
+aerospace industries: APPL
+
+model: CONPRI
+microstructure: CONPRI
+manufacturing: MANP
+Ti-6Al-4V: MATE
+solid-state phase: CONPRI
+dislocation density: PRO
+
+microstructure: CONPRI
+mechanical: APPL
+tensile strength: PRO
+ductility: PRO
+
+finite element: CONPRI
+FE: MATE
+model: CONPRI
+process: CONPRI
+prediction: CONPRI
+
+Phase: CONPRI
+transient: CONPRI
+sample: CONPRI
+material: MATE
+
+evolution: CONPRI
+spatial variations: FEAT
+phase fractions: CONPRI
+dislocation density: PRO
+mechanical properties: CONPRI
+
+Friction: CONPRI
+additive manufacturing: MANP
+AM: MANP
+selective laser melting: MANP
+material properties: CONPRI
+metallic part: MACEQ
+
+aluminium: MATE
+alloy: MATE
+aluminium: MATE
+alloy: MATE
+AM: MANP
+
+hardness: PRO
+heterogeneous: CONPRI
+hardness: PRO
+distribution: CONPRI
+
+Tensile tests: CHAR
+effectiveness: CONPRI
+
+additive manufacturing: MANP
+3D: CONPRI
+glass: MATE
+be: MATE
+laser welding: MANP
+layer by layer: CONPRI
+metal: MATE
+
+weldability: PRO
+laser welding: MANP
+Ti-6Al-4V: MATE
+Ti: MATE
+Zr: MATE
+substrate: MATE
+
+laser welding: MANP
+X-ray: CHAR
+optical: CHAR
+microscope: MACEQ
+scanning electron microscope: MACEQ
+energy dispersive spectroscopy: CHAR
+
+Zr: MATE
+substrate: MATE
+metallic glass: MATE
+crack-free weld: CONPRI
+be: MATE
+ductile: PRO
+Ti: MATE
+substrate: MATE
+cracking: CONPRI
+brittle: PRO
+interface: CONPRI
+
+mixing: CONPRI
+melted: CONPRI
+foil: MATE
+pattern: CONPRI
+
+structure: CONPRI
+Ti: MATE
+Zr: MATE
+substrate: MATE
+cracking: CONPRI
+
+mixing: CONPRI
+crystallization: CONPRI
+layer: PARA
+welding: MANP
+
+deposition process: MANP
+wire and arc additive manufacturing: MANP
+WAAM: MANP
+bead geometry: CHAR
+bead geometries: CHAR
+
+deposition: CONPRI
+
+deposition: CONPRI
+as: MATE
+heat dissipation: CONPRI
+deposited beads: CHAR
+errors: CONPRI
+
+mechanism: CONPRI
+fabrication: MANP
+accuracy: CHAR
+WAAM: MANP
+inference: CONPRI
+
+errors: CONPRI
+deposited layers: CHAR
+deposition: CONPRI
+deposition: CONPRI
+beads: CHAR
+layer: PARA
+forming: MANP
+closed-loop control: MACEQ
+mechanism: CONPRI
+
+theoretical: CONPRI
+mechanism: CONPRI
+mechanism: CONPRI
+forming: MANP
+components: MACEQ
+
+inference: CONPRI
+as: MATE
+core component: MACEQ
+bead: CHAR
+error: CONPRI
+
+validation: CONPRI
+effectiveness: CONPRI
+mechanism: CONPRI
+controller: MACEQ
+
+fabricated: CONPRI
+accuracy: CHAR
+error: CONPRI
+mm: MANP
+
+experimental: CONPRI
+deposition: CONPRI
+WAAM: MANP
+process automation: CONPRI
+manufacturing: MANP
+
+additive manufacturing: MANP
+fabricating: MANP
+materials: CONPRI
+
+process: CONPRI
+additive manufacturing processes: MANP
+selective laser melting: MANP
+SLM: MANP
+
+experiment: CONPRI
+Al: MATE
+Al: MATE
+Al2O3: MATE
+SLM: MANP
+additive manufacturing process: MANP
+metals: MATE
+intermetallic: MATE
+interface: CONPRI
+
+SLM: MANP
+microstructure: CONPRI
+microstructure: CONPRI
+Ti6Al4V feedstock: MATE
+grain structure: CONPRI
+Al: MATE
+as: MATE
+Al: MATE
+
+phase: CONPRI
+SLM: MANP
+work hardening: MANP
+hardness: PRO
+feedstock: MATE
+
+trend: CONPRI
+manufacturing: MANP
+productivity: CONPRI
+
+productivity: CONPRI
+manufacturing: MANP
+industry: APPL
+production: MANP
+cutting tool: APPL
+design: FEAT
+complexity: CONPRI
+
+reduction: CONPRI
+design: FEAT
+manufacturing: MANP
+
+additive manufacturing: MANP
+methodology: CONPRI
+
+process: CONPRI
+manufacturing: MANP
+materials: CONPRI
+
+additive manufacturing: MANP
+process: CONPRI
+
+process: CONPRI
+manufacturing: MANP
+
+materials: CONPRI
+properties: CONPRI
+rapid manufacturing: MANP
+
+Additive manufacturing: MANP
+AM: MANP
+processes: CONPRI
+as: MATE
+Additive Manufacturing: MANP
+WAAM: MANP
+manufacturing: MANP
+complex geometries: CONPRI
+
+production: MANP
+WAAM: MANP
+bottleneck: CONPRI
+forming processes: MANP
+production: MANP
+
+forming processes: MANP
+as: MATE
+die: MACEQ
+tooling: CONPRI
+flexibility: PRO
+
+additive manufacturing: MANP
+forging: MANP
+components: MACEQ
+complexity: CONPRI
+production: MANP
+
+manufacturing technologies: MANP
+design: FEAT
+process chain: ENAT
+properties: CONPRI
+specifications: PARA
+
+process: CONPRI
+forming: MANP
+WAAM: MANP
+
+material: MATE
+forging: MANP
+deposition: CONPRI
+aluminum alloys: MATE
+WAAM: MANP
+
+evolution: CONPRI
+mechanical properties: CONPRI
+as: MATE
+microstructure: CONPRI
+
+experimental: CONPRI
+performance: CONPRI
+components: MACEQ
+
+machine: MACEQ
+compact: MANP
+designed: FEAT
+
+Channel: APPL
+configuration: CONPRI
+aluminium: MATE
+
+additive manufacturing: MANP
+
+design: FEAT
+performance: CONPRI
+
+experimental: CONPRI
+experimental data: CONPRI
+
+rapid prototyping: ENAT
+prototypes: CONPRI
+technologies evolution: CONPRI
+
+technologies: CONPRI
+as: MATE
+3D printing: MANP
+additive manufacturing: MANP
+rapid prototyping: ENAT
+
+design: FEAT
+manufacturing process: MANP
+as: MATE
+production line: MANP
+manufacturing: MANP
+weight: PARA
+machines: MACEQ
+materials: CONPRI
+
+complex geometries: CONPRI
+design: FEAT
+manufacturing: MANP
+industrial: APPL
+be: MATE
+
+additive manufacturing: MANP
+AM: MANP
+technology: CONPRI
+reliability: CHAR
+
+evolutions: CONPRI
+as: MATE
+exchange format: CONPRI
+3D printing: MANP
+numerical simulation: ENAT
+
+AM technologies: MANP
+trends: CONPRI
+engineering: APPL
+manufacturing process: MANP
+
+engineering: APPL
+manufacturing cycle: CONPRI
+3D model: APPL
+technologies: CONPRI
+evolution: CONPRI
+additive manufacturing: MANP
+
+AM: MANP
+trends: CONPRI
+economic activities: CONPRI
+
+three-dimensional: CONPRI
+layer by layer: CONPRI
+computer-aided design: ENAT
+CAD: ENAT
+rapid prototyping: ENAT
+prototype: CONPRI
+
+Additive Manufacturing: MANP
+AM: MANP
+capacity: CONPRI
+layer-by-layer: CONPRI
+
+AM technology: MANP
+modelling: ENAT
+prototyping: CONPRI
+tooling: CONPRI
+machine: MACEQ
+3D printer: MACEQ
+
+AM: MANP
+manufacturing: MANP
+prototypes: CONPRI
+production: MANP
+tooling: CONPRI
+Rapid Tooling: MANP
+
+technology: CONPRI
+support: APPL
+conceptualisation: CONPRI
+
+process: CONPRI
+product development: CONPRI
+cost reduction: CONPRI
+human interaction: CONPRI
+product cycle: CONPRI
+
+be: MATE
+manufacture: CONPRI
+processes: CONPRI
+
+milling: MANP
+moulding: CONPRI
+
+complex geometries: CONPRI
+curved surfaces: CONPRI
+be: MATE
+support material: MATE
+
+feedback: PARA
+quality: CONPRI
+effectiveness: CONPRI
+manufactured: CONPRI
+
+technology: CONPRI
+manufacture direction: CONPRI
+model orientation: CONPRI
+material: MATE
+accurate: CHAR
+production: MANP
+
+technologies: CONPRI
+as: MATE
+3D printing: MANP
+rapid prototyping: ENAT
+
+AM machines: MACEQ
+
+evolution: CONPRI
+rapid prototyping: ENAT
+mass production: CONPRI
+
+AM: MANP
+fits: CONPRI
+numerical design: CONPRI
+manufacturing chain: CONPRI
+
+AM: MANP
+reverse engineering: CONPRI
+model: CONPRI
+
+rapid prototyping: ENAT
+layers manufacturing: MANP
+
+AM: MANP
+3D printing: MANP
+
+AM: MANP
+manufacturer: CONPRI
+
+evolution: CONPRI
+AM technologies: MANP
+
+evolution: CONPRI
+product life cycle: CONPRI
+manufacturing cost: CONPRI
+reliability: CHAR
+
+technologic: CONPRI
+manufacturing processes: MANP
+
+AM: MANP
+manufacturing technologies: MANP
+
+design process: CONPRI
+technologies: CONPRI
+industrial: APPL
+trends: CONPRI
+
+product design: FEAT
+rapid prototyping: ENAT
+cycle development: CONPRI
+
+rapid prototyping: ENAT
+processes: CONPRI
+substance: CONPRI
+as: MATE
+waxes: MATE
+powders: MATE
+laminates: CONPRI
+as: MATE
+model construction: MANP
+as: MATE
+as: MATE
+computer-automated equipment: MACEQ
+processing techniques: CONPRI
+as: MATE
+sintering: MANP
+lasing: ENAT
+
+AM: MANP
+virtual model: ENAT
+physical model: CONPRI
+
+virtual model: ENAT
+CAD: ENAT
+be: MATE
+surface: CONPRI
+solid model: CONPRI
+
+3D data: CONPRI
+physical model: CONPRI
+data acquisition: CHAR
+as: MATE
+reverse engineering: CONPRI
+
+process: CONPRI
+3D model: APPL
+CAD: ENAT
+STL format file: MANS
+
+software: CONPRI
+AM technology: MANP
+slices: CONPRI
+file: MANS
+layer: PARA
+
+software: CONPRI
+complex geometries: CONPRI
+parameters: CONPRI
+
+engineering: APPL
+manufacturing cycle: CONPRI
+design: FEAT
+CAD: ENAT
+reverse engineering: CONPRI
+3D scanning: CHAR
+
+CAE: ENAT
+manufacturing technology: MANP
+
+geometry: CONPRI
+exchange format: CONPRI
+STL: MANS
+
+file: MANS
+software: CONPRI
+AM machine: MACEQ
+
+Configuration: CONPRI
+orientation: CONPRI
+set: APPL
+supports: APPL
+
+Slicing: CONPRI
+software: CONPRI
+
+Computation: CONPRI
+layers manufacturing: MANP
+
+Post-processing: CONPRI
+
+file: MANS
+machine: MACEQ
+
+Rapid manufacturing: MANP
+machine: MACEQ
+file: MANS
+layer-by-layer: CONPRI
+
+machine: MACEQ
+raw material: MATE
+powder: MATE
+resin: MATE
+cartridge: MACEQ
+s: MATE
+polymer: MATE
+s: MATE
+manufacturing: MANP
+laser: ENAT
+printing head: MACEQ
+s: MATE
+binder: MATE
+s: MATE
+
+manufacturing: MANP
+support material: MATE
+surfaces: CONPRI
+geometry: CONPRI
+structure: CONPRI
+scaffolding: ENAT
+
+support material: MATE
+finishing: MANP
+
+MJM: MANP
+recycled: CONPRI
+post-processing: CONPRI
+
+SLS: MANP
+SLM: MANP
+CJD/3DP: MANP
+
+step: CONPRI
+complex geometry: CONPRI
+material: MATE
+
+technologies: CONPRI
+extracting: CONPRI
+material: MATE
+geometry: CONPRI
+
+post-processing: CONPRI
+hardening: MANP
+infiltration: CONPRI
+material: MATE
+
+manufacturing constraints: CONPRI
+feedback: PARA
+model: CONPRI
+
+Rapid prototyping: ENAT
+subtractive: MANP
+additive: MATE
+
+Subtractive: MANP
+raw material: MATE
+workpiece: CONPRI
+
+cutting: MANP
+laser-cutting: MANP
+water-jet cutting: MANP
+machining: MANP
+lathing: MANP
+milling: MANP
+
+additive technologies: ENAT
+raw material: MATE
+
+Modelling: ENAT
+step: CONPRI
+AM: MANP
+equipment: MACEQ
+
+empirical: CONPRI
+modelling: ENAT
+AM process: MANP
+be: MATE
+
+data: CONPRI
+statistical methods: CONPRI
+as: MATE
+response surface methodology: CONPRI
+be: MATE
+
+physics-based models: CONPRI
+process: CONPRI
+partial information: CONPRI
+process: CONPRI
+
+research: CONPRI
+prediction: CONPRI
+GP: CONPRI
+Genetic Programming: ENAT
+MGGP: ENAT
+Multi-Gene Genetic Programming: ENAT
+hybridising: CONPRI
+computational intelligence: CONPRI
+as: MATE
+artificial neural network: ENAT
+ANN: ENAT
+fuzzy logic: CONPRI
+regression: CONPRI
+support vector regression: CONPRI
+
+MGGP: ENAT
+GP: CONPRI
+
+model: CONPRI
+mathematical equation: CONPRI
+mechanical behaviours: CONPRI
+parameters: CONPRI
+
+performance: CONPRI
+ANN: ENAT
+be: MATE
+GP: CONPRI
+regression: CONPRI
+effectiveness: CONPRI
+ANN: ENAT
+performance: CONPRI
+prototype: CONPRI
+
+STL: MANS
+STereoLithography: MANP
+Standard Tessellation Language: MANS
+file: MANS
+3D Systems: APPL
+standard: CONPRI
+additive manufacturing: MANP
+
+STL file: MANS
+process: CONPRI
+geometry: CONPRI
+CAD file: MANS
+header: CONPRI
+coordinates triplet: CONPRI
+y: MATE
+coordinates: PARA
+normal vector: CONPRI
+
+facet: CONPRI
+normal vector: CONPRI
+vertices: PARA
+
+facets: CONPRI
+surfaces: CONPRI
+3D object: APPL
+
+facet: CONPRI
+boundary: FEAT
+facet: CONPRI
+vertices: PARA
+adjacent triangles: CONPRI
+
+surface: CONPRI
+errors: CONPRI
+STL: MANS
+model: CONPRI
+
+slicing process: CONPRI
+file: MANS
+algorithm: CONPRI
+contour: FEAT
+discrete stair steps: CONPRI
+
+slicing process: CONPRI
+
+computation: CONPRI
+mesh generation: CONPRI
+process models: CONPRI
+
+computer: ENAT
+STL file: MANS
+
+3D model: APPL
+file size: PARA
+
+3D printers: MACEQ
+as: MATE
+
+designed: FEAT
+open-source: CONPRI
+3D printers: MACEQ
+area: PARA
+RepRap: APPL
+
+range: PARA
+3D printers: MACEQ
+Fused Deposition Modeling: MANP
+FDM: MANP
+technology: CONPRI
+machines: MACEQ
+stereolithography: MANP
+patents: CONPRI
+
+machines: MACEQ
+performance: CONPRI
+
+FDM: MANP
+technology: CONPRI
+anisotropic: PRO
+properties: CONPRI
+as: MATE
+as: MATE
+thermoplastic materials: MATE
+
+FDM: MANP
+printer: MACEQ
+
+laser: ENAT
+electron beam-based: ENAT
+machines: MACEQ
+performance: CONPRI
+
+3D printers: MACEQ
+print: MANP
+software: CONPRI
+slice: CONPRI
+3D model: APPL
+machine: MACEQ
+
+Companies: APPL
+3D printers: MACEQ
+3D Systems: APPL
+Stratasys: APPL
+Solido LTD: APPL
+
+Hewlett Packard: APPL
+Xerox: APPL
+3D printing: MANP
+technology: CONPRI
+
+AM technologies: MANP
+manufacturing constraints: CONPRI
+printing technology: ENAT
+material: MATE
+aesthetic: CONPRI
+mechanical: APPL
+
+Areas of interest: CONPRI
+3D printing: MANP
+aeronautics: APPL
+architecture: APPL
+automotive industries: APPL
+art: APPL
+dentistry: APPL
+fashion: CONPRI
+jewellery: CONPRI
+medicine: CONPRI
+pharmaceuticals: APPL
+robotics: APPL
+toys: MACEQ
+
+Automotive: APPL
+technology: CONPRI
+predictable: CONPRI
+
+Aerospace: APPL
+technologies: CONPRI
+
+mechanical functionality: CONPRI
+assembly: MANP
+cooling channels: MACEQ
+honeycomb: CONPRI
+topological optimisation: FEAT
+structure: CONPRI
+
+lightweight structures: MACEQ
+
+Medical industries: APPL
+AM technology: MANP
+3D medical imaging: ENAT
+be: MATE
+
+AM technology: MANP
+
+technologies: CONPRI
+hardening system: MACEQ
+melting system: MACEQ
+laser: ENAT
+flashing source: CONPRI
+extrusion: MANP
+jetting: MANP
+
+SLA: MACEQ
+Stereolithography: MANP
+technologies: CONPRI
+rapid prototyping: ENAT
+bottlenecks: CONPRI
+as: MATE
+as: MATE
+design: FEAT
+CAD: ENAT
+
+3D Systems: APPL
+Chuck: MACEQ
+process: CONPRI
+
+Photolithographic systems: MANP
+build: PARA
+solidify: CONPRI
+photosensitive resins: MATE
+
+laser lithography: MANP
+AM technologies: MANP
+
+scanning: CONPRI
+laser beam: CONPRI
+photopolymer: MATE
+
+SLA: MACEQ
+ceramics: MATE
+
+Ceramic powder: MATE
+silica: MATE
+alumina: MATE
+fluid UV curable monomer: MATE
+monomer: MATE
+
+building process: CHAR
+as: MATE
+SLA: MACEQ
+monomer solution: MATE
+cured: MANP
+composite: MATE
+
+prototypes: CONPRI
+stiffness: PRO
+standard: CONPRI
+temperature resistance: PRO
+
+higher resolution: PARA
+microstereolithography: MANP
+print: MANP
+layer: PARA
+
+microstereolithography: MANP
+macro scale: CONPRI
+dimensions: FEAT
+
+microstereolithography: MANP
+UV laser beam: CONPRI
+solidify: CONPRI
+layer: PARA
+
+Submicron resolution: PARA
+UV beam: CONPRI
+precise fabrication: MANP
+3D: CONPRI
+microstructures: MATE
+
+SLM: MANP
+Selective Laser Melting: MANP
+layer: PARA
+powder material: MATE
+roller: MACEQ
+building platform: MACEQ
+
+laser beam: CONPRI
+fuses: MANP
+powder: MATE
+computer-generated: CONPRI
+component: MACEQ
+data: CONPRI
+
+platform: MACEQ
+layer: PARA
+powder: MATE
+
+material: MATE
+fused: CONPRI
+as: MATE
+layer: PARA
+predefined points: CONPRI
+
+process: CONPRI
+metal powder: MATE
+melted: CONPRI
+
+3D printer: MACEQ
+machines: MACEQ
+multi laser technology: CONPRI
+
+material: MATE
+be: MATE
+steel: MATE
+stainless steel: MATE
+cobalt chrome: MATE
+titanium: MATE
+aluminium: MATE
+
+Electron Beam Melting: MANP
+powder process: MANP
+accuracy: CHAR
+electron beam: CONPRI
+scan speed: PARA
+melting capacity: CONPRI
+productivity: CONPRI
+
+Selective Laser Sintering: MANP
+SLS: MANP
+high-power laser: CONPRI
+fuse: MANP
+particles: CONPRI
+polyamide: MATE
+steel: MATE
+titanium: MATE
+alloys: MATE
+ceramic powders: MATE
+
+As: MATE
+SLM: MANP
+powder bed: MACEQ
+layer thickness: PARA
+layer: PARA
+powder: MATE
+process: CONPRI
+model: CONPRI
+
+sintering: MANP
+melting: MANP
+sintering: MANP
+processes: CONPRI
+melt: CONPRI
+powder: MATE
+heat: CONPRI
+powder: MATE
+fuse: MANP
+
+SLS: MANP
+machines: MACEQ
+laser powers: PARA
+chamber controlled: MACEQ
+range: PARA
+
+porosity: PRO
+material: MATE
+be: MATE
+
+porosity: PRO
+post-treatment: MANP
+infiltration: CONPRI
+harden: CONPRI
+model: CONPRI
+bronze: MATE
+steel: MATE
+
+SLS prototypes: CONPRI
+dimensional accuracy: CHAR
+PolyJet: CONPRI
+3DP: MANP
+
+Direct Metal Laser Sintering: MANP
+DMLS: MANP
+SLS: MANP
+
+technology: CONPRI
+powder bed fusion process: MANP
+melting: MANP
+metal powder: MATE
+focused laser beam: CONPRI
+
+manufactured layer by layer: CONPRI
+powder: MATE
+scraper: MACEQ
+
+DMLS: MANP
+net shape fabrication: MANP
+prototype: CONPRI
+short series tooling: CONPRI
+plastic injection moulding: MANP
+
+EOS: APPL
+laser source: MACEQ
+fibre laser: CONPRI
+
+trend: CONPRI
+laser power: PARA
+
+DMLS: MANP
+process: CONPRI
+metal alloys: MATE
+manufacturing: MANP
+industry: APPL
+aerospace: APPL
+dental: APPL
+medical: APPL
+industry: APPL
+tooling industry: APPL
+tooling inserts: MACEQ
+
+powders: MATE
+durability: PRO
+materials: CONPRI
+direct manufacturing: CONPRI
+functional prototypes: CONPRI
+powder metallurgical: MANP
+cast: MANP
+
+Support structures: FEAT
+geometry: CONPRI
+powder: MATE
+liquid phase: PRO
+laser: ENAT
+scanning: CONPRI
+powder: MATE
+
+rapid manufacturing: MANP
+DMLS: MANP
+powder: MATE
+particles: CONPRI
+
+melting point: PRO
+melting point: PRO
+
+high-melting point: PRO
+solid matrix: CONPRI
+particles: CONPRI
+melting point: PRO
+bind: MANP
+melted: CONPRI
+laser energy: CONPRI
+
+lead time: PARA
+build speed: PARA
+technology: CONPRI
+SLA: MACEQ
+
+photomask: MATE
+masking: CONPRI
+3D models: APPL
+DLP: MANP
+Digital Light Processing: MANP
+as: MATE
+Film Transfer Imaging: MANP
+UV: CONPRI
+photopolymerised materials: MATE
+
+coated: APPL
+resin: MATE
+cured: MANP
+UV flash: CONPRI
+projector: MACEQ
+slice: CONPRI
+
+3D laser printer: MACEQ
+DLP: MANP
+layer: PARA
+
+rapid prototyping: ENAT
+scanning time: PARA
+laser: ENAT
+
+SLA: MACEQ
+resin: MATE
+resin: MATE
+DLP printer: MACEQ
+
+SLA: MACEQ
+process: CONPRI
+forming implant: MACEQ
+DLP: MANP
+DLP: MANP
+build platform: MACEQ
+damage: PRO
+basement plate: MACEQ
+exposure: CONPRI
+
+building platform: MACEQ
+be: MATE
+light source: MACEQ
+masking machines: MACEQ
+
+technologies: CONPRI
+3D printer: MACEQ
+
+DLP: MANP
+high resolution: PARA
+layer thickness: PARA
+
+mask-image-projection: CONPRI
+stereolithography: MANP
+process: CONPRI
+digital materials: CONPRI
+
+mask images: CONPRI
+two-channel: CONPRI
+design: FEAT
+separation force: CONPRI
+cured layer: CONPRI
+resin vat: MACEQ
+
+fabrication: MANP
+dual-material: CONPRI
+3D objects: APPL
+spatial control: CONPRI
+material: MATE
+structure: CONPRI
+
+DLP: MANP
+Continuous Liquid Interface Production: MANP
+CLIP: MANP
+production: MANP
+AM: MANP
+photopolymerisation: CONPRI
+projector: MACEQ
+oxygen: MATE
+oxygen-permeable membrane: MATE
+
+process: CONPRI
+SLS: MANP
+MJM: MANP
+
+Extrusion: MANP
+Fused Deposition Modeling: MANP
+FDM: MANP
+layer: PARA
+AM process: MANP
+thermoplastic filament: MATE
+fused depositing: MANP
+
+FDM: MANP
+Stratasys: APPL
+Fused Filament Fabrication: MANP
+FFF: MANP
+
+filament: MATE
+extruded: MANP
+nozzle: MACEQ
+print: MANP
+cross section: CONPRI
+process: CONPRI
+layer: PARA
+
+materials: CONPRI
+FDM: MANP
+ABS: MATE
+PLA: MATE
+PC: MATE
+Polycarbonate: MATE
+blends: MATE
+wood: MATE
+stone as: MATE
+as: MATE
+rubbery characteristics: CONPRI
+
+ABS: MATE
+PLA: MATE
+ageing UV: ENAT
+discoloration: CONPRI
+material: MATE
+
+mechanical behaviour: CONPRI
+FDM: MANP
+material properties: CONPRI
+FDM: MANP
+material: MATE
+FDM: MANP
+build parameters: PARA
+anisotropic material properties: PRO
+
+support material: MATE
+material: MATE
+detachable: CONPRI
+soluble: CONPRI
+manufacturing process: MANP
+raw material: MATE
+
+resolution: PARA
+AM process: MANP
+mm: MANP
+smooth surface: CONPRI
+finishing process: MANP
+process: CONPRI
+build: PARA
+
+FDM: MANP
+desktop 3D printers: MACEQ
+printers: MACEQ
+
+Directed Energy Deposition: MANP
+DED: MANP
+range: PARA
+Laser Engineered Net Shaping: MANP
+LENS: MANP
+directed light fabrication: MANP
+IFF: MANP
+Ion Fusion Formation: MANP
+Direct Metal Deposition: MANP
+DMD: MANP
+3D laser cladding: MANP
+
+printing process: MANP
+material: MATE
+components: MACEQ
+
+LENS: MANP
+melt: CONPRI
+surface: CONPRI
+powdered metal: MATE
+
+IFF: MANP
+metal wire: MATE
+powder: MATE
+plasma welding torch: MACEQ
+
+near-net-shape manufacturing: MANP
+ionised gas: CONPRI
+metal: MATE
+
+DMD: MANP
+metal wire: MATE
+electron beam: CONPRI
+as: MATE
+vacuum chamber: MACEQ
+
+DED: MANP
+be: MATE
+
+Dough Deposition Modeling: CONPRI
+DDM: CONPRI
+processes: CONPRI
+file: MANS
+doughs: MATE
+
+technologies: CONPRI
+FDM printers: MACEQ
+syringe: MACEQ
+dough material: MATE
+silicone: MATE
+food dough: MATE
+chocolate: MATE
+
+syringe-based extrusion tool: MACEQ
+linear stepper motor: MACEQ
+syringe plunger position: PARA
+
+medical: APPL
+deposition: CONPRI
+biomaterial: MATE
+cells: APPL
+tissue structure: CONPRI
+
+deposition: CONPRI
+biopolymers: MATE
+high-resolution: PARA
+pressure-activated microsyringe: MACEQ
+
+extrude: MANP
+bio-based material: MATE
+model: CONPRI
+ecological environment: CONPRI
+
+piston: APPL
+3D printer head: MACEQ
+CNC machine: MACEQ
+pulpwood: MATE
+wood flour: MATE
+reconstituted wood product: CONPRI
+
+Jet technologies: MANP
+MJM: MANP
+Multi Jet Modeling: MANP
+droplets: CONPRI
+photopolymer materials: MATE
+multi jets: MACEQ
+building platform: MACEQ
+ultra-thin layers: CONPRI
+
+photopolymer materials: MATE
+model: CONPRI
+gel: MATE
+material: MATE
+
+photopolymer layers: MATE
+cured: MANP
+UV lamps: MACEQ
+gel-like polymer: MATE
+complexity: CONPRI
+geometry: CONPRI
+wrapping: CONPRI
+
+soluble: CONPRI
+gel-like: MATE
+support material: MATE
+water jet: MANP
+
+PolyJet technique: MANP
+accurately: CHAR
+surface finish: FEAT
+smoothness: CONPRI
+
+accuracy: CHAR
+PolyJet machine: MACEQ
+higher resolution: PARA
+
+as: MATE
+wax: MATE
+jetting: MANP
+droplets: CONPRI
+melted liquid material: MATE
+harden: CONPRI
+impact: CONPRI
+
+3DP: MANP
+three-dimensional printing: MANP
+as: MATE
+Colour Jet Printing: MANP
+powders: MATE
+binders: MATE
+
+3DP: MANP
+
+layer: PARA
+powder: MATE
+layer: PARA
+roller: MACEQ
+powder: MATE
+inkjet printing: MANP
+binder: MATE
+
+build tray: MACEQ
+layer: PARA
+
+process: CONPRI
+fabricate: MANP
+metal: MATE
+ceramic: MATE
+silica: MATE
+polymeric components: MATE
+geometry: CONPRI
+
+powders: MATE
+green products: PRO
+wood: MATE
+
+3DP: MANP
+print: MANP
+build: PARA
+cartridge: MACEQ
+
+model: CONPRI
+extracted: CONPRI
+powder bed: MACEQ
+infiltration: CONPRI
+liquid glue: MATE
+
+mechanical behaviours: CONPRI
+
+3DP: MANP
+tool: MACEQ
+model: CONPRI
+
+Prometal: MANP
+3D printing: MANP
+build: PARA
+tools: MACEQ
+dies: MACEQ
+
+process: CONPRI
+stainless steel: MATE
+
+printing process: MANP
+liquid binder: MATE
+steel powder: MATE
+
+solidify: CONPRI
+sintering: MANP
+infiltration: CONPRI
+finishing processes: MANP
+
+Liquid Metal Jetting: MANP
+LMJ: MANP
+jetting: MANP
+molten metal: MATE
+process: CONPRI
+inkjet printing: MANP
+droplets: CONPRI
+
+process: CONPRI
+
+LOM: MANP
+Manufacturing: MANP
+rapid prototyping: ENAT
+process: CONPRI
+
+process: CONPRI
+adhesive bonding: CONPRI
+laser patterning: CONPRI
+
+plotter device: MACEQ
+work table: MACEQ
+
+plotter device: MACEQ
+forming: MANP
+layer: PARA
+sheet: MATE
+material: MATE
+work table: MACEQ
+
+heat-sensitive adhesives: MATE
+
+bonding: CONPRI
+fuser: MACEQ
+work table: MACEQ
+lamination force: PARA
+heat: CONPRI
+
+layer resolution: PARA
+paper sheet: MATE
+
+3D printers: MACEQ
+print: MANP
+Technologies: CONPRI
+
+Stratoconception: CONPRI
+rapid prototyping: ENAT
+process: CONPRI
+sheets: MATE
+
+decomposition: PRO
+model: CONPRI
+set: APPL
+strata: CONPRI
+reinforcing pieces: MACEQ
+inserts: MACEQ
+strata: CONPRI
+
+layer: PARA
+manufactured: CONPRI
+milling: MANP
+laser-cutting: MANP
+
+strata: CONPRI
+inserts: MACEQ
+
+process: CONPRI
+milling: MANP
+sheet: MATE
+raw material: MATE
+wood: MATE
+MDF: MATE
+PVC: MATE
+aluminium: MATE
+
+AM technologies: MANP
+manufacturing constraints: CONPRI
+mechanical behaviours: CONPRI
+
+powder technology: ENAT
+power: PARA
+bed: MACEQ
+cleaning: MANP
+post-treatment: MANP
+
+manufacturing: MANP
+model: CONPRI
+quality: CONPRI
+geometry: CONPRI
+material gradient: CONPRI
+manufacturing: MANP
+
+orientation: CONPRI
+planarity: CONPRI
+circularity: CONPRI
+surface accuracy: CHAR
+
+technologies: CONPRI
+as: MATE
+3DP: MANP
+DED: MANP
+
+internal structure: PRO
+material orientation: CONPRI
+manufacturing technology: MANP
+manufacturing: MANP
+be: MATE
+
+anisotropy: PRO
+FDM: MANP
+crack propagation: CONPRI
+ageing UV: ENAT
+photopolymers: MATE
+
+accuracy: CHAR
+AM machines: MACEQ
+manufacturer: CONPRI
+
+3D printer: MACEQ
+accuracy: CHAR
+functional mechanism: CONPRI
+
+post-treatment: MANP
+post-machining: MANP
+post-finishing: MANP
+
+recycling: CONPRI
+raw material: MATE
+be: MATE
+
+set: APPL
+AM technology: MANP
+
+engineering: APPL
+manufacturing process: MANP
+
+patents: CONPRI
+machines: MACEQ
+
+patent: CONPRI
+SLS: MANP
+selective sintering: MANP
+
+technologies: CONPRI
+patents: CONPRI
+companies: APPL
+
+3D printing: MANP
+medical: APPL
+
+organ transplantation: CONPRI
+organ printing: MANP
+3d tissue engineering: APPL
+solution: CONPRI
+
+research: CONPRI
+organ printing: MANP
+as: MATE
+rapid prototyping: ENAT
+3D printing technology: ENAT
+layer-by-layer deposition: CONPRI
+cell: APPL
+cell: APPL
+aggregates: MATE
+3D gel: MATE
+printed construct: CONPRI
+
+implantation: MANP
+materials: CONPRI
+
+biomaterials: MATE
+as: MATE
+polymers: MATE
+synthetic gels: MATE
+naturally derived hydrogels: MATE
+
+Prosthetic: APPL
+biomedical: APPL
+area: PARA
+3D printing: MANP
+
+s: MATE
+3D printing: MANP
+implant: APPL
+design: FEAT
+production: MANP
+stability: PRO
+hip prostheses: MACEQ
+biomechanical: APPL
+joint: CONPRI
+
+allogeneic scaffolding: BIOP
+cellular bioprinting: APPL
+prosthetics: APPL
+as: MATE
+
+medical: APPL
+3D Printing: MANP
+
+construction: APPL
+3D printing: MANP
+as: MATE
+Engineering Company: APPL
+
+company: APPL
+print: MANP
+components: MACEQ
+
+concrete: MATE
+3D printing: MANP
+construction: APPL
+
+3D printer: MACEQ
+conventional system: CONPRI
+DDM technology: ENAT
+
+building industry: APPL
+as: MATE
+construction: APPL
+
+STL format: MANS
+limits: CONPRI
+data: CONPRI
+
+STL format: MANS
+model: CONPRI
+software: CONPRI
+insert: MACEQ
+CAD: ENAT
+
+exchange format: CONPRI
+as: MATE
+Additive Manufacturing file Format: MANS
+AMF: CONPRI
+parameters: CONPRI
+material: MATE
+composite: MATE
+metadata: ENAT
+
+STL: MANS
+
+file: MANS
+support: APPL
+geometry: CONPRI
+multiple-material: CONPRI
+mono/multicolour: CONPRI
+STL: MANS
+Additive Manufacturing file Format: MANS
+AMF: CONPRI
+composition: CONPRI
+complex geometries: CONPRI
+multiple-material: CONPRI
+
+data: CONPRI
+additive manufacturing machine: MACEQ
+exchange format: CONPRI
+
+standard: CONPRI
+ISO/ASTM: MANS
+Standard: CONPRI
+specification: PARA
+additive manufacturing file format: MANS
+AMF: CONPRI
+framework: CONPRI
+additive manufacturing: MANP
+
+manufacturing: MANP
+AM build tray: MACEQ
+production line: MANP
+
+lead time: PARA
+build speed: PARA
+additive manufacturing: MANP
+
+interoperability: CONPRI
+3D printer: MACEQ
+
+companies: APPL
+3D printers: MACEQ
+be: MATE
+production line: MANP
+printers: MACEQ
+3D printing: MANP
+sand: MATE
+metal materials: MATE
+
+as: MATE
+industrial revolution: CONPRI
+additive manufacturing: MANP
+be: MATE
+set: APPL
+manufacturing process: MANP
+
+orientations: CONPRI
+3D printers: MACEQ
+be: MATE
+production line: MANP
+automation: CONPRI
+digital chain: ENAT
+
+hybrid system: ENAT
+3D printing: MANP
+laser deposition of metals: MANP
+DMD: MANP
+CNC machining: MANP
+solution: CONPRI
+
+moulds fabrication: MANP
+additive manufacturing: MANP
+manufacture: CONPRI
+rapid tooling: MANP
+
+Powder-based sintering: MANP
+metal: MATE
+injection moulding: MANP
+
+AM technologies: MANP
+manufacture: CONPRI
+sand moulds: MACEQ
+casting: MANP
+
+lost mould: MACEQ
+casting: MANP
+thermojet technology: ENAT
+wax: MATE
+
+saw: MANP
+powder technologies: ENAT
+sand moulds: MACEQ
+casting: MANP
+
+additive manufacturing: MANP
+topological optimisation: FEAT
+rapid tooling: MANP
+material: MATE
+properties: CONPRI
+
+layers manufacturing: MANP
+tooling: CONPRI
+as: MATE
+sensors: MACEQ
+
+injection mould: MACEQ
+Stratoconception: CONPRI
+assembly: MANP
+strata: CONPRI
+cooling channels: MACEQ
+fluid: MATE
+
+moulded: MACEQ
+cooling channels: MACEQ
+geometry: CONPRI
+
+weight: PARA
+material: MATE
+mechanical: APPL
+
+support material: MATE
+be: MATE
+AM technology: MANP
+
+Topology optimisation: FEAT
+mathematical: CONPRI
+material: MATE
+layout: CONPRI
+design space: CONPRI
+set: APPL
+boundary conditions: CONPRI
+layout: CONPRI
+set: APPL
+performance: CONPRI
+
+topology optimization: FEAT
+concept design: CONPRI
+design: FEAT
+
+complex geometry: CONPRI
+additive manufacturing: MANP
+topological optimisation: FEAT
+model: CONPRI
+internal structure: PRO
+mechanical: APPL
+design: FEAT
+
+Topologically: CONPRI
+internal geometry: FEAT
+structure: CONPRI
+supports: APPL
+
+Additive manufacturing: MANP
+standards: CONPRI
+industry: APPL
+research: CONPRI
+technology: CONPRI
+
+standards: CONPRI
+performance: CONPRI
+production: MANP
+processes: CONPRI
+quality: CONPRI
+calibration: CONPRI
+additive manufacturing machines: MACEQ
+
+standards: CONPRI
+International Organisation for Standardisation: MANS
+ISO: MANS
+ISO 17296-2:2015: MANS
+process: CONPRI
+feedstock: MATE
+
+process: CONPRI
+AM: MANP
+processes: CONPRI
+materials: CONPRI
+
+ISO 17296-3:2014: MANS
+testing: CHAR
+quality: CONPRI
+
+ISO/ASTM: MANS
+Standard: CONPRI
+Design: FEAT
+AM: MANP
+design: FEAT
+
+standards: CONPRI
+AM: MANP
+AM parts: MACEQ
+
+additive manufacturing: MANP
+prototyping: CONPRI
+production: MANP
+
+medical: APPL
+aerospace: APPL
+automotive: APPL
+industrial: APPL
+
+Metal additive manufacturing: MANP
+post-processing treatment: MANP
+production costs: CONPRI
+
+Design for Additive Manufacturing: FEAT
+product design: FEAT
+complexity: CONPRI
+production: MANP
+processes: CONPRI
+AM: MANP
+life cycle: CONPRI
+
+tools: MACEQ
+as: MATE
+AM: MANP
+
+framework: CONPRI
+tools: MACEQ
+product development: CONPRI
+AM process: MANP
+product optimization: CONPRI
+AM process: MANP
+
+design: FEAT
+research: CONPRI
+industry: APPL
+
+Additive manufacturing: MANP
+quality: CONPRI
+penetration: CONPRI
+
+as: MATE
+technology: CONPRI
+technology: CONPRI
+mass production: CONPRI
+
+3D printing: MANP
+component: MACEQ
+production: MANP
+
+AM: MANP
+aerospace: APPL
+automotive: APPL
+consumer products: APPL
+medical: APPL
+industries: APPL
+
+Deloitte AM: ENAT
+industry: APPL
+area: PARA
+
+industries: APPL
+AM: MANP
+be: MATE
+supply chain: CONPRI
+
+companies: APPL
+supply chain: CONPRI
+AM: MANP
+
+AM: MANP
+prototypes: CONPRI
+tools: MACEQ
+
+AM: MANP
+business cases: APPL
+production: MANP
+be: MATE
+
+production: MANP
+production: MANP
+production: MANP
+oil: MATE
+gas: CONPRI
+
+AM: MANP
+performance: CONPRI
+
+fuel nozzle: MACEQ
+GE: MATE
+embedded electronics: ENAT
+lightweight structures: MACEQ
+
+companies: APPL
+business models: APPL
+supply chains: CONPRI
+
+3D scanning: CHAR
+
+product design: FEAT
+supply chain: CONPRI
+
+performance: CONPRI
+as: MATE
+as: MATE
+standard: CONPRI
+product designs: FEAT
+designs: FEAT
+be: MATE
+AM process: MANP
+
+Design for Additive Manufacturing: FEAT
+product design: FEAT
+performance: CONPRI
+
+as: MATE
+AM: MANP
+industry: APPL
+
+be: MATE
+AM: MANP
+production: MANP
+
+design: FEAT
+AM: MANP
+production: MANP
+
+AM processes: MANP
+AM materials: MATE
+AM: MANP
+areas: PARA
+AM: MANP
+
+complexity: CONPRI
+be: MATE
+as: MATE
+product development: CONPRI
+AM: MANP
+
+design: FEAT
+design: FEAT
+AM: MANP
+industrial: APPL
+processes: CONPRI
+
+design considerations: CONPRI
+be: MATE
+transition: CONPRI
+production: MANP
+processes: CONPRI
+additive manufacturing: MANP
+
+art: APPL
+tools: MACEQ
+design: FEAT
+geometry: CONPRI
+AM: MANP
+industrial: APPL
+
+AM processes: MANP
+process: CONPRI
+be: MATE
+
+framework: CONPRI
+tools: MACEQ
+
+framework: CONPRI
+be: MATE
+lightweighting: PRO
+internal topology: CONPRI
+surface: CONPRI
+material: MATE
+complexity: CONPRI
+
+AM: MANP
+production: MANP
+metal: MATE
+industrial: APPL
+
+design: FEAT
+be: MATE
+AM processes: MANP
+
+Additive manufacturing: MANP
+ISO/ASTM: MANS
+standard: CONPRI
+as: MATE
+process: CONPRI
+joining: MANP
+3D model: APPL
+layer: PARA
+layer: PARA
+as: MATE
+subtractive manufacturing: MANP
+manufacturing: MANP
+
+be: MATE
+range: PARA
+technologies: CONPRI
+
+Hybrid technologies: ENAT
+additive: MATE
+subtractive processes: MANP
+machine: MACEQ
+be: MATE
+as: MATE
+AM machines: MACEQ
+
+manufacturing: MANP
+AM: MANP
+production: MANP
+processes: CONPRI
+standard: CONPRI
+
+AM processes: MANP
+ISO/ASTM: MANS
+AM process: MANP
+3D: CONPRI
+model: CONPRI
+Binder jetting: MANP
+droplet: CONPRI
+bind: MANP
+particles: CONPRI
+Directed energy deposition: MANP
+material: MATE
+Material extrusion: MANP
+material: MATE
+nozzle: MACEQ
+liquid state: CONPRI
+Material jetting: MANP
+material: MATE
+liquid droplet form: CONPRI
+Powder bed fusion: MANP
+powder material: MATE
+particles: CONPRI
+melt: CONPRI
+solid matrix: CONPRI
+Sheet lamination: MANP
+sheets: MATE
+material: MATE
+sheets: MATE
+Vat photopolymerisation: MANP
+platform: MACEQ
+vat: MACEQ
+resin: MATE
+solidify: CONPRI
+
+machines: MACEQ
+designed: FEAT
+prototypes: CONPRI
+production: MANP
+
+AM technology: MANP
+design process: CONPRI
+machine setup: MACEQ
+finishing: MANP
+
+processes: CONPRI
+polymeric materials: MATE
+sheet lamination: MANP
+
+technologies: CONPRI
+batch production: CONPRI
+
+be: MATE
+be: MATE
+continuous production line: MANP
+
+be: MATE
+AM machines: MACEQ
+production: MANP
+hearing aids: APPL
+
+complexity: CONPRI
+AM: MANP
+be: MATE
+production: MANP
+
+impact: CONPRI
+AM: MANP
+process chain: ENAT
+production: MANP
+metal: MATE
+
+process: CONPRI
+metal: MATE
+
+mixing: CONPRI
+metal: MATE
+material joining: FEAT
+
+metal: MATE
+be: MATE
+photopolymers: MATE
+vat photopolymerisation: MANP
+polymer: MATE
+powder bed fusion: MANP
+filament: MATE
+material extrusion: MANP
+
+properties: CONPRI
+metal: MATE
+surface: CONPRI
+hardness: PRO
+heat deflection: CONPRI
+
+furnace: MACEQ
+polymer: MATE
+metal: MATE
+sinter: MANP
+
+process: CONPRI
+furnace: MACEQ
+
+process: CONPRI
+binder jetting: MANP
+
+be: MATE
+shrinkage: CONPRI
+
+shrinkage: CONPRI
+be: MATE
+voids: CONPRI
+densification: MANP
+
+420 stainless steel: MATE
+be: MATE
+bronze: MATE
+
+technologies: CONPRI
+geometric tolerances: FEAT
+predictable: CONPRI
+density: PRO
+
+polymer AM materials: MATE
+be: MATE
+casting: MANP
+metal: MATE
+
+processes: CONPRI
+waxes as: MATE
+conventional investment casting: MANP
+
+polymers: MATE
+be: MATE
+casting shells: MACEQ
+burnout conditions: CHAR
+
+process: CONPRI
+metal: MATE
+powder bed fusion: MANP
+directed energy deposition: MANP
+material jetting: MANP
+sheet lamination: MANP
+
+sheet lamination: MANP
+process: CONPRI
+
+sheet lamination: MANP
+be: MATE
+material: MATE
+subtractive: MANP
+AM process: MANP
+
+sheets: MATE
+be: MATE
+ultrasonic bonding: MANP
+
+temperature: PARA
+process: CONPRI
+joining: MANP
+metals: MATE
+electronics: CONPRI
+structure: CONPRI
+
+AM: MANP
+metal: MATE
+
+AM: MANP
+metal: MATE
+powder bed fusion: MANP
+
+process: CONPRI
+range: PARA
+metals: MATE
+
+beam: MACEQ
+melt: CONPRI
+powders: MATE
+
+Electron beam melting: MANP
+laser energy: CONPRI
+inert gas: CONPRI
+
+be: MATE
+temperature: PARA
+melting point: PRO
+metal: MATE
+
+thermal gradients: PARA
+solid substrate: MACEQ
+processes: CONPRI
+support structures: FEAT
+
+supports: APPL
+internal stress: PRO
+build: PARA
+
+Directed energy deposition: MANP
+process: CONPRI
+metal: MATE
+
+source: APPL
+melt: CONPRI
+powder: MATE
+
+energy focal point: FEAT
+material: MATE
+melting: MANP
+rapid solidification: MANP
+
+powder bed fusion: MANP
+residual stresses: PRO
+complexity: CONPRI
+
+powder: MATE
+heat transfer: CONPRI
+directed energy deposition process: MANP
+cooling: MANP
+material: MATE
+
+Material jetting: MANP
+production: MANP
+metal: MATE
+temperatures: PARA
+metals: MATE
+liquid state: CONPRI
+
+As: MATE
+technology: CONPRI
+fabricate: MANP
+
+AM process: MANP
+process: CONPRI
+additively manufactured product: MANP
+be: MATE
+
+Model: CONPRI
+design: FEAT
+
+3D: CONPRI
+software: CONPRI
+be: MATE
+surface model: ENAT
+data: CONPRI
+3D geometry: FEAT
+STL file: MANS
+
+3D model: APPL
+file: MANS
+AM machines: MACEQ
+
+STL file: MANS
+3D model: APPL
+surface: CONPRI
+
+file: MANS
+AM: MANP
+material: MATE
+Build: PARA
+
+STL file: MANS
+build preparation: PARA
+orientation: CONPRI
+build envelope: PARA
+
+software slices: CONPRI
+geometry: CONPRI
+
+layer: PARA
+data: CONPRI
+layer: PARA
+machine parameters: PARA
+laser power: PARA
+layer thickness: PARA
+scan patterns: PARA
+build: PARA
+AM machine: MACEQ
+build: PARA
+
+build: PARA
+build plate/envelope: PARA
+material: MATE
+
+post-processing: CONPRI
+be: MATE
+
+Quality: CONPRI
+inspection: CHAR
+
+quality: CONPRI
+inspection: CHAR
+production: MANP
+casting: MANP
+forging: MANP
+
+complexity: CONPRI
+geometry: CONPRI
+inspection: CHAR
+surfaces: CONPRI
+datum planes: CHAR
+
+industrial: APPL
+additive manufacturing: MANP
+phase: CONPRI
+be: MATE
+additive manufacturing: MANP
+
+AM: MANP
+As: MATE
+AM: MANP
+process: CONPRI
+performance: CONPRI
+
+as: MATE
+standard: CONPRI
+ISO/ASTM: MANS
+AM: MANP
+be: MATE
+
+tool: MACEQ
+be: MATE
+
+Manufacturability: CONPRI
+be: MATE
+geometry: CONPRI
+
+be: MATE
+decomposition: PRO
+
+be: MATE
+manufacturing: MANP
+feature: FEAT
+as: MATE
+as: MATE
+manufacturing: MANP
+manufacturing technologies: MANP
+
+material: MATE
+be: MATE
+voxel: CONPRI
+
+material: MATE
+be: MATE
+as: MATE
+as: MATE
+materials: CONPRI
+
+AM technologies: MANP
+assembly: MANP
+materials: CONPRI
+material: MATE
+
+optimization: CONPRI
+process: CONPRI
+properties: CONPRI
+manufactured: CONPRI
+
+orientation: CONPRI
+support structures: FEAT
+geometry: CONPRI
+
+design: FEAT
+manufacturing: MANP
+
+Design: FEAT
+simple: MANP
+set: APPL
+design: FEAT
+
+be: MATE
+lead time: PARA
+quality: CONPRI
+feasibility: CONPRI
+stability: PRO
+
+framework: CONPRI
+Design: FEAT
+manufacturing: MANP
+assembly: MANP
+design: FEAT
+manufacturing: MANP
+assembly: MANP
+
+manufacturing: MANP
+assembly: MANP
+design: FEAT
+
+production: MANP
+injection molding: MANP
+casting: MANP
+
+AM processes: MANP
+processes: CONPRI
+
+AM process: MANP
+process chain: ENAT
+be: MATE
+research: CONPRI
+production: MANP
+
+AM: MANP
+processes: CONPRI
+forming: MANP
+subtractive processes: MANP
+product design: FEAT
+
+design process: CONPRI
+design process: CONPRI
+be: MATE
+
+framework: CONPRI
+design: FEAT
+design: FEAT
+
+manufacturing: MANP
+metal: MATE
+framework: CONPRI
+be: MATE
+
+AM: MANP
+Additive manufacturing: MANP
+production: MANP
+processes: CONPRI
+industry: APPL
+gain: PARA
+
+be: MATE
+AM: MANP
+production: MANP
+material: MATE
+
+industrial: APPL
+additive manufacturing: MANP
+be: MATE
+
+design: FEAT
+AM: MANP
+
+AM materials: MATE
+
+product design: FEAT
+fit: CONPRI
+build envelope: PARA
+AM: MANP
+
+product functionality: CHAR
+product design: FEAT
+
+Lightweighting: PRO
+designed: FEAT
+multi-material: CONPRI
+material: MATE
+
+product design: FEAT
+manufacturing costs: CONPRI
+
+performance: CONPRI
+manufacturing: MANP
+reduction: CONPRI
+lead time: PARA
+
+AM material: MATE
+process: CONPRI
+machine selection: PARA
+AM: MANP
+AM: MANP
+be: MATE
+as: MATE
+design: FEAT
+
+production: MANP
+production: MANP
+
+post-processing: CONPRI
+be: MATE
+
+process chain selection: CONPRI
+production: MANP
+processes: CONPRI
+be: MATE
+geometry: CONPRI
+
+industrial: APPL
+hybrid technologies: ENAT
+technologies: CONPRI
+AM: MANP
+production: MANP
+
+processes: CONPRI
+standard: CONPRI
+build chamber: PARA
+
+AM process: MANP
+AM technologies: MANP
+subtractive: MANP
+build: PARA
+be: MATE
+as: MATE
+processes: CONPRI
+
+metal: MATE
+DED-based metal additive manufacturing technologies: ENAT
+milling: MANP
+post-process: CONPRI
+surfaces: CONPRI
+
+process: CONPRI
+be: MATE
+
+design: FEAT
+AM processes: MANP
+machine: MACEQ
+material: MATE
+process: CONPRI
+
+Senvol database: ENAT
+AM processes: MANP
+materials: CONPRI
+build: PARA
+industrial: APPL
+AM machines: MACEQ
+
+be: MATE
+AM material: MATE
+process selection: CONPRI
+
+cost estimation: CONPRI
+additive manufacturing: MANP
+additive manufacturing: MANP
+design: FEAT
+production: MANP
+phase: CONPRI
+
+cost/benefits analysis: CHAR
+design: FEAT
+cost estimation: CONPRI
+
+volume: CONPRI
+production: MANP
+post-processing: CONPRI
+
+cost estimation: CONPRI
+production: MANP
+as: MATE
+
+cost estimations: CONPRI
+process: CONPRI
+post-processing: CONPRI
+be: MATE
+be: MATE
+
+cost estimation: CONPRI
+production: MANP
+AM process: MANP
+
+AM machine: MACEQ
+machine: MACEQ
+machine: MACEQ
+
+metal powder: MATE
+bed: MACEQ
+production: MANP
+stainless steel 304L: MATE
+wire erosion: CONPRI
+support: APPL
+de-powdering: PRO
+as: MATE
+
+material: MATE
+labor costs: CONPRI
+
+build failures: CHAR
+AM: MANP
+
+production: MANP
+laser: ENAT
+powder bed fusion: MANP
+electron beam variant: CHAR
+
+AM: MANP
+as: MATE
+manufacturing costs: CONPRI
+
+cost estimation: CONPRI
+AM parts: MACEQ
+
+cost estimations: CONPRI
+AM part: MACEQ
+plastic and metallic parts: MATE
+
+research: CONPRI
+AM: MANP
+volume: CONPRI
+density: PRO
+build envelope: PARA
+
+companies: APPL
+B: MATE
+
+Companies: APPL
+cost estimation: CONPRI
+
+companies: APPL
+build volume: PARA
+lead time: PARA
+
+Companies: APPL
+B: MATE
+lead time: PARA
+
+Post-processing: CONPRI
+AM parts: MACEQ
+
+cost models: CONPRI
+post-processing: CONPRI
+AM process: MANP
+
+post-processing: CONPRI
+metal: MATE
+L-PBF: MANP
+be: MATE
+
+post-processing: CONPRI
+metal AM: MANP
+
+Build: PARA
+Build: PARA
+phase: CONPRI
+process planning: CONPRI
+
+Process planning: CONPRI
+manufacturing: MANP
+design: FEAT
+manufacturing: MANP
+
+Additive Manufacturing: MANP
+manufacturing: MANP
+
+AM machines: MACEQ
+building process: CHAR
+machine: MACEQ
+be: MATE
+design: FEAT
+production: MANP
+
+optimization: CONPRI
+2D: CONPRI
+3D: CONPRI
+
+Support generation: FEAT
+be: MATE
+nesting: CONPRI
+
+Layer: PARA
+be: MATE
+slicing: CONPRI
+3D: CONPRI
+support structures: FEAT
+
+orientation: CONPRI
+process: CONPRI
+
+material: MATE
+deposition: CONPRI
+be: MATE
+
+material: MATE
+manufacturing: MANP
+as: MATE
+solution: CONPRI
+welding: MANP
+machining: MANP
+
+hybrid manufacturing: CONPRI
+AM process: MANP
+process: CONPRI
+feature decomposition: FEAT
+material: MATE
+machining: MANP
+surface qualities: PARA
+
+orientation: CONPRI
+be: MATE
+manufacturing: MANP
+
+As: MATE
+geometry: CONPRI
+material: MATE
+material: MATE
+metallurgical: APPL
+
+deformations: CONPRI
+production: MANP
+performance parameters: CONPRI
+material properties: CONPRI
+
+simulation: ENAT
+model: CONPRI
+support structures: FEAT
+
+process planning: CONPRI
+AM: MANP
+assembly: MANP
+
+build volume: PARA
+machine: MACEQ
+be: MATE
+be: MATE
+
+AM process: MANP
+technologies: CONPRI
+AM: MANP
+
+AM process: MANP
+AM: MANP
+metals: MATE
+build: PARA
+materials: CONPRI
+build envelope: PARA
+accuracy: CHAR
+
+AM: MANP
+be: MATE
+Rapid Prototyping: ENAT
+prototypes: CONPRI
+
+AM: MANP
+be: MATE
+production: MANP
+throughput: CHAR
+
+AM: MANP
+geometric freedom: CONPRI
+manufacturing: MANP
+industry: APPL
+
+AM technology: MANP
+
+metal AM: MANP
+
+be: MATE
+layer: PARA
+be: MATE
+
+laser beams: CONPRI
+
+be: MATE
+process: CONPRI
+finer spots: CHAR
+process: CONPRI
+bulk regions: FEAT
+
+be: MATE
+beam control: PARA
+molten metal: MATE
+
+throughput: CHAR
+batch production: CONPRI
+metal: MATE
+binder jetting methods: MANP
+material extrusion: MANP
+binder: MATE
+
+AM: MANP
+be: MATE
+
+post-processing: CONPRI
+heat treatment: MANP
+machine: MACEQ
+finishing: MANP
+
+metal AM: MANP
+Arc: CONPRI
+AM: MANP
+Laser Metal Deposition: MANP
+
+metals: MATE
+materials: CONPRI
+
+metals: MATE
+strength: PRO
+chemical resistance: PRO
+thermal properties: CONPRI
+
+materials: CONPRI
+AM: MANP
+
+AM processes: MANP
+materials: CONPRI
+be: MATE
+photo-curable resins: MATE
+
+materials: CONPRI
+be: MATE
+AM: MANP
+thermal energy: CONPRI
+
+melt: CONPRI
+AM process: MANP
+polymers: MATE
+
+raw materials: MATE
+be: MATE
+morphology: CONPRI
+filament: MATE
+powder: MATE
+distributions: CONPRI
+
+range: PARA
+materials: CONPRI
+be: MATE
+
+Metals: MATE
+L-PBF systems: MACEQ
+laser energy: CONPRI
+
+physics: CONPRI
+phase: CONPRI
+be: MATE
+material: MATE
+
+manufacturing processes: MANP
+casting: MANP
+forging: MANP
+
+be: MATE
+AM materials: MATE
+be: MATE
+
+As: MATE
+AM: MANP
+materials: CONPRI
+range: PARA
+materials: CONPRI
+be: MATE
+
+AM materials: MATE
+Ti-6Al-4V: MATE
+stainless steel: MATE
+CoCr alloys: MATE
+
+metals: MATE
+strength: PRO
+accuracy: CHAR
+
+AM: MANP
+strength: PRO
+accuracy: CHAR
+
+Metal: MATE
+joining: MANP
+
+metal AM: MANP
+surface finish: FEAT
+
+Machine: MACEQ
+finishing: MANP
+as: MATE
+post-process: CONPRI
+
+distortion: CONPRI
+temperature gradients: PARA
+builds: CHAR
+residual stresses: PRO
+metal AM: MANP
+
+be: MATE
+be: MATE
+machining allowance: PARA
+AM part: MACEQ
+
+machines: MACEQ
+AM: MANP
+subtractive: MANP
+manufacturing processes: MANP
+accuracy: CHAR
+
+geometry: CONPRI
+as: MATE
+post-process: CONPRI
+
+AM: MANP
+AM technology: MANP
+post-processing: CONPRI
+
+AM: MANP
+as: MATE
+process chains: ENAT
+
+be: MATE
+design: FEAT
+post-process: CONPRI
+AM: MANP
+
+Post-processing: CONPRI
+be: MATE
+be: MATE
+fashion: CONPRI
+
+technology: CONPRI
+as: MATE
+as: MATE
+quality: CONPRI
+volume: CONPRI
+production: MANP
+
+Post-processing: CONPRI
+be: MATE
+be: MATE
+AM process: MANP
+AM parts: MACEQ
+
+classification: CONPRI
+areas: PARA
+surface finish: FEAT
+fits: CONPRI
+
+process: CONPRI
+design: FEAT
+AM technology: MANP
+processes: CONPRI
+build: PARA
+quality: CONPRI
+
+processes: CONPRI
+support structures: FEAT
+be: MATE
+finishing: MANP
+supports: APPL
+
+Build strategies: CONPRI
+supports: APPL
+surfaces: CONPRI
+aesthetic: CONPRI
+accuracy: CHAR
+
+machines: MACEQ
+curved surfaces: CONPRI
+
+Abrasive: MATE
+finishing: MANP
+be: MATE
+surfaces: CONPRI
+
+post-processing: CONPRI
+material: MATE
+be: MATE
+surfaces: CONPRI
+
+be: MATE
+material: MATE
+surfaces: CONPRI
+be: MATE
+material: MATE
+process: CONPRI
+flash: MATE
+moulding: CONPRI
+
+AM technology: MANP
+densification: MANP
+be: MATE
+material: MATE
+fully dense: PARA
+
+Densification: MANP
+be: MATE
+furnace: MACEQ
+hot isostatic pressing: MANP
+
+processes: CONPRI
+be: MATE
+heterogeneous: CONPRI
+shrinkage: CONPRI
+
+Metal AM: MANP
+as: MATE
+
+metal as: MATE
+material: MATE
+strength: PRO
+precision: CHAR
+
+Finish machining: MANP
+surfaces: CONPRI
+as: MATE
+casting: MANP
+
+be: MATE
+surfaces: CONPRI
+design: FEAT
+machining allowance: PARA
+quality: CONPRI
+accurate: CHAR
+
+be: MATE
+be: MATE
+surfaces: CONPRI
+AM: MANP
+part consolidation: CONPRI
+
+print: MANP
+AM: MANP
+precision: CHAR
+be: MATE
+capacity: CONPRI
+AM technology: MANP
+
+be: MATE
+material: MATE
+be: MATE
+drill: MACEQ
+blank: MATE
+
+be: MATE
+screw thread: FEAT
+
+be: MATE
+complexity: CONPRI
+process: CONPRI
+industrial: APPL
+
+Coatings: APPL
+go: MATE
+simple: MANP
+corrosive: PRO
+properties: CONPRI
+bioactive features: CONPRI
+
+production: MANP
+as: MATE
+be: MATE
+
+be: MATE
+heat treatment: MANP
+
+AM parts: MACEQ
+
+finishing: MANP
+be: MATE
+quality: CONPRI
+
+be: MATE
+surface finishing: MANP
+
+AM: MANP
+inspection: CHAR
+AM: MANP
+be: MATE
+industries: APPL
+aerospace: APPL
+medicine: CONPRI
+
+medical industry: APPL
+be: MATE
+
+Quality control: CONPRI
+inspection: CHAR
+be: MATE
+fashion: CONPRI
+manufactured: CONPRI
+
+Validation: CONPRI
+as: MATE
+consistency: CONPRI
+manufacturing process: MANP
+supply chain: CONPRI
+as: MATE
+
+as: MATE
+standards: CONPRI
+medical: APPL
+FDA: MANS
+
+FDA: MANS
+AM: MANP
+medical devices: APPL
+
+design: FEAT
+medical devices: APPL
+as: MATE
+as: MATE
+manufactured: CONPRI
+
+medical devices: APPL
+
+implantable devices: MACEQ
+be: MATE
+AM: MANP
+foot orthotics: MACEQ
+
+medical device: APPL
+manufacturer: CONPRI
+PL Cage: MATE
+
+AM: MANP
+porous: PRO
+geometry: CONPRI
+titanium: MATE
+bone ingrowth: CONPRI
+lumbar spine fusion process: CONPRI
+
+as: MATE
+experimental: CONPRI
+boundaries: FEAT
+fatigue: PRO
+AM: MANP
+
+be: MATE
+porous: PRO
+lattice structures: FEAT
+hip implant: APPL
+
+failure: CONPRI
+be: MATE
+geometry: CONPRI
+
+FDA: MANS
+as: MATE
+
+be: MATE
+medical: APPL
+
+Medical: APPL
+as: MATE
+custom implants: APPL
+
+Aerospace: APPL
+be: MATE
+
+be: MATE
+AM techniques: MANP
+Directed Energy Deposition: MANP
+
+safety: CONPRI
+turbine blades: APPL
+be: MATE
+
+be: MATE
+AM process: MANP
+standard: CONPRI
+
+repair costs: PARA
+materials: CONPRI
+polymer material: MATE
+Stratasys: APPL
+
+sustainable: CONPRI
+industry: APPL
+AM: MANP
+aerospace: APPL
+
+medical: APPL
+aerospace: APPL
+standards: CONPRI
+ISO: MANS
+
+components: MACEQ
+machine calibration: PARA
+material: MATE
+
+led: APPL
+process monitoring: CONPRI
+industrial: APPL
+AM machines: MACEQ
+
+camera: MACEQ
+build status: PARA
+be: MATE
+
+metal: MATE
+L-PBF systems: MACEQ
+laser power: PARA
+sensing: APPL
+failure: CONPRI
+machine: MACEQ
+
+Tools: MACEQ
+lightweight: CONPRI
+Lightweight: CONPRI
+design: FEAT
+structural engineering: CONPRI
+
+AM processes: MANP
+complex structures: CONPRI
+surfaces: CONPRI
+
+complexity: CONPRI
+production cost: CONPRI
+design space: CONPRI
+
+As: MATE
+lightweighting: PRO
+design: FEAT
+AM: MANP
+AM: MANP
+
+lightweight: CONPRI
+design: FEAT
+AM: MANP
+tools: MACEQ
+be: MATE
+topology optimization: FEAT
+generative design: ENAT
+lattice structure: FEAT
+bio-inspired design: FEAT
+
+Topology optimization: FEAT
+Topology optimization: CONPRI
+mechanical: APPL
+design: FEAT
+layout: CONPRI
+material: MATE
+design space: CONPRI
+
+mechanical properties: CONPRI
+material: MATE
+
+design: FEAT
+computation: CONPRI
+non-gradient discrete approaches: CONPRI
+
+set: APPL
+as: MATE
+deformation: CONPRI
+vibration frequency: PARA
+
+continuous design variables: CONPRI
+
+optimization: CONPRI
+process: CONPRI
+design space: CONPRI
+step: CONPRI
+step: CONPRI
+as: MATE
+
+materials: CONPRI
+strain: PRO
+distribution: CONPRI
+
+genetic algorithms: CONPRI
+materials: CONPRI
+
+porous: PRO
+lattice structures: FEAT
+mathematical: CONPRI
+
+As: MATE
+face: CONPRI
+as: MATE
+
+simple: MANP
+boundary conditions: CONPRI
+
+AM: MANP
+as: MATE
+anisotropic material properties: PRO
+boundary conditions: CONPRI
+
+process: CONPRI
+simulation: ENAT
+process: CONPRI
+
+AM: MANP
+AM: MANP
+topologically lightweight: CONPRI
+material: MATE
+layout: CONPRI
+be: MATE
+manufacturing: MANP
+
+designs: FEAT
+bridging: CONPRI
+design: FEAT
+
+AM: MANP
+mathematical: CONPRI
+process: CONPRI
+
+set: APPL
+design: FEAT
+design rules: CONPRI
+AM: MANP
+
+AM: MANP
+post-processing: CONPRI
+
+structure optimization: CONPRI
+lightweight: CONPRI
+design: FEAT
+AM: MANP
+
+AM: MANP
+manufacturing: MANP
+structure: CONPRI
+as: MATE
+conventional manufacturing: MANP
+
+2D: CONPRI
+3D: CONPRI
+be: MATE
+polymer: MATE
+AM processes: MANP
+metallic AM: MANP
+
+be: MATE
+simple: MANP
+macro: FEAT
+
+AM: MANP
+process: CONPRI
+as: MATE
+process: CONPRI
+
+2D: CONPRI
+simple: MANP
+AM: MANP
+
+support: APPL
+overhang area: PARA
+
+boundary decomposition algorithm: CONPRI
+boundary: FEAT
+areas: PARA
+support structures: FEAT
+
+set: APPL
+boundaries: FEAT
+as: MATE
+overhang: PARA
+as: MATE
+
+decomposition: PRO
+algorithm: CONPRI
+designed: FEAT
+support structure: FEAT
+
+2D: CONPRI
+design freedom: CONPRI
+3D: CONPRI
+2D: CONPRI
+
+2D: CONPRI
+3D: CONPRI
+support structures: FEAT
+
+optimization: CONPRI
+build orientation: PARA
+
+be: MATE
+AM processes: MANP
+AM: MANP
+mathematical: CONPRI
+2D: CONPRI
+3D: CONPRI
+processes: CONPRI
+
+research: CONPRI
+2D: CONPRI
+AM: MANP
+design: FEAT
+
+2D: CONPRI
+decomposition: PRO
+as: MATE
+3D: CONPRI
+AM: MANP
+
+2D: CONPRI
+support structures: FEAT
+volume: CONPRI
+structure: CONPRI
+
+3D: CONPRI
+AM: MANP
+decomposition: PRO
+overhang angle: PARA
+volume: CONPRI
+2D operations: PARA
+
+2D: CONPRI
+process: CONPRI
+overhang: PARA
+support structure: FEAT
+AM: MANP
+
+complexity: CONPRI
+AM: MANP
+3D: CONPRI
+
+research: CONPRI
+3D: CONPRI
+AM: MANP
+
+As: MATE
+2D: CONPRI
+3D: CONPRI
+overhang area: PARA
+support: APPL
+as: MATE
+process: CONPRI
+
+experimental: CONPRI
+support: APPL
+3D: CONPRI
+AM: MANP
+
+set: APPL
+Pareto: CONPRI
+boundary: FEAT
+support structure: FEAT
+be: MATE
+
+solution: CONPRI
+as: MATE
+solution: CONPRI
+
+set: APPL
+Pareto: CONPRI
+as: MATE
+
+As: MATE
+support: APPL
+be: MATE
+3D: CONPRI
+AM: MANP
+
+support structures: FEAT
+3D: CONPRI
+supports: APPL
+simple: MANP
+
+supports: APPL
+AM: MANP
+model: CONPRI
+as: MATE
+topology optimization: FEAT
+
+geometries: CONPRI
+design space: CONPRI
+self-supporting: FEAT
+designs: FEAT
+
+be: MATE
+support: APPL
+
+as: MATE
+structural performance: CHAR
+volume: CONPRI
+
+be: MATE
+support structure: FEAT
+3D structure: CONPRI
+support structure: FEAT
+as: MATE
+
+density fields: PRO
+component: MACEQ
+support structure: FEAT
+
+simple: MANP
+overhang angle: PARA
+process: CONPRI
+as: MATE
+
+volume: CONPRI
+supports: APPL
+be: MATE
+as: MATE
+material: MATE
+material: MATE
+structure: CONPRI
+
+supports: APPL
+3D structures: CONPRI
+be: MATE
+metallic AM: MANP
+be: MATE
+material: MATE
+support structures: FEAT
+metallic AM: MANP
+impact: CONPRI
+quality: CONPRI
+
+build orientation: PARA
+impact: CONPRI
+process: CONPRI
+solution: CONPRI
+
+optimization: CONPRI
+topology: CONPRI
+support structure: FEAT
+build orientation: PARA
+
+research: CONPRI
+2D: CONPRI
+impact: CONPRI
+build orientation: PARA
+support: APPL
+optimization: CONPRI
+
+be: MATE
+3D: CONPRI
+
+slicing: CONPRI
+toolpath planning: PARA
+as: MATE
+3D: CONPRI
+process: CONPRI
+complexity: CONPRI
+be: MATE
+
+set: APPL
+AM material: MATE
+as: MATE
+sharp angles: FEAT
+deposition gaps: CHAR
+hole size: FEAT
+strut size: PARA
+topology: CONPRI
+process: CONPRI
+
+manufacturability: CONPRI
+AM: MANP
+solution: CONPRI
+be: MATE
+design: FEAT
+
+manufacturability: CONPRI
+AM: MANP
+cooling rate: PARA
+as: MATE
+
+manufacturability: CONPRI
+layer: PARA
+
+domain: CONPRI
+impact: CONPRI
+porosity: PRO
+elastic structures: PRO
+framework: CONPRI
+topology optimization: FEAT
+as: MATE
+set: APPL
+process: CONPRI
+AM: MANP
+design: FEAT
+
+manufacturable: CONPRI
+layout: CONPRI
+density: PRO
+AM processes: MANP
+
+set: APPL
+boundary decomposition: CONPRI
+spline interpolation: ENAT
+post-processing: CONPRI
+
+research: CONPRI
+tools: MACEQ
+AM: MANP
+design: FEAT
+
+material: MATE
+isotropic: PRO
+
+deposition: CONPRI
+AM: MANP
+print: MANP
+materials: CONPRI
+multi-functional structures: CONPRI
+
+AM processes: MANP
+print: MANP
+polymers: MATE
+
+tools: MACEQ
+material: MATE
+multi-functional structure: CONPRI
+
+multivariate SIMP method: CONPRI
+multi-material layout: CONPRI
+
+inclusion: MATE
+materials: CONPRI
+topology optimization process: FEAT
+compliant mechanisms: CONPRI
+
+multi-material 2D compliant mechanism: CONPRI
+
+multi-material: CONPRI
+optimization: CONPRI
+3D metal structures: FEAT
+complexity: CONPRI
+AM: MANP
+be: MATE
+lightweight: CONPRI
+design: FEAT
+multi-function design: FEAT
+
+metallic: MATE
+FDM: MANP
+metallurgical: APPL
+as: MATE
+post-process: CONPRI
+joining: MANP
+metals: MATE
+
+AM: MANP
+standard: CONPRI
+tools: MACEQ
+AM: MANP
+tools: MACEQ
+
+industrial: APPL
+design: FEAT
+tools: MACEQ
+AM: MANP
+design: FEAT
+
+component: MACEQ
+Airbus: APPL
+
+AM: MANP
+design process: CONPRI
+
+AM: MANP
+density: PRO
+process: CONPRI
+topology optimization: FEAT
+
+heat sink: MACEQ
+parametric optimization: CONPRI
+AM: MANP
+
+set: APPL
+AM: MANP
+
+topology optimization: FEAT
+Iso-XFEM: CHAR
+
+high resolution: PARA
+structural performance: CHAR
+
+BESO method: CONPRI
+materials: CONPRI
+elements: MATE
+
+process: CONPRI
+AM: MANP
+
+image: CONPRI
+AM: MANP
+process: CONPRI
+be: MATE
+density: PRO
+set: APPL
+process: CONPRI
+discrete optimization: ENAT
+
+convergence analysis: CONPRI
+
+As: MATE
+tools: MACEQ
+AM: MANP
+
+tools: MACEQ
+tools: MACEQ
+
+industrial: APPL
+experimental: CONPRI
+aspect ratio: FEAT
+performance: CONPRI
+
+be: MATE
+standard: CONPRI
+experimental: CONPRI
+
+Generative design: ENAT
+lightweight structure: MACEQ
+design: FEAT
+
+solution: CONPRI
+set: APPL
+
+be: MATE
+sample: CONPRI
+solution: CONPRI
+theoretical: CONPRI
+be: MATE
+
+design: FEAT
+AM: MANP
+generative design: ENAT
+
+GD: MATE
+set: APPL
+design space: CONPRI
+
+design: FEAT
+
+structure design: FEAT
+algorithms: CONPRI
+sample: CONPRI
+design: FEAT
+
+generative design: ENAT
+AM: MANP
+
+density: PRO
+software: CONPRI
+generative design: ENAT
+AM: MANP
+structure design: FEAT
+industrial: APPL
+design: FEAT
+
+design: FEAT
+set: APPL
+
+as: MATE
+GD: MATE
+AM: MANP
+GD: MATE
+
+generative design: ENAT
+AM: MANP
+design: FEAT
+mimic: MACEQ
+volume: CONPRI
+construction: APPL
+
+methodology: CONPRI
+algorithms: CONPRI
+design: FEAT
+manufacturability: CONPRI
+additive manufacturing: MANP
+
+Voxels: CONPRI
+design rules: CONPRI
+manufacturing constraints: CONPRI
+geometry evolution: CONPRI
+
+support structures: FEAT
+as: MATE
+AM: MANP
+
+generative design: ENAT
+AM: MANP
+AM: MANP
+tools: MACEQ
+optimization: CONPRI
+solution: CONPRI
+
+tools: MACEQ
+
+structure design: FEAT
+generative design: ENAT
+be: MATE
+
+generative models: ENAT
+
+generative adversarial networks: ENAT
+deep generative design: FEAT
+process: CONPRI
+design: FEAT
+data: CONPRI
+
+AM: MANP
+generative design: ENAT
+AM: MANP
+
+generative design: ENAT
+topology optimization: FEAT
+be: MATE
+lattice: CONPRI
+surface structure: FEAT
+optimization: CONPRI
+trabecular structures: FEAT
+as: MATE
+design freedom: CONPRI
+AM: MANP
+
+Lattice structure: FEAT
+material: MATE
+design space: CONPRI
+material: MATE
+solution: CONPRI
+generative design: ENAT
+as: MATE
+
+As: MATE
+generative design: ENAT
+as: MATE
+complexity: CONPRI
+
+lightweight: CONPRI
+design: FEAT
+AM: MANP
+lattice configuration: CONPRI
+
+lattice structures: FEAT
+
+Homogenization: MANP
+
+Density: PRO
+
+lattice structure: FEAT
+as: MATE
+volume: CONPRI
+elements: MATE
+material: MATE
+
+lattice structures: FEAT
+porous: PRO
+structure: CONPRI
+homogenized volumes: PRO
+
+properties: CONPRI
+be: MATE
+structure optimization: CONPRI
+
+be: MATE
+workflow: CONPRI
+
+density: PRO
+lattice structures: FEAT
+accuracy: CHAR
+mechanical response: CONPRI
+
+lattice structures: FEAT
+be: MATE
+
+be: MATE
+
+lattice structures: FEAT
+volume: CONPRI
+contours: FEAT
+
+optimization: CONPRI
+lattice structures: FEAT
+structure design: FEAT
+
+lattice structures: FEAT
+
+surface: CONPRI
+be: MATE
+lattice units: FEAT
+
+solid hulls: MACEQ
+lattice units: FEAT
+CAD file: MANS
+tessellation: FEAT
+
+numerical simulation: ENAT
+computation: CONPRI
+finite element: CONPRI
+
+lattice structures: FEAT
+solid hulls: MACEQ
+lattice: CONPRI
+trimming: MANP
+lattice: CONPRI
+interface: CONPRI
+design: FEAT
+
+conformal lattice structures: FEAT
+structural performance: CHAR
+
+conformal lattice: FEAT
+manufacturability: CONPRI
+lattices: CONPRI
+
+computation: CONPRI
+simulation: ENAT
+manufacturing: MANP
+
+lattice units: FEAT
+
+lattice structures: FEAT
+
+process: CONPRI
+design space: CONPRI
+errors: CONPRI
+
+lattice structures: FEAT
+parameters: CONPRI
+design: FEAT
+
+lattice units: FEAT
+parameters: CONPRI
+be: MATE
+design: FEAT
+
+optimization: CONPRI
+lattice structures: FEAT
+density: PRO
+strut diameter: PARA
+parameter optimization: CONPRI
+computation: CONPRI
+lattice structure design: FEAT
+
+be: MATE
+tools: MACEQ
+software: CONPRI
+lattice filling: FEAT
+
+lattice: CONPRI
+lattice units: FEAT
+numerical simulation: ENAT
+manufacturability: CONPRI
+set: APPL
+lattice unit size: FEAT
+strut diameter: PARA
+layout: CONPRI
+
+no entity in this sentence 
+
+workflow: CONPRI
+tools: MACEQ
+
+As: MATE
+lattice structures: FEAT
+be: MATE
+stiffness: PRO
+be: MATE
+lightweight: CONPRI
+design: FEAT
+
+lightweight: CONPRI
+design: FEAT
+lattice filling: FEAT
+be: MATE
+
+lattice structures: FEAT
+
+energy absorption: CHAR
+heat conduction: CONPRI
+
+be: MATE
+research: CONPRI
+lattice domain: CONPRI
+
+Tools: MACEQ
+surface structure: FEAT
+As: MATE
+structure design: FEAT
+
+lattice structures: FEAT
+porous: PRO
+set: APPL
+elements: MATE
+design: FEAT
+
+lightweight: CONPRI
+infill: PARA
+porous scaffolds: FEAT
+micro-reactors: MACEQ
+heat conductors: MACEQ
+
+AM: MANP
+complex structures: CONPRI
+solution: CONPRI
+be: MATE
+
+post-processing: CONPRI
+topologies: CONPRI
+design: FEAT
+bio-inspired: CONPRI
+biomimetic design: FEAT
+
+lightweight structures: MACEQ
+mechanical properties: CONPRI
+lightweight: CONPRI
+design: FEAT
+surface structures: FEAT
+as: MATE
+
+design: FEAT
+lattice structures: FEAT
+
+design: FEAT
+simulation: ENAT
+surfaces: CONPRI
+mechanical properties: CONPRI
+AM: MANP
+complexity: CONPRI
+
+design: FEAT
+topologies: CONPRI
+reverse engineering: CONPRI
+bio-inspiration: CONPRI
+design rules: CONPRI
+domain: CONPRI
+
+medical: APPL
+domain: CONPRI
+scaffolds: FEAT
+implants: APPL
+surface topologies: FEAT
+
+cell: APPL
+strength: PRO
+distribution: CONPRI
+
+porous: PRO
+surface topologies: FEAT
+materials: CONPRI
+design: FEAT
+algorithms: CONPRI
+
+Triply Periodic Minimal Surface: CONPRI
+implicit surface: FEAT
+
+operation algorithms: ENAT
+surface: CONPRI
+as: MATE
+CAD model: ENAT
+
+process: CONPRI
+set: APPL
+algorithms: CONPRI
+3D: CONPRI
+model: CONPRI
+Boolean operations: ENAT
+
+design: FEAT
+pore: PRO
+model: CONPRI
+subtractive: MANP
+Boolean operation: ENAT
+pore: PRO
+CAD models: ENAT
+scaffold model: CONPRI
+
+process: CONPRI
+
+Voronoi tessellation: FEAT
+material hollowing: CONPRI
+
+surface structure: FEAT
+surface structure design: FEAT
+AM: MANP
+print: MANP
+complex shapes: PRO
+art: APPL
+
+design: FEAT
+T-splines: FEAT
+Voronoi tessellation: FEAT
+pattern: CONPRI
+surface topologies: FEAT
+
+generative design: ENAT
+surface topologies: FEAT
+
+set: APPL
+boundary: FEAT
+design: FEAT
+
+Freeform 3D: CONPRI
+topologies: CONPRI
+be: MATE
+set: APPL
+as: MATE
+
+optimization: CONPRI
+design: FEAT
+
+surface structures: FEAT
+topology optimization: FEAT
+
+elements: MATE
+two-dimensional: CONPRI
+manifold surfaces: FEAT
+3D solid elements: FEAT
+as: MATE
+computation: CONPRI
+optimization: CONPRI
+
+surface structure: FEAT
+AM: MANP
+CAD: ENAT
+tool: MACEQ
+
+tool: MACEQ
+surface topologies: FEAT
+fashion: CONPRI
+
+3D: CONPRI
+structure design: FEAT
+tool: MACEQ
+Voronoi tessellation: FEAT
+
+surface topology: FEAT
+process: CONPRI
+
+tool: MACEQ
+be: MATE
+manufacturability: CONPRI
+AM: MANP
+
+structure: CONPRI
+optimization: CONPRI
+surface structure design: FEAT
+optimization face: CONPRI
+modelling: ENAT
+simulation: ENAT
+AM: MANP
+
+data: CONPRI
+simulation: ENAT
+optimization: CONPRI
+
+lightweight: CONPRI
+platform: MACEQ
+be: MATE
+surface structure design: FEAT
+optimization: CONPRI
+
+research: CONPRI
+design: FEAT
+surface structure: FEAT
+AM: MANP
+
+design: FEAT
+AM processes: MANP
+
+medical application: APPL
+domain: CONPRI
+surface structures: FEAT
+
+dental: APPL
+component: MACEQ
+bio-insipred surface structure: FEAT
+L-PBF: MANP
+
+Reverse engineering: CONPRI
+surface structure: FEAT
+
+modelling: ENAT
+validation: CONPRI
+surface structure: FEAT
+
+design: FEAT
+modelling: ENAT
+be: MATE
+support: APPL
+medical: APPL
+fabrication: MANP
+metal AM: MANP
+
+optimization: CONPRI
+internal part topology: FEAT
+AM: MANP
+internal part topology: FEAT
+
+topology optimization: FEAT
+surface: CONPRI
+geometry: CONPRI
+
+internal part topology: FEAT
+
+subtractive: MANP
+surfaces: CONPRI
+production: MANP
+
+AM: MANP
+transport: CHAR
+AM: MANP
+
+additive manufacturing: MANP
+AM: MANP
+transport: CHAR
+be: MATE
+macro channel geometry: FEAT
+mini/micro channels: CONPRI
+permeability: PRO
+
+macro channel geometry: FEAT
+surfaces: CONPRI
+channel: APPL
+stability: PRO
+
+mini/micro channels: CONPRI
+feature size: PARA
+be: MATE
+print: MANP
+print: MANP
+material: MATE
+
+AM permeable structures: FEAT
+porosity: PRO
+
+process settings: PARA
+production: MANP
+permeable and solid structures: FEAT
+
+Internal geometry: FEAT
+macro level: FEAT
+classical part production: MANP
+manufactured: CONPRI
+conventional subtractive production methods: MANP
+drilling: MANP
+straight channels: FEAT
+round cross section: FEAT
+
+AM: MANP
+be: MATE
+
+L-PBF: MANP
+macro level: FEAT
+surfaces: CONPRI
+cross section: CONPRI
+channel: APPL
+be: MATE
+
+quality: CONPRI
+diameter: CONPRI
+be: MATE
+
+surface: CONPRI
+as: MATE
+as: MATE
+
+channel: APPL
+
+AM: MANP
+cooling channels: MACEQ
+injection molding: MANP
+be: MATE
+mold: MACEQ
+surface: CONPRI
+areas: PARA
+quality: CONPRI
+die: MACEQ
+
+Conformal cooling channels: MACEQ
+product warpage: CHAR
+
+conformal cooling channels: MACEQ
+conventional cooling channels: MACEQ
+injection molding: MANP
+
+reduction: CONPRI
+product warpage: CHAR
+conventional cooling channels: MACEQ
+
+conformal cooling: CONPRI
+industry: APPL
+
+plastic: MATE
+geometries: CONPRI
+production: MANP
+
+conformal cooling channels: MACEQ
+hot metal extrusion: MANP
+production: MANP
+
+research: CONPRI
+design: FEAT
+reduction: CONPRI
+optimization: CONPRI
+
+cooling channels: MACEQ
+pressure: CONPRI
+temperature: PARA
+reliability: CHAR
+
+geometry: CONPRI
+be: MATE
+AM: MANP
+
+AM: MANP
+design: FEAT
+fluent corners: FEAT
+cooling channel: MACEQ
+drilling: MANP
+pressure: CONPRI
+
+internal geometry: FEAT
+AM: MANP
+micro levels: CONPRI
+geometry: CONPRI
+transport: CHAR
+feature size: PARA
+AM technology: MANP
+
+limits: CONPRI
+as: MATE
+
+as: MATE
+area: PARA
+aspect ratio: FEAT
+
+heating: MANP
+automotive: APPL
+electro-cooling: CHAR
+heat exchangers: MACEQ
+
+heat transfer: CONPRI
+surface area: PARA
+volume: CONPRI
+
+be: MATE
+heat exchanger: MACEQ
+
+performance: CONPRI
+Ti64: MATE
+heat exchangers: MACEQ
+
+production: MANP
+high aspect ratio: FEAT
+
+production: MANP
+aspect ratios: FEAT
+material: MATE
+
+designs: FEAT
+heat transfer density: PARA
+
+production: MANP
+process: CONPRI
+performance: CONPRI
+as: MATE
+be: MATE
+
+AM: MANP
+case study: CONPRI
+catalytic burner: MACEQ
+auxiliary power units: MACEQ
+PEM-fuel cells: MACEQ
+
+volume reduction: CONPRI
+weight: PARA
+reduction: CONPRI
+
+permeability: PRO
+material: MATE
+process: CONPRI
+fabricate: MANP
+stochastic: CONPRI
+non-stochastic porous structures: FEAT
+
+scanning strategies scanning: CONPRI
+scanning patterns: PARA
+layer: PARA
+hatch distance: PARA
+
+hatch distances: PARA
+mm: MANP
+be: MATE
+
+powder particles: MATE
+
+scanning strategy: CONPRI
+mm: MANP
+stochastic: CONPRI
+foam-like structures: CONPRI
+pores: PRO
+porosity: PRO
+production: MANP
+permeable membrane: BIOP
+AM: MANP
+
+process settings: PARA
+mm: MANP
+wall thicknesses: FEAT
+core: MACEQ
+bulk porosity: PRO
+
+print: MANP
+process settings: PARA
+bulk porosity: PRO
+
+process settings: PARA
+
+Functional material complexity: CONPRI
+design process: CONPRI
+properties: CONPRI
+processes: CONPRI
+multi-material: CONPRI
+material gradients: CONPRI
+
+complexity: CONPRI
+simulation: ENAT
+process planning: CONPRI
+
+standard: CONPRI
+software: CONPRI
+support: APPL
+be: MATE
+software: CONPRI
+processes: CONPRI
+
+material gradient: CONPRI
+polymers: MATE
+elastomer: MATE
+manufactured: CONPRI
+technologies: CONPRI
+
+design process: CONPRI
+material: MATE
+voxel: CONPRI
+
+feature: FEAT
+metallic parts: MACEQ
+lattice structure: FEAT
+internal structures: PRO
+support: APPL
+weight: PARA
+
+metal: MATE
+fabrication: MANP
+medical applications: APPL
+AM processes: MANP
+metals: MATE
+stainless steel: MATE
+titanium: MATE
+aluminum: MATE
+cobalt chrome: MATE
+nickel alloys: MATE
+
+feature: FEAT
+metal: MATE
+microstructure: CONPRI
+
+metal: MATE
+be: MATE
+microstructural: CONPRI
+mechanical properties: CONPRI
+
+grains: CONPRI
+micro-segregation: CONPRI
+alloying elements: MATE
+metal: MATE
+dendrites: BIOP
+tensile strength: PRO
+ductility: PRO
+
+AM process: MANP
+microstructure: CONPRI
+in-situ: CONPRI
+process parameters: CONPRI
+material: MATE
+
+microstructure: CONPRI
+metals: MATE
+mechanical properties: CONPRI
+as: MATE
+strength: PRO
+ductility: PRO
+hardness: PRO
+
+process parameters: CONPRI
+lead: MATE
+grain structure: CONPRI
+
+complexity: CONPRI
+AM: MANP
+process: CONPRI
+
+Functionally Graded Materials: MATE
+as: MATE
+class of advanced materials: MATE
+spatial variation: FEAT
+material: MATE
+composition: CONPRI
+volume: CONPRI
+material properties: CONPRI
+
+component: MACEQ
+material: MATE
+microstructure: CONPRI
+performance: CONPRI
+
+Microstructural: CONPRI
+transition: CONPRI
+properties: CONPRI
+material: MATE
+
+variation: CONPRI
+mechanical: APPL
+material: MATE
+composition: CONPRI
+
+material: MATE
+intermediary density: MACEQ
+as: MATE
+lattice cellular structure: FEAT
+be: MATE
+materials: CONPRI
+
+Homogeneous FGM composition: PRO
+porosity: PRO
+density gradients: PRO
+spatial microstructure: FEAT
+morphology: CONPRI
+lattice structures: FEAT
+volume: CONPRI
+material: MATE
+voxel: CONPRI
+
+be: MATE
+densification: MANP
+magnitude: PARA
+density concentration: ENAT
+material: MATE
+monolithic: PRO
+anisotropic composite: MATE
+as: MATE
+elasticity: PRO
+
+transition: CONPRI
+porous: PRO
+core: MACEQ
+
+standards: CONPRI
+mathematical: CONPRI
+design: FEAT
+simulation: ENAT
+
+FGM: MANP
+complex morphology: CONPRI
+
+material: MATE
+properties: CONPRI
+FGM: MANP
+component: MACEQ
+
+Multi-material: CONPRI
+FGM: MANP
+interfacial bond: MATE
+materials: CONPRI
+
+boundaries: FEAT
+be: MATE
+heterogeneous: CONPRI
+transition: CONPRI
+phase: CONPRI
+parameters: CONPRI
+
+material: MATE
+be: MATE
+simulation: ENAT
+
+validation: CONPRI
+design: FEAT
+be: MATE
+
+be: MATE
+fusing: CONPRI
+material: MATE
+three-dimensionally: CONPRI
+dynamic: CONPRI
+component: MACEQ
+properties: CONPRI
+materials: CONPRI
+
+be: MATE
+weight: PARA
+toughness: PRO
+wear resistance: PRO
+impact: CONPRI
+mechanical properties: CONPRI
+
+Multi-material: CONPRI
+FGM: MANP
+properties: CONPRI
+
+AM technologies: MANP
+
+Construction: APPL
+be: MATE
+design: FEAT
+
+Simulation: ENAT
+be: MATE
+design: FEAT
+heterogeneous: CONPRI
+
+be: MATE
+transition: CONPRI
+materials: CONPRI
+materials: CONPRI
+composition: CONPRI
+density: PRO
+
+design: FEAT
+FGM: MANP
+dimension: FEAT
+geometric shape: FEAT
+equipotential surfaces: CONPRI
+
+component: MACEQ
+material: MATE
+composition: CONPRI
+
+design: FEAT
+be: MATE
+2D: CONPRI
+3D: CONPRI
+distribution: CONPRI
+materials: CONPRI
+
+material: MATE
+distribution: CONPRI
+material: MATE
+data: CONPRI
+chemical composition: CONPRI
+manufacturing constraints: CONPRI
+
+design: FEAT
+material: MATE
+mixing: CONPRI
+materials: CONPRI
+properties: CONPRI
+framework: CONPRI
+property distribution: CONPRI
+as: MATE
+distribution: CONPRI
+transition phases: CONPRI
+
+components: MACEQ
+strength: PRO
+material properties: CONPRI
+microstructure: CONPRI
+be: MATE
+
+model: CONPRI
+functionally graded components: FEAT
+material elements: MATE
+Finite Element Method analysis: CONPRI
+be: MATE
+set: APPL
+elements: MATE
+material properties: CONPRI
+
+FGM: MANP
+predicted: CONPRI
+components: MACEQ
+
+properties: CONPRI
+materials design rules: CONPRI
+be: MATE
+
+be: MATE
+databases: ENAT
+as: MATE
+material: MATE
+
+algorithm: CONPRI
+morphologies: CONPRI
+macro-properties: PRO
+multi-material: CONPRI
+FGM: MANP
+coordinates: PARA
+
+FGM: MANP
+multi-material: CONPRI
+as: MATE
+design: FEAT
+
+polymers: MATE
+elastomers: MATE
+metallic: MATE
+
+Assembly: MANP
+additive manufacturing: MANP
+
+As: MATE
+standards: CONPRI
+AM technologies: MANP
+
+Design for Assembly: FEAT
+be: MATE
+AM: MANP
+
+be: MATE
+as: MATE
+assembly: MANP
+components: MACEQ
+materials: CONPRI
+
+AM technologies: MANP
+assembly: MANP
+
+fabricated: CONPRI
+polymers: MATE
+metals: MATE
+
+be: MATE
+AM technologies: MANP
+
+metallic compliant joint: FEAT
+robot: MACEQ
+PBF: MANP
+
+design: FEAT
+joint: CONPRI
+snap-fit feature: FEAT
+metallic: MATE
+cubic structure: FEAT
+L-PBF: MANP
+
+design rules: CONPRI
+AM technologies: MANP
+assembly: MANP
+
+design rules: CONPRI
+part consolidation: CONPRI
+be: MATE
+
+Assembly: MANP
+As: MATE
+AM technologies: MANP
+be: MATE
+specification: PARA
+
+standard: CONPRI
+AM processes: MANP
+design: FEAT
+as: MATE
+process: CONPRI
+assembly: MANP
+manufactured products: CONPRI
+
+assembly: MANP
+design: FEAT
+snap-fit features: FEAT
+AM processes: MANP
+
+wall thickness: FEAT
+surfaces: CONPRI
+anisotropy: PRO
+assembly: MANP
+mechanical: APPL
+
+design rules: CONPRI
+AM processes: MANP
+material jetting: MANP
+vat photopolymerization: MANP
+processes: CONPRI
+
+design rules: CONPRI
+supports: APPL
+fabrication: MANP
+build orientation: PARA
+smoothness: CONPRI
+mechanism: CONPRI
+clearance: CONPRI
+
+benchmark: MANS
+clearance limits: PRO
+
+Part consolidation: CONPRI
+consolidation: CONPRI
+step: CONPRI
+design for assembly: FEAT
+
+AM processes: MANP
+multi-material printing: MANP
+
+AM part: MACEQ
+
+in-situ: CONPRI
+aircraft components: APPL
+assembly: MANP
+as: MATE
+weight: PARA
+design: FEAT
+metal powder bed fusion: MANP
+

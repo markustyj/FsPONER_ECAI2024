@@ -1,0 +1,47 @@
+T2	Component 59 71	shield layer
+T5	Component 174 183	MR sensor
+T6	Location 195 213	vertical alignment
+T9	Component 296 305	gap layer
+T13	Component 481 491	gap layers
+T14	Component 519 528	MR sensor
+T19	Effect 660 678	optimum insulation
+T20	Attribution 709 734	planar gap layer surfaces
+T21	ScientificConcept 748 773	detrimental ramifications
+T22	Function 777 796	reflective notching
+T1	Component 2 33	magnetoresistive (MR) read head
+T3	Location 79 95	recessed portion
+T4	Location 102 120	protruding portion
+T23	Location 136 152	recessed portion
+T7	Location 223 241	protruding portion
+T8	Component 249 261	shield layer
+T24	Component 335 344	MR sensor
+T11	Location 399 415	recessed portion
+T12	Component 423 435	shield layer
+T25	Attribution 455 473	combined thickness
+T15	Location 537 555	protruding portion
+T16	Component 563 575	shield layer
+T17	Location 613 629	recessed portion
+T18	Component 637 649	shield layer
+T26	ScientificConcept 805 823	swing curve effect
+T10	Component 367 377	gap layers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Causitive Arg1:T23 Arg2:T4
+R5	PartOf Arg1:T8 Arg2:T7
+R7	Spatial Arg1:T5 Arg2:T7
+R6	Manner Arg1:T6 Arg2:T5
+R8	Spatial Arg1:T9 Arg2:T24
+R9	PartOf Arg1:T12 Arg2:T11
+R10	Spatial Arg1:T10 Arg2:T11
+R11	Attr Arg1:T13 Arg2:T25
+R12	PartOf Arg1:T16 Arg2:T15
+R13	PartOf Arg1:T18 Arg2:T17
+R14	Spatial Arg1:T13 Arg2:T14
+R15	Spatial Arg1:T13 Arg2:T15
+R16	Spatial Arg1:T13 Arg2:T17
+R17	Purpose Arg1:T19 Arg2:T21
+R18	Purpose Arg1:T22 Arg2:T21
+R19	Purpose Arg1:T26 Arg2:T21
+R20	Purpose Arg1:T20 Arg2:T21
+#1	AnnotatorNotes R3	标得很好

@@ -1,0 +1,32 @@
+T1	Component 2 23	magnetic reading head
+T2	Component 33 57	magnetoresistive element
+T3	Component 82 99	reading amplifier
+T4	EnergyFlow 124 140	modulation noise
+T5	Others 177 189	relationship
+T6	Function 202 222	resistance variation
+T7	Attribution 231 239	strength
+T8	InfoFlow 247 259	signal field
+T9	EnergyFlow 272 294	negative feedback loop
+T10	Component 302 319	reading amplifier
+T11	Component 323 336	electric turn
+T12	Component 389 413	magnetoresistive element
+T13	EnergyFlow 436 459	negative feedback field
+T14	EnergyFlow 505 518	magnetic flux
+T15	Component 526 533	element
+T16	EnergyFlow 570 583	magnetic flux
+T17	Component 598 605	element
+T18	EnergyFlow 611 625	magnetic field
+T19	EnergyFlow 142 159	Barkhausen effect
+T20	Component 354 358	turn
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	InstanceOf Arg1:T19 Arg2:T4
+R4	Attr Arg1:T8 Arg2:T7
+R5	PartOf Arg1:T10 Arg2:T9
+R6	PartOf Arg1:T15 Arg2:T14
+R7	Spatial Arg1:T16 Arg2:T14
+R8	Causitive Arg1:T16 Arg2:T18
+R9	PartOf Arg1:T17 Arg2:T16
+R10	Generate Arg1:T20 Arg2:T13
+R11	Causitive Arg1:T20 Arg2:T14
+R12	Manner Arg1:T9 Arg2:T7

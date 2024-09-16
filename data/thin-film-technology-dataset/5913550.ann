@@ -1,0 +1,54 @@
+T1	Component 30 43	magnetic head
+T2	Component 55 60	block
+T3	Component 75 80	wafer
+T4	Attribution 97 111	element height
+T5	Component 117 138	magnetoresistive head
+T6	Attribution 146 155	gap depth
+T7	Component 161 184	thin-film magnetic head
+T8	ScientificConcept 202 218	prescribed value
+T9	System 222 251	resistance monitoring pattern
+T10	Function 256 291	monitoring element height machining
+T11	System 298 316	monitoring pattern
+T12	System 330 354	first resistance pattern
+T13	Location 364 376	surface area
+T15	Location 450 459	direction
+T16	Attribution 477 491	element height
+T17	System 498 523	second resistance pattern
+T18	Location 533 545	surface area
+T19	Function 565 595	nearly piecewise linear manner
+T20	Location 627 636	direction
+T21	Attribution 654 668	element height
+T22	Component 687 698	wafer block
+T23	Function 719 732	wafer process
+T24	Function 772 781	machining
+T25	ScientificConcept 799 815	resistance value
+T26	System 823 852	resistance monitoring pattern
+T28	Function 884 893	machining
+T29	Attribution 912 926	element height
+T14	Function 422 442	machining progresses
+T30	Function 398 418	nearly linear manner
+T31	Function 599 619	machining progresses
+R1	PartOf Arg1:T3 Arg2:T2
+R2	Attr Arg1:T5 Arg2:T4
+R3	Attr Arg1:T7 Arg2:T6
+R4	PartOf Arg1:T1 Arg2:T2
+R5	Measurement Arg1:T4 Arg2:T8
+R6	Measurement Arg1:T6 Arg2:T8
+R7	Purpose Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T12 Arg2:T13
+R10	Manner Arg1:T30 Arg2:T13
+R11	Manner Arg1:T14 Arg2:T30
+R12	Manner Arg1:T15 Arg2:T14
+R13	Attr Arg1:T16 Arg2:T15
+R14	PartOf Arg1:T11 Arg2:T17
+R15	PartOf Arg1:T17 Arg2:T18
+R16	Manner Arg1:T19 Arg2:T18
+R17	Manner Arg1:T31 Arg2:T19
+R18	Manner Arg1:T20 Arg2:T31
+R19	Attr Arg1:T21 Arg2:T20
+R20	Spatial Arg1:T9 Arg2:T22
+R21	Manner Arg1:T23 Arg2:T22
+R22	Attr Arg1:T26 Arg2:T25
+R23	Manner Arg1:T25 Arg2:T24
+R24	Oper Arg1:T28 Arg2:T29

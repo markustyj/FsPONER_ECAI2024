@@ -1,0 +1,42 @@
+T1	Component 23 43	micromagnetic device
+T2	Component 49 58	substrate
+T3	Component 79 101	first insulating layer
+T4	Component 112 121	substrate
+T5	Component 125 141	first seed layer
+T6	Component 152 174	first insulating layer
+T7	Component 178 208	first conductive winding layer
+T8	Component 219 235	first seed layer
+T9	Component 243 266	second insulating layer
+T10	Component 277 307	first conductive winding layer
+T11	Component 344 369	first magnetic core layer
+T12	Component 380 403	second insulating layer
+T13	Component 407 429	third insulating layer
+T14	Component 440 465	first magnetic core layer
+T15	Component 473 499	second magnetic core layer
+T16	Component 510 532	third insulating layer
+T17	Component 578 601	fourth insulating layer
+T18	Component 612 638	second magnetic core layer
+T19	Component 642 659	second seed layer
+T20	Component 670 693	fourth insulating layer
+T21	Component 701 732	second conductive winding layer
+T22	Component 743 760	second seed layer
+T24	Component 780 810	first conductive winding layer
+T25	Component 816 858	first and second conductive winding layers
+T26	Component 882 902	micromagnetic device
+R1	Spatial Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T1 Arg2:T7
+R7	Spatial Arg1:T7 Arg2:T8
+R8	PartOf Arg1:T1 Arg2:T9
+R9	Spatial Arg1:T9 Arg2:T10
+R10	Spatial Arg1:T11 Arg2:T12
+R11	Spatial Arg1:T13 Arg2:T14
+R12	Spatial Arg1:T15 Arg2:T16
+R13	Spatial Arg1:T17 Arg2:T18
+R14	Spatial Arg1:T19 Arg2:T20
+R15	Spatial Arg1:T21 Arg2:T22
+R16	Spatial Arg1:T21 Arg2:T24
+R17	Form Arg1:T25 Arg2:T26

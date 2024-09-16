@@ -1,0 +1,43 @@
+T1	Component 33 63	magneto-resistive (MR) element
+T2	Component 78 98	first magnetic layer
+T3	Component 115 124	substrate
+T4	Component 128 146	non-magnetic layer
+T5	Component 184 204	first magnetic layer
+T6	Component 212 233	second magnetic layer
+T7	Component 271 289	non-magnetic layer
+T8	EnergyFlow 299 312	sense current
+T11	Function 380 397	resistance change
+T12	EnergyFlow 414 437	external magnetic field
+T14	Component 483 503	first magnetic layer
+T16	Component 551 572	second magnetic layer
+T18	Location 626 646	superimposed portion
+T19	Component 654 674	first magnetic layer
+T20	Component 680 698	non-magnetic layer
+T21	Component 708 729	second magnetic layer
+T22	Function 167 174	contact
+T23	Function 254 261	contact
+T9	Component 328 363	first and the second magnetic layer
+T10	Attribution 445 475	sense current flowing distance
+T13	Attribution 513 543	sense current flowing distance
+T15	Attribution 590 620	sense current flowing distance
+R1	Spatial Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Oper Arg1:T22 Arg2:T5
+R6	PartOf Arg1:T1 Arg2:T6
+R7	Oper Arg1:T23 Arg2:T7
+R8	Spatial Arg1:T6 Arg2:T7
+R9	Manner Arg1:T9 Arg2:T8
+R10	Oper Arg1:T11 Arg2:T8
+R11	PartOf Arg1:T19 Arg2:T18
+R12	PartOf Arg1:T20 Arg2:T18
+R13	PartOf Arg1:T21 Arg2:T18
+R14	Manner Arg1:T14 Arg2:T10
+R15	Manner Arg1:T16 Arg2:T13
+R16	Comparison Arg1:T10 Arg2:T15
+R17	Comparison Arg1:T13 Arg2:T15
+R18	Manner Arg1:T12 Arg2:T11
+#1	AnnotatorNotes R18	这里不确定是否应该标记为manner，答：妥当，依据外部磁场进行磁阻改变，说的是磁阻改变的方式
+R19	Manner Arg1:T18 Arg2:T15
+#2	AnnotatorNotes R19	这个为什么会漏标呢

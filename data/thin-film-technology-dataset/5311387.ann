@@ -1,0 +1,38 @@
+T1	Component 4 8	head
+T2	Component 20 29	read pole
+T3	Component 57 68	write poles
+T4	Component 114 123	read pole
+T5	EnergyFlow 133 137	flux
+T6	Component 143 154	flux sensor
+T7	Component 194 198	head
+T8	Effect 224 264	longitudinal and perpendicular recording
+T9	Effect 273 290	readback function
+T10	Component 316 330	inductive coil
+T11	System 334 354	flux sensing devices
+T12	Component 365 376	Hall sensor
+T13	Component 398 412	recording head
+T15	Component 527 536	read pole
+T16	Component 541 552	write poles
+T17	Component 383 392	MR sensor
+T18	Effect 422 446	high readback resolution
+T19	Effect 448 474	high write field gradients
+T14	Effect 499 521	write wide read narrow
+T21	System 557 577	laminated structures
+T22	Shape 92 95	gap
+T23	Shape 185 188	gap
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Form Arg1:T3 Arg2:T22
+R4	Causitive Arg1:T4 Arg2:T5
+R5	Causitive Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T23
+R7	Purpose Arg1:T7 Arg2:T8
+R8	Purpose Arg1:T10 Arg2:T9
+R9	Purpose Arg1:T11 Arg2:T9
+R10	InstanceOf Arg1:T12 Arg2:T11
+R11	InstanceOf Arg1:T17 Arg2:T11
+R12	Purpose Arg1:T13 Arg2:T18
+R13	Purpose Arg1:T13 Arg2:T19
+R14	Purpose Arg1:T13 Arg2:T14
+R15	Attr Arg1:T16 Arg2:T21
+R16	Attr Arg1:T15 Arg2:T21

@@ -1,0 +1,62 @@
+T1	Component 43 66	thin film magnetic head
+T2	EnergyFlow 88 103	magnetic fluxes
+T5	EnergyFlow 341 356	magnetic fluxes
+T8	Shape 434 440	recess
+T9	Component 457 466	substrate
+T11	Measure 559 584	average inclination angle
+T13	Shape 613 619	recess
+T16	Shape 739 745	recess
+T17	Component 769 778	substrate
+T18	Component 818 827	substrate
+T19	Measure 884 909	average inclination angle
+T20	Location 917 934	side edge portion
+T21	PhysicsFlow 938 954	patterned resist
+T22	Shape 1008 1014	recess
+T24	EnergyFlow 1178 1193	magnetic fluxes
+T25	Material 23 39	recording medium
+T26	Component 109 112	tip
+T27	EnergyFlow 122 126	pole
+T28	Location 113 116	end
+T4	Component 310 333	thin film magnetic head
+T6	Component 392 408	lower layer core
+T7	Component 474 497	thin film magnetic head
+T10	Value 640 650	15 degrees
+T29	Value 654 664	75 degrees
+T30	Shape 688 694	recess
+T31	PhysicsFlow 846 852	resist
+T32	PhysicsFlow 796 812	patterned resist
+T33	Value 992 1002	70 degrees
+T23	Function 1031 1047	ion beam etching
+T34	PhysicsFlow 1058 1073	remained resist
+T35	Component 1094 1103	substrate
+T36	Shape 1113 1125	smooth slope
+T37	Attribution 1149 1153	edge
+T38	Shape 1157 1163	recess
+T39	Component 1227 1230	tip
+T40	Location 1231 1234	end
+T41	EnergyFlow 1238 1242	pole
+T42	Effect 1287 1309	high recording density
+T12	Shape 590 605	side wall slope
+T3	EnergyFlow 153 188	ineffective leakage magnetic fluxes
+T14	Function 1255 1264	recording
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T26
+R3	Attr Arg1:T28 Arg2:T26
+R4	PartOf Arg1:T27 Arg2:T28
+R5	PartOf Arg1:T8 Arg2:T6
+R6	PartOf Arg1:T9 Arg2:T8
+R7	PartOf Arg1:T7 Arg2:T9
+R8	PartOf Arg1:T13 Arg2:T12
+R9	Manner Arg1:T11 Arg2:T12
+R10	Measurement Arg1:T11 Arg2:T10
+R11	Measurement Arg1:T11 Arg2:T29
+R12	Spatial Arg1:T16 Arg2:T17
+R13	Attr Arg1:T20 Arg2:T19
+R14	PartOf Arg1:T21 Arg2:T20
+R15	Measurement Arg1:T19 Arg2:T33
+R16	Form Arg1:T23 Arg2:T22
+R17	Attr Arg1:T38 Arg2:T37
+R18	Form Arg1:T37 Arg2:T36
+R19	PartOf Arg1:T41 Arg2:T40
+R20	Attr Arg1:T40 Arg2:T39
+R21	Attr Arg1:T14 Arg2:T42

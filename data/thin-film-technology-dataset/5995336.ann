@@ -1,0 +1,16 @@
+T1	Attribution 2 9	surface
+T3	Component 60 90	single domain magnetic element
+T4	Component 117 131	polished layer
+T5	Component 139 149	thin layer
+T6	Material 157 170	same material
+T8	Shape 198 205	corners
+T9	System 211 230	resulting structure
+T10	Component 244 268	thin film magnetic heads
+T2	Attribution 182 193	sharp edges
+R1	MadeOf Arg1:T5 Arg2:T6
+R2	Causitive Arg1:T4 Arg2:T5
+R3	Spatial Arg1:T3 Arg2:T1
+R4	Causitive Arg1:T1 Arg2:T4
+R5	Purpose Arg1:T1 Arg2:T2
+R6	Purpose Arg1:T1 Arg2:T8
+R7	PartOf Arg1:T10 Arg2:T9

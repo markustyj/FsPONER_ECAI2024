@@ -1,0 +1,73 @@
+T1	Component 15 34	magnetic transducer
+T2	EnergyFlow 59 76	resistance change
+T3	Effect 94 120	appropriate coercive force
+T4	Component 124 147	thin film magnetic head
+T5	Component 177 196	magnetic transducer
+T6	Component 229 252	thin film magnetic head
+T7	System 256 261	stack
+T8	Component 265 280	spin valve film
+T9	System 287 304	stacked structure
+T10	Component 318 343	first soft magnetic layer
+T11	Component 347 373	second soft magnetic layer
+T12	Component 377 400	nonmagnetic metal layer
+T13	Component 404 423	ferromagnetic layer
+T14	Component 428 451	antiferromagnetic layer
+T15	Component 458 474	protective layer
+T16	Component 511 527	underlying layer
+T17	EnergyFlow 529 550	Electrical resistance
+T18	Measure 583 597	relative angle
+T19	Location 610 621	orientation
+T20	Function 625 638	magnetization
+T21	Component 646 665	ferromagnetic layer
+T22	Location 674 685	orientation
+T23	Function 689 702	magnetization
+T24	Component 710 747	first and second soft magnetic layers
+T25	Component 751 775	soft magnetic interlayer
+T26	EnergyFlow 801 822	electrical resistance
+T27	EnergyFlow 839 860	electrical resistance
+T28	Component 868 893	first soft magnetic layer
+T29	Component 911 936	first soft magnetic layer
+T30	EnergyFlow 945 952	current
+T31	System 971 976	stack
+T32	Material 978 987	electrons
+T33	Attribution 1009 1016	surface
+T34	Component 1024 1048	soft magnetic interlayer
+T35	Shape 1060 1064	path
+T36	EnergyFlow 1073 1082	electrons
+T38	EnergyFlow 1117 1134	resistance change
+T39	Attribution 783 792	magnetism
+T37	ScientificConcept 1109 1113	rate
+R1	Attr Arg1:T38 Arg2:T37
+R2	Causitive Arg1:T30 Arg2:T31
+R3	Attr Arg1:T34 Arg2:T33
+R4	PartOf Arg1:T36 Arg2:T35
+R5	Causitive Arg1:T33 Arg2:T32
+R6	Attr Arg1:T25 Arg2:T39
+R7	Attr Arg1:T25 Arg2:T26
+R8	Comparison Arg1:T26 Arg2:T27
+R9	Attr Arg1:T28 Arg2:T27
+R10	PartOf Arg1:T29 Arg2:T25
+R11	Attr Arg1:T21 Arg2:T20
+R12	Attr Arg1:T20 Arg2:T19
+R13	Attr Arg1:T24 Arg2:T23
+R14	Attr Arg1:T23 Arg2:T22
+R15	Spatial Arg1:T19 Arg2:T22
+R16	PartOf Arg1:T8 Arg2:T9
+R17	PartOf Arg1:T9 Arg2:T10
+R18	PartOf Arg1:T9 Arg2:T11
+R19	PartOf Arg1:T9 Arg2:T12
+R20	PartOf Arg1:T9 Arg2:T13
+R21	PartOf Arg1:T9 Arg2:T14
+R22	PartOf Arg1:T9 Arg2:T15
+R23	Spatial Arg1:T10 Arg2:T16
+R24	Spatial Arg1:T11 Arg2:T16
+R25	Spatial Arg1:T12 Arg2:T16
+R26	Spatial Arg1:T13 Arg2:T16
+R27	Spatial Arg1:T14 Arg2:T16
+R28	Spatial Arg1:T15 Arg2:T16
+R29	Purpose Arg1:T1 Arg2:T2
+R30	Purpose Arg1:T1 Arg2:T3
+R31	Purpose Arg1:T18 Arg2:T17
+#1	AnnotatorNotes R31	根据xx而发生改变，使用manner
+#2	AnnotatorNotes R2	电流、水流穿过某物，只是说流过的方式，而水流和某物并不存在使动被动关系，所以用manner即可
+#3	AnnotatorNotes R4	用于电子的路径，是否purpose更妥当一些？

@@ -1,0 +1,47 @@
+T1	Component 39 59	microelectric device
+T2	Component 77 87	write pole
+T3	Component 94 133	energy assisted magnetic recording head
+T4	Component 139 148	capacitor
+T5	Component 203 214	resist film
+T6	Component 230 241	resist film
+T7	Measure 247 258	temperature
+T8	Component 297 314	cured resist film
+T9	Shape 339 343	line
+T10	Attribution 354 366	aspect ratio
+T11	Component 418 435	cured resist film
+T12	Location 450 467	remaining portion
+T13	Component 475 486	resist film
+T14	Shape 497 501	line
+T17	Shape 574 578	line
+T18	Shape 584 588	line
+T19	Shape 613 619	trench
+T22	Shape 664 670	trench
+T23	Attribution 677 683	height
+T24	Attribution 690 695	width
+T25	Attribution 701 707	height
+T26	Attribution 723 728	width
+T27	Attribution 748 760	aspect ratio
+T28	System 783 792	structure
+T29	Shape 812 818	trench
+T30	Value 271 293	180 degrees centigrade
+T31	Value 379 382	ten
+T15	Component 506 537	insulating or nonmagnetic layer
+T16	Function 557 566	formation
+T20	Component 627 658	insulating or nonmagnetic layer
+R1	PartOf Arg1:T3 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T2
+R3	Measurement Arg1:T7 Arg2:T30
+R4	Causitive Arg1:T8 Arg2:T9
+R5	Attr Arg1:T9 Arg2:T10
+R6	Measurement Arg1:T10 Arg2:T31
+R7	PartOf Arg1:T13 Arg2:T12
+R8	Form Arg1:T12 Arg2:T14
+R9	Oper Arg1:T16 Arg2:T17
+R10	Purpose Arg1:T18 Arg2:T19
+R12	Attr Arg1:T22 Arg2:T23
+R13	Attr Arg1:T22 Arg2:T24
+R14	PartOf Arg1:T29 Arg2:T28
+R15	Causitive Arg1:T26 Arg2:T25
+R16	Manner Arg1:T7 Arg2:T5
+R17	Manner Arg1:T7 Arg2:T6
+R11	Causitive Arg1:T19 Arg2:T20

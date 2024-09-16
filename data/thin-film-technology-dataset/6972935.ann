@@ -1,0 +1,49 @@
+T1	Component 2 75	current-in-the-plane (CIP) giant magnetoresistive (GMR) spin valve sensor
+T2	Function 84 108	free layer magnetization
+T3	Function 163 220	free layer end-region antiferromagnetic exchange coupling
+T4	Component 225 258	antiparallel coupling (APC) layer
+T5	Material 268 270	Ru
+T6	Component 289 299	free layer
+T7	Component 306 330	ferromagnetic bias layer
+T8	Component 348 357	APC layer
+T9	Component 363 373	bias layer
+T10	Component 379 395	continuous layer
+T11	Attribution 420 432	entire width
+T12	Component 440 450	free layer
+T13	Location 456 470	central region
+T14	Component 478 488	bias layer
+T15	Material 502 520	nonmagnetic oxides
+T16	Component 543 551	elements
+T17	Component 566 576	bias layer
+T18	Location 587 609	bias layer end regions
+T20	Location 639 662	oxidized central region
+T21	Component 670 680	bias layer
+T22	Location 693 726	central active track-width region
+T23	Component 734 755	underlying free layer
+T24	Location 761 786	ferromagnetic end regions
+T25	Component 794 804	bias layer
+T26	Component 850 859	APC layer
+T27	Location 867 914	corresponding underlying free layer end regions
+T28	Function 930 950	longitudinal biasing
+T29	Function 156 159	use
+T30	Function 123 143	longitudinal biasing
+R1	Oper Arg1:T29 Arg2:T3
+R2	Oper Arg1:T2 Arg2:T1
+R3	Oper Arg1:T30 Arg2:T2
+R4	Spatial Arg1:T7 Arg2:T8
+R5	Spatial Arg1:T4 Arg2:T6
+R6	InstanceOf Arg1:T5 Arg2:T4
+R7	InstanceOf Arg1:T9 Arg2:T10
+R8	Attr Arg1:T12 Arg2:T11
+R9	Manner Arg1:T11 Arg2:T10
+R10	PartOf Arg1:T14 Arg2:T13
+R11	MadeOf Arg1:T15 Arg2:T13
+R12	PartOf Arg1:T16 Arg2:T15
+R13	Causitive Arg1:T16 Arg2:T17
+R14	PartOf Arg1:T21 Arg2:T20
+R15	Causitive Arg1:T20 Arg2:T22
+R16	PartOf Arg1:T23 Arg2:T22
+R17	PartOf Arg1:T25 Arg2:T24
+R18	Spatial Arg1:T24 Arg2:T26
+R19	Spatial Arg1:T24 Arg2:T27
+R20	Causitive Arg1:T24 Arg2:T28

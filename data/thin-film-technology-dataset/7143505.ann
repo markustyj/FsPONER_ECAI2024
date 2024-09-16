@@ -1,0 +1,32 @@
+T1	Component 3 26	thin film magnetic head
+T3	Shape 77 90	magnetic path
+T4	Shape 114 120	cavity
+T5	Component 144 165	coil insulating layer
+T6	Component 171 192	coil insulating layer
+T7	Component 211 227	lower core layer
+T8	Location 239 243	rear
+T9	Location 249 266	recording portion
+T10	Shape 274 293	coil forming groove
+T11	Component 311 332	coil insulating layer
+T12	Component 342 352	coil layer
+T13	Shape 372 391	coil forming groove
+T14	Component 430 436	layers
+T15	Attribution 445 458	upper surface
+T16	Location 466 483	recording portion
+T17	Shape 520 533	magnetic path
+T2	EnergyFlow 50 60	inductance
+T18	Function 403 414	arrangement
+T19	Shape 416 422	bulges
+R1	Spatial Arg1:T12 Arg2:T13
+R2	Causitive Arg1:T1 Arg2:T2
+R3	Causitive Arg1:T1 Arg2:T3
+R4	Causitive Arg1:T1 Arg2:T4
+R5	Form Arg1:T5 Arg2:T4
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Spatial Arg1:T10 Arg2:T11
+R8	Spatial Arg1:T6 Arg2:T8
+R9	Attr Arg1:T9 Arg2:T8
+R10	PartOf Arg1:T14 Arg2:T19
+R11	Attr Arg1:T16 Arg2:T15
+R12	PartOf Arg1:T15 Arg2:T14
+R13	Purpose Arg1:T18 Arg2:T17

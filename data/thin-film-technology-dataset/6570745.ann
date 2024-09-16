@@ -1,0 +1,27 @@
+T2	Component 32 47	hard disk drive
+T4	EnergyFlow 107 122	magnetic fields
+T5	Location 130 144	passive region
+T7	Component 212 227	thin film layer
+T8	Material 242 259	magnetic material
+T10	Component 305 313	GMR head
+T11	Location 321 335	passive region
+T12	Location 408 422	passive region
+T1	Component 3 25	improved magnetic head
+T3	Component 60 93	lead overlaid read head component
+T6	Location 152 179	free magnetic layer regions
+T14	Location 276 279	top
+T9	Component 287 297	free layer
+T15	Component 348 373	overlaid electrical leads
+T13	Component 430 440	free layer
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T6 Arg2:T5
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T3 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T8
+R7	PartOf Arg1:T10 Arg2:T9
+R8	PartOf Arg1:T9 Arg2:T14
+R9	Spatial Arg1:T7 Arg2:T9
+R10	PartOf Arg1:T13 Arg2:T12
+R11	Spatial Arg1:T11 Arg2:T15
+R12	PartOf Arg1:T15 Arg2:T10

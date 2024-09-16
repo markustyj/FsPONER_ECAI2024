@@ -1,0 +1,50 @@
+T1	ScientificConcept 84 89	noise
+T3	System 177 194	electronic device
+T4	EnergyFlow 204 229	transmission line circuit
+T5	Component 240 251	first layer
+T6	Component 293 302	substrate
+T7	Component 309 320	first layer
+T8	Material 324 343	insulating material
+T9	Component 351 362	first layer
+T10	Material 370 402	electrically conductive material
+T11	Component 408 419	first layer
+T12	Material 423 442	insulating material
+T13	Measure 449 458	thickness
+T14	Value 472 494	1.0 micrometers (..mu.m
+T15	Shape 499 516	transmission line
+T16	Component 534 545	first layer
+T17	Material 549 568	insulating material
+T18	Component 575 587	second layer
+T19	Material 591 610	insulating material
+T20	Shape 628 645	transmission line
+T21	Component 649 661	second layer
+T22	Material 665 697	electrically conductive material
+T23	Component 715 727	second layer
+T24	Material 731 750	insulating material
+T25	ScientificConcept 52 73	capacitive techniques
+T26	State 93 120	high speed interconnections
+T2	EnergyFlow 133 157	CMOS integrated circuits
+T27	Material 255 287	electrically conductive material
+T28	Value 472 487	1.0 micrometers
+R1	Purpose Arg1:T25 Arg2:T1
+R2	Generate Arg1:T26 Arg2:T1
+R3	InstanceOf Arg1:T2 Arg2:T26
+R4	PartOf Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T4 Arg2:T5
+R6	MadeOf Arg1:T5 Arg2:T27
+R7	Spatial Arg1:T5 Arg2:T6
+R8	MadeOf Arg1:T7 Arg2:T8
+R9	Spatial Arg1:T7 Arg2:T9
+R10	MadeOf Arg1:T9 Arg2:T10
+R11	PartOf Arg1:T4 Arg2:T7
+R12	MadeOf Arg1:T11 Arg2:T12
+R13	Attr Arg1:T11 Arg2:T13
+R14	Measurement Arg1:T13 Arg2:T28
+R15	MadeOf Arg1:T16 Arg2:T17
+R16	MadeOf Arg1:T18 Arg2:T19
+R17	Spatial Arg1:T18 Arg2:T20
+R18	Spatial Arg1:T15 Arg2:T16
+R19	MadeOf Arg1:T21 Arg2:T22
+R20	MadeOf Arg1:T23 Arg2:T24
+R21	Spatial Arg1:T21 Arg2:T23
+#1	AnnotatorNotes R1	这篇文档标得非常棒！

@@ -1,0 +1,51 @@
+T1	Component 41 54	CPP read head
+T2	Component 64 84	CPP read head sensor
+T3	Component 91 106	hard bias layer
+T4	Material 141 156	sensor material
+T5	Location 162 184	sensor material region
+T6	Material 211 243	fast-milling dielectric material
+T7	Location 321 343	sensor material region
+T8	Component 347 363	protective layer
+T9	Component 370 375	layer
+T10	Material 379 395	masking material
+T11	Component 417 422	strip
+T12	Material 426 441	sensor material
+T13	Material 460 492	fast-milling dielectric material
+T14	Location 521 534	exposed areas
+T15	Function 565 583	ion milling source
+T16	Location 614 627	exposed areas
+T17	Material 629 647	Hard bias material
+T18	Location 673 680	regions
+T19	Material 684 699	sensor material
+T20	Location 761 774	these regions
+T21	Material 788 806	hard bias material
+T22	Material 815 831	masking material
+T23	Location 862 875	these regions
+T24	Location 247 304	first and second fast-milling dielectric material regions
+T25	Location 504 516	masked areas
+T27	Material 704 736	fast-milling dielectric material
+T28	Component 745 749	caps
+T29	Component 780 784	caps
+T26	Component 132 137	strip
+T30	Component 201 207	strips
+T31	Component 450 456	strips
+T32	Function 538 552	shaping source
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	MadeOf Arg1:T26 Arg2:T4
+R4	Causitive Arg1:T3 Arg2:T26
+R5	Spatial Arg1:T24 Arg2:T7
+R6	Causitive Arg1:T3 Arg2:T30
+R7	Manner Arg1:T5 Arg2:T26
+R8	Manner Arg1:T24 Arg2:T30
+R9	MadeOf Arg1:T30 Arg2:T6
+R10	MadeOf Arg1:T11 Arg2:T12
+R11	MadeOf Arg1:T31 Arg2:T13
+R12	MadeOf Arg1:T9 Arg2:T10
+R13	Causitive Arg1:T8 Arg2:T25
+R14	Causitive Arg1:T9 Arg2:T14
+R15	Causitive Arg1:T32 Arg2:T16
+R16	Form Arg1:T17 Arg2:T28
+R17	Manner Arg1:T18 Arg2:T17
+R18	PartOf Arg1:T21 Arg2:T29
+R19	PartOf Arg1:T22 Arg2:T29

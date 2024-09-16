@@ -1,0 +1,44 @@
+T1	Component 37 60	magnetic recording head
+T2	Component 79 102	magnetic recording head
+T3	Component 110 129	air-bearing surface
+T4	Component 197 201	head
+T5	Component 275 285	first coil
+T9	EnergyFlow 513 522	main pole
+T10	Component 538 548	first coil
+T13	Component 131 134	ABS
+T14	Component 213 223	first coil
+T15	Component 227 238	second coil
+T16	EnergyFlow 242 251	main pole
+T17	Component 259 269	third coil
+T18	Component 311 316	turns
+T6	EnergyFlow 346 365	first write current
+T19	Location 371 386	first direction
+T7	Component 392 403	second coil
+T20	Component 430 435	turns
+T8	EnergyFlow 465 485	second write current
+T21	Location 491 507	second direction
+T22	Component 557 568	second coil
+T11	Component 574 584	third coil
+T12	EnergyFlow 638 657	third write current
+T23	Location 663 678	third direction
+T24	Component 610 615	turns
+T25	Material 175 180	media
+R1	PartOf Arg1:T2 Arg2:T3
+R2	Alias Arg1:T3 Arg2:T13
+R3	Spatial Arg1:T3 Arg2:T25
+R4	Spatial Arg1:T13 Arg2:T25
+R5	PartOf Arg1:T4 Arg2:T14
+R6	PartOf Arg1:T4 Arg2:T15
+R7	PartOf Arg1:T4 Arg2:T16
+R8	PartOf Arg1:T4 Arg2:T17
+R9	PartOf Arg1:T5 Arg2:T18
+R10	Purpose Arg1:T5 Arg2:T6
+R11	Manner Arg1:T19 Arg2:T6
+R12	PartOf Arg1:T7 Arg2:T20
+R13	Purpose Arg1:T7 Arg2:T8
+R14	Manner Arg1:T21 Arg2:T8
+R15	Spatial Arg1:T9 Arg2:T10
+R16	Spatial Arg1:T9 Arg2:T22
+R17	PartOf Arg1:T11 Arg2:T24
+R18	Purpose Arg1:T11 Arg2:T12
+R19	Manner Arg1:T23 Arg2:T12

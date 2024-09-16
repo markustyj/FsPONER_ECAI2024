@@ -1,0 +1,41 @@
+T1	Component 2 32	thin film inductive transducer
+T2	Component 59 74	magnetic layers
+T3	Component 103 119	slider substrate
+T4	Function 129 152	perpendicular recording
+T5	Function 156 176	magnetic transitions
+T6	Material 182 205	movable magnetic medium
+T7	Component 211 228	magnetic closures
+T8	Function 261 279	electrical contact
+T9	Component 287 307	outer magnetic layer
+T10	Component 328 355	intermediate magnetic layer
+T11	Location 379 383	area
+T12	Component 395 411	conductive turns
+T13	Component 421 438	single layer coil
+T14	Function 476 494	electrical contact
+T15	Component 532 548	conductive turns
+T16	Function 556 576	Magnetic transitions
+T17	Function 592 630	conventional peak detection techniques
+T18	Component 643 663	disclosed transducer
+T19	Component 674 683	pole tips
+T20	Value 743 749	33-40 %
+T21	Attribution 757 766	thickness
+T22	Component 774 789	outer pole tips
+T23	Component 828 837	pole tips
+T24	Attribution 881 886	width
+T25	Component 914 923	substrate
+T26	Value 743 749	33-40%
+T27	Attribution 896 904	distance
+T28	Function 810 821	wrap-around
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Purpose Arg1:T2 Arg2:T4
+R4	Oper Arg1:T4 Arg2:T5
+R5	Manner Arg1:T6 Arg2:T5
+R6	PartOf Arg1:T13 Arg2:T12
+R7	Causitive Arg1:T12 Arg2:T11
+R8	Causitive Arg1:T9 Arg2:T10
+R9	Manner Arg1:T11 Arg2:T10
+R10	PartOf Arg1:T18 Arg2:T19
+R11	Attr Arg1:T22 Arg2:T21
+R12	Purpose Arg1:T17 Arg2:T16
+R13	Attr Arg1:T23 Arg2:T24

@@ -1,0 +1,26 @@
+T1	Function 43 58	flux conduction
+T2	EnergyFlow 97 107	anisotropy
+T3	Location 126 155	transverse in-plane direction
+T4	EnergyFlow 166 170	flux
+T5	Location 190 219	transverse in-plane direction
+T6	Function 233 241	rotation
+T7	System 264 299	thin film magnetic recording device
+T8	Component 320 324	pole
+T9	Component 334 349	magnetic layers
+T11	Component 404 419	magnetic layers
+T12	Location 427 434	domains
+T13	Location 449 464	first direction
+T14	Location 506 513	domains
+T15	Location 528 553	second distinct direction
+T16	Component 559 565	layers
+T17	EnergyFlow 598 609	signal flux
+T10	EnergyFlow 376 387	signal flux
+T18	Component 478 498	said magnetic layers
+R1	PartOf Arg1:T7 Arg2:T8
+R2	PartOf Arg1:T8 Arg2:T9
+R3	Causitive Arg1:T7 Arg2:T10
+R4	PartOf Arg1:T11 Arg2:T12
+R5	Manner Arg1:T13 Arg2:T11
+R6	Manner Arg1:T5 Arg2:T4
+R7	PartOf Arg1:T18 Arg2:T14
+R8	Manner Arg1:T15 Arg2:T18

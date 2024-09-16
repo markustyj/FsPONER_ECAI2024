@@ -1,0 +1,84 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 37 46	substrate
+T3	Component 54 86	first and second magnetic layers
+T4	Component 106 115	substrate
+T5	System 132 150	laminated sequence
+T6	Component 154 173	magnetic sub-layers
+T7	Component 179 211	first and second magnetic layers
+T8	Location 231 241	first ends
+T9	Location 257 272	pole tip region
+T10	Component 280 284	head
+T11	Location 286 311	corresponding second ends
+T12	Location 327 342	back gap region
+T13	Component 350 354	head
+T14	Location 360 395	corresponding intermediate portions
+T15	Location 412 431	intermediate region
+T16	Component 439 443	head
+T17	Location 456 471	pole tip region
+T18	Location 480 495	back gap region
+T19	Component 501 533	first and second magnetic layers
+T20	Function 557 573	physical contact
+T21	Location 581 596	back gap region
+T22	Location 636 651	pole tip region
+T23	Location 663 682	intermediate region
+T24	Component 686 707	nonmagnetic gap layer
+T25	Component 732 764	first and second magnetic layers
+T26	Location 772 787	pole tip region
+T27	System 791 814	magnetic coil structure
+T28	Component 839 871	first and second magnetic layers
+T29	Location 879 898	intermediate region
+T30	Component 904 925	second magnetic layer
+T31	Location 932 945	sloped region
+T33	Component 1001 1021	first magnetic layer
+T34	Location 1033 1048	pole tip region
+T35	Shape 1059 1064	space
+T36	System 1073 1096	magnetic coil structure
+T37	Location 1102 1115	sloped region
+T38	Component 1123 1144	second magnetic layer
+T39	Component 1208 1229	second magnetic layer
+T40	Component 1233 1253	third magnetic layer
+T41	Component 1278 1299	second magnetic layer
+T42	Location 1321 1336	back gap region
+T43	Location 1359 1372	sloped region
+T44	Component 1380 1401	second magnetic layer
+T45	EnergyFlow 1159 1180	magnetic permeability
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T6 Arg2:T5
+R6	PartOf Arg1:T7 Arg2:T8
+R7	Form Arg1:T11 Arg2:T12
+R8	Form Arg1:T8 Arg2:T9
+R9	Form Arg1:T14 Arg2:T15
+R5	Form Arg1:T3 Arg2:T5
+R10	PartOf Arg1:T10 Arg2:T9
+R11	PartOf Arg1:T13 Arg2:T12
+R12	PartOf Arg1:T16 Arg2:T15
+R13	Spatial Arg1:T15 Arg2:T17
+R14	Spatial Arg1:T15 Arg2:T18
+R15	Oper Arg1:T20 Arg2:T19
+R16	Manner Arg1:T21 Arg2:T19
+R17	Manner Arg1:T22 Arg2:T19
+R18	Manner Arg1:T23 Arg2:T19
+R19	Spatial Arg1:T24 Arg2:T25
+R21	Spatial Arg1:T27 Arg2:T28
+R23	PartOf Arg1:T30 Arg2:T31
+R24	Purpose Arg1:T35 Arg2:T36
+R25	PartOf Arg1:T38 Arg2:T37
+R26	Attr Arg1:T37 Arg2:T45
+T46	Location 1186 1200	other portions
+R27	PartOf Arg1:T39 Arg2:T46
+R28	Comparison Arg1:T37 Arg2:T46
+R29	Spatial Arg1:T40 Arg2:T41
+R30	Manner Arg1:T42 Arg2:T40
+R31	PartOf Arg1:T44 Arg2:T43
+R32	Spatial Arg1:T40 Arg2:T43
+R33	Spatial Arg1:T33 Arg2:T34
+T32	Shape 958 986	second magnetic layer slopes
+R34	PartOf Arg1:T7 Arg2:T11
+R35	PartOf Arg1:T7 Arg2:T14
+R20	Manner Arg1:T26 Arg2:T25
+R22	Manner Arg1:T29 Arg2:T28
+R36	PartOf Arg1:T31 Arg2:T32
+R37	Form Arg1:T32 Arg2:T35
+#1	AnnotatorNotes R1	nice！

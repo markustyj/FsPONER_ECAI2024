@@ -1,0 +1,49 @@
+T1	Component 2 25	thin film magnetic head
+T2	System 35 49	yoke structure
+T3	Shape 140 149	front gap
+T4	Component 182 191	pole tips
+T5	Location 237 242	plane
+T6	EnergyFlow 284 303	magnetic saturation
+T7	System 311 325	yoke structure
+T8	Component 344 352	pole tip
+T9	Component 394 403	pole tips
+T10	Shape 433 442	front gap
+T11	EnergyFlow 455 467	flux density
+T13	Component 505 513	pole tip
+T14	Shape 567 576	front gap
+T15	Component 71 75	legs
+T16	Shape 79 102	low reluctance back gap
+T17	Shape 109 134	high reluctance front gap
+T18	Attribution 168 178	pole faces
+T19	Attribution 210 230	cross-sectional area
+T20	Component 259 269	pole faces
+T21	Shape 379 388	front gap
+T22	Location 413 425	short throat
+T23	Component 488 501	yoke end face
+T12	Attribution 520 529	thickness
+T24	Attribution 603 612	thickness
+T25	Component 616 626	either leg
+T26	Shape 475 478	gap
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T15
+R3	PartOf Arg1:T2 Arg2:T16
+R4	PartOf Arg1:T2 Arg2:T17
+R5	Attr Arg1:T4 Arg2:T18
+R7	Causitive Arg1:T18 Arg2:T3
+R8	Spatial Arg1:T5 Arg2:T20
+R6	Attr Arg1:T18 Arg2:T19
+R10	Purpose Arg1:T19 Arg2:T6
+R11	Manner Arg1:T5 Arg2:T18
+R9	Generate Arg1:T7 Arg2:T6
+R12	Causitive Arg1:T6 Arg2:T8
+R13	Spatial Arg1:T8 Arg2:T21
+R14	Causitive Arg1:T6 Arg2:T21
+R15	Manner Arg1:T26 Arg2:T11
+R16	Causitive Arg1:T9 Arg2:T22
+R17	Manner Arg1:T10 Arg2:T9
+R18	Purpose Arg1:T22 Arg2:T11
+R19	Attr Arg1:T23 Arg2:T12
+R20	Attr Arg1:T13 Arg2:T12
+R21	Manner Arg1:T14 Arg2:T12
+R22	Attr Arg1:T25 Arg2:T24
+R23	Comparison Arg1:T12 Arg2:T24

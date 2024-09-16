@@ -1,0 +1,66 @@
+T1	Component 2 25	thin film magnetic head
+T2	System 49 71	magnetic yoke assembly
+T3	Component 108 117	substrate
+T5	System 162 181	lower yoke assembly
+T6	Component 214 234	lower magnetic layer
+T7	Component 251 260	substrate
+T8	EnergyFlow 265 292	first and second side poles
+T9	Location 322 326	ends
+T10	Component 334 354	lower magnetic layer
+T11	Component 359 378	insulative pedestal
+T12	Component 395 400	frame
+T13	Location 418 421	top
+T14	System 429 448	lower yoke assembly
+T15	Attribution 471 494	uppermost lateral plane
+T16	System 502 515	yoke assembly
+T17	Component 519 555	diamond-like carbon (DLC) wear layer
+T18	Component 578 586	pedestal
+T19	Component 588 623	First and second pole support wells
+T20	Component 645 654	DLC layer
+T21	EnergyFlow 675 702	first and second side poles
+T22	Component 738 768	first and second pole supports
+T23	Component 793 832	First and second pole extension members
+T24	Component 853 890	first and second pole support members
+T25	Location 913 936	non-magnetic gap region
+T26	Component 964 1003	first and second pole extension members
+T27	Component 1007 1023	second DLC layer
+T28	Location 1061 1084	non-magnetic gap region
+T29	Component 1093 1132	first and second pole extension members
+T30	Component 1138 1154	second DLC layer
+T31	EnergyFlow 1183 1220	first and second side pole extensions
+T32	Location 1229 1239	gap region
+T33	Location 1261 1271	gap region
+T34	Attribution 1294 1299	plane
+T35	Component 1307 1344	first and second pole support members
+T36	Consequence 1367 1386	undesired head wear
+T39	Function 124 158	semiconductor thin film techniques
+T4	Attribution 1043 1053	same plane
+R1	PartOf Arg1:T1 Arg2:T2
+R4	Spatial Arg1:T2 Arg2:T3
+R5	Oper Arg1:T39 Arg2:T2
+R6	PartOf Arg1:T5 Arg2:T6
+R7	Spatial Arg1:T6 Arg2:T7
+R9	PartOf Arg1:T10 Arg2:T9
+R8	PartOf Arg1:T5 Arg2:T8
+R10	Manner Arg1:T9 Arg2:T8
+R11	Spatial Arg1:T11 Arg2:T12
+R12	PartOf Arg1:T14 Arg2:T13
+R13	Spatial Arg1:T17 Arg2:T18
+R14	Spatial Arg1:T30 Arg2:T31
+R15	Spatial Arg1:T33 Arg2:T34
+R16	PartOf Arg1:T35 Arg2:T34
+R17	Spatial Arg1:T13 Arg2:T11
+R18	Manner Arg1:T15 Arg2:T11
+R19	PartOf Arg1:T16 Arg2:T15
+R23	Spatial Arg1:T23 Arg2:T24
+R24	Spatial Arg1:T25 Arg2:T26
+R25	PartOf Arg1:T4 Arg2:T27
+R26	Form Arg1:T27 Arg2:T28
+R27	Form Arg1:T27 Arg2:T29
+R28	Spatial Arg1:T30 Arg2:T32
+R29	Causitive Arg1:T33 Arg2:T36
+R2	PartOf Arg1:T20 Arg2:T19
+R3	Purpose Arg1:T19 Arg2:T21
+R20	Purpose Arg1:T19 Arg2:T22
+#1	AnnotatorNotes R26	as 作为xx使用，使用form更适合
+#2	AnnotatorNotes R27	form更适合

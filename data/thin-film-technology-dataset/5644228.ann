@@ -1,0 +1,47 @@
+T1	System 2 19	magnetic assembly
+T2	System 80 97	magnetic assembly
+T3	Component 109 125	permanent magnet
+T9	Component 581 601	electrical conductor
+T10	EnergyFlow 684 698	direct current
+T11	Component 721 741	electrical conductor
+T13	Component 785 795	MR element
+T14	EnergyFlow 823 833	bias field
+T15	Effect 24 33	detection
+T16	Effect 38 52	authentication
+T17	EnergyFlow 56 74	magnetic documents
+T18	Component 127 129	PM
+T4	Component 132 196	first and second magnetically soft high permeability pole pieces
+T5	Component 267 283	permanent magnet
+T19	Component 289 291	PM
+T20	Shape 308 317	first gap
+T6	Component 330 358	first and second pole pieces
+T21	Component 362 399	magnetoresistive (MR) sensing element
+T22	Location 426 432	center
+T23	Shape 438 448	second gap
+T7	Component 462 490	first and second pole pieces
+T8	Component 496 529	second gap and MR sensing element
+T24	EnergyFlow 546 563	magnetic document
+T25	Component 621 639	MR sensing element
+T12	EnergyFlow 754 777	compensating bias field
+T26	Component 851 853	PM
+T27	EnergyFlow 214 257	tapered, variable gap size magnetic circuit
+R1	Purpose Arg1:T1 Arg2:T15
+R2	Purpose Arg1:T1 Arg2:T16
+R3	Oper Arg1:T16 Arg2:T17
+R4	PartOf Arg1:T2 Arg2:T3
+R5	Alias Arg1:T3 Arg2:T18
+R6	PartOf Arg1:T2 Arg2:T4
+R7	Form Arg1:T4 Arg2:T27
+R8	PartOf Arg1:T27 Arg2:T5
+R9	Spatial Arg1:T19 Arg2:T20
+R10	Spatial Arg1:T20 Arg2:T6
+R11	Spatial Arg1:T21 Arg2:T22
+R12	Attr Arg1:T23 Arg2:T22
+R13	Spatial Arg1:T23 Arg2:T7
+R14	Spatial Arg1:T8 Arg2:T24
+R15	Spatial Arg1:T9 Arg2:T25
+R16	Causitive Arg1:T10 Arg2:T11
+R17	Causitive Arg1:T11 Arg2:T12
+R18	Generate Arg1:T13 Arg2:T12
+R19	Generate Arg1:T26 Arg2:T14
+R20	Causitive Arg1:T12 Arg2:T14

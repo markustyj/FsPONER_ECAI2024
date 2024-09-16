@@ -1,0 +1,32 @@
+T1	Component 3 33	inverted magnetoresistive head
+T2	Component 52 82	inverted magnetoresistive head
+T3	Component 136 142	writer
+T6	Location 115 118	top
+T7	Component 94 100	reader
+T8	Component 124 130	writer
+T9	Component 169 186	polymer insulator
+T4	Shape 190 199	write gap
+T10	Component 203 211	pole tip
+T5	Shape 267 283	first reader gap
+T11	Component 287 310	magnetoresistive elemen
+T12	Shape 336 353	second reader gap
+T13	EnergyFlow 154 165	bottom pole
+T14	EnergyFlow 218 226	top pole
+T15	Component 232 238	reader
+T16	Component 250 263	bottom shield
+T17	EnergyFlow 313 332	electrical contacts
+T18	Component 360 365	shiel
+R1	PartOf Arg1:T2 Arg2:T7
+R2	Attr Arg1:T8 Arg2:T6
+R4	PartOf Arg1:T3 Arg2:T13
+R5	PartOf Arg1:T3 Arg2:T9
+R6	PartOf Arg1:T3 Arg2:T4
+R7	PartOf Arg1:T3 Arg2:T10
+R8	PartOf Arg1:T3 Arg2:T14
+R9	PartOf Arg1:T15 Arg2:T16
+R10	PartOf Arg1:T15 Arg2:T5
+R11	PartOf Arg1:T15 Arg2:T11
+R12	PartOf Arg1:T15 Arg2:T17
+R13	PartOf Arg1:T15 Arg2:T12
+R14	PartOf Arg1:T15 Arg2:T18
+R15	Spatial Arg1:T7 Arg2:T6

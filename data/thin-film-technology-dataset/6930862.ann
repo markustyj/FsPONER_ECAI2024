@@ -1,0 +1,24 @@
+T1	Component 3 54	extraordinary magnetoresistance (EMR) magnetic head
+T2	Component 79 91	first shield
+T3	Component 98 111	second shield
+T4	Shape 123 126	gap
+T5	Component 163 186	magnetic recording disk
+T6	Component 191 201	EMR sensor
+T7	Component 228 240	first shield
+T8	Component 249 262	second shield
+T9	Function 283 299	proper operation
+T10	Component 307 317	EMR sensor
+T11	Attribution 321 326	plane
+T12	Component 340 350	EMR sensor
+T13	EnergyFlow 385 398	magnetic flux
+T14	Component 419 442	magnetic recording disk
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T6 Arg2:T7
+R4	Spatial Arg1:T6 Arg2:T8
+R5	Oper Arg1:T9 Arg2:T10
+R6	Spatial Arg1:T4 Arg2:T5
+R8	Causitive Arg1:T3 Arg2:T4
+R7	Spatial Arg1:T11 Arg2:T13
+R9	Spatial Arg1:T11 Arg2:T12
+R10	Others Arg1:T13 Arg2:T14

@@ -1,0 +1,42 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 39 58	lower magnetic core
+T3	Component 63 82	upper magnetic core
+T4	Component 90 111	thin film copper coil
+T5	EnergyFlow 126 140	magnetic poles
+T6	Component 148 178	lower and upper magnetic cores
+T8	EnergyFlow 238 257	specific resistance
+T9	Component 265 279	thin film coil
+T10	Component 293 316	insulating resin layers
+T11	Component 329 354	thin film coil conductors
+T12	Component 371 382	coil layers
+T13	Effect 424 442	higher frequencies
+T14	Attribution 448 474	average crystal grain size
+T15	Component 482 503	thin film copper coil
+T16	Value 532 541	0.5 .mu.m
+T17	Attribution 564 590	average crystal grain size
+T18	Value 615 624	0.2 .mu.m
+T19	Component 633 656	thin film magnetic head
+T20	Attribution 662 679	surface roughness
+T21	Component 687 708	thin film copper coil
+T22	Value 741 746	15 nm
+T7	ScientificConcept 184 197	time constant
+T23	InfoFlow 409 420	information
+R1	Attr Arg1:T15 Arg2:T14
+R2	Measurement Arg1:T14 Arg2:T16
+R3	Measurement Arg1:T17 Arg2:T18
+R4	Attr Arg1:T21 Arg2:T20
+R5	Measurement Arg1:T20 Arg2:T22
+R6	PartOf Arg1:T19 Arg2:T21
+R7	PartOf Arg1:T1 Arg2:T2
+R8	PartOf Arg1:T1 Arg2:T3
+R9	PartOf Arg1:T1 Arg2:T4
+R10	PartOf Arg1:T6 Arg2:T5
+R11	Spatial Arg1:T4 Arg2:T5
+R12	Attr Arg1:T9 Arg2:T8
+R13	Manner Arg1:T13 Arg2:T23
+R14	Attr Arg1:T1 Arg2:T7
+R15	Spatial Arg1:T11 Arg2:T10
+R16	Spatial Arg1:T12 Arg2:T10
+R17	Purpose Arg1:T8 Arg2:T7
+R18	Purpose Arg1:T10 Arg2:T7
+R19	Purpose Arg1:T7 Arg2:T23

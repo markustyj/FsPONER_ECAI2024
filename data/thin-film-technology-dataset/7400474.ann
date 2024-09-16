@@ -1,0 +1,45 @@
+T1	Component 3 21	magnetic tape head
+T2	System 32 37	array
+T3	Component 41 60	reader/writer pairs
+T4	Component 73 89	common substrate
+T5	Component 96 114	reader/writer pair
+T6	System 137 160	piggyback configuration
+T7	Component 175 192	writer and reader
+T9	Location 223 232	direction
+T10	Location 247 265	relative direction
+T12	Component 298 304	reader
+T13	Component 317 329	first shield
+T14	Component 333 346	second shield
+T15	Component 350 356	sensor
+T16	Component 380 387	shields
+T17	Component 393 398	leads
+T18	Component 414 420	sensor
+T19	Component 427 433	writer
+T20	EnergyFlow 446 456	first pole
+T21	EnergyFlow 463 474	second pole
+T22	EnergyFlow 478 498	charge clamp circuit
+T23	Component 540 554	reader shields
+T24	Component 578 583	leads
+T26	Component 666 673	shields
+T27	EnergyFlow 697 702	poles
+T8	Component 588 608	electrical conductor
+T11	Function 269 281	media travel
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Manner Arg1:T9 Arg2:T7
+R5	Manner Arg1:T10 Arg2:T11
+R6	PartOf Arg1:T6 Arg2:T5
+R7	PartOf Arg1:T12 Arg2:T13
+R8	PartOf Arg1:T12 Arg2:T14
+R9	PartOf Arg1:T12 Arg2:T15
+R10	Spatial Arg1:T15 Arg2:T16
+R11	PartOf Arg1:T12 Arg2:T17
+R12	Causitive Arg1:T17 Arg2:T18
+R13	PartOf Arg1:T19 Arg2:T20
+R14	PartOf Arg1:T19 Arg2:T21
+R15	Causitive Arg1:T22 Arg2:T23
+R16	Causitive Arg1:T22 Arg2:T24
+R17	Causitive Arg1:T8 Arg2:T26
+R18	Causitive Arg1:T8 Arg2:T27
+R19	Spatial Arg1:T9 Arg2:T10

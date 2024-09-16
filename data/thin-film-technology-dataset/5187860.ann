@@ -1,0 +1,23 @@
+T1	Component 26 49	thin film magnetic head
+T2	Component 144 148	core
+T3	Component 164 178	laminated body
+T4	Shape 226 230	gap,
+T5	Component 286 296	upper core
+T6	Component 301 316	protective film
+T7	Component 231 253	first insulation layer
+T8	Component 255 259	coil
+T9	Component 261 284	second insulation layer
+T10	Component 322 331	substrate
+T11	Component 214 224	lower core
+T12	Attribution 65 99	favorable magnetic characteristics
+T13	Function 116 122	strain
+R1	Causitive Arg1:T1 Arg2:T13
+R2	Causitive Arg1:T1 Arg2:T12
+R3	PartOf Arg1:T2 Arg2:T13
+R5	Spatial Arg1:T6 Arg2:T10
+R6	Spatial Arg1:T11 Arg2:T10
+R7	Spatial Arg1:T4 Arg2:T10
+R8	Spatial Arg1:T7 Arg2:T10
+R9	Spatial Arg1:T8 Arg2:T10
+R10	Spatial Arg1:T9 Arg2:T10
+R11	Spatial Arg1:T5 Arg2:T10

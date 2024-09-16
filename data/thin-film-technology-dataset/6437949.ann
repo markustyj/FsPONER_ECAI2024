@@ -1,0 +1,44 @@
+T1	System 2 21	thin film structure
+T2	Component 44 50	shield
+T3	Component 57 69	read element
+T4	Component 75 91	transducing head
+T5	Component 98 123	first ferromagnetic layer
+T6	Component 127 153	second ferromagnetic layer
+T7	Component 157 169	spacer layer
+T8	Component 176 186	bias layer
+T9	Component 192 204	spacer layer
+T10	Component 231 256	first ferromagnetic layer
+T11	Component 265 291	second ferromagnetic layer
+T12	Component 297 307	bias layer
+T13	Component 335 360	first ferromagnetic layer
+T14	Attribution 377 386	thickness
+T15	Component 394 419	first ferromagnetic layer
+T16	EnergyFlow 426 441	magnetic moment
+T17	Component 449 474	first ferromagnetic layer
+T18	Attribution 516 525	thickness
+T19	Component 533 559	second ferromagnetic layer
+T20	EnergyFlow 566 581	magnetic moment
+T21	Component 589 615	second ferromagnetic layer
+T22	Component 620 629	easy axis
+T23	Component 637 662	first ferromagnetic layer
+T24	Component 695 704	easy axis
+T25	Component 712 738	second ferromagnetic layer
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	PartOf Arg1:T1 Arg2:T6
+R5	PartOf Arg1:T1 Arg2:T7
+R6	PartOf Arg1:T1 Arg2:T8
+R7	PartOf Arg1:T3 Arg2:T2
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T9 Arg2:T11
+R10	Spatial Arg1:T12 Arg2:T13
+R11	Attr Arg1:T15 Arg2:T14
+R12	Attr Arg1:T17 Arg2:T16
+R13	Attr Arg1:T19 Arg2:T18
+R14	Attr Arg1:T21 Arg2:T20
+R15	Attr Arg1:T23 Arg2:T22
+R16	Attr Arg1:T25 Arg2:T24
+R17	Comparison Arg1:T14 Arg2:T18
+R18	Comparison Arg1:T16 Arg2:T20
+R19	Spatial Arg1:T22 Arg2:T24

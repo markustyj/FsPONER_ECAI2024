@@ -1,0 +1,20 @@
+T1	Component 2 25	thin film magnetic head
+T3	Component 68 85	insulating layers
+T4	Component 116 131	conductor coils
+T5	Component 138 156	magnetic gap layer
+T6	Component 214 230	insulating layer
+T2	Component 36 51	conductor coils
+T7	Component 165 195	upper and lower magnetic cores
+T8	Location 248 262	stepped region
+T9	Attribution 273 282	end faces
+T10	Component 303 320	insulating layers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T6 Arg2:T8
+R4	Form Arg1:T9 Arg2:T8
+R5	Attr Arg1:T10 Arg2:T9
+R6	Purpose Arg1:T3 Arg2:T4
+R7	Spatial Arg1:T4 Arg2:T5
+R8	Purpose Arg1:T3 Arg2:T5
+R9	Spatial Arg1:T4 Arg2:T7
+R10	Spatial Arg1:T5 Arg2:T7

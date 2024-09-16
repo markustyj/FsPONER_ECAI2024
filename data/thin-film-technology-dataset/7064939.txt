@@ -1,0 +1,1 @@
+ A magnetoresistive (MR) read head is disclosed including an MR sensor having a free layer and a pinned layer. A multi-layer hard bias layer stabilizes the free layer of the MR sensor. A product of the moment (Ms) and the thickness (t) of a lower layer of the hard bias layer is greater than a product of the moment (Ms) and the thickness (t) of the free layer of the MR sensor.

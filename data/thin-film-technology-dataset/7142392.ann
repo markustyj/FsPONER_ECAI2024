@@ -1,0 +1,35 @@
+T1	Component 3 17	thin film head
+T2	Location 25 37	reading part
+T3	Location 42 56	recording part
+T4	Component 67 102	upper magnetic pole front end layer
+T5	EnergyFlow 109 128	lower magnetic pole
+T6	Component 138 163	lower magnetic main layer
+T7	Location 167 204	lower magnetic pole front end portion
+T8	Component 212 237	lower magnetic main layer
+T9	Location 245 268	projection step portion
+T10	Location 276 313	lower magnetic pole front end portion
+T11	Component 319 354	upper magnetic pole front end layer
+T12	Location 361 393	magnetic pole expansion position
+T13	Attribution 400 406	length
+T14	Component 415 434	air bearing surface
+T15	Location 442 474	magnetic pole expansion position
+T16	Measure 490 496	length
+T17	Component 506 525	air bearing surface
+T18	Location 529 547	gap depth position
+T19	Location 555 592	lower magnetic pole front end portion
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T5 Arg2:T6
+R4	PartOf Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T3 Arg2:T5
+R6	PartOf Arg1:T5 Arg2:T7
+R7	PartOf Arg1:T5 Arg2:T9
+R8	Spatial Arg1:T7 Arg2:T8
+R9	Spatial Arg1:T9 Arg2:T10
+R10	PartOf Arg1:T11 Arg2:T12
+R11	Comparison Arg1:T13 Arg2:T16
+R12	Manner Arg1:T14 Arg2:T13
+R13	Manner Arg1:T15 Arg2:T13
+R14	Attr Arg1:T17 Arg2:T16
+R15	Attr Arg1:T18 Arg2:T16
+R16	PartOf Arg1:T19 Arg2:T18

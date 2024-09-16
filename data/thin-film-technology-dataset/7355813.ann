@@ -1,0 +1,73 @@
+T1	Component 4 11	article
+T2	Component 27 36	substrate
+T3	Component 109 132	magnetic recording head
+T4	Component 154 164	write pole
+T5	Attribution 187 192	width
+T6	ScientificConcept 198 216	thinnest dimension
+T7	Attribution 240 257	substrate surface
+T8	Value 280 295	0.3 micrometers
+T9	Attribution 302 308	height
+T10	Component 339 348	substrate
+T12	Attribution 384 389	width
+T13	System 431 450	overlying structure
+T14	Component 458 467	substrate
+T15	Attribution 476 480	edge
+T16	Component 503 520	replication layer
+T17	Attribution 534 538	edge
+T18	Attribution 569 573	edge
+T19	Component 582 591	substrate
+T20	Component 617 634	replication layer
+T21	System 644 663	overlying structure
+T22	Component 690 706	continuous layer
+T23	Component 714 723	substrate
+T24	Component 772 789	replication layer
+T25	Attribution 797 809	free surface
+T26	Component 817 833	continuous layer
+T27	Component 854 863	substrate
+T28	Shape 875 889	defined cavity
+T29	Material 908 927	projection material
+T30	Shape 937 951	defined cavity
+T31	Component 92 99	article
+T32	Component 46 56	projection
+T33	Component 170 180	projection
+T11	Value 372 379	5 times
+T34	Component 141 151	projection
+T35	Component 395 402	article
+T36	Component 553 559	filler
+T37	Component 605 611	filler
+T38	Component 964 974	projection
+R1	PartOf Arg1:T2 Arg2:T32
+R2	InstanceOf Arg1:T1 Arg2:T2
+R4	Attr Arg1:T33 Arg2:T5
+R6	Measurement Arg1:T5 Arg2:T8
+R7	Measurement Arg1:T9 Arg2:T11
+R8	Comparison Arg1:T9 Arg2:T12
+R9	Spatial Arg1:T5 Arg2:T7
+R10	Spatial Arg1:T9 Arg2:T10
+R5	PartOf Arg1:T6 Arg2:T5
+R11	Spatial Arg1:T13 Arg2:T14
+R12	Causitive Arg1:T35 Arg2:T13
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T36 Arg2:T18
+R15	Spatial Arg1:T36 Arg2:T19
+R16	Attr Arg1:T26 Arg2:T25
+R18	Causitive Arg1:T35 Arg2:T16
+R17	Attr Arg1:T14 Arg2:T15
+R19	Causitive Arg1:T35 Arg2:T36
+R20	PartOf Arg1:T37 Arg2:T22
+R21	PartOf Arg1:T20 Arg2:T22
+R22	PartOf Arg1:T21 Arg2:T22
+R23	Spatial Arg1:T22 Arg2:T23
+R24	Causitive Arg1:T24 Arg2:T25
+R25	Spatial Arg1:T29 Arg2:T30
+R26	Purpose Arg1:T29 Arg2:T38
+R27	Spatial Arg1:T26 Arg2:T27
+R28	Purpose Arg1:T24 Arg2:T28
+R29	Causitive Arg1:T35 Arg2:T24
+R30	Causitive Arg1:T35 Arg2:T29
+#1	AnnotatorNotes R2	form关系妥当
+R3	InstanceOf Arg1:T3 Arg2:T31
+#2	AnnotatorNotes R5	在最薄维度上的宽度，描述的是在某个方向上的宽度、厚度，显然两者关系是manner关系
+#3	AnnotatorNotes R9	沿着平行于底座表面的方向去度量宽度，应该是manner
+#4	AnnotatorNotes R10	manner，以某种方式去度量（垂直于底座）
+#5	AnnotatorNotes R12	通过对A做某事来制造B，那么A和B之间是否有使动被动关系？我个人认为没有关系。这块作为遗留问题，供大家讨论

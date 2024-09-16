@@ -1,0 +1,47 @@
+T1	Component 2 23	magnetoresistive head
+T2	Component 35 59	magnetoresistive element
+T3	Attribution 78 92	front end face
+T4	Component 100 104	head
+T5	Material 119 132	record medium
+T6	EnergyFlow 161 182	signal magnetic field
+T7	Component 204 216	record track
+T8	Material 224 237	record medium
+T9	EnergyFlow 254 264	resistance
+T10	Component 270 294	magnetoresistive element
+T11	Location 321 330	terminals
+T12	Location 337 349	sense region
+T13	Location 378 387	terminals
+T14	Component 393 417	magnetoresistive element
+T15	Component 447 463	front flux guide
+T16	Location 469 472	end
+T17	Attribution 500 514	front end face
+T18	Component 522 526	head
+T20	Location 541 544	end
+T21	Component 562 578	front flux guide
+T23	Location 636 645	direction
+T24	Attribution 653 658	width
+T25	Component 666 678	record track
+T26	Material 686 699	record medium
+T27	Location 720 732	sense region
+T28	Component 740 764	magnetoresistive element
+T19	Shape 609 618	rectangle
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T4 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T8 Arg2:T7
+R5	Manner Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T10 Arg2:T11
+R7	Spatial Arg1:T12 Arg2:T13
+R8	Attr Arg1:T18 Arg2:T17
+R9	Causitive Arg1:T14 Arg2:T15
+R10	PartOf Arg1:T17 Arg2:T16
+R11	Attr Arg1:T25 Arg2:T24
+R12	PartOf Arg1:T28 Arg2:T27
+R13	Attr Arg1:T21 Arg2:T19
+R14	Manner Arg1:T23 Arg2:T19
+R15	Attr Arg1:T24 Arg2:T23
+R16	PartOf Arg1:T26 Arg2:T25
+R17	Purpose Arg1:T21 Arg2:T27
+R18	Spatial Arg1:T2 Arg2:T3
+R19	Attr Arg1:T15 Arg2:T16
+R20	Attr Arg1:T15 Arg2:T20

@@ -1,0 +1,45 @@
+T1	Component 2 52	dual spin valve (DSV) magnetoresistive (MR) sensor
+T2	Component 59 78	free magnetic layer
+T3	Component 96 135	first and second pinned magnetic layers
+T4	Component 141 159	first pinned layer
+T5	Component 168 186	magnetic sublayers
+T6	Component 219 238	antiparallel spacer
+T7	Component 244 267	first magnetic sublayer
+T8	Component 282 292	free layer
+T9	EnergyFlow 299 314	magnetic moment
+T10	EnergyFlow 341 356	magnetic moment
+T11	Component 364 388	second magnetic sublayer
+T12	EnergyFlow 394 404	net moment
+T13	Component 412 430	magnetic sublayers
+T14	EnergyFlow 460 475	magnetic moment
+T15	Component 483 502	second pinned layer
+T16	EnergyFlow 519 531	flux closure
+T17	ScientificConcept 565 571	effect
+T18	EnergyFlow 579 599	demagnetizing forces
+T19	EnergyFlow 615 627	flux closure
+T20	EnergyFlow 632 663	current induced magnetic fields
+T21	Component 669 699	first and second pinned layers
+T22	Component 751 787	conventional dual spin valve sensors
+T23	Component 798 822	antiferromagnetic layers
+T24	Function 834 847	magnetization
+T25	Component 855 868	pinned layers
+T26	Function 701 714	magnetization
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	Manner Arg1:T6 Arg2:T5
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Attr Arg1:T7 Arg2:T9
+R7	Attr Arg1:T11 Arg2:T10
+R8	Comparison Arg1:T9 Arg2:T10
+R9	Attr Arg1:T13 Arg2:T12
+R10	Attr Arg1:T15 Arg2:T14
+R11	Comparison Arg1:T12 Arg2:T14
+R12	Causitive Arg1:T12 Arg2:T16
+R13	Generate Arg1:T18 Arg2:T17
+R14	Oper Arg1:T26 Arg2:T21
+R15	Manner Arg1:T19 Arg2:T21
+R16	Manner Arg1:T20 Arg2:T21
+R17	Oper Arg1:T24 Arg2:T25
+R18	Causitive Arg1:T23 Arg2:T22
+R19	Purpose Arg1:T23 Arg2:T24

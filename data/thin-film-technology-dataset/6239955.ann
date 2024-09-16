@@ -1,0 +1,56 @@
+T1	Component 19 28	MR sensor
+T2	Component 35 45	flux guide
+T3	Shape 62 94	contiguous self-aligned junction
+T4	Component 132 142	flux guide
+T5	Component 166 175	MR sensor
+T6	Effect 207 226	signal flux density
+T8	Component 283 292	MR sensor
+T9	Component 353 363	flux guide
+T13	Component 443 452	MR sensor
+T16	Component 554 564	flux guide
+T17	Component 584 609	insulation material layer
+T18	Component 647 672	insulation material layer
+T19	Component 699 708	MR sensor
+T20	Component 717 742	flux guide material layer
+T22	Component 826 836	heat guide
+T26	Location 4 12	back end
+T27	Effect 105 124	predictable overlap
+T28	Location 150 158	back end
+T29	Component 245 274	Lead/longitudinal bias layers
+T7	Shape 314 345	contiguous selfaligned junction
+T30	Component 384 394	flux guide
+T10	Component 411 438	single lift off resist mask
+T11	Component 461 490	lead/longitudinal bias layers
+T12	Function 520 530	deposition
+T14	Component 538 548	flux guide
+T15	Component 570 577	bilayer
+T31	Component 616 641	flux guide material layer
+T32	Component 759 788	lead/longitudinal bias layers
+T21	Component 797 822	flux guide material layer
+T33	Component 840 874	combined flux guide and heat guide
+T23	Component 902 927	aforementioned flux guide
+R1	PartOf Arg1:T1 Arg2:T26
+R2	PartOf Arg1:T2 Arg2:T26
+R5	PartOf Arg1:T5 Arg2:T28
+R6	Spatial Arg1:T4 Arg2:T28
+R7	Purpose Arg1:T3 Arg2:T27
+R8	PartOf Arg1:T4 Arg2:T27
+R10	PartOf Arg1:T8 Arg2:T29
+R12	Spatial Arg1:T7 Arg2:T9
+R11	Spatial Arg1:T29 Arg2:T7
+R13	Causitive Arg1:T13 Arg2:T10
+R14	Causitive Arg1:T11 Arg2:T10
+R15	Oper Arg1:T12 Arg2:T14
+R18	InstanceOf Arg1:T16 Arg2:T15
+R21	Causitive Arg1:T22 Arg2:T23
+R22	Causitive Arg1:T33 Arg2:T23
+R9	Purpose Arg1:T27 Arg2:T6
+R23	Purpose Arg1:T29 Arg2:T30
+R19	Spatial Arg1:T18 Arg2:T19
+R24	Spatial Arg1:T18 Arg2:T20
+R25	Spatial Arg1:T18 Arg2:T32
+R20	Spatial Arg1:T18 Arg2:T21
+R3	Spatial Arg1:T1 Arg2:T3
+R4	Spatial Arg1:T2 Arg2:T3
+R16	PartOf Arg1:T15 Arg2:T17
+R17	PartOf Arg1:T15 Arg2:T31

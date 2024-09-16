@@ -1,0 +1,50 @@
+T1	Component 6 19	CPP MR device
+T2	Component 30 66	tunnel magnetoresistive (TMR) device
+T3	EnergyFlow 90 105	magnetic moment
+T5	Component 153 163	free layer
+T6	Component 183 193	free layer
+T7	Component 202 211	S2 shield
+T8	EnergyFlow 226 241	electrical path
+T9	Component 273 279	shield
+T10	Component 341 354	CPP MR device
+T12	System 383 395	pinned stack
+T13	System 403 413	seed stack
+T14	Component 421 435	tunnel barrier
+T15	System 443 455	pinned stack
+T16	System 459 469	free stack
+T17	Component 484 498	tunnel barrier
+T18	System 508 518	free stack
+T19	Component 533 546	free sublayer
+T20	Component 564 579	magnetic shield
+T23	System 627 637	free stack
+T24	Component 650 665	magnetic shield
+T4	EnergyFlow 129 145	magnetic moments
+T25	System 369 379	seed stack
+T11	Location 68 77	shoulders
+T21	Location 251 259	shoulder
+T22	Location 294 302	shoulder
+T26	Consequence 319 331	edge charges
+T27	EnergyFlow 586 590	path
+T28	Consequence 607 619	edge charges
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T11 Arg2:T3
+R3	Spatial Arg1:T6 Arg2:T7
+R4	PartOf Arg1:T10 Arg2:T25
+R5	PartOf Arg1:T10 Arg2:T12
+R6	PartOf Arg1:T10 Arg2:T14
+R7	Spatial Arg1:T12 Arg2:T13
+R8	Spatial Arg1:T14 Arg2:T15
+R9	PartOf Arg1:T18 Arg2:T19
+R10	PartOf Arg1:T18 Arg2:T27
+R11	Spatial Arg1:T19 Arg2:T20
+R12	Spatial Arg1:T16 Arg2:T17
+R13	Purpose Arg1:T27 Arg2:T28
+R14	Spatial Arg1:T28 Arg2:T23
+R15	Manner Arg1:T24 Arg2:T27
+R16	Attr Arg1:T5 Arg2:T4
+R18	Spatial Arg1:T21 Arg2:T9
+R20	Spatial Arg1:T9 Arg2:T22
+R17	Comparison Arg1:T3 Arg2:T4
+R21	Purpose Arg1:T11 Arg2:T8
+R19	Purpose Arg1:T8 Arg2:T26
+R22	Manner Arg1:T21 Arg2:T8

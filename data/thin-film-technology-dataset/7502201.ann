@@ -1,0 +1,17 @@
+T1	Material 5 34	magnetic head slider material
+T2	Material 65 94	magnetic head slider material
+T3	System 105 118	sintered body
+T5	Material 161 167	carbon
+T6	Component 179 209	titanium carbide crystal grain
+T7	Attribution 217 243	average crystal grain size
+T8	Component 268 289	alumina crystal grain
+T9	System 297 310	sintered body
+T4	Material 130 137	alumina
+T10	Material 139 155	titanium carbide
+R1	MadeOf Arg1:T2 Arg2:T3
+R2	MadeOf Arg1:T3 Arg2:T4
+R3	MadeOf Arg1:T3 Arg2:T10
+R4	MadeOf Arg1:T3 Arg2:T5
+R5	Attr Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T9 Arg2:T8
+R7	Comparison Arg1:T6 Arg2:T8

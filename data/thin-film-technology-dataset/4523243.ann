@@ -1,0 +1,42 @@
+T1	Component 3 39	improved magnetoresistive transducer
+T2	EnergyFlow 56 71	magnetic fields
+T3	Material 86 101	magnetic medium
+T4	Function 119 130	fabrication
+T5	Function 137 165	photolithographic techniques
+T6	Component 171 181	transducer
+T7	Component 190 219	separate metallization layers
+T8	Component 232 246	bias conductor
+T9	Component 277 307	magnetoresistive sense element
+T10	Function 320 341	electrical connection
+T11	EnergyFlow 380 394	sense currents
+T12	EnergyFlow 399 412	bias currents
+T13	EnergyFlow 465 482	same bias current
+T14	Component 507 542	magnetoresistive transducer element
+T15	Location 549 554	array
+T16	Component 560 574	bias conductor
+T17	Attribution 596 600	edge
+T18	Component 608 643	magnetoresistive transducer element
+T19	Material 668 683	magnetic medium
+T20	ScientificConcept 707 717	advantages
+T21	Consequence 770 783	short circuit
+T22	Component 796 810	bias conductor
+T23	Component 819 837	transducer element
+T24	Consequence 859 867	exposure
+T25	Component 875 889	bias conductor
+T26	Function 729 733	wear
+T27	ScientificConcept 893 914	environmental hazards
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Causitive Arg1:T1 Arg2:T5
+R4	Purpose Arg1:T1 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T15 Arg2:T14
+R8	Causitive Arg1:T13 Arg2:T14
+R9	Attr Arg1:T18 Arg2:T17
+R10	Spatial Arg1:T18 Arg2:T19
+R11	Manner Arg1:T17 Arg2:T16
+R12	Spatial Arg1:T22 Arg2:T23
+R13	Purpose Arg1:T25 Arg2:T24
+R14	Attr Arg1:T26 Arg2:T20
+R15	Spatial Arg1:T25 Arg2:T27

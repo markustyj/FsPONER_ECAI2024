@@ -1,0 +1,46 @@
+T1	Component 2 27	combination magnetic head
+T2	Location 39 59	reading head portion
+T3	Component 66 86	writing head portion
+T4	Component 113 122	substrate
+T5	Component 126 147	magnetic shield layer
+T6	Component 178 187	substrate
+T7	Location 198 214	recessed portion
+T8	Attribution 227 234	surface
+T9	Component 242 251	substrate
+T10	Component 259 278	air bearing surface
+T11	Component 282 298	shield gap layer
+T12	Component 306 342	magnetoresistive reproducing element
+T13	Component 377 398	magnetic shield layer
+T14	Component 402 422	first magnetic layer
+T15	Location 429 441	pole portion
+T16	Component 456 472	shield gap layer
+T17	Location 480 496	extended portion
+T18	Location 515 526	bottom wall
+T19	Location 534 550	recessed portion
+T20	Component 554 568	thin film coil
+T21	Location 599 615	extended portion
+T22	Location 646 662	recessed portion
+T23	Component 692 706	thin film coil
+T24	Component 724 733	substrate
+T25	Component 743 762	reproducing element
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Attr Arg1:T9 Arg2:T8
+R6	Spatial Arg1:T5 Arg2:T7
+R7	Spatial Arg1:T5 Arg2:T10
+R9	PartOf Arg1:T6 Arg2:T5
+R8	PartOf Arg1:T8 Arg2:T7
+R10	PartOf Arg1:T11 Arg2:T12
+R11	Spatial Arg1:T11 Arg2:T13
+R12	PartOf Arg1:T14 Arg2:T15
+R13	Spatial Arg1:T15 Arg2:T16
+R14	PartOf Arg1:T14 Arg2:T17
+R15	PartOf Arg1:T19 Arg2:T18
+R16	Manner Arg1:T18 Arg2:T17
+R17	Spatial Arg1:T20 Arg2:T22
+R18	PartOf Arg1:T21 Arg2:T20
+R19	Comparison Arg1:T23 Arg2:T25
+R20	Spatial Arg1:T23 Arg2:T24
+R21	Spatial Arg1:T24 Arg2:T25

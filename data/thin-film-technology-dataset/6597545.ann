@@ -1,0 +1,31 @@
+T1	Component 2 17	magnetic sensor
+T2	Component 29 60	magnetoresistive sensor element
+T3	Component 100 124	magnetoresistive element
+T5	Component 163 187	magnetoresistive element
+T6	EnergyFlow 211 226	magnetic shield
+T7	Component 254 278	magnetoresistive element
+T9	Component 308 332	magnetoresistive element
+T10	Component 365 371	shield
+T14	Attribution 473 478	plane
+T15	Component 486 492	shield
+T16	Component 519 525	shield
+T17	EnergyFlow 65 84	electrical contacts
+T4	EnergyFlow 193 207	magnetic field
+T8	EnergyFlow 338 359	stray magnetic fields
+T11	Shape 378 422	substantially stable magnetic domain pattern
+T12	Component 426 443	shield flux thief
+T13	Shape 531 534	gap
+T18	Function 147 155	response
+R1	PartOf Arg1:T10 Arg2:T11
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T17
+R4	Causitive Arg1:T17 Arg2:T3
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Purpose Arg1:T9 Arg2:T8
+R7	Causitive Arg1:T6 Arg2:T9
+R8	Attr Arg1:T15 Arg2:T14
+R9	Spatial Arg1:T12 Arg2:T14
+R10	PartOf Arg1:T16 Arg2:T13
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Oper Arg1:T18 Arg2:T5
+R13	Causitive Arg1:T5 Arg2:T4

@@ -1,0 +1,54 @@
+T1	Component 3 17	recording head
+T2	Component 29 53	magnetic storage devices
+T3	Component 72 86	recording head
+T4	Component 98 108	transducer
+T5	Attribution 160 183	magnetic medium surface
+T6	Material 191 214	magnetic storage medium
+T7	Effect 233 253	improved positioning
+T8	Component 261 271	transducer
+T9	Function 279 304	read and write operations
+T10	Component 312 322	transducer
+T11	Component 328 342	recording head
+T12	System 362 376	wafer assembly
+T13	Location 386 399	motor segment
+T14	Location 406 421	flexure segment
+T15	Location 452 467	flexure segment
+T16	Shape 479 485	cavity
+T18	Component 528 542	recording head
+T19	Component 562 573	slider body
+T20	System 592 606	wafer assembly
+T21	Shape 612 618	cavity
+T22	Component 638 643	motor
+T23	Location 659 672	motor segment
+T24	Function 710 718	movement
+T25	System 726 742	flexure assembly
+T26	Component 777 792	transducer body
+T28	Component 858 872	recording head
+T29	Function 903 917	head operation
+T30	Consequence 955 966	head damage
+T17	Component 504 514	transducer
+T27	Function 747 769	corresponding movement
+T31	Others 976 987	shock event
+T32	ScientificConcept 929 939	techniques
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	Attr Arg1:T6 Arg2:T5
+R5	Oper Arg1:T9 Arg2:T10
+R6	PartOf Arg1:T11 Arg2:T12
+R7	PartOf Arg1:T12 Arg2:T13
+R8	PartOf Arg1:T12 Arg2:T14
+R9	Spatial Arg1:T13 Arg2:T14
+R10	PartOf Arg1:T15 Arg2:T16
+R11	Spatial Arg1:T22 Arg2:T23
+R12	Oper Arg1:T24 Arg2:T25
+R13	Oper Arg1:T27 Arg2:T26
+R14	PartOf Arg1:T16 Arg2:T17
+R15	PartOf Arg1:T18 Arg2:T19
+R16	Spatial Arg1:T20 Arg2:T21
+R17	PartOf Arg1:T19 Arg2:T20
+R18	Purpose Arg1:T22 Arg2:T24
+R19	Purpose Arg1:T22 Arg2:T27
+R21	PartOf Arg1:T29 Arg2:T32
+R22	Purpose Arg1:T32 Arg2:T30
+R4	Purpose Arg1:T8 Arg2:T7
+R20	Purpose Arg1:T28 Arg2:T29

@@ -1,0 +1,34 @@
+T1	Component 2 17	magnetic sensor
+T3	Component 50 65	magnetic sample
+T4	Location 78 92	sensing region
+T5	Component 96 120	magnetoresistive element
+T6	Location 140 154	biasing region
+T7	Component 162 168	sensor
+T8	Location 200 214	sensing region
+T9	EnergyFlow 218 234	magnetic circuit
+T10	EnergyFlow 246 260	magnetic field
+T11	Location 268 282	sensing region
+T12	Location 291 305	biasing region
+T13	EnergyFlow 311 325	magnetic field
+T14	Component 337 361	magnetoresistive element
+T15	Location 380 394	biasing region
+T16	EnergyFlow 398 405	circuit
+T17	EnergyFlow 429 443	magnetic field
+T18	Location 451 465	biasing region
+T19	EnergyFlow 498 508	resistance
+T20	Component 516 540	magnetoresistive element
+T21	EnergyFlow 564 578	magnetic field
+T23	Component 607 622	magnetic sample
+T24	Location 637 651	sensing region
+R1	PartOf Arg1:T7 Arg2:T6
+R2	PartOf Arg1:T6 Arg2:T5
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Purpose Arg1:T1 Arg2:T3
+R5	Causitive Arg1:T9 Arg2:T10
+R6	Causitive Arg1:T10 Arg2:T11
+R7	Causitive Arg1:T10 Arg2:T12
+R8	Causitive Arg1:T13 Arg2:T14
+R9	PartOf Arg1:T15 Arg2:T14
+R10	Generate Arg1:T18 Arg2:T17
+R11	Attr Arg1:T20 Arg2:T19
+R12	Spatial Arg1:T23 Arg2:T24

@@ -1,0 +1,60 @@
+T1	System 2 24	pinned layer structure
+T4	Component 83 100	spin valve sensor
+T9	Component 269 296	antiparallel coupling layer
+T13	Component 386 399	pinning layer
+T2	Material 37 57	cobalt iron vanadium
+T3	Material 59 64	CoFeV
+T6	EnergyFlow 154 173	sense current field
+T7	Component 187 207	free layer structure
+T8	System 211 261	preferred antiparallel (AP) pinned layer structure
+T10	Component 305 338	first and second AP pinned layers
+T11	Component 351 372	first AP pinned layer
+T12	Component 408 430	second AP pinned layer
+T14	Component 444 463	copper spacer layer
+T15	Component 495 516	first AP pinned layer
+T16	Material 520 540	cobalt iron vanadium
+T17	Material 542 547	CoFeV
+T18	Component 557 579	second AP pinned layer
+T19	Component 590 612	first and second films
+T20	Component 625 635	first film
+T21	Material 639 659	cobalt iron vanadium
+T22	Material 661 666	CoFeV
+T23	Component 676 687	second film
+T24	Material 691 702	cobalt iron
+T25	Material 704 708	CoFe
+T26	Component 719 730	second film
+T27	Effect 740 766	higher cobalt (Co) content
+T28	Component 776 786	first film
+T29	Component 807 826	copper spacer layer
+T5	Function 114 136	sense current shunting
+R1	MadeOf Arg1:T1 Arg2:T2
+R2	Alias Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Purpose Arg1:T1 Arg2:T5
+R5	Generate Arg1:T6 Arg2:T7
+R6	Purpose Arg1:T1 Arg2:T6
+R7	PartOf Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T10 Arg2:T12
+R9	Spatial Arg1:T11 Arg2:T13
+R10	Spatial Arg1:T12 Arg2:T14
+R11	MadeOf Arg1:T15 Arg2:T16
+R12	Alias Arg1:T16 Arg2:T17
+R13	PartOf Arg1:T18 Arg2:T19
+R14	MadeOf Arg1:T20 Arg2:T21
+R15	Alias Arg1:T21 Arg2:T22
+R16	MadeOf Arg1:T23 Arg2:T24
+R17	Alias Arg1:T24 Arg2:T25
+R18	PartOf Arg1:T26 Arg2:T27
+R19	PartOf Arg1:T28 Arg2:T27
+R20	Comparison Arg1:T26 Arg2:T28
+R21	Spatial Arg1:T26 Arg2:T29
+#1	AnnotatorNotes R3	A在B中，用ownership
+#2	AnnotatorNotes R5	自由层结构产生的感应电流场，显然这是generate关系
+R22	Spatial Arg1:T9 Arg2:T10
+#3	AnnotatorNotes R22	A在B和C中间，其中ABC都是实物，那么可以在ABC之间标上spatial关系
+R23	PartOf Arg1:T10 Arg2:T11
+#4	AnnotatorNotes R8	通过wherein可知，A包含B，所以是ownership
+#5	AnnotatorNotes R23	wherein表明是ownership
+R24	PartOf Arg1:T19 Arg2:T20
+R25	PartOf Arg1:T19 Arg2:T23
+#6	AnnotatorNotes R25	wherein表明是ownership

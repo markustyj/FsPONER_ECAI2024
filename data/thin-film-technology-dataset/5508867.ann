@@ -1,0 +1,66 @@
+T1	Component 52 61	MR sensor
+T2	System 69 97	layered spin valve structure
+T4	Material 140 162	ferromagnetic material
+T9	Component 366 375	MR sensor
+T12	Material 501 523	ferromagnetic material
+T13	Component 542 559	thin spacer layer
+T19	Component 881 890	MR sensor
+T20	EnergyFlow 904 918	magnetic field
+T22	Component 1063 1072	MR sensor
+T23	Function 1110 1124	magnetizations
+T24	Component 1132 1155	first and second layers
+T25	EnergyFlow 1188 1202	magnetic field
+T26	Component 2 38	magnetoresistive (MR) sensing system
+T3	Component 108 136	thin first and second layers
+T5	Component 178 188	thin layer
+T27	Material 192 221	nonmagnetic metallic material
+T6	Location 227 250	magnetization direction
+T7	Component 259 269	irst layer
+T8	EnergyFlow 275 302	zero applied magnetic field
+T28	Attribution 336 358	longitudinal dimension
+T10	Location 415 456	fixed or "pinned" magnetization direction
+T29	Component 464 476	second layer
+T11	Component 480 496	thin keeper laye
+T30	System 569 597	layered spin valve structure
+T14	Component 604 616	keeper layer
+T15	Location 623 652	fixed magnetization direction
+T16	Component 688 700	second layer
+T31	Component 707 731	moment-thickness product
+T17	Component 767 779	second layer
+T32	EnergyFlow 799 818	magnetostatic field
+T33	Component 828 840	second layer
+T34	InfoFlow 924 928	sign
+T35	Measure 933 942	magnitude
+T21	Function 961 992	ferromagnetic exchange coupling
+T36	Component 1005 1028	first and second layers
+T37	Function 1094 1102	rotation
+T38	EnergyFlow 1044 1055	resistivity
+T39	Function 1030 1040	Variations
+T18	EnergyFlow 844 856	current flow
+R1	PartOf Arg1:T26 Arg2:T1
+R2	MadeOf Arg1:T5 Arg2:T27
+R3	MadeOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T2
+R5	PartOf Arg1:T2 Arg2:T3
+R6	Causitive Arg1:T5 Arg2:T3
+R7	Attr Arg1:T7 Arg2:T6
+R8	Attr Arg1:T9 Arg2:T28
+R9	Attr Arg1:T29 Arg2:T10
+R10	Spatial Arg1:T6 Arg2:T10
+R11	Spatial Arg1:T7 Arg2:T8
+R12	MadeOf Arg1:T11 Arg2:T12
+R13	Causitive Arg1:T13 Arg2:T11
+R14	Attr Arg1:T14 Arg2:T15
+R15	Attr Arg1:T16 Arg2:T15
+R16	Purpose Arg1:T31 Arg2:T32
+R17	Generate Arg1:T33 Arg2:T32
+R18	Causitive Arg1:T18 Arg2:T19
+R19	Purpose Arg1:T18 Arg2:T20
+R20	Attr Arg1:T34 Arg2:T20
+R21	Attr Arg1:T35 Arg2:T20
+R22	Causitive Arg1:T20 Arg2:T21
+R23	Oper Arg1:T21 Arg2:T36
+R24	Oper Arg1:T39 Arg2:T38
+R25	Attr Arg1:T22 Arg2:T38
+R26	Oper Arg1:T23 Arg2:T24
+R27	Spatial Arg1:T6 Arg2:T28

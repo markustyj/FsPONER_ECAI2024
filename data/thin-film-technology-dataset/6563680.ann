@@ -1,0 +1,33 @@
+T1	Component 2 19	spin valve sensor
+T2	Component 32 63	antiferromagnetic pinning layer
+T3	Component 118 137	single pinned layer
+T5	Component 192 240	nonmagnetic electrically conductive spacer layer
+T6	Component 285 304	single pinned layer
+T10	Component 516 528	spacer layer
+T11	Component 541 568	antiparallel coupling layer
+T4	System 145 185	antiparallel (AP) pinned layer structure
+T7	System 318 338	free layer structure
+T13	Component 365 392	antiparallel coupling layer
+T8	Component 430 452	second AP pinned layer
+T9	System 460 485	AP pinned layer structure
+T12	Component 577 599	second AP pinned layer
+T14	Component 660 677	spin valve sensor
+T15	EnergyFlow 619 652	magnetoresistive coefficient dr/R
+T17	Attribution 270 280	interfaces
+T18	Function 350 361	arrangement
+T16	Material 413 422	ruthenium
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	Spatial Arg1:T2 Arg2:T4
+R5	Spatial Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T9 Arg2:T8
+R7	MadeOf Arg1:T13 Arg2:T16
+R8	Oper Arg1:T18 Arg2:T13
+R9	Oper Arg1:T18 Arg2:T8
+R10	Attr Arg1:T14 Arg2:T15
+R11	Purpose Arg1:T12 Arg2:T15
+R12	Purpose Arg1:T11 Arg2:T15
+#1	AnnotatorNotes T10	远离间隔层 这个关系如何标引？Purpose是否合适
+R13	Purpose Arg1:T13 Arg2:T10
+R14	Purpose Arg1:T8 Arg2:T10

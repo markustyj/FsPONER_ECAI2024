@@ -1,0 +1,22 @@
+T2	Component 70 93	flux guide pole members
+T3	System 136 149	GMR structure
+T5	Component 171 186	multiple layers
+T7	Component 236 259	flux guide pole members
+T8	EnergyFlow 295 307	Bias current
+T9	System 422 436	GMR structures
+T1	Component 2 51	giant magnetoresistive (GMR) thin film transducer
+T11	Shape 108 132	magnetic transducing gap
+T4	Location 206 220	spaced portion
+T6	Shape 278 293	transducing gap
+T10	InfoFlow 482 502	larger output signal
+T12	Component 529 545	single GMR stack
+T13	Function 325 370	CPP (current perpendicular to the plane) mode
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T11
+R3	Form Arg1:T5 Arg2:T3
+R4	Spatial Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T7 Arg2:T4
+R6	Spatial Arg1:T3 Arg2:T6
+R7	Manner Arg1:T13 Arg2:T8
+R8	Purpose Arg1:T9 Arg2:T10
+R9	Comparison Arg1:T10 Arg2:T12

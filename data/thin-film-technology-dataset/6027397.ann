@@ -1,0 +1,59 @@
+T1	System 2 46	dual element electrical lapping guide system
+T3	Component 73 149	multi-layer dual element magnetoresistive and inductive magnetic transducers
+T4	Component 162 171	substrate
+T5	Component 200 207	sliders
+T6	Component 213 220	sliders
+T7	Component 266 289	multi-layer transducers
+T8	Attribution 307 311	edge
+T9	Component 319 328	substrate
+T10	Attribution 348 352	edge
+T11	System 358 391	dual element lapping guide system
+T12	Component 402 431	superposed resistive elements
+T13	Component 436 462	electrical switch elements
+T14	Shape 494 510	separation kerfs
+T15	Attribution 526 530	edge
+T16	Attribution 579 583	edge
+T18	ScientificConcept 625 628	row
+T19	Component 635 660	electrical switch element
+T21	Component 686 695	top layer
+T22	Location 713 716	end
+T24	Component 770 786	insulation layer
+T25	Location 824 837	connected end
+T26	Location 845 848	end
+T27	Attribution 869 873	edge
+T28	Component 881 904	multi-layer transducers
+T29	ScientificConcept 935 938	row
+T30	Location 946 959	connected end
+T31	Component 972 986	switch element
+T2	Shape 240 256	separation kerfs
+T17	ScientificConcept 591 594	row
+T32	ScientificConcept 66 69	row
+T23	Location 752 755	end
+R1	Spatial Arg1:T3 Arg2:T4
+R2	Form Arg1:T4 Arg2:T5
+R3	Causitive Arg1:T6 Arg2:T2
+R4	Spatial Arg1:T7 Arg2:T8
+R5	Attr Arg1:T9 Arg2:T8
+R6	Purpose Arg1:T7 Arg2:T10
+R7	PartOf Arg1:T11 Arg2:T12
+R8	PartOf Arg1:T11 Arg2:T13
+R9	PartOf Arg1:T14 Arg2:T12
+R10	PartOf Arg1:T14 Arg2:T13
+R11	Attr Arg1:T12 Arg2:T15
+R12	Attr Arg1:T13 Arg2:T15
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Attr Arg1:T17 Arg2:T16
+R17	Causitive Arg1:T18 Arg2:T15
+R18	Spatial Arg1:T26 Arg2:T27
+R19	Attr Arg1:T28 Arg2:T27
+T20	Component 673 679	bottom
+R15	PartOf Arg1:T19 Arg2:T20
+R16	PartOf Arg1:T19 Arg2:T21
+R26	Attr Arg1:T3 Arg2:T32
+R20	Spatial Arg1:T19 Arg2:T25
+R22	Attr Arg1:T19 Arg2:T26
+R23	Causitive Arg1:T29 Arg2:T19
+R24	Purpose Arg1:T19 Arg2:T31
+R25	Spatial Arg1:T29 Arg2:T30
+R21	Spatial Arg1:T21 Arg2:T20
+R27	Purpose Arg1:T1 Arg2:T3

@@ -1,0 +1,32 @@
+T1	EnergyFlow 16 32	thermal asperity
+T2	Component 40 74	magneto-resistive effect type head
+T3	InfoFlow 112 119	signals
+T4	Material 129 145	recording medium
+T5	Component 153 160	element
+T7	Material 215 231	recording medium
+T8	Location 238 261	predetermined direction
+T9	Material 278 294	recording medium
+T10	Location 311 321	protrusion
+T11	Material 348 364	recording medium
+T12	Component 374 381	element
+T13	Component 401 420	air bearing surface
+T14	Component 428 432	head
+T15	Location 439 443	area
+T16	Location 451 463	leading side
+T17	Component 471 478	element
+T18	Location 499 515	moving direction
+T19	Component 523 527	head
+T6	State 182 205	flying or contact state
+R1	Attr Arg1:T2 Arg2:T1
+R2	Generate Arg1:T4 Arg2:T3
+R3	Spatial Arg1:T8 Arg2:T9
+R4	Attr Arg1:T7 Arg2:T6
+R5	Manner Arg1:T5 Arg2:T4
+R6	Comparison Arg1:T10 Arg2:T11
+R7	Comparison Arg1:T10 Arg2:T12
+R8	Spatial Arg1:T10 Arg2:T13
+R9	PartOf Arg1:T14 Arg2:T13
+R10	PartOf Arg1:T15 Arg2:T14
+R11	Spatial Arg1:T15 Arg2:T16
+R12	PartOf Arg1:T17 Arg2:T16
+R13	Attr Arg1:T19 Arg2:T18

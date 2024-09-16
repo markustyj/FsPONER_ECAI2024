@@ -1,0 +1,46 @@
+T1	Component 22 35	magnetic head
+T2	Component 57 67	coil layer
+T3	Component 74 90	insulation stack
+T4	Component 96 106	coil layer
+T5	Location 154 166	central axis
+T6	Location 172 184	central axis
+T7	Attribution 207 226	planar head surface
+T8	Component 233 243	coil plane
+T9	Component 245 273	First and second pole pieces
+T10	Component 294 310	insulation stack
+T11	Component 334 362	first and second pole pieces
+T12	Component 366 384	first shield layer
+T15	Attribution 456 466	third edge
+T16	Attribution 476 512	first major planar thin film surface
+T17	Component 520 538	first shield layer
+T18	Attribution 564 583	planar head surface
+T19	Component 587 615	magnetoresistive (MR) sensor
+T20	Component 620 647	first and second gap layers
+T21	Component 668 677	MR sensor
+T22	Component 701 728	first and second gap layers
+T23	Component 737 764	first and second gap layers
+T24	Attribution 785 795	third edge
+T25	Component 804 830	first horizontal component
+T26	Component 844 853	MR sensor
+T27	Component 862 889	first and second gap layers
+T28	Attribution 914 933	planar head surface
+T29	Component 124 132	filament
+T30	Attribution 392 440	first and second major planar thin film surfaces
+R1	Manner Arg1:T2 Arg2:T3
+R2	Form Arg1:T29 Arg2:T4
+R3	Manner Arg1:T29 Arg2:T5
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T6 Arg2:T8
+R6	Spatial Arg1:T10 Arg2:T11
+R7	Form Arg1:T10 Arg2:T9
+R8	PartOf Arg1:T12 Arg2:T30
+R9	PartOf Arg1:T17 Arg2:T16
+R10	Causitive Arg1:T12 Arg2:T16
+R11	Causitive Arg1:T12 Arg2:T15
+R12	Form Arg1:T12 Arg2:T18
+R13	Spatial Arg1:T21 Arg2:T22
+R14	Spatial Arg1:T24 Arg2:T25
+R15	Form Arg1:T26 Arg2:T28
+R16	Form Arg1:T27 Arg2:T28
+R17	Form Arg1:T21 Arg2:T19
+R18	Form Arg1:T21 Arg2:T20

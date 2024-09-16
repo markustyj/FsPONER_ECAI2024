@@ -1,0 +1,16 @@
+T1	Component 3 19	transducing head
+T2	Component 31 40	substrate
+T3	Component 44 50	writer
+T4	Component 60 71	writer core
+T5	Component 80 100	electrical connector
+T6	Component 119 125	writer
+T7	Component 139 159	electrical connector
+T8	Component 186 197	writer core
+T9	Component 205 214	substrate
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Purpose Arg1:T5 Arg2:T6
+R6	Causitive Arg1:T7 Arg2:T8
+R7	Causitive Arg1:T8 Arg2:T9

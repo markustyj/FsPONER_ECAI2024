@@ -1,0 +1,53 @@
+T1	Effect 1 10	Reduction
+T3	System 42 53	GMR devices
+T4	Effect 84 110	higher signal requirements
+T6	Component 177 187	free layer
+T7	EnergyFlow 200 209	GMR ratio
+T12	Component 341 351	free layer
+T13	Component 359 379	single uniform layer
+T15	Component 446 451	layer
+T16	Material 463 475	GMR material
+T18	Material 565 569	NiCr
+T19	Material 589 594	CoFeV
+T20	Component 614 629	ruthenium layer
+T23	Material 711 719	chromium
+T2	Component 18 28	free layer
+T25	Attribution 29 38	thickness
+T26	EnergyFlow 134 143	GMR ratio
+T5	Effect 161 169	thinning
+T8	Effect 223 245	poor thermal stability
+T9	Material 300 320	inverse GMR material
+T10	Component 385 408	ferromagnetic layer AFM
+T11	Material 489 495	alloys
+T14	Material 521 542	inverse GMR materials
+T17	Material 551 555	FeCr
+T27	Material 557 563	NiFeCr
+T28	Material 571 575	CoCr
+T29	Material 577 583	CoFeCr
+T21	Function 654 680	antiferromagnetic coupling
+R1	Purpose Arg1:T11 Arg2:T14
+R2	PartOf Arg1:T11 Arg2:T17
+R3	PartOf Arg1:T11 Arg2:T27
+R4	PartOf Arg1:T11 Arg2:T18
+R5	PartOf Arg1:T11 Arg2:T28
+R6	PartOf Arg1:T11 Arg2:T29
+R7	PartOf Arg1:T11 Arg2:T19
+R8	Purpose Arg1:T20 Arg2:T21
+R9	Attr Arg1:T2 Arg2:T25
+R11	PartOf Arg1:T3 Arg2:T2
+R12	Purpose Arg1:T1 Arg2:T26
+R10	Purpose Arg1:T25 Arg2:T1
+R13	Purpose Arg1:T1 Arg2:T4
+R14	Purpose Arg1:T5 Arg2:T7
+R15	Purpose Arg1:T5 Arg2:T8
+R16	Attr Arg1:T6 Arg2:T5
+R17	Spatial Arg1:T12 Arg2:T13
+R18	Attr Arg1:T16 Arg2:T15
+R19	Spatial Arg1:T10 Arg2:T15
+R20	Spatial Arg1:T12 Arg2:T10
+T22	Component 702 707	layer
+R21	MadeOf Arg1:T22 Arg2:T23
+R22	Causitive Arg1:T20 Arg2:T22
+#1	AnnotatorNotes T22	在原文件中，layer漏标了，现在补充上来，并将相关关系也补充进来
+#2	AnnotatorNotes R21	补充layer命名实体后，再补充相关关系
+#3	AnnotatorNotes R22	A被B替换，makemove关系

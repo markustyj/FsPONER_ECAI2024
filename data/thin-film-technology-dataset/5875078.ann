@@ -1,0 +1,16 @@
+T1	Component 5 46	magnetoresistance thin film magnetic head
+T2	Component 50 64	bias conductor
+T3	Location 71 112	magnetoresistive magnetic sensing section
+T4	Component 178 192	bias conductor
+T5	Shape 217 224	pattern
+T6	Attribution 238 243	width
+T7	Measure 248 256	distance
+T8	Attribution 264 304	magnetic recording medium facing surface
+T9	Location 371 412	magnetoresistive magnetic sensing section
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T3
+R4	Attr Arg1:T5 Arg2:T6
+R5	Attr Arg1:T8 Arg2:T7
+R6	Attr Arg1:T5 Arg2:T7
+R7	Manner Arg1:T5 Arg2:T4

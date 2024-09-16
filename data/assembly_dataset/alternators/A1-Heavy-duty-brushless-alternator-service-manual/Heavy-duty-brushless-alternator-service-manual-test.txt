@@ -1,0 +1,52 @@
+INSPECT
+Regulator mounting area for presence of grease or dirt (Fig. 33). Good electrical contact is necessary in this area.
+NOTICE: Do not immerse or wet regulator with solvent. Internal damage to regulator could result.
+
+CLEAN
+Regulator mounting bosses in RE housing, metal base plate and contact rings on regulator by wiping with dry cloth.
+
+INSTALL OR CONNECT
+Regulator (6) with terminal cover (220) assembled to RE housing (1) with regulator attaching screw (224) (grounding). (See Fig. 33) Finger tighten.
+One field coil lead terminal (A) over regulator (6) mounting hole closest to terminal. (Ensure leads do not touch edge of frame hole.)
+Insulated screw (217) through lead terminal (A) and regulator (6) into rectifier end housing (1). Finger tighten.
+Bridge to regulator stud connector (219) over threaded stud of regulator (6) with nut (218). Finger tighten.
+Diode trio (7) on to 3 threaded studs on rectifier bridge (8).
+Insulated screw (217) through indicator strap (208) hole, long leg of diode trio (7) and other field coil lead terminal (A) into regulator (6) unused hole and into R.E. housing. (See Fig. 34) Finger tighten.
+Screw (226) through other hole in bridge to regulator stud connector (219) into rectifier bridge (8) and into RE housing. Finger tighten.
+
+TIGHTEN
+Two rectifier ground screws (224) to 4 N.m (35 lb. in.) (See Fig. 35)
+
+INSTALL OR CONNECT
+"R" terminal connector strap (198) over rectifier stud closest to capacitor (12). (If installing new "R" terminal follow instruction in package.) (See Fig. 35)
+Three stator leads (B) over matching rectifier bridge (8) studs.
+Three nuts (218) on rectifier bridge studs. Finger tighten.
+Secure fasteners shown in the following order (See Fig. 36)
+
+TIGHTEN
+One regulator ground (mounting) screw (224) to 2.5 N.m (23 lb. in.)
+Two insulated regulator screws (217) to 2.0 N.m (20 lb. in.)
+Two rectifier bridge insulated screws (226) to 2.0 N.m (20 lb. in)
+Three rectifier bridge nuts (218) to 2.5 N.m (23 lb. in.)
+Regulator stud nut (218) to 2.0 N.m (20 lb. in.)
+
+FINAL ALTERNATOR ASSEMBLY
+
+CLEAN
+Inner race of rectifier end bearing (3) on rotor shaft to prevent contamination of grease. (See Fig. 37) Remove tape to expose rectifier end bearing.
+Align mounting lugs and assemble two halves of alternator (See Fig. 37), inserting rectifier end bearing inner race (on rotor shaft) into bearing in rectifier end housing (1). Seat drive end housing (4) at this time. Using arbor press and appropriate block to apply even pressure on end frames.
+Insert 4 thru-bolts (213) through drive end housing (4) and stator (11) into threaded holes in rectifier end housing (1). Align housings and stator as needed to allow thru-bolts to stand straight in holes and engage threads. When all four thru-bolts are inserted, tighten them in round-robin fashion.
+
+TIGHTEN
+Thru bolts (213) to 12.4 N.m (110 lb. in.)
+After assembly, dip rectifier end frame of alternator about one and one quarter inch (1¼") deep into clear electric grade varnish or otherwise coat area of electronics to protect from corrosion (See Fig. 38).
+
+INSTALL
+NOTICE: Make sure varnish is dry before proceeding.
+After varish is dry, install rectifier end cover plate (15) with four attachment screws (216). If removed, replace capacitor (DRA 198544) with one screw (216) (See Fig. 39).
+
+TIGHTEN
+Attachment screws (216) to 3 N.m (26 lb. in.).
+
+INSTALL
+Fan (13) onto rotor shaft with vanes toward body of alternator (See Fig. 40).

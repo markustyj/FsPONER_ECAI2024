@@ -1,0 +1,51 @@
+T1	Component 2 15	magnetic head
+T3	Location 59 73	return portion
+T5	EnergyFlow 150 159	main pole
+T6	Location 171 188	front end portion
+T8	Component 234 256	magneto-resistive film
+T10	Component 387 400	magnetic head
+T12	EnergyFlow 493 497	flux
+T14	EnergyFlow 615 631	magnetic circuit
+T16	EnergyFlow 697 706	main pole
+T2	Effect 20 47	vertical magnetic recording
+T17	Location 83 106	sufficiently large area
+T4	Material 121 146	magnetic recording medium
+T7	Material 205 230	magnetic recording medium
+T18	Location 273 279	middle
+T19	EnergyFlow 285 301	magnetic circuit
+T20	Location 317 331	return portion
+T21	EnergyFlow 337 346	main pole
+T9	Material 356 381	magnetic recording medium
+T11	Location 442 451	direction
+T22	Location 480 489	direction
+T23	EnergyFlow 505 521	magnetic circuit
+T13	Location 525 552	first and a second terminal
+T24	Location 575 579	ends
+T25	Component 587 609	magneto-resistive film
+T15	EnergyFlow 648 668	bypass magnetic path
+T26	Location 716 730	return portion
+T27	Function 409 430	initial magnetization
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Attr Arg1:T3 Arg2:T17
+R5	PartOf Arg1:T1 Arg2:T5
+R6	PartOf Arg1:T1 Arg2:T8
+R7	PartOf Arg1:T5 Arg2:T6
+R8	Spatial Arg1:T6 Arg2:T7
+R9	Attr Arg1:T19 Arg2:T18
+R10	Spatial Arg1:T18 Arg2:T8
+R11	PartOf Arg1:T8 Arg2:T20
+R12	PartOf Arg1:T8 Arg2:T21
+R13	PartOf Arg1:T8 Arg2:T9
+R14	Oper Arg1:T27 Arg2:T10
+R15	Manner Arg1:T11 Arg2:T27
+R16	Spatial Arg1:T11 Arg2:T22
+R17	Attr Arg1:T12 Arg2:T22
+R18	PartOf Arg1:T23 Arg2:T12
+R19	Attr Arg1:T25 Arg2:T24
+R20	Spatial Arg1:T13 Arg2:T24
+R21	PartOf Arg1:T14 Arg2:T15
+R22	Causitive Arg1:T15 Arg2:T16
+R4	Spatial Arg1:T17 Arg2:T4
+#1	AnnotatorNotes R22	A用B作C的标引方法，参考讲义2第8条
+R23	Causitive Arg1:T15 Arg2:T26

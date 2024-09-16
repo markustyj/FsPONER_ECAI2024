@@ -1,0 +1,34 @@
+T1	ScientificConcept 79 92	popcorn noise
+T2	InfoFlow 98 109	read signal
+T3	Component 115 138	thin-film magnetic head
+T4	ScientificConcept 182 195	popcorn noise
+T5	EnergyFlow 251 258	current
+T6	Component 273 287	recording head
+T7	EnergyFlow 324 331	current
+T8	EnergyFlow 372 379	current
+T9	EnergyFlow 453 460	current
+T10	Component 472 486	recording head
+T11	ScientificConcept 614 627	popcorn noise
+T13	Component 295 318	thin-film magnetic head
+T14	Function 391 415	normal writing operation
+T12	Value 687 700	current value
+T15	Value 341 346	value
+T16	Value 440 445	value
+T17	ScientificConcept 711 731	specific upper limit
+T18	ScientificConcept 643 660	permissible range
+T19	ScientificConcept 211 228	permissible range
+R1	PartOf Arg1:T3 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T1
+R3	Measurement Arg1:T4 Arg2:T19
+R4	PartOf Arg1:T13 Arg2:T6
+R5	Attr Arg1:T7 Arg2:T15
+R6	Comparison Arg1:T7 Arg2:T8
+R7	Attr Arg1:T9 Arg2:T16
+R8	Causitive Arg1:T5 Arg2:T6
+R9	Causitive Arg1:T9 Arg2:T10
+R10	Measurement Arg1:T11 Arg2:T18
+R11	Measurement Arg1:T12 Arg2:T17
+#1	AnnotatorNotes R5	原来标注是ownership，实际上这里标注attr更妥当一些
+#2	AnnotatorNotes R7	attr
+#3	AnnotatorNotes R10	噪音落入一定范围，用measurement合适些，
+#4	AnnotatorNotes R11	和度量值有关的，标measurement更合适些

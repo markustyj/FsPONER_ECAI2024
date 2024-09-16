@@ -1,0 +1,46 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 32 55	semiconductor substrate
+T3	System 112 136	magnetic layer structure
+T4	EnergyFlow 175 193	integrated circuit
+T5	Component 269 292	semiconductor substrate
+T6	Component 352 361	substrate
+T7	System 443 467	magnetic layer structure
+T11	Attribution 708 717	head face
+T13	EnergyFlow 77 95	integrated circuit
+T14	Location 211 215	side
+T15	Component 223 246	semiconductor substrate
+T16	Location 257 261	side
+T17	Component 332 346	securing layer
+T18	Value 416 423	35.mu.m
+T19	Measure 396 405	thickness
+T20	Location 475 488	opposite side
+T8	Component 547 562	layer structure
+T9	Component 597 611	resulting head
+T10	System 687 702	layer structure
+T12	System 747 762	layer structure
+T21	Component 314 326	carrier body
+T22	Component 506 518	carrier body
+T23	Function 528 539	deformation
+T24	Attribution 616 639	reproducible properties
+T25	Component 654 666	support body
+T26	Component 771 797	support and carrier bodies
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T13
+R3	Spatial Arg1:T2 Arg2:T3
+R4	Attr Arg1:T15 Arg2:T14
+R5	Spatial Arg1:T4 Arg2:T14
+R6	Attr Arg1:T5 Arg2:T16
+R7	Causitive Arg1:T5 Arg2:T21
+R8	Causitive Arg1:T5 Arg2:T17
+R9	Spatial Arg1:T25 Arg2:T10
+R10	Purpose Arg1:T11 Arg2:T12
+R11	Purpose Arg1:T11 Arg2:T26
+R12	Spatial Arg1:T12 Arg2:T26
+R13	Purpose Arg1:T22 Arg2:T23
+R14	Purpose Arg1:T8 Arg2:T23
+R15	Attr Arg1:T9 Arg2:T24
+R16	Purpose Arg1:T23 Arg2:T24
+R17	Measurement Arg1:T19 Arg2:T18
+R18	Spatial Arg1:T7 Arg2:T20
+R19	Attr Arg1:T6 Arg2:T19
+#1	AnnotatorNotes R2	注意 in which，说明是包含关系ownership，本文档其他部分标引得都挺好！

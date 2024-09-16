@@ -1,0 +1,35 @@
+T1	Component 3 26	thin-film magnetic head
+T2	Component 39 48	read head
+T3	Component 55 65	write head
+T4	Component 71 80	read head
+T5	Component 89 99	write head
+T6	Component 123 139	top shield layer
+T7	Component 147 156	read head
+T8	Component 163 180	bottom pole layer
+T9	Component 188 198	write head
+T11	Component 281 297	top shield layer
+T12	Component 306 323	bottom pole layer
+T13	Component 329 357	magnetism intercepting layer
+T14	Material 371 397	nonmagnetic metal material
+T15	Function 438 445	plating
+T16	Component 469 485	top shield layer
+T17	Component 491 519	magnetism intercepting layer
+T18	Component 528 545	bottom pole layer
+T19	Function 579 586	plating
+T10	Component 228 256	magnetism intercepting layer
+T20	Material 455 463	platinum
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T7 Arg2:T6
+R4	PartOf Arg1:T9 Arg2:T8
+R5	Spatial Arg1:T11 Arg2:T12
+R6	Oper Arg1:T15 Arg2:T13
+R7	MadeOf Arg1:T14 Arg2:T13
+R8	Oper Arg1:T19 Arg2:T18
+R9	Oper Arg1:T19 Arg2:T17
+R10	Oper Arg1:T19 Arg2:T16
+R11	Spatial Arg1:T4 Arg2:T5
+R12	Spatial Arg1:T6 Arg2:T8
+R13	Spatial Arg1:T10 Arg2:T11
+R14	Spatial Arg1:T10 Arg2:T12
+R15	InstanceOf Arg1:T20 Arg2:T14

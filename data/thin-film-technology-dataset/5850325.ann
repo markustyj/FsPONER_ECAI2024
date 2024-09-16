@@ -1,0 +1,41 @@
+T1	Component 3 13	MR element
+T2	Component 21 38	inductive element
+T3	Component 57 67	MR element
+T4	Component 87 113	first magnetic shield film
+T5	Component 120 147	second magnetic shield film
+T7	Location 159 164	sides
+T8	Component 170 191	magnetoresistive film
+T9	Component 195 214	first magnetic film
+T10	Component 222 239	inductive element
+T11	Component 248 275	second magnetic shield film
+T12	Component 311 329	non- magnetic film
+T13	Component 335 353	non- magnetic film
+T14	Function 362 379	magnetic coupling
+T15	Component 392 419	second magnetic shield film
+T16	Component 428 447	first magnetic film
+T17	Attribution 453 458	width
+T18	Location 466 484	first pole portion
+T19	Component 492 511	first magnetic film
+T20	Attribution 532 537	width
+T21	Component 545 572	second magnetic shield film
+T22	Function 581 605	saturation magnetization
+T23	Component 613 632	first magnetic film
+T24	Function 652 676	saturation magnetization
+T25	Component 684 711	second magnetic shield film
+R1	PartOf Arg1:T3 Arg2:T4
+R2	PartOf Arg1:T3 Arg2:T5
+R3	Attr Arg1:T8 Arg2:T7
+R4	Spatial Arg1:T5 Arg2:T7
+R5	Spatial Arg1:T4 Arg2:T7
+R6	PartOf Arg1:T10 Arg2:T9
+R7	Spatial Arg1:T15 Arg2:T16
+R8	Generate Arg1:T13 Arg2:T14
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Attr Arg1:T18 Arg2:T17
+R11	PartOf Arg1:T19 Arg2:T18
+R12	Attr Arg1:T21 Arg2:T20
+R13	Comparison Arg1:T17 Arg2:T20
+R14	Attr Arg1:T23 Arg2:T22
+R15	Attr Arg1:T25 Arg2:T24
+R16	Comparison Arg1:T22 Arg2:T24
+#1	AnnotatorNotes T12	...与...通过...分离 如何标注

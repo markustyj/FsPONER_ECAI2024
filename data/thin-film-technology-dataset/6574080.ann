@@ -1,0 +1,35 @@
+T1	Component 2 33	magnetoresistive thin film head
+T2	Component 46 70	magnetoresistive element
+T3	Component 128 156	nonmagnetic conductive layer
+T4	Component 296 315	ferromagnetic layer
+T8	Location 531 552	magnetizing direction
+T10	Component 597 616	ferromagnetic layer
+T12	Component 84 107	antiferromagnetic layer
+T13	Component 111 124	pinning layer
+T14	Component 163 182	free magnetic layer
+T15	Component 198 256	the right and the left laminated transverse biasing layers
+T16	Component 275 292	nonmagnetic layer
+T17	Component 323 346	antiferromagnetic layer
+T5	Component 364 383	free magnetic layer
+T7	Component 451 473	said nonmagnetic layer
+T6	Component 556 580	said free magnetic layer
+T9	Component 621 643	said nonmagnetic layer
+T11	Location 654 663	direction
+T18	Component 692 716	said ferromagnetic layer
+T19	Component 397 426	said magnetoresistive element
+T21	Attribution 432 447	layer thickness
+T22	Value 500 522	certain specific value
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T12
+R3	PartOf Arg1:T2 Arg2:T13
+R4	PartOf Arg1:T2 Arg2:T3
+R5	PartOf Arg1:T2 Arg2:T14
+R6	PartOf Arg1:T2 Arg2:T15
+R7	PartOf Arg1:T19 Arg2:T5
+R9	Attr Arg1:T7 Arg2:T21
+R10	Measurement Arg1:T21 Arg2:T22
+R11	Manner Arg1:T6 Arg2:T8
+R12	Spatial Arg1:T6 Arg2:T10
+R14	Spatial Arg1:T10 Arg2:T9
+R13	Manner Arg1:T18 Arg2:T11
+#1	AnnotatorNotes R1	这个文档标得不错

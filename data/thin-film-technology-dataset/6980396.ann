@@ -1,0 +1,51 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Shape 38 52	insulation gap
+T3	Component 54 82	first and second yoke layers
+T4	Location 88 109	first and second ends
+T5	Location 129 139	first ends
+T6	EnergyFlow 153 167	magnetic poles
+T7	Shape 201 215	insulation gap
+T8	Location 221 232	second ends
+T9	Component 283 297	coil conductor
+T10	Component 328 346	single layer turns
+T11	EnergyFlow 363 377	magnetic field
+T12	EnergyFlow 395 419	generated magnetic field
+T13	Component 429 457	first and second yoke layers
+T14	Component 464 468	turn
+T15	Component 476 490	coil conductor
+T16	Location 502 515	first section
+T17	Location 519 533	second section
+T18	Location 543 546	end
+T19	Location 564 567	end
+T20	Location 575 588	first section
+T21	Location 596 609	third section
+T22	Location 619 622	end
+T23	Location 640 649	other end
+T24	Location 657 671	second section
+T25	Location 677 690	third section
+T26	Component 722 738	first yoke layer
+T27	Attribution 760 767	surface
+T28	Component 775 791	first yoke layer
+T29	Component 816 832	first yoke layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	Form Arg1:T5 Arg2:T6
+R5	Manner Arg1:T7 Arg2:T6
+R6	PartOf Arg1:T1 Arg2:T9
+R7	Form Arg1:T10 Arg2:T9
+R8	Causitive Arg1:T9 Arg2:T11
+R9	Causitive Arg1:T9 Arg2:T12
+R10	Causitive Arg1:T12 Arg2:T13
+R11	PartOf Arg1:T14 Arg2:T16
+R12	PartOf Arg1:T15 Arg2:T14
+R13	PartOf Arg1:T14 Arg2:T17
+R14	PartOf Arg1:T14 Arg2:T21
+R15	Spatial Arg1:T18 Arg2:T19
+R16	PartOf Arg1:T20 Arg2:T19
+R17	Spatial Arg1:T22 Arg2:T23
+R18	PartOf Arg1:T24 Arg2:T23
+R19	Spatial Arg1:T25 Arg2:T26
+R20	Attr Arg1:T28 Arg2:T27
+R21	Spatial Arg1:T26 Arg2:T27
+R22	Spatial Arg1:T25 Arg2:T29

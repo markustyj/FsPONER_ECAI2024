@@ -1,0 +1,19 @@
+T1	ScientificConcept 25 37	wiggle noise
+T2	Component 43 68	disk drive storage device
+T3	Component 81 104	magnetic thin film head
+T4	Component 111 115	disk
+T5	Location 133 155	alternate servo sector
+T6	Location 162 173	data sector
+T8	Location 271 283	servo sector
+T9	Consequence 312 317	error
+T10	ScientificConcept 332 344	wiggle noise
+T11	InfoFlow 367 384	servo information
+T12	ScientificConcept 410 422	wiggle noise
+T13	InfoFlow 227 241	arbitrary data
+T7	Location 247 258	data sector
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T2 Arg2:T4
+R3	Purpose Arg1:T10 Arg2:T9
+R4	PartOf Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T4 Arg2:T6
+R6	Causitive Arg1:T13 Arg2:T7

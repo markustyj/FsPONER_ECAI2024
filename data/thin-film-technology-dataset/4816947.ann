@@ -1,0 +1,100 @@
+T1	Function 2 37	single track read/write head design
+T2	Component 70 112	solid state magnetically permeable sensors
+T3	Component 121 159	coupled film magneto resistive sensors
+T6	Material 303 325	magnetic record medium
+T7	EnergyFlow 337 341	flux
+T8	Material 357 363	medium
+T9	Component 415 459	single coupled film magneto resistive sensor
+T10	Location 485 497	central area
+T12	EnergyFlow 552 566	resultant flux
+T13	Material 584 599	magnetic medium
+T14	Component 627 634	sensors
+T15	Component 655 661	sensor
+T17	Component 735 741	sensor
+T18	Component 747 765	differential sense
+T20	EnergyFlow 845 855	resistance
+T23	ScientificConcept 941 952	resistivity
+T24	Component 991 1021	magnetically permeable sensors
+T26	Material 1079 1092	record medium
+T27	Consequence 1103 1107	wear
+T28	Component 1167 1174	sensors
+T29	Attribution 1187 1213	generally horizontal plane
+T30	Material 1230 1252	magnetic record medium
+T31	Function 1261 1277	magnetic biasing
+T32	Component 1285 1310	magneto resistive sensors
+T33	Shape 1316 1325	flux path
+T34	Material 1351 1357	medium
+T35	Component 1381 1410	unwanted flux coupling sensor
+T36	EnergyFlow 1418 1427	bias flux
+T37	Material 1435 1441	medium
+T39	InfoFlow 1491 1502	data record
+T41	Shape 1535 1557	flux energization path
+T43	Function 1638 1662	flying height variations
+T45	Material 1698 1704	medium
+T46	EnergyFlow 1756 1764	circuits
+T47	Component 1772 1779	sensors
+T4	Component 187 216	central flux conducting probe
+T5	Component 269 274	probe
+T11	Component 527 546	flux coupling probe
+T48	EnergyFlow 683 700	magneto resistive
+T16	Attribution 710 727	magnetic property
+T19	Component 795 801	sensor
+T21	Component 886 892	sensor
+T22	Attribution 1061 1069	distance
+T25	Consequence 1112 1137	critical lapping problems
+T38	Component 1569 1576	sensors
+T40	Component 1675 1689	coupling probe
+T44	Function 242 259	T or Y connection
+T49	Function 505 517	intersection
+T50	Consequence 908 937	opposite decrease or increase
+T51	Attribution 1041 1057	remote elevation
+T52	ScientificConcept 1141 1152	manufacture
+T42	Component 1580 1593	sensor halves
+T53	Consequence 1605 1632	common mode noise rejection
+T54	Consequence 1718 1741	electrical disturbances
+R1	PartOf Arg1:T1 Arg2:T2
+R2	InstanceOf Arg1:T3 Arg2:T2
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Manner Arg1:T6 Arg2:T5
+R5	Manner Arg1:T44 Arg2:T4
+R6	Purpose Arg1:T6 Arg2:T7
+R7	Purpose Arg1:T6 Arg2:T8
+R8	Spatial Arg1:T3 Arg2:T5
+R9	Spatial Arg1:T10 Arg2:T49
+R10	Spatial Arg1:T11 Arg2:T49
+R11	PartOf Arg1:T9 Arg2:T10
+R12	Spatial Arg1:T24 Arg2:T51
+R13	Spatial Arg1:T24 Arg2:T22
+R14	Attr Arg1:T26 Arg2:T51
+R15	Attr Arg1:T26 Arg2:T22
+R16	Purpose Arg1:T52 Arg2:T27
+R17	Purpose Arg1:T52 Arg2:T25
+R18	Purpose Arg1:T24 Arg2:T27
+R19	Purpose Arg1:T24 Arg2:T25
+R20	Manner Arg1:T30 Arg2:T29
+R21	Attr Arg1:T28 Arg2:T29
+R22	Causitive Arg1:T29 Arg2:T32
+R23	Manner Arg1:T33 Arg2:T32
+R24	Oper Arg1:T31 Arg2:T32
+R25	Purpose Arg1:T33 Arg2:T35
+R26	Purpose Arg1:T36 Arg2:T37
+R27	Purpose Arg1:T33 Arg2:T36
+R28	Purpose Arg1:T36 Arg2:T39
+R29	PartOf Arg1:T38 Arg2:T41
+R30	PartOf Arg1:T42 Arg2:T41
+R31	Oper Arg1:T43 Arg2:T40
+R32	Oper Arg1:T43 Arg2:T45
+R33	PartOf Arg1:T47 Arg2:T46
+R34	Purpose Arg1:T41 Arg2:T53
+R35	Purpose Arg1:T46 Arg2:T54
+R36	Purpose Arg1:T43 Arg2:T53
+R37	Purpose Arg1:T54 Arg2:T53
+R38	Purpose Arg1:T13 Arg2:T12
+R39	Causitive Arg1:T12 Arg2:T14
+R40	Causitive Arg1:T12 Arg2:T15
+R41	Attr Arg1:T17 Arg2:T48
+R42	Attr Arg1:T17 Arg2:T16
+R43	Manner Arg1:T18 Arg2:T17
+R44	Attr Arg1:T19 Arg2:T20
+R45	Purpose Arg1:T21 Arg2:T50
+R46	Attr Arg1:T21 Arg2:T23

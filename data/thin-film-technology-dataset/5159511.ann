@@ -1,0 +1,12 @@
+T1	Component 2 17	read-write head
+T2	Component 31 56	magneto-resistive element
+T3	Component 63 72	conductor
+T4	EnergyFlow 89 121	longitudinal magnetic bias field
+T6	Component 149 158	conductor
+T7	EnergyFlow 193 223	transverse magnetic bias field
+T8	Component 128 143	said MR element
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T8
+R4	Purpose Arg1:T1 Arg2:T4
+R5	Purpose Arg1:T6 Arg2:T7

@@ -1,0 +1,37 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 37 46	substrate
+T3	Shape 74 80	blocks
+T4	Component 97 118	lower magnetic layers
+T5	Shape 140 146	blocks
+T6	Component 155 175	upper magnetic layer
+T7	Component 190 199	thin film
+T8	Shape 207 213	blocks
+T9	Component 225 246	lower magnetic layers
+T10	Component 260 281	lower magnetic layers
+T11	Attribution 288 293	width
+T12	Attribution 305 316	track width
+T13	Component 324 337	magnetic head
+T14	Attribution 344 350	height
+T15	Attribution 367 372	width
+T16	Component 382 402	upper magnetic layer
+T17	Attribution 409 415	length
+T18	Location 433 442	direction
+T19	Attribution 450 461	track width
+T20	Attribution 480 491	yoke length
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Purpose Arg1:T6 Arg2:T7
+R8	Spatial Arg1:T7 Arg2:T8
+R9	Attr Arg1:T10 Arg2:T11
+R10	Causitive Arg1:T11 Arg2:T12
+R11	Attr Arg1:T13 Arg2:T12
+R12	Attr Arg1:T10 Arg2:T14
+R13	Comparison Arg1:T14 Arg2:T15
+R14	Attr Arg1:T16 Arg2:T17
+R15	Manner Arg1:T18 Arg2:T17
+R16	Attr Arg1:T19 Arg2:T18
+R17	Comparison Arg1:T17 Arg2:T20

@@ -1,0 +1,1 @@
+ A magnetoresistive sensor having improved free layer biasing and track width control.

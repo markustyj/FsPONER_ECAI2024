@@ -1,0 +1,17 @@
+T1	Component 3 36	thin-film magnetic recording head
+T2	Component 106 138	magnetically permeable thin film
+T3	Component 146 155	substrate
+T5	Component 225 234	thin film
+T4	System 49 75	timing based servo pattern
+T6	System 159 170	gap pattern
+T7	System 185 205	timing based pattern
+T8	System 240 251	gap pattern
+T9	System 261 281	termination patterns
+T10	Location 285 294	endpoints
+R1	PartOf Arg1:T8 Arg2:T9
+R2	PartOf Arg1:T8 Arg2:T10
+R3	Causitive Arg1:T5 Arg2:T6
+R4	PartOf Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T2 Arg2:T3
+R6	Causitive Arg1:T1 Arg2:T2
+R7	Causitive Arg1:T1 Arg2:T4

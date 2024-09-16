@@ -1,0 +1,89 @@
+T1	Component 36 57	magnetoresistive head
+T2	Material 81 96	recording media
+T3	Component 153 165	first shield
+T4	Component 169 182	second shield
+T5	Component 186 209	magnetoresistive sensor
+T6	Component 217 221	lead
+T7	Component 227 239	first shield
+T8	Location 246 255	first end
+T9	Location 259 274	central portion
+T10	Location 281 291	second end
+T11	Location 297 306	first end
+T12	Material 324 339	recording media
+T13	Location 360 370	second end
+T14	Component 376 389	second shield
+T15	Location 396 405	first end
+T16	Location 409 424	central portion
+T17	Location 432 442	second end
+T18	Location 448 457	first end
+T19	Component 465 478	second shield
+T20	Location 501 510	first end
+T21	Component 518 530	first shield
+T22	Shape 536 544	read gap
+T23	Location 550 565	central portion
+T24	Component 573 586	second shield
+T25	Location 609 624	central portion
+T26	Component 632 644	first shield
+T27	Attribution 650 658	distance
+T28	Shape 684 692	read gap
+T29	Component 698 721	magnetoresistive sensor
+T30	Component 746 758	first shield
+T31	Component 767 780	second shield
+T32	Location 791 800	front end
+T33	Location 807 815	back end
+T34	Location 821 830	front end
+T35	Component 838 861	magnetoresistive sensor
+T36	Location 895 904	first end
+T37	Component 912 924	first shield
+T38	Location 932 941	first end
+T39	Component 949 962	second shield
+T40	Component 968 972	lead
+T41	Location 1006 1014	back end
+T42	Component 1022 1045	magnetoresistive sensor
+T43	EnergyFlow 1053 1060	current
+T44	Component 1083 1106	magnetoresistive sensor
+T45	Location 1112 1121	direction
+T46	Material 1157 1172	recording media
+T47	InfoFlow 69 73	data
+T48	Function 1180 1183	use
+T49	Function 347 350	use
+R1	Spatial Arg1:T2 Arg2:T47
+R2	Causitive Arg1:T1 Arg2:T47
+R3	PartOf Arg1:T7 Arg2:T8
+R4	PartOf Arg1:T7 Arg2:T9
+R5	PartOf Arg1:T7 Arg2:T10
+R6	Spatial Arg1:T11 Arg2:T12
+R8	Comparison Arg1:T11 Arg2:T13
+R9	PartOf Arg1:T14 Arg2:T15
+R10	PartOf Arg1:T14 Arg2:T16
+R11	PartOf Arg1:T14 Arg2:T17
+R12	PartOf Arg1:T19 Arg2:T18
+R13	PartOf Arg1:T21 Arg2:T20
+R14	Spatial Arg1:T18 Arg2:T20
+R17	PartOf Arg1:T24 Arg2:T23
+R16	PartOf Arg1:T26 Arg2:T25
+R19	Spatial Arg1:T23 Arg2:T25
+R20	Comparison Arg1:T27 Arg2:T28
+R21	Spatial Arg1:T29 Arg2:T30
+R22	Spatial Arg1:T29 Arg2:T31
+R23	PartOf Arg1:T29 Arg2:T32
+R24	PartOf Arg1:T29 Arg2:T33
+R25	PartOf Arg1:T35 Arg2:T34
+R26	PartOf Arg1:T37 Arg2:T36
+R27	PartOf Arg1:T39 Arg2:T38
+R28	Spatial Arg1:T34 Arg2:T36
+R29	Spatial Arg1:T34 Arg2:T38
+R30	PartOf Arg1:T42 Arg2:T41
+R31	Spatial Arg1:T40 Arg2:T41
+R34	Spatial Arg1:T45 Arg2:T46
+R35	Causitive Arg1:T44 Arg2:T43
+R33	Causitive Arg1:T43 Arg2:T45
+#1	AnnotatorNotes T45	location 这里不知道应该标引为manner 还是套用模板，修改成makemove?答：描述在某个方向上驱动电流，用manner合适些
+#2	AnnotatorNotes T3	这些成分之间好像没有关系，因而没有进行标引，答：标引正确
+#3	AnnotatorNotes R1	记录媒介上的数据，两者是spatial关系
+R36	Spatial Arg1:T30 Arg2:T31
+#7	AnnotatorNotes R36	漏标了
+R7	Spatial Arg1:T18 Arg2:T22
+R15	Spatial Arg1:T20 Arg2:T22
+R18	Spatial Arg1:T23 Arg2:T27
+R37	Spatial Arg1:T25 Arg2:T27

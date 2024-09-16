@@ -1,0 +1,49 @@
+T1	Component 3 16	heater member
+T2	Component 52 64	heater layer
+T3	Effect 72 98	low electrical resistivity
+T4	Component 105 114	cap layer
+T5	Effect 122 151	higher electrical resistivity
+T6	Component 156 194	electrically conductive electrode film
+T7	Shape 218 247	electrically conductive bumps
+T8	Function 270 277	plating
+T9	Component 303 317	electrode film
+T10	Component 350 354	mask
+T11	Component 360 373	heater member
+T12	EnergyFlow 384 388	heat
+T13	Component 411 434	thin-film magnetic head
+T14	Attribution 448 456	distance
+T15	Material 478 494	recording medium
+T16	Component 502 525	magnetoresistive device
+T17	Component 536 569	electromagnetic conversion device
+T18	Function 578 585	removal
+T20	Component 620 629	cap layer
+T21	Effect 639 668	higher electrical resistivity
+T22	Component 676 689	heater member
+T23	Component 719 733	electrode film
+T24	Effect 753 762	variation
+T25	EnergyFlow 770 786	total resistance
+T26	Component 794 807	heater member
+T27	System 30 39	structure
+T28	Location 291 295	part
+T29	Shape 339 344	bumps
+T19	Location 593 612	electrode film part
+R1	PartOf Arg1:T27 Arg2:T2
+R2	PartOf Arg1:T27 Arg2:T4
+R3	Attr Arg1:T2 Arg2:T3
+R4	Attr Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T27 Arg2:T1
+R6	Manner Arg1:T8 Arg2:T7
+R7	Spatial Arg1:T1 Arg2:T6
+R8	Spatial Arg1:T1 Arg2:T7
+R9	PartOf Arg1:T9 Arg2:T28
+R10	Manner Arg1:T29 Arg2:T9
+R11	Generate Arg1:T11 Arg2:T12
+R12	Purpose Arg1:T12 Arg2:T13
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Spatial Arg1:T15 Arg2:T17
+R15	Oper Arg1:T18 Arg2:T19
+R16	PartOf Arg1:T20 Arg2:T19
+R17	Attr Arg1:T22 Arg2:T21
+R18	Attr Arg1:T26 Arg2:T25
+#1	AnnotatorNotes R5	in 表示了一种包含关系，不应该用spatial，这样理解应该对吧
+R19	Others Arg1:T22 Arg2:T23

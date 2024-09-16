@@ -1,0 +1,66 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Attribution 38 59	medium facing surface
+T3	Component 63 80	bottom pole layer
+T4	Component 84 98	top pole layer
+T5	Component 102 121	recording gap layer
+T6	Component 129 143	thin-film coil
+T7	Component 149 166	bottom pole layer
+T8	Component 175 189	top pole layer
+T9	Location 222 238	coupling portion
+T10	Attribution 261 282	medium facing surface
+T11	Location 288 304	coupling portion
+T12	Attribution 312 320	end face
+T13	Attribution 339 360	medium facing surface
+T14	Attribution 366 374	end face
+T15	Attribution 386 400	curved surface
+T16	Attribution 419 440	medium facing surface
+T17	Component 446 460	thin-film coil
+T18	Component 467 483	conductive layer
+T19	Location 519 535	coupling portion
+T20	Component 541 551	first turn
+T21	Component 559 575	conductive layer
+T22	Location 584 594	inner side
+T23	Attribution 643 651	end face
+T24	Location 659 675	coupling portion
+T25	Attribution 684 705	medium facing surface
+T26	Attribution 726 739	minimum width
+T27	Component 747 763	conductive layer
+T29	Shape 783 795	virtual line
+T30	Attribution 811 819	end face
+T31	Location 827 843	coupling portion
+T32	Attribution 852 873	medium facing surface
+T33	ScientificConcept 881 898	shortest distance
+T34	Attribution 917 922	width
+T35	Attribution 928 936	distance
+T36	Shape 946 958	virtual line
+T37	Component 493 498	turns
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Manner Arg1:T9 Arg2:T8
+R8	Manner Arg1:T9 Arg2:T7
+R9	Spatial Arg1:T10 Arg2:T9
+R10	PartOf Arg1:T11 Arg2:T12
+R11	Spatial Arg1:T12 Arg2:T13
+R12	PartOf Arg1:T14 Arg2:T15
+R13	Spatial Arg1:T15 Arg2:T16
+R14	PartOf Arg1:T17 Arg2:T18
+R15	Manner Arg1:T19 Arg2:T18
+R16	PartOf Arg1:T18 Arg2:T37
+R17	PartOf Arg1:T21 Arg2:T20
+R18	Manner Arg1:T22 Arg2:T20
+R19	PartOf Arg1:T24 Arg2:T23
+R20	Spatial Arg1:T23 Arg2:T25
+R21	Attr Arg1:T27 Arg2:T26
+T28	Location 769 777	position
+R22	Manner Arg1:T28 Arg2:T27
+R23	Attr Arg1:T31 Arg2:T30
+R24	Manner Arg1:T28 Arg2:T29
+R25	Causitive Arg1:T28 Arg2:T30
+R26	Causitive Arg1:T28 Arg2:T32
+R27	Spatial Arg1:T30 Arg2:T32
+R28	Manner Arg1:T33 Arg2:T32
+R29	Attr Arg1:T36 Arg2:T35

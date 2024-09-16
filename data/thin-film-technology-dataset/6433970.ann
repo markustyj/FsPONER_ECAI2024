@@ -1,0 +1,90 @@
+T2	Component 34 104	improved current perpendicular to the plane thin film read head device
+T3	Function 119 130	fabrication
+T4	Component 164 174	lower lead
+T5	Function 196 208	accumulation
+T6	Material 212 237	redeposited lead material
+T8	Function 278 298	CPP sensor formation
+T9	Location 333 346	upper portion
+T10	Component 354 364	lower lead
+T11	Function 398 422	sensor element formation
+T12	Material 439 465	low sputter yield material
+T13	EnergyFlow 476 493	redeposition flux
+T14	Location 501 518	sensor side walls
+T15	Location 553 566	upper portion
+T16	Material 572 580	material
+T17	Value 597 606	low value
+T18	Attribution 615 620	ratio
+T19	ScientificConcept 628 641	sputter yield
+T22	Attribution 696 719	side wall milling angle
+T23	Function 731 756	redeposition accumulation
+T24	Location 764 773	side wall
+T26	Function 895 930	side wall redeposition accumulation
+T28	Material 985 1009	underlying lead material
+T30	Material 1091 1107	refractory metal
+T31	Material 1117 1125	tantalum
+T32	Material 1127 1135	titanium
+T33	Material 1137 1145	tungsten
+T34	Material 1147 1157	molybdenum
+T35	Material 1159 1168	zirconium
+T36	Material 1170 1178	vanadium
+T37	Material 1180 1187	niobium
+T38	Material 1210 1214	like
+T39	Component 1220 1242	improved CPP read head
+T40	Function 1289 1301	data storage
+T7	Location 241 270	CPP sensor element side walls
+T20	ScientificConcept 649 688	lead milling angle-to-its sputter yield
+T21	Material 799 825	conventional lead material
+T25	EnergyFlow 954 968	low resistance
+T27	Component 969 979	lower lead
+T41	Material 858 882	low resistivity material
+T42	Component 1306 1325	retrieval apparatus
+T43	Attribution 833 856	low sputter yield ratio
+T29	Material 1027 1069	conventional low resistance lead materials
+T44	Material 1077 1085	cladding
+T45	Material 1195 1201	alloys
+R1	Oper Arg1:T3 Arg2:T2
+R3	Purpose Arg1:T4 Arg2:T5
+R4	Oper Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T7 Arg2:T6
+R6	Manner Arg1:T8 Arg2:T5
+R7	PartOf Arg1:T10 Arg2:T9
+R8	Oper Arg1:T11 Arg2:T9
+R9	MadeOf Arg1:T9 Arg2:T12
+R10	Purpose Arg1:T9 Arg2:T13
+R12	MadeOf Arg1:T15 Arg2:T16
+R14	Measurement Arg1:T18 Arg2:T17
+R15	PartOf Arg1:T15 Arg2:T19
+R13	Attr Arg1:T19 Arg2:T18
+R16	Purpose Arg1:T15 Arg2:T23
+R17	Manner Arg1:T24 Arg2:T23
+R19	PartOf Arg1:T15 Arg2:T20
+R18	Attr Arg1:T15 Arg2:T22
+R20	Attr Arg1:T21 Arg2:T43
+R21	InstanceOf Arg1:T21 Arg2:T41
+R22	Purpose Arg1:T21 Arg2:T26
+R23	Attr Arg1:T27 Arg2:T25
+R24	Purpose Arg1:T21 Arg2:T27
+#2	AnnotatorNotes R21	感觉是一种指代关系，不确定，答：的确不好判断，不用管了
+R25	MadeOf Arg1:T28 Arg2:T29
+R26	MadeOf Arg1:T28 Arg2:T30
+R27	Spatial Arg1:T29 Arg2:T30
+R28	InstanceOf Arg1:T31 Arg2:T28
+R29	InstanceOf Arg1:T32 Arg2:T28
+R30	InstanceOf Arg1:T34 Arg2:T28
+R31	InstanceOf Arg1:T33 Arg2:T28
+R32	InstanceOf Arg1:T35 Arg2:T28
+R33	InstanceOf Arg1:T36 Arg2:T28
+R34	InstanceOf Arg1:T37 Arg2:T28
+R35	InstanceOf Arg1:T45 Arg2:T28
+R37	PartOf Arg1:T42 Arg2:T39
+R36	Oper Arg1:T40 Arg2:T42
+#1	AnnotatorNotes R6	在某个操作中包含另一个操作，用ownership吧
+R2	Manner Arg1:T14 Arg2:T13
+R11	Spatial Arg1:T19 Arg2:T20
+R38	Manner Arg1:T22 Arg2:T20
+R39	MadeOf Arg1:T44 Arg2:T30
+#3	AnnotatorNotes R39	漏标了，用耐火金属做得夹层
+#4	AnnotatorNotes T31	后面这些金属，说的是耐火金属
+#5	AnnotatorNotes R28	应该在tantalum和refractory metal之间建立isA关系
+R40	PartOf Arg1:T40 Arg2:T39
+#6	AnnotatorNotes R40	漏标了

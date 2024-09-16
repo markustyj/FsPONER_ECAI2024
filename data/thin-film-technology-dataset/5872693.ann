@@ -1,0 +1,74 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 39 58	lower magnetic core
+T3	Component 71 80	substrate
+T4	Component 85 104	upper magnetic core
+T5	Component 119 138	lower magnetic core
+T6	Shape 146 158	magnetic gap
+T7	Component 179 183	coil
+T8	Component 207 226	lower magnetic core
+T9	Component 235 254	upper magnetic core
+T10	Component 277 296	lower magnetic core
+T11	Component 305 324	upper magnetic core
+T12	Component 371 390	lower magnetic core
+T13	Component 399 418	upper magnetic core
+T14	Location 431 441	front body
+T15	EnergyFlow 447 460	magnetic pole
+T16	Material 470 495	magnetic recording medium
+T17	Location 502 511	rear body
+T18	EnergyFlow 517 530	magnetic pole
+T19	Location 569 579	front body
+T20	Component 587 600	magnetic pole
+T21	Location 606 615	rear body
+T22	EnergyFlow 623 636	magnetic pole
+T23	Attribution 670 682	head surface
+T24	Material 694 700	medium
+T25	Location 730 740	front body
+T26	EnergyFlow 748 761	magnetic pole
+T27	Attribution 767 772	plane
+T28	Attribution 778 783	plane
+T29	Location 803 807	rear
+T30	Location 815 818	end
+T31	Location 826 836	front body
+T32	EnergyFlow 844 857	magnetic pole
+T33	Location 867 876	rear body
+T34	EnergyFlow 884 897	magnetic pole
+T36	Location 932 941	direction
+T37	Shape 958 970	magnetic gap
+T38	Location 988 998	front body
+T39	EnergyFlow 1006 1019	magnetic pole
+T40	Component 1037 1052	magnetic member
+T41	Shape 1067 1073	trench
+T42	Component 1098 1114	insulating layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R6	PartOf Arg1:T1 Arg2:T7
+R7	Spatial Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T15 Arg2:T14
+R9	PartOf Arg1:T18 Arg2:T17
+R11	Spatial Arg1:T14 Arg2:T16
+R13	PartOf Arg1:T20 Arg2:T19
+R14	PartOf Arg1:T22 Arg2:T21
+R15	Spatial Arg1:T17 Arg2:T19
+R16	Spatial Arg1:T21 Arg2:T25
+R17	PartOf Arg1:T27 Arg2:T26
+R18	PartOf Arg1:T26 Arg2:T25
+R19	Spatial Arg1:T23 Arg2:T24
+R20	PartOf Arg1:T32 Arg2:T31
+R21	Attr Arg1:T31 Arg2:T30
+R22	Attr Arg1:T30 Arg2:T29
+R23	PartOf Arg1:T34 Arg2:T33
+R24	Spatial Arg1:T33 Arg2:T37
+R25	PartOf Arg1:T39 Arg2:T38
+R26	PartOf Arg1:T38 Arg2:T40
+R27	PartOf Arg1:T42 Arg2:T41
+R28	PartOf Arg1:T41 Arg2:T40
+#1	AnnotatorNotes T28	...终止于...地方 如何标引？
+#3	AnnotatorNotes R7	coil插在lower magnetic core和upper magnetic core之间，即A-邻接-B-邻接-C
+#6	AnnotatorNotes R17	A在一个平板上和B接触，“在平板上”说的是接触的方式，并非说平板拥有A，所以应该用manner
+#7	AnnotatorNotes R28	磁元件被放置在槽中，依据讲义6第7条，标spatial
+R10	PartOf Arg1:T13 Arg2:T17
+R12	PartOf Arg1:T13 Arg2:T14
+R29	Spatial Arg1:T7 Arg2:T8
+R5	Spatial Arg1:T4 Arg2:T6
+R4	Spatial Arg1:T6 Arg2:T5

@@ -1,0 +1,42 @@
+T1	System 73 92	write gap structure
+T2	Component 99 122	magnetic recording head
+T4	Material 165 179	inert material
+T5	Component 228 235	P2 pole
+T6	Component 241 264	magnetic recording head
+T8	Material 277 294	magnetic material
+T10	Material 347 361	inert material
+T11	Component 370 381	P1 pedestal
+T12	Component 395 418	magnetic recording head
+T13	Component 463 475	second layer
+T14	Material 479 493	inert material
+T15	Component 537 542	layer
+T16	Material 546 563	magnetic material
+T17	Component 583 606	magnetic recording head
+T18	Attribution 653 666	throat height
+T19	System 674 693	write gap structure
+T21	Material 726 743	magnetic material
+T22	Component 752 763	inert layer
+T23	Component 794 805	P1 pedestal
+T24	Component 813 836	magnetic recording head
+T3	Component 383 386	P1P
+T7	Component 572 575	P1P
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T6 Arg2:T5
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Spatial Arg1:T8 Arg2:T10
+R5	Spatial Arg1:T8 Arg2:T11
+R6	Alias Arg1:T11 Arg2:T3
+R7	PartOf Arg1:T12 Arg2:T11
+R8	PartOf Arg1:T14 Arg2:T13
+R9	Spatial Arg1:T13 Arg2:T15
+R10	PartOf Arg1:T16 Arg2:T15
+R11	Spatial Arg1:T13 Arg2:T7
+R12	PartOf Arg1:T17 Arg2:T7
+R13	Attr Arg1:T19 Arg2:T18
+T9	Component 717 722	layer
+R14	PartOf Arg1:T21 Arg2:T9
+R15	PartOf Arg1:T24 Arg2:T23
+T20	Location 779 786	portion
+R16	PartOf Arg1:T23 Arg2:T20
+R17	Spatial Arg1:T9 Arg2:T20
+R18	Spatial Arg1:T22 Arg2:T20

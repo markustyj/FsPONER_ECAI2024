@@ -1,0 +1,41 @@
+T1	Component 2 47	magnetoresistive type thin film magnetic head
+T2	ScientificConcept 76 90	external noise
+T3	Effect 109 125	low interference
+T4	Material 133 149	recording medium
+T5	Component 153 177	magnetoresistive element
+T6	Component 200 223	thin film magnetic head
+T7	Component 234 243	terminals
+T8	Component 263 276	end terminals
+T9	Component 284 305	intermediate terminal
+T10	EnergyFlow 307 324	Constant currents
+T11	Location 339 358	opposite directions
+T13	Component 396 409	end terminals
+T14	EnergyFlow 413 427	magnetic field
+T15	InfoFlow 433 439	signal
+T16	Shape 474 486	single track
+T17	Material 494 510	recording medium
+T18	Component 529 553	magnetoresistive element
+T19	EnergyFlow 583 598	opposite phases
+T21	Location 617 630	end terminals
+T22	Component 680 702	differential amplifier
+T23	Component 721 745	magnetoresistive element
+T24	System 762 795	induced magnetic anisotropy means
+T25	Location 801 824	predetermined direction
+T12	Function 559 579	reproduction outputs
+T20	Function 638 645	outputs
+R1	Causitive Arg1:T2 Arg2:T1
+R2	Causitive Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T5 Arg2:T6
+R4	PartOf Arg1:T5 Arg2:T7
+R5	Form Arg1:T8 Arg2:T7
+R6	Form Arg1:T9 Arg2:T7
+R7	Manner Arg1:T11 Arg2:T10
+R8	Causitive Arg1:T10 Arg2:T13
+R9	Causitive Arg1:T14 Arg2:T18
+R10	Attr Arg1:T15 Arg2:T14
+R11	Attr Arg1:T17 Arg2:T16
+R12	Oper Arg1:T12 Arg2:T19
+R13	Manner Arg1:T21 Arg2:T12
+R14	Manner Arg1:T25 Arg2:T23
+R15	Causitive Arg1:T24 Arg2:T23
+#1	AnnotatorNotes T22	感觉“输出”和“差分放大器”没有什么关系，因此，没有进行标引~

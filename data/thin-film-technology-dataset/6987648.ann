@@ -1,0 +1,41 @@
+T1	Component 2 35	thin film magnetic recording head
+T2	System 48 74	timing based servo pattern
+T3	EnergyFlow 97 113	focused ion beam
+T4	EnergyFlow 115 118	FIB
+T5	Component 125 139	recording head
+T6	Component 170 202	magnetically permeable thin film
+T7	Component 210 219	substrate
+T8	System 223 234	gap pattern
+T9	System 249 269	timing based pattern
+T10	Component 289 298	thin film
+T11	EnergyFlow 307 310	FIB
+T12	Shape 318 321	gap
+T13	Component 334 343	thin film
+T14	Component 387 401	recording head
+T15	Component 421 432	servo track
+T16	Component 438 451	magnetic tape
+T17	Component 457 481	timing based servo track
+T18	Function 502 519	precise alignment
+T19	Component 523 538	data read heads
+T20	InfoFlow 552 574	positional information
+T21	Component 589 604	servo read head
+T22	Component 621 654	continuously variable servo track
+R1	Alias Arg1:T3 Arg2:T4
+R2	Manner Arg1:T3 Arg2:T1
+R3	Causitive Arg1:T1 Arg2:T2
+R4	Manner Arg1:T6 Arg2:T5
+R5	Spatial Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T10 Arg2:T8
+R7	Spatial Arg1:T10 Arg2:T9
+R9	Causitive Arg1:T11 Arg2:T12
+R11	Oper Arg1:T18 Arg2:T19
+R12	Purpose Arg1:T17 Arg2:T18
+R13	Generate Arg1:T21 Arg2:T20
+R14	Causitive Arg1:T21 Arg2:T22
+#1	AnnotatorNotes R5	将磁渗透薄膜喷射到底座上，两者是spatial关系
+#2	AnnotatorNotes R7	间隙模式被限定在薄膜上，两者使动、被动关系不明显，同时出现了on，spatial的话妥当些
+#3	AnnotatorNotes R9	讲义2第4条，A使用B来为C做某事，例如A do C by/through/with B：A--MakemoveB，A--MakemoveC
+#5	AnnotatorNotes R12	事物-purpose-》动作
+R8	Causitive Arg1:T11 Arg2:T13
+R15	Causitive Arg1:T15 Arg2:T16
+R10	Causitive Arg1:T14 Arg2:T15

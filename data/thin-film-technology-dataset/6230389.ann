@@ -1,0 +1,56 @@
+T1	Component 226 235	substrate
+T4	Component 409 428	air bearing surface
+T6	Component 583 602	air bearing surface
+T9	Component 741 771	patterned conductor lead layer
+T10	Component 791 822	patterned conductor lead layers
+T11	Component 833 838	plane
+T12	Component 854 873	air bearing surface
+T15	Component 23 60	magnetoresistive (MR) lapping monitor
+T16	Component 68 105	magnetoresistive (MR) lapping monitor
+T17	Component 185 194	substrate
+T18	Component 238 275	patterned magnetoresistive (MR) layer
+T19	Component 287 324	patterned magnetoresistive (MR) layer
+T2	Shape 331 340	concavity
+T20	Attribution 347 351	edge
+T21	Component 359 396	patterned magnetoresistive (MR) layer
+T3	Component 429 434	(ABS)
+T22	Component 447 484	patterned magnetoresistive (MR) layer
+T23	Attribution 435 439	edge
+T24	Attribution 520 524	edge
+T25	Component 532 569	patterned magnetoresistive (MR) layer
+T5	Attribution 603 607	edge
+T26	Component 615 652	patterned magnetoresistive (MR) layer
+T7	Shape 674 683	concavity
+T27	Component 694 725	patterned conductor lead layers
+T8	Component 874 879	(ABS)
+T28	Attribution 880 884	edge
+T29	Component 892 929	patterned magnetoresistive (MR) layer
+T30	Component 957 994	magnetoresistive (MR) lapping monitor
+T31	Component 1032 1069	magnetoresistive (MR) lapping monitor
+T32	Component 1106 1142	magnetoresistive (MR) sensor element
+T14	Component 1230 1267	magnetoresistive (MR) lapping monitor
+T13	Component 1149 1194	precise patterned magnetoresistive (MR) layer
+T33	Attribution 1195 1208	stripe height
+R1	Spatial Arg1:T1 Arg2:T18
+R2	Attr Arg1:T21 Arg2:T20
+R3	PartOf Arg1:T19 Arg2:T2
+R6	Alias Arg1:T3 Arg2:T4
+R8	Attr Arg1:T25 Arg2:T24
+R7	Attr Arg1:T4 Arg2:T23
+R10	Attr Arg1:T6 Arg2:T5
+R11	PartOf Arg1:T22 Arg2:T4
+R13	Purpose Arg1:T31 Arg2:T32
+R14	PartOf Arg1:T32 Arg2:T13
+R15	Causitive Arg1:T32 Arg2:T14
+R16	Causitive Arg1:T7 Arg2:T27
+R17	Alias Arg1:T12 Arg2:T8
+R18	Attr Arg1:T12 Arg2:T28
+R21	PartOf Arg1:T9 Arg2:T10
+R22	Purpose Arg1:T10 Arg2:T11
+R23	Causitive Arg1:T12 Arg2:T11
+R24	Spatial Arg1:T2 Arg2:T20
+R25	Spatial Arg1:T24 Arg2:T5
+R5	Attr Arg1:T26 Arg2:T6
+R9	Attr Arg1:T13 Arg2:T33
+R4	Spatial Arg1:T20 Arg2:T23
+R12	PartOf Arg1:T29 Arg2:T12

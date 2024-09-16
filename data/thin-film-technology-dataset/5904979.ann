@@ -1,0 +1,55 @@
+T1	System 6 31	magnetic recording system
+T2	Component 64 87	thin-film magnetic head
+T3	Material 94 119	magnetic recording medium
+T4	Component 133 152	nonmagnetic support
+T5	Component 170 184	magnetic layer
+T6	Material 196 226	mainly ferromagnetic particles
+T7	Material 233 245	binder resin
+T8	Material 260 272	binder resin
+T9	Material 293 313	vinyl chloride resin
+T10	Material 324 347	ferromagnetic particles
+T11	Material 385 401	organic compound
+T12	Component 415 440	magnetic recording system
+T13	Component 473 496	thin-film magnetic head
+T14	Material 503 528	magnetic recording medium
+T15	Component 542 561	nonmagnetic support
+T16	Component 565 582	nonmagnetic layer
+T17	Material 601 632	inorganic nonmagnetic particles
+T19	Component 661 680	nonmagnetic support
+T20	Component 688 702	magnetic layer
+T21	Material 714 750	mainly ferromagnetic metal particles
+T22	PhysicsFlow 757 769	binder resin
+T23	Component 779 796	nonmagnetic layer
+T24	PhysicsFlow 811 824	binder resins
+T25	Component 833 864	magnetic and nonmagnetic layers
+T26	PhysicsFlow 889 909	vinyl chloride resin
+T27	Material 916 945	ferromagnetic metal particles
+T28	Material 983 999	organic compound
+T29	Component 1010 1024	magnetic layer
+T30	Attribution 1031 1040	thickness
+T31	Value 1049 1066	0.05 to 1.0 .mu.m
+T32	PhysicsFlow 639 651	binder resin
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T5 Arg2:T7
+R7	PartOf Arg1:T8 Arg2:T9
+R8	Causitive Arg1:T10 Arg2:T11
+R9	PartOf Arg1:T12 Arg2:T13
+R10	PartOf Arg1:T12 Arg2:T14
+R11	PartOf Arg1:T14 Arg2:T15
+R12	PartOf Arg1:T14 Arg2:T16
+R13	PartOf Arg1:T16 Arg2:T17
+R14	PartOf Arg1:T16 Arg2:T32
+R15	Spatial Arg1:T32 Arg2:T19
+R16	PartOf Arg1:T14 Arg2:T20
+R17	PartOf Arg1:T20 Arg2:T21
+R18	PartOf Arg1:T20 Arg2:T22
+R19	Spatial Arg1:T22 Arg2:T23
+R20	PartOf Arg1:T25 Arg2:T24
+R21	PartOf Arg1:T24 Arg2:T26
+R22	Causitive Arg1:T27 Arg2:T28
+R23	Attr Arg1:T29 Arg2:T30
+R24	Measurement Arg1:T30 Arg2:T31

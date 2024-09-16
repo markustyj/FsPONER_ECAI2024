@@ -1,0 +1,18 @@
+T1	Component 24 47	thin film magnetic head
+T2	Component 68 94	thin film magnetic circuit
+T3	Component 107 120	magnetic film
+T4	Component 127 142	conductive coil
+T5	Component 153 162	substrate
+T6	Component 180 206	thin film magnetic circuit
+T7	Value 243 256	270.degree.C.
+T8	Value 260 273	400.degree.C.
+T9	Component 291 307	protective layer
+T10	Component 321 347	thin film magnetic circuit
+T11	Measure 212 223	temperature
+R1	Measurement Arg1:T11 Arg2:T7
+R2	Measurement Arg1:T11 Arg2:T8
+R3	Spatial Arg1:T9 Arg2:T10
+R4	PartOf Arg1:T2 Arg2:T3
+R5	PartOf Arg1:T2 Arg2:T4
+R6	Spatial Arg1:T4 Arg2:T5
+R7	Manner Arg1:T11 Arg2:T6

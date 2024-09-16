@@ -1,0 +1,1 @@
+A read-write head comprising a magneto-resistive element and a conductor for producing a longitudinal magnetic bias field along said MR element. The conductor may also be arranged to produce a transverse magnetic bias field.

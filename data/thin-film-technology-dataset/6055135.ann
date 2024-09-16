@@ -1,0 +1,48 @@
+T1	Component 41 78	excellent exchange coupling thin film
+T2	Material 95 120	completely novel material
+T3	Material 132 136	FeMn
+T4	Material 140 144	NiMn
+T5	Effect 156 186	excellent corrosion resistance
+T6	Effect 191 207	high resistivity
+T7	Component 215 239	magnetoresistive element
+T8	Component 246 259	magnetic head
+T9	Component 286 313	exchange coupling thin film
+T10	Component 319 346	exchange coupling thin film
+T11	Component 359 381	antiferromagnetic film
+T12	Material 403 416	crystal phase
+T13	System 422 451	body-centered cubic structure
+T14	Material 467 483	Cr and element M
+T15	Material 490 499	element M
+T17	Component 537 554	3B group elements
+T20	Material 581 583	Al
+T21	Material 585 587	Ga
+T22	Component 601 619	ferromagnetic film
+T23	Material 647 649	Fe
+T24	Material 651 653	Ne
+T26	Attribution 773 782	interface
+T27	Component 795 817	antiferromagnetic film
+T28	Component 826 844	ferromagnetic film
+T16	ScientificConcept 562 576	Periodic Table
+T18	Material 591 593	In
+T19	Material 659 661	Co
+T25	Component 668 673	films
+T29	Function 726 752	magnetic exchange coupling
+R1	MadeOf Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T5
+R3	Purpose Arg1:T1 Arg2:T6
+R4	PartOf Arg1:T8 Arg2:T9
+R5	PartOf Arg1:T10 Arg2:T11
+R6	MadeOf Arg1:T11 Arg2:T12
+R7	Attr Arg1:T12 Arg2:T13
+R8	MadeOf Arg1:T11 Arg2:T14
+R9	PartOf Arg1:T16 Arg2:T17
+R10	PartOf Arg1:T10 Arg2:T22
+R11	MadeOf Arg1:T22 Arg2:T23
+R12	MadeOf Arg1:T22 Arg2:T24
+R13	MadeOf Arg1:T22 Arg2:T19
+R14	PartOf Arg1:T15 Arg2:T20
+R15	PartOf Arg1:T15 Arg2:T21
+R16	PartOf Arg1:T15 Arg2:T18
+R17	PartOf Arg1:T15 Arg2:T17
+R18	Spatial Arg1:T26 Arg2:T27
+R19	Spatial Arg1:T26 Arg2:T28

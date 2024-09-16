@@ -1,0 +1,55 @@
+T1	Component 2 25	magnetoresistive sensor
+T2	EnergyFlow 51 73	signal sensing current
+T3	Attribution 95 100	plane
+T4	Function 112 122	resolution
+T5	InfoFlow 140 146	signal
+T6	Component 150 163	magnetic head
+T7	Component 174 197	magnetoresistive sensor
+T8	Component 205 228	magnetic disk apparatus
+T9	Component 232 255	magnetoresistive sensor
+T10	Component 269 278	substrate
+T11	Component 290 312	magnetic shield layers
+T12	Component 329 356	lower magnetic shield layer
+T13	Component 364 391	upper magnetic shield layer
+T14	Component 395 424	magnetoresistive sensor layer
+T15	Component 455 477	magnetic shield layers
+T16	Component 482 500	electrode terminal
+T17	EnergyFlow 515 529	signal current
+T18	Attribution 551 556	plane
+T19	Component 564 593	magnetoresistive sensor layer
+T20	Component 599 629	magnetic domain control layers
+T21	EnergyFlow 646 662	Barkhausen noise
+T22	Component 670 699	magnetoresistive sensor layer
+T23	Component 713 743	magnetic domain control layers
+T24	Location 769 782	opposite ends
+T25	Component 790 819	magnetoresistive sensor layer
+T26	Effect 849 874	high electric resistivity
+T27	EnergyFlow 886 905	specific resistance
+T29	Component 952 975	magnetoresistive sensor
+T30	Effect 983 1015	excellent reproducing resolution
+T28	Value 920 933	10 m.OMEGA.cm
+R1	PartOf Arg1:T9 Arg2:T10
+R2	PartOf Arg1:T9 Arg2:T11
+R3	PartOf Arg1:T11 Arg2:T12
+R4	PartOf Arg1:T11 Arg2:T13
+R5	PartOf Arg1:T9 Arg2:T14
+R6	Spatial Arg1:T1 Arg2:T3
+R7	Purpose Arg1:T1 Arg2:T4
+R8	Causitive Arg1:T6 Arg2:T7
+R9	Causitive Arg1:T6 Arg2:T8
+R10	Generate Arg1:T1 Arg2:T2
+R11	Spatial Arg1:T14 Arg2:T15
+R12	Purpose Arg1:T16 Arg2:T17
+R13	PartOf Arg1:T9 Arg2:T16
+R14	Spatial Arg1:T16 Arg2:T18
+R15	Attr Arg1:T19 Arg2:T18
+R16	Purpose Arg1:T20 Arg2:T21
+R17	PartOf Arg1:T9 Arg2:T20
+R18	Generate Arg1:T22 Arg2:T21
+R19	Attr Arg1:T25 Arg2:T24
+R20	Spatial Arg1:T23 Arg2:T24
+R21	Measurement Arg1:T27 Arg2:T28
+R22	Purpose Arg1:T29 Arg2:T30
+T31	Material 833 841	material
+R23	Attr Arg1:T31 Arg2:T26
+R24	Causitive Arg1:T31 Arg2:T27

@@ -1,0 +1,16 @@
+T1	Component 2 23	magnetoresistive head
+T2	Component 36 66	first magnetoresistive element
+T3	Component 70 101	second magnetoresistive element
+T4	Component 110 133	antiferromagnetic layer
+T5	Component 157 199	first and second magnetoresistive elements
+T6	Component 205 228	antiferromagnetic layer
+T7	Component 252 280	antiferromagnetic sub layers
+T8	Location 305 316	outer sides
+T9	Component 324 366	first and second magnetoresistive elements
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Attr Arg1:T9 Arg2:T8
+R6	Causitive Arg1:T7 Arg2:T6
+R7	Manner Arg1:T8 Arg2:T7

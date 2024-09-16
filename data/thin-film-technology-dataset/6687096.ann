@@ -1,0 +1,46 @@
+T1	Component 2 12	write head
+T2	Component 28 45	bottom pole layer
+T3	Component 52 66	top pole layer
+T4	Location 80 93	pole portions
+T5	Component 101 116	write gap layer
+T6	Location 138 150	pole portion
+T7	Component 158 175	bottom pole layer
+T8	Location 184 196	pole portion
+T9	Component 204 218	top pole layer
+T10	Component 224 234	write head
+T11	Component 258 272	thin-film coil
+T12	Component 321 338	bottom pole layer
+T13	Component 347 361	top pole layer
+T14	Component 387 398	pole layers
+T15	Component 412 429	bottom pole layer
+T16	Component 438 452	top pole layer
+T17	Component 464 482	pole portion layer
+T18	Component 489 507	yoke portion layer
+T19	Location 512 515	end
+T20	Location 531 550	yoke portion layers
+T21	Component 568 587	air bearing surface
+T22	Attribution 604 612	distance
+T23	Component 622 641	air bearing surface
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T5 Arg2:T8
+R7	PartOf Arg1:T7 Arg2:T6
+R8	PartOf Arg1:T9 Arg2:T8
+R9	PartOf Arg1:T10 Arg2:T11
+R10	Spatial Arg1:T11 Arg2:T12
+R11	Spatial Arg1:T11 Arg2:T13
+R12	Others Arg1:T11 Arg2:T14
+R13	PartOf Arg1:T15 Arg2:T17
+R14	PartOf Arg1:T15 Arg2:T18
+R15	PartOf Arg1:T16 Arg2:T17
+R16	PartOf Arg1:T16 Arg2:T18
+R17	PartOf Arg1:T20 Arg2:T19
+R18	Spatial Arg1:T20 Arg2:T21
+R19	Attr Arg1:T23 Arg2:T22
+R20	Manner Arg1:T22 Arg2:T19
+#1	AnnotatorNotes R12	绝缘关系，标others吧
+#2	AnnotatorNotes R20	末端被放置在距离空气轴承表面一段距离的位置上，末端和空气轴承表面是空间关系，一段距离是方式，指向end
+R21	Spatial Arg1:T19 Arg2:T23

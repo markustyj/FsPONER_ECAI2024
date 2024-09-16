@@ -1,0 +1,28 @@
+T2	Component 49 53	film
+T3	Component 126 167	electrically conductive intermediate film
+T5	ScientificConcept 269 281	magnetic gap
+T6	Component 289 293	head
+T8	ScientificConcept 438 445	current
+T9	Component 458 462	film
+T10	Component 519 539	high playback output
+T11	Component 572 579	signals
+T12	Component 65 117	laminated first and second magnetoresistive elements
+T1	Component 2 39	magnetoresistive effect magnetic head
+T13	Component 243 257	laminated film
+T4	Component 196 210	shield members
+T14	Material 585 600	magnetic medium
+T15	Component 481 498	intermediate film
+T7	Component 348 391	first and second magneto-resistive elements
+T16	EnergyFlow 320 340	magnetic equilibrium
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T12
+R3	Spatial Arg1:T4 Arg2:T13
+R4	Spatial Arg1:T12 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T4
+R6	PartOf Arg1:T2 Arg2:T3
+R7	Attr Arg1:T6 Arg2:T5
+R8	Attr Arg1:T7 Arg2:T16
+R9	Manner Arg1:T9 Arg2:T8
+R10	Spatial Arg1:T11 Arg2:T14
+R11	Purpose Arg1:T8 Arg2:T15
+R12	Causitive Arg1:T16 Arg2:T8

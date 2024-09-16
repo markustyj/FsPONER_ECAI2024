@@ -1,0 +1,92 @@
+T2	Component 43 69	electromagnetic transducer
+T3	Component 79 102	magnetoresistive sensor
+T4	Component 184 190	sensor
+T5	Component 209 213	mask
+T6	Attribution 231 236	width
+T7	Component 244 250	sensor
+T8	Component 268 274	sensor
+T9	Effect 336 353	higher resolution
+T10	Location 359 380	track width direction
+T11	Component 386 394	sidewall
+T12	Component 428 434	spacer
+T13	Component 447 469	magnetic sensor layers
+T14	Component 477 501	adjacent magnetic shield
+T15	Component 525 539	protective cap
+T16	Consequence 557 563	damage
+T17	Function 569 578	polishing
+T18	Function 583 594	wet etching
+T19	Component 615 623	sidewall
+T20	Component 672 678	shield
+T22	Attribution 721 737	effective length
+T23	Component 745 751	sensor
+T24	ScientificConcept 756 773	linear resolution
+T25	Component 803 809	sensor
+T27	ScientificConcept 861 870	tolerance
+T28	ScientificConcept 875 880	error
+T29	Attribution 884 896	sensor width
+T30	Attribution 901 907	length
+T32	Attribution 952 963	track width
+T34	Effect 1003 1017	large increase
+T35	ScientificConcept 1021 1037	areal resolution
+T36	ScientificConcept 1134 1141	density
+T38	Component 1181 1212	correspondingly narrow pole-tip
+T39	Component 1220 1240	inductive transducer
+T40	Component 1286 1309	magnetoresistive sensor
+T1	Component 3 35	electrically conductive sidewall
+T41	Component 304 324	conventional sensors
+T42	Function 655 664	extension
+T21	Component 700 708	sidewall
+T43	Shape 790 795	focus
+T26	ScientificConcept 825 839	linear density
+T33	Attribution 968 991	track length directions
+T31	ScientificConcept 928 948	increased resolution
+T45	InfoFlow 1121 1128	signals
+T46	Value 1154 1177	terabit per square inch
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Form Arg1:T1 Arg2:T5
+R4	Purpose Arg1:T1 Arg2:T6
+R5	Attr Arg1:T7 Arg2:T6
+R6	Comparison Arg1:T8 Arg2:T41
+R7	Manner Arg1:T10 Arg2:T8
+R8	Purpose Arg1:T8 Arg2:T9
+R9	Form Arg1:T11 Arg2:T12
+R10	Spatial Arg1:T13 Arg2:T14
+R11	Purpose Arg1:T15 Arg2:T16
+R12	Generate Arg1:T17 Arg2:T16
+R13	Generate Arg1:T18 Arg2:T16
+#1	AnnotatorNotes R12	这里有导致的意味，感觉也只有generate合适
+R15	Oper Arg1:T42 Arg2:T20
+R16	Form Arg1:T19 Arg2:T42
+R17	Attr Arg1:T23 Arg2:T22
+R18	Purpose Arg1:T21 Arg2:T22
+R20	Purpose Arg1:T21 Arg2:T43
+R21	Attr Arg1:T25 Arg2:T43
+R22	Purpose Arg1:T21 Arg2:T26
+R23	Attr Arg1:T28 Arg2:T27
+#4	AnnotatorNotes R23	容错率？这个不是很确定，答：可以这么翻译，实际上tolerance for error是一个完整的命名实体，这里拆开了
+R24	Manner Arg1:T29 Arg2:T28
+R25	Manner Arg1:T30 Arg2:T28
+R26	Purpose Arg1:T31 Arg2:T34
+R27	Oper Arg1:T34 Arg2:T35
+R29	Manner Arg1:T36 Arg2:T45
+R30	Measurement Arg1:T46 Arg2:T36
+R31	PartOf Arg1:T39 Arg2:T38
+T37	Component 170 176	layers
+T47	Component 118 123	layer
+R14	Form Arg1:T1 Arg2:T47
+R33	Spatial Arg1:T47 Arg2:T37
+R34	Attr Arg1:T4 Arg2:T37
+#2	AnnotatorNotes R3	sidewall被作为mask来用，应该标引form关系
+#5	AnnotatorNotes R9	作为 xx东西，这里应该是form关系
+R35	Spatial Arg1:T12 Arg2:T13
+R36	Spatial Arg1:T12 Arg2:T14
+#6	AnnotatorNotes R35	某个物体A在物体B和物体C之间，那么就把A-B，A-C,B-C之间空间关系都标上
+#7	AnnotatorNotes R16	仍然是form关系
+#8	AnnotatorNotes R21	感应器的焦点，应该是attr或者ownership关系
+R37	Manner Arg1:T32 Arg2:T31
+R38	Manner Arg1:T33 Arg2:T31
+#9	AnnotatorNotes R37	resolution，解析度，解析度右方向，有一个水平解析度和垂直解析度，比如显示屏解析度是1024*768，
+T44	Component 1049 1056	sensors
+R28	Causitive Arg1:T44 Arg2:T45
+R19	Spatial Arg1:T40 Arg2:T38

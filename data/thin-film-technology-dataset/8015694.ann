@@ -1,0 +1,40 @@
+T3	Component 148 172	nonmagnetic spacer layer
+T4	EnergyFlow 211 252	etch-induced uniaxial magnetic anisotropy
+T5	Component 268 279	free layers
+T7	EnergyFlow 330 371	etch-induced uniaxial magnetic anisotropy
+T8	EnergyFlow 434 453	uniaxial anisotropy
+T9	State 461 476	quiescent state
+T10	EnergyFlow 502 524	applied magnetic field
+T11	EnergyFlow 530 562	etch-induced uniaxial anisotropy
+T12	Component 578 589	free layers
+T13	Function 612 630	direct ion etching
+T14	Component 646 657	free layers
+T15	Function 669 680	ion etching
+T16	Component 688 693	layer
+T17	Component 715 726	free layers
+T18	EnergyFlow 743 769	strong magnetic anisotropy
+T19	Component 788 799	free layers
+T20	Function 807 814	etching
+T22	State 892 907	quiescent state
+T1	Component 3 85	"scissoring-type" current-perpendicular-to-the-plane (CPP) magnetoresistive sensor
+T6	Component 297 322	ferromagnetic free layers
+T25	EnergyFlow 379 403	in-plane magnetic moment
+T26	Location 829 861	generally orthogonal orientation
+T21	Component 873 884	free layers
+R1	Attr Arg1:T6 Arg2:T7
+R2	Attr Arg1:T6 Arg2:T25
+R3	Oper Arg1:T13 Arg2:T14
+R4	Oper Arg1:T15 Arg2:T16
+T2	Component 91 132	dual ferromagnetic sensing or free layers
+R7	PartOf Arg1:T1 Arg2:T2
+R8	Attr Arg1:T5 Arg2:T4
+R9	Spatial Arg1:T2 Arg2:T3
+R10	Attr Arg1:T12 Arg2:T11
+R5	Oper Arg1:T20 Arg2:T18
+T23	Effect 177 195	improved stability
+R11	Purpose Arg1:T1 Arg2:T23
+R12	Spatial Arg1:T25 Arg2:T8
+R6	Attr Arg1:T21 Arg2:T26
+R13	Oper Arg1:T13 Arg2:T11
+R14	Oper Arg1:T15 Arg2:T11
+R15	Spatial Arg1:T16 Arg2:T17

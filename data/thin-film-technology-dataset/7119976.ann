@@ -1,0 +1,77 @@
+T1	Component 3 29	planar servo verifier head
+T2	Component 68 90	magnetic head elements
+T3	Function 109 125	readback process
+T4	Component 144 166	magnetic head elements
+T5	Shape 187 215	planar two-dimensional array
+T6	Component 225 244	individual elements
+T7	Shape 265 284	servo format tracks
+T8	Attribution 303 308	width
+T9	Component 314 327	magnetic tape
+T10	Component 352 373	magnetic head element
+T11	Component 386 401	read transducer
+T12	Component 435 445	sense wire
+T13	Component 471 484	magnetic yoke
+T14	Shape 490 496	trench
+T15	Attribution 511 530	transducing surface
+T16	Component 536 545	substrate
+T17	Component 574 595	magnetic head element
+T18	Component 608 623	read transducer
+T19	Component 636 669	thin film magnetoresistive sensor
+T20	Component 683 702	magnetic flux guide
+T21	Shape 708 714	trench
+T22	Attribution 729 748	transducing surface
+T23	Component 754 763	substrate
+T26	Function 857 880	magnetic tape recording
+T27	Shape 897 905	trenches
+T28	Component 922 949	nonmagnetic substrate wafer
+T29	Component 965 978	ceramic wafer
+T30	Component 982 1012	first magnetic permeable layer
+T31	Shape 1033 1039	trench
+T32	Component 1043 1065	first insulating layer
+T33	Component 1086 1116	first magnetic permeable layer
+T34	EnergyFlow 1120 1138	conducting circuit
+T35	Component 1157 1179	first insulating layer
+T36	EnergyFlow 1221 1228	circuit
+T37	Component 1232 1255	second insulating layer
+T38	Shape 1276 1282	trench
+T39	EnergyFlow 1297 1315	conducting circuit
+T40	Component 1340 1374	first and second insulating layers
+T41	Component 1380 1385	wafer
+T42	Attribution 1422 1444	original surface level
+T43	Component 1452 1457	wafer
+T44	System 1461 1468	pattern
+T45	Shape 1472 1481	read gaps
+T46	Component 1499 1520	second magnetic layer
+T47	Component 1539 1562	second insulating layer
+T48	Component 424 429	turns
+T49	Component 828 852	servo verifier read head
+R2	Spatial Arg1:T32 Arg2:T33
+R4	Spatial Arg1:T39 Arg2:T40
+R5	PartOf Arg1:T1 Arg2:T2
+R6	Purpose Arg1:T2 Arg2:T3
+R7	Purpose Arg1:T6 Arg2:T7
+R8	Attr Arg1:T9 Arg2:T8
+R9	Spatial Arg1:T7 Arg2:T9
+R10	MadeOf Arg1:T4 Arg2:T5
+R11	PartOf Arg1:T10 Arg2:T11
+R12	Attr Arg1:T16 Arg2:T15
+R13	Attr Arg1:T12 Arg2:T48
+R15	Form Arg1:T48 Arg2:T11
+R16	Causitive Arg1:T12 Arg2:T13
+R14	PartOf Arg1:T14 Arg2:T13
+R17	Form Arg1:T19 Arg2:T18
+R18	PartOf Arg1:T17 Arg2:T18
+R19	Attr Arg1:T23 Arg2:T22
+R20	Causitive Arg1:T19 Arg2:T20
+R21	PartOf Arg1:T21 Arg2:T20
+R22	Purpose Arg1:T49 Arg2:T26
+R23	InstanceOf Arg1:T29 Arg2:T28
+R24	Manner Arg1:T28 Arg2:T27
+R1	PartOf Arg1:T31 Arg2:T30
+R25	Spatial Arg1:T34 Arg2:T35
+R26	Causitive Arg1:T34 Arg2:T36
+R3	PartOf Arg1:T38 Arg2:T37
+R27	Attr Arg1:T43 Arg2:T42
+R28	Causitive Arg1:T41 Arg2:T42
+R29	Spatial Arg1:T46 Arg2:T47
+R30	PartOf Arg1:T45 Arg2:T44

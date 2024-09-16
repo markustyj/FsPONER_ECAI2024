@@ -1,0 +1,18 @@
+T1	Component 3 36	inductive thin film magnetic head
+T2	Component 50 59	substrate
+T3	Effect 69 91	reduced susceptibility
+T4	ScientificConcept 99 114	"glitch" effect
+T5	ScientificConcept 118 138	"remote read" effect
+T6	Component 144 168	inductive thin film head
+T8	Component 251 270	shortened pole tips
+T9	Component 301 310	saw alley
+T10	Component 320 329	substrate
+T12	Component 232 246	narrow paddles
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T3
+R3	Attr Arg1:T4 Arg2:T3
+R4	Attr Arg1:T5 Arg2:T3
+T7	EnergyFlow 203 230	hard axis only drive fields
+R5	Causitive Arg1:T6 Arg2:T7
+R6	Causitive Arg1:T6 Arg2:T12
+R7	Causitive Arg1:T6 Arg2:T8

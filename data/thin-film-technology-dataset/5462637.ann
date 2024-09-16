@@ -1,0 +1,57 @@
+T1	Component 33 57	thin film magnetic heads
+T2	Component 65 70	wafer
+T8	Material 512 529	overcoat material
+T10	Material 630 634	NiFe
+T11	Component 635 645	seed layer
+T13	Component 690 695	wafer
+T14	Material 782 786	gold
+T17	Function 18 29	fabrication
+T18	Effect 98 120	improved stud adhesion
+T19	Effect 130 134	risk
+T20	Consequence 138 151	contamination
+T21	Effect 157 168	elimination
+T22	Material 172 190	corrosive elements
+T23	Component 201 219	magnetic pole tips
+T24	Component 265 279	first pole tip
+T25	Component 306 321	second pole tip
+T28	Location 355 368	stud location
+T29	Material 374 398	plated pole tip material
+T5	Component 411 430	thin overcoat layer
+T6	Component 438 443	wafer
+T30	Component 456 466	first mask
+T7	Shape 475 482	opening
+T31	Component 493 497	stud
+T32	Shape 538 545	opening
+T33	Material 553 573	noncorrosive etchant
+T9	Component 588 598	stud layer
+T34	Component 613 617	mask
+T35	Component 653 658	wafer
+T36	Component 671 682	second mask
+T12	Shape 706 713	opening
+T37	Component 724 728	stud
+T38	Component 762 772	first mask
+T39	Shape 797 804	opening
+T40	Component 823 834	second mask
+T15	Component 843 863	remaining seed layer
+R1	Oper Arg1:T17 Arg2:T1
+R2	PartOf Arg1:T2 Arg2:T1
+R3	Causitive Arg1:T20 Arg2:T19
+R4	Spatial Arg1:T22 Arg2:T23
+R5	Oper Arg1:T21 Arg2:T22
+T3	Component 323 334	lead straps
+T4	Component 341 346	layer
+R6	Manner Arg1:T28 Arg2:T4
+R7	PartOf Arg1:T29 Arg2:T4
+R8	Spatial Arg1:T5 Arg2:T6
+R10	PartOf Arg1:T30 Arg2:T7
+R9	Spatial Arg1:T7 Arg2:T31
+R11	PartOf Arg1:T32 Arg2:T8
+R12	Causitive Arg1:T33 Arg2:T8
+R13	Purpose Arg1:T8 Arg2:T9
+R14	MadeOf Arg1:T11 Arg2:T10
+R15	Causitive Arg1:T11 Arg2:T35
+R16	Causitive Arg1:T36 Arg2:T13
+R17	PartOf Arg1:T13 Arg2:T12
+R18	Spatial Arg1:T12 Arg2:T37
+R19	Comparison Arg1:T36 Arg2:T38
+R20	Spatial Arg1:T14 Arg2:T39

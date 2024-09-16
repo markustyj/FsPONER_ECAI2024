@@ -1,0 +1,50 @@
+T1	Component 2 16	thin film head
+T4	Component 118 134	recording medium
+T6	Component 216 225	thin film
+T13	Attribution 459 473	slider surface
+T14	Material 495 501	medium
+T20	Effect 24 37	floating type
+T21	Attribution 72 79	surface
+T22	Effect 142 153	small space
+T2	Component 49 59	head slide
+T5	Component 188 200	head element
+T23	Attribution 250 254	face
+T7	Component 262 275	head slider 1
+T8	Attribution 294 307	slider surfac
+T9	Component 312 328	protective layer
+T10	Attribution 350 366	head slider face
+T12	Component 402 412	head slide
+T24	Attribution 430 440	side faces
+T25	Attribution 558 571	opposite side
+T15	Component 580 592	head element
+T16	Component 600 615	protective laye
+T17	Location 644 666	opposite side portions
+T26	Component 674 699	bulging-out curved face R
+T27	Attribution 728 734	surfac
+T18	Component 743 759	protective layer
+T28	Attribution 769 777	side fac
+T19	Component 786 797	head slider
+T3	Attribution 101 112	signal face
+T11	Component 382 394	head element
+R1	Attr Arg1:T1 Arg2:T20
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T2 Arg2:T21
+R4	Spatial Arg1:T21 Arg2:T3
+R5	Attr Arg1:T4 Arg2:T3
+R6	Form Arg1:T4 Arg2:T22
+R7	Manner Arg1:T6 Arg2:T5
+R8	Attr Arg1:T7 Arg2:T23
+R9	Spatial Arg1:T7 Arg2:T8
+R10	Spatial Arg1:T5 Arg2:T23
+R11	Spatial Arg1:T9 Arg2:T10
+R12	Spatial Arg1:T9 Arg2:T11
+R13	PartOf Arg1:T12 Arg2:T24
+R14	Spatial Arg1:T24 Arg2:T13
+R15	Spatial Arg1:T13 Arg2:T14
+R16	Attr Arg1:T15 Arg2:T25
+R17	PartOf Arg1:T16 Arg2:T17
+R18	Manner Arg1:T26 Arg2:T17
+R19	Causitive Arg1:T16 Arg2:T27
+R20	Causitive Arg1:T27 Arg2:T28
+R21	Attr Arg1:T18 Arg2:T27
+R22	Attr Arg1:T19 Arg2:T28

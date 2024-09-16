@@ -1,0 +1,51 @@
+T1	Component 2 25	magnetic thin-film head
+T3	Component 55 76	nonmagnetic substrate
+T4	Material 95 111	recording medium
+T5	Component 181 196	conduction body
+T6	EnergyFlow 215 228	magnetic flux
+T7	Component 238 249	magnet legs
+T8	Component 266 270	main
+T9	EnergyFlow 278 292	auxiliary pole
+T10	Component 305 316	magnet legs
+T11	Component 343 352	substrate
+T14	Component 396 419	write/read coil winding
+T15	Component 439 454	conductor turns
+T16	Shape 481 486	space
+T17	Component 506 517	magnet legs
+T18	Component 524 537	magnetic head
+T19	Component 602 611	recording
+T20	Function 664 683	thin film technique
+T21	Location 693 696	end
+T22	Component 774 798	magnetic conduction body
+T23	EnergyFlow 869 884	magnetic return
+T24	Location 890 904	partial region
+T25	Location 936 949	return region
+T26	Shape 963 981	intermediate space
+T27	Component 990 1000	conductors
+T2	Function 31 49	layer-wise buildup
+T12	Attribution 358 379	predetermined spacing
+T13	Attribution 570 591	small flying altitude
+T28	Component 727 760	partially overlapping magnet legs
+T29	Location 832 857	their common overlap zone
+T30	Others 630 639	same time
+R1	Spatial Arg1:T1 Arg2:T3
+R2	Purpose Arg1:T1 Arg2:T4
+R3	Oper Arg1:T2 Arg2:T1
+R4	Generate Arg1:T5 Arg2:T6
+R5	Form Arg1:T7 Arg2:T8
+R6	Form Arg1:T7 Arg2:T9
+R7	Spatial Arg1:T10 Arg2:T11
+R8	Attr Arg1:T10 Arg2:T12
+R9	Spatial Arg1:T10 Arg2:T14
+R10	Spatial Arg1:T16 Arg2:T17
+R11	PartOf Arg1:T10 Arg2:T15
+R12	Spatial Arg1:T15 Arg2:T16
+R13	Attr Arg1:T18 Arg2:T13
+R14	Spatial Arg1:T18 Arg2:T19
+R15	Oper Arg1:T20 Arg2:T18
+R16	Form Arg1:T28 Arg2:T22
+R17	Generate Arg1:T22 Arg2:T23
+R18	Manner Arg1:T24 Arg2:T23
+R19	Purpose Arg1:T22 Arg2:T26
+R20	Attr Arg1:T27 Arg2:T26
+R21	Manner Arg1:T29 Arg2:T22

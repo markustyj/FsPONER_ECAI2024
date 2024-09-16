@@ -1,0 +1,50 @@
+T10	PhysicsFlow 480 487	etchant
+T12	Material 551 558	ceramic
+T20	Component 2 30	magnetoresistive (MR) device
+T21	Function 35 60	barrier formation process
+T1	Component 85 98	barrier layer
+T22	Material 105 138	aluminum-titanium oxidic compound
+T2	Component 195 213	first alumina film
+T3	Material 221 238	overlying materia
+T24	Material 273 284	nickel-iron
+T4	ScientificConcept 243 263	iron bearing content
+T5	Component 290 329	aluminum-titanium oxidic compound layer
+T8	Material 568 592	polycrystalline material
+T25	Material 542 549	ferrite
+T13	Component 598 611	barrier layer
+T14	Component 629 646	passivation layer
+T26	Attribution 662 669	surface
+T15	Component 677 700	underlying alumina film
+T16	PhysicsFlow 740 757	ultrasonic energy
+T19	Component 856 891	nickel-iron/alumina layer interface
+T23	Value 156 163	35 .ANG
+T27	Attribution 165 174	thickness
+T6	Component 343 358	etchant barrier
+T7	Component 367 379	alumina film
+T28	Function 435 454	"rosette" formation
+T11	Component 517 533	porous substrate
+T29	Function 728 736	transfer
+T17	Function 765 798	subsequent wirebonding processing
+T18	Function 831 848	film delamination
+R1	MadeOf Arg1:T1 Arg2:T22
+R2	MadeOf Arg1:T4 Arg2:T3
+R3	Measurement Arg1:T23 Arg2:T27
+R4	Attr Arg1:T22 Arg2:T27
+R5	Spatial Arg1:T1 Arg2:T2
+R6	Spatial Arg1:T1 Arg2:T3
+R7	InstanceOf Arg1:T24 Arg2:T4
+R8	Form Arg1:T5 Arg2:T6
+R9	PartOf Arg1:T7 Arg2:T6
+T9	Function 385 411	subsequent etching process
+R10	Purpose Arg1:T5 Arg2:T28
+T30	Shape 506 511	pores
+R14	Attr Arg1:T11 Arg2:T30
+R15	Spatial Arg1:T10 Arg2:T30
+R16	Form Arg1:T13 Arg2:T14
+R17	Purpose Arg1:T13 Arg2:T26
+R18	Attr Arg1:T15 Arg2:T26
+R19	Oper Arg1:T29 Arg2:T16
+R20	Oper Arg1:T18 Arg2:T19
+R11	MadeOf Arg1:T30 Arg2:T25
+R12	MadeOf Arg1:T30 Arg2:T12
+R13	MadeOf Arg1:T30 Arg2:T8

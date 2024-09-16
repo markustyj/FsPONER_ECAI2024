@@ -1,0 +1,28 @@
+T1	Component 2 15	magnetic head
+T2	Component 26 59	elongate magnetoresistive element
+T3	Component 81 101	equipotential strips
+T4	Component 129 146	longitudinal axis
+T5	Effect 163 181	suitable workpoint
+T6	Attribution 192 197	edges
+T7	Component 224 241	longitudinal axis
+T8	Component 247 254	element
+T9	Material 278 309	magnetically permeable material
+T11	Material 372 397	magnetic recording medium
+T12	Function 427 440	flux coupling
+T13	Material 450 466	recording medium
+T14	Component 473 488	further element
+T15	Material 492 523	magnetically permeable material
+T16	Component 264 274	components
+T17	Function 327 336	operation
+T10	Function 344 364	direct flux coupling
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Purpose Arg1:T2 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T7
+R6	MadeOf Arg1:T16 Arg2:T9
+R7	Spatial Arg1:T8 Arg2:T16
+R8	MadeOf Arg1:T14 Arg2:T15
+R9	Causitive Arg1:T8 Arg2:T11
+R10	Causitive Arg1:T8 Arg2:T13
+R11	Causitive Arg1:T8 Arg2:T14

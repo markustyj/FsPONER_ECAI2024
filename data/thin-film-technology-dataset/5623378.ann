@@ -1,0 +1,85 @@
+T2	Component 41 70	magneto-resistive effect head
+T3	Material 167 192	magnetic recording medium
+T4	EnergyFlow 216 245	first constant current source
+T5	Component 281 285	head
+T6	Component 336 340	head
+T7	EnergyFlow 348 361	sense current
+T13	State 1058 1068	read state
+T15	EnergyFlow 1162 1191	first constant current source
+T16	State 1235 1246	write state
+T17	EnergyFlow 1268 1297	first constant current source
+T19	State 1443 1454	write state
+T20	State 1460 1470	read state
+T21	EnergyFlow 107 130	first power supply line
+T22	Function 198 212	read operation
+T23	Location 270 273	end
+T24	EnergyFlow 292 316	second power supply line
+T25	Function 369 383	read operation
+T26	Component 385 413	first and second transistors
+T27	Component 455 478	first power supply line
+T8	ScientificConcept 498 513	voltage signals
+T9	Location 533 537	ends
+T28	Component 545 549	head
+T10	Component 629 657	first and second transistors
+T29	EnergyFlow 666 690	second power supply line
+T30	Component 710 738	first and second transistors
+T11	EnergyFlow 746 776	predetermined constant current
+T31	Function 784 798	read operation
+T32	Component 802 811	capacitor
+T33	Component 850 878	first and second transistors
+T34	EnergyFlow 886 901	control circuit
+T35	InfoFlow 918 943	read/write control signal
+T12	EnergyFlow 994 1033	first to third constant current sources
+T36	State 1074 1085	write state
+T14	EnergyFlow 1091 1132	second and third constant current sources
+T37	State 1252 1262	read state
+T18	EnergyFlow 1325 1366	second and third constant current sources
+T39	InfoFlow 1543 1560	reproduced signal
+T40	InfoFlow 1590 1603	data capacity
+T1	EnergyFlow 2 28	signal reproducing circuit
+T41	Location 82 85	end
+T42	EnergyFlow 551 592	second and third constant current sources
+T43	Component 614 621	emitter
+T44	Component 835 842	emitter
+T45	Effect 961 986	respective ON/OFF timings
+T46	Function 1040 1050	transition
+T47	Function 1217 1227	transition
+T48	Effect 1578 1582	loss
+T38	ScientificConcept 1505 1521	offset component
+T49	Effect 1609 1616	minimum
+T50	Effect 1414 1435	transient idle period
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T41
+R3	Causitive Arg1:T41 Arg2:T21
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Causitive Arg1:T4 Arg2:T23
+R6	PartOf Arg1:T5 Arg2:T23
+R7	Causitive Arg1:T4 Arg2:T24
+R8	Causitive Arg1:T6 Arg2:T7
+R9	PartOf Arg1:T1 Arg2:T26
+R10	Causitive Arg1:T26 Arg2:T27
+R11	Causitive Arg1:T26 Arg2:T8
+R12	Generate Arg1:T9 Arg2:T8
+R13	PartOf Arg1:T28 Arg2:T9
+R14	PartOf Arg1:T1 Arg2:T42
+R15	Causitive Arg1:T42 Arg2:T43
+R16	PartOf Arg1:T10 Arg2:T43
+R17	Causitive Arg1:T42 Arg2:T29
+R18	Causitive Arg1:T42 Arg2:T30
+R19	Causitive Arg1:T30 Arg2:T11
+R20	PartOf Arg1:T1 Arg2:T32
+R21	Spatial Arg1:T32 Arg2:T44
+R22	PartOf Arg1:T33 Arg2:T44
+R23	PartOf Arg1:T1 Arg2:T34
+R24	Purpose Arg1:T34 Arg2:T35
+R25	Purpose Arg1:T34 Arg2:T45
+R26	Attr Arg1:T12 Arg2:T45
+R27	Oper Arg1:T46 Arg2:T13
+R28	Oper Arg1:T46 Arg2:T36
+R29	Oper Arg1:T47 Arg2:T16
+R30	Oper Arg1:T47 Arg2:T37
+R31	Attr Arg1:T50 Arg2:T19
+R32	Attr Arg1:T50 Arg2:T20
+R33	Causitive Arg1:T38 Arg2:T39
+R34	Measurement Arg1:T48 Arg2:T49
+R35	Attr Arg1:T40 Arg2:T48

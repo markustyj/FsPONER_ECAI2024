@@ -1,0 +1,74 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Attribution 106 117	track width
+T3	Component 123 137	recording head
+T5	Component 167 190	thin-film magnetic head
+T6	Component 211 228	bottom pole layer
+T7	Component 235 249	top pole layer
+T14	Component 490 504	thin-film coil
+T17	Component 636 640	coil
+T18	Location 666 674	sidewall
+T20	Location 703 711	sidewall
+T21	Component 757 772	insulating film
+T22	Location 787 795	sidewall
+T24	Location 874 882	sidewall
+T25	Component 914 929	insulating film
+T26	Location 944 952	sidewall
+T28	Location 1030 1038	sidewall
+T4	Attribution 147 158	yoke length
+T8	Location 259 273	first portions
+T29	Location 287 293	region
+T30	Location 306 312	region
+T9	Component 326 340	thin-film coil
+T10	Location 342 357	second portions
+T11	Location 368 380	pole portion
+T31	Location 402 416	first portions
+T12	Location 422 436	third portions
+T13	Location 456 470	first portions
+T15	Location 527 541	second portion
+T16	Location 550 563	third portion
+T32	Component 579 590	pole layers
+T33	Location 600 628	outermost and innermost ends
+T19	Location 682 696	second portion
+T34	Location 719 732	third portion
+T35	Location 803 817	second portion
+T23	Location 840 853	outermost end
+T36	Component 861 865	coil
+T37	Location 890 904	second portion
+T27	Location 960 973	third portion
+T38	Location 996 1009	innermost end
+T39	Component 1017 1021	coil
+T40	Location 1046 1059	third portion
+T41	Effect 90 100	reductions
+R1	Attr Arg1:T3 Arg2:T2
+R2	PartOf Arg1:T6 Arg2:T8
+R3	PartOf Arg1:T7 Arg2:T8
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T5 Arg2:T7
+R6	PartOf Arg1:T6 Arg2:T10
+R7	PartOf Arg1:T7 Arg2:T10
+R8	PartOf Arg1:T29 Arg2:T30
+R9	PartOf Arg1:T6 Arg2:T12
+R10	PartOf Arg1:T7 Arg2:T12
+R11	Purpose Arg1:T12 Arg2:T13
+R12	Spatial Arg1:T30 Arg2:T9
+R13	Form Arg1:T10 Arg2:T11
+R14	Spatial Arg1:T10 Arg2:T31
+R15	Manner Arg1:T8 Arg2:T29
+R16	Spatial Arg1:T15 Arg2:T16
+R17	PartOf Arg1:T32 Arg2:T16
+R18	PartOf Arg1:T32 Arg2:T15
+R19	Spatial Arg1:T33 Arg2:T18
+R20	PartOf Arg1:T17 Arg2:T33
+R21	PartOf Arg1:T37 Arg2:T24
+R22	PartOf Arg1:T19 Arg2:T18
+R23	PartOf Arg1:T34 Arg2:T20
+R24	Spatial Arg1:T33 Arg2:T20
+R25	PartOf Arg1:T35 Arg2:T22
+R26	Manner Arg1:T21 Arg2:T22
+R27	PartOf Arg1:T36 Arg2:T23
+R28	Spatial Arg1:T23 Arg2:T24
+R29	Manner Arg1:T25 Arg2:T26
+R30	PartOf Arg1:T27 Arg2:T26
+R31	PartOf Arg1:T39 Arg2:T38
+R32	PartOf Arg1:T40 Arg2:T28
+R33	Spatial Arg1:T38 Arg2:T28

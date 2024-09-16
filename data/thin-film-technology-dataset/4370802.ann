@@ -1,0 +1,99 @@
+T1	System 21 53	thin film magnetic head assembly
+T2	Component 63 72	substrate
+T3	Component 90 119	thin film magnetic transducer
+T4	Component 153 182	thin film magnetic transducer
+T5	Component 192 208	conductive leads
+T6	Component 255 264	substrate
+T7	Component 316 336	thin film transducer
+T8	Component 344 353	substrate
+T9	Location 363 382	transducing portion
+T10	Attribution 412 416	edge
+T11	Component 424 433	substrate
+T12	Component 449 494	preformed planar conductive connecting member
+T13	Location 508 533	elongated support section
+T14	Component 553 588	spaced, aligned connecting elements
+T15	Material 598 621	relatively thin coating
+T16	Material 625 660	diffusable conductive metal coating
+T17	Location 676 680	side
+T19	Component 721 737	conductive leads
+T20	Component 747 766	connecting elements
+T21	Location 775 800	elongated support section
+T22	Component 822 831	substrate
+T23	Component 843 854	superstrate
+T24	Function 858 867	alignment
+T25	Component 877 886	substrate
+T26	Component 888 917	thin film magnetic transducer
+T27	Component 922 957	planar conductive connecting member
+T28	Attribution 967 974	surface
+T29	Component 1015 1034	connecting elements
+T30	System 1045 1057	sub-assembly
+T31	Shape 1075 1094	predetermined space
+T32	Attribution 1107 1116	dimension
+T33	Value 1130 1133	sum
+T34	Attribution 1141 1150	thickness
+T35	Component 1165 1181	conductive leads
+T36	Component 1187 1222	planar conductive connecting member
+T37	Attribution 1231 1240	thickness
+T38	Material 1248 1283	diffusable conductive metal coating
+T39	Material 1315 1334	insulating material
+T40	Attribution 1348 1368	spaced opposed edges
+T41	Location 1380 1388	vicinity
+T42	Location 1396 1415	transducing portion
+T43	Component 1423 1452	thin film magnetic transducer
+T44	System 1466 1478	sub-assembly
+T45	Component 1491 1502	superstrate
+T46	Component 1511 1520	substrate
+T47	EnergyFlow 1537 1551	clamping force
+T48	Material 1565 1600	diffusable conductive metal coating
+T49	Component 1626 1642	conductive leads
+T50	Component 1647 1666	connecting elements
+T51	Component 74 85	superstrate
+T52	Component 269 280	superstrate
+T18	Function 695 711	intimate contact
+T53	Function 986 1005	intimate engagement
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T51
+R3	PartOf Arg1:T1 Arg2:T3
+R4	Spatial Arg1:T3 Arg2:T51
+R5	Spatial Arg1:T3 Arg2:T2
+R6	PartOf Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T5 Arg2:T6
+R8	Spatial Arg1:T5 Arg2:T52
+R9	Spatial Arg1:T7 Arg2:T8
+R10	Attr Arg1:T11 Arg2:T10
+R11	PartOf Arg1:T7 Arg2:T9
+R12	Spatial Arg1:T9 Arg2:T10
+R13	Form Arg1:T13 Arg2:T12
+R14	Form Arg1:T14 Arg2:T12
+R15	PartOf Arg1:T14 Arg2:T16
+R16	Attr Arg1:T16 Arg2:T15
+R17	Manner Arg1:T17 Arg2:T16
+R18	Spatial Arg1:T16 Arg2:T19
+R19	Spatial Arg1:T23 Arg2:T25
+R20	PartOf Arg1:T19 Arg2:T20
+R21	PartOf Arg1:T19 Arg2:T21
+R22	Spatial Arg1:T20 Arg2:T22
+R23	Spatial Arg1:T21 Arg2:T22
+R24	Attr Arg1:T27 Arg2:T28
+R25	Spatial Arg1:T28 Arg2:T29
+R26	Form Arg1:T26 Arg2:T30
+R27	Form Arg1:T27 Arg2:T30
+R28	PartOf Arg1:T30 Arg2:T31
+R29	Attr Arg1:T31 Arg2:T32
+R30	Attr Arg1:T35 Arg2:T34
+R31	Attr Arg1:T34 Arg2:T33
+R32	Comparison Arg1:T32 Arg2:T33
+R33	Attr Arg1:T38 Arg2:T37
+R34	PartOf Arg1:T43 Arg2:T42
+R35	Attr Arg1:T42 Arg2:T41
+R36	Spatial Arg1:T39 Arg2:T40
+R37	Manner Arg1:T41 Arg2:T39
+R38	Spatial Arg1:T36 Arg2:T38
+R39	Causitive Arg1:T44 Arg2:T45
+R40	Causitive Arg1:T44 Arg2:T46
+R41	Causitive Arg1:T44 Arg2:T47
+R42	Purpose Arg1:T47 Arg2:T48
+R43	PartOf Arg1:T49 Arg2:T48
+R44	PartOf Arg1:T50 Arg2:T48
+R45	Purpose Arg1:T46 Arg2:T48
+R46	Purpose Arg1:T45 Arg2:T48

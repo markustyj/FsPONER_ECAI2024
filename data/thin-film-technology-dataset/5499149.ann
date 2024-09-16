@@ -1,0 +1,91 @@
+T2	Shape 35 63	improved head-disk interface
+T3	Component 78 96	transducer carrier
+T5	Component 211 225	lubricant film
+T6	Component 243 249	slider
+T7	Attribution 256 281	front air-bearing surface
+T8	Attribution 370 409	central nonair-bearing recessed surface
+T9	Component 471 481	front pads
+T10	Attribution 489 501	surface area
+T11	Component 527 535	rear pad
+T12	Attribution 555 569	positive pitch
+T13	Component 604 612	rear pad
+T14	Component 668 676	rear pad
+T16	Location 759 788	central nonair-bearing region
+T17	Component 909 917	rear pad
+T18	Component 925 931	slider
+T19	Component 942 946	disk
+T20	Component 1007 1015	rear pad
+T21	Attribution 1024 1036	leading edge
+T22	Component 1115 1129	lubricant film
+T25	ScientificConcept 1232 1256	unacceptable drag forces
+T26	ScientificConcept 1274 1283	lubricant
+T27	Component 1303 1311	rear pad
+T28	Attribution 1323 1342	skewed leading edge
+T29	Component 1377 1383	slider
+T30	Attribution 1400 1423	flying height variation
+T32	Component 2 27	data recording disk drive
+T4	Component 120 149	low-flying air-bearing slider
+T33	Component 233 237	disk
+T34	Component 307 338	equally-spaced air-bearing pads
+T35	Component 342 362	rear air-bearing pad
+T38	Component 580 586	slider
+T39	Component 692 703	air bearing
+T40	Location 711 723	rear portion
+T15	Component 731 737	slider
+T41	ScientificConcept 804 808	lift
+T42	Location 816 828	central part
+T43	Component 836 842	slider
+T44	Attribution 865 882	low-flying height
+T45	Attribution 888 901	flying height
+T46	Attribution 968 973	width
+T47	Component 981 1001	rear air-bearing pad
+T48	Attribution 1052 1065	trailing edge
+T49	Component 1137 1141	disk
+T50	Measure 1160 1181	lower disk velocities
+T23	Location 1191 1211	disk inside diameter
+T24	Component 1293 1297	disk
+T51	ScientificConcept 1365 1369	skew
+T52	Location 1433 1453	disk inside diameter
+T31	Location 1457 1473	outside diameter
+T53	Component 430 461	front and rear air-bearing pads
+T36	PhysicsFlow 643 646	air
+R2	PartOf Arg1:T32 Arg2:T2
+R3	PartOf Arg1:T3 Arg2:T2
+R4	InstanceOf Arg1:T3 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T33 Arg2:T5
+R7	Attr Arg1:T6 Arg2:T7
+R8	Spatial Arg1:T8 Arg2:T53
+R9	PartOf Arg1:T7 Arg2:T34
+R10	PartOf Arg1:T7 Arg2:T35
+R11	PartOf Arg1:T7 Arg2:T8
+R12	Attr Arg1:T9 Arg2:T10
+R13	Comparison Arg1:T9 Arg2:T11
+R14	Causitive Arg1:T10 Arg2:T12
+R15	Attr Arg1:T38 Arg2:T12
+R16	Manner Arg1:T14 Arg2:T36
+R17	PartOf Arg1:T15 Arg2:T40
+R18	Manner Arg1:T40 Arg2:T39
+R20	PartOf Arg1:T43 Arg2:T42
+R21	Causitive Arg1:T16 Arg2:T41
+R22	Manner Arg1:T42 Arg2:T41
+R23	Causitive Arg1:T41 Arg2:T44
+R24	PartOf Arg1:T18 Arg2:T17
+R25	Attr Arg1:T17 Arg2:T45
+R26	Spatial Arg1:T18 Arg2:T19
+R27	Attr Arg1:T47 Arg2:T46
+R28	Causitive Arg1:T46 Arg2:T45
+R29	Attr Arg1:T20 Arg2:T21
+R30	Comparison Arg1:T21 Arg2:T48
+R31	PartOf Arg1:T49 Arg2:T22
+R32	Spatial Arg1:T26 Arg2:T24
+R33	Attr Arg1:T27 Arg2:T28
+R34	Purpose Arg1:T28 Arg2:T51
+R35	Purpose Arg1:T51 Arg2:T30
+R36	Manner Arg1:T52 Arg2:T30
+R37	Manner Arg1:T31 Arg2:T30
+R38	Attr Arg1:T29 Arg2:T51
+R39	Manner Arg1:T23 Arg2:T50
+R1	Form Arg1:T36 Arg2:T39
+R19	Spatial Arg1:T20 Arg2:T22
+#1	AnnotatorNotes R19	漏标了

@@ -1,0 +1,35 @@
+T1	Component 3 36	inductive thin-film magnetic head
+T3	Function 68 87	reproduction output
+T4	Location 134 145	forward end
+T5	Component 159 178	lower magnetic core
+T6	Component 186 205	upper magnetic core
+T7	Attribution 214 224	same width
+T8	Component 232 237	track
+T9	Location 243 251	rear end
+T10	Component 267 286	lower magnetic core
+T11	Component 295 314	upper magnetic core
+T12	Location 353 364	forward end
+T13	Location 380 389	direction
+T14	Component 408 413	track
+T15	Component 425 444	lower magnetic core
+T16	Component 471 486	magnetic layers
+T17	Component 494 512	non-magnetic layer
+T2	Function 42 60	small fluctuations
+T18	ScientificConcept 92 98	noises
+T19	Function 103 115	reproduction
+R1	Oper Arg1:T19 Arg2:T18
+R2	Attr Arg1:T3 Arg2:T2
+R3	Attr Arg1:T1 Arg2:T2
+R4	Attr Arg1:T1 Arg2:T18
+R5	Attr Arg1:T5 Arg2:T4
+R6	Attr Arg1:T6 Arg2:T4
+R7	Attr Arg1:T4 Arg2:T7
+R8	Attr Arg1:T8 Arg2:T7
+R9	Attr Arg1:T10 Arg2:T9
+R10	Attr Arg1:T11 Arg2:T9
+R11	Manner Arg1:T13 Arg2:T9
+R12	Attr Arg1:T14 Arg2:T13
+R13	Form Arg1:T16 Arg2:T15
+R14	Form Arg1:T17 Arg2:T15
+R15	Spatial Arg1:T16 Arg2:T17
+R16	Comparison Arg1:T12 Arg2:T9

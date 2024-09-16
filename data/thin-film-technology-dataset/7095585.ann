@@ -1,0 +1,51 @@
+T1	System 4 30	information storage system
+T2	Component 42 52	transducer
+T3	Component 62 66	loop
+T4	Material 70 92	ferromagnetic material
+T5	Component 98 107	pole tips
+T6	Shape 124 144	nonferromagnetic gap
+T7	Material 167 173	medium
+T8	Component 184 194	rigid disk
+T9	Function 215 225	separation
+T10	Component 238 247	pole tips
+T11	Component 256 267	media layer
+T12	Component 275 279	disk
+T14	Function 307 321	gap separation
+T15	Shape 334 350	small separation
+T16	Component 363 372	pole tips
+T17	Component 381 392	media layer
+T18	EnergyFlow 398 412	magnetic field
+T19	Component 430 440	transducer
+T20	Material 457 462	media
+T21	InfoFlow 528 551	perpendicular recording
+T22	InfoFlow 557 579	longitudinal recording
+T23	Material 585 590	media
+T24	ScientificConcept 603 612	easy axis
+T25	Function 616 629	magnetization
+T26	Location 663 686	perpendicular direction
+T27	Function 696 722	perpendicular data storage
+T28	Component 753 763	transducer
+T29	Component 783 806	magnetoresistive sensor
+T30	InfoFlow 819 839	magnetic information
+T31	Component 849 853	disk
+T32	Others 285 299	small fraction
+T13	Component 495 517	longitudinal component
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T3
+R4	InstanceOf Arg1:T8 Arg2:T7
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T5 Arg2:T6
+R7	Spatial Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T12 Arg2:T11
+R9	PartOf Arg1:T14 Arg2:T32
+R10	Spatial Arg1:T16 Arg2:T17
+R11	Generate Arg1:T19 Arg2:T18
+R12	Comparison Arg1:T18 Arg2:T13
+R13	Purpose Arg1:T18 Arg2:T21
+R14	Attr Arg1:T25 Arg2:T24
+R15	PartOf Arg1:T23 Arg2:T24
+R16	Manner Arg1:T24 Arg2:T26
+R17	PartOf Arg1:T28 Arg2:T29
+R18	PartOf Arg1:T31 Arg2:T30
+R19	Purpose Arg1:T29 Arg2:T30

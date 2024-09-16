@@ -1,0 +1,51 @@
+T1	Component 2 22	first magnetic layer
+T2	Component 45 63	magnetic yoke film
+T3	EnergyFlow 78 101	closed magnetic circuit
+T4	Shape 115 127	magnetic gap
+T5	Component 168 186	magnetic yoke film
+T6	Component 198 223	magnetic separation layer
+T7	Component 231 252	second magnetic layer
+T8	Component 264 287	antiferromagnetic layer
+T9	Component 313 333	first magnetic layer
+T10	Component 358 368	electrodes
+T11	Component 399 407	laminate
+T12	Component 423 435	above layers
+T13	Component 462 472	electrodes
+T14	Component 476 497	permanent magnet film
+T15	EnergyFlow 523 542	bias magnetic field
+T16	Component 550 570	first magnetic layer
+T17	Component 580 605	magnetic separation layer
+T18	Component 626 635	insulator
+T19	EnergyFlow 637 651	Tunnel current
+T20	Component 680 690	electrodes
+T21	Component 710 735	magnetic separation layer
+T22	InfoFlow 745 761	magnetic signals
+T23	Component 769 787	magnetic yoke film
+T24	EnergyFlow 818 867	antiferromagnetic tunnel magnetoresistance effect
+T25	EnergyFlow 877 891	tunnel current
+T27	Location 956 979	magnetization direction
+T28	Component 992 1012	first magnetic layer
+T29	Component 1025 1046	second magnetic layer
+T26	ScientificConcept 921 930	variation
+R1	PartOf Arg1:T3 Arg2:T4
+R2	Spatial Arg1:T1 Arg2:T2
+R4	Spatial Arg1:T3 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T9
+R6	Spatial Arg1:T7 Arg2:T9
+R7	Spatial Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T11 Arg2:T12
+R9	Spatial Arg1:T11 Arg2:T13
+R11	Form Arg1:T18 Arg2:T17
+R12	Manner Arg1:T19 Arg2:T20
+R13	PartOf Arg1:T23 Arg2:T22
+R14	Manner Arg1:T21 Arg2:T19
+R15	Manner Arg1:T24 Arg2:T22
+R16	PartOf Arg1:T28 Arg2:T27
+R17	PartOf Arg1:T29 Arg2:T27
+R18	Manner Arg1:T26 Arg2:T25
+#2	AnnotatorNotes R12	电流、水流、气流在xx间流动，穿过xx流动，用manner标引XX-->电流--
+#3	AnnotatorNotes R16	第一磁性层和第二磁性层之间的磁场方向，那么显然第一磁性层和第二磁性层是相邻的，这两者之间有spatial关系
+R3	Form Arg1:T2 Arg2:T3
+R10	Causitive Arg1:T14 Arg2:T15
+R19	Causitive Arg1:T14 Arg2:T16
+R20	Spatial Arg1:T28 Arg2:T29

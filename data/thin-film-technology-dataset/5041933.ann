@@ -1,0 +1,24 @@
+T1	System 2 33	magnetic head suspension system
+T2	Function 47 71	photofinishing operation
+T3	Component 84 97	fixed support
+T4	System 112 147	magentic head suspension assemblies
+T6	Component 178 185	support
+T7	System 191 226	magnetic head suspension assemblies
+T8	Component 289 293	film
+T9	System 313 346	magnetic head suspension assembly
+T10	Component 376 389	fixed support
+T13	Location 469 489	constant orientation
+T14	Component 497 511	magnetic heads
+T15	Attribution 532 542	film edges
+T5	Attribution 267 281	opposite edges
+T16	Consequence 408 429	film width variations
+T11	Consequence 434 458	film edge irregularities
+R1	Oper Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T6
+R5	Attr Arg1:T8 Arg2:T5
+R6	Spatial Arg1:T7 Arg2:T5
+R7	Purpose Arg1:T9 Arg2:T16
+R8	Purpose Arg1:T9 Arg2:T11
+R9	Attr Arg1:T14 Arg2:T13

@@ -1,0 +1,42 @@
+T1	Material 3 17	magnetic media
+T2	Component 25 36	servo track
+T3	Component 52 85	thin film magnetic recording head
+T4	System 98 111	servo pattern
+T5	EnergyFlow 131 147	focused ion beam
+T6	EnergyFlow 149 152	FIB
+T7	Component 159 173	recording head
+T8	Component 204 236	magnetically permeable thin film
+T9	Component 244 253	substrate
+T10	System 257 268	gap pattern
+T11	Component 287 296	thin film
+T12	EnergyFlow 305 308	FIB
+T13	Shape 316 319	gap
+T14	Component 332 341	thin film
+T15	Component 385 399	recording head
+T16	Component 419 430	servo track
+T17	Component 438 451	magnetic tape
+T18	Component 457 468	servo track
+T19	Function 489 506	precise alignment
+T20	Component 510 525	data read heads
+T21	Component 576 591	servo read head
+T24	System 356 363	pattern
+T25	InfoFlow 539 561	positional information
+T22	Component 608 641	continuously variable servo track
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T3 Arg2:T2
+R3	Causitive Arg1:T12 Arg2:T13
+R4	Causitive Arg1:T12 Arg2:T14
+R6	Spatial Arg1:T10 Arg2:T11
+R9	Purpose Arg1:T15 Arg2:T16
+R10	Causitive Arg1:T16 Arg2:T17
+R11	Causitive Arg1:T8 Arg2:T9
+R12	Causitive Arg1:T3 Arg2:T4
+R7	Alias Arg1:T5 Arg2:T6
+R8	Oper Arg1:T19 Arg2:T20
+R13	Causitive Arg1:T21 Arg2:T22
+R14	Generate Arg1:T21 Arg2:T25
+R15	Purpose Arg1:T18 Arg2:T19
+R16	Causitive Arg1:T8 Arg2:T7
+R17	Manner Arg1:T25 Arg2:T18
+R18	Causitive Arg1:T5 Arg2:T4
+R5	Manner Arg1:T24 Arg2:T12

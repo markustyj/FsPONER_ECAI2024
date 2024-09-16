@@ -1,0 +1,26 @@
+T1	Component 21 53	magnetoresistance effect element
+T2	Component 66 98	first pinned ferromagnetic layer
+T3	Component 102 135	second pinned ferromagnetic layer
+T4	Component 147 179	first pinned ferromagnetic layer
+T5	Location 181 196	surface regions
+T6	Component 204 247	first and second pinned ferromagnetic layer
+T7	Component 316 340	free ferromagnetic layer
+T8	Component 365 409	first and second pinned ferromagnetic layers
+T9	Component 413 439	first tunnel barrier layer
+T10	Component 464 496	first pinned ferromagnetic layer
+T11	Component 505 529	free ferromagnetic layer
+T12	Component 537 564	second tunnel barrier layer
+T13	Component 589 622	second pinned ferromagnetic layer
+T14	Component 631 655	free ferromagnetic layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T6 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T8
+R7	PartOf Arg1:T1 Arg2:T9
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T9 Arg2:T11
+R10	PartOf Arg1:T1 Arg2:T12
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Spatial Arg1:T12 Arg2:T14

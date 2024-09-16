@@ -1,0 +1,37 @@
+T1	Component 3 42	elongated magnetoresistive sensor strip
+T2	Location 79 105	single domain sense region
+T3	Material 109 134	exchange-biasing material
+T4	Component 161 166	strip
+T5	Component 186 191	strip
+T9	Component 277 290	magnetic head
+T10	EnergyFlow 383 395	leading pole
+T11	EnergyFlow 404 417	trailing pole
+T12	EnergyFlow 458 471	trailing pole
+T13	Component 480 486	shield
+T16	Location 174 178	ends
+T17	Location 192 199	outside
+T6	Location 205 225	central sense region
+T7	Component 231 259	magnetoresistive sense strip
+T8	EnergyFlow 303 315	leading pole
+T18	EnergyFlow 319 332	trailing pole
+T19	Component 340 346	shield
+T20	Shape 350 359	first gap
+T21	Shape 424 434	second gap
+T14	Component 496 507	sense strip
+T15	Shape 523 533	second gap
+R1	Attr Arg1:T5 Arg2:T16
+R2	Attr Arg1:T6 Arg2:T17
+R3	Manner Arg1:T16 Arg2:T4
+R4	Causitive Arg1:T3 Arg2:T4
+R5	Causitive Arg1:T1 Arg2:T3
+R6	Purpose Arg1:T1 Arg2:T2
+R7	PartOf Arg1:T9 Arg2:T7
+R8	PartOf Arg1:T9 Arg2:T8
+R9	PartOf Arg1:T9 Arg2:T18
+R10	PartOf Arg1:T9 Arg2:T19
+R11	PartOf Arg1:T13 Arg2:T14
+R12	Spatial Arg1:T20 Arg2:T10
+R13	Spatial Arg1:T20 Arg2:T11
+R14	Spatial Arg1:T21 Arg2:T12
+R15	Spatial Arg1:T21 Arg2:T13
+R16	Spatial Arg1:T14 Arg2:T15

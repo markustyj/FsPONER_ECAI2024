@@ -1,0 +1,23 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 89 104	conductive coil
+T3	PhysicsFlow 170 208	thermally activated crosslinking agent
+T4	PhysicsFlow 242 280	thermally activated crosslinking agent
+T5	Component 51 72	electrical insulation
+T6	Material 117 137	photosensitive resin
+T7	PhysicsFlow 212 220	promotor
+T8	PhysicsFlow 284 292	promotor
+T9	Measure 318 334	cure temperature
+T10	Measure 339 348	cure time
+T12	Effect 364 394	enhanced dimensional stability
+T13	Consequence 407 426	deleterious effects
+R1	Spatial Arg1:T5 Arg2:T2
+R2	PartOf Arg1:T5 Arg2:T6
+R3	Spatial Arg1:T6 Arg2:T3
+R4	Spatial Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T1 Arg2:T5
+R6	Causitive Arg1:T4 Arg2:T9
+R7	Causitive Arg1:T4 Arg2:T10
+R8	Causitive Arg1:T8 Arg2:T9
+R9	Causitive Arg1:T8 Arg2:T10
+R10	Purpose Arg1:T4 Arg2:T12
+R11	Purpose Arg1:T8 Arg2:T12

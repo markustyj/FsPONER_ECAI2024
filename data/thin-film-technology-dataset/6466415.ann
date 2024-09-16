@@ -1,0 +1,42 @@
+T1	Component 25 48	thin film magnetic head
+T2	Location 61 79	first pole portion
+T3	Location 87 104	depressed portion
+T4	Location 133 150	depressed portion
+T5	Location 181 199	first pole portion
+T6	Attribution 206 229	first inclination angle
+T7	Location 246 278	first inclination starting point
+T8	Component 292 307	insulating film
+T9	Location 328 345	depressed portion
+T10	Location 382 392	upper side
+T11	Attribution 400 407	surface
+T12	EnergyFlow 415 425	first pole
+T13	Attribution 438 454	inclined surface
+T14	Location 462 466	side
+T15	Attribution 472 495	medium opposing surface
+T16	Component 513 532	first magnetic film
+T17	Location 538 557	second pole portion
+T18	Effect 569 607	larger saturated magnetic flux density
+T19	Component 615 635	second magnetic film
+T20	Location 643 662	second pole portion
+T21	Location 683 699	inclined portion
+T22	Attribution 707 731	second inclination angle
+T23	Location 748 781	second inclination starting point
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T5 Arg2:T4
+R4	Manner Arg1:T6 Arg2:T4
+R5	Manner Arg1:T7 Arg2:T4
+R6	Spatial Arg1:T8 Arg2:T9
+R8	Attr Arg1:T11 Arg2:T10
+R9	Attr Arg1:T12 Arg2:T11
+R7	Purpose Arg1:T9 Arg2:T10
+R10	Purpose Arg1:T9 Arg2:T13
+R11	Attr Arg1:T15 Arg2:T14
+R12	Manner Arg1:T14 Arg2:T13
+R13	PartOf Arg1:T17 Arg2:T16
+R14	PartOf Arg1:T20 Arg2:T19
+R15	Comparison Arg1:T16 Arg2:T19
+R16	Attr Arg1:T16 Arg2:T18
+R17	PartOf Arg1:T16 Arg2:T21
+R18	Attr Arg1:T21 Arg2:T22
+R19	Manner Arg1:T23 Arg2:T22

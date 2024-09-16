@@ -1,0 +1,49 @@
+T1	Component 2 23	magnetoresistive head
+T9	Component 364 388	magnetoresistive element
+T10	Component 468 495	first and second gap layers
+T12	Component 567 577	MR element
+T14	Component 656 666	MR element
+T16	Component 747 759	shield layer
+T19	Component 962 969	shields
+T20	Component 1041 1048	shields
+T2	Component 53 95	magnetoresistive thin film sensing element
+T21	Component 101 116	sensing element
+T4	Component 242 261	air bearing surface
+T22	Attribution 203 217	bottom surface
+T23	Attribution 184 197	side surfaces
+T24	Attribution 156 179	top and bottom surfaces
+T3	Attribution 121 134	film surfaces
+T5	Component 263 300	First and second thin film gap layers
+T6	Component 305 345	first and second thin film shield layers
+T7	Component 405 432	first and second gap layers
+T8	Component 438 462	magnetoresistive element
+T11	Component 520 550	first and second shield layers
+T15	Component 698 717	second shield layer
+T25	Location 636 648	opposite end
+T13	Component 609 627	first shield layer
+T26	Location 556 559	end
+T28	Component 800 821	magnetoresistive head
+T29	Others 882 909	electrical shorting problem
+T30	EnergyFlow 935 949	gap insulation
+T31	Attribution 983 992	thickness
+T32	EnergyFlow 1000 1014	gap insulation
+T33	Component 1027 1032	leads
+T18	Component 848 876	current carrying lead layers
+T17	Component 769 791	current carrying leads
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T21 Arg2:T3
+R3	Attr Arg1:T21 Arg2:T22
+R4	Form Arg1:T22 Arg2:T4
+R5	Spatial Arg1:T8 Arg2:T11
+R6	Spatial Arg1:T10 Arg2:T11
+R7	Attr Arg1:T12 Arg2:T26
+R8	Attr Arg1:T14 Arg2:T25
+R9	Form Arg1:T16 Arg2:T17
+R10	Purpose Arg1:T17 Arg2:T28
+R11	Attr Arg1:T32 Arg2:T31
+R13	Spatial Arg1:T32 Arg2:T33
+R14	Spatial Arg1:T32 Arg2:T20
+T27	Component 1052 1067	prior art heads
+R15	PartOf Arg1:T27 Arg2:T20
+R16	Spatial Arg1:T30 Arg2:T19
+R12	Comparison Arg1:T30 Arg2:T31

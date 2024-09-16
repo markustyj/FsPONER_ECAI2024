@@ -1,0 +1,22 @@
+T1	System 2 34	thin film magnetic head assembly
+T2	Component 41 78	multi-turn electrical conducting coil
+T3	Function 99 109	deposition
+T4	Shape 116 134	elliptical pattern
+T5	Shape 153 171	elliptical pattern
+T6	Location 177 195	coil turn portions
+T7	Component 208 224	back gap closure
+T8	Shape 229 244	transducing gap
+T9	Component 252 266	thin film head
+T10	Location 302 320	coil turn portions
+T11	Shape 339 354	transducing gap
+T12	Location 367 374	Corners
+T13	Location 379 389	sharp ends
+T14	EnergyFlow 406 435	Electrical resistance effects
+T15	Function 462 475	signal output
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T3
+R3	Attr Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T6 Arg2:T8
+R6	Attr Arg1:T9 Arg2:T8
+R7	Causitive Arg1:T6 Arg2:T5

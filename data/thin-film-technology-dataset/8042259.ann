@@ -1,0 +1,25 @@
+T1	Component 3 26	magnetic recording head
+T2	Component 71 94	magnetic recording head
+T4	EnergyFlow 125 134	main pole
+T5	EnergyFlow 141 152	return pole
+T6	System 158 163	stack
+T7	Component 175 195	first magnetic layer
+T8	Component 231 247	insulating layer
+T9	Attribution 259 266	surface
+T11	Component 354 370	insulating layer
+T12	System 106 111	stack
+T3	Shape 205 211	groove
+T13	Shape 274 280	groove
+T14	Shape 330 336	groove
+T10	System 288 317	second magnetic layer pattern
+R1	PartOf Arg1:T2 Arg2:T12
+R2	PartOf Arg1:T12 Arg2:T4
+R3	PartOf Arg1:T12 Arg2:T5
+R4	PartOf Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T7 Arg2:T3
+R6	PartOf Arg1:T6 Arg2:T8
+R7	Attr Arg1:T13 Arg2:T9
+R8	Causitive Arg1:T8 Arg2:T9
+R9	PartOf Arg1:T6 Arg2:T10
+R10	Causitive Arg1:T10 Arg2:T14
+R12	Causitive Arg1:T14 Arg2:T11

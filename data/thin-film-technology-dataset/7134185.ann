@@ -1,0 +1,30 @@
+T1	Component 35 57	microscopic transducer
+T2	Component 126 149	adjoining sensor layers
+T3	Component 155 168	sensor layers
+T4	Component 179 208	first magnetically soft layer
+T5	Component 212 229	nonmagnetic layer
+T6	Component 237 266	first magnetically soft layer
+T7	Component 274 304	second magnetically soft layer
+T8	Component 312 329	nonmagnetic layer
+T9	Location 376 384	sidewall
+T10	Component 394 424	second magnetically soft layer
+T11	Function 430 448	sidewall formation
+T12	Component 468 472	base
+T13	Attribution 482 489	surface
+T14	Component 534 547	sensor layers
+T15	Material 566 598	electrically conductive material
+T16	Attribution 606 613	surface
+T17	Component 676 689	sensor layers
+T18	Location 709 717	sidewall
+R1	PartOf Arg1:T3 Arg2:T4
+R2	PartOf Arg1:T3 Arg2:T5
+R3	PartOf Arg1:T3 Arg2:T7
+R4	Spatial Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Manner Arg1:T10 Arg2:T9
+R7	PartOf Arg1:T11 Arg2:T12
+R8	Attr Arg1:T12 Arg2:T13
+R9	Manner Arg1:T13 Arg2:T14
+R10	PartOf Arg1:T11 Arg2:T15
+R11	Manner Arg1:T15 Arg2:T16
+R12	Attr Arg1:T17 Arg2:T18

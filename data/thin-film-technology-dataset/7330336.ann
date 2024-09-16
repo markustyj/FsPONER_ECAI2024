@@ -1,0 +1,41 @@
+T1	Component 3 27	magnetic read/write head
+T2	Component 37 52	heating element
+T3	Effect 65 79	desired amount
+T5	Component 109 132	read and write elements
+T6	Attribution 148 158	fly height
+T7	Component 166 189	read and write elements
+T8	Material 197 212	magnetic medium
+T9	Component 218 233	heating element
+T10	EnergyFlow 252 261	circuitry
+T12	EnergyFlow 307 314	current
+T14	Component 420 435	heating element
+T15	Component 457 472	heating element
+T17	Component 607 624	disk drive device
+T18	Component 693 711	dual polarity bias
+T19	Component 750 757	AC bias
+T20	Component 765 780	heating element
+T4	EnergyFlow 279 294	electrical bias
+T11	EnergyFlow 296 303	voltage
+T21	Consequence 359 375	electromigration
+T13	Component 83 101	thermal protrusion
+T16	ScientificConcept 408 412	life
+T22	Function 550 570	read or write events
+T23	ScientificConcept 498 508	occurrence
+T24	Others 514 533	predetermined event
+T25	Others 650 687	regular, predetermined time intervals
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T2 Arg2:T3
+R3	Attr Arg1:T13 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T13
+R5	Attr Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Purpose Arg1:T10 Arg2:T4
+R9	InstanceOf Arg1:T11 Arg2:T4
+R10	InstanceOf Arg1:T12 Arg2:T4
+R12	Attr Arg1:T14 Arg2:T16
+R13	Causitive Arg1:T18 Arg2:T19
+R14	Causitive Arg1:T19 Arg2:T20
+R15	Manner Arg1:T23 Arg2:T15
+R11	Attr Arg1:T23 Arg2:T24
+R16	InstanceOf Arg1:T22 Arg2:T24

@@ -1,0 +1,54 @@
+T1	Function 62 75	magnetization
+T2	Component 81 113	single domain thin magnetic film
+T4	Component 202 215	magnetic film
+T5	Location 304 320	transverse sides
+T6	Component 328 332	film
+T8	Function 453 466	magnetization
+T11	Location 687 703	transverse sides
+T12	Function 884 897	magnetization
+T13	Function 919 932	magnetization
+T3	Component 142 163	rectangular thin film
+T14	Shape 221 229	rhomboid
+T15	Shape 247 255	rectangl
+T16	Location 353 371	longitudinal sides
+T17	Measure 385 390	angle
+T18	Measure 422 427	angle
+T19	ScientificConcept 504 513	easy axis
+T9	EnergyFlow 536 555	external bias field
+T20	Component 612 616	film
+T10	Function 584 604	biased magnetization
+T21	Measure 652 666	positive angle
+T22	Shape 711 719	rhomboid
+T23	Attribution 756 772	transverse edges
+T24	Component 780 784	film
+T25	Location 854 876	longitudinal component
+T26	Location 940 953	single domain
+T27	EnergyFlow 808 815	charges
+T28	Effect 31 54	increased stabilization
+T29	EnergyFlow 435 445	bias point
+T7	Location 487 496	direction
+T30	EnergyFlow 741 748	charges
+T31	EnergyFlow 832 837	field
+R1	Attr Arg1:T4 Arg2:T14
+R4	Purpose Arg1:T4 Arg2:T28
+R2	Comparison Arg1:T4 Arg2:T3
+R3	Attr Arg1:T2 Arg2:T1
+R5	Attr Arg1:T1 Arg2:T28
+R6	Attr Arg1:T6 Arg2:T5
+R7	Spatial Arg1:T5 Arg2:T16
+R8	Manner Arg1:T17 Arg2:T16
+R9	Attr Arg1:T19 Arg2:T7
+R10	Comparison Arg1:T17 Arg2:T18
+R11	Attr Arg1:T8 Arg2:T29
+R12	Manner Arg1:T18 Arg2:T29
+R13	Spatial Arg1:T29 Arg2:T7
+R14	Attr Arg1:T24 Arg2:T23
+R15	Attr Arg1:T22 Arg2:T11
+R16	Oper Arg1:T10 Arg2:T20
+R17	Spatial Arg1:T20 Arg2:T11
+R18	Manner Arg1:T21 Arg2:T11
+R19	Generate Arg1:T20 Arg2:T27
+R20	Generate Arg1:T27 Arg2:T31
+R21	Spatial Arg1:T31 Arg2:T25
+R22	Attr Arg1:T12 Arg2:T25
+R23	Attr Arg1:T26 Arg2:T13

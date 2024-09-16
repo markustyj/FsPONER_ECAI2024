@@ -1,0 +1,43 @@
+T1	Component 2 25	magnetic thin-film head
+T3	Component 95 125	ring head-like conduction body
+T4	EnergyFlow 144 157	magnetic flux
+T8	Component 461 474	magnetic head
+T9	Component 618 627	substrate
+T11	Component 714 725	magnet legs
+T13	Material 32 48	recording medium
+T2	Component 178 199	nonmagnetic substrate
+T14	Component 205 220	conduction body
+T15	Component 229 240	magnet legs
+T5	Shape 291 300	small gap
+T16	Attribution 301 306	width
+T6	Location 338 347	leg parts
+T17	Shape 380 383	gap
+T18	Attribution 384 389	width
+T7	Component 424 447	write/read coil winding
+T19	Effect 530 550	high reproducibility
+T20	Effect 566 581	high efficiency
+T21	Effect 589 612	write and read function
+T10	Location 691 699	leg part
+T12	Component 747 770	write/read coil winding
+T22	Location 647 657	depression
+T23	Component 246 261	end pole pieces
+T24	ScientificConcept 483 507	manufacturing advantages
+R1	Purpose Arg1:T1 Arg2:T13
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Causitive Arg1:T3 Arg2:T2
+R4	Causitive Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T14 Arg2:T15
+R6	PartOf Arg1:T15 Arg2:T23
+R7	PartOf Arg1:T23 Arg2:T5
+R8	Attr Arg1:T5 Arg2:T16
+R9	PartOf Arg1:T23 Arg2:T6
+R10	Comparison Arg1:T6 Arg2:T17
+R11	Attr Arg1:T17 Arg2:T18
+R12	Purpose Arg1:T8 Arg2:T24
+R13	Purpose Arg1:T8 Arg2:T19
+R14	Purpose Arg1:T8 Arg2:T20
+R15	Attr Arg1:T21 Arg2:T20
+R16	PartOf Arg1:T9 Arg2:T22
+R17	PartOf Arg1:T11 Arg2:T10
+R18	Spatial Arg1:T22 Arg2:T10
+R19	Spatial Arg1:T22 Arg2:T12

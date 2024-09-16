@@ -1,0 +1,21 @@
+T1	Component 15 28	magnetic head
+T2	Function 32 51	thin film technique
+T3	Component 55 68	magnetic film
+T4	Component 85 102	insulating member
+T5	Component 112 132	coil conductor films
+T6	Attribution 143 150	surface
+T7	Component 158 175	insulating member
+T8	Component 198 216	flattening coating
+T9	Component 234 251	insulating member
+T10	Component 257 275	flattening coating
+T11	Component 291 308	insulating member
+T12	Function 323 356	plasma-assisted etching technique
+T13	Attribution 381 388	surface
+R1	Oper Arg1:T2 Arg2:T1
+R2	Attr Arg1:T7 Arg2:T6
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Oper Arg1:T12 Arg2:T11
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Oper Arg1:T12 Arg2:T10
+R8	Purpose Arg1:T10 Arg2:T13

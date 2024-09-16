@@ -1,0 +1,46 @@
+T1	Component 36 69	thin film magnetic recording head
+T2	Function 86 100	erase fringing
+T5	Component 178 182	head
+T8	Component 306 321	recording heads
+T9	Function 328 342	erase fringing
+T10	Material 350 365	magnetic medium
+T11	Component 416 430	recording head
+T14	EnergyFlow 490 504	magnetic poles
+T15	Component 523 526	ABS
+T16	Function 562 576	erase fringing
+T17	Material 584 609	magnetic recording medium
+T3	Component 139 172	thin film magnetic recording head
+T4	Material 273 298	magnetic recording medium
+T7	Function 377 393	write operations
+T12	Component 464 467	ABS
+T13	Location 468 475	portion
+T19	Function 650 664	erase fringing
+T20	System 233 267	alternating magnetization patterns
+T6	EnergyFlow 763 777	data integrity
+T18	EnergyFlow 711 723	disk density
+T21	Component 541 552	zero throat
+T22	Shape 534 537	gap
+T23	System 399 408	structure
+T24	Effect 699 707	increase
+T25	Function 755 759	loss
+T26	Component 670 687	present invention
+T27	Component 438 455	present invention
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T5 Arg2:T4
+R4	Purpose Arg1:T8 Arg2:T9
+R5	Oper Arg1:T9 Arg2:T10
+R6	Oper Arg1:T7 Arg2:T8
+R7	PartOf Arg1:T11 Arg2:T23
+R8	PartOf Arg1:T23 Arg2:T12
+R9	PartOf Arg1:T23 Arg2:T13
+R10	PartOf Arg1:T14 Arg2:T13
+R11	PartOf Arg1:T14 Arg2:T12
+R12	Spatial Arg1:T15 Arg2:T22
+R13	Attr Arg1:T21 Arg2:T22
+R14	Purpose Arg1:T23 Arg2:T16
+R15	Oper Arg1:T16 Arg2:T17
+R16	Oper Arg1:T24 Arg2:T18
+R17	Purpose Arg1:T26 Arg2:T24
+R18	Oper Arg1:T25 Arg2:T6
+R19	Manner Arg1:T19 Arg2:T26

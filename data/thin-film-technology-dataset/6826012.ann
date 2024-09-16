@@ -1,0 +1,56 @@
+T1	Component 2 16	recording head
+T2	Component 23 40	bottom pole layer
+T3	Component 47 61	top pole layer
+T4	Location 75 88	pole portions
+T5	Component 96 115	recording gap layer
+T6	Location 135 148	pole portions
+T7	Component 154 168	recording head
+T8	Component 183 197	thin-film coil
+T9	Component 217 243	bottom and top pole layers
+T10	Component 249 253	coil
+T11	Component 279 290	pole layers
+T12	Component 296 313	bottom pole layer
+T13	Location 325 338	first portion
+T14	Location 345 359	second portion
+T15	Location 365 378	first portion
+T16	Location 395 401	region
+T17	Component 420 434	thin-film coil
+T18	Component 439 455	insulating layer
+T19	Component 481 498	bottom pole layer
+T20	Component 507 511	coil
+T21	Location 517 531	second portion
+T22	Attribution 550 557	surface
+T23	Location 565 578	first portion
+T24	Component 597 611	thin-film coil
+T25	Location 617 631	second portion
+T26	Location 642 654	pole portion
+T27	Attribution 669 682	throat height
+T28	Component 688 702	thin-film coil
+T29	Location 719 723	side
+T30	Location 731 745	second portion
+T31	Attribution 747 760	Throat height
+T32	Attribution 761 763	TH
+T33	Attribution 780 789	MR height
+T34	Attribution 790 794	MR-H
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	PartOf Arg1:T3 Arg2:T4
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T12 Arg2:T14
+R9	PartOf Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T21 Arg2:T22
+R11	Attr Arg1:T23 Arg2:T22
+R12	Spatial Arg1:T16 Arg2:T17
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Spatial Arg1:T22 Arg2:T24
+R15	Spatial Arg1:T19 Arg2:T20
+R16	Attr Arg1:T30 Arg2:T29
+R17	Spatial Arg1:T28 Arg2:T29
+R18	Alias Arg1:T31 Arg2:T32
+R19	Alias Arg1:T33 Arg2:T34
+R20	Comparison Arg1:T32 Arg2:T34
+R21	Form Arg1:T25 Arg2:T26
+R22	Purpose Arg1:T25 Arg2:T27

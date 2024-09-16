@@ -1,0 +1,37 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 42 60	magnetic thin film
+T3	Attribution 70 101	magnetostrictive characteristic
+T4	Location 126 138	central part
+T5	Component 142 155	magnetic core
+T6	Component 170 188	magnetic thin film
+T7	EnergyFlow 195 230	positive magnetostriction constants
+T8	Location 236 246	side parts
+T9	Component 254 267	magnetic core
+T10	Location 271 281	both sides
+T11	Location 289 301	central part
+T13	EnergyFlow 357 363	stress
+T14	Function 375 385	patterning
+T15	Component 393 406	magnetic core
+T16	Attribution 418 441	magnetic characteristic
+T17	Component 449 462	magnetic core
+T18	EnergyFlow 468 480	permeability
+T19	Component 488 501	magnetic core
+T20	EnergyFlow 524 542	magnetic stability
+T21	InfoFlow 579 585	signal
+T22	Component 605 618	magnetic head
+T23	Effect 625 642	high output level
+T24	ScientificConcept 658 669	noise level
+T12	EnergyFlow 307 342	negative magnetostriction constants
+R1	Attr Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T5 Arg2:T4
+R3	Form Arg1:T6 Arg2:T5
+R4	Attr Arg1:T4 Arg2:T7
+R5	PartOf Arg1:T9 Arg2:T8
+R6	Attr Arg1:T8 Arg2:T12
+R7	Spatial Arg1:T8 Arg2:T10
+R8	PartOf Arg1:T11 Arg2:T10
+R9	Oper Arg1:T14 Arg2:T15
+R10	Attr Arg1:T17 Arg2:T16
+R11	Causitive Arg1:T13 Arg2:T16
+R12	Attr Arg1:T19 Arg2:T18
+R13	Generate Arg1:T22 Arg2:T21

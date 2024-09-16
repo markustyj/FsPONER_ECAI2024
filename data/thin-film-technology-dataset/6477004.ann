@@ -1,0 +1,71 @@
+T1	Component 5 28	thin film magnetic head
+T2	Component 41 61	first magnetic layer
+T3	Component 68 83	write gap layer
+T4	Component 93 114	second magnetic layer
+T5	Component 134 143	substrate
+T6	Component 167 188	thin film coil layers
+T7	Component 210 242	first and second magnetic layers
+T8	Attribution 266 286	magnetic path length
+T9	Component 294 308	thin film coil
+T10	Attribution 324 339	characteristics
+T11	Shape 354 361	spacing
+T12	Component 370 394	successive coil windings
+T13	Component 411 431	thin film coil layer
+T14	Component 435 453	silicon oxide film
+T15	Component 474 494	first magnetic layer
+T16	Shape 499 519	coil-shaped recesses
+T17	Function 539 559	reactive ion etching
+T18	Attribution 565 572	surface
+T19	Component 580 599	silicon oxide layer
+T20	Shape 607 621	narrow spacing
+T21	Component 625 637	copper layer
+T22	Material 654 660	Cu-CVD
+T23	Component 666 678	copper layer
+T24	Attribution 712 719	surface
+T25	Component 727 746	silicon oxide layer
+T26	Component 766 779	coil windings
+T27	Component 790 816	first thin film coil layer
+T28	Component 826 841	write gap layer
+T29	Component 859 872	coil windings
+T30	Component 883 909	inorganic insulating layer
+T31	Material 918 931	silicon oxide
+T32	Material 933 948	silicon nitride
+T33	Material 952 959	alumina
+T34	Function 988 1003	fine processing
+T35	Function 1009 1029	reactive ion etching
+T36	Component 1043 1056	coil windings
+T38	Value 1114 1127	0.3-0.5 .mu.m
+T39	Function 694 697	CMP
+T37	Shape 1082 1105	extremely small spacing
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T1 Arg2:T6
+R7	Attr Arg1:T9 Arg2:T8
+R8	PartOf Arg1:T13 Arg2:T12
+R9	Spatial Arg1:T11 Arg2:T12
+#1	AnnotatorNotes R9	连续线圈绕组之间的间隔，答：可以
+R10	Purpose Arg1:T11 Arg2:T10
+R11	Spatial Arg1:T14 Arg2:T15
+R12	Oper Arg1:T17 Arg2:T18
+R13	Attr Arg1:T19 Arg2:T18
+R14	PartOf Arg1:T18 Arg2:T16
+R15	Oper Arg1:T22 Arg2:T21
+R16	Oper Arg1:T39 Arg2:T23
+R17	Attr Arg1:T25 Arg2:T24
+R18	PartOf Arg1:T27 Arg2:T26
+R19	Spatial Arg1:T28 Arg2:T29
+R20	Purpose Arg1:T24 Arg2:T26
+R21	MadeOf Arg1:T30 Arg2:T31
+R22	MadeOf Arg1:T30 Arg2:T32
+R23	MadeOf Arg1:T30 Arg2:T33
+R24	Oper Arg1:T34 Arg2:T33
+R25	Oper Arg1:T34 Arg2:T32
+R26	Oper Arg1:T34 Arg2:T31
+R28	Manner Arg1:T37 Arg2:T36
+R30	Manner Arg1:T20 Arg2:T17
+R27	Purpose Arg1:T35 Arg2:T34
+R29	Measurement Arg1:T37 Arg2:T38
+R31	Purpose Arg1:T30 Arg2:T37

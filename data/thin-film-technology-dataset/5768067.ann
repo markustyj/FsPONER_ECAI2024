@@ -1,0 +1,60 @@
+T1	Component 2 23	magnetoresistive head
+T2	Component 36 57	magnetoresistive film
+T3	Location 70 87	read-track region
+T4	Component 93 134	antiferromagnetic and ferromagnetic films
+T5	Location 154 157	end
+T6	Component 165 186	magnetoresistive film
+T7	Location 202 219	read-track region
+T8	Function 230 248	bias magnetization
+T9	Component 267 288	magnetoresistive film
+T10	Function 292 309	exchange coupling
+T11	Component 322 344	antiferromagnetic film
+T12	Component 353 371	ferromagnetic film
+T13	Component 375 404	nonmagnetic intermediate film
+T14	Component 427 445	ferromagnetic film
+T15	Component 454 475	magnetoresistive film
+T16	Consequence 491 513	ferromagnetic coupling
+T17	Attribution 519 543	contact boundary surface
+T18	Component 556 574	ferromagnetic film
+T19	Component 583 604	magnetoresistive film
+T20	Component 643 664	magnetoresistive head
+T21	Component 677 700	antiferromagnetic layer
+T22	Material 716 727	X---Mn alloy
+T23	Material 789 791	Pt
+T24	Material 793 795	Rh
+T25	Material 797 799	Ru
+T26	Material 801 803	Tr
+T27	Material 809 811	Pd
+T28	Component 816 836	interdiffusion layer
+T29	Component 859 881	antiferromagnetic film
+T30	Component 888 907	ferromagnetic layer
+T31	Component 913 934	pinned magnetic layer
+T32	Function 938 952	heat treatment
+T33	Material 716 727	X--Mn alloy
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T4
+R3	Manner Arg1:T3 Arg2:T2
+R4	Attr Arg1:T6 Arg2:T5
+R5	Manner Arg1:T5 Arg2:T4
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Oper Arg1:T8 Arg2:T9
+R8	Oper Arg1:T10 Arg2:T9
+R9	Purpose Arg1:T13 Arg2:T16
+R10	Spatial Arg1:T18 Arg2:T19
+R11	Attr Arg1:T18 Arg2:T17
+R12	Attr Arg1:T19 Arg2:T17
+R14	Spatial Arg1:T14 Arg2:T15
+R13	Spatial Arg1:T13 Arg2:T14
+R15	Spatial Arg1:T13 Arg2:T15
+R16	PartOf Arg1:T20 Arg2:T21
+R17	Form Arg1:T33 Arg2:T21
+R18	PartOf Arg1:T33 Arg2:T23
+R19	PartOf Arg1:T33 Arg2:T24
+R20	PartOf Arg1:T33 Arg2:T25
+R21	PartOf Arg1:T33 Arg2:T26
+R22	PartOf Arg1:T33 Arg2:T27
+R23	Spatial Arg1:T28 Arg2:T29
+R24	Spatial Arg1:T28 Arg2:T30
+R25	Spatial Arg1:T28 Arg2:T31
+R26	Spatial Arg1:T29 Arg2:T30
+R27	Oper Arg1:T32 Arg2:T31

@@ -1,0 +1,38 @@
+T1	Component 3 36	thin film magnetic recording head
+T2	Component 64 73	substrate
+T4	Component 116 130	ceramic member
+T5	System 157 166	structure
+T6	ScientificConcept 204 211	columns
+T8	Component 315 329	completed head
+T10	System 375 393	columned structure
+T11	System 431 447	bonded structure
+T12	Component 478 482	head
+T13	Material 501 508	ceramic
+T14	Shape 531 538	channel
+T15	Shape 542 558	ferrite back-gap
+T16	EnergyFlow 605 615	reluctance
+T17	EnergyFlow 623 632	flux path
+T18	Component 638 647	thin film
+T19	Component 668 672	head
+T3	Component 79 102	opposing ferrite blocks
+T20	ScientificConcept 226 232	column
+T7	System 239 266	ferrite/ceramic combination
+T21	ScientificConcept 273 279	column
+T22	Shape 293 307	single channel
+T23	Shape 581 588	channel
+T24	System 685 715	various channel configurations
+T25	Material 342 349	ceramic
+R1	Spatial Arg1:T3 Arg2:T4
+R2	Form Arg1:T5 Arg2:T6
+R3	PartOf Arg1:T20 Arg2:T7
+R4	Spatial Arg1:T10 Arg2:T25
+R5	Spatial Arg1:T18 Arg2:T19
+R6	Purpose Arg1:T18 Arg2:T24
+R8	Form Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T23 Arg2:T15
+R10	Attr Arg1:T17 Arg2:T16
+R12	Spatial Arg1:T13 Arg2:T14
+R13	Form Arg1:T3 Arg2:T2
+R14	Form Arg1:T21 Arg2:T22
+R15	Purpose Arg1:T15 Arg2:T16
+R7	Spatial Arg1:T22 Arg2:T8

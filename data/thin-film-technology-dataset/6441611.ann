@@ -1,0 +1,26 @@
+T1	Component 2 17	magnetic sensor
+T2	EnergyFlow 30 66	giant magnetoresistance (GMR) effect
+T3	Component 79 95	insulation layer
+T4	Shape 103 115	contact hole
+T5	Component 131 151	lower terminal layer
+T6	Component 155 164	GMR layer
+T7	Location 192 198	region
+T8	Shape 213 232	entire contact hole
+T9	Component 250 278	surrounding insulation layer
+T10	Component 287 307	upper terminal layer
+T12	Effect 426 437	high degree
+T13	Function 441 458	resistance change
+T11	Component 333 339	sensor
+T14	Effect 347 365	several advantages
+R1	Spatial Arg1:T3 Arg2:T5
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T10 Arg2:T7
+R7	PartOf Arg1:T7 Arg2:T9
+R8	Attr Arg1:T13 Arg2:T12
+R9	PartOf Arg1:T1 Arg2:T6
+R10	PartOf Arg1:T1 Arg2:T10
+R11	PartOf Arg1:T11 Arg2:T14
+R12	PartOf Arg1:T14 Arg2:T12

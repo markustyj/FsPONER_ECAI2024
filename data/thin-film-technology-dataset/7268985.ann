@@ -1,0 +1,41 @@
+T1	Component 3 16	magnetic head
+T2	System 27 55	improved read head structure
+T3	Component 61 70	read head
+T4	Component 82 101	free magnetic layer
+T5	Component 107 125	hard bias elements
+T6	Location 149 153	ends
+T7	Component 165 183	hard bias elements
+T8	System 195 238	improved hard bias magnetic grain structure
+T9	Component 280 297	hard bias element
+T10	System 303 320	bilayer structure
+T11	Component 330 354	first hard bias sublayer
+T12	Component 385 410	second hard bias sublayer
+T13	Material 453 473	nonmagnetic material
+T14	Material 482 490	chromium
+T15	Component 500 519	hard bias sublayers
+T16	Material 538 555	magnetic material
+T17	Component 577 585	sublayer
+T18	EnergyFlow 609 624	magnetic grains
+T19	Component 667 684	hard bias element
+T20	EnergyFlow 738 753	magnetic grains
+T23	Component 358 378	nonmagnetic midlayer
+T24	Component 416 424	midlayer
+T25	Material 564 570	CoPtCr
+T26	Component 652 661	sublayers
+T21	Component 761 801	prior art single layer hard bias element
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T7 Arg2:T8
+R4	PartOf Arg1:T4 Arg2:T5
+R5	Manner Arg1:T6 Arg2:T4
+R9	MadeOf Arg1:T10 Arg2:T9
+R6	PartOf Arg1:T10 Arg2:T11
+R7	PartOf Arg1:T10 Arg2:T23
+R8	PartOf Arg1:T10 Arg2:T12
+R10	MadeOf Arg1:T24 Arg2:T13
+R11	InstanceOf Arg1:T14 Arg2:T13
+R12	MadeOf Arg1:T15 Arg2:T16
+R13	InstanceOf Arg1:T25 Arg2:T16
+R14	PartOf Arg1:T17 Arg2:T18
+R15	Comparison Arg1:T19 Arg2:T20
+R16	InstanceOf Arg1:T19 Arg2:T21

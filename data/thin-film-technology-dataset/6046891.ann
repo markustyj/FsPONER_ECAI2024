@@ -1,0 +1,41 @@
+T1	Component 33 47	thin film head
+T2	Component 57 89	magnetoresistance effect element
+T3	Component 118 132	magnetic films
+T4	Component 136 152	nonmagnetic film
+T5	Component 176 190	magnetic films
+T6	Component 196 201	leads
+T7	Component 219 251	magnetoresistance effect element
+T8	Attribution 264 269	width
+T9	Component 284 298	magnetic films
+T10	EnergyFlow 332 353	signal magnetic field
+T11	Measure 374 382	distance
+T12	Component 391 396	leads
+T13	Component 431 445	thin film head
+T14	Component 455 487	magnetoresistance effect element
+T15	Component 516 530	magnetic films
+T16	Component 537 553	nonmagnetic film
+T17	Component 577 591	magnetic films
+T19	EnergyFlow 624 643	magnetic resistance
+T20	Function 654 679	spin-dependent scattering
+T21	Component 715 729	magnetic films
+T22	EnergyFlow 762 783	signal magnetic field
+T23	Location 798 807	direction
+T24	EnergyFlow 828 849	signal magnetic field
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T2 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Attr Arg1:T9 Arg2:T8
+R8	PartOf Arg1:T13 Arg2:T14
+R9	PartOf Arg1:T14 Arg2:T15
+R10	PartOf Arg1:T14 Arg2:T16
+R11	Spatial Arg1:T16 Arg2:T17
+R12	Comparison Arg1:T8 Arg2:T11
+R13	Measurement Arg1:T12 Arg2:T11
+R14	Attr Arg1:T24 Arg2:T23
+R15	Manner Arg1:T23 Arg2:T21
+T18	Effect 614 620	change
+R16	Oper Arg1:T20 Arg2:T18
+R17	Purpose Arg1:T19 Arg2:T18

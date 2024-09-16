@@ -1,0 +1,79 @@
+T2	Component 27 31	film
+T3	Material 41 57	recording medium
+T4	InfoFlow 130 150	magnetic information
+T5	Component 165 176	camera body
+T6	Component 189 202	magnetic head
+T7	InfoFlow 221 241	magnetic information
+T8	Material 249 265	recording medium
+T9	Component 295 323	magnetic head driving device
+T10	Component 351 364	magnetic head
+T14	Component 618 646	magnetic head driving device
+T15	Component 713 726	magnetic head
+T17	InfoFlow 806 826	magnetic information
+T18	Component 954 967	magnetic head
+T1	Component 2 14	still camera
+T21	Component 287 291	film
+T11	Attribution 398 410	film surface
+T12	Attribution 444 456	film surface
+T22	Component 460 481	discriminating device
+T13	Function 511 539	one-frame photographing mode
+T23	InfoFlow 72 91	optical information
+T24	Function 271 279	movement
+T25	Component 583 597	control device
+T26	Function 546 575	continuous photographing mode
+T27	Function 664 682	photographing mode
+T28	Function 693 707	one-frame mode
+T16	Attribution 748 760	film surface
+T29	Location 852 870	retracted position
+T30	Component 918 922	film
+T31	Function 933 948	continuous mode
+T19	Attribution 989 1001	film surface
+T32	InfoFlow 1059 1079	magnetic information
+T33	Location 1103 1117	urged position
+T20	InfoFlow 1166 1197	continuous photographing signal
+T34	Function 1124 1135	termination
+T35	Function 1008 1019	termination
+T36	Function 1139 1157	one-frame movement
+T37	Function 767 778	termination
+T38	Function 877 888	termination
+T39	Function 892 910	one-frame movement
+T40	Location 370 378	position
+T41	Location 417 425	position
+T42	Function 782 795	photographing
+T43	Function 1023 1036	photographing
+R1	Purpose Arg1:T3 Arg2:T23
+R2	Purpose Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T1 Arg2:T6
+R4	Purpose Arg1:T6 Arg2:T7
+R5	Oper Arg1:T24 Arg2:T21
+R6	Generate Arg1:T5 Arg2:T4
+R7	Generate Arg1:T8 Arg2:T7
+R8	PartOf Arg1:T1 Arg2:T9
+R9	Causitive Arg1:T9 Arg2:T10
+R10	Manner Arg1:T40 Arg2:T10
+R11	Manner Arg1:T41 Arg2:T10
+R12	Spatial Arg1:T40 Arg2:T11
+R13	Spatial Arg1:T41 Arg2:T12
+R14	PartOf Arg1:T1 Arg2:T22
+R15	Oper Arg1:T13 Arg2:T22
+R16	Oper Arg1:T26 Arg2:T22
+R17	PartOf Arg1:T1 Arg2:T25
+R18	Causitive Arg1:T25 Arg2:T14
+R19	Oper Arg1:T27 Arg2:T25
+R20	Oper Arg1:T28 Arg2:T15
+R21	Spatial Arg1:T15 Arg2:T16
+R23	Oper Arg1:T42 Arg2:T15
+R24	Purpose Arg1:T15 Arg2:T17
+R25	Manner Arg1:T29 Arg2:T15
+R26	Oper Arg1:T39 Arg2:T30
+R27	Oper Arg1:T38 Arg2:T39
+R28	Oper Arg1:T31 Arg2:T18
+R29	Spatial Arg1:T18 Arg2:T19
+R31	Oper Arg1:T43 Arg2:T18
+R32	Purpose Arg1:T18 Arg2:T32
+R33	Manner Arg1:T33 Arg2:T18
+R34	Oper Arg1:T34 Arg2:T36
+R30	Oper Arg1:T35 Arg2:T43
+R22	Oper Arg1:T37 Arg2:T42
+R35	Oper Arg1:T36 Arg2:T18
+R36	Generate Arg1:T18 Arg2:T20

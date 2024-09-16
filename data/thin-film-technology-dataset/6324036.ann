@@ -1,0 +1,109 @@
+T4	Component 225 229	head
+T6	Component 276 295	planarization layer
+T7	Component 306 310	pads
+T8	Component 336 340	pads
+T9	Component 348 357	MR sensor
+T10	Component 362 366	coil
+T11	Component 425 444	planarization layer
+T12	Component 452 482	first and second shield layers
+T13	Component 507 516	MR sensor
+T14	Component 551 555	pads
+T16	Component 611 641	first and second shield layers
+T17	Component 669 682	shield layers
+T19	Component 791 810	planarization layer
+T20	Component 860 890	first and second shield layers
+T21	Attribution 941 952	top surface
+T23	Component 983 998	write gap layer
+T24	ScientificConcept 1042 1052	pole piece
+T25	Component 1076 1091	write gap layer
+T26	Component 1099 1102	ABS
+T28	Component 1182 1186	head
+T29	Component 1204 1220	insulation layer
+T30	Component 1225 1235	coil layer
+T31	Component 1252 1268	insulation layer
+T32	Component 1278 1294	insulation layer
+T33	Component 1303 1313	coil layer
+T35	Component 1380 1384	Pads
+T36	Component 1479 1488	MR sensor
+T37	Component 53 80	combination read/write head
+T1	Component 113 138	disclosed read/write head
+T2	Component 150 181	magnetoresistive (MR) read head
+T3	Component 190 219	inductive magnetic write head
+T38	Component 249 268	second shield layer
+T5	Component 315 320	leads
+T39	Attribution 376 390	planar surface
+T40	Component 398 418	planaritzation layer
+T41	Component 560 565	leads
+T42	Component 575 584	substrate
+T43	Component 590 606	combination head
+T44	Component 654 663	substrate
+T15	Shape 704 712	read gap
+T45	Component 716 744	magnetoresistive (MR) sensor
+T18	Component 749 757	MR leads
+T46	Shape 777 785	read gap
+T47	Component 833 842	substrate
+T48	Attribution 902 916	planar surface
+T49	Component 960 979	second shield layer
+T22	Component 1026 1036	pole piece
+T50	Component 1124 1143	second shield layer
+T27	Shape 1149 1157	back gap
+T51	Component 1196 1199	ABS
+T52	Component 1340 1359	second shield layer
+T34	Component 1368 1378	pole piece
+T53	Component 1389 1394	leads
+T54	Component 1413 1432	planarization layer
+T55	Component 1443 1448	leads
+T56	Component 1497 1501	coil
+R1	Spatial Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T38 Arg2:T6
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T5 Arg2:T8
+R9	Spatial Arg1:T7 Arg2:T8
+R10	Attr Arg1:T40 Arg2:T39
+R11	Spatial Arg1:T7 Arg2:T39
+R12	Spatial Arg1:T7 Arg2:T39
+R13	Purpose Arg1:T12 Arg2:T13
+R16	Causitive Arg1:T11 Arg2:T14
+R17	Causitive Arg1:T11 Arg2:T12
+R18	PartOf Arg1:T43 Arg2:T16
+R19	Spatial Arg1:T16 Arg2:T44
+R20	Causitive Arg1:T15 Arg2:T17
+R21	Spatial Arg1:T46 Arg2:T18
+R22	Spatial Arg1:T46 Arg2:T45
+R23	Spatial Arg1:T45 Arg2:T18
+R24	Spatial Arg1:T19 Arg2:T47
+R25	Attr Arg1:T49 Arg2:T21
+R27	Spatial Arg1:T48 Arg2:T21
+R28	Spatial Arg1:T19 Arg2:T20
+R26	Attr Arg1:T19 Arg2:T48
+R29	Spatial Arg1:T23 Arg2:T22
+R30	Spatial Arg1:T25 Arg2:T24
+R31	Manner Arg1:T24 Arg2:T26
+R32	Spatial Arg1:T24 Arg2:T50
+R33	Manner Arg1:T27 Arg2:T50
+R34	Spatial Arg1:T28 Arg2:T51
+R35	PartOf Arg1:T28 Arg2:T27
+R36	Causitive Arg1:T30 Arg2:T31
+R37	Causitive Arg1:T29 Arg2:T31
+R38	Spatial Arg1:T52 Arg2:T34
+R39	Spatial Arg1:T32 Arg2:T33
+R40	Spatial Arg1:T35 Arg2:T54
+R41	Spatial Arg1:T53 Arg2:T54
+R42	Spatial Arg1:T55 Arg2:T36
+R43	Spatial Arg1:T55 Arg2:T56
+T57	Attribution 88 107	improved topography
+R44	Attr Arg1:T37 Arg2:T57
+R5	Manner Arg1:T38 Arg2:T4
+R14	Causitive Arg1:T11 Arg2:T41
+R15	Causitive Arg1:T14 Arg2:T42
+R45	Causitive Arg1:T41 Arg2:T42
+#1	AnnotatorNotes R15	讲义2第5条，A do B 介词(to/into/on/…) C：如果A是事物，B是事物，C是事物，那么A--makemoveB,B--makemove—>C
+#2	AnnotatorNotes R21	注意讲义6第7条
+#3	AnnotatorNotes R22	注意讲义6的第7条
+#4	AnnotatorNotes R37	A嵌入B，空间含义更明显一些，使用spatial关系
+#5	AnnotatorNotes R36	spatial
+R46	Spatial Arg1:T33 Arg2:T52
+#6	AnnotatorNotes R46	A在B和C之间，ABC都是实物，可以标A-spatial->B,A--spatial->C，当然如果多于三个实物，A-B-c-d即可，因为空间关系是可以传导的

@@ -1,0 +1,37 @@
+T1	Component 2 25	thin film magnetic head
+T5	EnergyFlow 156 169	magnetic path
+T6	Component 182 201	lower magnetic core
+T7	Component 209 228	upper magnetic core
+T8	Component 249 285	lowermost-layer thin film conductors
+T9	Location 307 332	rectangular cross section
+T10	Component 353 376	insulating resin layers
+T11	Component 417 437	thin film conductors
+T14	Component 618 638	thin film conductors
+T17	Component 764 786	insulating resin layer
+T18	Component 795 831	lowermost-layer thin film conductors
+T19	ScientificConcept 30 40	insulation
+T2	Component 124 139	thin film coils
+T3	Component 389 411	non-magnetic thin film
+T4	Component 445 482	second lowermost-layer thin film coil
+T12	Attribution 490 520	downward convex bottom surface
+T20	Component 566 612	adjoining lowermost-layer thin film conductors
+T13	Component 646 683	second lowermost-layer thin film coil
+T15	Attribution 695 724	more protruded bottom surface
+T21	Location 738 756	protruded portions
+T16	Location 839 857	protruded portions
+R1	Attr Arg1:T1 Arg2:T19
+R2	Form Arg1:T6 Arg2:T5
+R3	Form Arg1:T7 Arg2:T5
+R4	Spatial Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T8 Arg2:T9
+R6	Spatial Arg1:T10 Arg2:T3
+R7	Spatial Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T4 Arg2:T11
+R9	Attr Arg1:T11 Arg2:T12
+R10	Spatial Arg1:T11 Arg2:T20
+R11	PartOf Arg1:T13 Arg2:T14
+R12	Attr Arg1:T14 Arg2:T15
+R13	Spatial Arg1:T21 Arg2:T17
+R14	Spatial Arg1:T18 Arg2:T16
+R15	Spatial Arg1:T21 Arg2:T18
+R16	Purpose Arg1:T21 Arg2:T15

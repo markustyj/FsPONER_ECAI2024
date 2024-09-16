@@ -1,0 +1,47 @@
+T1	System 2 19	disk drive system
+T3	EnergyFlow 101 114	sense current
+T4	Component 121 129	MR layer
+T5	EnergyFlow 158 165	current
+T6	Component 171 190	soft adjacent layer
+T7	Component 202 210	MR layer
+T8	Component 226 242	hard bias layers
+T9	Component 279 282	SAL
+T10	EnergyFlow 304 312	voltages
+T11	Component 334 342	MR layer
+T12	EnergyFlow 399 407	voltages
+T13	Component 452 455	SAL
+T14	Component 540 562	differential amplifier
+T2	Component 29 57	magnetoresistive (MR) sensor
+T16	Component 70 75	leads
+T17	Component 81 86	leads
+T18	Component 138 143	leads
+T19	Component 192 195	SAL
+T20	Component 289 298	insulator
+T21	EnergyFlow 344 352	voltages
+T22	EnergyFlow 431 442	data fields
+T23	EnergyFlow 457 465	voltages
+T15	InfoFlow 598 621	thermal asperity signal
+T24	Effect 567 590	substantial elimination
+T25	ScientificConcept 376 394	thermal asperities
+T26	ScientificConcept 489 507	thermal asperities
+T27	Function 528 534	inputs
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T16
+R3	Alias Arg1:T6 Arg2:T19
+R4	Purpose Arg1:T17 Arg2:T3
+R5	Causitive Arg1:T3 Arg2:T4
+R6	Purpose Arg1:T18 Arg2:T5
+R7	Causitive Arg1:T5 Arg2:T6
+R8	Causitive Arg1:T7 Arg2:T20
+R9	Causitive Arg1:T7 Arg2:T9
+R10	Causitive Arg1:T8 Arg2:T20
+R11	Causitive Arg1:T8 Arg2:T9
+R12	Generate Arg1:T11 Arg2:T10
+R13	Generate Arg1:T13 Arg2:T10
+R14	Generate Arg1:T25 Arg2:T21
+R15	Generate Arg1:T22 Arg2:T12
+R16	Generate Arg1:T26 Arg2:T23
+R17	PartOf Arg1:T14 Arg2:T27
+R18	Causitive Arg1:T10 Arg2:T27
+R19	Purpose Arg1:T14 Arg2:T24
+R20	Oper Arg1:T24 Arg2:T15

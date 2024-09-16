@@ -1,0 +1,55 @@
+T1	Component 3 26	thin-film magnetic head
+T2	Component 38 57	first magnetic core
+T3	Component 61 81	second magnetic core
+T4	Component 85 101	connecting layer
+T5	Component 121 140	first magnetic core
+T6	Component 149 169	second magnetic core
+T7	Component 173 192	toroidal coil layer
+T8	Component 200 215	shielding layer
+T9	Component 221 237	connecting layer
+T10	Location 253 269	height direction
+T11	Location 288 297	back side
+T12	Location 305 321	height direction
+T13	Component 329 344	shielding layer
+T14	Attribution 365 370	width
+T15	Location 378 399	track width direction
+T16	Component 407 423	connecting layer
+T17	Attribution 443 448	width
+T18	Location 456 477	track width direction
+T19	Component 485 504	toroidal coil layer
+T20	Shape 524 530	volume
+T21	Component 538 554	connecting layer
+T22	EnergyFlow 585 598	heat capacity
+T23	EnergyFlow 613 617	Heat
+T24	Component 635 658	thin-film magnetic head
+T25	Component 694 710	connecting layer
+T26	Function 719 727	increase
+T27	Attribution 735 746	temperature
+T28	Component 758 781	thin-film magnetic head
+T29	Component 831 854	thin-film magnetic head
+T30	Function 862 879	thermal expansion
+T31	Shape 813 823	protrusion
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T4 Arg2:T6
+R8	PartOf Arg1:T13 Arg2:T12
+R9	Attr Arg1:T16 Arg2:T14
+R10	PartOf Arg1:T16 Arg2:T15
+R11	Attr Arg1:T19 Arg2:T17
+R12	Attr Arg1:T21 Arg2:T20
+R13	Generate Arg1:T24 Arg2:T23
+R14	Attr Arg1:T28 Arg2:T27
+R16	Manner Arg1:T25 Arg2:T24
+R17	PartOf Arg1:T29 Arg2:T31
+R19	Manner Arg1:T10 Arg2:T9
+R20	Purpose Arg1:T9 Arg2:T11
+R21	Manner Arg1:T12 Arg2:T11
+R22	Attr Arg1:T21 Arg2:T22
+R23	Comparison Arg1:T14 Arg2:T17
+R24	PartOf Arg1:T19 Arg2:T18
+R25	Oper Arg1:T26 Arg2:T27
+R15	Oper Arg1:T30 Arg2:T31
+R6	PartOf Arg1:T1 Arg2:T7
+R7	PartOf Arg1:T1 Arg2:T8

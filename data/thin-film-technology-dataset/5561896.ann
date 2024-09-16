@@ -1,0 +1,52 @@
+T1	Component 2 29	magnetoresistive transducer
+T2	Component 36 42	sensor
+T3	Component 60 74	magnetic layer
+T4	Location 107 128	active central region
+T5	Component 136 142	sensor
+T6	Component 163 182	passive end regions
+T8	Location 223 244	active central region
+T9	Effect 265 281	biasing function
+T10	Component 313 323	transducer
+T11	Component 329 334	wafer
+T12	Location 392 413	active central region
+T14	Component 435 444	side legs
+T16	Component 522 531	side legs
+T17	Component 572 581	side legs
+T18	Component 648 668	interdiffusion layer
+T19	Component 677 691	magnetic layer
+T20	Component 711 725	magnetic layer
+T21	Component 806 811	wafer
+T22	Component 82 102	interdiffusion layer
+T7	Location 452 471	passive end regions
+T13	System 341 356	H-configuration
+T23	Component 830 838	crossbar
+T24	Component 887 906	finished transducer
+T15	EnergyFlow 478 498	short current pulses
+T25	Function 546 564	associated heating
+T26	Component 595 603	crossbar
+T27	Function 621 635	interdiffusion
+T28	EnergyFlow 731 745	soft magnetism
+T29	EnergyFlow 749 763	hard magnetism
+T30	Effect 784 800	biasing function
+T31	Component 367 375	crossbar
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T22
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T6
+R6	Causitive Arg1:T6 Arg2:T8
+R7	Spatial Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T13 Arg2:T11
+R9	Oper Arg1:T25 Arg2:T17
+R10	Spatial Arg1:T21 Arg2:T23
+R11	Form Arg1:T21 Arg2:T24
+R12	Purpose Arg1:T10 Arg2:T9
+R13	Form Arg1:T14 Arg2:T7
+R14	Form Arg1:T31 Arg2:T12
+R15	Manner Arg1:T15 Arg2:T16
+R16	Purpose Arg1:T25 Arg2:T27
+R17	Oper Arg1:T27 Arg2:T18
+R18	Oper Arg1:T27 Arg2:T19
+R19	Causitive Arg1:T25 Arg2:T20
+R20	Causitive Arg1:T20 Arg2:T28
+R21	Causitive Arg1:T28 Arg2:T29

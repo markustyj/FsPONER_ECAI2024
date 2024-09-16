@@ -1,0 +1,44 @@
+T1	Component 2 25	magnetic thin film head
+T3	Component 90 94	head
+T4	Component 106 131	magneto-resistive element
+T5	Component 138 148	flux guide
+T6	Component 157 184	high permeability thin film
+T7	Location 195 206	end portion
+T8	Material 215 254	perpendicular magnetic recording medium
+T9	EnergyFlow 260 273	magnetic flux
+T10	InfoFlow 290 310	magnetization signal
+T11	Material 318 357	perpendicular magnetic recording medium
+T12	Component 372 397	magneto-resistive element
+T13	Component 410 420	flux guide
+T14	Component 426 430	head
+T15	Component 445 455	electrodes
+T16	EnergyFlow 473 489	electric current
+T17	Component 512 537	magneto-resistive element
+T18	Component 543 568	high permeability members
+T19	EnergyFlow 589 602	magnetic flux
+T20	Component 615 640	magneto-resistive element
+T21	Material 653 692	perpendicular magnetic recording medium
+T22	Component 698 702	head
+T23	System 722 736	exciting means
+T24	Component 745 755	flux guide
+T2	Function 35 67	perpendicular magnetic recording
+T25	Function 72 84	reproduction
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T25
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T3 Arg2:T5
+R5	MadeOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T6 Arg2:T7
+R7	Spatial Arg1:T7 Arg2:T8
+R8	Generate Arg1:T10 Arg2:T9
+R9	Causitive Arg1:T13 Arg2:T9
+R10	Causitive Arg1:T9 Arg2:T12
+R11	PartOf Arg1:T14 Arg2:T15
+R12	Purpose Arg1:T15 Arg2:T16
+R14	PartOf Arg1:T14 Arg2:T18
+R13	Causitive Arg1:T16 Arg2:T17
+R15	Purpose Arg1:T18 Arg2:T19
+R16	Causitive Arg1:T20 Arg2:T19
+R17	Causitive Arg1:T19 Arg2:T21
+R18	PartOf Arg1:T22 Arg2:T23
+R19	Purpose Arg1:T23 Arg2:T24

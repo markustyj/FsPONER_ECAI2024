@@ -1,0 +1,67 @@
+T3	Component 127 144	sacrificial layer
+T6	Component 266 283	sacrificial layer
+T8	Component 350 364	top pole piece
+T9	Component 383 400	sacrificial layer
+T10	Component 468 485	sacrificial layer
+T12	Component 596 612	photoresist dams
+T14	Component 641 660	encapsulation layer
+T16	ScientificConcept 776 785	zero bias
+T17	Function 800 823	selective chemical etch
+T18	Component 854 877	thin film magnetic head
+T19	Component 907 916	pole tips
+T21	Shape 999 1015	pole tip contour
+T22	EnergyFlow 1052 1069	undershoot effect
+T24	Component 1245 1265	shielded probe heads
+T25	Effect 1270 1288	vertical recording
+T26	Effect 1338 1355	similar reduction
+T27	Component 2 36	thin film magnetic read/write head
+T1	Component 59 80	Al.sub.2 O.sub.3 dams
+T2	Component 86 107	Al.sub.2 O.sub.3 dams
+T28	Component 193 215	Al.sub.2 O.sub.3 layer
+T5	Component 238 255	sacrificial layer
+T29	Component 300 322	Al.sub.2 O.sub.3 layer
+T7	Component 329 333	dams
+T30	Function 418 425	lapping
+T31	Function 432 454	selected chemical etch
+T32	Function 456 460	etch
+T11	Function 502 527	overlying partial lapping
+T33	Function 531 544	chemical etch
+T34	Material 557 582	chemical Al.sub.2 O.sub.3
+T13	Component 669 686	sacrificial layer
+T35	Function 707 732	physical or thermal shock
+T36	Component 740 762	Al.sub.2 O.sub.3 layer
+T15	Component 831 848	sacrificial layer
+T37	Shape 934 959	outside pole face contour
+T20	Location 1024 1034	gap region
+T38	EnergyFlow 1073 1088	readback pulses
+T39	InfoFlow 1094 1109	readback signal
+T40	Shape 1115 1130	altered contour
+T41	Component 1166 1175	pole tips
+T23	EnergyFlow 1194 1226	leading and trailing undershoots
+T43	Shape 1291 1309	gap region contour
+T42	EnergyFlow 1359 1377	leading undershoot
+T44	Component 171 188	bottom pole layer
+R1	Causitive Arg1:T1 Arg2:T27
+R2	Form Arg1:T3 Arg2:T2
+R3	Spatial Arg1:T3 Arg2:T44
+R4	Spatial Arg1:T28 Arg2:T5
+R5	Form Arg1:T29 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Oper Arg1:T30 Arg2:T9
+R8	Oper Arg1:T31 Arg2:T9
+R9	Oper Arg1:T32 Arg2:T10
+R10	Oper Arg1:T35 Arg2:T36
+R11	Manner Arg1:T16 Arg2:T35
+R12	Oper Arg1:T17 Arg2:T15
+R13	PartOf Arg1:T18 Arg2:T19
+R14	Causitive Arg1:T19 Arg2:T37
+R15	Comparison Arg1:T37 Arg2:T21
+R16	Manner Arg1:T20 Arg2:T21
+R17	Purpose Arg1:T41 Arg2:T23
+R18	Spatial Arg1:T40 Arg2:T41
+R19	Purpose Arg1:T24 Arg2:T25
+R20	PartOf Arg1:T24 Arg2:T43
+R21	Purpose Arg1:T43 Arg2:T26
+R23	Purpose Arg1:T38 Arg2:T22
+#1	AnnotatorNotes R1	nice
+R22	Attr Arg1:T39 Arg2:T38

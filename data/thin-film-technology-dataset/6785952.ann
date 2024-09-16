@@ -1,0 +1,48 @@
+T1	Component 2 21	first magnetic film
+T2	Component 25 33	gap film
+T3	Component 37 51	thin film coil
+T4	Component 67 81	insulated film
+T5	Component 88 108	second magnetic film
+T6	Component 133 153	second magnetic film
+T7	Location 160 169	pole part
+T8	Component 186 205	first magnetic film
+T9	Component 214 222	gap film
+T10	Location 229 238	yoke part
+T11	Location 267 276	pole part
+T12	Component 313 332	first magnetic film
+T13	Attribution 338 355	forefront surface
+T14	Location 363 372	yoke part
+T15	Component 392 411	air bearing surface
+T16	Location 417 426	pole part
+T17	Component 434 454	second magnetic film
+T18	Location 474 491	running direction
+T19	Material 497 522	magnetic recording medium
+T20	Location 544 567	perpendicular direction
+T21	Location 575 592	running direction
+T22	Attribution 604 626	yoke forefront surface
+T23	Attribution 667 689	yoke forefront surface
+T24	Component 693 708	protective film
+T25	Component 751 797	inductive type thin film magnetic head element
+T26	Attribution 838 862	overwrite characteristic
+T27	Location 872 881	pole part
+T28	Component 901 924	thin film magnetic head
+T29	Attribution 934 954	narrowed track width
+T30	Attribution 635 644	periphery
+R1	Attr Arg1:T28 Arg2:T29
+R2	Causitive Arg1:T4 Arg2:T3
+R3	PartOf Arg1:T6 Arg2:T7
+R4	Spatial Arg1:T7 Arg2:T8
+R5	Spatial Arg1:T7 Arg2:T9
+R6	PartOf Arg1:T6 Arg2:T10
+R7	Spatial Arg1:T10 Arg2:T12
+R8	Manner Arg1:T11 Arg2:T10
+R9	Attr Arg1:T14 Arg2:T13
+R10	Spatial Arg1:T13 Arg2:T15
+R11	PartOf Arg1:T17 Arg2:T16
+R12	Causitive Arg1:T24 Arg2:T25
+R14	Manner Arg1:T18 Arg2:T16
+R13	Attr Arg1:T19 Arg2:T18
+R15	Spatial Arg1:T21 Arg2:T20
+R16	Attr Arg1:T22 Arg2:T21
+R17	Attr Arg1:T30 Arg2:T21
+R18	Manner Arg1:T23 Arg2:T16

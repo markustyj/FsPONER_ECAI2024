@@ -1,0 +1,26 @@
+T1	Component 22 33	read sensor
+T2	Component 40 54	recording head
+T3	System 61 90	magnetic media storage system
+T4	Component 96 120	first and second shields
+T5	Component 128 152	magneto-resistive sensor
+T6	Component 190 214	first and second shields
+T7	Component 228 240	sensing axis
+T8	Component 248 254	sensor
+T9	Attribution 285 302	recording surface
+T10	Component 310 314	head
+T11	Component 339 351	sensing axis
+T12	Measure 370 375	angle
+T13	Value 391 401	60 degrees
+T14	ScientificConcept 422 428	normal
+T15	Attribution 436 453	recording surface
+T16	Value 384 386	10
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T8 Arg2:T7
+R4	Attr Arg1:T10 Arg2:T9
+R5	Manner Arg1:T12 Arg2:T11
+R6	Measurement Arg1:T12 Arg2:T16
+R7	Measurement Arg1:T12 Arg2:T13
+R8	PartOf Arg1:T1 Arg2:T4
+R9	Spatial Arg1:T5 Arg2:T6
+R10	Attr Arg1:T15 Arg2:T14

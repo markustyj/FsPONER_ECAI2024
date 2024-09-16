@@ -1,0 +1,24 @@
+T1	Component 39 66	magnetoresistive transducer
+T3	Component 170 180	transducer
+T4	EnergyFlow 193 206	bias currents
+T6	EnergyFlow 287 299	bias current
+T7	EnergyFlow 371 383	bias current
+T9	System 2 26	digital recording system
+T10	Component 72 95	magnetic recording head
+T2	ScientificConcept 121 130	amplitude
+T11	InfoFlow 137 150	output signal
+T13	Material 212 235	recorded magnetic media
+T5	Component 250 254	head
+T14	InfoFlow 314 327	output signal
+T16	ScientificConcept 389 404	suitable factor
+T17	ScientificConcept 492 502	error rate
+T18	State 438 467	calculated bias current level
+R1	Causitive Arg1:T9 Arg2:T1
+R2	PartOf Arg1:T10 Arg2:T1
+R3	Attr Arg1:T11 Arg2:T2
+R4	Causitive Arg1:T13 Arg2:T5
+R5	Purpose Arg1:T3 Arg2:T4
+R7	PartOf Arg1:T3 Arg2:T11
+R6	Attr Arg1:T14 Arg2:T6
+R8	Manner Arg1:T16 Arg2:T7
+R9	Purpose Arg1:T18 Arg2:T17

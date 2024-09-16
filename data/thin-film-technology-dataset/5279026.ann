@@ -1,0 +1,62 @@
+T2	Component 87 96	substrate
+T4	Component 141 150	substrate
+T5	Shape 170 176	cavity
+T6	Component 196 205	substrate
+T7	Component 285 294	substrate
+T8	Location 359 378	substantial portion
+T9	Component 414 423	substrate
+T12	Material 538 555	magnetic material
+T13	Component 578 587	substrate
+T14	Component 643 652	substrate
+T17	Shape 732 743	return path
+T20	Component 800 805	layer
+T21	Material 809 826	magnetic material
+T22	Component 849 865	protective layer
+T1	Component 26 54	thin-film magnetic tape head
+T23	PhysicsFlow 159 166	etchant
+T24	Material 224 239	magnet material
+T25	Shape 260 266	cavity
+T26	Location 272 277	sides
+T27	Attribution 386 392	height
+T28	Component 319 336	prismoid projects
+T29	Shape 400 408	prismoid
+T30	Location 347 352	sides
+T10	Component 441 458	gap-coating layer
+T31	Shape 511 519	prismoid
+T32	Component 499 503	side
+T33	Function 467 478	gap-coating
+T34	EnergyFlow 615 625	pole shoes
+T35	Shape 685 693	prismoid
+T36	Location 673 677	apex
+T15	Component 706 719	Head windings
+T16	Component 752 765	head windings
+T18	Component 836 845	substrate
+T19	Material 871 882	metal oxide
+T37	Component 905 914	substrate
+T3	Material 113 121	material
+T11	Shape 212 220	prismoid
+T38	Component 592 605	various parts
+T39	Component 529 534	layer
+T40	Component 104 109	layer
+R1	MadeOf Arg1:T40 Arg2:T3
+R2	Spatial Arg1:T2 Arg2:T40
+R3	Purpose Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T6 Arg2:T5
+R5	MadeOf Arg1:T11 Arg2:T24
+R6	Spatial Arg1:T11 Arg2:T25
+R7	PartOf Arg1:T7 Arg2:T26
+R8	Attr Arg1:T29 Arg2:T27
+R9	Manner Arg1:T30 Arg2:T28
+R10	PartOf Arg1:T8 Arg2:T30
+R11	Spatial Arg1:T9 Arg2:T10
+R12	Manner Arg1:T32 Arg2:T33
+R13	PartOf Arg1:T31 Arg2:T32
+R14	MadeOf Arg1:T39 Arg2:T12
+R15	Spatial Arg1:T39 Arg2:T13
+R16	InstanceOf Arg1:T34 Arg2:T38
+R17	PartOf Arg1:T35 Arg2:T36
+R18	MadeOf Arg1:T20 Arg2:T21
+R19	Spatial Arg1:T20 Arg2:T18
+R20	Attr Arg1:T16 Arg2:T17
+R21	MadeOf Arg1:T22 Arg2:T19
+R22	Spatial Arg1:T22 Arg2:T37

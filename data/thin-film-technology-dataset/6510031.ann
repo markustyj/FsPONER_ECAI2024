@@ -1,0 +1,45 @@
+T1	Component 2 23	magnetic field sensor
+T2	Component 52 68	magnetic stripes
+T3	Component 102 111	substrate
+T4	EnergyFlow 126 147	stray magnetic fields
+T5	Component 167 183	magnetic stripes
+T6	Component 222 238	magnetic stripes
+T7	Material 294 325	nonmagnetic conductive material
+T8	Component 363 379	magnetic stripes
+T9	EnergyFlow 384 394	electrodes
+T10	EnergyFlow 407 414	current
+T11	Component 450 466	magnetic stripes
+T12	EnergyFlow 489 499	resistance
+T13	EnergyFlow 507 536	giant magnetoresistive effect
+T14	EnergyFlow 593 612	low magnetic fields
+T15	EnergyFlow 623 638	magnetic fields
+T17	EnergyFlow 692 714	magnetostatic coupling
+T18	Component 783 799	magnetic stripes
+T19	Attribution 89 96	surface
+T20	Location 155 159	ends
+T21	Location 270 292	alternating directions
+T22	Shape 344 350	spaces
+T23	EnergyFlow 538 541	MGR
+T16	Component 651 676	saturate magnetic stripes
+T24	Location 767 775	position
+T25	Component 807 813	sensor
+T26	ScientificConcept 754 762	geometry
+R1	PartOf Arg1:T25 Arg2:T18
+R2	Attr Arg1:T18 Arg2:T24
+R3	Attr Arg1:T18 Arg2:T26
+R4	PartOf Arg1:T1 Arg2:T2
+R5	Attr Arg1:T3 Arg2:T19
+R6	Attr Arg1:T5 Arg2:T20
+R7	Spatial Arg1:T2 Arg2:T19
+R8	Manner Arg1:T4 Arg2:T20
+R9	Manner Arg1:T7 Arg2:T22
+R10	Spatial Arg1:T8 Arg2:T9
+R11	Manner Arg1:T21 Arg2:T6
+R12	Causitive Arg1:T10 Arg2:T11
+R13	Alias Arg1:T13 Arg2:T23
+R14	Purpose Arg1:T7 Arg2:T12
+R15	Attr Arg1:T13 Arg2:T12
+R16	Causitive Arg1:T7 Arg2:T10
+R17	PartOf Arg1:T16 Arg2:T15
+#1	AnnotatorNotes T17	...取决于...  如何标注
+#2	AnnotatorNotes T26	由...控制如何标引？

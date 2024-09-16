@@ -1,0 +1,84 @@
+T1	Component 28 51	thin-film magnetic head
+T5	Function 202 223	manufacturing process
+T8	Shape 348 354	trench
+T10	Component 417 426	insulator
+T11	Location 472 478	recess
+T12	Component 501 518	ferrite substrate
+T15	Component 641 650	insulator
+T16	Component 676 693	ferrite substrate
+T17	Component 704 714	gap spacer
+T18	Component 742 768	conductive thin-film coils
+T19	Component 801 826	conductive thin-film coil
+T20	Component 852 869	ferrite substrate
+T21	Material 889 935	high-saturation flux density magnetic material
+T23	Component 1066 1086	magnetic pole pieces
+T24	Component 1250 1259	substrate
+T25	Component 1276 1292	metal pole piece
+T26	Component 1335 1344	substrate
+T27	Component 1361 1377	metal pole piece
+T28	Component 1406 1425	magnetic pole piece
+T29	Shape 1447 1456	front gap
+T30	Attribution 1491 1502	track width
+T31	Component 1529 1548	magnetic pole piece
+T32	Location 1595 1610	back gap region
+T33	EnergyFlow 1627 1639	flux density
+T35	Component 61 74	write element
+T2	EnergyFlow 98 119	magnetic flux density
+T3	Component 144 174	high coercivity magnetic tapes
+T4	Effect 178 196	high track density
+T36	Function 253 271	lithographic steps
+T6	Component 309 344	multiple track magnetic head module
+T7	Effect 296 301	yield
+T9	Material 371 397	ferrite substrate material
+T37	Effect 445 468	efficient write element
+T38	Component 619 636	ferrite substrate
+T39	Attribution 604 611	surface
+T13	Component 568 593	thin-film conductive coil
+T14	ScientificConcept 528 536	geometry
+T40	Component 778 795	ferrite substrate
+T41	Shape 877 885	recesses
+T42	Location 954 988	planar nonmagnetic closure section
+T22	Component 1014 1034	magnetic pole pieces
+T43	Component 1044 1060	individual track
+T44	Component 1192 1209	ferrite substrate
+T45	Attribution 1160 1174	planar surface
+T46	Location 1135 1150	closure section
+T47	Location 1215 1230	closure section
+T48	Location 1300 1315	closure section
+T49	Location 1385 1400	closure section
+T50	Component 1510 1523	magnetic tape
+T51	Attribution 1467 1472	width
+T34	Location 1656 1672	front gap region
+R1	PartOf Arg1:T1 Arg2:T35
+R2	Generate Arg1:T35 Arg2:T2
+R3	Causitive Arg1:T35 Arg2:T3
+R4	PartOf Arg1:T12 Arg2:T11
+R5	Attr Arg1:T38 Arg2:T39
+R6	Spatial Arg1:T15 Arg2:T16
+R7	Form Arg1:T15 Arg2:T17
+R8	Spatial Arg1:T19 Arg2:T20
+R9	Manner Arg1:T42 Arg2:T21
+R10	Form Arg1:T21 Arg2:T22
+R11	PartOf Arg1:T5 Arg2:T36
+R12	Attr Arg1:T6 Arg2:T7
+R13	Spatial Arg1:T9 Arg2:T10
+R14	Purpose Arg1:T9 Arg2:T37
+R15	PartOf Arg1:T8 Arg2:T9
+R16	Attr Arg1:T12 Arg2:T14
+R17	Spatial Arg1:T13 Arg2:T39
+R18	Causitive Arg1:T12 Arg2:T13
+R19	Attr Arg1:T46 Arg2:T45
+R20	Spatial Arg1:T47 Arg2:T24
+R21	Spatial Arg1:T48 Arg2:T26
+R22	Manner Arg1:T48 Arg2:T25
+R23	Manner Arg1:T49 Arg2:T27
+R24	Manner Arg1:T29 Arg2:T28
+R25	Attr Arg1:T28 Arg2:T51
+R26	Attr Arg1:T50 Arg2:T30
+R27	Spatial Arg1:T31 Arg2:T32
+R29	Manner Arg1:T4 Arg2:T35
+R30	Causitive Arg1:T15 Arg2:T18
+R31	Causitive Arg1:T18 Arg2:T40
+R32	PartOf Arg1:T41 Arg2:T20
+R33	Purpose Arg1:T31 Arg2:T33
+R28	Manner Arg1:T34 Arg2:T33

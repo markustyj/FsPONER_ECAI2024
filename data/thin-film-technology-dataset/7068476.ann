@@ -1,0 +1,21 @@
+T1	Location 5 25	inner side end faces
+T2	Component 29 45	electrode layers
+T3	Component 81 92	bias layers
+T4	Component 132 153	magnetoresistive film
+T5	Location 161 177	height direction
+T6	EnergyFlow 192 207	sensing current
+T7	Component 225 241	electrode layers
+T8	Component 294 305	bias layers
+T9	Function 330 341	manufacture
+T10	Component 347 371	magnetic sensing element
+T12	Attribution 448 459	track width
+T13	Consequence 430 440	variations
+R1	Attr Arg1:T2 Arg2:T1
+R3	Spatial Arg1:T1 Arg2:T4
+R2	Manner Arg1:T5 Arg2:T1
+R4	Causitive Arg1:T6 Arg2:T7
+R5	Causitive Arg1:T6 Arg2:T8
+R6	Oper Arg1:T9 Arg2:T10
+T11	Consequence 398 413	track narrowing
+R7	Causitive Arg1:T10 Arg2:T13
+R8	Causitive Arg1:T10 Arg2:T11

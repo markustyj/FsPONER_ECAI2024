@@ -1,0 +1,26 @@
+T1	System 2 29	thin-film head architecture
+T2	Function 63 87	asymmetrical arrangement
+T3	Component 91 96	poles
+T4	Location 105 117	defined area
+T5	Component 125 129	head
+T6	Component 149 158	pole tips
+T7	EnergyFlow 164 168	flux
+T8	Location 180 191	yoke region
+T9	EnergyFlow 197 201	flux
+T11	Location 258 270	defined area
+T12	Component 278 282	head
+T13	Function 290 305	read operations
+T14	Function 338 359	horizontal conduction
+T15	Function 363 381	domain wall motion
+T16	Function 225 246	small-angle rotations
+R1	Oper Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T5 Arg2:T4
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T3
+R5	PartOf Arg1:T8 Arg2:T7
+R6	Manner Arg1:T6 Arg2:T4
+R7	Manner Arg1:T7 Arg2:T4
+R8	PartOf Arg1:T12 Arg2:T11
+R9	Causitive Arg1:T9 Arg2:T16
+R11	Causitive Arg1:T15 Arg2:T14
+R10	Spatial Arg1:T9 Arg2:T11

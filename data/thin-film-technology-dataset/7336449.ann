@@ -1,0 +1,73 @@
+T1	Component 3 33	three terminal magnetic sensor
+T2	Location 46 57	base region
+T3	Location 61 77	collector region
+T4	Location 100 111	base region
+T5	Location 116 130	emitter region
+T6	Location 138 152	barrier region
+T7	Location 173 187	emitter region
+T8	Location 197 208	base region
+T9	Attribution 212 225	sensing plane
+T10	Location 237 248	along sides
+T11	Location 256 267	base region
+T12	Location 273 289	collector region
+T13	Location 299 313	emitter region
+T14	Component 318 333	insulator layer
+T15	Attribution 353 366	sensing plane
+T16	Location 384 400	collector region
+T17	Location 409 420	base region
+T18	Component 424 435	metal layer
+T19	Attribution 455 468	sensing plane
+T21	Material 502 520	magnetic materials
+T22	Location 528 539	base region
+T23	Component 546 557	metal layer
+T24	EnergyFlow 584 605	electrical resistance
+T25	Location 613 624	base region
+T26	Consequence 640 652	signal noise
+T27	Component 681 692	metal layer
+T28	EnergyFlow 700 722	electrical resistivity
+T29	Value 736 761	10 .mu...OMEGA.--centimeter
+T30	Material 768 774	copper
+T31	Material 776 780	gold
+T32	Material 785 794	ruthenium
+T33	Component 820 841	spin valve transistor
+T34	Component 851 877	magnetic tunnel transistor
+T35	System 890 915	double junction structure
+T36	Component 35 38	TTM
+T20	Attribution 473 481	in-plane
+T37	Component 660 663	TTM
+T39	Component 801 804	TTM
+T38	Value 736 761	10 .mu..OMEGA.-centimeter
+T40	Component 843 846	SVT
+T41	Component 879 882	MTT
+R1	Alias Arg1:T1 Arg2:T36
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Spatial Arg1:T3 Arg2:T4
+R7	Causitive Arg1:T6 Arg2:T7
+R8	Causitive Arg1:T7 Arg2:T8
+R9	PartOf Arg1:T11 Arg2:T10
+R10	PartOf Arg1:T12 Arg2:T10
+R11	PartOf Arg1:T13 Arg2:T10
+R12	Manner Arg1:T10 Arg2:T9
+R13	Spatial Arg1:T14 Arg2:T15
+R14	Spatial Arg1:T14 Arg2:T16
+R15	Spatial Arg1:T14 Arg2:T17
+R16	Spatial Arg1:T18 Arg2:T19
+R17	Spatial Arg1:T18 Arg2:T20
+R18	Spatial Arg1:T18 Arg2:T21
+R19	MadeOf Arg1:T22 Arg2:T21
+R20	Attr Arg1:T25 Arg2:T24
+R21	PartOf Arg1:T37 Arg2:T26
+R22	Purpose Arg1:T23 Arg2:T24
+R23	Attr Arg1:T27 Arg2:T28
+R24	Comparison Arg1:T28 Arg2:T38
+R25	InstanceOf Arg1:T30 Arg2:T27
+R26	InstanceOf Arg1:T31 Arg2:T27
+R27	InstanceOf Arg1:T32 Arg2:T27
+R28	Alias Arg1:T33 Arg2:T40
+R29	Alias Arg1:T34 Arg2:T41
+R30	PartOf Arg1:T39 Arg2:T33
+R31	PartOf Arg1:T39 Arg2:T34
+R32	PartOf Arg1:T39 Arg2:T35

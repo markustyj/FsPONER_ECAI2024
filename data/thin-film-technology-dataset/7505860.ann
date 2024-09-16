@@ -1,0 +1,10 @@
+T2	System 149 179	unmounted head gimbal assembly
+T3	System 194 224	unmounted head gimbal assembly
+T4	System 238 268	unmounted head gimbal assembly
+T5	Component 274 278	disc
+T6	System 296 326	unmounted head gimbal assembly
+T7	Function 14 40	dynamic electrical testing
+T8	Component 44 66	head gimbal assemblies
+T1	Function 93 121	automated continuous process
+R1	Oper Arg1:T7 Arg2:T8
+R2	Spatial Arg1:T4 Arg2:T5

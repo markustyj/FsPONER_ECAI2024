@@ -1,0 +1,55 @@
+T1	Component 2 31	thin film magnetic write head
+T2	System 51 66	notch structure
+T3	System 113 128	notch structure
+T4	Component 134 168	generally U-shaped thin film layer
+T5	Shape 183 189	trench
+T6	Component 238 253	pole tip layers
+T7	Location 261 276	pole tip region
+T8	System 294 309	notch structure
+T9	Attribution 314 328	front surfaces
+T10	Component 348 352	legs
+T12	Component 450 461	notch layer
+T13	Component 536 551	pole tip layers
+T14	Component 605 615	write head
+T15	Component 640 662	thin photoresist layer
+T16	System 701 716	notch structure
+T17	Component 770 785	pole tip layers
+T18	Location 78 81	top
+T19	Component 96 107	pole layers
+T20	Component 284 288	head
+T11	Component 408 427	air bearing surface
+T21	Attribution 433 442	thickness
+T22	Attribution 492 501	thickness
+T23	Attribution 505 516	thicknesses
+T24	Shape 567 573	trench
+T25	System 680 695	notch structure
+T26	Attribution 812 834	very narrow trackwidth
+T27	Shape 842 848	trench
+T28	ScientificConcept 211 222	containment
+T30	Attribution 377 382	plane
+T29	Component 336 340	tips
+T31	Component 201 202	U
+T32	Component 360 361	U
+R1	Attr Arg1:T19 Arg2:T18
+R2	Spatial Arg1:T2 Arg2:T19
+R3	PartOf Arg1:T1 Arg2:T2
+R4	Form Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T31
+R7	Attr Arg1:T6 Arg2:T28
+R8	PartOf Arg1:T20 Arg2:T6
+R9	PartOf Arg1:T20 Arg2:T7
+R10	Attr Arg1:T8 Arg2:T9
+R11	PartOf Arg1:T10 Arg2:T29
+R12	PartOf Arg1:T32 Arg2:T10
+R13	Form Arg1:T30 Arg2:T11
+R15	Attr Arg1:T12 Arg2:T21
+R16	Comparison Arg1:T21 Arg2:T22
+R17	Comparison Arg1:T21 Arg2:T23
+R18	Attr Arg1:T13 Arg2:T22
+R19	Attr Arg1:T13 Arg2:T23
+R20	Spatial Arg1:T13 Arg2:T24
+R21	Purpose Arg1:T15 Arg2:T25
+R22	Purpose Arg1:T16 Arg2:T17
+R23	Attr Arg1:T17 Arg2:T26
+R24	Spatial Arg1:T17 Arg2:T27
+R6	Spatial Arg1:T32 Arg2:T30

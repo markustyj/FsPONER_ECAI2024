@@ -1,0 +1,39 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 54 68	thin film head
+T3	Component 83 108	electrical lapping guides
+T4	Component 131 154	resistive lapping guide
+T5	Effect 166 182	height dimension
+T6	EnergyFlow 190 211	electrical resistance
+T7	Function 246 256	comparison
+T8	Component 264 287	resistive lapping guide
+T9	Component 293 315	finished lapping guide
+T10	Component 321 344	resistive lapping guide
+T11	Function 370 385	lapping process
+T12	Component 391 413	finished lapping guide
+T13	Function 432 452	resistive comparison
+T14	Effect 484 492	stopping
+T15	Function 500 515	lapping process
+T16	Component 520 535	as-lapped guide
+T17	Attribution 552 567	same dimensions
+T18	Component 575 597	finished lapping guide
+T19	Component 637 662	interleaved magnetic head
+T20	Component 670 713	alternating magneto-resistive read elements
+T21	Component 718 742	inductive write elements
+T22	EnergyFlow 782 792	resistance
+T23	Component 800 822	lapping guide elements
+T24	EnergyFlow 860 876	final resistance
+T25	Component 884 906	finished lapping guide
+T26	Function 919 934	lapping process
+R1	PartOf Arg1:T3 Arg2:T4
+R2	Causitive Arg1:T3 Arg2:T2
+R3	Attr Arg1:T2 Arg2:T5
+R4	Attr Arg1:T2 Arg2:T6
+R5	Purpose Arg1:T8 Arg2:T7
+R6	PartOf Arg1:T19 Arg2:T20
+R7	PartOf Arg1:T19 Arg2:T21
+R8	Attr Arg1:T23 Arg2:T22
+R9	Attr Arg1:T25 Arg2:T24
+R10	Oper Arg1:T15 Arg2:T14
+R11	Attr Arg1:T16 Arg2:T17
+R12	Oper Arg1:T13 Arg2:T14
+R13	Comparison Arg1:T16 Arg2:T18

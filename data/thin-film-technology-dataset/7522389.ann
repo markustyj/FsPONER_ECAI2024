@@ -1,0 +1,27 @@
+T1	Component 3 35	magnetoresistance effect element
+T2	Component 53 78	first ferromagnetic layer
+T3	Component 82 108	second ferromagnetic layer
+T4	Location 127 147	nano-contact portion
+T5	Component 167 204	first and second ferromagnetic layers
+T6	Component 246 255	substrate
+T7	Location 261 281	nano-contact portion
+T8	Attribution 288 305	maximum dimension
+T9	Location 367 387	nano-contact portion
+T10	Component 391 413	permanent magnet layer
+T11	Component 419 436	-stack bias layer
+T14	Location 230 240	same plane
+T15	Measure 323 335	Fermi length
+T16	Material 341 349	material
+T17	Component 466 505	first and/or second ferromagnetic layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T14
+R6	Spatial Arg1:T5 Arg2:T14
+R7	Attr Arg1:T7 Arg2:T8
+R8	Attr Arg1:T16 Arg2:T15
+R9	Comparison Arg1:T8 Arg2:T15
+R10	MadeOf Arg1:T9 Arg2:T16
+R11	Spatial Arg1:T10 Arg2:T17
+R12	Spatial Arg1:T11 Arg2:T17

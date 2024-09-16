@@ -1,0 +1,43 @@
+T1	Component 2 12	seed layer
+T2	Component 35 55	first read gap layer
+T4	Component 78 95	spin valve sensor
+T5	Component 156 162	sensor
+T6	Component 218 228	seed layer
+T10	Component 356 368	buffer layer
+T11	Component 392 402	seed layer
+T13	Component 496 502	sensor
+T14	Component 566 578	buffer layer
+T15	Material 586 594	tantalum
+T16	Material 603 609	copper
+T17	Component 62 72	free layer
+T3	EnergyFlow 115 148	magnetoresistive coefficient dr/R
+T18	Component 202 212	free layer
+T19	Attribution 180 194	microstructure
+T20	Material 238 272	nickel iron oxide (NiFeO) material
+T7	Material 278 314	cobalt niobium (CoNb) based material
+T8	Component 411 421	free layer
+T9	EnergyFlow 455 488	magnetoresistive coefficient dr/R
+T12	Attribution 528 542	microstructure
+T21	Component 550 560	free layer
+T22	Material 595 599	(Ta)
+T23	Material 610 614	(Cu)
+R1	MadeOf Arg1:T14 Arg2:T15
+R2	MadeOf Arg1:T14 Arg2:T16
+R3	Alias Arg1:T15 Arg2:T22
+R4	Alias Arg1:T16 Arg2:T23
+R5	MadeOf Arg1:T6 Arg2:T20
+R6	MadeOf Arg1:T6 Arg2:T7
+R8	Purpose Arg1:T10 Arg2:T9
+R9	PartOf Arg1:T13 Arg2:T9
+R10	Attr Arg1:T21 Arg2:T12
+R13	PartOf Arg1:T4 Arg2:T17
+R14	PartOf Arg1:T4 Arg2:T2
+R15	Purpose Arg1:T1 Arg2:T3
+R16	PartOf Arg1:T5 Arg2:T3
+R17	Attr Arg1:T18 Arg2:T19
+R18	Causitive Arg1:T1 Arg2:T19
+R20	Causitive Arg1:T10 Arg2:T12
+R11	Spatial Arg1:T1 Arg2:T2
+R12	Spatial Arg1:T1 Arg2:T17
+R7	Spatial Arg1:T10 Arg2:T11
+R19	Spatial Arg1:T10 Arg2:T8

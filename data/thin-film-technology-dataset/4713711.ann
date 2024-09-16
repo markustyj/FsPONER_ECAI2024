@@ -1,0 +1,33 @@
+T1	Component 2 31	thin film magnetic transducer
+T2	EnergyFlow 41 57	magnetic circuit
+T3	Component 65 83	nickel-iron layers
+T4	Component 112 137	first and second windings
+T5	Component 160 167	winding
+T6	Component 183 201	nickel-iron layers
+T8	Attribution 275 290	parallel planes
+T9	Location 296 314	conductor segments
+T10	Component 323 330	winding
+T11	Shape 338 362	center-to-center spacing
+T12	Component 382 399	remaining winding
+T13	Location 435 453	transition regions
+T14	Component 461 479	nickel-iron layers
+T15	EnergyFlow 503 520	common inductance
+T16	Component 530 537	winding
+T17	Component 543 551	windings
+T18	Location 570 573	end
+T19	Component 584 605	center tapped winding
+T20	Component 207 225	conductor segments
+T7	Function 418 425	contact
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T20
+R5	Spatial Arg1:T5 Arg2:T6
+R6	Manner Arg1:T8 Arg2:T20
+R7	PartOf Arg1:T10 Arg2:T9
+R8	PartOf Arg1:T14 Arg2:T13
+R9	Attr Arg1:T16 Arg2:T15
+R10	Attr Arg1:T9 Arg2:T11
+R11	Comparison Arg1:T10 Arg2:T12
+R12	Form Arg1:T17 Arg2:T19
+R13	Manner Arg1:T18 Arg2:T17

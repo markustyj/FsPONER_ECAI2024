@@ -1,0 +1,33 @@
+T1	Component 28 52	nickel-iron alloy layers
+T2	Function 64 75	manufacture
+T3	Component 81 104	thin-film magnetic head
+T4	Component 128 151	nickel-iron alloy layer
+T5	Component 158 167	top layer
+T6	Effect 177 196	higher iron content
+T7	Material 206 218	iron content
+T8	Component 243 266	nickel-iron alloy layer
+T9	Component 279 288	top layer
+T10	Component 335 340	layer
+T11	Component 346 369	nickel-iron alloy layer
+T12	Function 399 406	etching
+T13	System 413 434	sloping configuration
+T14	Material 468 486	subsequent coating
+T15	Component 494 499	layer
+T16	Material 503 518	silicon dioxide
+T17	Function 7 24	electrodeposition
+T18	Location 226 235	remainder
+T19	Effect 444 460	great advantages
+T20	Location 318 327	remainder
+R1	Oper Arg1:T17 Arg2:T1
+R2	Oper Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	Purpose Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T8 Arg2:T18
+R6	PartOf Arg1:T18 Arg2:T7
+R7	Comparison Arg1:T5 Arg2:T18
+R8	MadeOf Arg1:T15 Arg2:T16
+R9	PartOf Arg1:T10 Arg2:T20
+R10	Comparison Arg1:T9 Arg2:T20
+R11	Purpose Arg1:T13 Arg2:T19
+R12	PartOf Arg1:T14 Arg2:T15
+R13	Causitive Arg1:T19 Arg2:T14

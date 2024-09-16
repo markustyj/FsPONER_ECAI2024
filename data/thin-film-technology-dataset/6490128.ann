@@ -1,0 +1,28 @@
+T1	Component 2 12	coil layer
+T2	Component 19 52	electrically conductive thin-film
+T3	Component 58 74	thin-film device
+T4	Component 87 99	copper layer
+T5	Component 106 144	electrically conductive material layer
+T6	Component 151 163	nickel layer
+T7	Component 170 210	electrically conductive protective layer
+T8	Material 225 233	material
+T9	Component 247 258	oxide layer
+T10	Material 273 281	material
+T11	Attribution 293 302	thickness
+T12	Attribution 322 345	predetermined thickness
+T13	Attribution 365 374	thickness
+T14	Component 382 393	oxide layer
+T15	Component 419 430	oxide layer
+T16	Function 458 469	ion-milling
+R1	Form Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Form Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Form Arg1:T6 Arg2:T7
+R7	MadeOf Arg1:T7 Arg2:T8
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Attr Arg1:T9 Arg2:T11
+R10	Comparison Arg1:T11 Arg2:T12
+R11	Attr Arg1:T14 Arg2:T13
+R12	Oper Arg1:T16 Arg2:T15

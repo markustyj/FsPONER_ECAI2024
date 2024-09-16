@@ -1,0 +1,1372 @@
+INSPECT: OPER
+Regulator mounting: PART
+grease: PART
+
+no entity in this sentence 
+
+wet: PROP
+regulator: PART
+solvent: PART
+
+Internal: RPOS
+damage: PART
+regulator: PART
+
+CLEAN: OPER
+Regulator mounting: PART
+housing: PART
+base plate: PART
+rings: PART
+regulator: PART
+wiping: OPER
+dry cloth: TOOL
+
+INSTALL: OPER
+CONNECT: OPER
+Regulator: PART
+terminal cover: PART
+housing: PART
+regulator: PART
+screw: PART
+
+tighten: PROP
+
+field coil lead terminal: PART
+over: RPOS
+regulator: PART
+closest: RPOS
+terminal: PART
+
+leads: PART
+frame: PART
+
+Insulated: PROP
+screw: PART
+through: RPOS
+lead terminal: PART
+regulator: PART
+into: RPOS
+rectifier: PART
+housing: PART
+
+tighten: OPER
+
+Bridge: PART
+regulator stud connector: PART
+over: RPOS
+threaded stud: PART
+regulator: PART
+nut: PART
+
+tighten: PROP
+
+Diode: PART
+threaded: PROP
+studs: PART
+rectifier bridge: PART
+
+Insulated: PROP
+screw: PART
+through: RPOS
+indicator strap: PART
+long: PROP
+leg: PART
+diode: PART
+field coil lead terminal: PART
+into: RPOS
+regulator: PART
+into: RPOS
+housing: PART
+
+tighten: PROP
+
+Screw: PART
+through: RPOS
+bridge: PART
+regulator stud connector: PART
+into: RPOS
+rectifier bridge: PART
+into: RPOS
+housing: PART
+
+tighten: OPER
+
+rectifier: PART
+ground: RPOS
+screws: PART
+
+no entity in this sentence 
+
+INSTALL: OPER
+CONNECT: OPER
+terminal connector strap: PART
+over: RPOS
+rectifier stud: PART
+closest: RPOS
+capacitor: PART
+
+installing: OPER
+terminal: PART
+
+stator leads: PART
+over: RPOS
+rectifier bridge: PART
+studs: PART
+
+Three: QTY
+nuts: PART
+rectifier bridge studs: PART
+
+tighten: OPER
+
+Secure: OPER
+fasteners: PART
+TIGHTEN: OPER
+regulator: PART
+screw: PART
+
+no entity in this sentence 
+
+insulated: PROP
+regulator screws: PART
+
+no entity in this sentence 
+
+Two: QTY
+rectifier bridge: PART
+insulated: PROP
+screws: PART
+
+Three: QTY
+rectifier bridge nuts: PART
+
+no entity in this sentence 
+
+Regulator stud nut: PART
+
+no entity in this sentence 
+
+ALTERNATOR: PART
+CLEAN: OPER
+Inner: RPOS
+race: PART
+rectifier: PART
+bearing: PART
+rotor shaft: PART
+grease: PART
+
+Remove: OPER
+tape: PART
+expose: OPER
+rectifier end bearing: PART
+
+Align: OPER
+mounting lugs: PART
+assemble: OPER
+two: QTY
+alternator: PART
+inserting: OPER
+rectifier end bearing: PART
+inner: RPOS
+race: PART
+rotor shaft: PART
+into: RPOS
+bearing: PART
+rectifier end housing: PART
+
+drive end housing: PART
+
+arbor press: TOOL
+block: TOOL
+frames: PART
+
+Insert: OPER
+bolts: PART
+through: RPOS
+drive end housing: PART
+stator: PART
+into: RPOS
+threaded: PROP
+rectifier end housing: PART
+
+Align: OPER
+housings: PART
+stator: PART
+bolts: PART
+straight: RPOS
+
+bolts: PART
+tighten: OPER
+
+TIGHTEN: OPER
+bolts: PART
+
+no entity in this sentence 
+
+dip: OPER
+rectifier: PART
+frame: PART
+alternator: PART
+into: RPOS
+coat: OPER
+electronics: PART
+
+INSTALL: OPER
+dry: PROP
+
+dry: PROP
+install: OPER
+rectifier end cover plate: PART
+screws: PART
+
+replace: OPER
+capacitor: PART
+screw: PART
+
+TIGHTEN: OPER
+screws: PART
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+INSTALL: OPER
+Fan: PART
+onto: RPOS
+rotor shaft: PART
+vanes: PART
+toward: RPOS
+body: PART
+alternator: PART
+
+PROP DRIVE LUG: PART
+
+Insert: OPER
+prop drivebushing: PART
+into: RPOS
+prophub: PART
+
+no entity in this sentence 
+
+Insert: OPER
+bolt: PART
+through: RPOS
+drive bushing: PART
+socket: TOOL
+spacer: TOOL
+
+no entity in this sentence 
+
+bolt washer nut: PART
+socket: TOOL
+pull: OPER
+drive bushing: PART
+into: RPOS
+hub: PART
+
+no entity in this sentence 
+
+Repeat: OPER
+drive bushings: PART
+
+VALVE: PART
+
+Rotate: OPER
+prop hub: PART
+# 1: ID
+cylinder: PART
+top: RPOS
+center: RPOS
+exhaust valves: PART
+valve springs: PART
+
+prop hub: PART
+engine case: PART
+
+no entity in this sentence 
+
+Insert: OPER
+feeler gauge: TOOL
+between: RPOS
+adjusting screw: PART
+valve: PART
+
+no entity in this sentence 
+
+Adjust: OPER
+screw: PART
+feeler gauge: TOOL
+between: RPOS
+valve: PART
+swivel: PART
+
+no entity in this sentence 
+
+Lock: OPER
+screw: PART
+locking nut: PART
+
+no entity in this sentence 
+
+Recheck: OPER
+valve: PART
+feeler gauge: TOOL
+
+no entity in this sentence 
+
+Repeat: OPER
+valve: PART
+cylinder: PART
+# 1: ID
+
+no entity in this sentence 
+
+Rotate: OPER
+crankshaft: PART
+adjust: OPER
+valves: PART
+cylinder: PART
+# 4: ID
+
+no entity in this sentence 
+
+Rotate: OPER
+crankshaft: PART
+adjust: OPER
+valves: PART
+cylinder: PART
+# 3: ID
+
+no entity in this sentence 
+
+Rotate: OPER
+crankshaft: PART
+adjust: OPER
+valves: PART
+cylinder: PART
+# 2: ID
+
+no entity in this sentence 
+
+Install: OPER
+valve covers: PART
+cork gaskets: PART
+hex head cap screws: PART
+O-rings: PART
+washers: PART
+valve covers: PART
+
+cap screws: PART
+covers: PART
+
+PLATES: PART
+PLUGS: PART
+
+Install: OPER
+pump block-off plate: PART
+ACV-Z01-18: ID
+Bolts: PART
+Qty 2: QTY
+gasket: PART
+Gasket: PART
+
+no entity in this sentence 
+
+Spread: OPER
+coat: PART
+engine: PART
+O-rings: PART
+oil: PART
+plug: PART
+insert: OPER
+
+no entity in this sentence 
+
+Remove: OPER
+studs: PART
+engine case: PART
+install: OPER
+Oil Breather Plate: PART
+ACV-Z01-18: ID
+Bolts: PART
+Qty 4: QTY
+gasket: PART
+Gasket: PART
+
+install: OPER
+gasket: PART
+breather: PART
+
+no entity in this sentence 
+
+engines: PART
+oil: PART
+plate: PART
+below: RPOS
+cylinder: PART
+# 2: ID
+
+two: QTY
+ACV-Z01-23: ID
+nuts: PART
+gasket: PART
+Gasket: PART
+
+engine: PART
+plate: PART
+oil: PART
+probe: PART
+
+no entity in this sentence 
+
+Slide: OPER
+into: RPOS
+tube: PART
+front: RPOS
+cylinder: PART
+# 2: ID
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+oil pressure sender: PART
+side: RPOS
+case: PART
+install: OPER
+1/8 NPT: DIM
+pipe plug: PART
+
+oil pressure sender: PART
+pipe plug: PART
+
+near: RPOS
+oil fill plug: PART
+
+FLYWHEEL: PART
+
+silicone sealant: PART
+coat: PART
+dowel pin: PART
+flywheel: PART
+small: PROP
+bead: PART
+1/8 '' diameter: DIM
+dowel pin: PART
+flywheel: PART
+
+engine: PART
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+Install: OPER
+flywheel: PART
+back: RPOS
+engine: PART
+
+dowel pins: PART
+
+flywheel: PART
+seated: RPOS
+drive pins: PART
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+Install: OPER
+wavy washer: PART
+gland nut: PART
+Locktite: PART
+
+no entity in this sentence 
+
+prop hub: PART
+crank: PART
+gland nut: PART
+
+PLATE: PART
+
+Bend: OPER
+ignition modules: PART
+plate: PART
+
+no entity in this sentence 
+
+Attach: OPER
+ignition modules: PART
+plate: PART
+ACVZ01-13: ID
+Cap Screws: PART
+ACV-Z01-30: ID
+hex nuts: PART
+
+Install: OPER
+bolt: PART
+bottom: RPOS
+slot: PART
+
+magnatron: PART
+towards: RPOS
+front: RPOS
+engine: PART
+
+no entity in this sentence 
+
+Match: OPER
+plate: PART
+back: RPOS
+engine case: PART
+
+no entity in this sentence 
+
+Attach: OPER
+plate: PART
+ACV-Z01-20: ID
+Bolts: PART
+Qty 3: QTY
+ACVZ01-21: ID
+Bolt: PART
+Qty 1: QTY
+ACV-Z01-24: ID
+Nut: PART
+ACV-Z01-27: ID
+Washers: PART
+Qty 4: QTY
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+Rotate: OPER
+flywheel: PART
+magnet shoe: PART
+flywheel: PART
+under: RPOS
+Magnatron: PART
+
+no entity in this sentence 
+
+Slide: OPER
+shim: PART
+between: RPOS
+ignition module: PART
+magnet shoe: PART
+
+no entity in this sentence 
+
+Push: OPER
+down against: RPOS
+shim: PART
+tighten: OPER
+bolts: PART
+
+no entity in this sentence 
+
+Remove: OPER
+Shim: PART
+
+no entity in this sentence 
+
+Repeat: OPER
+ignition module: PART
+
+Ignition: PART
+
+ignition system: PART
+
+TRIGGER SHAFT: PART
+Trigger Shaft: PART
+
+Rotate: OPER
+crank: PART
+magnet shoe: PART
+flywheel: PART
+top: RPOS
+engine: PART
+
+put: OPER
+flywheel: PART
+near: RPOS
+below: RPOS
+
+no entity in this sentence 
+
+trigger shaft: PART
+flywheel: PART
+
+Locktite: PART
+four: QTY
+ACV-Z01-81: ID
+flat: PROP
+head cap screws: PART
+install: OPER
+
+no entity in this sentence 
+
+trigger shaft: PART
+trigger shaft: PART
+
+no entity in this sentence 
+
+screws: PART
+below: RPOS
+
+center: RPOS
+shaft: PART
+flywheel: PART
+
+SPARK PLUG: PART
+Plug: PART
+
+TOP: RPOS
+spark plugs: PART
+
+no entity in this sentence 
+
+BOTTOM: RPOS
+spark plugs: PART
+
+no entity in this sentence 
+
+Apply: OPER
+anti-seize compound: PART
+spark plug: PART
+install: OPER
+cylinders: PART
+
+no entity in this sentence 
+
+spark plug: PART
+
+INTAKE MANIFOLD: PART
+
+intake elbow spacers: PART
+intake elbows: PART
+cylinder heads: PART
+inspect: OPER
+elbows: PART
+two: QTY
+upper: RPOS
+center: RPOS
+head studs: PART
+
+trim: OPER
+studs: PART
+eliminate: OPER
+
+no entity in this sentence 
+
+Apply: OPER
+Permatex: PART
+# 3: ID
+side: RPOS
+elbow spacer: PART
+spacer: PART
+cylinder head: PART
+side against: RPOS
+cylinder head: PART
+
+no entity in this sentence 
+
+Apply: OPER
+# 3: ID
+intake elbow: PART
+secure: OPER
+cylinder heads: PART
+ACV-Z01-26: ID
+Qty 4: QTY
+ACV-Z01-49: ID
+Cap Screws: PART
+Qty 4: QTY
+
+no entity in this sentence 
+
+inside: RPOS
+manifold: PART
+
+no entity in this sentence 
+
+Secure: OPER
+intake hose: PART
+intake elbow: PART
+hose clamp: PART
+intake boot: PART
+
+no entity in this sentence 
+
+Push: OPER
+intake manifold: PART
+inside: RPOS
+hose: PART
+secure: OPER
+hose clamps: PART
+intake boot: PART
+
+no entity in this sentence 
+
+Secure: OPER
+intake manifold: PART
+engine: PART
+lower: RPOS
+aft: RPOS
+engine case: PART
+
+Bend: OPER
+mounting tab: PART
+intake manifold: PART
+lower: RPOS
+Magnatron: PART
+
+no entity in this sentence 
+
+Attach: OPER
+AeroInjector: PART
+bottom: RPOS
+manifold: PART
+hose: PART
+hose clamps: PART
+intake boot: PART
+
+fuel: PART
+AeroInjector: PART
+parallel: RPOS
+airframe: PART
+
+Fuel inlet: PART
+back: RPOS
+engine: PART
+
+no entity in this sentence 
+
+wire: PART
+AeroInjector: PART
+intake manifold: PART
+
+no entity in this sentence 
+
+fuel line: PART
+air filter: PART
+AeroInjector: PART
+
+ALTERNATOR: PART
+Stator: PART
+
+stator: PART
+stator plate: PART
+
+mounting lugs: PART
+stator: PART
+plate: PART
+lugs: PART
+remove: OPER
+
+no entity in this sentence 
+
+wires: PART
+stator: PART
+through: RPOS
+stator plate: PART
+
+no entity in this sentence 
+
+Prime: OPER
+four: QTY
+ACVZ01-76: ID
+screws: PART
+Locktite: PART
+
+no entity in this sentence 
+
+Attach: OPER
+stator: PART
+alternator mount plate: PART
+four: QTY
+ACV-Z01-76: ID
+screws: PART
+Locktite: PART
+screw: PART
+
+Stator: PART
+
+Paint: OPER
+magnet: PART
+magnet ring: PART
+outside: RPOS
+stator: PART
+permanent marker: PART
+
+magnets: PART
+magnet: PART
+stator assembly: PART
+out: RPOS
+install: OPER
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+place: OPER
+stator assembly: PART
+over: RPOS
+magnet ring: PART
+top: RPOS
+pick-up: PART
+near: RPOS
+bottom: RPOS
+near: RPOS
+
+magnet ring: PART
+stator assembly: PART
+into: RPOS
+
+Rotate: OPER
+flywheel: PART
+stator plate: PART
+
+no entity in this sentence 
+
+install: OPER
+six: QTY
+ACV-Z01-12: ID
+cap screws: PART
+secure: OPER
+stator assembly: PART
+
+no entity in this sentence 
+
+Rotate: OPER
+crank shaft: PART
+
+removing: OPER
+spark plug: PART
+turning: OPER
+crank: PART
+socket wrench: TOOL
+prop hub bolt: PART
+
+no entity in this sentence 
+
+Remove: OPER
+stator plate: PART
+inspect: OPER
+magnet ring: PART
+stator: PART
+
+no entity in this sentence 
+
+no entity in this sentence 
+
+between: RPOS
+belt sander: PART
+remove: OPER
+stator: PART
+repeat: OPER
+
+no entity in this sentence 
+
+Re-install: OPER
+stator assembly: PART
+
+no entity in this sentence 
+
+six: QTY
+ACV-Z01-12: ID
+Locktite: PART
+
+no entity in this sentence 
+
+Secure: OPER
+stator assembly: PART
+plate: PART
+six: QTY
+ACV-Z01-12: ID
+Locktite: PART
+
+GEARBOX: PART
+P/N 700493: ID
+Install: OPER
+Output Shaft: PART
+Pinion Gear: PART
+into: RPOS
+Main Housing: PART
+# 100228: ID
+
+Install: OPER
+Snap Ring: PART
+# 331: ID
+into: RPOS
+Main Housing: PART
+# 100228: ID
+
+Install: OPER
+Inner: RPOS
+Output Bearing Cone: PART
+# 329: ID
+Output Shaft: PART
+# 100225: ID
+
+Install: OPER
+Inner: RPOS
+Bearing Cup: PART
+# 327: ID
+down over: RPOS
+Bearing Cone: PART
+Shims: PART
+# 100236: ID
+# 100237: ID
+# 100238: ID
+# 100239: ID
+# 100240: ID
+quantity: QTY
+as required: QTY
+same amount: QTY
+
+shims: PART
+side: RPOS
+Inner: RPOS
+Output Shaft Bearing Cup: PART
+
+Slide: OPER
+output shaft: PART
+into: RPOS
+housing: PART
+Inner: RPOS
+Bearing Cup: PART
+Shims: PART
+
+Slide: OPER
+Bearing Spacer: PART
+# 100241: ID
+bottoms out against inner: RPOS
+Bearing Cup: PART
+Insert: OPER
+Outer: RPOS
+Bearing Cup: PART
+# 327: ID
+into: RPOS
+Main Housing: PART
+Slide: OPER
+Outer Bearing Cone: PART
+# 328: ID
+over: RPOS
+Shaft: PART
+seats against Outer: RPOS
+Cup: PART
+# 327: ID
+
+Install: OPER
+Snap Ring: PART
+# 330: ID
+onto: RPOS
+output shaft: PART
+next to outer: RPOS
+Bearing Cup: PART
+
+Install: OPER
+Output Seal: PART
+# 100055: ID
+into: RPOS
+Seal Housing: PART
+# 100707: ID
+Install: OPER
+Seal Housing: PART
+Shims: PART
+# 100232: ID
+# 10233: ID
+# 100234: ID
+# 100235: ID
+quantity as required: QTY
+onto: RPOS
+Main Housing: PART
+over: RPOS
+Output Shaft: PART
+
+Tighten: OPER
+Bolts: PART
+# 601: ID
+check: OPER
+Bearing: PART
+
+Shaft: PART
+rearrange: OPER
+shims: PART
+Inner: RPOS
+Bearing Cup: PART
+Bearing cover: PART
+
+Install: OPER
+Input Shaft: PART
+Gear: PART
+into: RPOS
+Main Housing: PART
+
+Install: OPER
+front: RPOS
+Bearing Cone: PART
+# 328: ID
+rear: RPOS
+Bearing Cone: PART
+# 328: ID
+onto: RPOS
+Input Shaft: PART
+Gear: PART
+
+# 700492: ID
+Gear: PART
+Shaft: PART
+Gear: PART
+Shaft: PART
+
+Install: OPER
+Input Seal: PART
+# 100054: ID
+into: RPOS
+Input Bearing Cover: PART
+# 100230: ID
+Install: OPER
+outer: RPOS
+Bearing Cup: PART
+# 327: ID
+into: RPOS
+Main Housing: PART
+
+Shims: PART
+# 100232: ID
+# 100233: ID
+# 100234: ID
+# 100235: ID
+quantity as required: QTY
+same quantity: QTY
+install: OPER
+Input Bearing Cover: PART
+front: RPOS
+Main Housing: PART
+tightening: OPER
+bolts: PART
+
+Install: OPER
+Rear: RPOS
+Housing Cover: PART
+rear: RPOS
+Main Housing: PART
+Gasket Sealer: PART
+cover: PART
+Gasket: PART
+Gasket: PART
+Gasket: PART
+# 769800: ID
+
+Install: OPER
+Rear: RPOS
+Bearing Cup: PART
+# 327: ID
+into rear: RPOS
+Housing Cover: PART
+
+Shims: PART
+# 100232: ID
+# 100233: ID
+# 100234: ID
+# 100235: ID
+quantity as required: QTY
+same quantity: QTY
+install: OPER
+Rear: RPOS
+Bearing Cap: PART
+# 100231: ID
+Rear: RPOS
+Housing Cover: PART
+tightening: OPER
+bolts: PART
+
+Bearing: PART
+
+remove: OPER
+shims: PART
+Bearing Caps: PART
+add: OPER
+Shims: PART
+
+Set: OPER
+Gear: PART
+Bearing Cap Shims: PART
+Gear: PART
+
+moving: OPER
+shims: PART
+front: RPOS
+cover: PART
+back: RPOS
+cover: PART
+gear: PART
+moved: OPER
+inward: RPOS
+outward: RPOS
+add: OPER
+delete: OPER
+shims: PART
+Bearing: PART
+
+Gearbox: PART
+Oil: PART
+Oil: PART
+Oil: PART
+
+Install: OPER
+Oil Level Plug: PART
+# 54: ID
+Oil Fill Plug: PART
+# 55: ID
+
+Check: OPER
+Seals: PART
+Gasket: PART
+
+recheck: OPER
+Oil: PART
+check: OPER
+
+GEARBOX: PART
+P/N 702673: ID
+Install: OPER
+Output Shaft: PART
+Pinion Gear: PART
+into: RPOS
+Main Housing: PART
+# 2516: ID
+
+Install: OPER
+Snap Ring: PART
+# 754752: ID
+into: RPOS
+Main Housing: PART
+# 2516: ID
+
+Install: OPER
+Shims: PART
+# 753222: ID
+Output Shaft: PART
+next to: RPOS
+Gear: PART
+
+Install: OPER
+Inner: RPOS
+Output Bearing Cone: PART
+# 1722: ID
+Cup: PART
+Cone: PART
+Output Shaft: PART
+# 1718: ID
+
+Install: OPER
+Inner: RPOS
+Bearing Cup: PART
+# 1722: ID
+Cup: PART
+Cone: PART
+down over: RPOS
+Bearing Cone: PART
+Slide: OPER
+output shaft: PART
+into: RPOS
+housing: PART
+
+Insert: OPER
+Snap Ring: PART
+# 754752: ID
+into: RPOS
+Main Housing: PART
+
+Slide: OPER
+Bearing Spacer: PART
+# 1716: ID
+in: RPOS
+bottoms out against: RPOS
+Snap Ring: PART
+
+Insert: OPER
+Outer: RPOS
+Bearing Cup: PART
+# 754757: ID
+Cup: PART
+Cone: PART
+into: RPOS
+Main Housing: PART
+against: RPOS
+Bearing Spacer: PART
+Slide: OPER
+Outer: RPOS
+Bearing Cone: PART
+# 754757: ID
+Cup: PART
+Cone: PART
+over: RPOS
+Shaft: PART
+seats against Outer: RPOS
+Cup: PART
+
+Install: OPER
+Tabbed Lock Washer: PART
+# 1720: ID
+onto: RPOS
+output shaft: PART
+next to outer: RPOS
+Bearing Cone: PART
+Inner: RPOS
+Tab: PART
+washer: PART
+Shaft: PART
+
+Install: OPER
+Notched Locking Nut: PART
+# 1717: ID
+screwing: OPER
+onto: RPOS
+Output Shaft: PART
+Tighten: OPER
+Nut: PART
+Bearing: PART
+
+no entity in this sentence 
+
+Bearing: PART
+BEND: OPER
+Locking Washer Tabs: PART
+Notches: PART
+Nut: PART
+INSTALL: OPER
+OUTPUT SEAL: PART
+
+Install: OPER
+Input Shaft: PART
+Gear: PART
+into: RPOS
+Main Housing: PART
+# 2516: ID
+
+Install: OPER
+front: RPOS
+Bearing: PART
+# 754459: ID
+into: RPOS
+Main Housing: PART
+# 2516: ID
+
+Shims: PART
+# 754761: ID
+quantity as required: QTY
+same quantity: QTY
+install: OPER
+Snap ring: PART
+# 754752: ID
+into: RPOS
+Main Housing: PART
+
+INSTALL: OPER
+INPUT SEAL: PART
+
+Install: OPER
+Input Shaft: PART
+Gear: PART
+# 1725: ID
+into rear: RPOS
+Main Housing: PART
+through front: RPOS
+input Bearing: PART
+
+Install: OPER
+Rear Bearing Cone: PART
+# 754757: ID
+Cup: PART
+Cone: PART
+onto back: RPOS
+input Shaft: PART
+
+Install: OPER
+Rear: RPOS
+Bearing Cup: PART
+# 754757: ID
+Cup: PART
+Cone: PART
+into: RPOS
+Rear Housing Cover: PART
+# 1710: ID
+bottomed out: RPOS
+Cover: PART
+
+Install: OPER
+Rear Cover: PART
+Gasket Sealer: PART
+onto: RPOS
+Main Housing: PART
+Tighten: OPER
+Bolts: PART
+rear: RPOS
+covers: PART
+Gasket: PART
+Sealer: PART
+Gasket: PART
+Gasket: PART
+# 769800: ID
+rear: RPOS
+cover: PART
+
+Set: OPER
+Bearing: PART
+Input Shaft: PART
+remove: OPER
+outer: RPOS
+Bearing: PART
+Ball Bearing: PART
+
+adding: OPER
+removing: OPER
+Shims: PART
+between Front: RPOS
+input Bearing: PART
+Snap Ring: PART
+
+Set: OPER
+Gear: PART
+Shims: PART
+output shaft: PART
+next: RPOS
+output Pinion Gear: PART
+Add: OPER
+remove: OPER
+shims: PART
+Gear: PART
+
+Gear: PART
+Bearing: PART
+Output shaft: PART
+
+Install: OPER
+Input Seal: PART
+# 17240: ID
+Output Seal: PART
+# 1719: ID
+seals: PART
+seals: PART
+Seals: PART
+light coat: PART
+grease: PART
+seals: PART
+
+Fill: OPER
+Gearbox: PART
+Oil: PART
+Oil: PART
+Oil: PART
+
+Install: OPER
+Oil Level plug: PART
+Oil Fill Plug: PART
+
+Check: OPER
+Seals: PART
+Gasket: PART
+

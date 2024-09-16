@@ -1,0 +1,25 @@
+T1	Component 2 20	soft magnetic film
+T2	Material 33 50	Co---M---T---C alloy
+T3	System 61 75	film structure
+T6	Component 181 185	film
+T7	Component 191 207	lower core layer
+T8	Component 214 265	MR/inductive composite-type thin film magnetic head
+T9	Effect 274 311	high saturation magnetic flux density
+T10	Effect 313 329	high resistivity
+T11	Effect 331 360	low magnetostriction constant
+T12	Effect 365 391	appropriate magnetic field
+T15	Component 455 471	lower core layer
+T16	Material 33 50	Co--M--T--C alloy
+R1	MadeOf Arg1:T1 Arg2:T16
+R3	Form Arg1:T6 Arg2:T7
+R4	PartOf Arg1:T8 Arg2:T7
+T4	Material 104 119	amorphous phase
+T17	Material 124 139	element M and C
+R2	MadeOf Arg1:T3 Arg2:T4
+R5	MadeOf Arg1:T3 Arg2:T17
+R6	Purpose Arg1:T6 Arg2:T9
+R7	Purpose Arg1:T6 Arg2:T10
+R8	Purpose Arg1:T6 Arg2:T11
+R9	Purpose Arg1:T6 Arg2:T12
+T5	Effect 422 447	core and shield functions
+R11	Purpose Arg1:T15 Arg2:T5

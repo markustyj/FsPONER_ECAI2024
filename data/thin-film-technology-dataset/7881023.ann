@@ -1,0 +1,45 @@
+T1	Component 26 49	magnetoresistive device
+T3	Component 120 141	magnetoresistive unit
+T4	Component 149 167	first shield layer
+T5	Component 174 193	second shield layer
+T6	Component 227 248	magnetoresistive unit
+T7	EnergyFlow 284 297	sense current
+T8	Location 311 329	stacking direction
+T9	Component 343 364	magnetoresistive unit
+T10	Component 377 407	nonmagnetic intermediate layer
+T11	Component 415 440	first ferromagnetic layer
+T12	Component 447 473	second ferromagnetic layer
+T13	Component 507 537	nonmagnetic intermediate layer
+T14	Component 578 596	first shield layer
+T15	Component 606 625	second shield layer
+T17	Location 693 716	magnetization direction
+T18	Component 726 751	first ferromagnetic layer
+T19	Component 761 787	second ferromagnetic layer
+T20	State 826 858	antiparallel magnetization state
+T23	Component 975 993	first shield layer
+T24	Component 1002 1021	second shield layer
+T2	System 59 105	CPP (current perpendicular to plane) structure
+T21	Function 877 898	mutual magnetizations
+T25	Location 906 925	opposite directions
+T22	Function 951 967	magnetic actions
+T26	ScientificConcept 937 947	influences
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T4
+R6	Spatial Arg1:T6 Arg2:T5
+R7	Manner Arg1:T8 Arg2:T7
+R8	PartOf Arg1:T9 Arg2:T10
+R9	PartOf Arg1:T9 Arg2:T11
+R10	PartOf Arg1:T9 Arg2:T12
+R11	Spatial Arg1:T13 Arg2:T12
+R12	Spatial Arg1:T13 Arg2:T11
+T16	System 643 680	magnetization direction control means
+R13	Causitive Arg1:T14 Arg2:T16
+R14	Causitive Arg1:T15 Arg2:T16
+R15	Manner Arg1:T17 Arg2:T16
+R16	Manner Arg1:T25 Arg2:T21
+R17	Oper Arg1:T22 Arg2:T23
+R18	Oper Arg1:T22 Arg2:T24
+R19	Oper Arg1:T22 Arg2:T26

@@ -1,0 +1,81 @@
+T1	Component 2 26	data recording disk file
+T2	Component 61 89	improved head-disk interface
+T3	Component 107 125	transducer carrier
+T5	Component 249 268	air-bearing surface
+T7	Component 374 393	air-bearing surface
+T9	Component 421 425	disk
+T10	Component 435 444	disk file
+T11	Component 467 486	air-bearing surface
+T13	Component 557 569	rear ski pad
+T14	Component 770 774	disk
+T15	Component 783 795	rear ski pad
+T16	Component 841 853	rear ski pad
+T19	Component 1053 1056	pad
+T20	Component 1083 1086	pad
+T4	Component 170 187	conventional head
+T22	Component 34 53	liquid-bearing type
+T23	Component 224 228	disk
+T24	Location 278 287	front end
+T6	Component 291 298	ski pad
+T25	Location 308 316	rear end
+T8	Component 402 413	liquid film
+T26	Location 614 629	rearward region
+T27	Component 680 692	rear ski pad
+T28	Component 824 835	liquid film
+T17	Attribution 860 888	convexly shaped leading edge
+T29	Attribution 913 926	trailing edge
+T30	Attribution 1019 1045	leading and trailing edges
+T12	Component 515 532	air-bearing rails
+T32	Effect 659 672	skiing action
+T33	ScientificConcept 581 599	air-bearing effect
+T34	Component 733 744	air-bearing
+T35	Component 755 761	struts
+T36	Component 803 816	sole ski foot
+T37	EnergyFlow 939 954	static friction
+T18	Material 959 968	lubricant
+T38	Attribution 1001 1006	angle
+T21	EnergyFlow 1178 1185	disk ID
+T39	ScientificConcept 1118 1139	carrier-disk velocity
+T40	EnergyFlow 1189 1191	OD
+T41	ScientificConcept 697 714	operational speed
+T42	Component 151 158	carrier
+T43	Component 234 241	carrier
+T44	Component 637 644	carrier
+T45	Component 1159 1166	carrier
+T31	Component 337 345	ski feet
+T46	Component 349 355	struts
+T47	Value 1103 1114	wide ranges
+T48	Attribution 131 145	new properties
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T3 Arg2:T48
+R3	Causitive Arg1:T3 Arg2:T2
+R4	Causitive Arg1:T42 Arg2:T4
+R5	Causitive Arg1:T4 Arg2:T23
+R6	PartOf Arg1:T43 Arg2:T5
+R7	Spatial Arg1:T5 Arg2:T24
+R8	Spatial Arg1:T6 Arg2:T25
+R9	PartOf Arg1:T43 Arg2:T6
+R10	PartOf Arg1:T43 Arg2:T31
+R11	PartOf Arg1:T43 Arg2:T46
+R12	PartOf Arg1:T9 Arg2:T8
+R13	Causitive Arg1:T46 Arg2:T7
+R14	Manner Arg1:T12 Arg2:T11
+R15	Spatial Arg1:T11 Arg2:T13
+R16	PartOf Arg1:T44 Arg2:T26
+R17	Oper Arg1:T32 Arg2:T27
+R18	Causitive Arg1:T34 Arg2:T35
+R19	Manner Arg1:T14 Arg2:T35
+R20	Form Arg1:T15 Arg2:T36
+#1	AnnotatorNotes R20	感觉是used as 差不多的意思
+R21	Spatial Arg1:T36 Arg2:T28
+R22	Attr Arg1:T16 Arg2:T17
+R23	Comparison Arg1:T17 Arg2:T29
+R24	Purpose Arg1:T17 Arg2:T37
+R25	Purpose Arg1:T17 Arg2:T18
+R26	Attr Arg1:T30 Arg2:T38
+R27	Attr Arg1:T19 Arg2:T38
+R28	Purpose Arg1:T38 Arg2:T20
+R29	Measurement Arg1:T39 Arg2:T47
+R30	Attr Arg1:T20 Arg2:T39
+R31	Manner Arg1:T21 Arg2:T45
+R32	Manner Arg1:T40 Arg2:T45

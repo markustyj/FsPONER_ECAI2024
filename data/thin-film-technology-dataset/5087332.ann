@@ -1,0 +1,32 @@
+T1	Component 21 45	thin film magnetic heads
+T2	Shape 65 99	precisely defined back gap opening
+T3	Function 109 125	magnetic closure
+T4	Component 133 154	P1 and P1 pole pieces
+T5	System 158 193	mushroom-like photoresist structure
+T6	Component 203 212	cap layer
+T7	Component 228 238	stem layer
+T8	Component 258 271	P1 pole piece
+T9	Function 277 295	double resist spin
+T10	Function 300 322	double exposure method
+T11	Function 330 350	critical baking step
+T12	Function 413 427	first exposure
+T13	Function 436 459	second photoresist spin
+T14	Component 465 474	cap layer
+T15	Shape 487 503	back gap opening
+T16	System 514 549	mushroom-like photoresist structure
+T17	PhysicsFlow 594 601	solvent
+T18	Shape 607 623	back gap opening
+T19	Component 372 400	deposited photoresist layers
+T20	Function 566 577	single step
+R1	Purpose Arg1:T2 Arg2:T3
+R2	Oper Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T1 Arg2:T2
+R4	PartOf Arg1:T5 Arg2:T6
+R5	Causitive Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T5 Arg2:T8
+R7	Oper Arg1:T9 Arg2:T5
+R8	Oper Arg1:T10 Arg2:T5
+R9	Oper Arg1:T20 Arg2:T16
+R10	Oper Arg1:T20 Arg2:T17
+R11	Causitive Arg1:T14 Arg2:T15
+R12	Oper Arg1:T11 Arg2:T19

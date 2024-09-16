@@ -1,0 +1,50 @@
+T1	Component 1 33	First and second magnetic layers
+T2	Component 39 52	magnetic head
+T3	Component 72 91	toroidal coil layer
+T4	Component 99 132	upper and lower layer coil pieces
+T5	Component 176 191	magnetic layers
+T6	Component 216 238	first insulating layer
+T7	Location 262 265	top
+T8	Component 271 294	second insulating layer
+T9	Location 315 319	ends
+T10	Component 327 349	first insulating layer
+T11	Component 368 390	first insulating layer
+T12	Location 412 428	height direction
+T13	Component 434 438	ULCP
+T14	Location 461 470	side ends
+T15	Component 484 488	LLCP
+T16	Component 504 526	third insulating layer
+T17	Location 537 552	straight region
+T19	Component 592 615	upper layer coil pieces
+T20	Location 622 635	curved region
+T21	Attribution 652 666	facing surface
+T22	Location 675 691	height direction
+T23	Location 699 702	end
+T24	Location 710 731	track width direction
+T25	Location 736 739	end
+T28	Component 801 805	ULCP
+T29	Component 134 138	ULCP
+T30	Component 143 147	LLCP
+T31	Component 197 201	ULCP
+T32	Location 351 360	Side ends
+T18	Location 755 781	straight and curved region
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T3 Arg2:T4
+R3	Alias Arg1:T4 Arg2:T29
+R4	Alias Arg1:T4 Arg2:T30
+R5	Spatial Arg1:T3 Arg2:T5
+R6	Attr Arg1:T11 Arg2:T32
+R7	Manner Arg1:T12 Arg2:T32
+R8	Attr Arg1:T8 Arg2:T7
+R9	Attr Arg1:T10 Arg2:T9
+R10	Attr Arg1:T18 Arg2:T25
+R11	Spatial Arg1:T25 Arg2:T28
+R12	Spatial Arg1:T13 Arg2:T14
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Spatial Arg1:T31 Arg2:T6
+R15	PartOf Arg1:T15 Arg2:T17
+R16	Spatial Arg1:T20 Arg2:T21
+R17	Manner Arg1:T22 Arg2:T20
+R18	Attr Arg1:T24 Arg2:T23
+R19	Manner Arg1:T9 Arg2:T7
+R20	Spatial Arg1:T31 Arg2:T7

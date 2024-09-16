@@ -1,0 +1,54 @@
+T1	Component 3 17	recording head
+T2	Location 30 58	first tape-head contact area
+T3	Component 71 90	first write element
+T4	Component 97 115	first read element
+T5	Component 145 162	MR sensor element
+T6	Component 168 186	first read element
+T7	Component 217 236	first write element
+T8	Component 260 278	first read element
+T10	Component 324 343	first write element
+T11	Location 347 376	second tape-head contact area
+T12	Component 388 408	second write element
+T13	Component 415 434	second read element
+T14	Component 462 479	MR sensor element
+T15	Component 485 504	second read element
+T16	Component 535 555	second write element
+T17	Component 579 598	second read element
+T19	Component 644 664	second write element
+T20	Component 670 699	first read and write elements
+T21	Location 707 735	first tape-head contact area
+T22	Component 757 787	second write and read elements
+T23	Location 795 824	second tape-head contact area
+T24	Location 836 847	end portion
+T25	Component 855 875	second write element
+T26	Location 886 892	region
+T27	Location 925 936	end portion
+T28	Component 944 963	first write element
+T29	Attribution 965 982	Data track widths
+T9	Location 289 295	region
+T18	Location 609 615	region
+T31	Value 993 1003	one micron
+T32	System 1024 1040	this head design
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T11 Arg2:T12
+R6	PartOf Arg1:T11 Arg2:T13
+R7	PartOf Arg1:T13 Arg2:T14
+R9	Spatial Arg1:T6 Arg2:T7
+R10	Spatial Arg1:T15 Arg2:T16
+R12	PartOf Arg1:T21 Arg2:T20
+R13	Spatial Arg1:T20 Arg2:T22
+R14	PartOf Arg1:T23 Arg2:T22
+R15	PartOf Arg1:T25 Arg2:T24
+R16	PartOf Arg1:T28 Arg2:T27
+R17	Measurement Arg1:T29 Arg2:T31
+R19	Spatial Arg1:T24 Arg2:T27
+R20	Purpose Arg1:T32 Arg2:T31
+R8	Spatial Arg1:T17 Arg2:T19
+R11	Spatial Arg1:T8 Arg2:T10
+R18	Manner Arg1:T9 Arg2:T8
+R21	Manner Arg1:T18 Arg2:T17
+R22	Manner Arg1:T26 Arg2:T25
+#1	AnnotatorNotes R1	标得不错

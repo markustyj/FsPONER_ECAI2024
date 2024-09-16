@@ -1,0 +1,71 @@
+T3	Component 63 81	first shield layer
+T4	Component 88 110	combined second shield
+T5	Component 115 138	bottom pole piece layer
+T6	Component 175 186	read sensor
+T8	Component 228 250	combined second shield
+T9	Component 255 278	bottom pole piece layer
+T10	Component 313 331	first shield layer
+T11	Location 339 351	pole tip end
+T13	Component 446 464	first shield layer
+T14	Component 528 550	combined second shield
+T15	Component 555 578	bottom pole piece layer
+T17	Component 620 638	first shield layer
+T18	Component 701 730	stacked thin film coil layers
+T21	Component 810 824	thin film coil
+T23	Component 858 875	bottom pole piece
+T24	Location 883 898	pole tip region
+T25	Component 954 971	bottom pole piece
+T26	Component 1036 1054	first shield layer
+T27	Component 1081 1097	multi-layer coil
+T28	Component 23 53	merged thin film magnetic head
+T1	Shape 153 161	sandwich
+T2	Location 207 222	pole tip region
+T7	Location 359 370	yoke region
+T12	Component 384 395	read sensor
+T29	Location 472 487	back gap region
+T30	Shape 491 508	patterned opening
+T31	Location 586 597	yoke region
+T16	Attribution 650 676	flat planarization surface
+T32	Shape 751 768	patterned opening
+T33	Component 776 796	top pole piece layer
+T19	Location 832 843	yoke region
+T20	Component 911 919	pole tip
+T22	Shape 924 927	gap
+T34	Location 979 994	back gap region
+T35	Shape 1000 1017	patterned opening
+T36	Function 1066 1075	provision
+T37	Shape 1118 1129	low profile
+T38	Component 1137 1141	head
+R1	Causitive Arg1:T35 Arg2:T26
+R2	Attr Arg1:T38 Arg2:T37
+R3	Oper Arg1:T36 Arg2:T27
+R4	Purpose Arg1:T35 Arg2:T37
+R5	Purpose Arg1:T35 Arg2:T36
+R6	Spatial Arg1:T18 Arg2:T32
+R7	Spatial Arg1:T33 Arg2:T21
+R9	Manner Arg1:T24 Arg2:T23
+R10	Manner Arg1:T34 Arg2:T25
+R8	Manner Arg1:T19 Arg2:T21
+R11	Spatial Arg1:T33 Arg2:T23
+R12	Spatial Arg1:T33 Arg2:T25
+R14	PartOf Arg1:T15 Arg2:T31
+R16	Form Arg1:T30 Arg2:T16
+R17	Causitive Arg1:T30 Arg2:T17
+R18	Causitive Arg1:T8 Arg2:T10
+R19	Causitive Arg1:T9 Arg2:T10
+R20	PartOf Arg1:T7 Arg2:T11
+R21	Spatial Arg1:T10 Arg2:T11
+R22	Spatial Arg1:T7 Arg2:T12
+R23	Spatial Arg1:T13 Arg2:T29
+R24	Causitive Arg1:T8 Arg2:T13
+R25	Causitive Arg1:T9 Arg2:T13
+R13	PartOf Arg1:T14 Arg2:T31
+R15	Spatial Arg1:T30 Arg2:T31
+R26	Purpose Arg1:T23 Arg2:T20
+R27	Purpose Arg1:T23 Arg2:T22
+R28	PartOf Arg1:T28 Arg2:T3
+R29	PartOf Arg1:T28 Arg2:T4
+R30	PartOf Arg1:T28 Arg2:T5
+R31	Causitive Arg1:T28 Arg2:T1
+R33	Spatial Arg1:T1 Arg2:T2
+R32	Purpose Arg1:T1 Arg2:T6

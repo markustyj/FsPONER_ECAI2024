@@ -1,0 +1,56 @@
+T1	Component 2 16	recording head
+T2	Component 39 52	magnetic pole
+T3	Component 57 78	magnetic side shields
+T4	Component 95 99	pole
+T5	Component 105 117	side shields
+T6	Component 141 145	pole
+T7	Material 172 187	magnetic medium
+T9	Component 276 281	-pole
+T10	Component 287 303	three-pole heads
+T13	Component 360 373	magnetic head
+T14	EnergyFlow 395 399	flux
+T15	Component 407 420	target source
+T17	Component 469 482	magnetic pole
+T18	Component 489 504	magnetic shield
+T19	Component 510 516	shield
+T20	Component 534 538	pole
+T21	Component 554 572	magnetic shielding
+T22	Component 596 600	pole
+T23	EnergyFlow 604 608	flux
+T24	Component 624 637	target source
+T25	Component 660 691	alternate flux return conductor
+T26	Component 715 723	pole tip
+T27	Location 733 747	shield section
+T28	Component 753 782	non-magnetic insulation layer
+T29	Component 786 808	shielded magnetic head
+T30	Component 822 842	outer magnetic poles
+T31	Component 852 863	outer poles
+T32	Component 878 893	magnetic shield
+T33	Component 900 911	center pole
+T34	Component 925 936	outer poles
+T35	Component 969 980	center pole
+T36	Shape 151 166	adjacent tracks
+T37	Component 263 271	monopole
+T38	Function 224 259	longitudinal and vertical recording
+T8	Component 315 356	inductive, MR and Hall-type read elements
+T11	Value 539 550	360.degree.
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T7 Arg2:T36
+R5	Causitive Arg1:T5 Arg2:T6
+R6	Purpose Arg1:T37 Arg2:T38
+R7	Purpose Arg1:T9 Arg2:T38
+R8	Purpose Arg1:T10 Arg2:T38
+R9	Causitive Arg1:T13 Arg2:T14
+R10	PartOf Arg1:T13 Arg2:T17
+R11	PartOf Arg1:T13 Arg2:T18
+R12	Generate Arg1:T15 Arg2:T14
+R13	PartOf Arg1:T29 Arg2:T30
+R14	Form Arg1:T31 Arg2:T32
+R15	Purpose Arg1:T32 Arg2:T33
+R16	Manner Arg1:T26 Arg2:T25
+R17	Causitive Arg1:T19 Arg2:T20
+R18	Attr Arg1:T20 Arg2:T11
+R19	PartOf Arg1:T21 Arg2:T20
+R20	Generate Arg1:T22 Arg2:T23

@@ -1,0 +1,72 @@
+T1	Component 2 15	magnetic head
+T2	Component 22 28	camera
+T4	Component 128 132	film
+T5	Component 153 159	camera
+T9	ScientificConcept 230 246	magnetic circuit
+T10	ScientificConcept 268 279	pole pieces
+T11	ScientificConcept 314 325	pole pieces
+T12	Component 349 353	arms
+T13	Location 379 404	spaced coil winding areas
+T14	ScientificConcept 413 424	pole pieces
+T15	Component 487 491	arms
+T16	ScientificConcept 503 514	pole pieces
+T17	ScientificConcept 613 629	magnetic circuit
+T20	Location 818 827	gap depth
+T22	Component 890 901	pole pieces
+T24	Component 934 939	coils
+T3	Location 38 59	track-forming portion
+T21	Component 863 873	film track
+T28	Effect 1107 1131	improved core efficiency
+T27	Location 1094 1102	arm ends
+T29	Location 1074 1086	contact area
+T26	Component 1054 1063	rear arms
+T30	Location 1033 1046	opposing ends
+T25	Attribution 964 976	film surface
+T31	Component 991 1016	simple flat pole elements
+T23	Component 913 928	low height core
+T32	Attribution 839 854	contact surface
+T33	Attribution 596 605	Thickness
+T34	Shape 639 642	gap
+T35	Shape 657 665	recesses
+T18	Component 673 692	adjacent front arms
+T36	Material 714 734	non-magnetic inserts
+T37	Location 791 795	ends
+T19	Component 752 765	narrowed arms
+T38	Location 550 554	ends
+T39	Shape 578 594	non-magnetic gap
+T40	Measure 441 458	substantial angle
+T6	Location 172 193	track forming portion
+T7	Location 100 122	magnetic memory region
+T8	Component 206 219	improved core
+R1	Purpose Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T4 Arg2:T7
+R4	PartOf Arg1:T6 Arg2:T8
+R5	Form Arg1:T8 Arg2:T9
+T41	Location 371 375	side
+R7	Attr Arg1:T13 Arg2:T41
+R8	Manner Arg1:T41 Arg2:T12
+R9	PartOf Arg1:T16 Arg2:T15
+R10	Attr Arg1:T17 Arg2:T33
+R11	Spatial Arg1:T17 Arg2:T34
+R12	PartOf Arg1:T18 Arg2:T35
+R13	Purpose Arg1:T35 Arg2:T33
+R14	Spatial Arg1:T18 Arg2:T36
+R15	Purpose Arg1:T32 Arg2:T21
+R16	Causitive Arg1:T36 Arg2:T19
+R17	Form Arg1:T36 Arg2:T32
+R18	Causitive Arg1:T36 Arg2:T20
+R19	Causitive Arg1:T22 Arg2:T23
+R21	Spatial Arg1:T24 Arg2:T25
+R22	Form Arg1:T31 Arg2:T24
+R23	Attr Arg1:T26 Arg2:T30
+R24	PartOf Arg1:T27 Arg2:T29
+T42	Function 1018 1025	Angling
+R25	Oper Arg1:T42 Arg2:T30
+R26	Causitive Arg1:T42 Arg2:T29
+R27	Purpose Arg1:T42 Arg2:T28
+R28	Spatial Arg1:T4 Arg2:T5
+R2	PartOf Arg1:T1 Arg2:T3
+R6	PartOf Arg1:T8 Arg2:T10
+R29	Manner Arg1:T40 Arg2:T14
+R30	Form Arg1:T38 Arg2:T39
+R20	PartOf Arg1:T22 Arg2:T24

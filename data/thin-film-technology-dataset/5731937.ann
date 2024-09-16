@@ -1,0 +1,35 @@
+T1	Component 2 31	thin film magnetic transducer
+T5	Component 354 373	GMR sensing element
+T7	Component 42 86	giant magnetoresistive (GMR) sensing element
+T8	Function 108 147	current-perpendicular-to-the-plane mode
+T9	Function 103 106	CPP
+T2	Component 149 172	Electrical lead members
+T10	EnergyFlow 176 192	electric contact
+T11	Component 202 217	sensing element
+T3	EnergyFlow 242 256	sensor current
+T4	EnergyFlow 234 238	flow
+T12	Component 269 299	giant magnetoresistive element
+T13	Attribution 305 311	height
+T14	Attribution 325 331	height
+T15	Attribution 340 345	width
+T16	Attribution 395 401	height
+T17	Attribution 415 421	height
+T18	Attribution 426 431	width
+T19	Component 453 465	lead members
+T6	Effect 491 514	increased output signal
+T20	Component 524 534	transducer
+R1	Causitive Arg1:T1 Arg2:T7
+R2	Alias Arg1:T8 Arg2:T9
+R3	Oper Arg1:T8 Arg2:T7
+R4	Spatial Arg1:T2 Arg2:T11
+R5	Attr Arg1:T3 Arg2:T4
+R6	Manner Arg1:T12 Arg2:T3
+R7	Purpose Arg1:T2 Arg2:T4
+R8	Attr Arg1:T5 Arg2:T15
+R9	Attr Arg1:T5 Arg2:T14
+R10	Attr Arg1:T5 Arg2:T13
+R11	Attr Arg1:T19 Arg2:T18
+R12	Attr Arg1:T19 Arg2:T17
+R13	Attr Arg1:T19 Arg2:T16
+R14	Comparison Arg1:T5 Arg2:T19
+R15	Generate Arg1:T20 Arg2:T6

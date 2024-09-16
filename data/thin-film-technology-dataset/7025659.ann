@@ -1,0 +1,29 @@
+T4	Attribution 272 293	higher surface energy
+T5	Material 303 309	copper
+T7	Material 329 336	alumina
+T8	Material 341 345	NiFe
+T10	ScientificConcept 455 467	removal rate
+T11	Material 507 517	CMP slurry
+T13	Material 548 556	abrasive
+T14	Material 580 590	CMP slurry
+T15	Attribution 609 616	surface
+T18	System 74 124	thin film magnetic head hardbaked resist structure
+T1	Attribution 143 161	low surface energy
+T2	System 178 223	additional thin film magnetic head structures
+T3	Material 311 327	hardbaked resist
+T20	Component 529 543	liquid vehicle
+T12	Material 564 574	surfactant
+T16	Function 709 736	CMP planarization technique
+R1	Attr Arg1:T18 Arg2:T1
+T17	Material 241 250	materials
+R2	MadeOf Arg1:T2 Arg2:T17
+R3	Attr Arg1:T2 Arg2:T4
+R4	InstanceOf Arg1:T5 Arg2:T17
+R5	InstanceOf Arg1:T3 Arg2:T17
+R6	InstanceOf Arg1:T7 Arg2:T17
+R7	InstanceOf Arg1:T8 Arg2:T17
+T6	Material 387 429	chemical mechanical polishing (CMP) slurry
+R8	PartOf Arg1:T11 Arg2:T20
+R9	PartOf Arg1:T11 Arg2:T13
+R10	PartOf Arg1:T11 Arg2:T12
+R11	Causitive Arg1:T14 Arg2:T15

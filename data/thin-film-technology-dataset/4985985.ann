@@ -1,0 +1,30 @@
+T2	Component 35 54	mass storage device
+T3	Component 96 100	head
+T4	Component 106 120	thin-film head
+T5	Component 130 145	solenoidal coil
+T8	Material 249 268	insulating material
+T10	Component 371 386	solenoidal coil
+T1	Component 6 21	read/write head
+T11	System 60 90	digital data processing system
+T12	Component 172 183	pole pieces
+T7	Component 232 245	planar layers
+T13	Location 272 286	opposing sides
+T14	Component 292 302	pole piece
+T15	Location 329 333	ends
+T9	Component 398 408	pole piece
+T16	Shape 337 352	selected traces
+T17	Shape 193 217	planar conductive traces
+R1	PartOf Arg1:T11 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T1
+R3	InstanceOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T12
+R6	PartOf Arg1:T8 Arg2:T7
+R7	Spatial Arg1:T17 Arg2:T7
+R8	PartOf Arg1:T14 Arg2:T13
+R9	Spatial Arg1:T8 Arg2:T13
+T6	Component 309 313	vias
+R10	Spatial Arg1:T6 Arg2:T15
+R11	PartOf Arg1:T16 Arg2:T15
+R12	Purpose Arg1:T15 Arg2:T10
+R13	Spatial Arg1:T10 Arg2:T9

@@ -1,0 +1,36 @@
+T1	Component 0 10	PtMn films
+T2	Component 23 47	antiferromagnetic layers
+T3	Component 53 97	dual spin-valve type magnetoresistive sensor
+T4	EnergyFlow 102 137	exchange anisotropic magnetic field
+T5	Component 176 185	PtMn film
+T6	Component 214 235	pinned magnetic layer
+T7	EnergyFlow 246 291	effective exchange anisotropic magnetic field
+T8	Function 314 328	heat treatment
+T9	Measure 334 360	relatively low temperature
+T10	Component 379 388	PtMn film
+T11	Component 403 426	antiferromagnetic layer
+T12	Component 432 456	spin-valve film laminate
+T13	Component 471 480	PtMn film
+T14	EnergyFlow 491 537	sufficient exchange anisotropic magnetic field
+T15	Measure 565 606	relatively low heat treatment temperature
+T18	Component 671 683	total layers
+T19	Component 691 715	spin-valve film laminate
+T20	EnergyFlow 747 770	magnetoresistance ratio
+T21	Attribution 778 793	total thickness
+T22	Component 801 825	spin-valve film laminate
+T16	Attribution 613 644	relatively small film thickness
+R1	Form Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Form Arg1:T10 Arg2:T11
+R4	PartOf Arg1:T12 Arg2:T11
+R5	PartOf Arg1:T19 Arg2:T18
+R6	Attr Arg1:T22 Arg2:T21
+R7	Spatial Arg1:T5 Arg2:T6
+R8	Generate Arg1:T8 Arg2:T7
+R9	Generate Arg1:T13 Arg2:T14
+R10	Attr Arg1:T14 Arg2:T15
+R11	Attr Arg1:T14 Arg2:T16
+R12	Attr Arg1:T8 Arg2:T9
+#1	AnnotatorNotes R12	低温度下的热处理 如何标注？
+R13	Attr Arg1:T22 Arg2:T20
+R14	Purpose Arg1:T18 Arg2:T20

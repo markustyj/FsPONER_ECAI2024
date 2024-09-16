@@ -1,0 +1,32 @@
+T1	System 6 42	tunnel magnetoresistive (TMR) device
+T3	Component 79 104	intermediate spacer layer
+T4	Effect 129 166	uniform circumferential magnetization
+T5	Component 174 184	free stack
+T6	EnergyFlow 227 262	antiferromagnetic exchange coupling
+T7	System 272 285	CPP MR device
+T8	Component 297 307	seed stack
+T9	Component 311 323	pinned stack
+T10	Component 331 341	seed stack
+T11	Component 349 363	tunnel barrier
+T12	Component 371 383	pinned stack
+T13	Component 387 397	free stack
+T14	Component 412 426	tunnel barrier
+T15	Component 436 446	free stack
+T16	Component 528 538	free stack
+T17	Component 44 58	free sublayers
+T2	EnergyFlow 203 223	orange-peel coupling
+T18	Effect 483 520	uniform circumferential magnetization
+R1	PartOf Arg1:T7 Arg2:T8
+R2	PartOf Arg1:T7 Arg2:T9
+R3	Spatial Arg1:T9 Arg2:T10
+R4	Spatial Arg1:T11 Arg2:T12
+R5	PartOf Arg1:T7 Arg2:T11
+R6	Spatial Arg1:T13 Arg2:T14
+R7	Causitive Arg1:T18 Arg2:T16
+R9	Causitive Arg1:T3 Arg2:T17
+R8	Purpose Arg1:T3 Arg2:T4
+R10	Causitive Arg1:T4 Arg2:T5
+R11	Purpose Arg1:T15 Arg2:T18
+R12	Causitive Arg1:T17 Arg2:T2
+R13	Causitive Arg1:T17 Arg2:T6
+R14	PartOf Arg1:T1 Arg2:T17

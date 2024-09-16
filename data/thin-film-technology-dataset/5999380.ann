@@ -1,0 +1,17 @@
+T1	Component 2 16	thin-film head
+T2	Component 21 40	patterned pole tips
+T3	Shape 52 79	smooth interface topography
+T4	Function 106 118	accumulation
+T5	Material 122 138	foreign material
+T6	Component 150 159	pole tips
+T7	Component 170 189	patterned pole tips
+T8	Shape 239 261	desired pole tip shape
+T9	Material 263 276	Fill material
+T10	Shape 311 336	smooth surface topography
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T5 Arg2:T6
+R4	Oper Arg1:T4 Arg2:T5
+R5	Causitive Arg1:T3 Arg2:T4
+R6	Purpose Arg1:T9 Arg2:T10
+R7	Causitive Arg1:T7 Arg2:T8

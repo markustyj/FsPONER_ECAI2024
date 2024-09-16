@@ -1,0 +1,28 @@
+T1	Component 25 44	thin metallic layer
+T2	PhysicsFlow 54 70	etchant solution
+T4	Component 129 148	thin metallic layer
+T5	Component 159 169	seed layer
+T6	Component 175 198	magnetic recording head
+T7	PhysicsFlow 204 220	etchant solution
+T8	Material 227 243	suitable solvent
+T10	Attribution 368 389	lateral etching rates
+T11	Attribution 405 423	surface etch rates
+T3	Material 261 269	glycerol
+T12	Material 273 289	methyl cellulose
+T13	PhysicsFlow 296 322	suitable solvent additives
+T9	Attribution 349 366	solvent viscosity
+R1	Causitive Arg1:T2 Arg2:T1
+R2	InstanceOf Arg1:T5 Arg2:T4
+T14	Component 111 123	undercutting
+R3	Purpose Arg1:T1 Arg2:T14
+R4	Spatial Arg1:T14 Arg2:T4
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T8
+R7	InstanceOf Arg1:T3 Arg2:T8
+R8	InstanceOf Arg1:T12 Arg2:T8
+R9	Purpose Arg1:T13 Arg2:T9
+R10	Comparison Arg1:T10 Arg2:T11
+T15	Component 428 440	undercutting
+R11	Purpose Arg1:T13 Arg2:T15
+#1	AnnotatorNotes R5	介词in表示内部，用ownership标引
+#2	AnnotatorNotes R4	in的话，用ownership，on或其他介词用spatial

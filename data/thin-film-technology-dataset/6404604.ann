@@ -1,0 +1,84 @@
+T1	Component 5 39	magneto-resistive effect type head
+T2	Component 66 84	lower shield layer
+T3	Component 92 110	upper shield layer
+T4	Component 114 123	MR sensor
+T5	EnergyFlow 131 155	magneto-resistive effect
+T6	EnergyFlow 161 194	gigantic magneto-resistive effect
+T7	Component 196 212	electrode layers
+T8	Component 243 252	MR sensor
+T9	Component 258 291	lower and upper insulating layers
+T10	Component 336 345	MR sensor
+T11	Component 354 369	electrode layer
+T12	Component 379 392	shield layers
+T13	Attribution 403 413	gap length
+T14	Component 433 466	lower and upper insulating layers
+T15	Attribution 484 493	thickness
+T16	Component 499 516	insulating layers
+T18	EnergyFlow 562 580	static electricity
+T19	Function 597 618	manufacturing process
+T20	Component 626 639	magnetic head
+T21	Component 646 675	magneto-resistive effect head
+T22	Component 696 712	insulating layer
+T23	Component 726 735	MR sensor
+T24	Component 747 774	lower or upper shield layer
+T25	Component 828 857	second lower insulating layer
+T26	Component 868 897	second upper insulating layer
+T27	Component 917 950	lower-resistivity insulating film
+T29	Component 981 997	insulating layer
+T30	Component 1011 1020	MR sensor
+T31	Component 1029 1035	layers
+T32	Component 1082 1110	first lower insulating layer
+T33	Component 1121 1149	first upper insulating layer
+T34	EnergyFlow 1158 1173	electric charge
+T35	Component 1193 1208	electrode layer
+T36	Component 1212 1224	shield layer
+T38	EnergyFlow 1250 1264	minute current
+T39	Component 1283 1314	low-resistivity insulating film
+T40	EnergyFlow 1327 1347	potential difference
+T41	Component 1360 1375	electrode layer
+T42	Component 1384 1396	shield layer
+T43	Component 1415 1432	insulating layers
+T44	EnergyFlow 1467 1485	static electricity
+T17	Function 538 558	dielectric breakdown
+T28	Location 960 973	other portion
+T37	EnergyFlow 1228 1246	static electricity
+R1	Spatial Arg1:T2 Arg2:T3
+R2	Attr Arg1:T4 Arg2:T5
+R3	Attr Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Causitive Arg1:T9 Arg2:T10
+R7	Causitive Arg1:T9 Arg2:T11
+R10	Attr Arg1:T14 Arg2:T15
+R11	Oper Arg1:T19 Arg2:T20
+R13	Manner Arg1:T19 Arg2:T17
+R14	PartOf Arg1:T29 Arg2:T28
+R15	PartOf Arg1:T21 Arg2:T22
+R16	PartOf Arg1:T21 Arg2:T29
+R17	PartOf Arg1:T22 Arg2:T23
+R18	PartOf Arg1:T22 Arg2:T24
+R19	PartOf Arg1:T29 Arg2:T30
+R20	PartOf Arg1:T29 Arg2:T31
+R21	PartOf Arg1:T29 Arg2:T32
+R22	PartOf Arg1:T29 Arg2:T33
+R23	PartOf Arg1:T22 Arg2:T25
+R24	PartOf Arg1:T22 Arg2:T26
+R25	Form Arg1:T27 Arg2:T22
+R26	Causitive Arg1:T37 Arg2:T34
+R27	Manner Arg1:T35 Arg2:T34
+R28	Manner Arg1:T36 Arg2:T34
+R29	Manner Arg1:T38 Arg2:T39
+R30	Spatial Arg1:T41 Arg2:T42
+R32	Causitive Arg1:T44 Arg2:T43
+R33	Purpose Arg1:T38 Arg2:T40
+R34	Spatial Arg1:T2 Arg2:T4
+R35	Spatial Arg1:T3 Arg2:T4
+#1	AnnotatorNotes R35	漏标了
+#2	AnnotatorNotes R1	漏标了
+R8	Causitive Arg1:T9 Arg2:T12
+R9	Purpose Arg1:T16 Arg2:T17
+R36	Generate Arg1:T19 Arg2:T18
+R12	Purpose Arg1:T18 Arg2:T17
+#3	AnnotatorNotes R9	漏标了
+#4	AnnotatorNotes R36	漏标了
+#5	AnnotatorNotes R29	电流穿过xx而流动，并非使动被动关系，更多是manner

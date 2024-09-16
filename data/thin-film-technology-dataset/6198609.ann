@@ -1,0 +1,55 @@
+T1	Component 42 48	sensor
+T2	System 196 216	first lead structure
+T4	Component 259 275	insulation layer
+T5	Function 491 503	current flow
+T6	EnergyFlow 510 525	applied current
+T7	System 563 583	first lead structure
+T8	Component 606 612	shield
+T10	Material 679 698	conductive material
+T12	Component 789 795	shield
+T13	Component 800 810	sense lead
+T14	Material 851 870	conductive material
+T15	Material 916 935	conductive material
+T16	Component 957 963	shield
+T18	System 2 30	magnetoresistive (MR) device
+T19	Attribution 60 73	first surface
+T20	System 100 120	first lead structure
+T21	Attribution 128 142	second surface
+T22	System 169 190	second lead structure
+T23	System 221 242	second lead structure
+T3	Component 318 324	sensor
+T24	Shape 284 292	aperture
+T25	Material 326 346	Conductive materials
+T26	Shape 368 377	apertures
+T27	Attribution 407 437	said first and second surfaces
+T28	Component 445 451	sensor
+T29	Component 551 557	sensor
+T30	Component 619 629	sense lead
+T9	Shape 719 733	first aperture
+T31	System 745 766	second lead structure
+T11	System 889 904	second aperture
+T32	Component 967 977	sense lead
+R1	PartOf Arg1:T18 Arg2:T1
+R2	Attr Arg1:T1 Arg2:T19
+R3	Spatial Arg1:T19 Arg2:T20
+R4	Attr Arg1:T1 Arg2:T21
+R5	Spatial Arg1:T21 Arg2:T22
+R6	PartOf Arg1:T23 Arg2:T4
+R7	PartOf Arg1:T2 Arg2:T4
+R8	Spatial Arg1:T24 Arg2:T3
+R9	PartOf Arg1:T4 Arg2:T24
+R10	PartOf Arg1:T26 Arg2:T25
+R11	Spatial Arg1:T25 Arg2:T27
+R12	Attr Arg1:T28 Arg2:T27
+R14	Oper Arg1:T5 Arg2:T6
+R13	Spatial Arg1:T6 Arg2:T29
+R15	PartOf Arg1:T7 Arg2:T8
+R16	PartOf Arg1:T7 Arg2:T30
+R17	Spatial Arg1:T10 Arg2:T9
+R18	Spatial Arg1:T30 Arg2:T10
+R19	Spatial Arg1:T8 Arg2:T10
+R20	PartOf Arg1:T31 Arg2:T12
+R21	PartOf Arg1:T31 Arg2:T13
+R22	Spatial Arg1:T13 Arg2:T14
+R23	Spatial Arg1:T12 Arg2:T14
+R24	Spatial Arg1:T14 Arg2:T11

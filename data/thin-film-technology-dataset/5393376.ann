@@ -1,0 +1,50 @@
+T4	Component 222 238	insulation layer
+T6	Attribution 330 358	top and bottom film surfaces
+T8	Component 481 497	insulation layer
+T13	Component 628 636	sidewall
+T15	Component 682 698	insulation layer
+T17	Component 737 753	insulation layer
+T25	System 45 87	thin film magnetic head pole tip structure
+T5	Component 311 324	top seedlayer
+T29	Component 398 420	spaced-apart sidewalls
+T30	Component 426 442	second seedlayer
+T31	Location 460 473	depth portion
+T7	Location 532 546	width portions
+T11	Component 589 609	gap insulation layer
+T14	Shape 669 676	sidegap
+T18	Component 815 831	bottom seedlayer
+T22	Location 953 968	exposed portion
+T23	Component 976 991	first seedlayer
+T34	Shape 1008 1015	sidegap
+T1	Shape 105 112	sidegap
+T2	Component 134 143	pole tips
+T24	Component 268 276	pole tip
+T9	Component 573 581	pole tip
+T10	Component 644 652	pole tip
+T12	Component 764 772	pole tip
+T16	Component 848 856	pole tip
+T19	Component 871 879	pole tip
+T20	Component 905 913	pole tip
+T21	Location 942 945	top
+T26	Component 1032 1063	desired thin film magnetic head
+R1	PartOf Arg1:T25 Arg2:T1
+R2	Spatial Arg1:T1 Arg2:T2
+T3	Component 188 213	bottom and top seedlayers
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Attr Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T24 Arg2:T5
+R6	Spatial Arg1:T6 Arg2:T29
+R7	PartOf Arg1:T8 Arg2:T31
+R8	Spatial Arg1:T7 Arg2:T9
+R9	Attr Arg1:T10 Arg2:T13
+R10	Spatial Arg1:T11 Arg2:T13
+R11	Form Arg1:T11 Arg2:T14
+R12	Spatial Arg1:T17 Arg2:T12
+R13	Purpose Arg1:T15 Arg2:T18
+R14	Spatial Arg1:T18 Arg2:T16
+R15	Spatial Arg1:T16 Arg2:T19
+R16	PartOf Arg1:T23 Arg2:T22
+R17	Attr Arg1:T22 Arg2:T21
+R18	Spatial Arg1:T23 Arg2:T34
+R19	Manner Arg1:T21 Arg2:T20
+R20	Purpose Arg1:T20 Arg2:T26

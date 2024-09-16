@@ -1,0 +1,50 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 46 56	lower core
+T3	Component 60 82	first insulating layer
+T4	Component 86 95	gap layer
+T5	Component 112 133	coil conductor layers
+T6	Component 150 167	insulating layers
+T7	Component 175 186	upper layer
+T8	Component 192 213	coil conductor layers
+T9	Component 247 264	insulating layers
+T10	Component 278 299	coil conductor layers
+T11	Component 326 335	gap layer
+T12	Component 345 366	coil conductor layers
+T13	Component 400 409	gap layer
+T14	Component 415 424	gap layer
+T15	Component 442 464	first insulating layer
+T16	Component 495 505	lower core
+T17	Location 516 528	edge portion
+T18	Component 558 580	first insulating layer
+T19	Component 589 598	gap layer
+T20	Component 611 632	lower and upper cores
+T21	Component 638 660	first insulating layer
+T22	Consequence 685 711	writing/reading efficiency
+T23	Component 719 742	thin-film magnetic head
+T24	Component 763 772	gap layer
+T25	Component 790 799	gap layer
+T28	Component 863 885	first insulating layer
+T26	Component 821 842	Al.sub.2 O.sub.3 film
+T29	Material 846 855	SiO.sub.2
+R1	PartOf Arg1:T9 Arg2:T8
+R2	Spatial Arg1:T10 Arg2:T11
+R3	PartOf Arg1:T1 Arg2:T2
+R4	PartOf Arg1:T1 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T4
+R6	PartOf Arg1:T1 Arg2:T5
+R7	PartOf Arg1:T1 Arg2:T6
+R8	PartOf Arg1:T1 Arg2:T7
+R9	Spatial Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T14 Arg2:T15
+R11	Spatial Arg1:T15 Arg2:T16
+R12	Spatial Arg1:T18 Arg2:T20
+R13	Spatial Arg1:T19 Arg2:T20
+R14	Purpose Arg1:T21 Arg2:T22
+R15	Spatial Arg1:T28 Arg2:T26
+R16	Spatial Arg1:T28 Arg2:T29
+R17	Form Arg1:T26 Arg2:T25
+R18	Form Arg1:T18 Arg2:T17
+R19	Form Arg1:T19 Arg2:T17
+R20	Attr Arg1:T23 Arg2:T22
+R21	Causitive Arg1:T24 Arg2:T23
+R22	Form Arg1:T29 Arg2:T25

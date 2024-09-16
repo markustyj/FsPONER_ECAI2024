@@ -1,0 +1,44 @@
+T6	Component 337 364	lower pinned magnetic layer
+T12	Function 767 786	fixed magnetization
+T13	EnergyFlow 822 843	electrical resistance
+T14	Function 896 915	fixed magnetization
+T15	Component 923 945	pinned magnetic layers
+T17	Component 2 49	spin-valve type magnetoresistive thin film head
+T1	Component 69 119	spin-valve type magnetoresistive thin film element
+T2	Component 137 156	free magnetic layer
+T18	Component 161 208	upper nonmagnetic electrically-conductive layer
+T4	Component 279 298	free magnetic layer
+T19	Component 303 330	upper pinned magnetic layer
+T5	Component 379 437	upper and lower nonmagnetic electrically-conductive layers
+T20	Location 457 481	magnetization directions
+T7	Component 489 527	upper and lower pinned magnetic layers
+T8	Component 549 577	pper antiferromagnetic layer
+T9	Component 584 613	lower antiferromagnetic layer
+T10	Component 628 666	upper and lower pinned magnetic layers
+T21	EnergyFlow 693 717	sensing electric current
+T11	Component 794 816	pinned magnetic layers
+T22	Function 954 976	variable magnetization
+T16	Component 984 1003	free magnetic layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T17 Arg2:T1
+R4	Spatial Arg1:T19 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T5
+R6	Attr Arg1:T7 Arg2:T20
+R7	Spatial Arg1:T8 Arg2:T10
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Oper Arg1:T12 Arg2:T11
+R10	Oper Arg1:T14 Arg2:T15
+R11	Oper Arg1:T22 Arg2:T16
+R12	PartOf Arg1:T17 Arg2:T18
+T23	Component 215 262	lower nonmagnetic electrically-conductive layer
+R3	Spatial Arg1:T23 Arg2:T4
+R13	PartOf Arg1:T17 Arg2:T23
+R14	PartOf Arg1:T17 Arg2:T19
+R15	PartOf Arg1:T17 Arg2:T6
+R16	PartOf Arg1:T17 Arg2:T8
+R17	PartOf Arg1:T17 Arg2:T9
+T3	Location 736 745	direction
+R18	Spatial Arg1:T3 Arg2:T12
+R19	Manner Arg1:T3 Arg2:T21
+R20	Manner Arg1:T14 Arg2:T13
+R21	Manner Arg1:T22 Arg2:T13

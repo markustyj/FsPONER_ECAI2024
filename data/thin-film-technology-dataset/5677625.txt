@@ -1,0 +1,1 @@
+A magnetoresistance having three ferromagnetic layers (10, 20, 30) separated by non-magnetic layers (15, 25). The first ferromagnetic layer (10) has a magnetization orientable by a measuring current, the second layer (20) has a "free" magnetization and the third ferromagnetic layer (50) has a trapped or fixed magnetization.

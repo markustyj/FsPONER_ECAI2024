@@ -1,0 +1,63 @@
+T1	Component 36 49	magnetic head
+T2	Component 66 70	core
+T3	EnergyFlow 141 156	writing circuit
+T4	Component 224 228	coil
+T6	State 255 267	writing mode
+T7	Component 302 326	magnetic recording layer
+T8	EnergyFlow 355 370	writing circuit
+T10	EnergyFlow 476 491	writing current
+T11	EnergyFlow 534 555	amplification circuit
+T12	Component 616 637	amplification circuit
+T15	Location 679 688	terminals
+T16	State 706 718	reading mode
+T18	Component 818 838	switching transistor
+T20	Component 959 979	switching transistor
+T21	Component 1060 1080	switching transistor
+T23	System 2 28	magnetic read-write device
+T24	Component 77 81	coil
+T25	System 87 104	read-write device
+T26	Component 131 137	camera
+T27	Component 202 206	coil
+T5	EnergyFlow 242 249	current
+T28	InfoFlow 280 296	binary code data
+T29	Component 339 349	photo film
+T30	Component 385 407	write control switches
+T9	Component 499 503	coil
+T31	Location 507 529	alternating directions
+T32	Component 606 610	coil
+T33	EnergyFlow 648 662	signal voltage
+T13	Component 696 700	coil
+T14	InfoFlow 731 747	binary code data
+T34	Component 757 781	magnetic recording layer
+T17	InfoFlow 795 814	reproduction signal
+T35	EnergyFlow 878 891	drive voltage
+T19	EnergyFlow 911 932	amplification circuit
+T36	State 941 953	writing mode
+T37	EnergyFlow 1012 1033	amplification circuit
+T38	State 1042 1054	reading mode
+T39	Component 1103 1125	write control switches
+R1	PartOf Arg1:T23 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T24
+R4	PartOf Arg1:T26 Arg2:T25
+R5	Spatial Arg1:T3 Arg2:T27
+R9	Spatial Arg1:T28 Arg2:T7
+R10	Spatial Arg1:T7 Arg2:T29
+R11	Purpose Arg1:T4 Arg2:T28
+R12	PartOf Arg1:T8 Arg2:T30
+R14	Manner Arg1:T31 Arg2:T9
+R15	Causitive Arg1:T9 Arg2:T10
+R16	Spatial Arg1:T11 Arg2:T32
+R17	Purpose Arg1:T12 Arg2:T17
+R18	Spatial Arg1:T18 Arg2:T35
+R20	Purpose Arg1:T20 Arg2:T37
+R21	PartOf Arg1:T13 Arg2:T15
+R23	Causitive Arg1:T12 Arg2:T33
+R24	Spatial Arg1:T33 Arg2:T15
+R25	PartOf Arg1:T34 Arg2:T14
+R26	Purpose Arg1:T12 Arg2:T14
+R6	Manner Arg1:T6 Arg2:T4
+R7	PartOf Arg1:T4 Arg2:T5
+R8	Causitive Arg1:T30 Arg2:T9
+R13	Manner Arg1:T16 Arg2:T12
+R19	Purpose Arg1:T35 Arg2:T19

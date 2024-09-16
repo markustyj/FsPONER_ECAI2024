@@ -1,0 +1,39 @@
+T1	Component 2 22	thin film transducer
+T2	Component 32 41	substrate
+T3	Component 45 72	first and second pole piece
+T4	Material 85 111	selected magnetic material
+T5	Shape 133 136	gap
+T6	Component 140 144	coil
+T7	Component 168 196	first and second pole pieces
+T8	Component 203 232	magnetically conductive layer
+T11	EnergyFlow 326 364	known magnetic saturation flux density
+T12	Component 417 437	first pole piece and
+T13	Component 438 455	second pole piece
+T14	Attribution 476 481	edges
+T15	Shape 494 497	gap
+T16	EnergyFlow 509 522	magnetic flux
+T17	Component 542 553	pole pieces
+T18	EnergyFlow 590 611	magnetic flux density
+T19	Attribution 619 624	edges
+T20	Component 632 659	first and second pole piece
+T21	Shape 673 676	gap
+T9	Attribution 261 312	selected chemical, magnetic and physical properties
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	MadeOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T3
+R5	Spatial Arg1:T6 Arg2:T7
+R7	PartOf Arg1:T1 Arg2:T6
+R6	PartOf Arg1:T1 Arg2:T8
+R8	Attr Arg1:T8 Arg2:T9
+R9	Attr Arg1:T8 Arg2:T11
+R10	Attr Arg1:T12 Arg2:T14
+R11	Attr Arg1:T13 Arg2:T14
+R12	Spatial Arg1:T8 Arg2:T12
+R13	Spatial Arg1:T8 Arg2:T13
+R14	Form Arg1:T14 Arg2:T15
+R15	Purpose Arg1:T15 Arg2:T16
+R16	Spatial Arg1:T15 Arg2:T17
+R17	Attr Arg1:T19 Arg2:T18
+R18	Attr Arg1:T20 Arg2:T19
+R19	Causitive Arg1:T20 Arg2:T21

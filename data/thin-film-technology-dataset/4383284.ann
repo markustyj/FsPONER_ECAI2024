@@ -1,0 +1,46 @@
+T1	Component 2 39	perpendicular magnetic recording head
+T2	Component 70 80	block core
+T3	Material 86 121	high magnetic permeability material
+T4	Attribution 131 143	side surface
+T5	Attribution 177 193	magnetic surface
+T6	Component 199 212	magnetic tape
+T7	Component 238 252	thin film core
+T8	Component 265 283	magnetic thin film
+T9	Material 289 324	high magnetic permeability material
+T10	Component 330 344	thin film core
+T11	Attribution 366 378	side surface
+T12	Component 386 396	block core
+T13	Attribution 410 415	width
+T14	Attribution 433 438	width
+T15	Component 446 456	block core
+T16	Component 462 476	thin film core
+T17	Location 486 498	pole section
+T19	Component 539 549	block core
+T20	Attribution 587 603	magnetic surface
+T21	Location 636 639	end
+T22	Component 648 661	exciting coil
+T23	Component 675 685	block core
+T24	Component 690 704	thin film core
+T18	Attribution 514 531	said side surface
+T25	Function 611 618	contact
+R1	MadeOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Attr Arg1:T6 Arg2:T5
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Attr Arg1:T2 Arg2:T4
+R6	PartOf Arg1:T1 Arg2:T7
+R7	PartOf Arg1:T7 Arg2:T8
+R8	MadeOf Arg1:T8 Arg2:T9
+R9	Attr Arg1:T12 Arg2:T11
+R10	Attr Arg1:T10 Arg2:T13
+R11	Attr Arg1:T15 Arg2:T14
+R12	Comparison Arg1:T13 Arg2:T14
+R13	Spatial Arg1:T10 Arg2:T11
+R14	PartOf Arg1:T16 Arg2:T17
+R15	Attr Arg1:T19 Arg2:T18
+R16	Manner Arg1:T18 Arg2:T17
+R18	Spatial Arg1:T22 Arg2:T23
+R19	Spatial Arg1:T22 Arg2:T24
+R20	PartOf Arg1:T1 Arg2:T22
+R17	Spatial Arg1:T17 Arg2:T20
+R21	Manner Arg1:T21 Arg2:T20

@@ -1,0 +1,36 @@
+T1	Component 4 17	magnetic head
+T3	Component 94 111	ferrite substrate
+T5	Component 157 172	conductive coil
+T6	Component 203 218	ferrite closure
+T9	Component 281 296	conductive coil
+T13	Component 486 501	conductive coil
+T16	ScientificConcept 702 733	magnetic transducing efficiency
+T2	Component 59 88	ferrite substrate and closure
+T4	Shape 133 145	first recess
+T17	Shape 240 253	second recess
+T7	Location 353 356	end
+T8	Shape 364 377	second recess
+T10	Location 395 403	position
+T11	Attribution 421 426	depth
+T18	Shape 434 448	tranducing gap
+T12	Shape 460 472	first recess
+T19	ScientificConcept 539 570	magnetic transducing efficiency
+T14	Function 604 644	photolithography or reactive ion etching
+T15	Shape 661 674	second recess
+T20	Function 751 770	precision machining
+T21	Function 775 799	advanced process control
+T23	Function 329 347	signal transducing
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Form Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T4 Arg2:T5
+R4	Form Arg1:T6 Arg2:T17
+R5	PartOf Arg1:T9 Arg2:T17
+R6	Purpose Arg1:T17 Arg2:T23
+R7	PartOf Arg1:T8 Arg2:T7
+R8	Spatial Arg1:T7 Arg2:T10
+R9	Attr Arg1:T18 Arg2:T11
+R10	Others Arg1:T10 Arg2:T11
+R11	PartOf Arg1:T13 Arg2:T12
+R12	Oper Arg1:T14 Arg2:T12
+R13	Purpose Arg1:T15 Arg2:T16
+R14	Oper Arg1:T20 Arg2:T15

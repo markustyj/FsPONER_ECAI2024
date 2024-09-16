@@ -1,0 +1,53 @@
+T1	Component 34 85	dual stripe magnetoresistive (DSMR) sensor elements
+T2	Attribution 91 104	aligned edges
+T3	Component 118 156	patterned magnetoresistive (MR) layers
+T4	Component 176 227	dual stripe magnetoresistive (DSMR) sensor elements
+T5	Component 255 305	dual stripe magnetoresistive (DSMR) sensor element
+T6	Component 316 359	patterned first magnetoresistive (MR) layer
+T7	Component 363 402	patterned inter stripe dielectric layer
+T8	Component 409 453	patterned second magnetoresistive (MR) layer
+T9	Component 560 610	dual stripe magnetoresistive (DSMR) sensor element
+T10	Component 621 664	patterned first magnetoresistive (MR) layer
+T11	Component 668 708	pattern ed inter stripe dielectric layer
+T12	Component 715 759	patterned second magnetoresistive (MR) layer
+T13	Attribution 797 801	edge
+T14	Component 809 852	patterned first magnetoresistive (MR) layer
+T15	Component 858 898	pattern ed inter stripe dielectric layer
+T16	Component 907 950	patterned second magnetoresistive (MR layer
+T17	Component 963 982	air bearing surface
+T18	Component 984 987	ABS
+T19	Component 996 1046	dual stripe magnetoresistive (DSMR) sensor element
+T20	Component 1094 1132	patterned backfilling dielectric layer
+T21	Component 1175 1218	patterned first magnetoresistive (MR) layer
+T22	Component 1224 1264	pattern ed inter stripe dielectric layer
+T23	Component 1273 1317	patterned second magnetoresistive (MR) layer
+T24	Component 1329 1367	patterned backfilling dielectric layer
+T25	Attribution 1396 1407	top surface
+T26	Component 1415 1459	patterned second magnetoresistive (MR) layer
+T27	Attribution 504 509	edges
+T28	Attribution 1148 1167	fully aligned edges
+R1	PartOf Arg1:T4 Arg2:T3
+R2	Attr Arg1:T3 Arg2:T2
+R3	Attr Arg1:T1 Arg2:T2
+R4	Attr Arg1:T6 Arg2:T27
+R5	Attr Arg1:T7 Arg2:T27
+R6	Attr Arg1:T8 Arg2:T27
+R7	Attr Arg1:T14 Arg2:T13
+R8	Alias Arg1:T17 Arg2:T18
+R9	PartOf Arg1:T19 Arg2:T18
+R10	Attr Arg1:T15 Arg2:T13
+R11	Attr Arg1:T16 Arg2:T13
+R12	Spatial Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T17 Arg2:T15
+R14	Spatial Arg1:T17 Arg2:T14
+R15	Attr Arg1:T21 Arg2:T28
+R16	Attr Arg1:T22 Arg2:T28
+R17	Attr Arg1:T23 Arg2:T28
+R18	Spatial Arg1:T20 Arg2:T28
+R19	Attr Arg1:T26 Arg2:T25
+R20	PartOf Arg1:T5 Arg2:T6
+R21	PartOf Arg1:T5 Arg2:T7
+R22	PartOf Arg1:T5 Arg2:T8
+R23	PartOf Arg1:T9 Arg2:T10
+R24	PartOf Arg1:T9 Arg2:T11
+R25	PartOf Arg1:T9 Arg2:T12

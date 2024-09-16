@@ -1,0 +1,73 @@
+T1	Component 5 39	magneto-resistive effect type head
+T2	Component 66 84	lower shield layer
+T3	Component 92 110	upper shield layer
+T4	Component 114 123	MR sensor
+T5	Effect 131 155	magneto-resistive effect
+T6	Component 196 212	electrode layers
+T8	Component 336 345	MR sensor
+T9	Component 354 369	electrode layer
+T12	Component 499 516	insulating layers
+T13	Function 538 558	dielectric breakdown
+T14	EnergyFlow 562 580	static electricity
+T15	Function 597 618	manufacturing process
+T18	Component 696 712	insulating layer
+T19	Component 726 735	MR sensor
+T20	Component 747 774	lower or upper shield layer
+T23	Component 917 950	lower-resistivity insulating film
+T25	Component 981 997	insulating layer
+T26	Component 1011 1020	MR sensor
+T28	Component 1082 1110	first lower insulating layer
+T29	Component 1121 1149	first upper insulating layer
+T33	Component 1360 1375	electrode layer
+T34	Component 1384 1396	shield layer
+T35	Component 1415 1432	insulating layers
+T36	Effect 161 194	gigantic magneto-resistive effect
+T37	Component 243 252	MR sensor
+T38	Component 258 291	lower and upper insulating layers
+T7	Component 379 392	shield layers
+T10	Attribution 403 413	gap length
+T39	Component 433 466	lower and upper insulating layers
+T11	Attribution 484 493	thickness
+T40	Component 626 639	magnetic head
+T41	Component 646 675	magneto-resistive effect head
+T16	Component 828 857	second lower insulating layer
+T17	Component 868 897	second upper insulating layer
+T21	EnergyFlow 1158 1173	electric charge
+T22	Component 1193 1208	electrode layer
+T24	Component 1212 1224	shield layer
+T27	EnergyFlow 1228 1247	static electricity,
+T30	EnergyFlow 1250 1264	minute current
+T31	Component 1283 1314	low-resistivity insulating film
+T32	Effect 1327 1347	potential difference
+T42	EnergyFlow 1467 1485	static electricity
+R2	Purpose Arg1:T4 Arg2:T5
+R3	Purpose Arg1:T4 Arg2:T36
+R4	PartOf Arg1:T37 Arg2:T6
+R5	Attr Arg1:T39 Arg2:T11
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Oper Arg1:T13 Arg2:T12
+R8	PartOf Arg1:T40 Arg2:T15
+R9	Causitive Arg1:T13 Arg2:T14
+R12	Generate Arg1:T15 Arg2:T14
+R13	PartOf Arg1:T19 Arg2:T18
+R14	PartOf Arg1:T20 Arg2:T18
+R15	Alias Arg1:T19 Arg2:T16
+R16	Alias Arg1:T20 Arg2:T17
+R17	Form Arg1:T23 Arg2:T18
+R18	Comparison Arg1:T18 Arg2:T25
+R19	PartOf Arg1:T26 Arg2:T25
+R20	Manner Arg1:T27 Arg2:T21
+R21	PartOf Arg1:T22 Arg2:T21
+R22	PartOf Arg1:T24 Arg2:T21
+R23	Causitive Arg1:T30 Arg2:T31
+R24	Purpose Arg1:T30 Arg2:T32
+R25	Spatial Arg1:T33 Arg2:T34
+R26	Purpose Arg1:T42 Arg2:T35
+R27	PartOf Arg1:T1 Arg2:T2
+R28	PartOf Arg1:T1 Arg2:T3
+R29	Purpose Arg1:T32 Arg2:T35
+#1	AnnotatorNotes T4	句子成分一定要分析清楚
+R30	PartOf Arg1:T1 Arg2:T4
+R1	Spatial Arg1:T2 Arg2:T4
+R31	Spatial Arg1:T3 Arg2:T4
+R32	Spatial Arg1:T8 Arg2:T7

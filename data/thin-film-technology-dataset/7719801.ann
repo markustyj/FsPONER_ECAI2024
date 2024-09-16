@@ -1,0 +1,38 @@
+T1	Component 1 31	Magnetoresistive (MR) elements
+T3	Component 66 76	free layer
+T4	Component 96 106	MR element
+T5	Component 118 128	free layer
+T6	Component 132 152	spacer/barrier layer
+T7	Component 156 168	pinned layer
+T8	Component 176 189	pinning layer
+T9	Attribution 193 202	back edge
+T10	Component 210 220	free layer
+T11	Attribution 235 250	sensing surface
+T12	Component 258 268	MR element
+T13	Attribution 285 294	back edge
+T14	Component 302 322	spacer/barrier layer
+T16	Component 343 353	free layer
+T17	Location 373 382	back edge
+T18	Component 390 410	spacer/barrier layer
+T19	Component 421 442	continuous flux guide
+T20	Component 448 458	flux guide
+T21	Consequence 486 512	conductive characteristics
+T22	Component 520 530	flux guide
+T23	Component 575 585	flux guide
+T2	Component 39 50	flux guides
+T15	Consequence 549 567	current shunt loss
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T4 Arg2:T7
+R5	PartOf Arg1:T4 Arg2:T8
+R6	Attr Arg1:T10 Arg2:T9
+R7	Attr Arg1:T12 Arg2:T11
+R8	Spatial Arg1:T9 Arg2:T11
+R9	Spatial Arg1:T14 Arg2:T13
+R10	Attr Arg1:T18 Arg2:T17
+R11	Causitive Arg1:T3 Arg2:T2
+R12	Causitive Arg1:T16 Arg2:T19
+R13	Attr Arg1:T22 Arg2:T21
+R14	Causitive Arg1:T20 Arg2:T21
+R15	Oper Arg1:T15 Arg2:T23

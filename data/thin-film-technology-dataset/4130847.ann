@@ -1,0 +1,46 @@
+T1	Component 2 16	slider element
+T2	Component 28 48	thin film transducer
+T3	Component 66 72	slider
+T4	Component 99 104	rails
+T5	Component 117 143	flying air bearing surface
+T6	Material 151 165	magnetic media
+T7	Component 184 192	end tips
+T8	Component 200 211	pole pieces
+T9	Shape 216 219	gap
+T10	Component 227 257	thin film inductive transducer
+T11	Component 279 290	slider rail
+T12	Component 307 317	transducer
+T13	Function 333 356	sputter etching process
+T14	Component 360 365	layer
+T15	Material 371 391	passivation material
+T16	Material 400 408	chromium
+T17	Location 439 453	etched portion
+T18	Location 468 483	leading portion
+T19	Component 491 495	rail
+T20	Material 509 529	passivation material
+T21	Function 535 539	wear
+T22	Material 545 565	passivation material
+T23	Component 575 584	pole tips
+T24	Component 592 602	transducer
+T25	Function 616 625	corrosion
+T26	Material 633 650	iron-nickel alloy
+T27	Component 666 675	pole tips
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Form Arg1:T4 Arg2:T5
+R5	MadeOf Arg1:T5 Arg2:T6
+R6	Attr Arg1:T8 Arg2:T7
+R7	Attr Arg1:T10 Arg2:T9
+R8	Spatial Arg1:T11 Arg2:T12
+R12	MadeOf Arg1:T14 Arg2:T15
+R13	InstanceOf Arg1:T16 Arg2:T15
+R14	PartOf Arg1:T19 Arg2:T18
+R15	Causitive Arg1:T18 Arg2:T20
+R16	Causitive Arg1:T20 Arg2:T21
+R17	Spatial Arg1:T14 Arg2:T17
+R18	PartOf Arg1:T24 Arg2:T23
+R19	Spatial Arg1:T22 Arg2:T23
+R20	Causitive Arg1:T22 Arg2:T25
+R21	Oper Arg1:T25 Arg2:T26
+R22	PartOf Arg1:T26 Arg2:T27

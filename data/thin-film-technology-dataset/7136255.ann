@@ -1,0 +1,30 @@
+T1	System 32 45	servo systems
+T2	Location 91 108	relative position
+T3	Component 114 129	transducer head
+T4	Component 135 156	magnetic storage tape
+T5	Location 171 179	position
+T6	Attribution 187 213	magnetic storage tape edge
+T7	Component 258 273	transducer head
+T8	Material 288 311	magnetic storage medium
+T9	Location 341 349	position
+T10	Attribution 356 360	edge
+T11	Material 368 382	storage medium
+T12	Component 406 421	transducer head
+T13	Material 438 452	storage medium
+T14	InfoFlow 466 477	read signal
+T15	Location 486 494	position
+T16	Attribution 502 506	edge
+T17	Material 514 528	storage medium
+R1	Attr Arg1:T6 Arg2:T5
+R2	Attr Arg1:T3 Arg2:T2
+R3	Purpose Arg1:T1 Arg2:T2
+R4	Oper Arg1:T2 Arg2:T4
+R5	Manner Arg1:T4 Arg2:T5
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Attr Arg1:T10 Arg2:T9
+R8	PartOf Arg1:T11 Arg2:T10
+R9	Spatial Arg1:T12 Arg2:T13
+R10	Manner Arg1:T13 Arg2:T14
+R11	Attr Arg1:T16 Arg2:T15
+R12	PartOf Arg1:T17 Arg2:T16
+R13	Manner Arg1:T13 Arg2:T15

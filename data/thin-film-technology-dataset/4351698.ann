@@ -1,0 +1,55 @@
+T1	Shape 52 60	straight
+T2	Attribution 62 67	edges
+T3	Component 73 87	permalloy body
+T4	Component 93 107	thin film head
+T5	Component 154 168	titanium layer
+T6	Component 176 190	permalloy body
+T7	Component 228 232	body
+T8	ScientificConcept 267 281	variable slope
+T9	Component 285 302	photoresist layer
+T10	Component 322 336	titanium layer
+T11	Component 345 359	permalloy body
+T12	Component 397 411	titanium layer
+T13	Component 416 430	permalloy body
+T14	Component 475 489	thin film head
+T15	Function 496 503	etching
+T16	Component 509 513	body
+T21	Component 626 640	permalloy body
+T22	Material 654 662	titanium
+T23	PhysicsFlow 667 678	photoresist
+T24	Attribution 683 697	straight edges
+T25	Component 720 734	permalloy body
+T26	PhysicsFlow 753 764	photoresist
+T27	Location 215 220	areas
+T28	Location 384 389	areas
+T29	Location 463 467	part
+T19	Attribution 582 603	variable sloped edges
+T20	Location 613 618	areas
+T30	Location 707 712	areas
+T17	PhysicsFlow 537 544	etchant
+T31	Material 556 558	HF
+T18	Material 563 573	FeCl.sub.3
+R1	PartOf Arg1:T4 Arg2:T3
+R2	Attr Arg1:T2 Arg2:T1
+R3	Attr Arg1:T3 Arg2:T2
+R4	Spatial Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T7 Arg2:T27
+R6	Attr Arg1:T27 Arg2:T8
+R7	Spatial Arg1:T5 Arg2:T27
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T9 Arg2:T11
+R10	PartOf Arg1:T12 Arg2:T28
+R11	PartOf Arg1:T13 Arg2:T28
+R12	Oper Arg1:T15 Arg2:T28
+R13	PartOf Arg1:T14 Arg2:T29
+R14	PartOf Arg1:T17 Arg2:T31
+R15	PartOf Arg1:T17 Arg2:T18
+R16	PartOf Arg1:T21 Arg2:T20
+R17	PartOf Arg1:T25 Arg2:T30
+R18	Attr Arg1:T30 Arg2:T24
+R19	Spatial Arg1:T30 Arg2:T26
+R20	Causitive Arg1:T17 Arg2:T16
+R21	Form Arg1:T16 Arg2:T19
+R22	Attr Arg1:T20 Arg2:T19
+R23	Spatial Arg1:T20 Arg2:T22
+R24	Spatial Arg1:T20 Arg2:T23

@@ -1,0 +1,43 @@
+T7	EnergyFlow 359 366	current
+T20	Component 304 328	the inductive-write head
+T21	Function 341 353	read process
+T1	Component 3 56	inductive-write magnetoresistive-read horizontal head
+T2	Function 61 79	magnetic recording
+T3	Component 91 114	polarization conductors
+T4	Component 124 147	polarization conductors
+T5	Component 186 195	MR sensor
+T6	Component 215 225	write head
+T8	Function 237 254	read back process
+T9	InfoFlow 272 298	secondary read back signal
+T10	Component 377 392	first conductor
+T11	EnergyFlow 420 427	current
+T12	Component 440 456	second conductor
+T13	EnergyFlow 470 483	applied field
+T14	Function 498 511	magnetization
+T15	Material 519 528	permalloy
+T16	Component 536 551	write head pole
+T17	EnergyFlow 567 579	permeability
+T18	Component 585 589	head
+T19	Component 603 630	write-wide read-narrow head
+T22	Effect 654 676	reliability advantages
+T23	Shape 792 795	gap
+T24	Component 803 808	heads
+T25	Component 736 759	magnetoresistive stripe
+T26	System 693 730	yoke or recessed MR or GMR structures
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Causitive Arg1:T4 Arg2:T5
+R5	Generate Arg1:T20 Arg2:T9
+R6	Purpose Arg1:T4 Arg2:T9
+R7	Manner Arg1:T10 Arg2:T7
+R8	Manner Arg1:T12 Arg2:T11
+R9	Generate Arg1:T11 Arg2:T13
+R10	Purpose Arg1:T13 Arg2:T14
+R11	Purpose Arg1:T13 Arg2:T17
+R12	Oper Arg1:T14 Arg2:T15
+R13	PartOf Arg1:T16 Arg2:T15
+R14	Purpose Arg1:T18 Arg2:T22
+R15	Purpose Arg1:T26 Arg2:T22
+R16	Attr Arg1:T24 Arg2:T23
+R17	Spatial Arg1:T25 Arg2:T23
+R4	Causitive Arg1:T4 Arg2:T6

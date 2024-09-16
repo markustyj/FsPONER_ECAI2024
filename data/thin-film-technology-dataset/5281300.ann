@@ -1,0 +1,28 @@
+T1	Component 27 50	thin-film magnetic head
+T2	Component 87 103	alignment marker
+T3	Component 184 204	conductor base layer
+T4	Component 212 228	insulating layer
+T5	Component 241 257	alignment marker
+T6	Component 295 315	conductor base layer
+T8	Component 414 434	conductor base layer
+T10	Component 548 568	conductor base layer
+T11	Component 587 603	alignment marker
+T12	Component 612 628	insulating layer
+T13	Function 126 146	patterning processes
+T14	Component 153 169	insulating layer
+T15	Function 322 345	electro-plating process
+T16	EnergyFlow 390 399	electrode
+T9	Function 492 516	chemical etching process
+T17	Function 113 122	alignment
+T7	Component 358 383	said conductor base layer
+T18	System 280 287	pattern
+T19	System 479 486	pattern
+R1	Spatial Arg1:T2 Arg2:T14
+R2	Oper Arg1:T13 Arg2:T2
+R3	Purpose Arg1:T2 Arg2:T17
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T5
+R6	Form Arg1:T7 Arg2:T16
+R7	Oper Arg1:T15 Arg2:T6
+R8	Spatial Arg1:T6 Arg2:T18
+R9	Oper Arg1:T9 Arg2:T10

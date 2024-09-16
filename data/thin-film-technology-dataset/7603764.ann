@@ -1,0 +1,38 @@
+T1	Component 30 53	thin film magnetic head
+T2	Effect 61 95	superior overwrite characteristics
+T6	Component 186 205	first magnetic film
+T7	Location 216 233	top layer portion
+T8	Component 241 254	top pole chip
+T9	Component 266 286	second magnetic film
+T10	Location 297 317	bottom layer portion
+T11	Component 325 338	top pole chip
+T12	Component 356 387	first and second magnetic films
+T13	Material 391 408	magnetic material
+T14	Effect 418 444	high magnetic flux density
+T15	Component 477 500	thin film magnetic head
+T16	ScientificConcept 539 549	saturation
+T17	EnergyFlow 553 566	magnetic flux
+T18	Component 574 587	top pole chip
+T19	Attribution 603 613	pole width
+T20	Value 644 653	0.3 .mu.m
+T21	Effect 681 715	superior overwrite characteristics
+T3	Attribution 124 144	minimized pole width
+T4	Component 163 176	top pole chip
+T5	Value 448 457	1.5 tesla
+R1	Attr Arg1:T1 Arg2:T2
+R2	Attr Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T8 Arg2:T7
+R5	Form Arg1:T4 Arg2:T7
+R6	Form Arg1:T9 Arg2:T10
+R7	PartOf Arg1:T11 Arg2:T10
+R8	MadeOf Arg1:T12 Arg2:T13
+R9	Measurement Arg1:T14 Arg2:T5
+R10	Attr Arg1:T13 Arg2:T14
+R11	Spatial Arg1:T17 Arg2:T18
+R12	Measurement Arg1:T19 Arg2:T20
+R13	Purpose Arg1:T19 Arg2:T21
+R14	Oper Arg1:T16 Arg2:T15
+#1	AnnotatorNotes R14	这块漏标了
+R15	Attr Arg1:T17 Arg2:T16
+#2	AnnotatorNotes R15	saturation of magnetic flux，实际上是一个完整的命名实体，在命名实体标引时候被拆成两个，对于这种情况参考《标引讲义四》第一条，按照attr进行标引

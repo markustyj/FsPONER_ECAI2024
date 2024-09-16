@@ -1,0 +1,41 @@
+T1	Component 31 54	magnetic recording head
+T3	Component 100 126	magnetic recording devices
+T4	Component 145 151	device
+T5	Component 159 177	first linear level
+T6	ScientificConcept 205 208	row
+T7	Component 242 248	device
+T8	Component 256 274	first linear level
+T9	Component 280 298	first linear level
+T10	Location 321 342	comparative direction
+T12	Component 376 395	second linear level
+T13	Component 399 425	magnetic recording devices
+T14	Component 449 467	first linear level
+T15	Component 471 497	magnetic recording devices
+T16	Component 504 510	device
+T17	Component 518 537	second linear level
+T18	ScientificConcept 565 568	row
+T19	Component 602 608	device
+T20	Component 616 635	second linear level
+T21	Component 642 648	device
+T22	Component 656 675	second linear level
+T23	Shape 695 709	insulating gap
+T24	Component 741 759	first linear level
+T2	Component 66 96	first and second linear levels
+T11	Material 348 370	recording media travel
+T25	Component 722 733	each device
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Attr Arg1:T11 Arg2:T10
+R4	PartOf Arg1:T13 Arg2:T12
+R5	PartOf Arg1:T15 Arg2:T14
+R6	Spatial Arg1:T12 Arg2:T14
+R7	Spatial Arg1:T4 Arg2:T5
+R8	Spatial Arg1:T7 Arg2:T8
+R9	Spatial Arg1:T9 Arg2:T10
+R10	Spatial Arg1:T16 Arg2:T17
+R11	Spatial Arg1:T19 Arg2:T20
+R12	Spatial Arg1:T21 Arg2:T22
+R13	Spatial Arg1:T21 Arg2:T23
+R14	Spatial Arg1:T25 Arg2:T24
+R15	Manner Arg1:T18 Arg2:T16
+R16	Manner Arg1:T6 Arg2:T4

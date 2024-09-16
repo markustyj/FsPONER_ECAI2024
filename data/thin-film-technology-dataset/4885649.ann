@@ -1,0 +1,51 @@
+T2	Component 31 54	magnetic storage device
+T3	System 60 90	digital data processing system
+T4	EnergyFlow 123 136	magnetic flux
+T5	Component 195 199	head
+T6	Component 208 228	magnetic pole pieces
+T9	Component 325 336	pole pieces
+T11	Component 397 408	pole pieces
+T14	Component 446 451	strip
+T15	Component 517 540	magneto-resistive strip
+T16	ScientificConcept 622 632	resistance
+T17	Component 640 663	magneto-resistive strip
+T18	EnergyFlow 701 714	magnetic flux
+T1	Component 2 17	read/write head
+T21	Component 167 189	spinning magnetic disk
+T7	Location 241 252	yoke region
+T20	Component 271 279	pole tip
+T8	Component 287 303	energizable coil
+T10	Location 344 355	yoke region
+T22	EnergyFlow 371 384	magnetic flux
+T13	Location 427 438	yoke region
+T23	Material 455 481	magneto-resistive material
+T24	Shape 507 510	slo
+T25	Shape 746 751	slots
+T26	Component 773 784	pole pieces
+T19	Component 793 826	elongated magneto-resistive strip
+T27	Shape 856 861	slots
+T28	Component 571 588	sensing equipment
+T29	Shape 415 419	slot
+T12	ScientificConcept 683 693	variations
+T30	Material 731 736	media
+R1	PartOf Arg1:T3 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T2
+R3	Manner Arg1:T4 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T6 Arg2:T7
+R6	Causitive Arg1:T7 Arg2:T20
+R7	PartOf Arg1:T6 Arg2:T8
+R8	Spatial Arg1:T8 Arg2:T9
+R9	PartOf Arg1:T10 Arg2:T9
+R10	Generate Arg1:T8 Arg2:T22
+R11	PartOf Arg1:T11 Arg2:T29
+R12	PartOf Arg1:T13 Arg2:T29
+R13	MadeOf Arg1:T14 Arg2:T23
+R14	Spatial Arg1:T14 Arg2:T24
+R15	Causitive Arg1:T15 Arg2:T28
+R16	Causitive Arg1:T28 Arg2:T16
+R17	Attr Arg1:T17 Arg2:T16
+R18	PartOf Arg1:T30 Arg2:T18
+R19	Attr Arg1:T18 Arg2:T12
+R20	PartOf Arg1:T26 Arg2:T25
+R21	Spatial Arg1:T19 Arg2:T27

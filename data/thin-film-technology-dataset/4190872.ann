@@ -1,0 +1,75 @@
+T1	Component 5 35	thin film inductive transducer
+T2	System 48 62	yoke structure
+T3	Location 79 94	pole tip region
+T4	Location 109 120	back region
+T5	Function 152 159	reading
+T6	ScientificConcept 163 183	magnetic transitions
+T7	Material 191 223	moving magnetic recording medium
+T8	Location 229 244	pole tip region
+T9	Attribution 251 295	preselected constant relatively narrow width
+T10	Component 313 328	magnetic layers
+T11	Attribution 336 341	edges
+T12	Location 360 369	direction
+T13	Material 384 390	medium
+T14	Attribution 397 405	distance
+T15	Component 416 439	air bearing surface ABS
+T16	Location 447 458	back region
+T17	Attribution 472 487	small thickness
+T18	Component 510 513	ABS
+T19	Consequence 531 538	effects
+T20	InfoFlow 542 558	spurious signals
+T21	Material 587 593	medium
+T22	Value 618 621	5/d
+T23	Attribution 638 655	recording density
+T24	Material 663 669	medium
+T25	System 796 810	yoke structure
+T27	ScientificConcept 848 858	efficiency
+T28	Component 866 876	transducer
+T29	Location 899 919	cross-sectional area
+T30	System 927 941	yoke structure
+T31	Location 962 973	back region
+T33	Location 1028 1043	pole tip region
+T34	Attribution 1076 1085	thickness
+T37	Value 1125 1128	60 %
+T38	Function 134 144	resolution
+T39	Component 564 579	adjacent tracks
+T40	Attribution 595 603	distance
+T41	ScientificConcept 692 713	transducer efficiency
+T42	Attribution 715 723	distance
+T43	Value 763 766	5/d
+T44	Function 778 788	saturation
+T26	EnergyFlow 816 831	applied current
+T36	Value 1125 1128	60%
+T35	Component 1089 1109	said magnetic layers
+T45	Function 884 893	recording
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Oper Arg1:T5 Arg2:T6
+R5	Causitive Arg1:T6 Arg2:T7
+R6	Attr Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T8 Arg2:T10
+R8	Attr Arg1:T10 Arg2:T11
+R9	Manner Arg1:T12 Arg2:T11
+R10	Spatial Arg1:T12 Arg2:T13
+R11	Attr Arg1:T15 Arg2:T14
+R12	Attr Arg1:T16 Arg2:T14
+R15	Spatial Arg1:T39 Arg2:T21
+R16	Generate Arg1:T39 Arg2:T20
+R17	Oper Arg1:T19 Arg2:T20
+R18	Measurement Arg1:T40 Arg2:T22
+R19	Spatial Arg1:T23 Arg2:T24
+R20	Measurement Arg1:T42 Arg2:T43
+R21	Oper Arg1:T44 Arg2:T25
+R22	Manner Arg1:T26 Arg2:T25
+R23	Attr Arg1:T28 Arg2:T27
+R24	PartOf Arg1:T30 Arg2:T29
+R25	Attr Arg1:T35 Arg2:T34
+R26	Measurement Arg1:T34 Arg2:T36
+R27	PartOf Arg1:T31 Arg2:T29
+T32	Attribution 1006 1011	width
+R28	Causitive Arg1:T29 Arg2:T32
+R29	Spatial Arg1:T32 Arg2:T33
+R30	Causitive Arg1:T29 Arg2:T34
+R13	Attr Arg1:T11 Arg2:T17
+R14	Spatial Arg1:T11 Arg2:T18

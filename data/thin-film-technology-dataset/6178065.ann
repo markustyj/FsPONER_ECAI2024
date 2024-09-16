@@ -1,0 +1,20 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 32 51	recording gap layer
+T6	Component 234 262	magnetic material side layer
+T10	Material 62 82	nonmagnetic material
+T11	Component 84 120	lower and upper magnetic pole layers
+T3	Material 131 148	magnetic material
+T12	Component 154 190	lower and upper magnetic pole layers
+T4	Component 207 226	recording gap layer
+T5	Component 279 310	nonmagnetic material side layer
+T7	Attribution 335 347	side surface
+T8	Component 364 389	upper magnetic pole layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T2 Arg2:T10
+R3	PartOf Arg1:T1 Arg2:T11
+R4	MadeOf Arg1:T11 Arg2:T3
+R5	Spatial Arg1:T12 Arg2:T4
+R6	PartOf Arg1:T1 Arg2:T6
+R7	Attr Arg1:T8 Arg2:T7
+R8	Causitive Arg1:T5 Arg2:T6
+R9	Spatial Arg1:T5 Arg2:T7

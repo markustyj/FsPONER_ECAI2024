@@ -1,0 +1,72 @@
+T1	ScientificConcept 33 52	colinearity effects
+T2	Component 103 107	mask
+T3	Component 136 153	microdevice cells
+T4	EnergyFlow 174 180	pulses
+T5	EnergyFlow 184 193	radiation
+T9	Component 318 327	workpiece
+T10	Component 333 357	columnar exposure fields
+T11	Attribution 380 385	width
+T12	EnergyFlow 413 432	full exposure field
+T13	Component 464 479	projection lens
+T14	EnergyFlow 531 554	columnar exposure field
+T15	EnergyFlow 562 574	single pulse
+T16	EnergyFlow 578 587	radiation
+T17	Component 598 607	workpiece
+T18	Component 641 656	projection lens
+T19	EnergyFlow 704 727	columnar exposure field
+T20	EnergyFlow 744 760	radiation pulses
+T21	Component 766 787	long continuous pulse
+T22	Component 807 816	workpiece
+T23	Component 827 842	projection lens
+T26	Shape 910 920	single row
+T27	System 924 931	devices
+T29	ScientificConcept 957 970	error sources
+T30	ScientificConcept 990 1008	co-linearity error
+T31	System 1058 1088	critical thin film head device
+T32	Attribution 1106 1119	throat length
+T33	Effect 1137 1149	higher yield
+T34	System 1153 1179	higher performance devices
+T35	ScientificConcept 1191 1197	errors
+T36	Component 1271 1275	mask
+T39	Consequence 1348 1365	rotational errors
+T40	Shape 1378 1400	projected mask pattern
+T41	Component 73 85	microdevices
+T6	ScientificConcept 241 247	Images
+T7	EnergyFlow 279 312	adjacent columnar exposure fields
+T8	Component 661 665	mask
+T42	Effect 735 740	burst
+T43	Effect 851 857	bursts
+T44	EnergyFlow 870 894	columnar exposure fields
+T24	ScientificConcept 1089 1098	parameter
+T25	ScientificConcept 1239 1263	pattern placement errors
+T28	Component 1295 1310	projection lens
+T37	Consequence 1277 1287	distortion
+T45	Shape 1428 1442	wafer patterns
+T46	Consequence 1315 1337	pattern butting errors
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Attr Arg1:T5 Arg2:T4
+R5	Purpose Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T9
+R7	Attr Arg1:T10 Arg2:T11
+R8	Form Arg1:T13 Arg2:T12
+R9	Attr Arg1:T16 Arg2:T15
+R10	Form Arg1:T15 Arg2:T14
+R11	Spatial Arg1:T17 Arg2:T18
+R12	Spatial Arg1:T17 Arg2:T8
+R13	Form Arg1:T21 Arg2:T19
+R16	Spatial Arg1:T22 Arg2:T23
+R17	Attr Arg1:T27 Arg2:T26
+R18	PartOf Arg1:T44 Arg2:T26
+R19	Causitive Arg1:T44 Arg2:T29
+R20	Causitive Arg1:T29 Arg2:T30
+R21	Attr Arg1:T34 Arg2:T33
+R22	Attr Arg1:T31 Arg2:T32
+R23	PartOf Arg1:T35 Arg2:T25
+R24	PartOf Arg1:T35 Arg2:T37
+R25	PartOf Arg1:T35 Arg2:T46
+R26	Form Arg1:T39 Arg2:T46
+R1	Causitive Arg1:T4 Arg2:T2
+R4	Manner Arg1:T42 Arg2:T20
+R14	Form Arg1:T20 Arg2:T19
+R15	Manner Arg1:T36 Arg2:T25
+R27	PartOf Arg1:T28 Arg2:T37

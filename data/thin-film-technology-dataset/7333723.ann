@@ -1,0 +1,39 @@
+T1	Component 3 9	camera
+T3	Location 113 134	base-length direction
+T4	Component 183 189	camera
+T5	Function 203 215	image output
+T6	System 225 237	sensor array
+T7	Component 241 261	first detection unit
+T8	ScientificConcept 280 288	movement
+T9	InfoFlow 296 309	image signals
+T10	Location 317 338	base-length direction
+T11	Component 342 363	second detection unit
+T12	ScientificConcept 382 388	change
+T13	InfoFlow 428 441	image signals
+T16	Function 498 516	movement detection
+T17	Function 530 536	output
+T18	Component 546 578	first and second detection units
+T19	System 57 69	sensor array
+T2	EnergyFlow 78 93	multiple pixels
+T20	InfoFlow 394 420	predetermined pixel signal
+T14	Component 138 151	focusing unit
+T15	Component 459 482	movement detection unit
+R1	PartOf Arg1:T1 Arg2:T19
+R2	PartOf Arg1:T19 Arg2:T2
+R3	Manner Arg1:T3 Arg2:T2
+R4	PartOf Arg1:T1 Arg2:T14
+R5	Purpose Arg1:T14 Arg2:T4
+R8	PartOf Arg1:T1 Arg2:T7
+R9	Attr Arg1:T9 Arg2:T8
+R10	Manner Arg1:T10 Arg2:T8
+R11	Purpose Arg1:T7 Arg2:T8
+R6	Manner Arg1:T5 Arg2:T4
+R7	Attr Arg1:T6 Arg2:T5
+R12	PartOf Arg1:T1 Arg2:T11
+R13	Purpose Arg1:T11 Arg2:T12
+R14	Attr Arg1:T13 Arg2:T20
+R15	Manner Arg1:T20 Arg2:T12
+R16	PartOf Arg1:T1 Arg2:T15
+R17	Purpose Arg1:T15 Arg2:T16
+R18	Manner Arg1:T17 Arg2:T16
+R19	Attr Arg1:T18 Arg2:T17

@@ -1,0 +1,47 @@
+T1	Component 0 23	Thin-film magnetic head
+T2	Component 37 46	substrate
+T3	Component 54 78	magnetoresistive element
+T5	Component 215 239	magnetoresistive element
+T7	Attribution 288 297	head face
+T11	Component 398 423	first soft-magnetic layer
+T14	Component 506 522	insulation layer
+T15	Material 533 554	non-magnetic material
+T16	Component 595 604	substrate
+T20	Component 746 771	first soft-magnetic layer
+T22	Location 807 841	spatially separated layer portions
+T4	Component 91 126	magnetically conducting flux guides
+T6	Shape 247 268	non-magnetic read gap
+T8	Component 322 333	flux guides
+T9	Component 339 355	first flux guide
+T12	Component 442 459	second flux guide
+T23	Component 632 652	soft-magnetic layers
+T18	Location 690 708	common end portion
+T19	Attribution 731 740	head face
+T21	Component 778 795	interrupted layer
+T24	Component 869 893	magnetoresistive element
+T13	Component 467 493	second soft-magnetic layer
+T25	Function 185 205	magnetic cooperation
+T10	Component 375 381	layers
+T17	Component 654 679	Said soft-magnetic layers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Oper Arg1:T25 Arg2:T4
+R5	Oper Arg1:T25 Arg2:T5
+R6	Spatial Arg1:T5 Arg2:T4
+R7	Spatial Arg1:T6 Arg2:T7
+R8	Spatial Arg1:T8 Arg2:T7
+R9	Spatial Arg1:T8 Arg2:T6
+R10	PartOf Arg1:T9 Arg2:T11
+R11	Spatial Arg1:T11 Arg2:T12
+R12	Manner Arg1:T10 Arg2:T9
+#1	AnnotatorNotes R12	感觉是以层的这种形式
+R13	PartOf Arg1:T9 Arg2:T13
+R14	PartOf Arg1:T9 Arg2:T14
+R15	MadeOf Arg1:T14 Arg2:T15
+R16	Spatial Arg1:T14 Arg2:T16
+R17	Spatial Arg1:T14 Arg2:T23
+R18	PartOf Arg1:T18 Arg2:T17
+R19	Causitive Arg1:T24 Arg2:T22
+R20	PartOf Arg1:T21 Arg2:T22
+R21	PartOf Arg1:T20 Arg2:T22

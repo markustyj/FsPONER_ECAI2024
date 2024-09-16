@@ -1,0 +1,51 @@
+T1	Component 2 23	magnetic field sensor
+T2	Component 66 82	magnetic stripes
+T3	Attribution 103 110	surface
+T4	Component 116 125	substrate
+T5	EnergyFlow 140 161	stray magnetic fields
+T6	Location 169 173	ends
+T7	Component 181 197	magnetic stripes
+T8	Component 236 252	magnetic stripes
+T9	Location 284 306	alternating directions
+T10	Material 308 339	nonmagnetic conductive material
+T11	Shape 358 364	spaces
+T12	Component 377 393	magnetic stripes
+T13	Component 398 408	electrodes
+T14	EnergyFlow 421 428	current
+T15	Component 464 480	magnetic stripes
+T16	EnergyFlow 503 513	resistance
+T17	EnergyFlow 521 550	giant magnetoresistive effect
+T18	EnergyFlow 607 626	low magnetic fields
+T19	EnergyFlow 637 652	magnetic fields
+T20	Component 674 690	magnetic stripes
+T21	EnergyFlow 706 728	magnetostatic coupling
+T22	Shape 768 776	geometry
+T23	Location 781 789	position
+T24	Component 797 813	magnetic stripes
+T25	Component 821 827	sensor
+T26	Effect 493 499	change
+T27	EnergyFlow 552 555	MGR
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Attr Arg1:T4 Arg2:T3
+R4	Manner Arg1:T9 Arg2:T8
+R5	Attr Arg1:T7 Arg2:T6
+R6	Manner Arg1:T6 Arg2:T5
+R7	Manner Arg1:T11 Arg2:T10
+R8	Spatial Arg1:T11 Arg2:T12
+R9	Spatial Arg1:T11 Arg2:T13
+R10	Manner Arg1:T15 Arg2:T14
+R11	Purpose Arg1:T10 Arg2:T14
+R12	Purpose Arg1:T17 Arg2:T26
+R13	Attr Arg1:T16 Arg2:T26
+R14	Causitive Arg1:T21 Arg2:T20
+R15	PartOf Arg1:T25 Arg2:T24
+R16	Attr Arg1:T24 Arg2:T23
+R17	Attr Arg1:T24 Arg2:T22
+R18	Causitive Arg1:T22 Arg2:T21
+R19	Causitive Arg1:T23 Arg2:T21
+#2	AnnotatorNotes T19	饱和磁条所需的磁场,答：后面饱和磁条的命名实体标引错误，饱和实际是当动词讲，命名实体只有磁条，修改完后在两个实体间标注makemove关系
+R20	Alias Arg1:T17 Arg2:T27
+#1	AnnotatorNotes R20	缩写关系，漏标了
+R21	Causitive Arg1:T19 Arg2:T20
+#3	AnnotatorNotes R21	新增添的关系

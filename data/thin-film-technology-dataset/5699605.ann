@@ -1,0 +1,32 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 93 116	thin film magnetic head
+T3	Component 126 153	upper and lower pole pieces
+T6	Component 271 292	Electrical conductors
+T7	Component 311 327	insulating layer
+T8	Shape 373 390	magnetic flux gap
+T9	Attribution 401 406	plane
+T10	Attribution 442 447	plane
+T11	Component 479 500	electrical conductors
+T12	Location 42 57	recessed region
+T13	Component 79 87	basecoat
+T14	Component 164 178	upper pole tip
+T15	Component 185 199	lower pole tip
+T4	Component 219 244	upper and lower pole tips
+T5	Shape 252 269	magnetic flux gap
+T16	Component 340 367	upper and lower pole pieces
+T17	Component 463 473	conductors
+T18	Location 508 519	either side
+T19	Attribution 527 532	plane
+R1	PartOf Arg1:T13 Arg2:T12
+R3	PartOf Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T3 Arg2:T14
+R5	PartOf Arg1:T3 Arg2:T15
+R6	Form Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T7 Arg2:T16
+R2	Spatial Arg1:T12 Arg2:T1
+R8	PartOf Arg1:T7 Arg2:T6
+R9	Causitive Arg1:T17 Arg2:T10
+R10	Causitive Arg1:T8 Arg2:T9
+R11	Spatial Arg1:T9 Arg2:T10
+R12	Attr Arg1:T19 Arg2:T18
+R13	Spatial Arg1:T11 Arg2:T18

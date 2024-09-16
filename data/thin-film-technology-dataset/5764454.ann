@@ -1,0 +1,63 @@
+T1	Attribution 54 77	bonding characteristics
+T2	EnergyFlow 82 100	peeling resistance
+T3	Component 108 123	insulating film
+T4	Component 138 147	substrate
+T5	Component 153 176	thin-film magnetic head
+T6	Component 180 195	insulating film
+T7	Material 210 225	Al.sub.2 O.sub.
+T8	Function 240 250	sputtering
+T9	Attribution 258 265	surface
+T10	Component 272 287	ALTIC substrate
+T11	Location 345 364	projecting portions
+T12	Material 376 379	TiC
+T13	Location 426 442	alumina portions
+T14	Component 451 460	substrate
+T15	Function 464 471	etching
+T16	Function 481 492	RIE process
+T17	EnergyFlow 497 539	electromagnetic transducer element circuit
+T18	Attribution 565 572	surface
+T20	Component 576 596	said insulating film
+T21	Location 607 619	contact area
+T22	Attribution 632 649	substrate surface
+T23	Component 658 674	insulating layer
+T24	Location 714 726	contact area
+T25	Material 739 742	TiC
+T26	Material 751 761	Al.sub.2 O
+T27	Shape 792 802	projection
+T28	Material 810 813	TiC
+T29	EnergyFlow 819 832	bonding force
+T30	Component 849 854	films
+T31	EnergyFlow 877 887	resistance
+T32	ScientificConcept 943 962	manufacturing yield
+T33	ScientificConcept 983 993	durability
+T34	Component 1001 1006	heads
+T36	Shape 297 314	numerous recesses
+T37	Shape 319 330	projections
+T19	Effect 1046 1068	slider miniaturization
+R1	Attr Arg1:T3 Arg2:T1
+R2	Attr Arg1:T3 Arg2:T2
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T7
+R6	Attr Arg1:T10 Arg2:T9
+R7	PartOf Arg1:T11 Arg2:T12
+R8	Causitive Arg1:T8 Arg2:T6
+R10	PartOf Arg1:T10 Arg2:T36
+R11	PartOf Arg1:T10 Arg2:T37
+R12	PartOf Arg1:T37 Arg2:T11
+R13	PartOf Arg1:T14 Arg2:T13
+R14	Oper Arg1:T15 Arg2:T14
+R15	Causitive Arg1:T16 Arg2:T15
+R16	Attr Arg1:T20 Arg2:T18
+R17	Spatial Arg1:T17 Arg2:T18
+R18	Spatial Arg1:T22 Arg2:T23
+R19	Spatial Arg1:T25 Arg2:T26
+R20	Spatial Arg1:T21 Arg2:T22
+R21	Spatial Arg1:T21 Arg2:T23
+R22	Spatial Arg1:T24 Arg2:T25
+R23	Spatial Arg1:T24 Arg2:T26
+R24	Attr Arg1:T34 Arg2:T33
+R25	Attr Arg1:T30 Arg2:T29
+R26	Attr Arg1:T30 Arg2:T31
+R27	PartOf Arg1:T28 Arg2:T27
+R9	Causitive Arg1:T8 Arg2:T9

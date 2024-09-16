@@ -1,0 +1,52 @@
+T1	Component 3 16	magnetic head
+T2	Component 39 100	first and second substantially flat soft magnetic pole layers
+T3	Location 145 159	backgap region
+T4	Attribution 185 206	medium-facing surface
+T5	Component 210 232	soft magnetic pedestal
+T6	Attribution 242 254	leading edge
+T7	Attribution 261 274	trailing edge
+T8	Attribution 280 293	trailing edge
+T9	Component 308 325	second pole layer
+T10	Attribution 342 363	medium-facing surface
+T11	Attribution 369 381	leading edge
+T12	Location 393 404	throat area
+T13	Component 429 445	first pole layer
+T14	Shape 451 481	submicron nonferromagnetic gap
+T15	Location 498 507	apex area
+T16	Component 532 548	first pole layer
+T17	Function 554 572	greater separation
+T18	Shape 582 585	gap
+T19	Location 591 602	throat area
+T20	Location 615 624	apex area
+T21	Attribution 630 643	throat height
+T22	Component 742 770	first and second pole layers
+T23	Location 776 795	conductive sections
+T24	Component 810 822	single layer
+T25	Component 847 852	plane
+T26	Component 873 881	pedestal
+T27	Location 890 904	backgap region
+T28	Location 664 720	substantially parallel, electrically conductive sections
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T5 Arg2:T6
+R3	Attr Arg1:T5 Arg2:T7
+R4	Oper Arg1:T17 Arg2:T16
+R6	Manner Arg1:T25 Arg2:T24
+R8	Alias Arg1:T7 Arg2:T8
+R9	Spatial Arg1:T8 Arg2:T10
+R7	Spatial Arg1:T2 Arg2:T3
+R10	Attr Arg1:T4 Arg2:T3
+R11	Spatial Arg1:T8 Arg2:T9
+R12	Spatial Arg1:T9 Arg2:T10
+R13	Causitive Arg1:T11 Arg2:T12
+R14	Spatial Arg1:T12 Arg2:T13
+R15	Manner Arg1:T14 Arg2:T13
+R16	Causitive Arg1:T11 Arg2:T15
+R17	Spatial Arg1:T15 Arg2:T16
+R18	Comparison Arg1:T17 Arg2:T18
+R5	Spatial Arg1:T19 Arg2:T20
+R19	Manner Arg1:T21 Arg2:T19
+R20	Manner Arg1:T22 Arg2:T28
+R21	Manner Arg1:T24 Arg2:T23
+R22	Spatial Arg1:T26 Arg2:T27
+R23	Spatial Arg1:T25 Arg2:T26
+R24	Spatial Arg1:T25 Arg2:T27

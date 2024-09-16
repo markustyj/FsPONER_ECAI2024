@@ -1,0 +1,57 @@
+T1	Component 3 11	pedestal
+T2	Component 29 51	first pole piece layer
+T3	Material 56 75	insulator materials
+T4	Component 105 114	gap layer
+T5	Component 125 147	non-magnetic insulator
+T6	Material 151 156	metal
+T7	Component 181 189	pedestal
+T8	Component 198 207	insulator
+T9	Function 225 243	optional formation
+T10	Component 249 259	seed layer
+T11	Component 263 280	second pole piece
+T12	Component 300 309	gap layer
+T13	Component 330 340	seed layer
+T14	Material 354 370	patterned resist
+T15	Function 377 395	E-beam lithography
+T17	Material 454 470	patterned resist
+T18	Location 489 509	remove side portions
+T19	Component 517 526	gap layer
+T20	Component 535 554	optional seed layer
+T21	Function 558 571	chemical etch
+T22	Location 597 608	top portion
+T23	Material 616 635	insulator materials
+T24	Component 641 649	pedestal
+T25	Function 681 692	ion milling
+T26	Component 703 720	second pole piece
+T27	Component 726 730	mask
+T28	System 741 766	central notched structure
+T29	Component 778 795	second pole piece
+T30	Component 827 835	pedestal
+T31	Component 859 867	pedestal
+T32	System 903 920	notched structure
+T33	Component 928 938	side walls
+T16	Material 415 442	second pole piece materials
+T35	Component 944 957	angled slopes
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T3
+R3	MadeOf Arg1:T4 Arg2:T5
+R4	MadeOf Arg1:T4 Arg2:T6
+R5	Spatial Arg1:T4 Arg2:T7
+R6	Oper Arg1:T9 Arg2:T10
+R7	Spatial Arg1:T4 Arg2:T8
+R8	Spatial Arg1:T11 Arg2:T12
+R9	Spatial Arg1:T16 Arg2:T17
+R10	PartOf Arg1:T12 Arg2:T13
+R11	PartOf Arg1:T19 Arg2:T18
+R12	PartOf Arg1:T20 Arg2:T18
+R13	PartOf Arg1:T23 Arg2:T22
+R14	Oper Arg1:T21 Arg2:T22
+R15	Oper Arg1:T25 Arg2:T24
+R16	Form Arg1:T26 Arg2:T27
+R17	Form Arg1:T26 Arg2:T28
+R18	Spatial Arg1:T29 Arg2:T30
+R19	Form Arg1:T31 Arg2:T32
+R20	Form Arg1:T15 Arg2:T14
+R21	PartOf Arg1:T32 Arg2:T33
+R22	PartOf Arg1:T33 Arg2:T35
+#1	AnnotatorNotes R2	surround，环绕，所以这里用spatial更合适

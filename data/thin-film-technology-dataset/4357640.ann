@@ -1,0 +1,57 @@
+T1	Component 2 31	thin film magnetic transducer
+T2	Component 49 67	planar core pieces
+T3	Location 73 92	front and rear legs
+T4	Component 99 103	coil
+T5	Location 122 131	rear legs
+T6	Component 137 141	coil
+T7	Function 166 176	deposition
+T8	Component 196 200	coil
+T9	Location 208 221	bottom pieces
+T10	Location 223 237	riser portions
+T11	Location 242 252	top pieces
+T12	Component 290 294	coil
+T14	Location 378 398	termination portions
+T15	Shape 421 435	transducer gap
+T16	Attribution 520 525	edges
+T18	EnergyFlow 563 575	flux density
+T20	Location 646 659	curve portion
+T21	Attribution 670 679	rear edge
+T22	Component 687 697	front legs
+T23	Location 704 717	curve portion
+T24	ScientificConcept 737 756	exponential formula
+T25	Effect 773 788	uniform density
+T26	Component 183 188	turns
+T13	Component 329 345	transducer track
+T27	Attribution 346 351	width
+T28	EnergyFlow 487 512	more uniform flux density
+T17	Component 533 538	track
+T29	Attribution 539 544	width
+T19	Component 587 592	track
+T30	Attribution 593 598	width
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T4
+R3	PartOf Arg1:T2 Arg2:T3
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T8 Arg2:T26
+R6	PartOf Arg1:T26 Arg2:T9
+R7	PartOf Arg1:T26 Arg2:T10
+R8	PartOf Arg1:T26 Arg2:T11
+R9	Spatial Arg1:T9 Arg2:T10
+R10	Spatial Arg1:T10 Arg2:T11
+R11	Form Arg1:T9 Arg2:T12
+R12	Form Arg1:T10 Arg2:T12
+R13	Form Arg1:T11 Arg2:T12
+R14	Oper Arg1:T7 Arg2:T26
+R15	Form Arg1:T26 Arg2:T6
+R16	Attr Arg1:T13 Arg2:T27
+R17	Spatial Arg1:T14 Arg2:T15
+R18	Causitive Arg1:T14 Arg2:T27
+R19	Attr Arg1:T17 Arg2:T29
+R20	Attr Arg1:T17 Arg2:T16
+R22	Attr Arg1:T22 Arg2:T21
+R23	Manner Arg1:T21 Arg2:T20
+R24	Attr Arg1:T19 Arg2:T30
+R26	Purpose Arg1:T23 Arg2:T25
+R25	Manner Arg1:T24 Arg2:T23
+R21	Manner Arg1:T16 Arg2:T28
+R27	Manner Arg1:T19 Arg2:T18

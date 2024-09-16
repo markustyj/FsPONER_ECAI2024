@@ -1,0 +1,48 @@
+T1	Component 2 25	thin-film magnetic head
+T2	EnergyFlow 59 75	magnetic circuit
+T3	Component 93 97	base
+T4	Material 101 118	magnetic material
+T5	Component 125 154	thin-film magnetic core layer
+T6	Shape 170 183	operating gap
+T7	Location 191 200	front end
+T8	Location 215 228	rear junction
+T9	Location 236 244	rear end
+T10	Component 252 271	magnetic core layer
+T11	Component 279 294	conductor layer
+T12	Component 305 312	winding
+T13	Component 337 341	base
+T14	Component 350 369	magnetic core layer
+T15	Component 375 394	magnetic core layer
+T16	Attribution 401 413	larger width
+T17	Location 421 428	portion
+T18	Component 455 470	conductor layer
+T19	Location 484 505	operating gap portion
+T20	EnergyFlow 515 530	magnetic fluxes
+T21	EnergyFlow 544 560	electric current
+T22	Component 581 596	conductor layer
+T23	Component 632 651	magnetic core layer
+T24	Effect 659 679	recording efficiency
+R1	MadeOf Arg1:T3 Arg2:T4
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T5
+R4	PartOf Arg1:T1 Arg2:T2
+R5	Form Arg1:T11 Arg2:T12
+R6	Spatial Arg1:T11 Arg2:T13
+R7	Spatial Arg1:T11 Arg2:T14
+R8	Attr Arg1:T10 Arg2:T9
+R9	Manner Arg1:T7 Arg2:T6
+R10	Manner Arg1:T9 Arg2:T8
+R11	Attr Arg1:T10 Arg2:T7
+R12	Form Arg1:T3 Arg2:T6
+R13	Form Arg1:T5 Arg2:T6
+R14	Form Arg1:T3 Arg2:T8
+R15	Form Arg1:T5 Arg2:T8
+R16	Comparison Arg1:T17 Arg2:T19
+R17	Attr Arg1:T15 Arg2:T16
+R20	Attr Arg1:T19 Arg2:T16
+R18	PartOf Arg1:T15 Arg2:T17
+R21	Spatial Arg1:T17 Arg2:T18
+R19	Attr Arg1:T17 Arg2:T16
+R22	Manner Arg1:T22 Arg2:T21
+R23	Generate Arg1:T21 Arg2:T20
+R24	Manner Arg1:T23 Arg2:T20

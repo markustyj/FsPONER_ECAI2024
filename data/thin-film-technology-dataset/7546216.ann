@@ -1,0 +1,23 @@
+T1	Component 22 33	head gimbal
+T2	System 64 90	first head gimbal assembly
+T3	System 107 133	first head gimbal assembly
+T6	System 195 222	picked head gimbal assembly
+T7	System 291 324	first picked head gimbal assembly
+T9	System 376 402	first head gimbal assembly
+T10	Component 461 474	rotating disc
+T11	System 478 505	second head gimbal assembly
+T14	System 591 617	first head gimbal assembly
+T4	Component 141 162	first an end effector
+R1	Causitive Arg1:T4 Arg2:T3
+T5	Component 168 186	first end effector
+T8	Component 346 358	end effector
+T15	Shape 249 253	nest
+R2	Spatial Arg1:T6 Arg2:T15
+R3	Spatial Arg1:T5 Arg2:T15
+T16	Shape 366 370	nest
+T17	Shape 420 424	nest
+R4	Spatial Arg1:T9 Arg2:T17
+T12	Component 521 540	second end effector
+T13	Component 562 580	first end effector
+R5	Causitive Arg1:T13 Arg2:T14
+R6	Causitive Arg1:T12 Arg2:T11

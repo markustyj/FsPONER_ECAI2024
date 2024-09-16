@@ -1,0 +1,35 @@
+T1	Component 26 40	recording head
+T2	Location 62 75	first segment
+T3	Component 98 112	toroidal coils
+T4	Location 118 132	second segment
+T6	Component 179 193	wafer assembly
+T7	Component 234 248	wafer assembly
+T8	Component 254 265	slider body
+T9	Location 278 292	cavity portion
+T10	Location 300 314	second segment
+T11	Location 333 347	cavity portion
+T12	Component 355 366	slider body
+T13	Shape 377 394	transducer cavity
+T14	PhysicsFlow 421 427	vacuum
+T15	Component 442 453	slider body
+T16	Attribution 459 481	reference flat surface
+T17	Component 522 537	transducer body
+T18	Component 547 557	transducer
+T19	Shape 565 582	transducer cavity
+T20	Component 591 603	touch sensor
+T5	Component 155 168	flexure beams
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T4 Arg2:T5
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T7 Arg2:T8
+R5	PartOf Arg1:T10 Arg2:T9
+R6	PartOf Arg1:T12 Arg2:T11
+R7	PartOf Arg1:T17 Arg2:T18
+R9	Spatial Arg1:T15 Arg2:T16
+R10	Form Arg1:T2 Arg2:T6
+R11	Form Arg1:T4 Arg2:T6
+R12	Form Arg1:T9 Arg2:T13
+R13	Form Arg1:T11 Arg2:T13
+R14	Causitive Arg1:T9 Arg2:T11
+R15	Spatial Arg1:T14 Arg2:T15
+R8	PartOf Arg1:T19 Arg2:T18

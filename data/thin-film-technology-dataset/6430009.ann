@@ -1,0 +1,51 @@
+T1	Component 2 34	compound thin film magnetic head
+T2	Component 48 60	upper shield
+T3	Component 68 83	readout MR head
+T4	Component 103 122	lower magnetic film
+T5	Component 130 150	write inductive head
+T6	Component 156 168	upper shield
+T7	System 175 192	layered structure
+T8	Location 205 216	shield part
+T9	Material 220 242	soft magnetic material
+T10	Component 260 266	shield
+T11	Component 294 301	MR head
+T12	Location 305 320	lower pole part
+T13	Location 325 340	transition part
+T14	Material 344 366	soft magnetic material
+T15	Component 384 403	write magnetic pole
+T16	EnergyFlow 417 427	upper pole
+T17	Component 435 449	inductive head
+T18	Component 457 485	nonmagnetic separation layer
+T19	Location 530 545	lower pole part
+T20	Location 554 569	transition part
+T21	Component 574 613	additional nonmagnetic separation layer
+T22	Location 635 646	shield part
+T25	Component 704 710	layers
+T26	Component 727 755	nonmagnetic separation layer
+T23	Component 670 693	multiple magnetic films
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	Form Arg1:T2 Arg2:T4
+R5	PartOf Arg1:T5 Arg2:T4
+R6	PartOf Arg1:T6 Arg2:T7
+R7	PartOf Arg1:T7 Arg2:T8
+R8	MadeOf Arg1:T8 Arg2:T9
+R9	Form Arg1:T8 Arg2:T10
+R10	Causitive Arg1:T8 Arg2:T11
+R11	MadeOf Arg1:T13 Arg2:T14
+R12	MadeOf Arg1:T12 Arg2:T14
+R13	Form Arg1:T13 Arg2:T15
+R14	Form Arg1:T12 Arg2:T15
+R15	Spatial Arg1:T15 Arg2:T16
+R16	PartOf Arg1:T17 Arg2:T16
+R17	PartOf Arg1:T6 Arg2:T12
+R18	PartOf Arg1:T6 Arg2:T13
+R19	PartOf Arg1:T6 Arg2:T18
+R20	Spatial Arg1:T19 Arg2:T20
+R21	Spatial Arg1:T20 Arg2:T21
+R22	Spatial Arg1:T19 Arg2:T21
+R23	Form Arg1:T23 Arg2:T25
+R24	Causitive Arg1:T22 Arg2:T26
+#1	AnnotatorNotes T23	configured form不理解，答：薄膜一般由多层不同类型材料依次叠加形成的，shield part的配置指的是不同材料如何搭配，然后叠加成屏蔽部部分
+R25	Causitive Arg1:T23 Arg2:T22

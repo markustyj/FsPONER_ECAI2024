@@ -1,0 +1,43 @@
+T1	Component 2 12	transducer
+T2	Component 18 41	magnetic storage device
+T3	Component 54 88	elongated magnetoresistive element
+T4	Location 99 112	active region
+T5	Component 114 150	First and second electrical contacts
+T6	Component 165 199	elongated magnetoresistive element
+T7	Location 203 217	opposite sides
+T8	Location 225 238	active region
+T10	Component 242 287	bottom inductive write pole and shared shield
+T11	Component 315 349	elongated magnetoresistive element
+T12	Location 365 376	body region
+T13	Location 383 398	pole tip region
+T14	Location 413 426	active region
+T15	Component 432 445	shared shield
+T16	Shape 457 462	notch
+T17	Location 483 498	pole tip region
+T18	Location 507 518	body region
+T19	EnergyFlow 538 556	magnetic stability
+T20	Location 564 579	pole tip region
+T21	Component 583 607	top inductive write pole
+T22	Component 633 660	bottom inductive write pole
+T23	Shape 689 701	magnetic gap
+T24	Location 711 726	pole tip region
+T26	Component 665 678	shared shield
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	Causitive Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T8 Arg2:T7
+R6	Spatial Arg1:T6 Arg2:T7
+R7	PartOf Arg1:T15 Arg2:T16
+R8	Spatial Arg1:T13 Arg2:T14
+R9	Spatial Arg1:T10 Arg2:T11
+R10	PartOf Arg1:T10 Arg2:T12
+R11	PartOf Arg1:T10 Arg2:T13
+R12	Spatial Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T18 Arg2:T16
+R14	Purpose Arg1:T15 Arg2:T19
+R15	Attr Arg1:T20 Arg2:T19
+R16	Form Arg1:T21 Arg2:T23
+R17	Form Arg1:T24 Arg2:T23
+R18	Spatial Arg1:T21 Arg2:T22
+R19	Spatial Arg1:T21 Arg2:T26

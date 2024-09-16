@@ -1,0 +1,68 @@
+T1	Component 2 31	novel thin film magnetic head
+T2	Material 74 96	new substrate material
+T3	ScientificConcept 110 129	mechanical property
+T4	ScientificConcept 141 154	machinability
+T5	Component 161 170	substrate
+T7	Value 215 223	4 to 45 %
+T8	Measure 227 233	volume
+T10	Measure 263 269	volume
+T12	Value 297 299	3 %
+T13	Measure 303 309	volume
+T14	Material 313 335	unavoidable impurities
+T16	Material 407 415	carbides
+T17	Material 417 425	nitrides
+T18	Material 427 440	carbonitrides
+T19	Material 442 452	carboxides
+T21	Material 495 498	IVa
+T22	Material 500 502	Va
+T23	Component 507 519	VIa elements
+T24	ScientificConcept 523 537	Periodic Table
+T25	Material 554 569	solid solutions
+T26	Material 578 599	Component B : ZrO.sub.
+T27	Value 624 627	70 %
+T28	Measure 631 637	weight
+T30	System 659 671	cubic system
+T31	System 691 708	monoclinic system
+T32	Material 777 783	oxides
+T33	Material 787 806	Group IIIa elements
+T36	Material 826 829	CaO
+T37	Material 834 837	MgO
+T38	Material 883 897	solid solution
+T39	Component 188 203	ceramic compact
+T6	Value 215 223	4 to 45%
+T9	Value 250 259	55 to 96%
+T11	Value 297 299	3%
+T15	Material 454 465	oxynitrides
+T40	Material 470 485	carboxynitrides
+T20	Material 542 550	mixtures
+T41	Material 591 600	ZrO.sub.2
+T42	Value 624 627	70%
+T29	Shape 641 651	tetragonal
+T43	ScientificConcept 810 824	Periodic Table
+T34	Material 843 851	mixtures
+R1	Attr Arg1:T2 Arg2:T3
+R2	Attr Arg1:T2 Arg2:T4
+R3	MadeOf Arg1:T5 Arg2:T39
+R4	Measurement Arg1:T8 Arg2:T6
+T35	Component 237 248	Component A
+R5	Attr Arg1:T35 Arg2:T8
+R6	PartOf Arg1:T39 Arg2:T35
+R7	Measurement Arg1:T10 Arg2:T9
+T44	Component 273 284	Component B
+R8	Attr Arg1:T44 Arg2:T10
+R9	PartOf Arg1:T39 Arg2:T44
+R10	Measurement Arg1:T13 Arg2:T11
+R11	Attr Arg1:T14 Arg2:T13
+R12	PartOf Arg1:T39 Arg2:T14
+R13	PartOf Arg1:T41 Arg2:T29
+R14	Measurement Arg1:T28 Arg2:T42
+R15	Attr Arg1:T29 Arg2:T28
+R16	PartOf Arg1:T41 Arg2:T30
+R17	PartOf Arg1:T41 Arg2:T31
+R18	Attr Arg1:T32 Arg2:T33
+R19	PartOf Arg1:T43 Arg2:T33
+R20	Purpose Arg1:T32 Arg2:T38
+R21	InstanceOf Arg1:T36 Arg2:T32
+R22	InstanceOf Arg1:T37 Arg2:T32
+R23	InstanceOf Arg1:T34 Arg2:T32
+R24	PartOf Arg1:T24 Arg2:T23

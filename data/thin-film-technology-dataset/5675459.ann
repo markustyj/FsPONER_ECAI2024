@@ -1,0 +1,71 @@
+T1	EnergyFlow 4 37	electrical insulation performance
+T2	Component 48 66	lower shield layer
+T3	Component 73 93	main electrode layer
+T4	Component 111 132	magnetoresistive head
+T5	Component 169 184	lower gap layer
+T6	Material 193 200	alumina
+T9	Component 306 321	upper gap layer
+T12	Component 434 444	gap layers
+T13	Component 464 482	lower shield layer
+T15	Component 554 569	lower gap layer
+T18	Component 665 680	lower gap layer
+T19	Component 689 704	upper gap layer
+T20	Component 732 752	main electrode layer
+T22	Component 789 809	main electrode layer
+T25	Component 891 901	gap layers
+T26	Component 929 949	main electrode layer
+T28	EnergyFlow 986 1019	electrical insulation performance
+T29	Component 1032 1052	main electrode layer
+T30	Component 1061 1079	lower shield layer
+T31	Component 141 165	magnetoresistive element
+T32	Attribution 218 225	surface
+T7	Component 233 251	lower shield layer
+T33	Component 260 270	MR element
+T8	Component 274 297	longitudinal bias layer
+T10	Material 364 379	magnetic medium
+T34	Component 385 395	MR element
+T11	Component 401 424	longitudinal bias layer
+T14	Component 491 509	upper shield layer
+T35	Component 574 593	the upper gap layer
+T36	Measure 519 532	gap length GL
+T16	Material 644 659	magnetic medium
+T17	Component 761 779	lower shield layer
+T21	Component 830 853	longitudinal bias layer
+T23	Component 866 881	upper gap layer
+T24	Component 958 976	lower shield layer
+R1	Attr Arg1:T2 Arg2:T1
+R2	Attr Arg1:T3 Arg2:T1
+R3	MadeOf Arg1:T5 Arg2:T6
+R7	Attr Arg1:T7 Arg2:T32
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Spatial Arg1:T12 Arg2:T14
+R13	Spatial Arg1:T13 Arg2:T14
+R14	Spatial Arg1:T11 Arg2:T13
+R15	Spatial Arg1:T11 Arg2:T14
+R16	Spatial Arg1:T34 Arg2:T14
+R17	Spatial Arg1:T34 Arg2:T13
+R18	Spatial Arg1:T34 Arg2:T11
+R19	Spatial Arg1:T11 Arg2:T12
+R20	Spatial Arg1:T34 Arg2:T12
+R23	Spatial Arg1:T19 Arg2:T20
+R24	Spatial Arg1:T19 Arg2:T17
+R25	Spatial Arg1:T18 Arg2:T20
+R26	Spatial Arg1:T18 Arg2:T17
+R27	Spatial Arg1:T20 Arg2:T17
+R28	Spatial Arg1:T18 Arg2:T19
+R29	Spatial Arg1:T22 Arg2:T21
+R30	Spatial Arg1:T23 Arg2:T21
+R31	Spatial Arg1:T22 Arg2:T23
+R32	Spatial Arg1:T25 Arg2:T26
+R33	Spatial Arg1:T25 Arg2:T24
+R34	Attr Arg1:T29 Arg2:T28
+R35	Attr Arg1:T30 Arg2:T28
+R4	PartOf Arg1:T4 Arg2:T3
+R5	PartOf Arg1:T4 Arg2:T2
+R36	Purpose Arg1:T31 Arg2:T1
+R6	Spatial Arg1:T5 Arg2:T7
+R37	Manner Arg1:T32 Arg2:T5
+R8	Spatial Arg1:T33 Arg2:T7
+R9	Spatial Arg1:T8 Arg2:T7
+R10	Spatial Arg1:T9 Arg2:T7
+R21	Spatial Arg1:T15 Arg2:T35

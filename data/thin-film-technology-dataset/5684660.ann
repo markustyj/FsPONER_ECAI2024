@@ -1,0 +1,73 @@
+T1	Component 2 16	thin film head
+T5	Component 143 157	thin film head
+T6	Shape 162 168	window
+T7	Shape 172 176	slot
+T8	Shape 235 241	window
+T9	Shape 245 249	slot
+T10	Component 280 294	thin film head
+T11	Component 306 315	substrate
+T13	Component 455 468	magnetic core
+T14	System 489 503	coil structure
+T15	System 516 530	coil structure
+T16	Component 569 573	core
+T18	Component 621 638	protective cocoon
+T19	Material 642 674	electrically insulative material
+T20	System 686 700	coil structure
+T21	Component 709 713	core
+T23	Attribution 796 816	upper planar surface
+T28	System 1006 1020	coil structure
+T29	Attribution 1029 1049	upper planar surface
+T30	System 1140 1154	coil structure
+T31	Component 1163 1176	magnetic core
+T32	Component 1229 1235	layers
+T2	System 117 137	rotary head assembly
+T3	Shape 68 87	reduced size window
+T4	Shape 91 111	circumferential slot
+T33	Material 319 351	electrically insulative material
+T12	System 374 420	substantially helical thin film coil structure
+T34	Component 442 451	substrate
+T35	Component 559 563	core
+T17	Component 583 617	first and second side pole members
+T36	Location 725 729	ends
+T22	Component 737 771	first and second side pole members
+T37	Location 835 839	ends
+T24	Component 847 881	first and second side pole members
+T25	System 914 936	magnetic gap structure
+T26	System 941 982	elevated thin film magnetic gap structure
+T27	Component 777 783	cocoon
+T38	Component 1057 1074	protective cocoon
+T39	Attribution 1246 1266	planar upper surface
+T40	Component 1274 1291	protective cocoon
+T41	Function 892 908	coupling thereto
+T42	Function 1076 1086	Protection
+T43	ScientificConcept 1092 1110	ambient conditions
+T44	ScientificConcept 1212 1221	planarity
+R1	PartOf Arg1:T2 Arg2:T4
+R2	Spatial Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T10 Arg2:T11
+R5	MadeOf Arg1:T11 Arg2:T33
+R6	Spatial Arg1:T12 Arg2:T34
+R9	Causitive Arg1:T15 Arg2:T35
+R10	PartOf Arg1:T16 Arg2:T17
+R11	MadeOf Arg1:T18 Arg2:T19
+R12	Spatial Arg1:T18 Arg2:T20
+R13	Spatial Arg1:T18 Arg2:T21
+R14	PartOf Arg1:T22 Arg2:T36
+R15	Attr Arg1:T27 Arg2:T23
+R16	PartOf Arg1:T24 Arg2:T37
+R17	Causitive Arg1:T23 Arg2:T37
+R18	Purpose Arg1:T37 Arg2:T41
+R20	Spatial Arg1:T26 Arg2:T28
+R21	Spatial Arg1:T26 Arg2:T29
+R22	Attr Arg1:T38 Arg2:T29
+R23	Oper Arg1:T42 Arg2:T30
+R24	Oper Arg1:T42 Arg2:T31
+R25	Purpose Arg1:T42 Arg2:T44
+R26	Attr Arg1:T32 Arg2:T44
+R27	Spatial Arg1:T32 Arg2:T39
+R28	Attr Arg1:T40 Arg2:T39
+R29	PartOf Arg1:T2 Arg2:T3
+R7	Manner Arg1:T14 Arg2:T13
+#2	AnnotatorNotes R7	磁核延伸穿过线圈结构，“穿过线圈结构”描述延伸的方式，manner可以，spatial也可以，但两个实体没有使动被动关系
+R19	Purpose Arg1:T25 Arg2:T41

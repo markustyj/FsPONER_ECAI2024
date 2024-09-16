@@ -1,0 +1,1 @@
+A thin-film head architecture is provided that incorporates an asymmetrical arrangement of poles along a defined area of the head extending from the pole tips to a flux via in the yoke region. The flux conducts vertically by small-angle rotations within the defined area of the head during read operations, thereby obviating the need for horizontal conduction by domain wall motion.

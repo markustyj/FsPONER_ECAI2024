@@ -1,0 +1,25 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 38 41	ABS
+T3	System 48 78	three-layer pole tip structure
+T4	Component 99 102	ABS
+T5	Component 200 219	recording gap layer
+T6	Component 243 262	recording gap layer
+T8	Measure 123 143	predetermined height
+T9	Component 153 156	ABS
+T10	Component 186 196	first pole
+T11	Component 226 237	second pole
+T12	Component 365 387	first and second poles
+T13	Measure 294 306	etching rate
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Attr Arg1:T9 Arg2:T8
+T7	Location 109 117	position
+R5	Spatial Arg1:T3 Arg2:T7
+T14	Material 276 284	material
+R7	MadeOf Arg1:T6 Arg2:T14
+R8	Attr Arg1:T14 Arg2:T13
+T15	Material 341 349	material
+R6	Comparison Arg1:T14 Arg2:T15
+R9	MadeOf Arg1:T12 Arg2:T15
+R10	Attr Arg1:T15 Arg2:T13

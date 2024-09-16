@@ -1,0 +1,24 @@
+T1	Component 25 38	write element
+T2	Component 44 57	magnetic head
+T3	Component 105 124	first pole pedestal
+T4	Component 136 151	write gap layer
+T5	Component 162 181	first pole pedestal
+T6	Component 193 213	second pole pedestal
+T7	Component 224 239	write gap layer
+T8	Component 272 281	cap layer
+T9	Component 304 323	first pole pedestal
+T10	Shape 332 341	write gap
+T11	Component 349 359	seed layer
+T12	Component 382 397	write gap layer
+T13	Component 406 426	second pole pedestal
+T15	Material 285 291	CoFeON
+T16	Material 363 369	CoFeON
+R1	PartOf Arg1:T2 Arg2:T1
+R2	Spatial Arg1:T4 Arg2:T5
+R3	Spatial Arg1:T6 Arg2:T7
+R4	MadeOf Arg1:T8 Arg2:T15
+R5	MadeOf Arg1:T11 Arg2:T16
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T8 Arg2:T10
+R8	Spatial Arg1:T11 Arg2:T12
+R9	Spatial Arg1:T11 Arg2:T13

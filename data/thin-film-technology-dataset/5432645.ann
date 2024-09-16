@@ -1,0 +1,68 @@
+T1	Component 4 13	thin film
+T2	Component 44 57	magnetic head
+T3	ScientificConcept 65 89	atomic ratio composition
+T4	ScientificConcept 338 362	relative intensity ratio
+T7	Component 403 429	X-ray diffraction spectrum
+T11	Component 571 580	thin film
+T15	Component 864 873	thin film
+T18	Component 1088 1101	magnetic head
+T19	Component 1115 1124	thin film
+T20	Material 176 178	Mg
+T21	Material 180 182	Ca
+T22	Material 184 186	Ti
+T23	Material 188 190	Zr
+T24	Material 192 194	Hf
+T25	Material 196 197	V
+T26	Material 199 201	Nb
+T27	Material 203 205	Ta
+T28	Material 207 209	Cr
+T29	Material 211 213	Mo
+T30	Material 215 216	W
+T31	Material 218 220	Mn
+T32	Material 226 227	B
+T33	ScientificConcept 366 379	Fe (200) peak
+T5	ScientificConcept 383 396	Fe (110) peak
+T6	ScientificConcept 453 473	Fe (100) orientation
+T8	Attribution 482 494	film surface
+T9	Location 554 565	orientation
+T34	Function 520 534	Heat treatment
+T14	Effect 759 777	low coercive force
+T35	Effect 781 807	high magnetic permeability
+T36	Effect 813 839	minimized magnetostriction
+T38	Function 939 950	preparation
+T39	Effect 987 996	variation
+T40	State 1014 1038	heat treating conditions
+T16	Function 1062 1076	heat treatment
+T41	ScientificConcept 1182 1193	sensitivity
+T42	Attribution 1199 1225	electromagnetic properties
+T43	EnergyFlow 590 610	high heat resistance
+T10	Value 634 644	700.degree
+T13	Effect 715 752	high saturation magnetic flux density
+T44	Effect 883 916	improved soft magnetic properties
+T12	Effect 663 697	excellent soft magnetic properties
+T37	Effect 1129 1158	improved overwrite properties
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R4	Oper Arg1:T34 Arg2:T9
+R5	Attr Arg1:T11 Arg2:T43
+R6	Manner Arg1:T10 Arg2:T43
+R7	Attr Arg1:T11 Arg2:T12
+R8	Attr Arg1:T15 Arg2:T44
+R9	Generate Arg1:T40 Arg2:T39
+R10	Causitive Arg1:T18 Arg2:T19
+R11	Attr Arg1:T18 Arg2:T37
+R12	Attr Arg1:T18 Arg2:T41
+R13	Attr Arg1:T18 Arg2:T42
+R15	Attr Arg1:T11 Arg2:T13
+R16	Attr Arg1:T11 Arg2:T14
+R17	Attr Arg1:T11 Arg2:T35
+R18	Attr Arg1:T11 Arg2:T36
+R19	PartOf Arg1:T7 Arg2:T33
+R20	PartOf Arg1:T7 Arg2:T5
+R22	Oper Arg1:T38 Arg2:T15
+R23	Attr Arg1:T1 Arg2:T4
+T17	Value 442 443	1
+R24	Measurement Arg1:T4 Arg2:T17
+R14	Attr Arg1:T4 Arg2:T33
+R3	Attr Arg1:T4 Arg2:T5
+R21	Attr Arg1:T1 Arg2:T6

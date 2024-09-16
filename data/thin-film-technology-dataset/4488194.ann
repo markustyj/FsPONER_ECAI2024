@@ -1,0 +1,54 @@
+T1	Component 2 29	magnetoresistant transducer
+T3	Component 80 107	magnetoresistant transducer
+T5	EnergyFlow 137 152	magnetoresistor
+T7	Material 165 194	anisotropic magnetic material
+T8	Location 223 232	direction
+T9	Material 256 262	medium
+T10	Component 278 282	axis
+T11	Effect 293 311	easy magnetization
+T12	EnergyFlow 319 334	magnetoresistor
+T13	Material 352 358	medium
+T14	Component 374 434	thin, mono-range or single domain magnetic anisotropic layer
+T15	Material 454 460	medium
+T16	Location 472 481	direction
+T19	EnergyFlow 586 601	magnetoresistor
+T20	Component 611 615	axis
+T21	Effect 619 637	easy magnetization
+T22	Material 663 669	medium
+T23	Location 686 695	direction
+T24	Component 703 707	axis
+T25	Effect 711 729	easy magnetization
+T26	EnergyFlow 737 752	magnetoresistor
+T27	Component 813 827	magnetic tapes
+T28	Component 832 837	disks
+T29	Effect 849 866	high density data
+T2	Effect 55 72	very high-density
+T30	Function 802 809	reading
+T17	InfoFlow 495 499	data
+T18	Component 510 543	mono-range or single domain layer
+T4	InfoFlow 246 250	data
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T5
+R4	PartOf Arg1:T9 Arg2:T4
+R5	MadeOf Arg1:T5 Arg2:T7
+R3	Spatial Arg1:T5 Arg2:T8
+R6	Manner Arg1:T4 Arg2:T8
+R7	Attr Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T12 Arg2:T10
+R9	PartOf Arg1:T10 Arg2:T14
+R10	Spatial Arg1:T14 Arg2:T15
+R11	Spatial Arg1:T14 Arg2:T16
+R12	Manner Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T10 Arg2:T13
+R14	Oper Arg1:T30 Arg2:T27
+R15	Oper Arg1:T30 Arg2:T28
+R16	PartOf Arg1:T27 Arg2:T29
+R17	PartOf Arg1:T28 Arg2:T29
+R18	Causitive Arg1:T18 Arg2:T19
+R19	PartOf Arg1:T18 Arg2:T20
+R20	Attr Arg1:T20 Arg2:T21
+R21	Spatial Arg1:T20 Arg2:T22
+R23	Attr Arg1:T24 Arg2:T25
+R24	PartOf Arg1:T26 Arg2:T24
+R25	Attr Arg1:T24 Arg2:T23
+R22	Manner Arg1:T23 Arg2:T20

@@ -1,0 +1,21 @@
+T1	Component 48 71	magnetic recording head
+T2	Component 102 125	magnetic recording head
+T3	Component 133 162	magnetic recording head drive
+T4	Component 168 191	magnetic recording head
+T5	Component 203 212	substrate
+T6	System 219 240	first magnetic device
+T7	Component 258 267	substrate
+T8	Component 273 296	magnetic recording head
+T9	System 313 335	second magnetic device
+T10	System 353 374	first magnetic device
+T11	System 380 401	first magnetic device
+T12	System 422 444	second magnetic device
+T13	System 450 483	first and second magnetic devices
+T14	Component 522 531	substrate
+R1	Causitive Arg1:T14 Arg2:T13
+R2	Spatial Arg1:T11 Arg2:T12
+R3	PartOf Arg1:T8 Arg2:T9
+R4	Spatial Arg1:T9 Arg2:T10
+R5	PartOf Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T4 Arg2:T6
+R7	Spatial Arg1:T6 Arg2:T7

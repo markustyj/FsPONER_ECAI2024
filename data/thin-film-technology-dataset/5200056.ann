@@ -1,0 +1,20 @@
+T1	Component 2 36	thin film magnetic read/write head
+T2	Component 61 91	multi-layered sacrificial mask
+T3	Function 97 123	pole tip alignment process
+T4	Component 129 145	sacrificial mask
+T5	Component 157 162	layer
+T6	Material 166 171	metal
+T7	Component 191 214	magnetic upper pole tip
+T8	Component 216 250	Subsequent sacrificial mask layers
+T9	Material 259 276	nickel-iron alloy
+T10	Material 280 291	photoresist
+T11	Function 306 335	ion milling alignment process
+T12	Component 337 369	residual sacrificial mask layers
+T13	Component 411 422	medal layer
+T14	Component 470 493	thin film magnetic head
+R1	Causitive Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T5
+R3	MadeOf Arg1:T5 Arg2:T6
+R4	Spatial Arg1:T5 Arg2:T7
+R5	PartOf Arg1:T8 Arg2:T9
+R6	PartOf Arg1:T8 Arg2:T10

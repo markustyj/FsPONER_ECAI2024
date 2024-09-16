@@ -1,0 +1,1 @@
+A three terminal magnetoresistance head capable of providing a high output and a large output current is provided. A MIS junction multilayer film composed of a magnetic semiconductor, a metal magnetic multilayer film, and a tunnel magnetoresistance element is applied to a three terminal magnetoresistance device.

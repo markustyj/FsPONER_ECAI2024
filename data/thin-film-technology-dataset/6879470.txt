@@ -1,0 +1,1 @@
+A thin film head for use in a tape drive includes a read portion, a write portion, and a giant magnetoresistive (GMR) element disposed in the read portion. The read and write portions have a tape bearing surface. A sensing surface of the GMR element is recessed from the tape bearing surface as a result of a lapping process and coated with a material.

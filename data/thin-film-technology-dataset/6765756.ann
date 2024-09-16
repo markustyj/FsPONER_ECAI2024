@@ -1,0 +1,66 @@
+T1	Component 34 63	improved thin film write head
+T2	Component 114 130	ultra-short yoke
+T3	Component 141 174	ultra-low conductor winding stack
+T4	Attribution 206 217	yoke length
+T5	Attribution 222 234	stack height
+T6	Component 250 267	conductor winding
+T7	Shape 273 279	trench
+T8	Component 295 311	insulation layer
+T9	Material 337 366	inorganic insulation material
+T10	Component 370 386	thin resist mask
+T11	Attribution 409 414	width
+T12	Shape 422 428	trench
+T13	Function 439 451	etch process
+T14	Attribution 464 469	depth
+T15	Component 487 503	insulation layer
+T16	Function 574 586	etch process
+T17	Component 598 615	conductor winding
+T18	Component 637 653	underlying layer
+T19	Component 659 676	conductor winding
+T20	Shape 752 758	trench
+T21	Function 792 818	chemical mechanical polish
+T22	Shape 871 877	trench
+T23	Component 882 906	organic insulation layer
+T24	PhysicsFlow 916 933	cured photoresist
+T25	Attribution 959 977	planarized surface
+T26	Component 985 1002	conductor winding
+T27	Component 1026 1040	overlying yoke
+T28	Component 1047 1081	overlying organic insulation layer
+T29	ScientificConcept 1102 1112	apex angle
+T30	Component 1120 1124	head
+T32	Component 1176 1193	conductor winding
+T33	Component 1199 1216	subsequent layers
+T34	Component 1220 1229	conductor
+T35	Component 1259 1270	first layer
+T36	Material 1407 1415	material
+T37	Material 519 558	different inorganic insulation material
+T38	Material 712 730	conductor material
+T39	Material 830 848	conductor material
+T31	Component 1157 1172	multiple layers
+T40	Function 1294 1328	conventional photoresist processes
+T41	System 1333 1343	structures
+T42	System 1379 1403	any known pole structure
+R1	MadeOf Arg1:T8 Arg2:T9
+R3	PartOf Arg1:T8 Arg2:T7
+R4	Attr Arg1:T12 Arg2:T11
+R5	Causitive Arg1:T13 Arg2:T14
+R6	Purpose Arg1:T10 Arg2:T11
+R7	Spatial Arg1:T15 Arg2:T37
+R8	Purpose Arg1:T15 Arg2:T16
+R9	Spatial Arg1:T17 Arg2:T18
+R10	Oper Arg1:T21 Arg2:T39
+R12	Manner Arg1:T22 Arg2:T39
+R13	Attr Arg1:T26 Arg2:T25
+R14	Spatial Arg1:T24 Arg2:T25
+R15	InstanceOf Arg1:T24 Arg2:T23
+R17	Attr Arg1:T30 Arg2:T29
+R18	Causitive Arg1:T28 Arg2:T29
+R19	Attr Arg1:T32 Arg2:T31
+R20	Attr Arg1:T34 Arg2:T33
+R21	Oper Arg1:T40 Arg2:T33
+R22	Form Arg1:T41 Arg2:T33
+R2	PartOf Arg1:T7 Arg2:T6
+R23	MadeOf Arg1:T19 Arg2:T38
+R11	Purpose Arg1:T19 Arg2:T20
+R16	Causitive Arg1:T26 Arg2:T27
+#1	AnnotatorNotes R3	从绝缘层蚀刻一个沟槽，即绝缘层有个沟槽，用ownership合适些

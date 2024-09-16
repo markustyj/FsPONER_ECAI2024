@@ -1,0 +1,82 @@
+T1	Component 2 26	thin film head apparatus
+T2	Component 57 71	thin film head
+T3	Shape 130 136	cavity
+T4	Component 142 158	dielectric layer
+T5	Component 168 173	layer
+T8	Component 255 271	dielectric layer
+T9	Material 286 300	HBsat material
+T10	Shape 323 329	cavity
+T11	Component 344 360	dielectric layer
+T12	Shape 366 372	cavity
+T13	Component 380 396	dielectric layer
+T14	Material 438 452	HBsat material
+T15	Material 458 472	HBsat material
+T16	Shape 492 498	cavity
+T17	Component 519 529	first core
+T18	Component 535 549	thin film head
+T19	Function 561 570	formation
+T20	Component 578 588	first core
+T21	Component 596 610	thin film head
+T22	Component 614 623	gap layer
+T23	Material 627 635	material
+T24	Component 659 675	dielectric layer
+T25	Component 690 700	first core
+T26	Component 710 715	layer
+T27	Material 719 733	HBsat material
+T28	Component 765 774	gap layer
+T29	Material 778 786	material
+T30	Component 801 811	first core
+T31	Component 819 833	thin film head
+T32	Component 839 844	layer
+T33	Material 848 862	HBsat material
+T34	Component 882 891	gap layer
+T35	Material 895 903	material
+T36	Component 918 928	first core
+T37	Component 949 960	second core
+T38	Component 968 982	thin film head
+T39	Component 1012 1034	first and second cores
+T40	Component 1040 1054	thin film head
+T41	Function 1061 1089	sputter deposition processes
+T44	System 1242 1267	thin film head structures
+T6	Material 177 224	high magnetic field saturation (HBsat) material
+T7	Component 412 416	mold
+T45	Component 421 428	stencil
+T42	Material 1104 1128	selected HBsat materials
+T43	Function 1159 1204	conventional thin film head formation methods
+T46	Component 1233 1238	cores
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T3
+R3	Attr Arg1:T6 Arg2:T5
+R4	Spatial Arg1:T5 Arg2:T8
+R5	PartOf Arg1:T11 Arg2:T10
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Purpose Arg1:T5 Arg2:T9
+R8	PartOf Arg1:T13 Arg2:T12
+R9	Attr Arg1:T14 Arg2:T7
+R10	Purpose Arg1:T12 Arg2:T7
+R11	Purpose Arg1:T12 Arg2:T45
+R12	Attr Arg1:T14 Arg2:T45
+R13	PartOf Arg1:T18 Arg2:T17
+R14	Spatial Arg1:T15 Arg2:T16
+R15	Causitive Arg1:T15 Arg2:T17
+R16	Oper Arg1:T19 Arg2:T20
+R17	PartOf Arg1:T21 Arg2:T20
+R18	PartOf Arg1:T23 Arg2:T22
+R19	Spatial Arg1:T22 Arg2:T24
+R20	Spatial Arg1:T22 Arg2:T25
+R21	PartOf Arg1:T27 Arg2:T26
+R22	Spatial Arg1:T26 Arg2:T28
+R23	PartOf Arg1:T29 Arg2:T28
+R24	Spatial Arg1:T26 Arg2:T30
+R25	PartOf Arg1:T31 Arg2:T30
+R26	PartOf Arg1:T33 Arg2:T32
+R27	Spatial Arg1:T32 Arg2:T34
+R28	PartOf Arg1:T35 Arg2:T34
+R29	Spatial Arg1:T32 Arg2:T36
+R30	Purpose Arg1:T32 Arg2:T37
+R31	PartOf Arg1:T38 Arg2:T37
+R32	PartOf Arg1:T40 Arg2:T39
+R33	Oper Arg1:T41 Arg2:T39
+R34	PartOf Arg1:T44 Arg2:T46
+R35	Purpose Arg1:T42 Arg2:T46
+R36	Oper Arg1:T43 Arg2:T42

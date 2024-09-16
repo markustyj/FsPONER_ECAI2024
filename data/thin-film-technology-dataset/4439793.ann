@@ -1,0 +1,45 @@
+T1	Component 2 22	thin film head array
+T2	System 40 46	stacks
+T3	System 53 58	stack
+T4	Component 87 102	recording heads
+T5	System 112 118	stacks
+T6	Shape 144 148	gaps
+T7	Component 156 161	heads
+T8	System 169 180	first stack
+T9	Shape 217 221	gaps
+T10	Component 229 234	heads
+T11	System 242 254	second stack
+T12	Component 273 278	array
+T13	Material 327 342	magnetic medium
+T14	Component 359 375	recording tracks
+T15	System 418 428	assemblies
+T16	Shape 515 522	V-shape
+T17	Shape 529 532	gap
+T18	Component 540 545	heads
+T20	Material 592 608	recording medium
+T21	Shape 618 631	recording gap
+T22	Location 638 661	magnetizing orientation
+T23	Value 670 689	3.degree.--15.degree
+T24	Component 719 733	adjacent heads
+T25	System 457 463	stacks
+T19	System 554 559	stack
+T26	Component 569 584	separate tracks
+T27	Value 670 689	3.degree.-15.degree
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T8 Arg2:T7
+R4	PartOf Arg1:T7 Arg2:T6
+R5	PartOf Arg1:T11 Arg2:T10
+R6	PartOf Arg1:T10 Arg2:T9
+R7	Spatial Arg1:T6 Arg2:T9
+R8	Causitive Arg1:T13 Arg2:T12
+R9	PartOf Arg1:T15 Arg2:T25
+R10	Manner Arg1:T16 Arg2:T15
+R11	PartOf Arg1:T19 Arg2:T18
+R12	PartOf Arg1:T18 Arg2:T17
+R13	Causitive Arg1:T17 Arg2:T26
+R14	Spatial Arg1:T26 Arg2:T20
+R15	Attr Arg1:T21 Arg2:T22
+R16	Measurement Arg1:T22 Arg2:T27
+R18	Attr Arg1:T24 Arg2:T22
+R17	Comparison Arg1:T21 Arg2:T24

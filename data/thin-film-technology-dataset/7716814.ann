@@ -1,0 +1,36 @@
+T1	Component 30 44	magnetic heads
+T2	Component 61 77	single substrate
+T4	Location 144 161	pre-head portions
+T5	Location 251 268	pre-head portions
+T6	Component 308 322	magnetic heads
+T7	Attribution 351 358	surface
+T8	Attribution 414 428	lapped surface
+T9	Attribution 434 448	lapped surface
+T10	Location 476 491	target position
+T11	Attribution 497 518	medium facing surface
+T12	Location 610 618	position
+T13	Attribution 626 640	lapped surface
+T15	Component 724 758	first and second resistor elements
+T16	Location 769 778	direction
+T17	Attribution 797 818	medium facing surface
+T3	System 93 119	magnetic head substructure
+T18	ScientificConcept 192 196	rows
+T19	System 202 214	substructure
+T20	System 381 393	substructure
+T21	System 524 536	substructure
+T22	Component 550 583	first to fourth resistor elements
+T14	Component 646 681	third and fourth detection elements
+T23	Location 697 706	positions
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T3
+R3	Manner Arg1:T18 Arg2:T4
+R4	Purpose Arg1:T19 Arg2:T5
+R5	Causitive Arg1:T20 Arg2:T7
+R6	Form Arg1:T7 Arg2:T8
+R7	Purpose Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T11 Arg2:T10
+R9	PartOf Arg1:T13 Arg2:T12
+R10	PartOf Arg1:T21 Arg2:T22
+R11	Causitive Arg1:T22 Arg2:T12
+R12	Spatial Arg1:T14 Arg2:T23
+R13	Manner Arg1:T16 Arg2:T23

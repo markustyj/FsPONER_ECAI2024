@@ -1,0 +1,22 @@
+T1	Component 2 16	thin film head
+T2	Component 83 106	first nickel seed layer
+T4	Location 143 157	bottom portion
+T6	Component 194 217	first nickel seed layer
+T9	Location 276 287	top portion
+T10	Component 300 313	magnetic core
+T13	Component 378 392	thin film head
+T14	State 409 422	relaxed state
+T15	Component 168 181	magnetic core
+T5	Component 237 256	second nickel layer
+T7	Component 326 350	second nickel seed layer
+T8	ScientificConcept 361 370	stability
+T11	ScientificConcept 431 447	read performance
+T12	Component 117 126	substrate
+R1	Spatial Arg1:T2 Arg2:T12
+R2	PartOf Arg1:T15 Arg2:T4
+R3	Spatial Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T10 Arg2:T9
+R5	Spatial Arg1:T7 Arg2:T9
+R6	Attr Arg1:T13 Arg2:T8
+R7	Attr Arg1:T13 Arg2:T11
+R8	Manner Arg1:T14 Arg2:T13

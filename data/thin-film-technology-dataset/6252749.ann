@@ -1,0 +1,35 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 38 53	lower gap layer
+T4	Component 127 135	AlN film
+T5	Effect 145 170	high thermal conductivity
+T6	Component 177 193	protective layer
+T7	Component 244 259	lower gap layer
+T8	Effect 304 329	high thermal conductivity
+T9	ScientificConcept 384 388	heat
+T11	Component 465 480	lower gap layer
+T12	Component 486 504	lower shield layer
+T13	Component 69 83	adhesion layer
+T3	Material 94 110	Al.sub.2 O.sub.3
+T14	Material 204 220	Al.sub.2 O.sub.3
+T15	Component 274 282	AlN film
+T16	Component 345 369	conventional equivalents
+T17	Component 406 437	magnetroresistive element layer
+T10	ScientificConcept 526 537	temperature
+T18	Component 541 548	element
+T19	Effect 580 617	satisfactory regeneration sensitivity
+R1	PartOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T13 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T13
+R4	PartOf Arg1:T4 Arg2:T5
+R6	MadeOf Arg1:T6 Arg2:T14
+R7	PartOf Arg1:T7 Arg2:T15
+R8	Comparison Arg1:T7 Arg2:T16
+R9	Attr Arg1:T7 Arg2:T8
+R10	Generate Arg1:T17 Arg2:T9
+R11	Causitive Arg1:T9 Arg2:T11
+R12	Causitive Arg1:T9 Arg2:T12
+R13	Attr Arg1:T18 Arg2:T10
+R14	Purpose Arg1:T9 Arg2:T10
+R15	Purpose Arg1:T9 Arg2:T19
+R16	PartOf Arg1:T1 Arg2:T4
+R17	PartOf Arg1:T1 Arg2:T6

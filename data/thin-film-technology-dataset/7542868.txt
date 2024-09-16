@@ -1,0 +1,1 @@
+ A method of loading a head gimbal assembly on a disc includes attaching an unmounted head gimbal assembly to a four bar loader. The four bar loader includes a fixed plate, a pivot plate, and a four bar linkage connecting the fixed plate to the pivot plate. The four bar loader is then used to tilt the attached head gimbal assembly toward the surface of the disc.

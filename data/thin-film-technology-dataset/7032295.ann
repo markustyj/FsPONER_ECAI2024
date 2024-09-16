@@ -1,0 +1,52 @@
+T1	Component 29 52	thin-film magnetic head
+T2	Component 75 95	first magnetic layer
+T3	Component 99 113	thin-film coil
+T4	Component 118 134	insulating layer
+T5	Component 138 147	gap layer
+T6	Component 155 176	second magnetic layer
+T7	Component 182 202	first magnetic layer
+T8	Location 230 248	first pole portion
+T9	Location 255 273	first yoke portion
+T10	Component 279 300	second magnetic layer
+T11	Location 328 347	second pole portion
+T12	Location 354 373	second yoke portion
+T13	Component 396 410	thin-film coil
+T14	Location 431 435	side
+T15	Location 443 461	first pole portion
+T16	Component 478 487	gap layer
+T17	Location 496 514	first yoke portion
+T18	Component 544 553	gap layer
+T19	Attribution 557 564	surface
+T20	Location 572 590	first pole portion
+T21	Component 613 622	gap layer
+T22	Attribution 629 636	surface
+T23	Component 644 660	insulating layer
+T24	Component 683 692	gap layer
+T25	Attribution 715 727	flat surface
+T26	Location 732 748	interface region
+T27	Location 761 780	second pole portion
+T28	Location 789 808	second yoke portion
+T29	Attribution 846 858	flat surface
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T8
+R7	PartOf Arg1:T7 Arg2:T9
+R8	PartOf Arg1:T10 Arg2:T11
+R9	PartOf Arg1:T10 Arg2:T12
+R10	Manner Arg1:T14 Arg2:T13
+R11	Attr Arg1:T15 Arg2:T14
+R12	Spatial Arg1:T13 Arg2:T16
+R13	Attr Arg1:T20 Arg2:T19
+R14	Spatial Arg1:T19 Arg2:T21
+R16	Attr Arg1:T23 Arg2:T22
+R15	Spatial Arg1:T22 Arg2:T24
+R17	Form Arg1:T19 Arg2:T25
+R18	Form Arg1:T22 Arg2:T25
+R19	Spatial Arg1:T26 Arg2:T27
+R20	Spatial Arg1:T26 Arg2:T28
+R21	Spatial Arg1:T26 Arg2:T29
+R22	Spatial Arg1:T13 Arg2:T17
+R23	Spatial Arg1:T13 Arg2:T18

@@ -1,0 +1,42 @@
+T1	Component 5 18	magnetic head
+T2	Component 70 107	first and second magnetic pole layers
+T3	Location 111 120	link part
+T4	Component 150 187	first and second magnetic pole layers
+T5	Component 195 209	thin-film coil
+T6	Component 252 289	first and second magnetic pole layers
+T7	Component 295 309	thin-film coil
+T8	Location 335 356	inner conductor parts
+T9	Component 402 417	insulating film
+T10	Location 458 485	first outer conductor parts
+T11	Location 501 505	side
+T12	Component 513 548	first or second magnetic pole layer
+T13	Location 567 571	side
+T14	Location 582 603	inner conductor parts
+T15	Location 632 660	second outer conductor parts
+T16	Location 676 680	side
+T17	Location 688 715	first outer conductor parts
+T18	Location 734 738	side
+T19	Location 749 770	inner conductor parts
+T20	Location 803 819	connecting parts
+T22	Location 881 919	first and second outer conductor parts
+T21	Location 841 876	corresponding inner conductor parts
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	PartOf Arg1:T7 Arg2:T8
+R5	Spatial Arg1:T8 Arg2:T9
+R6	Manner Arg1:T11 Arg2:T10
+R7	Attr Arg1:T12 Arg2:T11
+R8	Manner Arg1:T13 Arg2:T14
+R9	Spatial Arg1:T12 Arg2:T13
+R10	PartOf Arg1:T7 Arg2:T10
+R11	PartOf Arg1:T7 Arg2:T15
+R12	Attr Arg1:T17 Arg2:T16
+R13	Manner Arg1:T16 Arg2:T15
+R14	Spatial Arg1:T17 Arg2:T18
+R15	Manner Arg1:T18 Arg2:T19
+R16	PartOf Arg1:T7 Arg2:T20
+R17	Purpose Arg1:T20 Arg2:T21
+R18	Purpose Arg1:T20 Arg2:T22
+R19	Purpose Arg1:T3 Arg2:T4
+R20	Causitive Arg1:T5 Arg2:T6

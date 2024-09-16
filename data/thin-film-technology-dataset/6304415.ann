@@ -1,0 +1,66 @@
+T1	EnergyFlow 13 26	magnetic pole
+T2	EnergyFlow 44 58	magnetic poles
+T3	EnergyFlow 78 100	T-shaped magnetic pole
+T4	Component 110 128	magnetic pole chip
+T5	Location 136 144	position
+T6	Shape 163 175	magnetic gap
+T7	EnergyFlow 183 206	auxiliary magnetic pole
+T8	Component 256 275	air bearing surface
+T9	EnergyFlow 283 305	T-shaped magnetic pole
+T10	Component 323 337	laminated film
+T11	Component 351 374	magnetic material layer
+T12	Effect 382 418	high saturated magnetic flux density
+T13	Component 438 456	magnetic pole chip
+T14	EnergyFlow 478 501	auxiliary magnetic pole
+T15	Component 508 531	magnetic material layer
+T16	Effect 539 574	low saturated magnetic flux density
+T17	Location 594 611	remaining portion
+T18	EnergyFlow 619 642	auxiliary magnetic pole
+T19	Location 653 666	front portion
+T20	EnergyFlow 674 687	magnetic pole
+T21	Attribution 697 708	track width
+T22	Value 712 721	1.8 .mu.m
+T23	Component 747 761	laminated film
+T24	Component 775 798	magnetic material layer
+T25	Effect 808 844	high saturated magnetic flux density
+T26	Component 851 874	magnetic material layer
+T27	Effect 884 919	low saturated magnetic flux density
+T28	Attribution 925 934	thickness
+T29	Component 942 965	magnetic material layer
+T30	Component 977 1013	high saturated magnetic flux density
+T31	Value 1017 1026	0.5 .mu.m
+T32	EnergyFlow 1053 1082	above described magnetic pole
+T33	EnergyFlow 1088 1107	magnetic saturation
+T34	Location 1117 1128	tip portion
+T35	EnergyFlow 1136 1149	magnetic pole
+T36	EnergyFlow 1212 1235	magnetic field gradient
+T37	Attribution 1261 1272	track width
+T38	EnergyFlow 1173 1207	preferable magnetic field strength
+R1	PartOf Arg1:T3 Arg2:T4
+R2	Manner Arg1:T5 Arg2:T4
+R3	PartOf Arg1:T1 Arg2:T3
+R4	Spatial Arg1:T4 Arg2:T6
+R5	PartOf Arg1:T1 Arg2:T7
+R6	PartOf Arg1:T9 Arg2:T8
+R7	PartOf Arg1:T8 Arg2:T10
+R8	PartOf Arg1:T10 Arg2:T11
+R9	Attr Arg1:T11 Arg2:T12
+R10	Attr Arg1:T15 Arg2:T16
+R11	PartOf Arg1:T8 Arg2:T15
+R12	PartOf Arg1:T15 Arg2:T17
+R13	PartOf Arg1:T18 Arg2:T17
+R14	PartOf Arg1:T11 Arg2:T13
+R15	PartOf Arg1:T11 Arg2:T14
+R16	PartOf Arg1:T20 Arg2:T19
+R17	Measurement Arg1:T21 Arg2:T22
+R18	Attr Arg1:T20 Arg2:T21
+R19	PartOf Arg1:T19 Arg2:T23
+R20	PartOf Arg1:T23 Arg2:T24
+R21	Attr Arg1:T24 Arg2:T25
+R22	PartOf Arg1:T23 Arg2:T26
+R23	Attr Arg1:T26 Arg2:T27
+R24	Attr Arg1:T29 Arg2:T28
+R25	Attr Arg1:T29 Arg2:T30
+R26	Measurement Arg1:T28 Arg2:T31
+R27	Spatial Arg1:T33 Arg2:T34
+R28	PartOf Arg1:T35 Arg2:T34

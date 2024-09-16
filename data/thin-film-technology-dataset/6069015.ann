@@ -1,0 +1,92 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 45 54	substrate
+T3	Component 71 81	seed layer
+T4	Component 89 98	substrate
+T5	Component 102 122	lower magnetic layer
+T6	Component 140 149	substrate
+T7	Shape 156 163	opening
+T8	Component 179 195	insulative layer
+T9	Component 222 232	seed layer
+T10	Component 249 264	magnetic layers
+T11	Location 283 286	end
+T12	Component 294 314	lower magnetic layer
+T13	EnergyFlow 338 353	first side pole
+T14	Component 367 383	above seed layer
+T15	Component 389 393	seed
+T16	Component 416 431	magnetic layers
+T17	Location 456 459	end
+T18	Component 467 487	lower magnetic layer
+T19	EnergyFlow 511 527	second side pole
+T20	Component 541 556	same seed layer
+T21	Component 562 566	seed
+T22	EnergyFlow 572 599	first and second side poles
+T23	Location 620 640	upper and lower ends
+T24	Location 646 656	lower ends
+T25	Location 677 681	ends
+T26	Component 689 709	lower magnetic layer
+T27	EnergyFlow 713 729	first upper pole
+T28	Location 747 756	upper end
+T29	EnergyFlow 764 779	first side pole
+T30	EnergyFlow 785 801	first upper pole
+T31	Location 813 820	gap end
+T32	EnergyFlow 832 848	second side pole
+T33	Location 852 862	gap region
+T34	Material 866 886	nonmagnetic material
+T35	Location 913 920	gap end
+T36	EnergyFlow 928 944	first upper pole
+T37	EnergyFlow 948 965	second upper pole
+T38	Location 983 992	upper end
+T39	EnergyFlow 1000 1016	second side pole
+T40	Location 1032 1039	gap end
+T41	Location 1053 1063	gap region
+T42	Component 1067 1098	diamond-like carbon (DLC) frame
+T43	Location 1120 1137	uppermost portion
+T44	Component 1145 1149	head
+T45	Location 1166 1182	upper side poles
+T46	Location 1187 1197	gap region
+T47	Component 1203 1212	DLC frame
+T48	ScientificConcept 1227 1247	structural integrity
+T49	Component 1255 1259	head
+T50	Effect 1264 1279	wear protection
+T51	Component 1289 1293	head
+T52	Attribution 1307 1320	media surface
+R1	Spatial Arg1:T3 Arg2:T4
+R2	Spatial Arg1:T1 Arg2:T2
+R3	Causitive Arg1:T1 Arg2:T3
+R4	Spatial Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T7 Arg2:T6
+R6	PartOf Arg1:T8 Arg2:T7
+R7	Spatial Arg1:T8 Arg2:T9
+R8	Attr Arg1:T12 Arg2:T11
+R9	Form Arg1:T14 Arg2:T15
+R10	Purpose Arg1:T10 Arg2:T13
+R12	Spatial Arg1:T10 Arg2:T11
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Attr Arg1:T18 Arg2:T17
+R15	Form Arg1:T20 Arg2:T21
+R16	Purpose Arg1:T16 Arg2:T19
+R11	Form Arg1:T14 Arg2:T13
+R18	Form Arg1:T20 Arg2:T19
+R17	PartOf Arg1:T30 Arg2:T31
+R19	Spatial Arg1:T31 Arg2:T32
+R20	PartOf Arg1:T34 Arg2:T33
+R21	PartOf Arg1:T22 Arg2:T23
+R22	PartOf Arg1:T22 Arg2:T24
+R23	Spatial Arg1:T24 Arg2:T25
+R24	Attr Arg1:T26 Arg2:T25
+R25	Attr Arg1:T29 Arg2:T28
+R26	Spatial Arg1:T27 Arg2:T28
+R27	Spatial Arg1:T33 Arg2:T35
+R28	Attr Arg1:T36 Arg2:T35
+R29	Spatial Arg1:T37 Arg2:T38
+R30	Attr Arg1:T39 Arg2:T38
+R31	PartOf Arg1:T37 Arg2:T40
+R32	Spatial Arg1:T40 Arg2:T41
+R33	Spatial Arg1:T42 Arg2:T43
+R34	Attr Arg1:T44 Arg2:T43
+R35	Purpose Arg1:T47 Arg2:T48
+R36	Oper Arg1:T48 Arg2:T49
+R37	Oper Arg1:T48 Arg2:T50
+R38	Spatial Arg1:T51 Arg2:T52
+R39	Spatial Arg1:T43 Arg2:T46
+R40	Spatial Arg1:T43 Arg2:T45

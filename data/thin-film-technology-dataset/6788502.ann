@@ -1,0 +1,52 @@
+T1	Component 2 33	magnetic tunnel junction sensor
+T2	Component 55 75	laminated free layer
+T3	Component 89 103	first sublayer
+T4	Material 114 120	Co---Fe
+T5	Component 139 151	spacer layer
+T6	Component 158 173	second sublayer
+T7	Material 184 195	Ni---Fe---Mo.
+T8	Material 200 219	Ni---Fe---Mo material
+T9	Component 227 242	second sublayer
+T10	EnergyFlow 249 287	magnetocrystalline anisotropy constant
+T11	Material 326 333	Ni---Fe.
+T12	Value 345 356	small value
+T14	Material 369 388	Ni---Fe---Mo material
+T15	Component 411 426	second sublayer
+T16	Component 434 444	free layer
+T17	Attribution 450 459	thickness
+T18	Component 467 488	Co---Fe first sublayer
+T19	Effect 553 570	low net stiffness
+T20	Component 578 588	free layer
+T21	Effect 593 609	high sensitivity
+T22	Component 617 627	MTJ sensor
+T23	InfoFlow 643 656	signal fields
+T24	Component 694 698	disk
+T25	Component 704 733	thicker Co---Fe first sublayer
+T26	Effect 747 783	higher magnetoresistance coefficient
+T27	Component 791 810	improved MTJ sensor
+T28	Material 114 120	Co--Fe
+T29	Material 184 194	Ni--Fe--Mo
+T30	Material 200 219	Ni--Fe--Mo material
+T31	Material 326 332	Ni--Fe
+T13	Material 369 388	Ni--Fe--Mo material
+T32	Component 467 488	Co--Fe first sublayer
+T33	ScientificConcept 517 534	manufacturability
+T34	Component 704 733	thicker Co--Fe first sublayer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T5
+R3	PartOf Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T2 Arg2:T6
+R5	MadeOf Arg1:T6 Arg2:T29
+R6	MadeOf Arg1:T3 Arg2:T28
+R7	MadeOf Arg1:T9 Arg2:T30
+R8	PartOf Arg1:T30 Arg2:T10
+R9	PartOf Arg1:T16 Arg2:T15
+R10	MadeOf Arg1:T15 Arg2:T13
+R11	Attr Arg1:T32 Arg2:T17
+R12	PartOf Arg1:T13 Arg2:T12
+R13	Purpose Arg1:T17 Arg2:T33
+R14	Attr Arg1:T20 Arg2:T19
+R15	Attr Arg1:T22 Arg2:T21
+R16	Spatial Arg1:T23 Arg2:T24
+R17	PartOf Arg1:T27 Arg2:T26
+R18	Oper Arg1:T34 Arg2:T26

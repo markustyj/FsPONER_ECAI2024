@@ -1,0 +1,31 @@
+T1	Component 6 42	tunnel magnetoresistive (TMR) device
+T3	Component 85 110	intermediate spacer layer
+T4	Effect 135 172	uniform circumferential magnetization
+T5	System 180 190	free stack
+T7	Location 273 276	top
+T9	Component 312 346	thin upper antiferromagnetic layer
+T10	Component 373 388	hard bias layer
+T11	Attribution 420 429	thickness
+T12	Component 437 451	upper AF layer
+T14	EnergyFlow 497 512	external fields
+T2	Component 44 64	free stack sublayers
+T8	Effect 535 561	greater sensor sensitivity
+T13	ScientificConcept 475 493	sensor sensitivity
+T15	Function 209 229	orange-peel coupling
+T16	Component 284 309	upper free stack sublayer
+T17	Function 402 414	side reading
+T18	Function 233 268	antiferromagnetic exchange coupling
+R1	Spatial Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T1 Arg2:T2
+R5	Purpose Arg1:T3 Arg2:T15
+R7	Attr Arg1:T16 Arg2:T7
+R8	Spatial Arg1:T9 Arg2:T16
+R9	Purpose Arg1:T9 Arg2:T17
+R10	Attr Arg1:T12 Arg2:T11
+R11	Purpose Arg1:T9 Arg2:T10
+R3	Manner Arg1:T5 Arg2:T4
+R2	Purpose Arg1:T3 Arg2:T4
+R12	Purpose Arg1:T12 Arg2:T13
+R13	Purpose Arg1:T12 Arg2:T8
+R6	Manner Arg1:T18 Arg2:T3
+R14	Causitive Arg1:T12 Arg2:T14

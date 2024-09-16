@@ -1,0 +1,48 @@
+T1	Component 45 69	thin film recording head
+T2	Material 83 107	upper magnetic substance
+T3	Material 111 135	lower magnetic substance
+T4	Material 157 181	upper magnetic substance
+T5	EnergyFlow 192 208	magnetic circuit
+T6	Component 223 233	coil layer
+T7	Material 257 292	upper and lower magnetic substances
+T8	Component 298 308	coil layer
+T9	System 331 343	coil pattern
+T10	Component 352 368	insulative layer
+T11	Material 392 427	upper and lower magnetic substances
+T12	System 448 460	coil pattern
+T13	Component 466 482	insulative layer
+T15	ScientificConcept 524 544	peak intensity ratio
+T16	Location 550 565	surface portion
+T17	Component 573 589	insulative layer
+T18	Value 615 618	0.5
+T19	ScientificConcept 633 647	peak intensity
+T20	ScientificConcept 651 675	aromatic C.dbd.C bonding
+T22	PhysicsFlow 721 732	photoresist
+T23	ScientificConcept 738 758	peak intensity ratio
+T24	ScientificConcept 783 802	hydrophilic radical
+T25	ScientificConcept 833 853	hydrophilic property
+T26	Component 859 887	hard-cured photoresist layer
+T27	Material 938 959	electrical insulation
+T29	Component 989 1003	thin film head
+T14	PhysicsFlow 498 520	hard-cured photoresist
+T21	InfoFlow 977 983	noises
+R1	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R2	PartOf Arg1:T13 Arg2:T14
+R4	Others Arg1:T3 Arg2:T4
+R5	Form Arg1:T3 Arg2:T5
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Spatial Arg1:T10 Arg2:T11
+R8	Spatial Arg1:T10 Arg2:T12
+R9	PartOf Arg1:T9 Arg2:T8
+R10	PartOf Arg1:T17 Arg2:T16
+R11	Attr Arg1:T16 Arg2:T15
+R12	Measurement Arg1:T15 Arg2:T18
+R13	Attr Arg1:T20 Arg2:T19
+T28	PhysicsFlow 683 691	aromatic
+R14	PartOf Arg1:T22 Arg2:T28
+R15	Causitive Arg1:T23 Arg2:T24
+R16	Attr Arg1:T26 Arg2:T25
+R17	Generate Arg1:T29 Arg2:T21
+R18	Purpose Arg1:T25 Arg2:T27
+R19	Purpose Arg1:T25 Arg2:T21

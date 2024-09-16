@@ -1,0 +1,44 @@
+T1	Component 3 31	side-by-side read/write head
+T2	Component 43 71	self-aligned trailing shield
+T3	Attribution 81 90	rear edge
+T4	Component 98 113	trailing shield
+T5	Function 132 164	same lithography/etching process
+T6	Attribution 182 191	rear edge
+T7	Component 197 208	read sensor
+T8	Component 225 243	read sensor layers
+T9	System 250 268	pole tip structure
+T10	Component 282 300	read sensor layers
+T11	Component 319 324	wafer
+T12	Component 328 346	non-magnetic layer
+T13	System 369 387	pole tip structure
+T14	PhysicsFlow 391 407	patterned resist
+T15	Component 437 455	read sensor layers
+T16	Component 464 482	non-magnetic layer
+T17	PhysicsFlow 493 509	patterned resist
+T18	Material 520 541	read sensor materials
+T19	Component 549 567	read sensor layers
+T20	Attribution 604 613	rear edge
+T21	Component 621 632	read sensor
+T22	Material 634 656	Non-magnetic materials
+T23	Component 664 682	non-magnetic layer
+T24	Location 731 744	etched region
+T25	Attribution 763 772	rear edge
+T26	Component 781 796	trailing shield
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T4 Arg2:T3
+R3	Oper Arg1:T5 Arg2:T3
+R4	Attr Arg1:T7 Arg2:T6
+R5	Spatial Arg1:T9 Arg2:T10
+R6	Spatial Arg1:T8 Arg2:T11
+R7	Spatial Arg1:T9 Arg2:T11
+R8	Spatial Arg1:T12 Arg2:T13
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Spatial Arg1:T14 Arg2:T16
+R11	MadeOf Arg1:T19 Arg2:T18
+R12	Attr Arg1:T21 Arg2:T20
+R13	Purpose Arg1:T18 Arg2:T20
+R14	MadeOf Arg1:T23 Arg2:T22
+R15	Purpose Arg1:T22 Arg2:T24
+R16	Attr Arg1:T26 Arg2:T25
+R17	Causitive Arg1:T24 Arg2:T25
+R18	Purpose Arg1:T5 Arg2:T6

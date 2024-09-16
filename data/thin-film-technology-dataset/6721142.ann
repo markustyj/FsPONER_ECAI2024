@@ -1,0 +1,56 @@
+T1	Component 2 8	slider
+T2	Attribution 38 50	disk surface
+T3	Component 61 67	slider
+T4	Component 85 107	magneto-resistive head
+T5	Component 118 122	head
+T6	Component 139 149	transducer
+T7	Component 173 179	layers
+T8	Location 220 232	proximal end
+T9	Attribution 263 275	disk surface
+T10	Component 291 307	electrical leads
+T11	Component 331 341	transducer
+T12	Component 364 380	electrical leads
+T13	Location 400 412	proximal end
+T14	Component 434 446	disk surface
+T15	Location 473 486	proximal ends
+T16	Component 499 515	electrical leads
+T17	Component 529 535	layers
+T18	Location 576 590	recessed areas
+T19	Location 601 615	recessed areas
+T20	Material 642 661	protective material
+T21	Attribution 672 677	depth
+T22	Component 697 702	layer
+T23	Material 706 725	protective material
+T24	Location 748 761	proximal ends
+T25	Component 800 812	disk surface
+T26	Material 819 838	protective material
+T27	Location 865 879	recessed areas
+T28	Component 933 939	slider
+T29	Location 952 966	recessed areas
+T30	Material 984 1003	protective material
+T31	Function 1038 1047	corrosion
+T32	Function 1052 1070	electrical spiking
+T33	Shape 164 169	stack
+T34	Function 916 927	fabrication
+R1	PartOf Arg1:T3 Arg2:T4
+R2	PartOf Arg1:T5 Arg2:T6
+R3	Spatial Arg1:T8 Arg2:T9
+R4	Spatial Arg1:T10 Arg2:T11
+R5	PartOf Arg1:T12 Arg2:T13
+R6	Spatial Arg1:T13 Arg2:T14
+R7	PartOf Arg1:T6 Arg2:T7
+R8	Attr Arg1:T7 Arg2:T33
+R9	PartOf Arg1:T16 Arg2:T15
+R10	PartOf Arg1:T17 Arg2:T15
+R11	Purpose Arg1:T15 Arg2:T18
+R12	Manner Arg1:T27 Arg2:T26
+R13	Causitive Arg1:T20 Arg2:T19
+R14	Attr Arg1:T19 Arg2:T21
+R15	MadeOf Arg1:T22 Arg2:T23
+R16	PartOf Arg1:T22 Arg2:T24
+R17	Causitive Arg1:T25 Arg2:T24
+R18	Oper Arg1:T34 Arg2:T28
+R19	PartOf Arg1:T28 Arg2:T29
+R21	Purpose Arg1:T30 Arg2:T31
+R22	Purpose Arg1:T30 Arg2:T32
+R20	Causitive Arg1:T30 Arg2:T29

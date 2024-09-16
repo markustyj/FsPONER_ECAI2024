@@ -1,0 +1,1 @@
+A thin-film magnetic head includes a thin-film magnetic circuit that contains a coil conductor with at least one surface. The coil conductor includes a plurality of grooves for reducing electrical resistance of the coil conductor due to skin effect. The grooves are formed on the at least one surface of the coil conductor to run along axis of the coil conductor.

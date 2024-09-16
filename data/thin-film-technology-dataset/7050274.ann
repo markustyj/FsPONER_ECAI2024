@@ -1,0 +1,51 @@
+T1	Component 1 34	Multilayer permanent magnet films
+T2	Component 59 82	permanent magnet layers
+T3	Component 148 180	multilayer permanent magnet film
+T4	Component 219 247	first permanent magnet layer
+T5	Component 251 261	seed layer
+T6	Component 297 326	second permanent magnet layer
+T7	Component 344 354	seed layer
+T8	Component 360 383	permanent magnet layers
+T10	Component 432 442	seed layer
+T12	Material 475 478	TiW
+T14	Material 527 529	Ta
+T15	Component 535 568	multilayer permanent magnet films
+T16	Attribution 577 597	favorable properties
+T17	Effect 606 630	high magnetic coercivity
+T18	Effect 645 671	high remnant magnetization
+T19	Component 735 740	films
+T20	EnergyFlow 777 784	current
+T21	Component 806 834	plane (CPP) magnetic sensors
+T22	Component 848 880	multilayer permanent magnet film
+T24	Component 914 920	sensor
+T9	Material 416 420	CoPt
+T11	Component 484 494	interlayer
+T13	Attribution 685 696	thicknesses
+T25	EnergyFlow 709 729	high magnetic fields
+R1	PartOf Arg1:T1 Arg2:T2
+T23	Component 193 203	interlayer
+R2	PartOf Arg1:T3 Arg2:T23
+R3	Spatial Arg1:T23 Arg2:T4
+R4	PartOf Arg1:T3 Arg2:T5
+T26	Component 279 289	interlayer
+R5	Spatial Arg1:T5 Arg2:T26
+R6	PartOf Arg1:T3 Arg2:T6
+R7	Spatial Arg1:T6 Arg2:T7
+T27	Material 399 407	material
+R8	InstanceOf Arg1:T9 Arg2:T27
+T28	Material 458 466	material
+R9	InstanceOf Arg1:T12 Arg2:T28
+R10	MadeOf Arg1:T8 Arg2:T27
+R11	MadeOf Arg1:T10 Arg2:T28
+T29	Material 510 518	material
+R12	MadeOf Arg1:T11 Arg2:T29
+R13	InstanceOf Arg1:T14 Arg2:T29
+R14	Attr Arg1:T15 Arg2:T16
+R15	Attr Arg1:T15 Arg2:T17
+R16	Attr Arg1:T15 Arg2:T18
+R17	Generate Arg1:T15 Arg2:T25
+R18	Spatial Arg1:T20 Arg2:T21
+R19	Purpose Arg1:T22 Arg2:T24
+T30	Component 99 109	interlayer
+R20	Causitive Arg1:T30 Arg2:T2
+R21	Spatial Arg1:T21 Arg2:T22

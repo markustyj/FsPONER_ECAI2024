@@ -1,0 +1,28 @@
+T1	Component 2 21	magnetic write head
+T4	Component 74 90	pole piece layer
+T5	Function 96 106	lamination
+T6	Component 168 190	nonmagnetic metal film
+T7	EnergyFlow 201 227	antiferromagnetic coupling
+T8	Component 236 255	ferromagnetic films
+T11	Component 413 425	domain walls
+T12	Component 437 454	pole piece layers
+T13	Component 467 484	pole piece layers
+T14	Function 521 533	energization
+T2	Component 26 60	first and second pole piece layers
+T3	Component 110 161	alternate ferromagnetic and nonmagnetic metal films
+T9	Component 285 313	adjacent ferromagnetic films
+T15	Effect 492 517	higher frequency response
+T16	Component 539 549	write coil
+T10	Function 361 381	partial flux closure
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T5
+R3	InstanceOf Arg1:T4 Arg2:T5
+R4	Purpose Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T6 Arg2:T8
+R6	PartOf Arg1:T2 Arg2:T4
+R7	Purpose Arg1:T7 Arg2:T9
+R8	Purpose Arg1:T7 Arg2:T10
+R9	PartOf Arg1:T12 Arg2:T11
+R10	Oper Arg1:T14 Arg2:T13
+R11	Purpose Arg1:T13 Arg2:T15
+R12	Purpose Arg1:T16 Arg2:T14

@@ -1,0 +1,70 @@
+T1	Component 2 33	recording/reproducing apparatus
+T2	Material 49 79	photomagnetic recording medium
+T3	Component 85 94	apparatus
+T4	Component 107 120	magnetic coil
+T5	System 128 142	optical system
+T6	ScientificConcept 152 170	numerical aperture
+T7	Value 189 192	0.8
+T8	ScientificConcept 219 231	optical axis
+T9	Location 254 260	center
+T10	Component 268 281	magnetic coil
+T11	Material 287 317	photomagnetic recording medium
+T12	Component 324 352	magneto-optic recording film
+T13	Component 359 387	transparent protective layer
+T15	Component 436 445	substrate
+T16	Component 451 464	magnetic coil
+T17	System 473 487	optical system
+T18	Component 508 536	transparent protective layer
+T19	Material 549 579	photomagnetic recording medium
+T20	Material 589 619	photomagnetic recording medium
+T21	Measure 663 680	combined distance
+T23	Measure 714 722	distance
+T24	Attribution 735 742	surface
+T25	Component 750 763	magnetic coil
+T26	Attribution 771 787	adjacent surface
+T27	Material 795 825	photomagnetic recording medium
+T29	Value 841 874	0 .mu.m.ltoreq.d.ltoreq.145 .mu.m
+T31	Component 901 929	transparent protective layer
+T32	Value 950 985	0 .mu.m.ltoreq.HCO.ltoreq.100 .mu.m
+T33	Measure 995 1003	distance
+T35	Value 1039 1047	45 .mu.m
+T37	Component 1093 1106	magnetic coil
+T39	Value 1127 1136	290 .mu.m
+T40	ScientificConcept 172 174	NA
+T14	PhysicsFlow 397 410	thickness HCO
+T41	Component 637 646	apparatus
+T22	PhysicsFlow 694 707	thickness HCO
+T28	PhysicsFlow 880 893	thickness HCO
+T30	ScientificConcept 1066 1082	innermost radius
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T5
+R7	Attr Arg1:T10 Arg2:T9
+R8	Causitive Arg1:T8 Arg2:T9
+R9	PartOf Arg1:T11 Arg2:T12
+R10	PartOf Arg1:T11 Arg2:T13
+R11	Spatial Arg1:T14 Arg2:T15
+R15	Comparison Arg1:T21 Arg2:T22
+R16	Attr Arg1:T25 Arg2:T24
+R17	Attr Arg1:T27 Arg2:T26
+R18	Spatial Arg1:T23 Arg2:T24
+R19	Spatial Arg1:T23 Arg2:T26
+R20	Comparison Arg1:T21 Arg2:T23
+R21	Measurement Arg1:T21 Arg2:T29
+R22	Measurement Arg1:T28 Arg2:T32
+R23	Attr Arg1:T13 Arg2:T14
+R24	Attr Arg1:T31 Arg2:T28
+R25	Measurement Arg1:T33 Arg2:T35
+R4	Attr Arg1:T5 Arg2:T6
+R5	Attr Arg1:T5 Arg2:T40
+R6	Measurement Arg1:T6 Arg2:T7
+R26	Measurement Arg1:T40 Arg2:T7
+R27	Attr Arg1:T37 Arg2:T30
+R28	Measurement Arg1:T30 Arg2:T39
+R29	Alias Arg1:T6 Arg2:T40
+T34	Location 537 541	side
+R12	Attr Arg1:T18 Arg2:T34
+R13	Manner Arg1:T34 Arg2:T17
+R14	Manner Arg1:T34 Arg2:T16
+R30	PartOf Arg1:T19 Arg2:T18
+#1	AnnotatorNotes R1	nice

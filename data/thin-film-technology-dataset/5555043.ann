@@ -1,0 +1,77 @@
+T1	Component 2 27	photographic still camera
+T2	Component 45 64	elongated filmstrip
+T3	Component 108 148	substantially transparent magnetic layer
+T5	Component 239 253	magnetic layer
+T8	Component 401 414	backing plate
+T9	Component 422 458	camera image frame exposure aperture
+T10	Component 468 482	magnetic layer
+T11	Component 494 507	backing plate
+T14	Component 642 657	recording heads
+T15	Component 669 685	flexure elements
+T16	Component 754 768	magnetic layer
+T17	Location 776 792	image frame area
+T18	Component 836 851	flexure element
+T19	Component 917 930	backing plate
+T21	Component 1096 1127	magnetic recording head element
+T23	Component 1305 1328	magnetic recording head
+T24	ScientificConcept 74 94	cross-film curvature
+T4	Attribution 166 178	film surface
+T25	Function 273 281	exposure
+T26	ScientificConcept 285 297	image frames
+T27	Component 305 314	filmstrip
+T28	Location 561 577	image frame area
+T29	ScientificConcept 521 549	concave cross-film curvature
+T30	Component 320 329	filmstrip
+T31	Shape 367 375	chambers
+T6	Component 384 394	film rails
+T7	ScientificConcept 1061 1089	cross-film concave curvature
+T20	Function 1041 1052	film motion
+T32	Component 1359 1368	filmstrip
+T33	Function 1275 1297	roll and pitch motions
+T22	Component 1243 1267	filmstrip magnetic layer
+T34	Effect 1223 1233	compliance
+T35	Location 1169 1209	cross-film and film transport directions
+T36	Component 1143 1161	contoured profiles
+T37	Effect 1010 1035	pitch and roll compliance
+T38	Function 979 995	gimbal mechanism
+T39	Component 952 969	mounting platform
+T40	Location 906 909	end
+T41	Component 864 892	elongated, cantilever spring
+T42	Component 812 829	exposure aperture
+T43	Location 800 804	side
+T12	System 581 616	magnetic recording multi-head array
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T24
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T3
+T13	PhysicsFlow 212 223	information
+R5	Purpose Arg1:T1 Arg2:T13
+R6	Generate Arg1:T5 Arg2:T13
+R7	Oper Arg1:T25 Arg2:T26
+R8	Attr Arg1:T27 Arg2:T26
+R9	Spatial Arg1:T31 Arg2:T6
+R10	Spatial Arg1:T31 Arg2:T8
+R11	PartOf Arg1:T9 Arg2:T10
+R12	Spatial Arg1:T10 Arg2:T11
+R13	Attr Arg1:T10 Arg2:T29
+R14	Manner Arg1:T28 Arg2:T10
+R15	Form Arg1:T14 Arg2:T12
+R16	Spatial Arg1:T14 Arg2:T15
+T44	Component 691 706	flexure support
+R17	PartOf Arg1:T44 Arg2:T15
+R18	Spatial Arg1:T44 Arg2:T16
+R19	Manner Arg1:T17 Arg2:T16
+R20	Manner Arg1:T43 Arg2:T17
+R21	Attr Arg1:T42 Arg2:T43
+R22	PartOf Arg1:T18 Arg2:T41
+R23	Manner Arg1:T40 Arg2:T41
+R24	Purpose Arg1:T38 Arg2:T37
+R25	Attr Arg1:T19 Arg2:T40
+R26	PartOf Arg1:T39 Arg2:T38
+R27	Manner Arg1:T35 Arg2:T21
+R28	PartOf Arg1:T21 Arg2:T36
+R29	Purpose Arg1:T21 Arg2:T34
+R30	Attr Arg1:T22 Arg2:T34
+R31	Oper Arg1:T33 Arg2:T23
+R32	Attr Arg1:T20 Arg2:T37
+R33	Attr Arg1:T7 Arg2:T37

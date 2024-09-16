@@ -1,0 +1,30 @@
+T1	Component 3 23	micromagnetic device
+T2	Component 36 45	substrate
+T3	Component 53 72	magnetic core layer
+T4	Component 89 98	substrate
+T5	Material 106 120	magnetic alloy
+T6	Material 126 140	magnetic alloy
+T7	Material 150 154	iron
+T8	Material 197 203	cobalt
+T10	Value 221 246	1.8 to 4.5 atomic percent
+T11	Value 293 318	20.1 to 30 atomic percent
+T12	Material 337 341	iron
+T13	Material 389 403	magnetic alloy
+T14	Material 156 162	cobalt
+T15	Material 167 178	phosphorous
+T9	Material 265 275	phosphorus
+T16	ScientificConcept 361 381	remaining proportion
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	MadeOf Arg1:T3 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T6 Arg2:T14
+R7	PartOf Arg1:T6 Arg2:T15
+R8	Measurement Arg1:T8 Arg2:T10
+R9	Measurement Arg1:T9 Arg2:T11
+R10	PartOf Arg1:T13 Arg2:T16
+T17	Measure 212 217	range
+R11	InstanceOf Arg1:T10 Arg2:T17
+T18	Measure 284 289	range
+R12	InstanceOf Arg1:T11 Arg2:T18

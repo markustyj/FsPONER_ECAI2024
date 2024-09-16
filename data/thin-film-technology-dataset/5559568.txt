@@ -1,0 +1,1 @@
+An information recording/reproduction apparatus for a camera includes a magnetic reading unit which can contact a magnetic recording medium arranged in advance on a film, and a drive control unit for, when the magnetic reading unit reaches a predetermined position with respect to the film, bringing the magnetic reading unit into contact with the magnetic recording medium.

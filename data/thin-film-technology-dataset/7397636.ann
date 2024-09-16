@@ -1,0 +1,29 @@
+T4	Function 69 120	head-suspension assembly (HSA) construction process
+T5	Component 140 173	novel GMR magnetic recording head
+T6	Component 179 206	conductive slider substrate
+T7	Component 212 220	GMR head
+T8	Component 257 266	substrate
+T9	Component 275 291	conducting leads
+T11	Component 332 337	leads
+T12	Component 346 355	substrate
+T13	Function 376 397	electrical connection
+T14	Component 410 418	GMR head
+T15	Component 427 443	slider substrate
+T17	Component 530 549	conducting elements
+T18	Component 659 687	sensitive GMR sensor element
+T1	Consequence 25 61	electrostatic discharge (ESD) damage
+T2	EnergyFlow 299 319	balanced resistances
+T3	System 449 459	entire HSA
+T10	Function 487 499	construction
+T16	System 587 590	HSA
+T19	EnergyFlow 608 632	accumulated tribocharges
+R1	Oper Arg1:T4 Arg2:T1
+R2	Spatial Arg1:T5 Arg2:T6
+R3	Oper Arg1:T13 Arg2:T14
+R4	Oper Arg1:T13 Arg2:T15
+R5	Causitive Arg1:T7 Arg2:T8
+R6	PartOf Arg1:T9 Arg2:T2
+R7	Spatial Arg1:T9 Arg2:T11
+R8	Spatial Arg1:T9 Arg2:T12
+R9	Spatial Arg1:T17 Arg2:T16
+R10	Oper Arg1:T10 Arg2:T3

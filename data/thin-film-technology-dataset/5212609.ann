@@ -1,0 +1,23 @@
+T1	Component 2 23	magnetoresistive head
+T3	Component 144 161	upper shield film
+T4	Component 201 216	protective film
+T5	Component 239 256	upper shield film
+T7	EnergyFlow 291 300	electrode
+T10	Component 53 67	lower gap film
+T11	Component 71 92	magnetoresistive film
+T2	Component 96 105	bias film
+T12	Component 110 119	electrode
+T13	Component 124 138	upper gap film
+T14	Component 188 197	substrate
+T6	Component 272 286	upper gap film
+T8	Component 352 369	upper shield film
+T9	Function 310 329	undesirable etching
+R1	PartOf Arg1:T1 Arg2:T10
+R2	PartOf Arg1:T1 Arg2:T11
+R3	PartOf Arg1:T1 Arg2:T2
+R4	PartOf Arg1:T1 Arg2:T12
+R5	PartOf Arg1:T1 Arg2:T3
+R6	Spatial Arg1:T3 Arg2:T14
+R7	Spatial Arg1:T4 Arg2:T5
+R8	Oper Arg1:T9 Arg2:T8
+#1	AnnotatorNotes T6	防止...免于...  这种关系如何标引？如果防止部分用purpose，那后面的免于...如何处理？

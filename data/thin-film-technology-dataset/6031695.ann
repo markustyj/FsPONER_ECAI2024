@@ -1,0 +1,47 @@
+T3	Component 58 74	write coil layer
+T4	System 90 106	insulation stack
+T5	System 112 128	insulation stack
+T6	Component 151 185	first and second pole piece layers
+T7	Shape 210 218	back gap
+T8	Component 224 241	pole piece layers
+T9	Component 247 273	first and second pole tips
+T10	Attribution 284 289	edges
+T11	Component 316 335	air bearing surface
+T12	Component 339 354	write gap layer
+T13	Component 383 402	air bearing surface
+T14	Attribution 427 438	top surface
+T15	Component 446 460	first pole tip
+T16	Attribution 467 481	bottom surface
+T17	Component 489 504	second pole tip
+T18	Component 508 550	non-magnetic electrically conductive layer
+T19	Location 554 557	top
+T20	Component 565 580	second pole tip
+T21	Component 604 623	air bearing surface
+T22	Component 627 650	magnetoresistive sensor
+T23	Component 673 700	first and second gap layers
+T24	Component 731 761	first and second shield layers
+T25	Component 767 786	second shield layer
+T26	Component 792 804	common layer
+T27	Component 814 836	first pole piece layer
+T1	Component 2 35	combined read head and write head
+R1	PartOf Arg1:T1 Arg2:T3
+R2	PartOf Arg1:T4 Arg2:T3
+R3	Spatial Arg1:T5 Arg2:T6
+R4	Spatial Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T8 Arg2:T9
+R6	Attr Arg1:T9 Arg2:T10
+R7	Attr Arg1:T15 Arg2:T14
+R8	Spatial Arg1:T12 Arg2:T14
+R9	Spatial Arg1:T12 Arg2:T16
+R10	Attr Arg1:T17 Arg2:T16
+R11	Attr Arg1:T20 Arg2:T19
+R12	Spatial Arg1:T18 Arg2:T19
+R13	Spatial Arg1:T22 Arg2:T23
+R14	Spatial Arg1:T23 Arg2:T24
+R15	InstanceOf Arg1:T25 Arg2:T26
+T2	Location 589 596	portion
+R16	PartOf Arg1:T21 Arg2:T2
+R17	Form Arg1:T18 Arg2:T2
+T28	Location 302 309	portion
+R18	PartOf Arg1:T11 Arg2:T28
+R19	Form Arg1:T10 Arg2:T28

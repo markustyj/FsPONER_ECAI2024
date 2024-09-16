@@ -1,0 +1,21 @@
+T2	Location 197 214	vertical sidewall
+T3	EnergyFlow 398 411	magnetic pole
+T4	Component 417 431	thin film head
+T5	System 41 64	submicrometer structure
+T1	Function 92 110	sputtering process
+T6	Material 125 149	electromagnetic material
+T7	Component 157 166	seedlayer
+T8	Location 174 191	vertical sidewall
+T9	Component 250 272	free-standing pole-tip
+T10	System 278 297	resulting structure
+T11	Attribution 318 323	width
+T12	Value 337 352	0.3 micrometers
+T13	Component 434 437	TFH
+T14	Component 446 465	data storage device
+R1	Attr Arg1:T10 Arg2:T11
+R2	Comparison Arg1:T11 Arg2:T12
+R3	Alias Arg1:T4 Arg2:T13
+R4	Attr Arg1:T4 Arg2:T3
+R5	Purpose Arg1:T3 Arg2:T14
+R6	Purpose Arg1:T1 Arg2:T6
+#1	AnnotatorNotes T7	从...到...  这种句式如何标注关系？

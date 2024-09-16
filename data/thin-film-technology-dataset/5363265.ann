@@ -1,0 +1,35 @@
+T1	Component 2 25	magnetoresistive sensor
+T3	Component 104 120	Etch stop layers
+T6	Component 256 271	etch stop layer
+T8	Component 320 345	separate loft oxide layer
+T11	Component 428 451	magnetoresistive sensor
+T13	Component 78 102	magnetoresistive element
+T14	Location 128 142	opposite sides
+T4	Component 150 174	magnetoresistive element
+T15	Component 186 210	magnetoresistive element
+T5	Component 212 243	Contact/boundary control layers
+T7	Attribution 293 304	track width
+T16	Component 305 316	oxide layer
+T9	Attribution 399 410	track width
+T10	Component 411 422	oxide layer
+T17	Component 359 390	contact/boundary control layers
+T18	Attribution 501 510	thickness
+T19	Component 518 549	contact/boundary control layers
+T2	Attribution 37 48	track width
+T21	Component 49 60	oxide layer
+T12	Material 478 495	track width oxide
+R1	Attr Arg1:T21 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T21
+R3	Spatial Arg1:T21 Arg2:T13
+R4	Spatial Arg1:T3 Arg2:T14
+R5	Attr Arg1:T4 Arg2:T14
+R6	Spatial Arg1:T15 Arg2:T4
+R7	Spatial Arg1:T5 Arg2:T6
+R8	Spatial Arg1:T5 Arg2:T16
+R9	Attr Arg1:T16 Arg2:T7
+R10	Spatial Arg1:T8 Arg2:T17
+R11	Spatial Arg1:T8 Arg2:T10
+R12	Attr Arg1:T10 Arg2:T9
+R13	MadeOf Arg1:T19 Arg2:T12
+R14	Attr Arg1:T19 Arg2:T18
+R15	Form Arg1:T19 Arg2:T11

@@ -1,0 +1,39 @@
+T1	Component 2 8	shield
+T2	Component 16 32	pole piece layer
+T6	Component 224 238	laminated film
+T7	EnergyFlow 443 459	magnetic domains
+T10	Component 522 539	pole piece layers
+T11	Component 714 724	write head
+T12	EnergyFlow 755 767	domain walls
+T13	Component 39 65	magnetoresistive (MR) head
+T3	Component 76 115	high moment Fe--Al--N--O laminated film
+T4	Component 134 161	Fe--Al--N--O laminated film
+T5	Material 184 193	N.sub.2 O
+T14	PhysicsFlow 201 213	reactive gas
+T15	ScientificConcept 250 276	high intrinsic anisotropic
+T16	Material 277 286	(H.sub.K)
+T17	Function 354 392	various processing and annealing steps
+T18	Component 420 424	head
+T19	Function 400 412	construction
+T20	Component 467 485	first shield layer
+T8	Component 491 510	second shield layer
+T9	Location 570 595	desired parallel position
+T21	Component 603 606	ABS
+T22	Location 629 646	parallel position
+T23	Material 732 737	media
+T24	EnergyFlow 784 800	Barkhausen noise
+R1	PartOf Arg1:T13 Arg2:T1
+R2	PartOf Arg1:T13 Arg2:T2
+R3	MadeOf Arg1:T13 Arg2:T3
+R4	Causitive Arg1:T4 Arg2:T5
+R5	InstanceOf Arg1:T5 Arg2:T14
+R6	Purpose Arg1:T4 Arg2:T6
+R7	Attr Arg1:T6 Arg2:T15
+R8	PartOf Arg1:T6 Arg2:T16
+R9	Alias Arg1:T16 Arg2:T15
+R10	Oper Arg1:T19 Arg2:T18
+R11	PartOf Arg1:T19 Arg2:T17
+R12	PartOf Arg1:T20 Arg2:T7
+R17	Purpose Arg1:T12 Arg2:T24
+R18	PartOf Arg1:T8 Arg2:T7
+R19	PartOf Arg1:T10 Arg2:T7

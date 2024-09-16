@@ -1,0 +1,58 @@
+T3	Component 66 82	support platform
+T4	Component 104 114	base plate
+T5	Component 122 125	HGA
+T6	Component 129 139	base plate
+T7	Component 147 150	HGA
+T8	Component 169 185	support platform
+T10	Shape 220 227	channel
+T11	Shape 236 243	opening
+T12	Component 270 273	HGA
+T13	Component 280 293	vacuum source
+T15	Component 321 334	vacuum source
+T16	EnergyFlow 345 362	negative pressure
+T17	Shape 370 377	channel
+T18	Component 404 407	HGA
+T19	Shape 415 422	opening
+T20	Shape 430 437	channel
+T21	Component 521 524	HGA
+T22	Component 565 569	head
+T23	Component 577 580	HGA
+T24	Component 608 612	head
+T25	Component 620 623	HGA
+T26	ScientificConcept 641 649	accuracy
+T27	Component 690 693	HGA
+T2	System 27 47	head gimbal assembly
+T29	System 49 52	HGA
+T30	Location 258 262	tail
+T31	Shape 308 315	channel
+T14	Location 392 396	tail
+T32	Function 493 502	vibration
+T33	Location 510 514	tail
+T34	Function 548 557	vibration
+T35	Function 591 600	vibration
+R1	Alias Arg1:T2 Arg2:T29
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T5 Arg2:T4
+R4	Causitive Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T8
+R7	PartOf Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T12 Arg2:T30
+R9	Spatial Arg1:T11 Arg2:T30
+R10	Spatial Arg1:T13 Arg2:T31
+R11	Generate Arg1:T15 Arg2:T16
+R12	PartOf Arg1:T18 Arg2:T14
+R13	PartOf Arg1:T20 Arg2:T19
+R14	Spatial Arg1:T14 Arg2:T19
+R15	Causitive Arg1:T16 Arg2:T14
+R16	Manner Arg1:T17 Arg2:T15
+R17	PartOf Arg1:T21 Arg2:T33
+R18	PartOf Arg1:T23 Arg2:T22
+R19	PartOf Arg1:T25 Arg2:T24
+R20	Manner Arg1:T33 Arg2:T32
+R21	Manner Arg1:T22 Arg2:T34
+R22	Manner Arg1:T24 Arg2:T35
+T1	ScientificConcept 654 663	precision
+T9	Others 667 672	tests
+R23	Attr Arg1:T27 Arg2:T1
+R24	Attr Arg1:T27 Arg2:T26

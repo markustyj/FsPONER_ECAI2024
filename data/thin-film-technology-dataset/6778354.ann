@@ -1,0 +1,31 @@
+T1	Component 46 59	magnetic head
+T2	ScientificConcept 151 156	yield
+T3	Component 200 204	coil
+T4	Component 249 267	first winding unit
+T5	Component 293 304	bottom pole
+T6	Component 311 330	second winding unit
+T7	Component 363 371	top pole
+T8	Component 416 421	turns
+T9	Component 429 433	coil
+T10	Component 471 481	coil parts
+T11	Component 528 544	other coil parts
+T12	Component 578 594	former coil part
+T13	Effect 625 639	high precision
+T14	Component 650 667	latter coil parts
+T15	Component 725 739	thin film coil
+T16	Effect 755 769	high precision
+T17	Others 116 134	manufacturing time
+T18	Component 69 74	coils
+T19	Shape 228 237	continuum
+T20	Shape 448 454	spaces
+T21	Shape 505 511	spaces
+T22	ScientificConcept 688 697	precision
+R2	Purpose Arg1:T1 Arg2:T17
+R3	Purpose Arg1:T1 Arg2:T2
+R4	Manner Arg1:T19 Arg2:T3
+R6	Causitive Arg1:T6 Arg2:T4
+R9	Attr Arg1:T9 Arg2:T8
+R12	Manner Arg1:T13 Arg2:T12
+R1	PartOf Arg1:T1 Arg2:T18
+R7	Causitive Arg1:T4 Arg2:T5
+R8	Causitive Arg1:T6 Arg2:T7

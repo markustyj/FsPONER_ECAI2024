@@ -1,0 +1,1 @@
+ In one embodiment, a system to measure defects on a surface of a wafer and an edge of the wafer using a single tool comprises a scatterometer to identify at least one defect region on the surface and a surface profile height measuring tool to measure one or more characteristics of the surface in the defect region with a surface profile height measuring tool.

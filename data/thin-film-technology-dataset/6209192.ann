@@ -1,0 +1,50 @@
+T1	Component 2 25	thin film magnetic head
+T5	Component 154 183	magnetically insulating layer
+T6	Component 204 209	plane
+T7	Component 294 319	first magnetic pole layer
+T10	Component 512 537	first magnetic pole layer
+T12	Component 605 634	magnetically insulating layer
+T13	Component 670 693	thin film magnetic head
+T15	Component 30 67	first and second magnetic pole layers
+T2	Component 75 89	thin film coil
+T3	Component 93 111	magnetic gap layer
+T4	Component 119 148	magnetically insulating layer
+T16	Material 219 235	recording medium
+T17	Location 269 286	front end section
+T18	Location 328 345	frond end section
+T19	Component 353 379	second magnetic pole layer
+T8	Location 400 412	sub-sections
+T20	Component 417 447	additional magnetic pole layer
+T9	Location 487 504	front end section
+T21	Location 546 563	front end section
+T22	Component 571 597	second magnetic pole layer
+T11	ScientificConcept 776 785	main peak
+T23	ScientificConcept 793 801	waveform
+T14	Component 829 842	magnetic head
+T24	Effect 722 731	reduction
+T25	Function 735 746	undershoots
+R1	PartOf Arg1:T1 Arg2:T15
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T6 Arg2:T16
+R6	Spatial Arg1:T5 Arg2:T6
+R7	PartOf Arg1:T7 Arg2:T17
+R8	PartOf Arg1:T19 Arg2:T18
+R9	PartOf Arg1:T18 Arg2:T8
+R10	PartOf Arg1:T17 Arg2:T8
+R11	PartOf Arg1:T10 Arg2:T9
+R12	PartOf Arg1:T22 Arg2:T21
+R15	Purpose Arg1:T13 Arg2:T24
+R16	Oper Arg1:T25 Arg2:T24
+R17	PartOf Arg1:T23 Arg2:T11
+R18	Spatial Arg1:T20 Arg2:T9
+R13	Spatial Arg1:T20 Arg2:T21
+R14	Causitive Arg1:T5 Arg2:T17
+R19	Causitive Arg1:T5 Arg2:T18
+R21	Spatial Arg1:T25 Arg2:T11
+T26	InfoFlow 804 810	signal
+#2	AnnotatorNotes R16	减小下冲，操作--操作对象，应该标注的语义关系是？
+#3	AnnotatorNotes R21	注意，这个句子要先理解意思，然后标注
+R20	Spatial Arg1:T9 Arg2:T12
+R22	Spatial Arg1:T21 Arg2:T12

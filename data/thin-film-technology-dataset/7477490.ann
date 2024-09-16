@@ -1,0 +1,12 @@
+T1	Component 3 24	differentiated sensor
+T2	Component 44 59	magnetic layers
+T3	Location 67 91	magnetization directions
+T4	State 133 148	quiescent state
+T5	Component 170 185	magnetic layers
+T6	Component 191 201	free layer
+T7	Component 205 217	spacer layer
+T8	Component 250 265	magnetic layers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T2 Arg2:T3
+R3	InstanceOf Arg1:T5 Arg2:T6
+R4	Spatial Arg1:T7 Arg2:T8

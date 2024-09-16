@@ -1,0 +1,51 @@
+T1	Component 30 43	marking layer
+T5	Component 242 271	magnetoresistive sensor layer
+T6	Component 280 293	marking layer
+T8	Component 397 410	marking layer
+T10	Component 618 631	marking layer
+T11	Component 682 711	magnetoresistive sensor layer
+T13	Component 5 26	magnetoresistive head
+T14	Location 77 87	upper side
+T2	Component 94 115	upper shielding layer
+T15	Location 124 134	lower side
+T3	Component 140 161	lower shielding layer
+T4	Component 187 216	magnetoresistive sensor layer
+T16	Location 222 234	leading ends
+T17	Attribution 311 333	medium-sliding surface
+T7	Component 345 368	recording medium slides
+T18	Location 378 389	leading end
+T19	Location 455 474	widthwise direction
+T20	Location 507 518	leading end
+T21	Location 526 534	rear end
+T9	Component 542 571	magnetoresistive sensor layer
+T22	Location 591 610	widthwise direction
+T23	Shape 647 660	straight line
+T24	Location 734 753	widthwise direction
+T12	Component 761 790	magnetoresistive sensor layer
+T25	Attribution 433 439	length
+T26	Attribution 491 497	length
+T27	Location 577 583	center
+T28	Location 720 726	center
+R1	PartOf Arg1:T13 Arg2:T1
+R2	PartOf Arg1:T2 Arg2:T14
+R3	PartOf Arg1:T3 Arg2:T15
+R4	Spatial Arg1:T1 Arg2:T4
+R5	Manner Arg1:T1 Arg2:T14
+R6	Manner Arg1:T1 Arg2:T15
+R7	PartOf Arg1:T5 Arg2:T16
+R8	PartOf Arg1:T6 Arg2:T16
+R9	Manner Arg1:T16 Arg2:T17
+R10	PartOf Arg1:T9 Arg2:T20
+R11	PartOf Arg1:T9 Arg2:T21
+R12	Attr Arg1:T9 Arg2:T26
+R13	Comparison Arg1:T25 Arg2:T26
+R14	Attr Arg1:T19 Arg2:T25
+R15	PartOf Arg1:T8 Arg2:T18
+R16	Attr Arg1:T7 Arg2:T17
+R17	Attr Arg1:T10 Arg2:T22
+R18	Manner Arg1:T27 Arg2:T22
+R19	Spatial Arg1:T27 Arg2:T23
+R20	Spatial Arg1:T23 Arg2:T11
+R21	Attr Arg1:T12 Arg2:T24
+R22	Manner Arg1:T28 Arg2:T24
+R23	Causitive Arg1:T23 Arg2:T28

@@ -1,0 +1,18 @@
+T1	Component 3 17	recording head
+T2	Component 29 53	magnetic storage devices
+T3	Component 72 86	recording head
+T7	Component 276 286	transducer
+T8	Attribution 297 304	surface
+T9	Material 310 325	magnetic medium
+T4	System 96 114	flexure assemblies
+T10	EnergyFlow 177 191	motional force
+T5	System 216 234	flexure assemblies
+T6	Function 248 270	corresponding movement
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	Causitive Arg1:T10 Arg2:T5
+R4	Causitive Arg1:T10 Arg2:T6
+R5	Oper Arg1:T6 Arg2:T7
+R6	Attr Arg1:T9 Arg2:T8
+R7	Causitive Arg1:T10 Arg2:T4
+R8	Spatial Arg1:T7 Arg2:T8

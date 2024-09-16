@@ -1,0 +1,44 @@
+T1	Effect 32 45	servo systems
+T2	Location 91 108	relative position
+T3	Component 114 129	transducer head
+T4	System 135 156	magnetic storage tape
+T5	System 167 191	existing data structures
+T6	Component 199 220	magnetic storage tape
+T7	Location 229 237	position
+T8	Attribution 245 254	tape edge
+T9	Component 299 314	transducer head
+T10	Material 329 352	magnetic storage medium
+T11	InfoFlow 372 383	read signal
+T12	Component 391 403	read element
+T13	Component 422 437	transducer head
+T14	InfoFlow 443 454	read signal
+T15	Shape 472 492	reference data track
+T16	Material 505 528	magnetic storage medium
+T17	Location 550 558	position
+T18	Attribution 565 569	edge
+T19	Material 577 591	storage medium
+T20	Component 615 630	transducer head
+T21	Material 647 661	storage medium
+T22	InfoFlow 681 692	read signal
+T23	Location 701 709	position
+T24	Attribution 717 721	edge
+T25	Material 729 743	storage medium
+T26	Others 50 70	accompanying methods
+R1	PartOf Arg1:T6 Arg2:T5
+R2	Attr Arg1:T8 Arg2:T7
+R3	Purpose Arg1:T1 Arg2:T2
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Spatial Arg1:T9 Arg2:T10
+R6	PartOf Arg1:T10 Arg2:T11
+R7	Spatial Arg1:T12 Arg2:T13
+R8	Spatial Arg1:T15 Arg2:T16
+R9	Attr Arg1:T19 Arg2:T18
+R10	Attr Arg1:T18 Arg2:T17
+R11	Attr Arg1:T25 Arg2:T24
+R12	Attr Arg1:T24 Arg2:T23
+R13	Attr Arg1:T3 Arg2:T2
+R14	Generate Arg1:T12 Arg2:T11
+R15	Purpose Arg1:T14 Arg2:T15
+R16	Spatial Arg1:T20 Arg2:T21
+R17	Purpose Arg1:T21 Arg2:T22
+#1	AnnotatorNotes R17	标引成manner比较合适

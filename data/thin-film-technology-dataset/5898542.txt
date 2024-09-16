@@ -1,0 +1,1 @@
+A magneto-resistive effect type head is provided to suppress the thermal asperity caused by projections or foreign matter found on the recording medium. A step or a protrusion which is closer to the recording medium than the element is provided on the air bearing surface of the head in an area on the leading side of the element with respect to the moving direction of the head.

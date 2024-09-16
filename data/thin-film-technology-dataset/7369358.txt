@@ -1,0 +1,1 @@
+ A transducing head includes a substrate, a writer having a writer core, and an electrical connector for grounding the writer, wherein the electrical connector electrically connects the writer core to the substrate.

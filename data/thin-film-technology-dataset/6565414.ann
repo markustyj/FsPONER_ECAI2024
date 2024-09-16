@@ -1,0 +1,35 @@
+T1	Component 53 64	ceramic bar
+T2	Component 88 104	conversion units
+T6	Component 522 537	conversion unit
+T7	Function 7 21	polishing work
+T8	Shape 36 47	crown shape
+T9	Component 113 127	magnetic heads
+T10	Shape 167 201	well-controlled satisfactory shape
+T11	Component 545 558	magnetic head
+T12	Function 594 617	crown forming operation
+T13	Location 281 303	longitudinal direction
+T14	Attribution 313 320	surface
+T4	Shape 245 259	plural grooves
+T5	Component 336 350	polished plane
+T15	Component 357 394	substantially concave polishing plane
+T16	Component 406 420	elastic member
+T17	Material 445 451	rubber
+T18	EnergyFlow 472 491	magneto resistivity
+T19	Function 623 642	closed loop control
+T20	Attribution 578 586	pressure
+T3	Component 218 229	ceramic bar
+T21	Component 498 505	element
+R1	Purpose Arg1:T7 Arg2:T8
+R2	Spatial Arg1:T8 Arg2:T1
+R3	PartOf Arg1:T9 Arg2:T2
+R4	Spatial Arg1:T14 Arg2:T5
+R5	Manner Arg1:T4 Arg2:T14
+R6	Manner Arg1:T4 Arg2:T13
+R7	Causitive Arg1:T10 Arg2:T3
+R8	MadeOf Arg1:T16 Arg2:T17
+R9	Causitive Arg1:T15 Arg2:T16
+R10	Attr Arg1:T21 Arg2:T18
+R11	PartOf Arg1:T11 Arg2:T6
+R12	Attr Arg1:T12 Arg2:T20
+R13	Causitive Arg1:T20 Arg2:T19
+R14	PartOf Arg1:T6 Arg2:T21

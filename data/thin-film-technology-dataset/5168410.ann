@@ -1,0 +1,24 @@
+T1	Component 2 36	thin film magnetic read/write head
+T2	Component 43 65	cobalt iron boron core
+T3	Material 67 73	Cobalt
+T4	Material 75 79	iron
+T5	Material 84 89	boron
+T6	EnergyFlow 110 129	electroplating bath
+T7	Component 147 158	pole pieces
+T8	Component 166 189	thin film magnetic head
+T9	EnergyFlow 215 238	rotating magnetic field
+T10	Component 244 255	pole pieces
+T11	Effect 261 290	high saturation magnetization
+T12	Effect 292 306	low coercivity
+T13	Effect 308 322	low anisotropy
+T14	Effect 327 345	large permeability
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T8 Arg2:T7
+R3	PartOf Arg1:T6 Arg2:T5
+R4	PartOf Arg1:T6 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T3
+R6	Form Arg1:T6 Arg2:T7
+R7	Purpose Arg1:T10 Arg2:T11
+R8	Purpose Arg1:T10 Arg2:T12
+R9	Purpose Arg1:T10 Arg2:T14
+R10	Purpose Arg1:T10 Arg2:T13

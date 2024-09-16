@@ -1,0 +1,27 @@
+T1	Component 3 26	magnetoresistive sensor
+T3	Component 87 97	free layer
+T4	Component 105 111	sensor
+T5	Component 117 136	hard magnetic layer
+T6	System 154 174	seed layer structure
+T7	EnergyFlow 211 230	magnetic anisotropy
+T8	Component 238 254	hard bias layers
+T9	Component 260 279	treated seed layers
+T10	Component 295 311	hard bias layers
+T11	Material 335 355	crystalline material
+T12	Component 369 388	partial mill design
+T13	Component 413 425	buffer layer
+T14	Component 484 512	underlying crystalline layer
+T2	Component 47 70	anisotropic bias layers
+T15	Material 434 436	Si
+T16	Function 450 466	epitaxial growth
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T3
+R3	Purpose Arg1:T2 Arg2:T3
+R4	Spatial Arg1:T5 Arg2:T6
+R5	Causitive Arg1:T6 Arg2:T7
+R6	Causitive Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T10 Arg2:T11
+R8	Causitive Arg1:T9 Arg2:T10
+R9	MadeOf Arg1:T13 Arg2:T15
+R10	Causitive Arg1:T13 Arg2:T16
+R11	Causitive Arg1:T14 Arg2:T16

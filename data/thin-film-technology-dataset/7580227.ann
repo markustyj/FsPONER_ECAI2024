@@ -1,0 +1,42 @@
+T1	Component 3 19	magnetic element
+T2	Material 26 49	first magnetic material
+T3	Function 84 97	magnetization
+T4	EnergyFlow 118 141	external magnetic field
+T6	Material 200 231	nonmagnetic conductive material
+T7	Material 258 281	first magnetic material
+T8	EnergyFlow 300 320	conduction electrons
+T9	Material 324 348	second magnetic material
+T10	Material 375 406	nonmagnetic conductive material
+T11	EnergyFlow 464 484	conduction electrons
+T12	Component 488 503	first electrode
+T13	Component 534 557	first magnetic material
+T14	Component 565 581	second electrode
+T15	Material 612 636	second magnetic material
+T16	Effect 61 80	thermal fluctuation
+T17	Effect 156 172	spin fluctuation
+T5	EnergyFlow 176 196	conduction electrons
+T18	EnergyFlow 423 441	magnetic resonance
+T19	Function 447 456	injection
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T6
+R3	PartOf Arg1:T1 Arg2:T9
+R4	PartOf Arg1:T1 Arg2:T12
+R5	PartOf Arg1:T1 Arg2:T14
+R6	Oper Arg1:T3 Arg2:T16
+R7	Manner Arg1:T16 Arg2:T4
+R8	Generate Arg1:T16 Arg2:T17
+R9	Manner Arg1:T17 Arg2:T5
+R10	Causitive Arg1:T2 Arg2:T16
+R11	Spatial Arg1:T6 Arg2:T7
+R12	Purpose Arg1:T6 Arg2:T8
+R13	Causitive Arg1:T9 Arg2:T10
+R14	Generate Arg1:T9 Arg2:T18
+R15	Oper Arg1:T19 Arg2:T11
+R16	Causitive Arg1:T12 Arg2:T13
+R17	Spatial Arg1:T14 Arg2:T15
+#1	AnnotatorNotes R10	物品--purpose-->操作/功能
+#2	AnnotatorNotes R6	看讲义4规则1，标记为attr
+#3	AnnotatorNotes R9	thermal fluctuation  depends on an external magnetic field and generates spin fluctuation in conduction electrons:热波动取决于外部磁场并且在传导电子中产生自旋波动,显然传导电子在自旋波动：purpose关系
+#4	AnnotatorNotes R12	transfer动词，关系应该是makemove
+#5	AnnotatorNotes R14	这块明显是A do B 介词 C的模式
+#6	AnnotatorNotes R17	前面标makemove，这个标spatial，粗心了

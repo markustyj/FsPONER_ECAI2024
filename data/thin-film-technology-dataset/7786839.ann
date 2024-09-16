@@ -1,0 +1,5 @@
+T1	Component 3 31	passive electrical component
+T2	Component 44 84	inorganic dielectric coating layer laser
+T3	Component 98 113	conductor layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T3

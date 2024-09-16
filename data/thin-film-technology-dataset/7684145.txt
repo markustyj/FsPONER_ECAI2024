@@ -1,0 +1,1 @@
+ A metrology system for measuring the magnetic properties of a magnetic recording medium layer on a device used for perpendicular recording.

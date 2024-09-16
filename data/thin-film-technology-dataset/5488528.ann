@@ -1,0 +1,20 @@
+T2	Component 87 91	head
+T3	Component 184 198	first pole tip
+T4	Component 274 288	first pole tip
+T5	Material 310 330	nonmagnetic material
+T1	Component 2 36	horizontal thin film magnetic head
+T7	Component 101 128	first and second seedlayers
+T8	Component 134 161	first and second seedlayers
+T9	Component 209 228	he second seedlayer
+T10	Component 249 269	the second pole tip.
+T11	Material 339 345	copper
+T12	Shape 354 368	narrow sidegap
+T6	Component 393 420	first and second pole tips.
+T13	Component 72 81	pole tips
+R1	PartOf Arg1:T1 Arg2:T13
+R2	PartOf Arg1:T2 Arg2:T7
+R3	Spatial Arg1:T8 Arg2:T3
+R4	Spatial Arg1:T9 Arg2:T10
+R5	InstanceOf Arg1:T11 Arg2:T5
+R6	Causitive Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T12 Arg2:T6

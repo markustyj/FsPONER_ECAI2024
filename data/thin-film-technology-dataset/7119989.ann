@@ -1,0 +1,50 @@
+T1	Component 3 26	thin-film magnetic head
+T2	System 37 74	first and second magnetic pole groups
+T3	Location 121 151	respective magnetic pole parts
+T4	Location 177 181	side
+T5	Attribution 187 210	medium-opposing surface
+T6	Component 214 233	recording gap layer
+T7	Location 253 272	magnetic pole parts
+T8	Component 280 294	thin-film coil
+T9	System 314 351	first and second magnetic pole groups
+T11	Shape 432 440	junction
+T13	Component 534 543	substrate
+T14	Component 549 563	thin-film coil
+T15	System 576 597	first conductor group
+T16	Location 620 641	inner conductor parts
+T17	System 663 700	first and second magnetic pole groups
+T18	System 708 730	second conductor group
+T19	Location 753 774	outer conductor parts
+T20	System 796 822	second magnetic pole group
+T21	Shape 826 834	junction
+T22	Component 840 861	first conductor group
+T23	System 869 897	insulating contact structure
+T24	Location 911 932	inner conductor parts
+T25	Component 977 992	insulating film
+T26	Location 997 1016	inner relaxing part
+T28	System 1071 1101	first, second conductor groups
+T29	System 1110 1144	first, second magnetic pole groups
+T30	System 1175 1196	first conductor group
+T31	Component 1210 1225	insulating film
+T10	System 456 493	first and second magnetic pole groups
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Attr Arg1:T5 Arg2:T4
+R4	Spatial Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T2 Arg2:T3
+R6	Spatial Arg1:T11 Arg2:T10
+R7	Spatial Arg1:T10 Arg2:T13
+R8	PartOf Arg1:T14 Arg2:T15
+R9	PartOf Arg1:T15 Arg2:T16
+R10	Spatial Arg1:T16 Arg2:T17
+R11	PartOf Arg1:T14 Arg2:T18
+R12	PartOf Arg1:T18 Arg2:T19
+R13	Spatial Arg1:T19 Arg2:T20
+R14	Spatial Arg1:T19 Arg2:T21
+R15	PartOf Arg1:T22 Arg2:T23
+R16	PartOf Arg1:T23 Arg2:T24
+R17	Manner Arg1:T25 Arg2:T24
+R18	PartOf Arg1:T26 Arg2:T29
+R19	Spatial Arg1:T26 Arg2:T30
+R20	PartOf Arg1:T26 Arg2:T28
+R21	Manner Arg1:T31 Arg2:T30

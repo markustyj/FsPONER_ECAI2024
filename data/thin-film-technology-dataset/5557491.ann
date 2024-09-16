@@ -1,0 +1,68 @@
+T3	Component 80 96	first lead layer
+T5	Component 207 223	first lead layer
+T6	Location 247 261	bottom portion
+T8	Location 343 354	top portion
+T14	Component 611 620	MR stripe
+T15	Location 633 656	top and bottom portions
+T16	Component 664 673	MR stripe
+T18	Component 721 730	MR stripe
+T19	EnergyFlow 738 751	sense current
+T20	Component 777 786	MR stripe
+T22	EnergyFlow 886 899	sense current
+T24	Location 1007 1021	bottom portion
+T25	Component 1029 1038	MR stripe
+T27	Location 1082 1100	write head portion
+T26	Component 1061 1076	second pole tip
+T28	Component 963 973	first lead
+T29	Component 948 957	MR stripe
+T21	Component 832 858	first and second terminals
+T23	Component 908 917	MR stripe
+T30	Function 922 940	transverse biasing
+T31	Component 795 821	first and second terminals
+T17	EnergyFlow 692 711	magnetic bias field
+T13	Component 574 591	second lead layer
+T32	Component 553 568	second terminal
+T12	Component 512 529	second lead layer
+T33	Location 494 504	second end
+T11	Component 471 485	first terminal
+T10	Component 436 447	first layer
+T34	Location 418 428	second end
+T9	Component 373 399	First and second terminals
+T35	Component 362 371	MR stripe
+T7	Component 304 321	second lead layer
+T36	Location 287 296	first end
+T37	Component 269 278	MR stripe
+T38	Location 190 199	first end
+T1	Component 2 30	thin film orthogonal MR head
+T2	Component 60 76	single MR stripe
+T39	Location 107 128	first and second ends
+T4	Component 135 152	second lead layer
+T40	Location 163 184	first and second ends
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Attr Arg1:T3 Arg2:T39
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Attr Arg1:T4 Arg2:T40
+R6	Attr Arg1:T5 Arg2:T38
+R7	PartOf Arg1:T37 Arg2:T6
+R8	Spatial Arg1:T38 Arg2:T6
+R9	Attr Arg1:T7 Arg2:T36
+R10	PartOf Arg1:T35 Arg2:T8
+R11	Spatial Arg1:T36 Arg2:T8
+R12	Attr Arg1:T10 Arg2:T34
+R13	Spatial Arg1:T34 Arg2:T11
+R14	Attr Arg1:T12 Arg2:T33
+R15	Spatial Arg1:T33 Arg2:T32
+R17	PartOf Arg1:T16 Arg2:T15
+R18	Causitive Arg1:T13 Arg2:T17
+R19	Causitive Arg1:T17 Arg2:T18
+R20	Manner Arg1:T19 Arg2:T20
+R22	Purpose Arg1:T21 Arg2:T22
+R23	Purpose Arg1:T22 Arg2:T23
+R24	Oper Arg1:T30 Arg2:T29
+R25	PartOf Arg1:T25 Arg2:T24
+R26	Spatial Arg1:T28 Arg2:T24
+R28	PartOf Arg1:T27 Arg2:T26
+R29	Purpose Arg1:T21 Arg2:T30
+R16	Manner Arg1:T14 Arg2:T13
+R21	Manner Arg1:T19 Arg2:T31

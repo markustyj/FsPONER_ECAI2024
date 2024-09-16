@@ -1,0 +1,67 @@
+T1	Component 34 47	magnetic head
+T2	Effect 55 79	improved characteristics
+T3	System 89 112	magnetoresistive device
+T4	EnergyFlow 122 129	current
+T5	Component 147 157	film plane
+T6	System 168 178	TMR device
+T7	Component 185 204	first magnetic head
+T8	Attribution 240 244	area
+T9	Component 250 268	non-magnetic layer
+T10	ScientificConcept 285 310	device cross-section area
+T11	Attribution 320 324	area
+T12	Component 330 337	yoke is
+T13	ScientificConcept 351 360	yoke area
+T14	Location 379 388	direction
+T15	Attribution 410 417	surface
+T16	Component 425 434	substrate
+T17	Component 450 454	yoke
+T18	Component 463 486	magnetoresistive device
+T19	Attribution 508 533	device cross-section area
+T20	Attribution 562 571	yoke area
+T21	Effect 583 602	resistance increase
+T22	Attribution 610 635	device cross-section area
+T23	Component 656 676	second magnetic head
+T24	System 705 728	magnetoresistive device
+T25	Component 744 753	substrate
+T26	Component 761 765	yoke
+T27	Component 786 804	non-magnetic layer
+T28	System 822 828	device
+T29	Component 835 854	third magnetic head
+T30	Component 885 895	free layer
+T31	System 903 926	magnetoresistive device
+T32	Component 949 963	magnetic films
+T33	Component 981 998	non-magnetic film
+T34	Attribution 1039 1048	thickness
+T35	Component 1056 1074	non-magnetic layer
+T36	Value 1092 1096	2 nm
+T37	Value 1115 1120	10 nm
+T38	Effect 1126 1148	magnetostatic coupling
+T39	Component 1167 1187	fourth magnetic head
+T40	Shape 1216 1228	magnetic gap
+T41	System 1257 1280	magnetoresistive device
+T42	Component 1289 1303	magnetic films
+R1	Attr Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T5
+R4	InstanceOf Arg1:T6 Arg2:T5
+R5	Attr Arg1:T9 Arg2:T8
+R6	Causitive Arg1:T8 Arg2:T10
+R7	Attr Arg1:T12 Arg2:T11
+R8	Causitive Arg1:T11 Arg2:T13
+R9	Attr Arg1:T16 Arg2:T15
+R10	Manner Arg1:T14 Arg2:T15
+R11	Spatial Arg1:T17 Arg2:T15
+R12	Spatial Arg1:T18 Arg2:T15
+R13	Comparison Arg1:T19 Arg2:T20
+R14	Attr Arg1:T22 Arg2:T21
+R15	Spatial Arg1:T24 Arg2:T25
+R16	Spatial Arg1:T26 Arg2:T27
+R17	PartOf Arg1:T28 Arg2:T27
+R18	PartOf Arg1:T31 Arg2:T30
+R19	PartOf Arg1:T30 Arg2:T32
+R20	PartOf Arg1:T30 Arg2:T33
+R21	Attr Arg1:T35 Arg2:T34
+R22	Measurement Arg1:T34 Arg2:T36
+R23	Measurement Arg1:T34 Arg2:T37
+R24	Spatial Arg1:T40 Arg2:T41
+R25	Spatial Arg1:T42 Arg2:T40

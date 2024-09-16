@@ -1,0 +1,51 @@
+T1	Component 24 32	P3 layer
+T2	Material 38 42	NiFe
+T4	Component 99 133	perpendicular magnetic write heads
+T5	Component 165 180	laminated layer
+T6	Component 193 206	alumina layer
+T7	Location 210 213	top
+T8	Component 221 236	laminated layer
+T9	Component 251 267	conductive layer
+T10	Component 277 292	laminated layer
+T11	Shape 304 317	plating frame
+T12	Component 323 332	gap layer
+T13	Shape 338 351	plating frame
+T14	Shape 358 364	trench
+T17	Shape 454 458	area
+T18	Shape 469 475	trench
+T19	Shape 519 525	trench
+T20	Material 535 539	NiFe
+T21	Shape 562 575	shrunk trench
+T22	Shape 591 604	plating frame
+T23	Component 619 635	conductive layer
+T24	Component 647 663	conductive layer
+T25	Shape 681 687	trench
+T26	Component 702 715	alumina layer
+T27	Component 727 740	alumina layer
+T28	Shape 758 764	trench
+T29	Component 779 794	laminated layer
+T30	Component 806 821	laminated layer
+T31	Shape 839 845	trench
+T32	Component 865 880	laminated layer
+T33	Shape 898 904	trench
+T34	Material 47 59	alumina mask
+T3	Function 66 87	resist shrink process
+T35	Component 376 389	plating track
+R1	MadeOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T1 Arg2:T34
+R3	Oper Arg1:T3 Arg2:T4
+R4	Causitive Arg1:T1 Arg2:T3
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Attr Arg1:T8 Arg2:T7
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T13 Arg2:T14
+R10	Causitive Arg1:T14 Arg2:T35
+T15	Component 395 435	alumina, laminated and conductive layers
+R11	PartOf Arg1:T15 Arg2:T17
+R12	Spatial Arg1:T17 Arg2:T18
+R13	Spatial Arg1:T20 Arg2:T21
+R14	Spatial Arg1:T24 Arg2:T25
+R15	Spatial Arg1:T27 Arg2:T28
+R16	Spatial Arg1:T30 Arg2:T31
+R17	Spatial Arg1:T32 Arg2:T33

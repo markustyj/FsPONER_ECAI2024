@@ -1,0 +1,61 @@
+T1	Component 2 35	spin-valve type thin film element
+T2	Component 75 95	fixed magnetic layer
+T4	Component 195 215	fixed magnetic layer
+T5	EnergyFlow 235 270	exchange anisotropic magnetic field
+T6	Component 283 303	fixed magnetic layer
+T8	Component 373 393	fixed magnetic layer
+T9	Component 401 429	nonmagnetic conductive layer
+T10	Component 446 456	bias layer
+T14	Component 621 637	conductive layer
+T16	Function 767 780	magnetization
+T17	Component 788 808	fixed magnetic layer
+T18	Function 873 886	magnetization
+T19	Component 894 914	fixed magnetic layer
+T20	Component 1039 1072	spin-valve type thin film element
+T21	Component 48 71	antiferromagnetic layer
+T22	Component 135 158	antiferromagnetic layer
+T23	Location 164 187	magnetization direction
+T3	Component 312 335	antiferromagnetic layer
+T24	Component 339 358	free magnetic layer
+T7	Location 473 496	magnetization direction
+T11	Component 504 523	free magnetic layer
+T12	Location 562 585	magnetization direction
+T13	Component 593 613	fixed magnetic layer
+T25	EnergyFlow 653 668	sensing current
+T15	Component 678 698	fixed magnetic layer
+T26	Component 704 732	nonmagnetic conductive layer
+T27	Component 742 761	free magnetic layer
+T28	Location 816 830	central region
+T29	Location 847 863	height direction
+T30	Location 922 933	end regions
+T31	Location 988 1004	height direction
+R1	PartOf Arg1:T1 Arg2:T21
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Spatial Arg1:T2 Arg2:T22
+R4	Attr Arg1:T4 Arg2:T23
+R5	Spatial Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T5 Arg2:T3
+R7	Causitive Arg1:T5 Arg2:T23
+R8	Spatial Arg1:T24 Arg2:T8
+R9	PartOf Arg1:T1 Arg2:T24
+R10	Spatial Arg1:T8 Arg2:T9
+R11	PartOf Arg1:T1 Arg2:T10
+R12	Purpose Arg1:T10 Arg2:T7
+R13	Attr Arg1:T11 Arg2:T7
+R14	Attr Arg1:T13 Arg2:T12
+R15	PartOf Arg1:T1 Arg2:T14
+R16	Purpose Arg1:T14 Arg2:T25
+R17	Causitive Arg1:T25 Arg2:T15
+R18	Causitive Arg1:T25 Arg2:T26
+R19	Causitive Arg1:T25 Arg2:T27
+R21	Oper Arg1:T16 Arg2:T17
+R22	PartOf Arg1:T30 Arg2:T19
+R23	Oper Arg1:T18 Arg2:T19
+#1	AnnotatorNotes R10	therebetween，在两者之间，意思即nonmagnetic conductive layer在free magnetic layer和fixed magnetic layer之间
+R24	Spatial Arg1:T7 Arg2:T12
+#2	AnnotatorNotes R24	两个方向之间的关系，可以用spatial
+R20	PartOf Arg1:T17 Arg2:T28
+R25	Manner Arg1:T29 Arg2:T16
+R26	Manner Arg1:T31 Arg2:T18
+#3	AnnotatorNotes R25	磁化方向，manner
+#4	AnnotatorNotes R26	磁化方向，manner

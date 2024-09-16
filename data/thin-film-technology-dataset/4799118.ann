@@ -1,0 +1,24 @@
+T1	Component 5 28	thin film magnetic head
+T2	Component 45 67	non-magnetic substrate
+T3	System 75 95	multilayer structure
+T4	Component 131 141	lower core
+T5	Component 145 163	gap material layer
+T6	Component 167 181	thin film coil
+T7	Component 189 199	upper core
+T8	Attribution 211 231	head sliding surface
+T9	Component 239 249	lower core
+T10	Component 266 276	upper core
+T12	Attribution 319 338	increasing distance
+T13	Attribution 348 355	surface
+T14	Component 363 381	gap material layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T5
+R4	PartOf Arg1:T3 Arg2:T6
+R5	PartOf Arg1:T3 Arg2:T7
+R6	PartOf Arg1:T1 Arg2:T3
+R7	Attr Arg1:T9 Arg2:T8
+R8	Attr Arg1:T14 Arg2:T13
+R9	Attr Arg1:T13 Arg2:T12
+R10	Manner Arg1:T12 Arg2:T8
+R11	Manner Arg1:T12 Arg2:T10

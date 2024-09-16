@@ -1,0 +1,29 @@
+T1	Component 2 27	magnetroresistive element
+T2	Component 64 103	metallic magnetoresistance effect films
+T3	EnergyFlow 111 127	magnetostriction
+T4	Component 152 161	substrate
+T5	Component 167 191	magnetoresistive element
+T6	EnergyFlow 217 238	zero magnetostriction
+T8	Component 305 329	magnetoresistive element
+T9	EnergyFlow 339 355	magnetostriction
+T10	Effect 385 391	change
+T11	Component 399 415	film composition
+T12	Component 421 460	metallic magnetoresistance effect films
+T15	ScientificConcept 524 538	absolute value
+T16	Value 556 574	15.times.10.sup.--6
+T17	InfoFlow 131 146	different signs
+T18	EnergyFlow 253 269	magnetostriction
+T7	EnergyFlow 477 515	positive and negative magnetostriction
+T13	Value 556 574	15.times.10.sup.-6
+R1	Form Arg1:T2 Arg2:T1
+R2	Attr Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Attr Arg1:T17 Arg2:T3
+R5	Purpose Arg1:T5 Arg2:T6
+R6	Purpose Arg1:T5 Arg2:T18
+R7	Causitive Arg1:T8 Arg2:T9
+R8	Causitive Arg1:T9 Arg2:T10
+R9	Generate Arg1:T11 Arg2:T10
+R10	Attr Arg1:T12 Arg2:T7
+R11	Measurement Arg1:T15 Arg2:T13
+R12	Attr Arg1:T7 Arg2:T15

@@ -1,0 +1,1 @@
+A thin film magnetic read/write head has a copper iron boron core. Cobalt, iron and boron are included in the electroplating bath used to form the pole pieces of the thin film magnetic head. Following exposure to a rotating magnetic field, the pole pieces have high saturation magnetization, low coercivity, low anisotropy and large permeability.

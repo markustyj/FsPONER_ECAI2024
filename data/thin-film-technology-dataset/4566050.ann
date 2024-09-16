@@ -1,0 +1,44 @@
+T1	Component 3 29	hand-held magnetic readers
+T2	Component 56 74	magnetic read head
+T4	Attribution 117 124	surface
+T5	Material 130 144	magnetic media
+T6	Component 172 176	head
+T7	Material 212 217	media
+T8	Component 257 266	read head
+T9	Component 278 314	thin planar magnetoresistive element
+T10	Attribution 359 366	surface
+T11	Material 374 379	media
+T12	Component 383 393	thick yoke
+T13	Component 421 428	element
+T14	Attribution 440 449	pole face
+T15	Attribution 463 476	media surface
+T16	Attribution 556 561	plane
+T17	Component 569 576	element
+T18	Function 607 623	flux transitions
+T19	Attribution 635 644	pole face
+T20	Component 652 656	yoke
+T21	Attribution 673 677	edge
+T22	Component 685 692	element
+T23	Attribution 709 716	surface
+T24	Function 93 109	flux transitions
+T3	Location 184 204	specific orientation
+T25	Function 521 546	adjacent flux transitions
+R1	Attr Arg1:T20 Arg2:T19
+R2	Attr Arg1:T22 Arg2:T21
+R3	Spatial Arg1:T22 Arg2:T23
+R4	Spatial Arg1:T19 Arg2:T21
+R5	Attr Arg1:T17 Arg2:T16
+R6	Attr Arg1:T12 Arg2:T14
+R7	Spatial Arg1:T14 Arg2:T15
+R8	Spatial Arg1:T12 Arg2:T13
+R9	Spatial Arg1:T16 Arg2:T18
+R10	Manner Arg1:T25 Arg2:T14
+R11	PartOf Arg1:T8 Arg2:T9
+R12	Attr Arg1:T11 Arg2:T10
+R13	Spatial Arg1:T9 Arg2:T10
+R14	Attr Arg1:T5 Arg2:T4
+R15	Spatial Arg1:T24 Arg2:T4
+R16	Purpose Arg1:T2 Arg2:T24
+R17	PartOf Arg1:T1 Arg2:T2
+R18	Attr Arg1:T6 Arg2:T3
+R19	Manner Arg1:T7 Arg2:T3

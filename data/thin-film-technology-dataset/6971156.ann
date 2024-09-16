@@ -1,0 +1,42 @@
+T1	Component 2 25	thin film magnetic head
+T2	Effect 49 87	high frequency response characteristic
+T3	Effect 96 106	efficiency
+T4	Component 114 118	head
+T5	Others 137 155	manufacturing time
+T6	Component 191 214	thin film magnetic head
+T7	Component 235 251	precursory layer
+T8	System 266 278	coil pattern
+T9	Component 282 298	precursory layer
+T10	Component 313 327	separate layer
+T11	Component 335 351	precursory layer
+T12	Component 366 378	coil pattern
+T13	Component 438 442	mask
+T14	System 478 490	coil pattern
+T15	Component 496 510	separate layer
+T16	System 519 531	coil pattern
+T17	Function 537 550	batch process
+T18	Function 570 589	manufacturing steps
+T19	Function 605 631	photolithography processes
+T20	System 677 689	coil pattern
+T21	Component 695 709	separate layer
+T22	Shape 719 731	coil pattern
+T23	Component 787 801	thin film coil
+T24	System 817 830	coil patterns
+T25	Others 850 862	shorter time
+T26	Function 429 432	use
+T27	Function 757 775	separate processes
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T3
+R3	Attr Arg1:T4 Arg2:T3
+R4	Causitive Arg1:T1 Arg2:T5
+R5	Purpose Arg1:T7 Arg2:T8
+R6	Purpose Arg1:T9 Arg2:T10
+R7	Purpose Arg1:T11 Arg2:T12
+R8	Oper Arg1:T26 Arg2:T13
+R9	Oper Arg1:T17 Arg2:T16
+R10	Oper Arg1:T17 Arg2:T15
+R11	Oper Arg1:T17 Arg2:T14
+R12	Oper Arg1:T27 Arg2:T20
+R13	Oper Arg1:T27 Arg2:T21
+R14	Oper Arg1:T27 Arg2:T22
+R15	PartOf Arg1:T23 Arg2:T24

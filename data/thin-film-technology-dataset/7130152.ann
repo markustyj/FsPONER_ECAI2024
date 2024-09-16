@@ -1,0 +1,30 @@
+T1	Component 19 27	elements
+T2	Shape 40 55	multiple tracks
+T3	Material 63 77	magnetic media
+T4	Attribution 92 105	areal density
+T5	InfoFlow 109 127	stored information
+T6	Component 131 170	thin film multiple track recording head
+T7	Shape 180 194	recording gaps
+T8	Component 200 205	plane
+T9	Component 224 238	head substrate
+T11	Component 296 304	elements
+T12	Component 316 320	head
+T13	Shape 342 364	recording gap geometry
+T15	Shape 1 15	Closer spacing
+T16	Effect 270 288	flexible placement
+T10	Effect 322 338	improved control
+T14	Measure 370 400	alternating azimuth gap angles
+R1	PartOf Arg1:T6 Arg2:T7
+R3	Attr Arg1:T5 Arg2:T4
+R4	Attr Arg1:T1 Arg2:T15
+R5	Purpose Arg1:T1 Arg2:T2
+R6	Spatial Arg1:T2 Arg2:T3
+R7	Purpose Arg1:T15 Arg2:T4
+R8	Spatial Arg1:T8 Arg2:T9
+R2	PartOf Arg1:T8 Arg2:T7
+R10	PartOf Arg1:T12 Arg2:T11
+R9	Purpose Arg1:T11 Arg2:T16
+R11	Purpose Arg1:T10 Arg2:T13
+R12	Purpose Arg1:T10 Arg2:T14
+#1	AnnotatorNotes R11	操作--》操作的对象，使用oper关系
+#2	AnnotatorNotes R12	同理，使用oper，purpose说的是物品和物品的功能/操作/效果，用在这里不合适

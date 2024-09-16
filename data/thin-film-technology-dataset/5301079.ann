@@ -1,0 +1,57 @@
+T2	EnergyFlow 44 61	spin valve effect
+T5	Component 192 216	adjacent magnetic layers
+T8	Component 346 364	magnetic easy axis
+T9	Component 380 400	ferromagnetic layers
+T10	Component 425 442	longitudinal axis
+T11	Component 450 470	ferromagnetic layers
+T13	Component 580 594	sensor element
+T14	EnergyFlow 607 617	bias field
+T15	Function 646 659	magnetization
+T16	Component 668 687	ferromagnetic layer
+T17	Component 749 767	magnetic easy axis
+T18	Function 867 881	magnetizations
+T19	Component 890 910	ferromagnetic layers
+T20	EnergyFlow 932 954	applied magnetic field
+T1	Component 2 30	magnetoresistive read sensor
+T3	EnergyFlow 90 113	read element resistance
+T4	ScientificConcept 128 134	cosine
+T21	Attribution 142 147	angle
+T22	EnergyFlow 160 184	magnetization directions
+T6	Component 235 254	sensor read element
+T7	Component 268 297	adjacent ferromagnetic layers
+T23	Component 313 340	non-magnetic metallic layer
+T24	Material 513 545	adjacent magnetic storage medium
+T25	Attribution 496 506	trackwidth
+T12	EnergyFlow 551 564	sense current
+T26	Location 633 642	direction
+T28	InfoFlow 838 861	applied magnetic signal
+T31	Function 786 804	angular separation
+T32	Function 971 989	angular separation
+T33	Component 73 82	component
+T27	Measure 694 720	equal, but opposite, angle
+T30	Function 824 831	absence
+T29	Value 996 1017	amount 2.delta..theta
+T34	Value 808 815	2.theta
+R1	Attr Arg1:T4 Arg2:T21
+R2	Attr Arg1:T5 Arg2:T22
+R3	Attr Arg1:T22 Arg2:T21
+R4	PartOf Arg1:T1 Arg2:T33
+R5	Attr Arg1:T3 Arg2:T33
+R6	PartOf Arg1:T6 Arg2:T7
+R7	Spatial Arg1:T7 Arg2:T23
+R8	PartOf Arg1:T9 Arg2:T8
+R9	PartOf Arg1:T11 Arg2:T10
+R10	Manner Arg1:T10 Arg2:T8
+R11	Attr Arg1:T24 Arg2:T25
+R12	Spatial Arg1:T8 Arg2:T25
+R13	Manner Arg1:T13 Arg2:T12
+R14	Generate Arg1:T12 Arg2:T14
+R15	Attr Arg1:T15 Arg2:T26
+R17	Manner Arg1:T27 Arg2:T26
+R18	Measurement Arg1:T31 Arg2:T34
+R19	Causitive Arg1:T14 Arg2:T26
+R16	Oper Arg1:T15 Arg2:T16
+R20	Oper Arg1:T18 Arg2:T19
+R21	Causitive Arg1:T20 Arg2:T18
+R22	Purpose Arg1:T20 Arg2:T32
+R23	Measurement Arg1:T32 Arg2:T29

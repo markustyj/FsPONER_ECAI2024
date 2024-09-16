@@ -1,0 +1,55 @@
+T1	Component 4 27	soft magnetic thin film
+T2	Component 52 76	atomic ratio composition
+T3	ScientificConcept 309 333	relative intensity ratio
+T6	ScientificConcept 374 400	X-ray diffraction spectrum
+T12	Component 632 645	magnetic head
+T13	Component 659 668	thin film
+T14	Material 163 165	Mg
+T15	Material 167 169	Ca
+T16	Material 171 173	Ti
+T17	Material 175 177	Zr
+T18	Material 179 181	Hf
+T19	Material 183 184	V
+T20	Material 186 188	Nb
+T21	Material 190 192	Ta
+T22	Material 194 196	Cr
+T23	Material 198 200	Mo
+T24	Material 202 203	W
+T25	Material 205 207	Mn
+T26	Material 213 214	B
+T34	Attribution 549 564	heat resistance
+T10	Effect 597 625	high magnetic permeability .
+T35	ScientificConcept 726 737	sensitivity
+T36	ScientificConcept 743 769	electromagnetic properties
+T27	ScientificConcept 337 350	Fe (200) peak
+T4	ScientificConcept 354 367	Fe (110) peak
+T5	ScientificConcept 426 446	Fe (100) orientation
+T7	Effect 455 489	excellent soft magnetic properties
+T28	Effect 507 547	high saturation magnetic flux density Bs
+T8	Effect 568 586	low coercive force
+R1	Causitive Arg1:T12 Arg2:T13
+R2	Attr Arg1:T12 Arg2:T35
+R3	Attr Arg1:T12 Arg2:T36
+T9	Material 100 101	M
+R4	InstanceOf Arg1:T14 Arg2:T9
+R5	InstanceOf Arg1:T15 Arg2:T9
+R6	InstanceOf Arg1:T16 Arg2:T9
+R7	InstanceOf Arg1:T17 Arg2:T9
+R8	InstanceOf Arg1:T18 Arg2:T9
+R9	InstanceOf Arg1:T19 Arg2:T9
+R10	InstanceOf Arg1:T20 Arg2:T9
+R11	InstanceOf Arg1:T21 Arg2:T9
+R12	InstanceOf Arg1:T23 Arg2:T9
+R13	InstanceOf Arg1:T22 Arg2:T9
+R14	InstanceOf Arg1:T24 Arg2:T9
+R15	InstanceOf Arg1:T25 Arg2:T9
+R16	InstanceOf Arg1:T26 Arg2:T9
+R17	PartOf Arg1:T1 Arg2:T2
+R18	Attr Arg1:T27 Arg2:T3
+R19	Attr Arg1:T4 Arg2:T3
+R20	Purpose Arg1:T28 Arg2:T7
+R21	Purpose Arg1:T34 Arg2:T7
+R22	Purpose Arg1:T8 Arg2:T7
+R23	Purpose Arg1:T10 Arg2:T7
+R24	Manner Arg1:T6 Arg2:T4
+R25	Manner Arg1:T5 Arg2:T4

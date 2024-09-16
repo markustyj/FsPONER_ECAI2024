@@ -1,0 +1,67 @@
+T3	Attribution 266 277	track width
+T8	Component 514 525	MR elements
+T12	Component 830 857	longitudinal bias component
+T13	Component 992 1020	longitudinal bias components
+T14	Component 1079 1092	symmetric DMR
+T16	Component 1232 1250	anti-symmetric DMR
+T18	Component 27 53	dual magnetoresistive head
+T19	Component 55 58	DMR
+T1	Attribution 69 87	narrow track-width
+T20	Attribution 135 141	height
+T21	Component 149 160	MR elements
+T23	Value 231 260	100 kiloflux changes per inch
+T25	Attribution 314 331	MR element height
+T26	Function 388 407	DMR signal response
+T5	EnergyFlow 453 474	magnetization vectors
+T7	ScientificConcept 428 445	directional sense
+T6	Location 485 502	longitudinal axes
+T27	Location 540 571	transverse bias field direction
+T9	Attribution 650 668	head's performance
+T28	Attribution 694 729	"three dimensional" characteristics
+T29	Attribution 747 780	"two dimensional" characteristics
+T30	Component 809 824	"symmetric" DMR
+T31	Component 873 904	DMR's magnetoresistive elements
+T33	Component 967 987	"anti-symmetric" DMR
+T34	Location 1054 1073	opposite directions
+T35	EnergyFlow 1100 1119	off- track response
+T15	Component 1174 1187	tracking head
+T36	Component 1201 1220	data reproduce head
+T37	Function 1257 1275	data signal output
+T17	Component 1316 1329	symmetric DMR
+T2	ScientificConcept 200 217	short wavelengths
+T22	ScientificConcept 343 357	new parameters
+T4	Location 580 602	signal field direction
+T10	Function 622 635	head response
+T11	Location 938 952	same direction
+R1	Alias Arg1:T18 Arg2:T19
+R2	Attr Arg1:T19 Arg2:T1
+R3	Attr Arg1:T18 Arg2:T1
+R4	Attr Arg1:T21 Arg2:T20
+R5	Comparison Arg1:T1 Arg2:T20
+R6	Measurement Arg1:T2 Arg2:T23
+R7	Comparison Arg1:T3 Arg2:T25
+T24	Effect 278 287	reduction
+R8	Causitive Arg1:T3 Arg2:T22
+R9	Causitive Arg1:T22 Arg2:T26
+R10	PartOf Arg1:T8 Arg2:T6
+R11	Attr Arg1:T5 Arg2:T7
+R12	Manner Arg1:T6 Arg2:T5
+R16	Causitive Arg1:T28 Arg2:T9
+R17	PartOf Arg1:T31 Arg2:T12
+R18	Manner Arg1:T34 Arg2:T13
+R19	Manner Arg1:T11 Arg2:T12
+R21	Comparison Arg1:T16 Arg2:T17
+R25	Purpose Arg1:T3 Arg2:T24
+R13	Causitive Arg1:T7 Arg2:T27
+R26	Causitive Arg1:T7 Arg2:T4
+R14	Attr Arg1:T16 Arg2:T37
+R15	Purpose Arg1:T14 Arg2:T35
+T32	InfoFlow 185 192	signals
+R20	Purpose Arg1:T1 Arg2:T32
+R24	Attr Arg1:T32 Arg2:T2
+R27	PartOf Arg1:T30 Arg2:T12
+R28	PartOf Arg1:T33 Arg2:T13
+#1	AnnotatorNotes R28	漏标了
+#2	AnnotatorNotes R27	漏标了
+R22	Form Arg1:T14 Arg2:T15
+R23	Form Arg1:T14 Arg2:T36

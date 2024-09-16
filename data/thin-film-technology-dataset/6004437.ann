@@ -1,0 +1,56 @@
+T1	Component 28 74	multi-layer lithographically fabricated device
+T2	Component 91 125	improved thin-film recording heads
+T3	System 151 179	focused particle beam system
+T4	System 194 226	recording head pole-tip assembly
+T5	System 249 268	sensitive structure
+T6	Component 277 286	read head
+T7	Component 295 309	recording head
+T8	System 343 360	pole-tip assembly
+T9	Component 374 399	second structural element
+T10	Component 422 446	first structural element
+T11	Component 485 509	first structural element
+T12	Component 523 543	first marker element
+T13	Component 588 598	same layer
+T14	Component 604 650	multi-layer lithographically fabricated device
+T15	Component 658 682	first structural element
+T16	Component 688 702	marker element
+T17	ScientificConcept 709 735	fixed spatial relationship
+T18	Component 743 767	first structural element
+T19	Component 790 810	first marker element
+T20	Component 819 844	second structural element
+T21	Function 862 872	separation
+T22	Component 885 909	first structural element
+T23	Component 918 938	first marker element
+T24	System 942 970	focused particle beam system
+T25	Location 989 1006	relative location
+T26	Component 1014 1050	first and second structural elements
+T27	System 1070 1098	focused particle beam system
+T28	Component 1138 1172	sensitive first structural element
+T29	Component 1196 1221	second structural element
+T30	System 1259 1287	focused particle beam system
+T31	Component 1298 1323	second structural element
+T32	System 1337 1367	desired pole-tip configuration
+T33	System 1384 1414	desired pole-tip configuration
+T34	Component 1455 1478	improved recording head
+T35	Effect 1490 1512	higher storage density
+T36	Function 1518 1538	prior art techniques
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T3 Arg2:T4
+R3	InstanceOf Arg1:T6 Arg2:T5
+R4	PartOf Arg1:T7 Arg2:T6
+R5	Causitive Arg1:T8 Arg2:T9
+R6	PartOf Arg1:T14 Arg2:T13
+R7	Causitive Arg1:T30 Arg2:T31
+R8	Causitive Arg1:T31 Arg2:T32
+R9	Spatial Arg1:T16 Arg2:T18
+R10	PartOf Arg1:T26 Arg2:T25
+R11	Causitive Arg1:T24 Arg2:T25
+R12	Purpose Arg1:T34 Arg2:T35
+R13	Comparison Arg1:T34 Arg2:T36
+R14	Oper Arg1:T21 Arg2:T22
+R16	Oper Arg1:T21 Arg2:T23
+R15	Causitive Arg1:T24 Arg2:T19
+R17	Causitive Arg1:T24 Arg2:T20
+R18	Causitive Arg1:T24 Arg2:T21
+R19	PartOf Arg1:T13 Arg2:T12
+R20	PartOf Arg1:T15 Arg2:T13

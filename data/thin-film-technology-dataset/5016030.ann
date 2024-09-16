@@ -1,0 +1,40 @@
+T1	Component 2 15	magnetic head
+T2	Component 32 50	camera film platen
+T4	Component 111 122	camera body
+T5	Effect 137 157	precise relationship
+T6	Shape 169 186	information track
+T7	Component 203 207	film
+T8	Attribution 214 223	film edge
+T9	Component 229 242	magnetic head
+T10	Component 271 282	film platen
+T11	Location 320 339	angular orientation
+T12	Component 347 351	head
+T13	Location 369 388	angular orientation
+T14	Component 396 400	head
+T15	Component 421 425	film
+T16	Others 477 494	film manufacturer
+T17	Function 545 554	transport
+T18	Component 562 566	film
+T19	Location 574 592	opposite direction
+T20	Function 600 613	film exposure
+T21	Function 648 661	film exposure
+T22	System 678 684	camera
+T23	System 779 785	camera
+T24	Value 862 872	last frame
+T25	Function 74 94	constrained movement
+T3	Function 433 440	prewind
+T26	Location 501 537	second different angular orientation
+T27	Others 736 748	manufacturer
+T28	Function 802 820	mid-roll interrupt
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T25
+R3	Manner Arg1:T4 Arg2:T25
+R4	Purpose Arg1:T25 Arg2:T5
+R5	PartOf Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Attr Arg1:T12 Arg2:T11
+R8	Spatial Arg1:T11 Arg2:T15
+R9	Oper Arg1:T17 Arg2:T18
+R10	Manner Arg1:T19 Arg2:T17
+R11	Oper Arg1:T20 Arg2:T18
+R12	Oper Arg1:T3 Arg2:T15

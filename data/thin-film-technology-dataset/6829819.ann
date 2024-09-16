@@ -1,0 +1,51 @@
+T1	Component 2 25	magnetoresistive device
+T2	EnergyFlow 35 45	first pole
+T3	EnergyFlow 49 60	second pole
+T4	Component 68 95	first tapered pole pedestal
+T5	EnergyFlow 143 154	second pole
+T6	EnergyFlow 160 178	first tapered pole
+T7	Attribution 185 190	width
+T8	Component 245 264	air bearing surface
+T9	Component 266 269	ABS
+T10	Component 275 298	magnetoresistive device
+T11	Component 318 346	second tapered pole pedestal
+T12	EnergyFlow 377 387	first pole
+T13	Component 412 439	first tapered pole pedestal
+T14	Shape 445 454	write gap
+T15	Component 460 488	second tapered pole pedestal
+T16	Attribution 495 500	width
+T17	Attribution 521 540	increasing distance
+T18	Component 555 574	air bearing surface
+T19	Attribution 632 642	trackwidth
+T20	Component 648 661	write element
+T21	Component 675 696	tapered pole pedestal
+T22	Attribution 721 731	trackwidth
+T23	Attribution 746 763	known taper angle
+T24	Attribution 767 784	zero throat width
+T25	Attribution 792 805	throat height
+T26	Attribution 819 832	throat height
+T27	Function 860 867	lapping
+T28	Attribution 211 230	increasing distance
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Attr Arg1:T6 Arg2:T7
+R6	Alias Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T10 Arg2:T11
+R8	Spatial Arg1:T11 Arg2:T12
+R9	Causitive Arg1:T11 Arg2:T13
+R10	Causitive Arg1:T11 Arg2:T14
+R11	Attr Arg1:T15 Arg2:T16
+R12	Attr Arg1:T20 Arg2:T19
+T29	Component 588 609	the present invention
+T30	Effect 578 584	method
+R13	Causitive Arg1:T30 Arg2:T19
+R14	PartOf Arg1:T29 Arg2:T30
+R15	Causitive Arg1:T30 Arg2:T21
+R16	Causitive Arg1:T26 Arg2:T27
+R17	Causitive Arg1:T22 Arg2:T23
+R18	Causitive Arg1:T22 Arg2:T24
+R19	Causitive Arg1:T22 Arg2:T25
+#1	AnnotatorNotes T17	随着...增加...而增加 这种句式 不知如何标引，答：太复杂了，不用管就行了
+#2	AnnotatorNotes R19	被....所决定/控制 不确定是否用makemove，答：先这么标吧，目前看是最好的方案了

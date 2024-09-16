@@ -1,0 +1,36 @@
+T1	Component 26 46	magnetic head slider
+T2	Component 53 72	magnetic disc drive
+T3	Effect 97 111	high precision
+T4	Effect 121 134	simple manner
+T5	Component 138 158	magnetic head slider
+T6	Component 174 207	recording and reproducing element
+T7	Component 241 264	heat generating element
+T8	Location 295 299	side
+T9	Location 303 313	directions
+T10	Location 326 341	width direction
+T11	Component 349 369	magnetic head slider
+T12	Location 394 409	width direction
+T13	Component 415 430	recording track
+T14	Component 451 484	recording and reproducing element
+T15	EnergyFlow 529 548	current application
+T16	Component 556 562	member
+T17	Component 600 633	recording and reproducing element
+T18	Component 647 670	heat generating element
+T20	Component 738 761	heat generating element
+T21	EnergyFlow 506 510	heat
+T19	Function 715 730	heat generation
+R1	Manner Arg1:T3 Arg2:T1
+R2	Manner Arg1:T3 Arg2:T2
+R3	Manner Arg1:T4 Arg2:T1
+R4	Manner Arg1:T4 Arg2:T2
+R5	PartOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T5 Arg2:T7
+R7	Attr Arg1:T9 Arg2:T8
+R8	Manner Arg1:T8 Arg2:T7
+R9	Attr Arg1:T11 Arg2:T10
+R10	Attr Arg1:T13 Arg2:T12
+R12	Spatial Arg1:T16 Arg2:T17
+R13	Spatial Arg1:T16 Arg2:T18
+R14	Generate Arg1:T7 Arg2:T21
+R15	Oper Arg1:T19 Arg2:T20
+R11	PartOf Arg1:T5 Arg2:T16

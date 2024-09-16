@@ -1,0 +1,39 @@
+T1	Component 57 72	optical markers
+T2	Component 217 220	bar
+T3	Component 347 351	bars
+T4	Function 426 441	coarse grinding
+T5	Component 449 462	magnetic head
+T6	Material 470 500	magnetic head surface material
+T7	Component 621 645	desired inductive throat
+T8	Component 649 659	MR element
+T9	Component 699 714	Coarse grinding
+T10	Component 801 817	grinding process
+T11	Component 840 853	magnetic head
+T12	Function 871 892	final lapping process
+T13	Function 87 103	photolithography
+R1	Oper Arg1:T13 Arg2:T1
+T14	Component 144 151	chiplet
+T15	Component 161 174	magnetic head
+R2	PartOf Arg1:T14 Arg2:T15
+T16	Attribution 228 248	predetermined height
+R3	Attr Arg1:T2 Arg2:T16
+T17	Attribution 250 255	width
+T18	Attribution 260 266	length
+R4	Attr Arg1:T2 Arg2:T17
+R5	Attr Arg1:T2 Arg2:T18
+T19	Location 336 339	end
+R6	Attr Arg1:T3 Arg2:T19
+T20	ScientificConcept 397 417	predetermined amount
+T21	ScientificConcept 303 325	predetermined distance
+R7	Oper Arg1:T4 Arg2:T5
+T22	Attribution 589 605	grinding surface
+T23	Attribution 660 666	height
+T24	Attribution 521 529	end-face
+T25	Component 537 541	bars
+R10	Attr Arg1:T25 Arg2:T24
+T26	ScientificConcept 733 753	predetermined number
+T27	Attribution 757 766	end-faces
+R11	Oper Arg1:T12 Arg2:T11
+R12	MadeOf Arg1:T5 Arg2:T6
+R8	Attr Arg1:T7 Arg2:T23
+R9	Attr Arg1:T8 Arg2:T23

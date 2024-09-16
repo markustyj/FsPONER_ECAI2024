@@ -1,0 +1,41 @@
+T1	Component 3 34	electrically conductive element
+T2	System 65 93	thin film magnetic structure
+T3	Component 99 117	conductive element
+T4	EnergyFlow 122 129	current
+T5	Function 185 199	field coupling
+T6	System 212 231	thin film structure
+T7	Component 240 258	conductive element
+T8	System 298 317	thin film structure
+T9	InfoFlow 363 375	signal field
+T10	Function 400 413	magnetization
+T11	System 421 440	thin film structure
+T12	EnergyFlow 447 454	current
+T13	Function 474 480	analog
+T14	InfoFlow 488 508	applied signal field
+T15	Function 524 537	magnetization
+T16	System 545 564	thin film structure
+T17	Function 579 604	induced magnetic feedback
+T18	EnergyFlow 662 674	signal field
+T19	System 690 709	thin film structure
+T20	ScientificConcept 715 720	noise
+T21	Function 748 762	current analog
+T22	Location 264 290	given magnetic orientation
+T23	Function 346 357	application
+T24	Location 634 643	direction
+T25	ScientificConcept 645 654	harmonics
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T4 Arg2:T3
+R3	Attr Arg1:T8 Arg2:T22
+R4	Purpose Arg1:T4 Arg2:T22
+R6	Oper Arg1:T5 Arg2:T6
+R7	Oper Arg1:T5 Arg2:T7
+R5	Causitive Arg1:T4 Arg2:T5
+R8	Oper Arg1:T23 Arg2:T9
+R9	Oper Arg1:T10 Arg2:T11
+R10	Causitive Arg1:T9 Arg2:T10
+R11	Oper Arg1:T13 Arg2:T14
+R12	Oper Arg1:T15 Arg2:T16
+R13	Attr Arg1:T18 Arg2:T25
+R14	Attr Arg1:T18 Arg2:T24
+R15	Causitive Arg1:T19 Arg2:T18
+R16	Causitive Arg1:T12 Arg2:T17

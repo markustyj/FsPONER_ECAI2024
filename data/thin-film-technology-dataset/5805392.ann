@@ -1,0 +1,56 @@
+T1	Component 4 15	pole pieces
+T2	Component 21 35	thin film head
+T3	Component 54 70	thin film layers
+T4	Material 78 97	magnetic metal NiFe
+T5	Component 104 114	NiFe layer
+T6	Value 127 149	20,000 angstroms thick
+T7	Component 161 172	NiFe layers
+T8	Component 193 222	electrically insulating layer
+T9	Material 226 233	alumina
+T10	Material 235 251	Al.sub.2 O.sub.3
+T11	Material 265 275	NiFe oxide
+T12	Value 290 303	100 angstroms
+T13	Component 332 360	hard-baked photoresist layer
+T14	Attribution 387 392	edges
+T15	Component 400 416	first NiFe layer
+T16	Component 422 451	electrically insulating layer
+T17	Attribution 474 485	top surface
+T18	Component 493 509	first NiFe layer
+T19	Component 523 551	hard-baked photoresist layer
+T20	Component 561 578	second NiFe layer
+T21	Component 615 659	three-layer metal/insulator/metal pole piece
+T23	Component 740 761	thin film NiFe layers
+T25	Component 835 849	small filament
+T26	Component 858 903	high electrical resistance plating seed layer
+T27	Material 907 911	NiFe
+T28	Component 938 959	NiFe thin film layers
+T29	EnergyFlow 965 980	high resistance
+T31	EnergyFlow 1047 1057	resistance
+T32	Component 1069 1090	NiFe thin film layers
+T33	Material 254 261	ceramic
+T22	PhysicsFlow 672 694	hard baked photoresist
+T34	Consequence 702 723	edge short circuiting
+T24	Consequence 786 807	edge short circuiting
+T30	Component 990 1018	long and thin NiFe filaments
+R1	PartOf Arg1:T2 Arg2:T1
+R2	MadeOf Arg1:T3 Arg2:T4
+R3	Measurement Arg1:T5 Arg2:T6
+R4	PartOf Arg1:T1 Arg2:T3
+R5	MadeOf Arg1:T8 Arg2:T9
+R6	Alias Arg1:T9 Arg2:T10
+R7	MadeOf Arg1:T8 Arg2:T33
+R8	MadeOf Arg1:T8 Arg2:T11
+R9	Measurement Arg1:T11 Arg2:T12
+R10	Attr Arg1:T15 Arg2:T14
+R11	Spatial Arg1:T13 Arg2:T14
+R12	Attr Arg1:T18 Arg2:T17
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T16 Arg2:T19
+R15	Purpose Arg1:T22 Arg2:T34
+R16	MadeOf Arg1:T26 Arg2:T27
+R17	PartOf Arg1:T26 Arg2:T25
+R18	Attr Arg1:T30 Arg2:T29
+R19	Attr Arg1:T32 Arg2:T31
+R20	Comparison Arg1:T29 Arg2:T31
+R21	Spatial Arg1:T25 Arg2:T28
+R22	Causitive Arg1:T24 Arg2:T25

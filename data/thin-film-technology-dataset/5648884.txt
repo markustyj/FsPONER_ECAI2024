@@ -1,0 +1,1 @@
+A magnetic layer 16 adopts the shape of an insulating ridge 14 and a multilayer magnetoresistor (MR) functions in a longitudinal mode and underlies the magnetic layer. The device is used for magnetic recording and can be a read-only head or a read-write head.

@@ -1,0 +1,38 @@
+T1	Component 4 14	seed-layer
+T2	Component 19 38	metallization layer
+T3	Component 57 69	coil winding
+T4	Component 75 89	thin film head
+T5	Component 91 94	TFH
+T6	Component 142 166	individual winding turns
+T7	Function 170 187	selective etching
+T8	PhysicsFlow 196 203	etchant
+T9	Component 254 264	seed-layer
+T10	Component 283 295	coil winding
+T11	Component 297 307	insulation
+T12	Material 313 326	gap materials
+T13	Material 373 393	compatible materials
+T14	Component 419 429	seed-layer
+T15	Component 431 443	coil winding
+T16	PhysicsFlow 449 456	etchant
+T17	Material 511 532	nickel-iron Permalloy
+T18	Material 534 540	copper
+T19	Component 548 555	mixture
+T20	Material 559 570	nitric acid
+T21	Material 575 590	phosphoric acid
+T22	Material 602 612	pure water
+T23	Function 659 676	etching processes
+T24	Function 99 116	electrodeposition
+R1	Form Arg1:T1 Arg2:T3
+R2	Form Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T3
+R4	Alias Arg1:T4 Arg2:T5
+R5	Oper Arg1:T24 Arg2:T3
+R6	Oper Arg1:T7 Arg2:T6
+R7	Form Arg1:T13 Arg2:T14
+R8	Form Arg1:T13 Arg2:T15
+R9	Form Arg1:T13 Arg2:T16
+R10	MadeOf Arg1:T13 Arg2:T17
+R11	MadeOf Arg1:T13 Arg2:T18
+R12	MadeOf Arg1:T13 Arg2:T19
+R13	PartOf Arg1:T19 Arg2:T20
+R14	PartOf Arg1:T19 Arg2:T21

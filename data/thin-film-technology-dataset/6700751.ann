@@ -1,0 +1,29 @@
+T1	Component 15 37	magnetoresistive heads
+T2	Component 56 71	wafer substrate
+T3	Component 88 102	electrode pads
+T4	Component 123 138	wafer substrate
+T5	Location 144 159	first direction
+T6	Component 166 179	electrode pad
+T7	Component 199 231	associated magnetoresistive head
+T8	Location 301 317	second direction
+T9	Location 339 354	first direction
+T10	ScientificConcept 360 374	shifted amount
+T11	Component 382 395	adjacent pads
+T12	Location 403 419	second direction
+T13	ScientificConcept 437 446	dimension
+T14	Component 454 467	electrode pad
+T15	Location 475 491	second direction
+T16	Component 233 267	Respective adjacent electrode pads
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Manner Arg1:T5 Arg2:T3
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Manner Arg1:T8 Arg2:T16
+R6	Others Arg1:T8 Arg2:T9
+#1	AnnotatorNotes R6	两个方向垂直，不知道用spatial是否合适,答：spatial说的是两个实物之间的空间关系，用在方向上不适合，用others标引吧
+R7	Attr Arg1:T11 Arg2:T10
+R9	Attr Arg1:T14 Arg2:T13
+R11	Comparison Arg1:T10 Arg2:T13
+#2	AnnotatorNotes R5	这是个manner
+R8	Manner Arg1:T12 Arg2:T10
+R10	Manner Arg1:T15 Arg2:T13

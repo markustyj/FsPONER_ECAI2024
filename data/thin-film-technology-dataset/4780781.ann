@@ -1,0 +1,51 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 39 58	lower magnetic film
+T3	Component 63 82	upper magnetic film
+T4	Component 108 127	lower magnetic film
+T5	Location 145 148	end
+T6	Location 179 182	end
+T7	Component 190 209	lower magnetic film
+T9	Location 244 247	end
+T10	Component 255 274	lower magnetic film
+T11	Shape 285 297	magnetic gap
+T12	EnergyFlow 320 336	magnetic circuit
+T13	Shape 349 361	magnetic gap
+T14	Component 399 418	lower magnetic film
+T15	Component 426 440	conductor coil
+T16	Component 451 455	coil
+T17	Component 485 490	turns
+T18	Component 515 545	upper and lower magnetic films
+T19	EnergyFlow 563 579	magnetic circuit
+T20	Component 593 623	upper and lower magnetic films
+T21	Material 639 661	Co-Ni-Fe ternary alloy
+T22	System 671 708	face-centered cubic crystal structure
+T23	ScientificConcept 716 735	uniaxial anisotropy
+T24	Component 786 791	layer
+T25	Attribution 797 820	predetermined thickness
+T26	Location 836 845	direction
+T27	Attribution 849 858	thickness
+T28	Component 866 870	film
+T8	Location 224 227	end
+R1	Attr Arg1:T21 Arg2:T22
+R2	MadeOf Arg1:T20 Arg2:T21
+R3	PartOf Arg1:T25 Arg2:T24
+R4	Attr Arg1:T28 Arg2:T27
+R5	Manner Arg1:T26 Arg2:T24
+R6	Attr Arg1:T24 Arg2:T23
+R7	PartOf Arg1:T1 Arg2:T2
+R8	PartOf Arg1:T1 Arg2:T3
+R9	Spatial Arg1:T3 Arg2:T4
+R10	PartOf Arg1:T3 Arg2:T5
+R11	PartOf Arg1:T7 Arg2:T6
+R12	Spatial Arg1:T5 Arg2:T6
+R13	PartOf Arg1:T3 Arg2:T8
+R14	PartOf Arg1:T10 Arg2:T9
+R15	Manner Arg1:T11 Arg2:T9
+R16	Spatial Arg1:T9 Arg2:T8
+R17	Causitive Arg1:T8 Arg2:T12
+R18	PartOf Arg1:T12 Arg2:T13
+R19	Attr Arg1:T16 Arg2:T17
+R20	Form Arg1:T15 Arg2:T16
+R21	Spatial Arg1:T17 Arg2:T18
+R22	Spatial Arg1:T17 Arg2:T19
+R23	PartOf Arg1:T12 Arg2:T14

@@ -1,0 +1,1 @@
+A magnetoresistance effect element includes a multilayer obtained by stacking magnetic and nonmagnetic layers to exhibit a magnetoresistance effect, and an reversal assist layer formed on the multilayer to assist reversal of a magnetic moment of the magnetic layer.

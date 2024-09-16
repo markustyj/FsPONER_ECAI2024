@@ -1,0 +1,21 @@
+T1	Component 2 15	magnetic head
+T2	Component 28 37	head base
+T3	Shape 73 89	penetration hole
+T4	Component 106 124	magnetic thin film
+T5	Component 139 148	head base
+T6	EnergyFlow 161 177	magnetic circuit
+T7	Component 184 194	coil wound
+T8	Component 206 224	magnetic thin film
+T9	Component 233 242	head base
+T10	Shape 255 271	penetration hole
+T11	Component 52 58	blocks
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T11
+R3	PartOf Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T5
+R6	Form Arg1:T5 Arg2:T6
+R7	PartOf Arg1:T1 Arg2:T7
+R8	Causitive Arg1:T7 Arg2:T8
+R9	Causitive Arg1:T7 Arg2:T9
+R10	Causitive Arg1:T7 Arg2:T10

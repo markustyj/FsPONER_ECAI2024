@@ -1,0 +1,50 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 32 58	first magnetic core member
+T3	Component 72 81	substrate
+T4	Component 85 94	gap layer
+T5	Component 109 135	first magnetic core member
+T6	Component 143 170	second magnetic core member
+T8	Component 208 234	first magnetic core member
+T9	Component 240 267	second magnetic core member
+T10	Component 286 312	first magnetic core member
+T11	Shape 323 336	magnetic path
+T12	Location 352 363	end portion
+T13	Component 371 380	gap layer
+T14	Location 395 416	gap defining portions
+T15	Component 424 462	first and second magnetic core members
+T16	Component 466 480	coil conductor
+T17	Shape 500 513	magnetic path
+T18	Component 538 564	first magnetic core member
+T19	Component 576 596	first magnetic layer
+T20	Material 607 624	magnetic material
+T21	Function 666 680	heat treatment
+T22	Component 689 716	second magnetic core member
+T23	Component 728 749	second magnetic layer
+T24	EnergyFlow 778 801	saturation flux density
+T26	Component 842 868	first magnetic core member
+T27	Attribution 632 658	stable magnetic properties
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T1 Arg2:T4
+R5	PartOf Arg1:T1 Arg2:T6
+T7	Others 183 198	spaced relation
+R3	Causitive Arg1:T3 Arg2:T2
+R6	Others Arg1:T6 Arg2:T7
+R7	Others Arg1:T8 Arg2:T7
+R8	Causitive Arg1:T9 Arg2:T10
+R9	Form Arg1:T9 Arg2:T11
+R10	Purpose Arg1:T9 Arg2:T12
+R11	PartOf Arg1:T13 Arg2:T12
+R12	PartOf Arg1:T15 Arg2:T14
+R13	Spatial Arg1:T12 Arg2:T14
+R14	Spatial Arg1:T16 Arg2:T17
+R15	PartOf Arg1:T18 Arg2:T19
+R16	MadeOf Arg1:T19 Arg2:T20
+R17	PartOf Arg1:T22 Arg2:T23
+R18	Attr Arg1:T20 Arg2:T27
+T25	Material 760 768	material
+R19	Attr Arg1:T25 Arg2:T24
+T28	Material 826 834	material
+R20	MadeOf Arg1:T26 Arg2:T28
+R21	MadeOf Arg1:T23 Arg2:T25
+R22	Comparison Arg1:T25 Arg2:T28

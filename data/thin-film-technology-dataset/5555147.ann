@@ -1,0 +1,38 @@
+T2	Attribution 99 111	main surface
+T3	Component 117 139	non-magnetic substrate
+T7	Component 306 331	magneto-resistive element
+T10	Attribution 482 494	main surface
+T11	Component 557 566	conductor
+T14	System 629 641	coil pattern
+T15	Location 654 666	forming area
+T16	Location 692 704	reading part
+T13	Location 598 621	outer periphery portion
+T12	System 581 593	coil pattern
+T17	Component 502 524	non-magnetic substrate
+T18	System 433 449	restricted areas
+T9	System 392 427	under and the upper shield patterns
+T19	Location 530 544	recording part
+T6	System 351 386	under and the upper shield patterns
+T8	System 278 298	upper shield pattern
+T5	System 253 273	under shield pattern
+T20	Location 227 239	reading part
+T4	Material 196 221	magnetic recording medium
+T21	Location 49 76	reading and recording parts
+T1	Component 5 37	combined thin film magnetic head
+R1	PartOf Arg1:T1 Arg2:T21
+R3	Attr Arg1:T3 Arg2:T2
+T22	InfoFlow 179 190	information
+R4	PartOf Arg1:T20 Arg2:T5
+R5	PartOf Arg1:T20 Arg2:T8
+R6	PartOf Arg1:T20 Arg2:T7
+R7	Spatial Arg1:T7 Arg2:T6
+R2	Spatial Arg1:T21 Arg2:T2
+R8	Purpose Arg1:T21 Arg2:T22
+R9	Causitive Arg1:T22 Arg2:T4
+R10	PartOf Arg1:T9 Arg2:T18
+R11	Attr Arg1:T17 Arg2:T10
+R12	Comparison Arg1:T18 Arg2:T10
+R13	PartOf Arg1:T19 Arg2:T11
+R14	PartOf Arg1:T11 Arg2:T12
+R15	PartOf Arg1:T14 Arg2:T13
+R16	Form Arg1:T15 Arg2:T16

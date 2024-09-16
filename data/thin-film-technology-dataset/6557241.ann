@@ -1,0 +1,68 @@
+T2	Component 69 74	wafer
+T3	Component 96 138	plural polished amount-monitoring elements
+T5	Component 260 302	plural polished amount-monitoring elements
+T6	Component 370 389	air bearing surface
+T7	Component 430 447	electrode members
+T9	Component 582 587	wafer
+T11	Component 706 709	bar
+T12	Component 850 867	electrode members
+T13	Component 946 950	bars
+T14	Component 1008 1028	air bearing surfaces
+T17	Component 1135 1138	bar
+T19	Component 1218 1237	air bearing surface
+T20	Component 1292 1315	thin film magnetic head
+T1	Component 23 63	combination-type thin film magnetic head
+T4	Component 216 254	inductive-type thin film magnetic head
+T22	Attribution 343 354	inside edge
+T23	Attribution 397 411	joined surface
+T24	Location 455 472	standard position
+T8	Component 510 566	magneto-resistive-effective-type thin film magnetic head
+T25	Component 600 611	plural bars
+T26	Location 694 698	ends
+T27	Component 767 786	air bearing surface
+T28	Component 875 909	polished amount-monitoring element
+T29	Component 925 928	bar
+T30	Location 934 938	ends
+T15	Component 1037 1090	plural combination type thin film magnetic head units
+T16	Attribution 1098 1120	desired Throat Heights
+T18	Component 1151 1198	plural combination type thin film magnetic head
+T31	Function 1428 1446	high yield process
+T32	Attribution 315 333	different distance
+T33	Attribution 480 498	zero-throat height
+T10	Component 625 687	plural arranged combination type thin film magnetic head units
+T34	Value 1259 1274	submicron order
+T35	Effect 1360 1380	little deterioration
+T36	Function 1384 1402	reproducing output
+T37	Function 1204 1210	polish
+T38	ScientificConcept 805 817	continuation
+T39	ScientificConcept 822 837	discontinuation
+T40	ScientificConcept 744 759	polished amount
+T41	ScientificConcept 984 1000	polished amounts
+T21	Effect 1325 1355	high surface recording density
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Attr Arg1:T5 Arg2:T32
+R3	Attr Arg1:T33 Arg2:T24
+R4	PartOf Arg1:T23 Arg2:T6
+R5	Spatial Arg1:T23 Arg2:T7
+R6	Spatial Arg1:T22 Arg2:T6
+R7	Oper Arg1:T9 Arg2:T25
+R8	PartOf Arg1:T25 Arg2:T10
+R9	PartOf Arg1:T11 Arg2:T26
+R10	Attr Arg1:T27 Arg2:T40
+R11	PartOf Arg1:T28 Arg2:T12
+R12	Spatial Arg1:T12 Arg2:T29
+R13	PartOf Arg1:T13 Arg2:T30
+R14	Attr Arg1:T14 Arg2:T41
+R15	Causitive Arg1:T26 Arg2:T38
+R16	Causitive Arg1:T26 Arg2:T39
+R17	Attr Arg1:T15 Arg2:T16
+R18	Oper Arg1:T17 Arg2:T18
+R19	Attr Arg1:T19 Arg2:T37
+R20	Attr Arg1:T20 Arg2:T21
+R21	Attr Arg1:T20 Arg2:T35
+R22	Attr Arg1:T36 Arg2:T35
+R23	Oper Arg1:T31 Arg2:T20
+R24	Oper Arg1:T37 Arg2:T34
+#1	AnnotatorNotes R24	被控制在...级别 关系是operation还是purpose，答：manner更合适，描述涂抹的方式
+#2	AnnotatorNotes R16	方向反了
+#3	AnnotatorNotes R15	方向反了

@@ -1,0 +1,23 @@
+T1	Component 2 25	thin film magnetic head
+T4	Location 105 117	read portion
+T6	Component 225 241	conductive leads
+T9	Component 321 332	GMR element
+T10	Attribution 341 357	data track width
+T11	Location 42 65	inductive write portion
+T2	Component 80 98	pole/shield layers
+T3	Component 130 166	giant magnetoresistive (GMR) element
+T12	Component 172 190	pole/shield layers
+T8	Function 377 394	off-track reading
+T14	Function 276 291	minimal heating
+T5	EnergyFlow 296 315	low current density
+T13	EnergyFlow 258 270	high current
+R1	PartOf Arg1:T11 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T11
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T3
+R5	Purpose Arg1:T12 Arg2:T6
+R6	Causitive Arg1:T6 Arg2:T13
+R7	Manner Arg1:T14 Arg2:T13
+R8	Manner Arg1:T5 Arg2:T13
+R9	Causitive Arg1:T9 Arg2:T10
+R10	Causitive Arg1:T10 Arg2:T8

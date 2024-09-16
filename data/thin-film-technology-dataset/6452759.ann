@@ -1,0 +1,75 @@
+T1	Component 33 89	yoke type magnetoresistive (MR) composite thin film head
+T2	Component 119 144	recording/reproducing gap
+T3	Attribution 167 192	recording characteristics
+T4	Attribution 197 225	reproduction characteristics
+T5	Shape 229 241	magnetic gap
+T6	Location 265 278	front portion
+T7	EnergyFlow 285 295	upper pole
+T8	Location 304 317	front portion
+T9	EnergyFlow 323 333	lower pole
+T10	Location 347 359	rear portion
+T11	EnergyFlow 367 377	upper pole
+T12	Location 386 398	rear portion
+T13	EnergyFlow 406 416	lower pole
+T14	Shape 456 474	magnetic flux path
+T15	System 478 490	mesa pattern
+T16	Shape 520 532	magnetic gap
+T17	Component 542 566	magnetoresistive element
+T18	System 568 578	MR pattern
+T19	Shape 599 610	front slope
+T20	System 621 633	mesa pattern
+T21	EnergyFlow 641 651	upper pole
+T22	EnergyFlow 662 672	lower pole
+T23	Component 708 718	MR element
+T24	Shape 738 770	separate magnetic flux flow path
+T25	Component 779 789	MR element
+T26	Shape 798 830	separate magnetic flux flow path
+T27	InfoFlow 861 891	magnetic recording information
+T30	System 928 940	mesa pattern
+T31	EnergyFlow 948 958	upper pole
+T32	EnergyFlow 969 979	lower pole
+T33	Shape 990 993	gap
+T34	EnergyFlow 1014 1019	poles
+T35	Attribution 1036 1041	ratio
+T36	Function 1045 1055	generation
+T37	EnergyFlow 1063 1087	recording magnetic field
+T38	System 1091 1103	lead pattern
+T39	Shape 1127 1138	front slope
+T40	Shape 1152 1162	side slope
+T41	Shape 106 109	gap
+T28	Component 895 908	write-in coil
+T29	Location 1001 1006	midst
+R1	PartOf Arg1:T1 Arg2:T41
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Purpose Arg1:T1 Arg2:T3
+R4	Purpose Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T6
+R7	PartOf Arg1:T9 Arg2:T8
+R8	Spatial Arg1:T5 Arg2:T8
+R9	PartOf Arg1:T11 Arg2:T10
+R10	PartOf Arg1:T13 Arg2:T12
+R11	Spatial Arg1:T10 Arg2:T12
+R12	Form Arg1:T10 Arg2:T14
+R13	Form Arg1:T12 Arg2:T14
+R14	Spatial Arg1:T17 Arg2:T19
+R15	Attr Arg1:T20 Arg2:T19
+R16	Alias Arg1:T17 Arg2:T18
+R17	Spatial Arg1:T21 Arg2:T22
+R18	Manner Arg1:T23 Arg2:T21
+R19	Purpose Arg1:T21 Arg2:T24
+R20	Manner Arg1:T25 Arg2:T24
+R21	Manner Arg1:T23 Arg2:T22
+R22	Purpose Arg1:T26 Arg2:T42
+R23	Spatial Arg1:T28 Arg2:T30
+R24	Attr Arg1:T34 Arg2:T29
+R27	Manner Arg1:T29 Arg2:T33
+R28	Generate Arg1:T36 Arg2:T37
+R29	Attr Arg1:T36 Arg2:T35
+R30	Spatial Arg1:T39 Arg2:T38
+R31	Manner Arg1:T40 Arg2:T38
+#1	AnnotatorNotes R13	form妥当些
+#2	AnnotatorNotes R12	form妥当些
+T42	Function 843 855	reproduction
+R32	Oper Arg1:T42 Arg2:T27
+#4	AnnotatorNotes R30	spatial是否更好？

@@ -1,0 +1,25 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 37 43	slider
+T3	Component 48 78	thin film magnetic transducers
+T4	Component 84 90	slider
+T5	Component 106 136	thin film magnetic transducers
+T6	Component 160 190	thin film magnetic transducers
+T7	Component 196 225	magnetoresistive read element
+T8	EnergyFlow 231 250	surface resistivity
+T9	Component 264 277	magnetic film
+T10	Component 285 298	magnetic disk
+T13	Component 383 406	thin film magnetic head
+T14	Component 414 427	magnetic disk
+T15	Consequence 432 450	electric discharge
+T11	Value 313 318	range
+T16	Value 335 358	0.03.OMEGA..multidot.cm
+T12	Consequence 360 373	Electric leak
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	InstanceOf Arg1:T6 Arg2:T7
+R5	Attr Arg1:T9 Arg2:T8
+R4	PartOf Arg1:T10 Arg2:T9
+R6	Measurement Arg1:T8 Arg2:T11
+R7	Measurement Arg1:T11 Arg2:T16
+R8	Causitive Arg1:T4 Arg2:T5
+R9	Spatial Arg1:T13 Arg2:T14

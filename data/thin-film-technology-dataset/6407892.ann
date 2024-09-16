@@ -1,0 +1,78 @@
+T1	Component 2 39	magnetic recording and reading device
+T2	ScientificConcept 52 65	transfer rate
+T3	Value 83 90	50 MB/s
+T4	Material 112 137	magnetic recording medium
+T5	Value 148 162	absolute value
+T6	ScientificConcept 166 194	normalized noise coefficient
+T7	Attribution 199 216	recording density
+T8	Value 234 291	2.5.times.10.sup.--8 (..mu.Vrms)((inch)((..mu.m)..sup.0.5 /((..mu
+T9	Component 302 339	magnetic recording and reading device
+T10	Component 356 369	magnetic head
+T11	Function 393 422	integrated circuit suspension
+T12	EnergyFlow 433 449	total inductance
+T13	Component 497 510	magnetic core
+T14	Value 534 542	35 .mu.m
+T15	Attribution 546 552	length
+T16	Component 568 581	magnetic core
+T17	Component 600 613	magnetic film
+T18	Attribution 623 634	resistivity
+T19	Value 654 670	50 .mu...OMEGA.cm
+T20	Component 679 694	multilayer film
+T21	Component 711 724	magnetic film
+T22	Component 732 747	insulating film
+T24	Attribution 772 782	line width
+T25	Value 800 810	0.35 .mu.m
+T27	Location 857 865	rear end
+T28	Component 873 886	magnetic head
+T29	Component 896 909	magnetic head
+T30	Component 929 944	reading element
+T31	Component 965 1003	giant magnetoresistance effect element
+T32	Component 1010 1019	thin film
+T33	EnergyFlow 1027 1061	tunneling-magnetoresistance effect
+T34	Attribution 1071 1092	effective track width
+T35	Value 1110 1119	0.9 .mu.m
+T36	InfoFlow 1151 1171	magnetic information
+T37	Attribution 1178 1191	areal density
+T38	Value 234 296	2.5.times.10.sup.-8 (.mu.Vrms)(inch)(.mu.m).sup.0.5 /(.mu.Vpp)
+T39	Value 481 486	65 nH
+T40	Value 654 670	50 .mu..OMEGA.cm
+T23	Value 845 849	2 cm
+T26	Value 1209 1222	5 Gb/in.sup.2
+T41	Component 751 762	fast R/W-IC
+T42	Location 556 560	part
+R1	Attr Arg1:T1 Arg2:T2
+R2	Measurement Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R5	Measurement Arg1:T6 Arg2:T5
+R6	Attr Arg1:T4 Arg2:T6
+R4	Attr Arg1:T6 Arg2:T7
+R7	Measurement Arg1:T6 Arg2:T38
+R8	PartOf Arg1:T9 Arg2:T10
+R9	Manner Arg1:T11 Arg2:T10
+R10	Purpose Arg1:T10 Arg2:T12
+R11	Measurement Arg1:T12 Arg2:T39
+R12	PartOf Arg1:T10 Arg2:T13
+R13	Measurement Arg1:T13 Arg2:T15
+R14	Measurement Arg1:T15 Arg2:T14
+R15	PartOf Arg1:T16 Arg2:T42
+R16	Form Arg1:T17 Arg2:T42
+R17	Attr Arg1:T42 Arg2:T18
+R18	Measurement Arg1:T18 Arg2:T40
+R19	Form Arg1:T20 Arg2:T42
+R20	PartOf Arg1:T20 Arg2:T21
+R21	PartOf Arg1:T20 Arg2:T22
+R22	Attr Arg1:T41 Arg2:T24
+R23	Measurement Arg1:T24 Arg2:T25
+R24	Attr Arg1:T28 Arg2:T27
+R25	Measurement Arg1:T27 Arg2:T23
+#1	AnnotatorNotes R25	这个2cm并不是一个直接的度量，不知道应不应该加，答：不用加了，这是度量距离的，但距离实体没出现
+R26	PartOf Arg1:T30 Arg2:T31
+R27	PartOf Arg1:T30 Arg2:T32
+R28	Manner Arg1:T30 Arg2:T29
+#2	AnnotatorNotes R28	使用A产生B，不知道这个符不符合，答：这里with表示具有，翻译过来就是具有读元素的磁头，所以应该标引ownership
+R29	Attr Arg1:T32 Arg2:T33
+R30	Measurement Arg1:T34 Arg2:T35
+R31	Measurement Arg1:T37 Arg2:T26
+R32	Manner Arg1:T37 Arg2:T36
+R33	Attr Arg1:T29 Arg2:T34
+R34	Causitive Arg1:T29 Arg2:T36

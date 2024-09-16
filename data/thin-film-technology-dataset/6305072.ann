@@ -1,0 +1,63 @@
+T1	Component 21 44	thin film magnetic head
+T2	Component 57 76	upper magnetic pole
+T3	Component 92 111	lower magnetic pole
+T5	Location 184 198	convex portion
+T6	Attribution 236 247	track width
+T7	Location 263 277	convex portion
+T8	Component 286 309	lower magnetic pole tip
+T9	Component 385 412	non-magnetic material layer
+T10	Component 426 442	flattening layer
+T12	Component 493 511	non-magnetic layer
+T14	Location 611 626	concave portion
+T17	Component 737 751	magnetic layer
+T19	Component 807 826	upper magnetic pole
+T20	Component 848 871	lower magnetic pole tip
+T22	Shape 944 956	magnetic gap
+T23	System 1044 1071	narrow track head structure
+T24	Shape 122 134	magnetic gap
+T4	Component 161 180	lower magnetic pole
+T25	Attribution 214 219	width
+T26	Shape 327 334	contour
+T27	Shape 342 354	convex shape
+T28	Component 362 381	lower magnetic pole
+T29	Component 460 487	non-magnetic material layer
+T11	Component 531 547	flattening layer
+T30	Component 567 571	mask
+T31	Component 580 607	non-magnetic material layer
+T13	Location 647 678	lower portion magnetic pole top
+T16	Location 718 733	concave portion
+T32	Component 753 776	upper magnetic pole tip
+T15	Location 680 694	convex portion
+T18	Component 880 903	upper magnetic pole tip
+T21	Attribution 909 915	widths
+T33	Attribution 919 927	surfaces
+T34	Location 983 1000	central positions
+T35	Effect 1077 1090	high accuracy
+R1	Form Arg1:T7 Arg2:T8
+R2	Attr Arg1:T28 Arg2:T27
+R3	Attr Arg1:T27 Arg2:T26
+R4	Spatial Arg1:T10 Arg2:T29
+R5	Causitive Arg1:T11 Arg2:T12
+R7	Alias Arg1:T13 Arg2:T15
+R8	Spatial Arg1:T14 Arg2:T13
+R9	PartOf Arg1:T31 Arg2:T14
+R10	PartOf Arg1:T19 Arg2:T17
+R11	PartOf Arg1:T16 Arg2:T17
+R12	InstanceOf Arg1:T32 Arg2:T17
+R13	Attr Arg1:T33 Arg2:T21
+R14	Spatial Arg1:T33 Arg2:T22
+R15	Attr Arg1:T20 Arg2:T33
+R16	Attr Arg1:T18 Arg2:T33
+R17	Attr Arg1:T20 Arg2:T34
+R18	Attr Arg1:T20 Arg2:T34
+R19	Spatial Arg1:T20 Arg2:T18
+R20	Purpose Arg1:T23 Arg2:T35
+R21	Spatial Arg1:T2 Arg2:T3
+R22	Comparison Arg1:T25 Arg2:T6
+R23	Attr Arg1:T5 Arg2:T25
+R24	Spatial Arg1:T4 Arg2:T5
+R26	PartOf Arg1:T2 Arg2:T1
+R25	Causitive Arg1:T1 Arg2:T24
+#1	AnnotatorNotes R26	语义关系的方向反了，拥有者-->被拥有者
+R6	Form Arg1:T11 Arg2:T30
+#2	AnnotatorNotes R6	A当作B来用，用form关系更合适一些

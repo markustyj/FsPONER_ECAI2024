@@ -1,0 +1,94 @@
+T1	Shape 2 14	through hole
+T2	Component 36 41	wafer
+T3	Component 61 84	semiconductor substrate
+T4	Component 94 104	seed layer
+T5	Attribution 131 145	bottom surface
+T6	Component 153 158	wafer
+T7	Component 164 168	seed
+T8	Shape 195 208	through hole'
+T9	Location 210 219	sidewalls
+T10	Attribution 233 244	top surface
+T11	Component 252 257	wafer
+T12	Component 261 270	conductor
+T13	Shape 303 315	through hole
+T14	Component 342 346	seed
+T15	Shape 368 375	opening
+T16	Component 381 386	wafer
+T17	Component 397 417	dry film resist mask
+T18	PhysicsFlow 430 445	dry film resist
+T19	Attribution 460 465	edges
+T20	Shape 473 480	opening
+T21	Component 489 493	seed
+T22	Shape 520 528	opening'
+T23	Location 530 539	sidewalls
+T24	Attribution 553 564	top surface
+T25	Component 572 577	wafer
+T27	Shape 637 644	opening
+T28	Component 650 673	semiconductor substrate
+T29	Function 685 738	non-conformal physical vapor deposition (PVD) process
+T30	Material 757 767	dielectric
+T31	Location 775 784	sidewalls
+T32	Location 797 803	bottom
+T33	Shape 811 818	opening
+T34	Component 822 826	seed
+T35	Component 850 856	bottom
+T36	Component 883 892	conductor
+T37	Component 923 927	seed
+T38	Material 954 964	dielectric
+T39	Shape 989 996	opening
+T40	Attribution 1010 1024	entire surface
+T41	Shape 1032 1039	opening
+T42	Component 1043 1062	non-conformal layer
+T43	Location 1098 1107	sidewalls
+T44	Location 1120 1126	bottom
+T45	Shape 1134 1141	opening
+T46	Material 1147 1157	dielectric
+T47	Location 1183 1189	bottom
+T48	Component 1199 1218	non-conformal layer
+T49	Component 1230 1234	mask
+T50	Component 1238 1242	seed
+T51	Location 1266 1272	bottom
+T52	Component 1301 1320	non-conformal layer
+T53	Function 1338 1352	electroplating
+T54	Function 1386 1400	electroplating
+T26	Material 604 614	dielectric
+T55	Function 860 879	electroless plating
+T56	Function 1085 1088	PVD
+T57	Function 1276 1295	electroless plating
+T58	Material 1364 1372	tantalum
+R1	PartOf Arg1:T2 Arg2:T3
+R2	Attr Arg1:T6 Arg2:T5
+R3	Spatial Arg1:T1 Arg2:T2
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Attr Arg1:T11 Arg2:T10
+R6	Spatial Arg1:T15 Arg2:T16
+R7	Spatial Arg1:T14 Arg2:T15
+R8	Causitive Arg1:T14 Arg2:T17
+R9	Attr Arg1:T8 Arg2:T9
+R10	Spatial Arg1:T12 Arg2:T13
+R11	Spatial Arg1:T9 Arg2:T10
+R12	Spatial Arg1:T34 Arg2:T35
+R13	Oper Arg1:T55 Arg2:T34
+R14	Spatial Arg1:T36 Arg2:T37
+R15	Attr Arg1:T20 Arg2:T19
+R16	Attr Arg1:T22 Arg2:T23
+R17	Spatial Arg1:T23 Arg2:T24
+R18	Attr Arg1:T25 Arg2:T24
+R19	Spatial Arg1:T26 Arg2:T27
+R20	Spatial Arg1:T27 Arg2:T28
+R21	Oper Arg1:T29 Arg2:T26
+R22	Causitive Arg1:T29 Arg2:T30
+R24	Attr Arg1:T33 Arg2:T32
+R25	Spatial Arg1:T38 Arg2:T39
+R26	Purpose Arg1:T38 Arg2:T40
+R27	Attr Arg1:T41 Arg2:T40
+R28	Attr Arg1:T45 Arg2:T44
+R29	Oper Arg1:T56 Arg2:T42
+R30	Spatial Arg1:T42 Arg2:T43
+R31	Spatial Arg1:T50 Arg2:T51
+R32	Oper Arg1:T57 Arg2:T50
+R33	Oper Arg1:T53 Arg2:T52
+R34	Causitive Arg1:T46 Arg2:T48
+R35	InstanceOf Arg1:T48 Arg2:T49
+R36	Oper Arg1:T54 Arg2:T58
+R23	Causitive Arg1:T30 Arg2:T31

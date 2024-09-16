@@ -1,0 +1,63 @@
+T1	Component 28 57	thin film magnetic transducer
+T2	Component 69 74	layer
+T3	Material 78 98	photoresist material
+T4	Component 180 197	photoresist layer
+T5	Shape 257 298	multi-turn spiral type rectangular trench
+T8	Component 388 406	first coil section
+T9	Shape 424 430	trench
+T10	Component 480 485	layer
+T11	Component 529 542	blocking mask
+T12	Location 565 572	portion
+T13	Component 580 598	first coil section
+T14	Component 662 666	coil
+T15	Component 694 707	blocking mask
+T16	Component 864 877	blocking mask
+T18	ScientificConcept 996 1012	alignment errors
+T20	Component 122 127	turns
+T21	Component 133 157	bi-level electrical coil
+T22	Attribution 163 172	thickness
+T23	Component 240 253	bi-level coil
+T24	Attribution 218 232	maximum height
+T25	Shape 323 330	pattern
+T26	System 338 352	coil structure
+T6	Function 361 384	first coil plating step
+T7	Location 452 460	midpoint
+T27	Attribution 468 474	height
+T28	Material 493 508	resist material
+T29	Attribution 638 644	height
+T30	Location 650 654	area
+T31	Shape 734 749	initial pattern
+T32	Location 781 798	unblocked section
+T33	Component 761 773	partial turn
+T34	Location 811 814	top
+T35	Shape 822 828	groove
+T36	Material 834 855	cured resist material
+T37	Function 907 920	plating steps
+T38	Shape 933 945	same pattern
+T39	Material 974 994	photoresist material
+T17	ScientificConcept 1017 1031	mask tolerance
+T41	Effect 1137 1150	higher yields
+T19	Effect 1155 1180	lower manufacturing costs
+R1	Attr Arg1:T3 Arg2:T2
+R2	Purpose Arg1:T3 Arg2:T20
+R3	PartOf Arg1:T21 Arg2:T20
+R4	Attr Arg1:T4 Arg2:T22
+R5	Comparison Arg1:T22 Arg2:T24
+R6	Attr Arg1:T23 Arg2:T24
+R7	Purpose Arg1:T5 Arg2:T25
+R8	Attr Arg1:T26 Arg2:T25
+R9	Spatial Arg1:T8 Arg2:T9
+R11	Attr Arg1:T27 Arg2:T7
+R12	Attr Arg1:T28 Arg2:T10
+R13	Spatial Arg1:T11 Arg2:T12
+R14	PartOf Arg1:T13 Arg2:T12
+R15	Attr Arg1:T13 Arg2:T29
+R16	PartOf Arg1:T14 Arg2:T30
+R17	Causitive Arg1:T15 Arg2:T30
+R18	Causitive Arg1:T31 Arg2:T30
+R20	Causitive Arg1:T33 Arg2:T34
+R21	PartOf Arg1:T35 Arg2:T34
+R22	Spatial Arg1:T38 Arg2:T39
+R10	Spatial Arg1:T8 Arg2:T7
+R19	PartOf Arg1:T32 Arg2:T33
+R23	Causitive Arg1:T37 Arg2:T38

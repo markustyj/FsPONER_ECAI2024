@@ -1,0 +1,41 @@
+T1	System 2 22	head piece aggregate
+T2	Component 64 96	thin-film magnetic head elements
+T3	Component 111 116	wafer
+T4	Component 155 187	thin-film magnetic head elements
+T5	Component 242 274	thin-film magnetic head elements
+T6	System 306 326	head piece aggregate
+T7	System 430 450	head piece aggregate
+T8	System 610 630	head piece aggregate
+T9	System 717 737	head piece aggregate
+T10	Function 201 221	lattice-like pattern
+T11	Component 227 236	base body
+T12	Location 349 368	same directionality
+T13	Attribution 374 387	given surface
+T14	Attribution 410 422	cut surfaces
+T15	Component 468 481	mounting tool
+T16	Function 490 499	polishing
+T17	Attribution 524 537	other surface
+T18	Attribution 673 686	throat height
+T19	ScientificConcept 660 669	Deviation
+T20	ScientificConcept 53 60	columns
+T21	ScientificConcept 282 289	columns
+T22	ScientificConcept 549 565	uppermost column
+T23	ScientificConcept 586 593	columns
+T24	Function 697 709	bow and bend
+R1	PartOf Arg1:T1 Arg2:T20
+R2	PartOf Arg1:T2 Arg2:T20
+R3	Spatial Arg1:T3 Arg2:T1
+R4	Manner Arg1:T10 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T11
+R6	PartOf Arg1:T6 Arg2:T21
+R7	PartOf Arg1:T21 Arg2:T5
+R8	Attr Arg1:T5 Arg2:T12
+R10	Attr Arg1:T7 Arg2:T14
+R11	Spatial Arg1:T14 Arg2:T15
+R13	Oper Arg1:T16 Arg2:T17
+R14	PartOf Arg1:T23 Arg2:T22
+R15	PartOf Arg1:T8 Arg2:T23
+R16	Oper Arg1:T24 Arg2:T9
+R17	Generate Arg1:T24 Arg2:T19
+R18	Others Arg1:T18 Arg2:T19
+R9	Spatial Arg1:T5 Arg2:T13

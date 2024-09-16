@@ -1,0 +1,86 @@
+T1	Component 2 28	magnetoresistive (MR) head
+T2	Component 41 48	MR film
+T3	Attribution 60 71	bottom edge
+T4	Material 103 118	magnetic medium
+T5	Location 122 132	first side
+T6	Attribution 140 158	first outside edge
+T7	Location 166 177	second side
+T8	Attribution 185 204	second outside edge
+T9	Attribution 210 228	first outside edge
+T10	Location 242 251	direction
+T11	Measure 266 278	obtuse angle
+T12	Attribution 288 299	bottom edge
+T13	Component 303 319	first lead layer
+T14	Component 353 374	magnetoresistive film
+T15	Attribution 382 400	first outside edge
+T16	Component 408 425	second lead layer
+T17	Component 459 480	magnetoresistive film
+T18	Attribution 488 507	second outside edge
+T19	Location 524 535	orientation
+T20	Attribution 543 561	first outside edge
+T21	Component 569 576	MR film
+T22	EnergyFlow 578 591	magnetic flux
+T23	Material 601 616	magnetic medium
+T24	Component 657 664	MR film
+T25	Attribution 694 712	first outside edge
+T26	ScientificConcept 727 751	read sensitivity profile
+T27	Component 759 766	MR head
+T29	Attribution 811 845	first and the second outside edges
+T30	Component 853 860	MR film
+T31	Location 876 889	lower portion
+T32	Attribution 925 936	bottom edge
+T33	Location 944 957	upper portion
+T34	Location 973 982	direction
+T35	Measure 997 1009	obtuse angle
+T36	Attribution 1019 1030	bottom edge
+T37	Consequence 1047 1056	variation
+T38	Attribution 1064 1069	width
+T39	Component 1077 1084	MR film
+T41	Location 1129 1143	lower portions
+T42	Location 1151 1181	first and second outside edges
+T43	Attribution 1248 1254	height
+T44	Component 1262 1269	MR film
+T45	Attribution 1287 1306	second outside edge
+T46	Attribution 1314 1332	first outside edge
+T47	ScientificConcept 1360 1384	read sensitivity profile
+T48	Component 1392 1399	MR head
+T28	ScientificConcept 1100 1116	height tolerance
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T7
+R6	Attr Arg1:T5 Arg2:T6
+R7	Attr Arg1:T7 Arg2:T8
+R9	Manner Arg1:T10 Arg2:T9
+R8	Spatial Arg1:T9 Arg2:T11
+R11	Spatial Arg1:T12 Arg2:T11
+R12	Spatial Arg1:T13 Arg2:T14
+R13	Spatial Arg1:T16 Arg2:T17
+R16	Generate Arg1:T23 Arg2:T22
+R17	Manner Arg1:T24 Arg2:T22
+R18	Causitive Arg1:T25 Arg2:T22
+R19	Attr Arg1:T20 Arg2:T19
+R20	Attr Arg1:T21 Arg2:T20
+R21	Attr Arg1:T27 Arg2:T26
+R22	Attr Arg1:T30 Arg2:T29
+R23	PartOf Arg1:T29 Arg2:T31
+R24	PartOf Arg1:T29 Arg2:T33
+R25	Spatial Arg1:T31 Arg2:T32
+R27	Manner Arg1:T34 Arg2:T33
+#2	AnnotatorNotes T35	“钝角”和“底部边缘”以及"钝角"和“上边部分”之间应该标注spatial吗？
+R28	Attr Arg1:T39 Arg2:T38
+R29	PartOf Arg1:T42 Arg2:T41
+R30	Attr Arg1:T38 Arg2:T37
+R31	Purpose Arg1:T28 Arg2:T37
+#3	AnnotatorNotes R31	这里不知道该如何标引，暂时标注成了“generate”，答：由A导致了B，使用purpose
+R32	Attr Arg1:T44 Arg2:T43
+R33	Manner Arg1:T45 Arg2:T43
+R34	Manner Arg1:T46 Arg2:T43
+R35	Attr Arg1:T48 Arg2:T47
+#4	AnnotatorNotes R8	两个边缘A、B形成一个夹角C，用A--》C，B--》C更合适一些
+#6	AnnotatorNotes R16	磁媒介发出的磁通量，使用generate更合适
+R10	Spatial Arg1:T33 Arg2:T35
+R26	Spatial Arg1:T36 Arg2:T35
+R14	Manner Arg1:T15 Arg2:T14
+R15	Manner Arg1:T18 Arg2:T17

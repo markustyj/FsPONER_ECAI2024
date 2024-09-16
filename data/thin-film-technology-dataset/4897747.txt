@@ -1,0 +1,1 @@
+In a method for making a thin-film magnetic head, there are stages for depositing hardening material in the plane of the magnetic films and in the neighbourhood of the active surface of the magnetic head. The invention also relates to a magnetic head made according to this method. The invention can be applied to thin-film magnetic heads for magnetic tape read/write devices.

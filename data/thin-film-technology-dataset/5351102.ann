@@ -1,0 +1,49 @@
+T1	System 2 8	camera
+T2	Component 17 21	film
+T3	Attribution 31 47	magnetic surface
+T4	System 89 95	camera
+T5	Component 107 120	magnetic head
+T6	Attribution 156 172	magnetic surface
+T7	Component 223 226	pad
+T8	Component 255 268	magnetic head
+T9	Component 306 310	film
+T10	Component 337 340	pad
+T11	Component 349 362	magnetic head
+T12	Attribution 402 418	magnetic surface
+T13	Component 426 430	film
+T14	Component 483 486	pad
+T15	System 522 544	film feeding mechanism
+T16	Component 557 560	pad
+T18	InfoFlow 62 75	magnetic data
+T19	InfoFlow 133 146	magnetic data
+T20	InfoFlow 189 202	magnetic data
+T21	Component 287 300	magnetic head
+T22	InfoFlow 368 381	magnetic data
+T23	InfoFlow 439 452	magnetic data
+T24	Component 502 507	motor
+T25	Shape 581 598	film feeding path
+T26	Function 604 616	data writing
+T27	Function 621 633	data reading
+T28	System 656 680	planetary gear mechanism
+T29	Component 694 699	motor
+T30	System 717 738	pad driving mechanism
+T17	System 745 767	film feeding mechanism
+R1	Attr Arg1:T2 Arg2:T3
+R2	Purpose Arg1:T2 Arg2:T18
+R3	Causitive Arg1:T1 Arg2:T2
+R4	PartOf Arg1:T4 Arg2:T5
+R5	Purpose Arg1:T5 Arg2:T19
+R6	Purpose Arg1:T5 Arg2:T20
+R8	Spatial Arg1:T7 Arg2:T8
+R9	Spatial Arg1:T8 Arg2:T21
+R11	Attr Arg1:T13 Arg2:T12
+R7	Manner Arg1:T6 Arg2:T19
+R12	Manner Arg1:T12 Arg2:T22
+R13	Spatial Arg1:T9 Arg2:T10
+R10	Spatial Arg1:T9 Arg2:T11
+R15	Causitive Arg1:T24 Arg2:T14
+R14	Purpose Arg1:T24 Arg2:T15
+R16	Spatial Arg1:T16 Arg2:T25
+R17	Spatial Arg1:T28 Arg2:T29
+R18	Spatial Arg1:T29 Arg2:T30
+R19	Spatial Arg1:T29 Arg2:T17

@@ -1,0 +1,35 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 37 50	magnetic core
+T4	Component 145 149	coil
+T8	Component 374 392	magnetic thin film
+T11	Component 63 98	upper and lower magnetic pole films
+T3	Component 124 138	read-write gap
+T12	Component 171 206	upper and lower magnetic pole films
+T5	Component 242 277	upper and lower magnetic pole films
+T6	Component 294 312	thin-film laminate
+T7	Attribution 320 340	alternating magnetic
+T13	Component 345 368	non-magnetic thin films
+T14	Attribution 433 455	soft magnetic property
+T15	Material 405 423	amorphous Co alloy
+T9	Measure 462 471	thickness
+T17	Component 521 543	non-magnetic thin-film
+T10	Component 555 573	non-magnetic metal
+T18	Material 580 598	insulating nitride
+T16	Value 490 499	0.1 .mu.m
+T19	Value 503 512	0.5 .mu.m
+T20	Shape 233 236	gap
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T11
+R3	PartOf Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T12
+R5	Purpose Arg1:T11 Arg2:T3
+R6	PartOf Arg1:T5 Arg2:T6
+R7	Attr Arg1:T13 Arg2:T7
+R8	PartOf Arg1:T6 Arg2:T13
+R9	Attr Arg1:T15 Arg2:T14
+R10	Attr Arg1:T15 Arg2:T9
+R11	Measurement Arg1:T9 Arg2:T16
+R12	Measurement Arg1:T9 Arg2:T19
+R13	PartOf Arg1:T8 Arg2:T15
+R14	PartOf Arg1:T17 Arg2:T10
+R15	PartOf Arg1:T17 Arg2:T18

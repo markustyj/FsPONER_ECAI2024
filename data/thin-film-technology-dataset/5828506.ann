@@ -1,0 +1,36 @@
+T1	System 0 22	Photographic apparatus
+T3	Location 66 81	magnetic region
+T4	Attribution 91 95	edge
+T5	Component 99 116	photographic film
+T6	Component 145 158	magnetic head
+T7	Location 205 220	magnetic region
+T8	Component 224 228	film
+T9	Component 250 263	magnetic head
+T10	Component 269 282	magnetic head
+T11	Shape 292 305	frustum shape
+T12	Location 313 322	direction
+T13	Component 326 330	film
+T14	Shape 359 371	magnetic gap
+T15	Location 379 385	center
+T16	Shape 393 400	frustum
+T17	Attribution 414 445	magnetic head-to-film interface
+T19	Location 507 518	gap regions
+T2	System 122 131	apparatus
+T18	Location 471 478	regions
+T20	Component 172 186	said apparatus
+R1	Attr Arg1:T5 Arg2:T4
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Purpose Arg1:T1 Arg2:T3
+R5	Manner Arg1:T11 Arg2:T12
+R4	Attr Arg1:T13 Arg2:T12
+R6	Attr Arg1:T10 Arg2:T11
+R7	Attr Arg1:T16 Arg2:T15
+R8	Spatial Arg1:T14 Arg2:T15
+R9	Spatial Arg1:T18 Arg2:T19
+R10	Spatial Arg1:T17 Arg2:T18
+R11	Spatial Arg1:T6 Arg2:T7
+R12	PartOf Arg1:T8 Arg2:T7
+R13	PartOf Arg1:T2 Arg2:T6
+R14	Causitive Arg1:T20 Arg2:T6
+R15	Manner Arg1:T7 Arg2:T9
+#1	AnnotatorNotes R15	穿过磁性区域 这里的穿过关系如何标注？不确定

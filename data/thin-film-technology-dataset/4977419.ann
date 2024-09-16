@@ -1,0 +1,62 @@
+T6	Component 306 310	film
+T9	Component 609 613	film
+T11	Component 728 732	film
+T12	Component 930 934	film
+T13	Component 1177 1182	track
+T1	Component 2 38	virtually transparent magnetic layer
+T2	Component 57 73	additional layer
+T14	Component 79 98	color negative film
+T15	Function 100 120	Information exchange
+T16	Component 150 154	film
+T3	Component 263 298	plural longitudinal magnetic tracks
+T4	Component 333 350	individual frames
+T18	Component 455 474	corresponding frame
+T19	ScientificConcept 429 439	parameters
+T8	Component 558 581	camera-dedicated tracks
+T20	Attribution 596 601	edges
+T10	ScientificConcept 741 765	novel self-clocking code
+T21	Location 1235 1259	film transport direction
+T22	Others 182 199	film manufacturer
+T23	Others 205 216	camera user
+T24	Others 222 228	dealer
+T25	Others 233 246	photofinisher
+T5	Location 520 538	exposed image area
+T26	Location 480 510	photofinisher-dedicated tracts
+T27	Shape 626 643	film perforations
+T30	Effect 821 851	automatic data synchronization
+T31	Others 864 877	various users
+T32	Function 942 952	same speed
+T33	Function 966 979	uniform speed
+T34	ScientificConcept 1008 1032	start sentinel character
+T35	ScientificConcept 1037 1060	stop sentinel character
+T36	ScientificConcept 1076 1131	predetermined self-clocking encoded binary bit sequence
+T37	Function 1212 1231	automatic detection
+T7	Component 357 362	track
+T17	Component 547 552	frame
+T29	Shape 649 661	perforations
+R1	PartOf Arg1:T14 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T6 Arg2:T3
+R4	Manner Arg1:T4 Arg2:T3
+T28	Others 129 142	various users
+R5	Oper Arg1:T15 Arg2:T28
+R6	Manner Arg1:T3 Arg2:T15
+R7	Attr Arg1:T18 Arg2:T19
+R8	Purpose Arg1:T7 Arg2:T19
+R9	PartOf Arg1:T17 Arg2:T5
+R10	Causitive Arg1:T26 Arg2:T5
+R11	Attr Arg1:T9 Arg2:T20
+R12	Spatial Arg1:T8 Arg2:T20
+R13	Spatial Arg1:T9 Arg2:T27
+T38	InfoFlow 704 708	data
+R14	Spatial Arg1:T38 Arg2:T11
+R15	Purpose Arg1:T10 Arg2:T30
+R16	Manner Arg1:T32 Arg2:T12
+R17	Manner Arg1:T33 Arg2:T12
+R18	Attr Arg1:T35 Arg2:T36
+R19	Attr Arg1:T34 Arg2:T36
+R20	Spatial Arg1:T34 Arg2:T13
+R21	Spatial Arg1:T35 Arg2:T13
+R22	Oper Arg1:T37 Arg2:T21
+R23	Purpose Arg1:T34 Arg2:T37
+R24	Purpose Arg1:T35 Arg2:T37

@@ -1,0 +1,23 @@
+T1	Component 26 63	perpendicular magnetic recording head
+T2	Component 85 101	metal underlayer
+T3	Shape 116 122	trench
+T4	Component 130 146	metal underlayer
+T5	Shape 152 158	trench
+T6	Location 165 171	bottom
+T7	Location 178 181	top
+T8	Location 197 203	bottom
+T9	EnergyFlow 242 250	PMR pole
+T10	EnergyFlow 278 286	PMR pole
+T11	Shape 302 308	trench
+T12	Shape 347 356	write gap
+T13	EnergyFlow 364 372	PMR pole
+T14	Component 389 399	top shield
+T15	Shape 416 425	write gap
+R2	Comparison Arg1:T7 Arg2:T8
+R4	Causitive Arg1:T1 Arg2:T2
+R6	Spatial Arg1:T12 Arg2:T13
+R7	Spatial Arg1:T14 Arg2:T15
+R8	Causitive Arg1:T1 Arg2:T3
+R1	PartOf Arg1:T5 Arg2:T6
+R9	PartOf Arg1:T5 Arg2:T7
+R3	Causitive Arg1:T3 Arg2:T4

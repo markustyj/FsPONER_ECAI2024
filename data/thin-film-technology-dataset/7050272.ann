@@ -1,0 +1,36 @@
+T1	Component 3 49	single-element magnetoresistive (MR) read head
+T2	ScientificConcept 81 86	noise
+T3	ScientificConcept 163 168	noise
+T4	Material 214 230	recording medium
+T5	ScientificConcept 289 300	temperature
+T6	Component 308 317	read head
+T8	ScientificConcept 348 359	noise level
+T9	Material 427 445	shielding material
+T10	Component 458 467	read head
+T11	Attribution 500 531	magnetic-medium-bearing surface
+T12	Component 590 602	thin coating
+T13	Material 606 611	metal
+T14	Component 619 636	read head surface
+T15	Component 680 692	read element
+T16	EnergyFlow 712 728	low bias current
+T17	Effect 751 765	thermal effect
+T19	EnergyFlow 794 815	electrical resistance
+T20	Component 850 862	read element
+T21	Material 876 895	insulating material
+T22	Component 912 932	electrical insulator
+T23	Component 939 969	high quality thermal insulator
+T24	Effect 55 77	reduced susceptibility
+T7	EnergyFlow 769 786	power consumption
+R1	Attr Arg1:T1 Arg2:T24
+R2	Generate Arg1:T4 Arg2:T3
+R3	Attr Arg1:T6 Arg2:T5
+R4	MadeOf Arg1:T10 Arg2:T9
+R5	Causitive Arg1:T20 Arg2:T21
+R6	InstanceOf Arg1:T21 Arg2:T22
+R7	InstanceOf Arg1:T21 Arg2:T23
+R8	Purpose Arg1:T7 Arg2:T17
+R9	MadeOf Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T12 Arg2:T14
+R11	Manner Arg1:T15 Arg2:T16
+R12	Purpose Arg1:T15 Arg2:T17
+R13	Purpose Arg1:T5 Arg2:T8

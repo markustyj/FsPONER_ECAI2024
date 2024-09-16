@@ -1,0 +1,21 @@
+T1	Component 2 32	CPP geometry spin valve sensor
+T4	Component 192 205	pinning layer
+T5	Component 213 219	sensor
+T2	Material 84 103	data storage medium
+T3	Component 116 162	electrically conductive, multilevel seed layer
+T6	EnergyFlow 238 264	sensor's magnetoresistance
+T11	Value 283 300	acceptable values
+T8	InfoFlow 45 78	magnetically recorded information
+T7	EnergyFlow 304 325	free layer coercivity
+T9	EnergyFlow 327 362	pinned-free layer magnetic coupling
+T10	EnergyFlow 367 394	free layer magnetostriction
+R1	Purpose Arg1:T1 Arg2:T8
+R2	Spatial Arg1:T8 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Spatial Arg1:T3 Arg2:T4
+R6	Purpose Arg1:T3 Arg2:T6
+R7	Attr Arg1:T7 Arg2:T11
+R8	Purpose Arg1:T3 Arg2:T11
+R9	Purpose Arg1:T3 Arg2:T9
+R10	Purpose Arg1:T3 Arg2:T10

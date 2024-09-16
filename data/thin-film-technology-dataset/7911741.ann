@@ -1,0 +1,31 @@
+T1	Component 3 25	hard disk drive slider
+T2	Component 39 53	overcoat layer
+T3	Component 71 90	air-bearing surface
+T4	Component 98 104	slider
+T5	Component 110 118	overcoat
+T6	Attribution 129 144	exposed surface
+T7	Component 150 188	tunneling magnetoresistance transducer
+T8	Component 193 207	adhesion layer
+T9	Component 228 242	overcoat layer
+T10	Component 251 270	air-bearing surface
+T11	Component 276 290	adhesion layer
+T12	Material 303 311	compound
+T13	ScientificConcept 358 363	noise
+T14	Material 315 323	nitrogen
+T15	Material 341 349	nitrogen
+T16	Component 386 424	tunneling magnetoresistance transducer
+T17	Material 329 337	compound
+T18	Function 367 376	read data
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T3
+R3	Attr Arg1:T4 Arg2:T3
+R4	Causitive Arg1:T5 Arg2:T6
+R5	Attr Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T8 Arg2:T10
+R8	PartOf Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T12 Arg2:T14
+R10	PartOf Arg1:T17 Arg2:T15
+R11	Causitive Arg1:T17 Arg2:T13
+R13	PartOf Arg1:T16 Arg2:T18
+R12	Causitive Arg1:T18 Arg2:T13

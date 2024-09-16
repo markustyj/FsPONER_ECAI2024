@@ -1,0 +1,54 @@
+T1	Component 2 25	thin film magnetic head
+T3	Measure 80 89	frequency
+T4	Value 93 98	1 MHz
+T5	Component 121 139	soft magnetic film
+T6	EnergyFlow 147 175	uniaxial magnetic anisotropy
+T7	Material 189 216	magnetic pole film material
+T8	Location 225 234	direction
+T9	Shape 242 255	magnetic path
+T10	EnergyFlow 263 279	magnetic circuit
+T11	Component 287 291	head
+T12	ScientificConcept 342 346	axis
+T13	Function 350 368	easy magnetization
+T14	Component 380 398	magnetic pole film
+T15	Shape 416 429	magnetic path
+T16	Component 491 510	soft magnetic films
+T17	Component 520 548	intervening nonmagnetic film
+T18	Component 561 589	adjacent soft magnetic films
+T19	Measure 595 601	length
+T20	Component 611 629	magnetic pole film
+T21	Location 640 649	direction
+T22	ScientificConcept 657 661	axis
+T23	Function 665 683	easy magnetization
+T25	EnergyFlow 731 768	uniaxial magnetic anisotropy constant
+T26	ScientificConcept 816 834	relative permeance
+T27	Value 847 851	1000
+T2	InfoFlow 67 74	signals
+T28	Component 445 455	lamination
+T24	Value 687 696	30 .mu.m.
+T29	Value 712 721	300 .mu.m
+T30	Value 785 798	300 J/m.sup.3
+R1	Measurement Arg1:T3 Arg2:T4
+R2	Purpose Arg1:T1 Arg2:T2
+R3	Manner Arg1:T3 Arg2:T2
+R4	Attr Arg1:T5 Arg2:T6
+R5	Purpose Arg1:T5 Arg2:T7
+R6	PartOf Arg1:T1 Arg2:T5
+R7	Attr Arg1:T9 Arg2:T8
+R8	Attr Arg1:T10 Arg2:T9
+R9	Attr Arg1:T11 Arg2:T10
+R10	Spatial Arg1:T8 Arg2:T12
+R11	Oper Arg1:T13 Arg2:T12
+R12	Causitive Arg1:T14 Arg2:T15
+R13	Purpose Arg1:T14 Arg2:T28
+R14	PartOf Arg1:T16 Arg2:T28
+R15	Spatial Arg1:T17 Arg2:T18
+R16	Attr Arg1:T20 Arg2:T19
+R17	Manner Arg1:T21 Arg2:T19
+R18	Attr Arg1:T22 Arg2:T21
+R19	Measurement Arg1:T19 Arg2:T24
+R20	Measurement Arg1:T19 Arg2:T29
+R21	Oper Arg1:T23 Arg2:T22
+R22	PartOf Arg1:T16 Arg2:T17
+R23	Measurement Arg1:T25 Arg2:T30
+R24	Measurement Arg1:T26 Arg2:T27

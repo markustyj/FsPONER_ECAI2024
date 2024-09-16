@@ -1,0 +1,28 @@
+T1	System 24 57	magnetic read/write head assembly
+T2	Function 66 89	electrostatic discharge
+T3	Function 97 121	disk drive manufacturing
+T4	Component 141 163	magnetic head assembly
+T5	Component 182 191	substrate
+T6	Component 201 232	magnetoresistive sensor element
+T7	Component 273 305	several magnetic shield elements
+T8	Function 316 354	focused ion beam fabrication operation
+T9	Component 381 400	air bearing surface
+T10	Component 408 430	magnetic head assembly
+T11	Component 448 474	thin and transparent layer
+T12	Material 478 497	conductive material
+T13	Material 513 532	conductive material
+T14	Function 565 603	focused ion beam fabrication operation
+T15	Others 245 264	spaced relationship
+T16	Component 504 509	layer
+R1	Oper Arg1:T2 Arg2:T1
+R2	Oper Arg1:T3 Arg2:T1
+R3	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T5 Arg2:T6
+#1	AnnotatorNotes T15	Others无法标注：答：不用管了
+R5	Spatial Arg1:T7 Arg2:T6
+R6	PartOf Arg1:T10 Arg2:T9
+#2	AnnotatorNotes T9	感觉更像是属性呀，答：这是专有名词，空气轴承面，特殊处理
+R7	Spatial Arg1:T11 Arg2:T9
+R8	MadeOf Arg1:T11 Arg2:T12
+R9	MadeOf Arg1:T16 Arg2:T13
+R10	Oper Arg1:T14 Arg2:T16

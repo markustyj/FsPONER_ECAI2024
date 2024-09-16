@@ -1,0 +1,48 @@
+T1	Component 3 10	MR head
+T2	Component 24 59	substantially identical MR elements
+T3	Component 77 93	insulating layer
+T4	Location 126 130	ends
+T5	Component 161 172	MR elements
+T6	EnergyFlow 176 183	current
+T7	Component 199 210	MR elements
+T8	EnergyFlow 227 235	currents
+T9	Location 253 267	same direction
+T10	Component 280 315	substantially identical MR elements
+T11	EnergyFlow 328 339	mutual bias
+T12	EnergyFlow 356 370	sense currents
+T13	Effect 385 391	change
+T14	EnergyFlow 395 413	element resistance
+T15	Component 419 430	MR elements
+T16	State 458 487	magnetically unsaturated mode
+T17	EnergyFlow 507 521	"bootstrapping
+T19	InfoFlow 582 599	reproduced signal
+T20	Location 607 619	broad region
+T21	ScientificConcept 627 642	signal spectrum
+T22	Shape 652 666	linear spacing
+T23	Component 679 690	MR elements
+T24	Value 701 706	range
+T25	ScientificConcept 741 756	half-wavelength
+T26	InfoFlow 760 767	signals
+T27	Material 782 807	magnetic recording medium
+T28	Component 104 118	shorting stubs
+T29	InfoFlow 526 550	short wavelength signals
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T28
+R4	Purpose Arg1:T28 Arg2:T5
+R5	Causitive Arg1:T6 Arg2:T7
+R6	Manner Arg1:T9 Arg2:T8
+R7	PartOf Arg1:T6 Arg2:T8
+R8	Manner Arg1:T10 Arg2:T8
+R9	Purpose Arg1:T8 Arg2:T11
+R10	Form Arg1:T8 Arg2:T12
+R11	Purpose Arg1:T12 Arg2:T13
+R12	Manner Arg1:T16 Arg2:T15
+R14	Purpose Arg1:T14 Arg2:T13
+R13	PartOf Arg1:T21 Arg2:T20
+R15	Generate Arg1:T20 Arg2:T19
+R16	Spatial Arg1:T22 Arg2:T23
+R17	Attr Arg1:T26 Arg2:T25
+R18	Spatial Arg1:T25 Arg2:T27
+R19	Generate Arg1:T29 Arg2:T17
+R20	Causitive Arg1:T17 Arg2:T19

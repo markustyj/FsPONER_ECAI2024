@@ -1,0 +1,33 @@
+T1	Component 33 89	high quality magnetoresistance effect type magnetic head
+T2	Effect 100 129	increased reproduction output
+T3	EnergyFlow 156 183	uniform bias magnetic field
+T4	Component 189 219	magnetoresistance effect layer
+T6	Component 257 300	magnetoresistance effect type magnetic head
+T7	Component 348 362	magnetic layer
+T8	Location 396 414	vertical direction
+T9	Attribution 420 425	plane
+T10	Material 443 468	magnetic recording medium
+T11	Component 472 501	non-magnetic insulation layer
+T12	Component 519 533	magnetic layer
+T13	Component 544 574	magnetoresistance effect layer
+T14	Component 592 621	non-magnetic insulation layer
+T15	EnergyFlow 644 668	magnetoresistance effect
+T16	Component 677 738	longitudinal type magnetoresistance effect type magnetic head
+T17	EnergyFlow 769 786	detection current
+T18	Component 801 826	magnetoresistance element
+T19	Component 860 878	hard magnetic film
+T20	Function 892 916	head reproduction output
+T5	EnergyFlow 242 251	impedance
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T6 Arg2:T7
+R4	Manner Arg1:T8 Arg2:T7
+R5	PartOf Arg1:T6 Arg2:T11
+R6	Spatial Arg1:T11 Arg2:T12
+R7	PartOf Arg1:T6 Arg2:T13
+R8	Spatial Arg1:T13 Arg2:T14
+R9	Causitive Arg1:T1 Arg2:T3
+R10	Spatial Arg1:T10 Arg2:T9
+R11	Attr Arg1:T9 Arg2:T8
+R12	Causitive Arg1:T17 Arg2:T18
+R13	Purpose Arg1:T17 Arg2:T20

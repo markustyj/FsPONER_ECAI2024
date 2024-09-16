@@ -1,0 +1,56 @@
+T1	Component 3 17	recording head
+T2	Component 29 53	magnetic storage devices
+T3	Component 72 86	recording head
+T4	Component 98 108	transducer
+T5	Attribution 160 183	magnetic medium surface
+T6	Material 191 214	magnetic storage medium
+T7	Effect 233 253	improved positioning
+T8	Component 261 271	transducer
+T9	Function 279 304	read and write operations
+T10	Component 312 322	transducer
+T11	Component 328 342	recording head
+T12	Component 362 373	slider body
+T13	System 381 401	interleaver assembly
+T14	Component 433 443	transducer
+T15	Component 452 463	slider body
+T16	System 469 489	interleaver assembly
+T17	System 501 517	flexure assembly
+T18	EnergyFlow 540 563	resilient flexure beams
+T19	System 567 581	motor assembly
+T20	Component 604 618	recording head
+T21	Function 656 664	movement
+T22	System 672 688	flexure assembly
+T23	System 736 756	interleaver assembly
+T24	Component 765 780	transducer body
+T25	System 786 802	flexure assembly
+T26	Function 830 836	motion
+T27	Component 844 854	transducer
+T28	Location 858 892	vertical and horizontal directions
+T29	Attribution 913 936	magnetic medium surface
+T30	Effect 950 981	enhanced transducer positioning
+T31	Function 693 715	corresponding movement
+R1	PartOf Arg1:T3 Arg2:T4
+R2	Attr Arg1:T6 Arg2:T5
+R3	Attr Arg1:T8 Arg2:T7
+R4	Oper Arg1:T9 Arg2:T10
+R5	Purpose Arg1:T1 Arg2:T2
+R6	PartOf Arg1:T11 Arg2:T12
+R7	PartOf Arg1:T11 Arg2:T13
+R8	PartOf Arg1:T16 Arg2:T17
+R9	PartOf Arg1:T17 Arg2:T18
+R10	PartOf Arg1:T20 Arg2:T19
+R13	Oper Arg1:T26 Arg2:T27
+R14	Purpose Arg1:T25 Arg2:T26
+R16	Causitive Arg1:T3 Arg2:T7
+R17	Spatial Arg1:T12 Arg2:T14
+R18	Spatial Arg1:T13 Arg2:T15
+R19	Spatial Arg1:T12 Arg2:T13
+R20	Spatial Arg1:T12 Arg2:T15
+R21	Spatial Arg1:T13 Arg2:T14
+R22	Purpose Arg1:T19 Arg2:T21
+R11	Oper Arg1:T21 Arg2:T22
+R23	Purpose Arg1:T19 Arg2:T31
+R12	Oper Arg1:T31 Arg2:T23
+R24	Oper Arg1:T31 Arg2:T24
+R25	Manner Arg1:T28 Arg2:T27
+R15	Purpose Arg1:T27 Arg2:T30

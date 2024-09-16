@@ -1,0 +1,70 @@
+T1	Component 46 70	thin film magnetic heads
+T2	Location 95 107	linear array
+T3	Component 153 164	pole pieces
+T4	Component 172 186	magnetic heads
+T5	Location 294 306	linear array
+T6	Attribution 409 420	track pitch
+T7	Attribution 448 459	track width
+T8	Component 507 516	pole tips
+T9	Component 611 619	pole tip
+T10	Location 634 645	track pitch
+T11	Component 654 667	magnetic head
+T12	Location 675 687	linear array
+T13	Shape 721 739	narrow data tracks
+T15	Component 873 878	heads
+T16	InfoFlow 886 898	read signals
+T18	Consequence 1062 1072	cross talk
+T19	Shape 1085 1091	tracks
+T24	Component 133 147	adjacent heads
+T25	Component 275 288	magnetic head
+T26	Attribution 252 271	normal pancake type
+T27	Location 207 232	side by side relationship
+T28	ScientificConcept 322 332	skew angle
+T29	Location 361 370	direction
+T30	Material 388 403	magnetic medium
+T31	Function 374 380	travel
+T32	Attribution 490 499	thickness
+T33	Component 536 550	magnetic heads
+T34	Attribution 557 566	thickness
+T35	Value 590 597	3 .mu.m
+T36	Attribution 620 629	thickness
+T37	Measure 766 779	minimum pitch
+T38	Component 809 823	magnetic heads
+T39	Component 929 934	heads
+T41	ScientificConcept 1009 1026	different azimuth
+T42	Component 1035 1049	adjacent heads
+T17	Value 695 704	3-4 .mu.m
+T43	InfoFlow 829 842	write signals
+T14	ScientificConcept 1102 1123	track misregistration
+T20	Function 1171 1184	servo control
+T22	Shape 115 122	spacing
+T23	Effect 948 963	high data rates
+T40	Component 1125 1150	Additional magnetic heads
+R1	Manner Arg1:T2 Arg2:T1
+R2	Spatial Arg1:T22 Arg2:T24
+R3	PartOf Arg1:T2 Arg2:T22
+R4	Attr Arg1:T25 Arg2:T26
+R5	PartOf Arg1:T4 Arg2:T3
+R6	Manner Arg1:T27 Arg2:T3
+R7	Manner Arg1:T28 Arg2:T5
+R8	Oper Arg1:T31 Arg2:T30
+R9	Attr Arg1:T31 Arg2:T29
+R10	Attr Arg1:T8 Arg2:T32
+R11	PartOf Arg1:T33 Arg2:T8
+R12	Comparison Arg1:T7 Arg2:T32
+R13	Measurement Arg1:T34 Arg2:T35
+R14	Attr Arg1:T9 Arg2:T36
+R15	Attr Arg1:T11 Arg2:T10
+R16	Manner Arg1:T12 Arg2:T11
+R17	Measurement Arg1:T10 Arg2:T17
+R18	Manner Arg1:T37 Arg2:T13
+R20	Causitive Arg1:T43 Arg2:T15
+R22	Causitive Arg1:T16 Arg2:T39
+R19	Manner Arg1:T38 Arg2:T13
+R21	Purpose Arg1:T41 Arg2:T18
+R23	Attr Arg1:T42 Arg2:T41
+R24	Causitive Arg1:T14 Arg2:T18
+R25	Purpose Arg1:T40 Arg2:T20
+R26	Comparison Arg1:T3 Arg2:T26
+R27	Spatial Arg1:T28 Arg2:T29
+R28	Causitive Arg1:T19 Arg2:T18

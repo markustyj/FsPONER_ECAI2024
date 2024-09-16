@@ -1,0 +1,40 @@
+T1	Component 2 26	horizontal combined head
+T2	Component 56 71	thin film write
+T3	Component 79 94	MR read element
+T4	Component 109 128	air bearing surface
+T5	Component 130 133	ABS
+T6	Component 140 152	read element
+T7	Attribution 174 185	track width
+T8	Attribution 213 224	track width
+T9	Component 232 245	write element
+T10	Component 251 260	MR sensor
+T11	Component 268 280	read element
+T12	Component 310 338	first and second pole pieces
+T13	Component 346 359	write element
+T14	Component 366 382	insulation layer
+T15	Component 401 408	shields
+T16	Component 417 429	read element
+T17	Function 457 472	write operation
+T18	Component 519 542	single stripe MR sensor
+T19	Component 586 607	dual stripe MR sensor
+T20	Component 668 682	dual MR stripe
+T21	Function 688 707	single process step
+T22	Component 720 735	dual MR stripes
+T23	Component 743 757	dual MR sensor
+T24	ScientificConcept 833 838	noise
+T25	Function 799 829	absolute common mode rejection
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T3
+R4	Alias Arg1:T4 Arg2:T5
+R5	Attr Arg1:T9 Arg2:T8
+R6	Form Arg1:T7 Arg2:T6
+R7	PartOf Arg1:T13 Arg2:T12
+R8	Manner Arg1:T14 Arg2:T13
+R9	Spatial Arg1:T11 Arg2:T12
+R10	Spatial Arg1:T10 Arg2:T12
+R11	PartOf Arg1:T16 Arg2:T15
+R12	Oper Arg1:T17 Arg2:T15
+R13	Oper Arg1:T21 Arg2:T20
+R14	PartOf Arg1:T23 Arg2:T22
+R15	Oper Arg1:T25 Arg2:T24

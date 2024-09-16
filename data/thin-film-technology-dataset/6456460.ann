@@ -1,0 +1,39 @@
+T1	Component 2 38	read while write dual bump tape head
+T2	Attribution 54 92	allowable linear and areal bit density
+T3	Component 103 151	first and second thin-film inductive write heads
+T4	Component 157 194	first thin film, inductive write head
+T5	EnergyFlow 201 215	first top pole
+T6	EnergyFlow 222 239	first shared pole
+T7	EnergyFlow 245 262	first shared pole
+T8	Attribution 295 300	width
+T9	Attribution 306 326	tape bearing surface
+T10	Component 334 353	dual bump tape head
+T11	Attribution 370 375	width
+T12	EnergyFlow 383 397	first top pole
+T13	Attribution 405 425	tape bearing surface
+T14	Component 431 462	second thin-film inductive head
+T15	EnergyFlow 469 484	second top pole
+T16	EnergyFlow 491 509	second shared pole
+T17	EnergyFlow 515 533	second shared pole
+T18	Attribution 566 571	width
+T19	Attribution 579 599	tape bearing surface
+T20	Attribution 616 621	width
+T21	EnergyFlow 629 644	second top pole
+T22	Attribution 652 672	tape bearing surface
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T4 Arg2:T6
+R4	Attr Arg1:T12 Arg2:T11
+R6	Attr Arg1:T10 Arg2:T9
+R7	Comparison Arg1:T8 Arg2:T11
+R9	Attr Arg1:T7 Arg2:T8
+R10	Attr Arg1:T9 Arg2:T8
+R11	PartOf Arg1:T14 Arg2:T15
+R12	PartOf Arg1:T14 Arg2:T16
+R13	Attr Arg1:T17 Arg2:T18
+R14	Attr Arg1:T19 Arg2:T18
+R15	Comparison Arg1:T18 Arg2:T20
+R16	Attr Arg1:T21 Arg2:T20
+R8	Spatial Arg1:T12 Arg2:T13
+R17	Spatial Arg1:T21 Arg2:T22

@@ -1,0 +1,28 @@
+T2	Component 71 95	magnetic thin film heads
+T3	Material 126 148	spin-on-glass material
+T4	Component 218 227	substrate
+T5	Component 232 241	thin film
+T6	Material 335 351	inert atmosphere
+T7	Component 359 363	film
+T9	Material 455 461	carbon
+T10	Material 506 512	carbon
+T11	Component 154 163	substrate
+T12	Component 185 194	substrate
+T13	PhysicsFlow 256 264	solvents
+T14	Material 272 293	spin-on-glass materia
+T15	Component 393 407	SiO.sub.2 film
+T16	Component 480 484	film
+T17	Component 551 561	thin films
+T1	Component 22 50	dielectric thin film coating
+T18	Attribution 522 543	structural properties
+R1	PartOf Arg1:T2 Arg2:T1
+R2	Spatial Arg1:T3 Arg2:T11
+R3	Purpose Arg1:T10 Arg2:T18
+R4	Attr Arg1:T17 Arg2:T18
+R5	PartOf Arg1:T14 Arg2:T13
+R6	PartOf Arg1:T7 Arg2:T6
+T8	PhysicsFlow 413 447	reducing and the inert atmospheres
+R7	Causitive Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T16 Arg2:T9
+R9	Purpose Arg1:T4 Arg2:T13
+R10	Purpose Arg1:T5 Arg2:T13

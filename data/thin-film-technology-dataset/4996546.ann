@@ -1,0 +1,51 @@
+T1	Component 0 28	Magnetic recording apparatus
+T2	Component 35 60	photographic still camera
+T5	Component 123 127	head
+T6	Component 152 168	magnetic coating
+T7	Component 176 180	film
+T8	Component 220 232	pressure pad
+T9	Component 251 257	camera
+T10	Component 286 290	film
+T12	Component 342 354	pressure pad
+T13	Component 402 406	head
+T14	Component 431 435	film
+T15	Component 455 459	film
+T16	Component 492 496	head
+T17	Component 506 510	film
+T19	Component 555 559	film
+T20	Component 579 591	pressure pad
+T3	Component 73 92	fixed magnetic head
+T4	Component 106 116	film plate
+T21	Location 194 204	image area
+T22	Component 212 216	film
+T23	Location 265 278	opposite side
+T24	Location 309 324	close proximity
+T11	Component 332 336	film
+T25	EnergyFlow 415 423	pressure
+T26	EnergyFlow 386 394	pressure
+T18	Attribution 632 643	image plane
+T28	Consequence 614 624	distortion
+T29	Component 370 376	spring
+T30	Function 532 545	film exposure
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T22 Arg2:T21
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T6
+R7	Spatial Arg1:T7 Arg2:T21
+R8	Spatial Arg1:T8 Arg2:T9
+R9	PartOf Arg1:T10 Arg2:T23
+R10	PartOf Arg1:T23 Arg2:T9
+R11	Spatial Arg1:T8 Arg2:T24
+R12	Spatial Arg1:T24 Arg2:T11
+R13	Causitive Arg1:T29 Arg2:T12
+R14	Purpose Arg1:T12 Arg2:T26
+R15	Manner Arg1:T25 Arg2:T26
+R16	Purpose Arg1:T26 Arg2:T15
+R17	Spatial Arg1:T15 Arg2:T16
+R18	Attr Arg1:T13 Arg2:T26
+R19	Attr Arg1:T14 Arg2:T25
+R20	Purpose Arg1:T20 Arg2:T28
+R21	Attr Arg1:T18 Arg2:T28
+R22	Oper Arg1:T30 Arg2:T19

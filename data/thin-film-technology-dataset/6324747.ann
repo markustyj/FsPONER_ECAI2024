@@ -1,0 +1,41 @@
+T2	Component 143 154	head slider
+T3	Component 165 191	inductive write transducer
+T5	Component 257 276	air bearing surface
+T8	Component 377 380	ABS
+T10	Shape 431 437	cavity
+T11	Shape 454 460	cavity
+T12	Component 468 471	ABS
+T13	Component 504 507	ABS
+T16	Component 26 69	magnetoresistive (MR) proximity head slider
+T1	Effect 77 97	substantial immunity
+T17	ScientificConcept 101 119	thermal asperities
+T18	Component 199 217	MR read transducer
+T4	Location 238 250	first region
+T19	Component 278 281	ABS
+T20	Component 290 301	head slider
+T6	Location 357 369	first region
+T7	Component 402 420	MR read transducer
+T9	Component 445 448	ABS
+T21	Location 483 496	second region
+T14	Location 554 566	first region
+T22	Component 571 589	MR read transducer
+T15	Location 610 623	second region
+T23	Component 631 634	ABS
+R1	PartOf Arg1:T12 Arg2:T11
+R2	PartOf Arg1:T13 Arg2:T21
+R3	PartOf Arg1:T23 Arg2:T15
+R4	Spatial Arg1:T22 Arg2:T15
+R6	PartOf Arg1:T8 Arg2:T6
+R7	PartOf Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T8 Arg2:T7
+R5	Causitive Arg1:T11 Arg2:T21
+R9	PartOf Arg1:T13 Arg2:T14
+R10	InstanceOf Arg1:T19 Arg2:T5
+R11	Purpose Arg1:T16 Arg2:T1
+R12	PartOf Arg1:T2 Arg2:T3
+R13	PartOf Arg1:T2 Arg2:T18
+R14	Attr Arg1:T20 Arg2:T5
+R15	PartOf Arg1:T5 Arg2:T4
+R16	Spatial Arg1:T3 Arg2:T4
+R17	Spatial Arg1:T18 Arg2:T4
+R18	Purpose Arg1:T16 Arg2:T2

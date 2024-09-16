@@ -1,0 +1,20 @@
+T1	Function 3 40	improved magnetoresistive head design
+T2	Component 53 79	front curved sense contact
+T3	Component 83 108	back curved sense contact
+T4	Location 140 164	elliptical sensor region
+T5	Attribution 216 229	contact edges
+T6	ScientificConcept 249 282	MR element's magnetization vector
+T9	Value 286 296	45 degrees
+T10	Effect 300 337	symmetrical read sensitivity function
+T7	EnergyFlow 355 377	constant magnetic flux
+T8	Location 397 420	elliptical sense region
+T11	Component 115 128	lip extension
+T12	EnergyFlow 179 192	Current flows
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T11
+R4	Form Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T12 Arg2:T5
+R6	Spatial Arg1:T12 Arg2:T6
+R7	Manner Arg1:T9 Arg2:T6
+R8	Purpose Arg1:T7 Arg2:T10

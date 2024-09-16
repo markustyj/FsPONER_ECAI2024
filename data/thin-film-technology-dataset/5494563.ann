@@ -1,0 +1,48 @@
+T1	Component 2 25	magnetic thin film head
+T2	Component 92 112	lower magnetic layer
+T3	Component 156 174	magnetic gap layer
+T4	Component 224 241	insulating layers
+T6	Component 289 318	electrically conductive layer
+T7	Component 368 388	upper magnetic layer
+T8	Component 424 437	magnetic core
+T9	Component 445 468	magnetic thin film head
+T10	Component 566 590	magnetically soft layers
+T11	Component 636 651	modified layers
+T12	Component 720 735	modified layers
+T13	Component 817 832	modified layers
+T14	System 35 54	laminated structure
+T15	Component 66 88	non-magnetic substrate
+T16	Component 130 152	non-magnetic substrate
+T17	Component 189 209	lower magnetic layer
+T5	Component 256 274	magnetic gap layer
+T18	Component 342 360	insulating layers,
+T19	Component 404 420	nsulating layers
+T20	Component 487 518	upper and lower magnetic layers
+T21	Material 605 616	metal alloy
+T22	Component 690 715	magnetically soft layers.
+T23	Component 779 803	magnetically soft layers
+T24	Function 883 909	anodic dissolution process
+T25	Function 864 878	electroplating
+T27	Attribution 920 927	surface
+T26	Component 967 972	anode
+R1	PartOf Arg1:T1 Arg2:T14
+R4	Spatial Arg1:T2 Arg2:T16
+R2	Spatial Arg1:T3 Arg2:T17
+R3	Spatial Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T18
+R6	Spatial Arg1:T7 Arg2:T19
+R7	PartOf Arg1:T1 Arg2:T15
+R8	PartOf Arg1:T1 Arg2:T2
+R9	PartOf Arg1:T1 Arg2:T3
+R10	PartOf Arg1:T9 Arg2:T8
+R11	PartOf Arg1:T1 Arg2:T4
+R12	PartOf Arg1:T1 Arg2:T6
+R13	PartOf Arg1:T1 Arg2:T7
+R14	PartOf Arg1:T8 Arg2:T20
+R15	PartOf Arg1:T20 Arg2:T10
+R16	MadeOf Arg1:T10 Arg2:T21
+R17	PartOf Arg1:T20 Arg2:T11
+R18	Spatial Arg1:T11 Arg2:T22
+R20	Form Arg1:T27 Arg2:T26
+R21	Oper Arg1:T24 Arg2:T13
+R19	Purpose Arg1:T12 Arg2:T23

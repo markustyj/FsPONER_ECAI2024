@@ -1,0 +1,48 @@
+T1	Component 33 43	film coils
+T2	Component 84 106	first plane coil layer
+T3	System 135 170	insulated spiral conductor patterns
+T4	Location 184 198	same direction
+T5	Shape 235 239	gaps
+T6	Component 259 281	first plane coil layer
+T7	Component 284 307	second plane coil layer
+T8	System 351 376	spiral conductor patterns
+T9	Location 390 407	reverse direction
+T10	System 428 446	conductor patterns
+T11	Component 454 476	first plane coil layer
+T12	System 484 502	conductor patterns
+T13	Component 510 527	second plane coil
+T14	Function 563 573	insulation
+T15	Component 589 606	plane coil layers
+T16	Component 619 623	coil
+T17	System 645 664	resulting structure
+T18	Component 672 689	plane coil layers
+T19	System 716 721	stack
+T20	Component 727 742	resulting coils
+T21	Component 772 798	multi-track recording head
+T22	Attribution 804 820	minimal distance
+T23	Component 833 838	heads
+T24	Component 885 908	center-tapped inductors
+T25	Function 18 29	preparation
+T26	Component 840 852	transformers
+T27	Component 864 873	inductors
+T28	Attribution 629 637	flatness
+T29	Component 548 555	windows
+R1	Oper Arg1:T25 Arg2:T1
+R2	Form Arg1:T3 Arg2:T2
+R3	Manner Arg1:T4 Arg2:T3
+R4	Manner Arg1:T9 Arg2:T8
+R5	Form Arg1:T8 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T6
+R7	PartOf Arg1:T11 Arg2:T10
+R8	PartOf Arg1:T13 Arg2:T12
+R9	Spatial Arg1:T10 Arg2:T12
+R10	Causitive Arg1:T10 Arg2:T29
+R11	PartOf Arg1:T14 Arg2:T29
+R12	Purpose Arg1:T15 Arg2:T16
+R13	Attr Arg1:T17 Arg2:T28
+R14	Form Arg1:T18 Arg2:T19
+R15	InstanceOf Arg1:T24 Arg2:T27
+R16	Purpose Arg1:T20 Arg2:T21
+R17	PartOf Arg1:T21 Arg2:T23
+R18	PartOf Arg1:T21 Arg2:T26
+R19	PartOf Arg1:T21 Arg2:T27

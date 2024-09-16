@@ -1,0 +1,33 @@
+T2	Component 128 138	MR element
+T3	Attribution 176 188	head surface
+T4	ScientificConcept 206 216	electrodes
+T5	Component 261 271	MR element
+T6	Component 285 294	electrode
+T7	Attribution 318 330	head surface
+T9	Attribution 384 396	head surface
+T10	ScientificConcept 416 425	electrode
+T11	Attribution 446 458	head surface
+T14	Component 563 572	electrode
+T15	Component 585 595	MR element
+T17	Component 664 678	thin film head
+T18	Component 2 46	magnetoresistance effect type thin film head
+T1	Component 82 114	magnetoresistance effect element
+T12	Effect 522 528	change
+T20	EnergyFlow 532 550	voltage difference
+T13	Attribution 606 618	disc surface
+T16	Function 636 656	electrical breakdown
+T19	Component 347 356	electrode
+T8	EnergyFlow 479 493	ground voltage
+R1	InstanceOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T10 Arg2:T11
+R6	Causitive Arg1:T10 Arg2:T8
+R7	Generate Arg1:T20 Arg2:T12
+R8	PartOf Arg1:T15 Arg2:T14
+R9	Purpose Arg1:T12 Arg2:T16
+R10	Oper Arg1:T16 Arg2:T17
+R11	Manner Arg1:T14 Arg2:T20
+R12	Manner Arg1:T13 Arg2:T20
+R13	Manner Arg1:T1 Arg2:T18

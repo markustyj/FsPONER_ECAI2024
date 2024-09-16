@@ -1,0 +1,46 @@
+T1	Component 3 22	magnetic write head
+T2	Component 29 48	data storage device
+T3	Component 60 76	pole piece layer
+T4	System 80 98	pole tip structure
+T5	Component 115 131	pole piece layer
+T6	Component 135 150	trailing shield
+T7	Component 184 203	air bearing surface
+T8	Component 205 208	ABS
+T9	Component 217 230	magnetic head
+T10	System 244 262	pole tip structure
+T11	Component 266 288	non-magnetic gap layer
+T12	Component 308 323	trailing shield
+T13	System 332 350	pole tip structure
+T14	System 354 368	yoke structure
+T15	Component 402 417	trailing shield
+T16	Shape 425 430	notch
+T17	System 445 459	yoke structure
+T18	System 473 491	pole tip structure
+T19	Shape 513 518	notch
+T21	System 564 578	yoke structure
+T22	Location 586 592	region
+T23	System 615 633	pole tip structure
+T24	Component 658 671	magnetic head
+T25	Location 390 394	part
+T20	EnergyFlow 527 540	magnetic flux
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R5	PartOf Arg1:T1 Arg2:T6
+R7	Alias Arg1:T7 Arg2:T8
+R9	PartOf Arg1:T1 Arg2:T11
+R10	PartOf Arg1:T1 Arg2:T14
+R11	PartOf Arg1:T1 Arg2:T16
+R12	PartOf Arg1:T15 Arg2:T25
+R4	Spatial Arg1:T4 Arg2:T5
+R6	Attr Arg1:T9 Arg2:T7
+R8	Spatial Arg1:T6 Arg2:T10
+R13	Manner Arg1:T6 Arg2:T7
+R15	Spatial Arg1:T11 Arg2:T12
+R16	Spatial Arg1:T11 Arg2:T13
+R14	Spatial Arg1:T14 Arg2:T25
+R17	Spatial Arg1:T16 Arg2:T17
+R18	Spatial Arg1:T16 Arg2:T18
+R19	Purpose Arg1:T19 Arg2:T20
+R20	Generate Arg1:T21 Arg2:T20
+R21	Spatial Arg1:T21 Arg2:T23

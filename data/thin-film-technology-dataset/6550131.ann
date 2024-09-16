@@ -1,0 +1,16 @@
+T1	Component 22 45	thin-film magnetic head
+T2	Component 53 75	magnetoresistive layer
+T4	EnergyFlow 230 249	magnetic anisotropy
+T5	Component 258 266	sublayer
+T6	Component 274 296	magnetoresistive layer
+T7	Attribution 330 353	reading characteristics
+T3	Attribution 131 142	track width
+T8	Location 172 187	depth direction
+T9	Attribution 156 163	surface
+T10	Shape 220 225	shape
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T6 Arg2:T5
+R3	Attr Arg1:T5 Arg2:T4
+R4	Attr Arg1:T5 Arg2:T10
+R5	Manner Arg1:T9 Arg2:T8
+R6	Purpose Arg1:T1 Arg2:T3

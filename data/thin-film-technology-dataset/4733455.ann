@@ -1,0 +1,42 @@
+T1	Component 2 15	magnetic head
+T2	Component 25 35	MR element
+T3	Component 42 58	permanent magnet
+T4	EnergyFlow 74 93	bias magnetic field
+T5	Component 101 111	MR element
+T6	Component 119 129	lead frame
+T7	Component 137 141	head
+T8	Material 154 159	metal
+T9	Shape 196 217	predetermined pattern
+T10	Component 233 243	lead frame
+T11	Component 249 259	lead frame
+T12	Component 291 301	MR element
+T13	Component 306 322	permanent magnet
+T14	Location 324 348	lead connecting sections
+T15	Location 375 394	connecting sections
+T16	Component 402 412	MR element
+T17	Location 418 439	tape-contact sections
+T18	Attribution 463 483	tape-contact surface
+T19	Component 491 501	MR element
+T20	Component 507 517	lead frame
+T21	Component 535 545	MR element
+T22	Component 550 566	permanent magnet
+T23	Location 589 613	lead connecting sections
+T24	Component 629 639	metal mold
+T25	System 649 676	predetermined configuration
+T26	Material 710 725	synthetic resin
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T3
+R3	Causitive Arg1:T1 Arg2:T4
+R4	Causitive Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T7 Arg2:T6
+R6	Manner Arg1:T9 Arg2:T8
+R7	Purpose Arg1:T8 Arg2:T10
+R8	PartOf Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T11 Arg2:T13
+R10	PartOf Arg1:T16 Arg2:T15
+R11	Attr Arg1:T19 Arg2:T18
+R12	Spatial Arg1:T20 Arg2:T21
+R13	PartOf Arg1:T24 Arg2:T23
+R14	PartOf Arg1:T24 Arg2:T25
+R15	Spatial Arg1:T21 Arg2:T22
+R16	Spatial Arg1:T20 Arg2:T22

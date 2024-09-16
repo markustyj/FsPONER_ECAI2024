@@ -1,0 +1,60 @@
+T1	Component 34 57	thin film magnetic head
+T4	Component 186 210	front intermediate cores
+T7	Shape 280 292	magnetic gap
+T11	ScientificConcept 443 463	cross-sectional area
+T15	EnergyFlow 628 647	magnetic saturation
+T19	Location 784 795	distal ends
+T20	Component 803 827	front intermediate cores
+T23	ScientificConcept 1034 1046	leakage flux
+T24	Component 65 86	lower and upper cores
+T25	Component 90 112	rear intermediate core
+T2	Location 132 145	rear portions
+T3	Component 153 174	lower and upper cores
+T26	Location 230 244	front portions
+T5	Component 252 273	lower and upper cores
+T6	Component 328 352	front intermediate cores
+T27	Component 358 381	thin film magnetic head
+T8	Location 387 400	rear portions
+T9	Component 408 429	lower and upper cores
+T10	Location 482 496	front portions
+T12	Component 504 525	lower and upper cores
+T13	Location 553 566	rear portions
+T14	Shape 586 602	inflection point
+T28	Location 655 669	front portions
+T16	Component 677 698	lower and upper cores
+T29	Location 700 717	extended portions
+T17	Component 751 772	lower and upper cores
+T18	Location 854 870	inflection point
+T30	Material 895 916	non-magnetic material
+T31	Component 883 889	spacer
+T32	Attribution 927 943	longer thickness
+T33	Shape 961 973	magnetic gap
+T21	Location 1001 1018	extended portions
+T22	Location 1059 1076	extended portions
+R1	PartOf Arg1:T1 Arg2:T24
+R2	Spatial Arg1:T25 Arg2:T2
+R3	PartOf Arg1:T3 Arg2:T2
+R4	PartOf Arg1:T1 Arg2:T25
+R5	PartOf Arg1:T1 Arg2:T4
+R6	Spatial Arg1:T4 Arg2:T26
+R7	PartOf Arg1:T5 Arg2:T26
+R8	PartOf Arg1:T1 Arg2:T7
+R9	Spatial Arg1:T7 Arg2:T6
+R10	Spatial Arg1:T7 Arg2:T27
+R11	PartOf Arg1:T9 Arg2:T8
+R12	PartOf Arg1:T8 Arg2:T11
+R13	PartOf Arg1:T12 Arg2:T10
+R14	Spatial Arg1:T12 Arg2:T13
+R15	Comparison Arg1:T10 Arg2:T8
+R16	Form Arg1:T11 Arg2:T14
+R17	PartOf Arg1:T16 Arg2:T28
+R18	Spatial Arg1:T29 Arg2:T17
+R19	PartOf Arg1:T20 Arg2:T19
+R20	Spatial Arg1:T19 Arg2:T18
+R21	MadeOf Arg1:T31 Arg2:T30
+R22	Attr Arg1:T31 Arg2:T32
+R23	Comparison Arg1:T31 Arg2:T33
+R24	Spatial Arg1:T31 Arg2:T21
+R25	Purpose Arg1:T31 Arg2:T23
+R26	Manner Arg1:T22 Arg2:T23
+R27	Attr Arg1:T28 Arg2:T15

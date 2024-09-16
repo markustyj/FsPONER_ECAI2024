@@ -1,0 +1,16 @@
+T3	Component 80 99	non-magnetic layers
+T4	Component 114 139	first ferromagnetic layer
+T9	EnergyFlow 2 19	magnetoresistance
+T1	Component 27 53	three ferromagnetic layers
+T2	Function 151 164	magnetization
+T5	EnergyFlow 181 198	measuring current
+T6	Component 204 216	second layer
+T7	Function 228 248	"free" magnetization
+T8	Component 257 282	third ferromagnetic layer
+T10	Function 294 324	trapped or fixed magnetization
+R1	PartOf Arg1:T9 Arg2:T1
+R2	Causitive Arg1:T3 Arg2:T1
+R3	Oper Arg1:T2 Arg2:T4
+R4	Oper Arg1:T7 Arg2:T6
+R5	Oper Arg1:T10 Arg2:T8
+R6	Generate Arg1:T5 Arg2:T2

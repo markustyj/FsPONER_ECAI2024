@@ -1,0 +1,58 @@
+T1	Effect 3 21	high magnetization
+T2	Effect 23 39	high resistivity
+T3	Effect 41 54	low corrosion
+T5	Component 107 110	SAL
+T6	Component 130 158	magnetoresistive (MR) sensor
+T7	Component 164 173	read head
+T8	Component 179 188	MR sensor
+T9	Component 206 233	anisotropic MR (AMR) sensor
+T10	Component 239 256	spin valve sensor
+T11	Component 278 281	SAL
+T12	Material 309 311	Hf
+T13	Consequence 331 340	corrosion
+T14	Material 349 351	Hf
+T15	Material 356 358	Nb
+T17	Material 427 429	Fe
+T18	EnergyFlow 458 483	negative magnetostriction
+T19	Material 522 527	alloy
+T21	Component 597 606	SAL layer
+T22	Component 641 644	SAL
+T24	Effect 715 736	higher resistance SAL
+T25	EnergyFlow 769 782	sense current
+T26	Component 795 798	SAL
+T27	Component 836 848	MR read head
+T28	Material 285 291	CoHfNb
+T29	Material 295 303	CoHfNbFe
+T30	EnergyFlow 383 409	near zero magnetostriction
+T16	Component 59 105	near zero magnetostriction soft adjacent layer
+T4	Material 436 444	enhancer
+T31	Attribution 505 514	magnetism
+T32	Material 535 541	CoHfNb
+T20	Effect 560 580	higher magnetization
+T33	Material 586 592	NiFeCr
+T34	Material 610 616	CoHfNb
+T35	Material 648 654	NiFeCr
+T23	Effect 688 709	higher resistance SAL
+T36	Effect 803 828	better signal performance
+R1	Alias Arg1:T16 Arg2:T5
+R2	PartOf Arg1:T7 Arg2:T6
+R3	Purpose Arg1:T5 Arg2:T6
+R4	MadeOf Arg1:T11 Arg2:T28
+R5	MadeOf Arg1:T11 Arg2:T29
+R6	Purpose Arg1:T12 Arg2:T13
+R7	Purpose Arg1:T14 Arg2:T30
+R8	Purpose Arg1:T15 Arg2:T30
+R9	Purpose Arg1:T4 Arg2:T18
+R10	Attr Arg1:T19 Arg2:T31
+R11	InstanceOf Arg1:T17 Arg2:T4
+R12	Attr Arg1:T32 Arg2:T20
+R13	Comparison Arg1:T32 Arg2:T33
+R14	PartOf Arg1:T34 Arg2:T21
+R15	PartOf Arg1:T35 Arg2:T22
+R16	Comparison Arg1:T21 Arg2:T22
+R17	Attr Arg1:T27 Arg2:T36
+T37	Function 748 761	less shunting
+R18	Spatial Arg1:T25 Arg2:T26
+R19	Oper Arg1:T37 Arg2:T25
+R20	InstanceOf Arg1:T9 Arg2:T8
+R21	InstanceOf Arg1:T10 Arg2:T8

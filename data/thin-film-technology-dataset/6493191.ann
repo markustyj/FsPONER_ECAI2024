@@ -1,0 +1,115 @@
+T1	Component 2 12	transducer
+T2	System 19 41	hard disk drive system
+T3	Component 48 68	planar magnetic core
+T4	Component 83 91	poletips
+T5	Component 127 131	core
+T6	Component 161 165	disk
+T7	Function 173 180	reading
+T8	Component 198 208	transducer
+T9	Component 231 241	thin films
+T10	Component 260 277	low profile table
+T11	Component 291 295	legs
+T12	Component 314 318	disk
+T13	Component 324 332	poletips
+T14	Location 352 358	bottom
+T15	Component 373 377	legs
+T16	Effect 382 411	high resolution communication
+T17	Component 421 425	disk
+T18	Attribution 431 444	throat height
+T20	Function 505 509	wear
+T21	Component 515 519	legs
+T22	Component 532 542	transducer
+T23	Component 552 556	disk
+T24	Component 595 609	thin air layer
+T25	Component 630 643	spinning disk
+T26	Attribution 675 685	small size
+T27	Component 693 707	thin film head
+T28	Effect 717 725	low load
+T29	Component 732 745	flexible beam
+T30	Component 769 779	transducer
+T31	Component 787 791	disk
+T32	Component 797 807	transducer
+T33	Component 819 835	loop shaped core
+T34	Material 839 856	magnetic material
+T36	Component 874 882	poletips
+T37	Component 888 892	core
+T39	Material 1032 1049	magnetic material
+T40	Effect 1071 1095	high frequency permeance
+T41	Component 1099 1129	high magnetic saturation layer
+T42	Shape 1158 1161	gap
+T44	Attribution 1261 1271	dimensions
+T45	Component 1279 1283	yoke
+T46	Component 1300 1308	poletips
+T47	EnergyFlow 1382 1392	lower flux
+T48	Component 1400 1404	yoke
+T49	Others 1428 1446	close relationship
+T50	Component 1459 1469	transducer
+T51	Material 1478 1483	media
+T52	Component 1491 1495	disk
+T54	Function 136 151	sliding contact
+T55	Function 185 192	writing
+T56	Shape 249 254	shape
+T19	Component 452 460	poletips
+T57	Attribution 471 491	sufficient tolerance
+T58	Function 654 665	combination
+T38	Component 946 950	disk
+T59	Attribution 951 958	surface
+T60	Shape 1005 1028	slightly spaced ribbons
+T43	Component 1178 1194	trailing poletip
+T61	Function 1214 1224	saturation
+T62	Component 1232 1240	poletips
+T63	Function 1336 1346	saturation
+T64	Component 1354 1362	poletips
+T65	Component 1414 1422	poletips
+T53	Effect 1504 1552	high density magnetic data storage and retrieval
+T66	Function 1248 1255	writing
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Purpose Arg1:T4 Arg2:T54
+R5	Oper Arg1:T54 Arg2:T6
+R8	Spatial Arg1:T5 Arg2:T4
+R9	Form Arg1:T9 Arg2:T8
+R10	Spatial Arg1:T11 Arg2:T12
+R11	Attr Arg1:T9 Arg2:T56
+R12	Attr Arg1:T56 Arg2:T10
+R13	PartOf Arg1:T10 Arg2:T11
+R14	Attr Arg1:T15 Arg2:T14
+R15	Manner Arg1:T14 Arg2:T13
+R16	Purpose Arg1:T13 Arg2:T16
+R17	Oper Arg1:T16 Arg2:T17
+R18	Attr Arg1:T19 Arg2:T18
+R19	Purpose Arg1:T57 Arg2:T20
+R20	Attr Arg1:T18 Arg2:T57
+R22	Causitive Arg1:T21 Arg2:T22
+R21	Spatial Arg1:T22 Arg2:T23
+R23	Attr Arg1:T27 Arg2:T26
+R24	Causitive Arg1:T21 Arg2:T24
+R26	Causitive Arg1:T28 Arg2:T30
+R27	Causitive Arg1:T30 Arg2:T31
+R28	Causitive Arg1:T29 Arg2:T30
+R29	PartOf Arg1:T32 Arg2:T33
+R30	MadeOf Arg1:T33 Arg2:T34
+R31	Spatial Arg1:T33 Arg2:T36
+#2	AnnotatorNotes R31	终止于磁极的磁性材料的环形磁芯，答：对的，ends当动词讲，不应该标为命名实体
+R32	Attr Arg1:T38 Arg2:T59
+R33	Spatial Arg1:T37 Arg2:T38
+R34	Attr Arg1:T39 Arg2:T60
+R35	Form Arg1:T60 Arg2:T37
+R36	Purpose Arg1:T39 Arg2:T40
+R37	Spatial Arg1:T41 Arg2:T42
+R38	Attr Arg1:T43 Arg2:T42
+R39	Oper Arg1:T61 Arg2:T62
+R40	Purpose Arg1:T41 Arg2:T61
+R41	Attr Arg1:T45 Arg2:T44
+R42	Spatial Arg1:T45 Arg2:T46
+R43	Purpose Arg1:T44 Arg2:T63
+R44	Oper Arg1:T63 Arg2:T64
+R45	Generate Arg1:T48 Arg2:T47
+R46	Generate Arg1:T65 Arg2:T47
+R47	Comparison Arg1:T48 Arg2:T65
+R48	Causitive Arg1:T44 Arg2:T47
+R49	Attr Arg1:T52 Arg2:T51
+T67	Component 750 756	gimbal
+R25	Causitive Arg1:T67 Arg2:T30
+#1	AnnotatorNotes R3	标得很好！

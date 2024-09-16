@@ -1,0 +1,1 @@
+ A disk drive of a perpendicular magnetic recording system has a magnetization test function, for testing the magnetized state of a write head. The disk drive is provided with a write driver and a head amplifier unit. The write driver supplies a write current to the write head, for perpendicular magnetic recording. The degaussing unit degausses the write head.

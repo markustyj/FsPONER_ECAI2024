@@ -1,0 +1,42 @@
+T3	Component 112 122	transducer
+T7	Component 249 283	additional antiferromagnetic layer
+T8	Component 296 305	substrate
+T10	Component 371 398	magnetoresistive transducer
+T11	Component 500 534	additional antiferromagnetic layer
+T12	ScientificConcept 576 592	Neel temperature
+T14	Material 674 700	antiferromagnetic material
+T15	Effect 726 743	longitudinal bias
+T17	Component 808 823	permalloy layer
+T18	Function 2 36	magnetoresistive transducer design
+T1	ScientificConcept 41 62	cross-talk supression
+T19	Component 153 171	suitable substrate
+T4	Component 175 207	antiferromagnetic material layer
+T5	Component 228 243	permalloy layer
+T6	Material 314 323	permalloy
+T20	EnergyFlow 338 363	exchange coupling biasing
+T9	Effect 427 448	cross-talk supression
+T21	Effect 461 478	longitudinal bias
+T22	Location 484 492	location
+T23	Material 547 556	permalloy
+T24	Component 600 610	transducer
+T25	Material 614 641	permanent magnetic material
+T13	Attribution 776 800	upper and lower surfaces
+T16	ScientificConcept 67 93	increased Neel temperature
+R1	Purpose Arg1:T18 Arg2:T1
+R2	Purpose Arg1:T18 Arg2:T16
+R3	Spatial Arg1:T19 Arg2:T4
+R4	Spatial Arg1:T19 Arg2:T5
+R5	Form Arg1:T19 Arg2:T3
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T7 Arg2:T6
+R8	Causitive Arg1:T7 Arg2:T20
+R9	Oper Arg1:T20 Arg2:T10
+R10	Purpose Arg1:T20 Arg2:T9
+R11	Purpose Arg1:T20 Arg2:T21
+R12	Spatial Arg1:T11 Arg2:T23
+R13	PartOf Arg1:T11 Arg2:T22
+R14	Causitive Arg1:T22 Arg2:T12
+R15	Attr Arg1:T24 Arg2:T12
+R16	Causitive Arg1:T25 Arg2:T14
+R17	Attr Arg1:T17 Arg2:T13
+R18	Purpose Arg1:T13 Arg2:T15

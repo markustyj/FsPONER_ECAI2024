@@ -1,0 +1,45 @@
+T1	Component 15 38	thin-film magnetic head
+T2	Material 81 106	magnetic recording medium
+T4	Component 186 190	head
+T5	Component 215 236	magnetic head element
+T6	Attribution 289 314	element formation surface
+T7	Component 320 329	substrate
+T8	Component 334 348	overcoat layer
+T9	Component 388 409	magnetic head element
+T10	Component 417 424	closure
+T11	Attribution 461 474	upper surface
+T12	Component 482 496	overcoat layer
+T13	Location 531 552	track width direction
+T14	Attribution 571 593	medium-opposed surface
+T15	Location 601 605	area
+T16	Attribution 612 623	end surface
+T17	Component 631 640	substrate
+T18	Location 646 650	area
+T19	Component 683 692	substrate
+T20	Component 701 715	overcoat layer
+T22	Component 768 777	substrate
+T23	Component 786 800	overcoat layer
+T24	Location 806 810	area
+T25	Component 853 862	substrate
+T26	Component 871 885	overcoat layer
+T3	Function 130 155	read and write operations
+T27	Shape 508 514	groove
+T28	Location 662 670	boundary
+T29	Location 832 840	boundary
+R1	Spatial Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T7 Arg2:T6
+R4	Spatial Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T4 Arg2:T8
+R6	Causitive Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T4 Arg2:T10
+R8	Attr Arg1:T12 Arg2:T11
+R9	Spatial Arg1:T10 Arg2:T11
+R10	Manner Arg1:T13 Arg2:T27
+R11	Spatial Arg1:T27 Arg2:T14
+R12	Attr Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T19 Arg2:T20
+T21	Location 740 760	end surface portions
+R14	Spatial Arg1:T25 Arg2:T26
+R15	Attr Arg1:T22 Arg2:T21
+R16	Attr Arg1:T23 Arg2:T21

@@ -1,0 +1,46 @@
+T2	Component 57 74	spin valve sensor
+T3	Component 109 139	first and second shield layers
+T5	Component 170 200	first and second shield layers
+T7	Component 354 363	MR sensor
+T8	EnergyFlow 369 382	sense current
+T9	Component 427 444	spin valve sensor
+T10	ScientificConcept 462 478	greater distance
+T13	Component 549 566	spin valve sensor
+T15	Component 693 708	first gap layer
+T16	Component 752 782	first and second shield layers
+T1	Component 3 34	orthogonal spin valve read head
+T4	EnergyFlow 148 162	image currents
+T19	EnergyFlow 211 232	resultant image field
+T20	EnergyFlow 281 297	stiffening field
+T11	Component 488 507	second shield layer
+T12	Component 523 536	mid-gap layer
+T21	Component 573 589	second gap layer
+T22	Attribution 611 626	total thickness
+T23	Shape 634 641	mid-gap
+T14	Component 646 662	second gap layer
+T24	Value 666 676	four times
+T25	EnergyFlow 730 742	image fields
+T26	EnergyFlow 815 820	field
+T18	EnergyFlow 885 898	sense current
+T6	Component 303 346	antiferromagnetic, pinned and spacer layers
+T17	Component 830 873	antiferromagnetic, pinned and spacer layers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Generate Arg1:T4 Arg2:T19
+R6	Causitive Arg1:T19 Arg2:T20
+R7	Generate Arg1:T6 Arg2:T20
+R8	Manner Arg1:T7 Arg2:T20
+R9	Spatial Arg1:T9 Arg2:T11
+R10	Spatial Arg1:T12 Arg2:T13
+R11	Spatial Arg1:T13 Arg2:T21
+R12	Spatial Arg1:T12 Arg2:T21
+R13	Attr Arg1:T23 Arg2:T22
+R14	Attr Arg1:T14 Arg2:T22
+R15	Measurement Arg1:T22 Arg2:T24
+R16	Comparison Arg1:T15 Arg2:T14
+R17	Generate Arg1:T16 Arg2:T25
+R18	Causitive Arg1:T25 Arg2:T26
+R19	PartOf Arg1:T17 Arg2:T26
+#1	AnnotatorNotes R7	某层发出的加强磁场，generate
+#3	AnnotatorNotes R17	xx发出的磁场或者其他energyflow，可以用generate

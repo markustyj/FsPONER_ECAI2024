@@ -1,0 +1,33 @@
+T1	Component 3 26	thin-film magnetic head
+T2	Component 55 78	magnetoresistive device
+T3	Component 98 131	electromagnetic transducer device
+T4	Component 151 166	heating element
+T5	Location 183 197	head body part
+T6	Component 203 218	heating element
+T7	Location 226 236	up portion
+T8	Location 292 304	down portion
+T9	Location 326 336	up portion
+T10	Location 366 369	end
+T11	Location 388 396	vicinity
+T12	EnergyFlow 436 440	heat
+T13	Location 259 265	origin
+T14	Location 272 285	halfway point
+T15	Location 404 410	origin
+T16	Location 346 359	halfway point
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T13
+R7	Spatial Arg1:T7 Arg2:T14
+R8	PartOf Arg1:T6 Arg2:T8
+R9	Spatial Arg1:T8 Arg2:T9
+R10	Spatial Arg1:T8 Arg2:T16
+R11	Spatial Arg1:T8 Arg2:T10
+R12	Spatial Arg1:T10 Arg2:T15
+R13	PartOf Arg1:T15 Arg2:T11
+R14	Generate Arg1:T6 Arg2:T12
+#1	AnnotatorNotes R4	使用ownership
+#2	AnnotatorNotes R13	发源地的周边，一般来说对具有普适性的拥有关系，比如边缘(edge)，表面(surface)，侧面(side)，我们在这些实体及其所依附主题之间标注attr，即属性关系，所谓普适性拥有关系，即大多数事物都拥有的，比如桌子/椅子/机床/零件都有表面，表面普遍存在，那么就将其中关系置为attr，在本例上同理
+#3	AnnotatorNotes R12	end放置在origin的周边，那么遵从最小实体粒度原则，我们在end和周边之间建立spatial关系

@@ -1,0 +1,52 @@
+T1	System 29 75	multi-layer lithographically fabricated device
+T2	Component 92 126	improved thin-film recording heads
+T3	System 152 180	focused particle beam system
+T4	System 195 227	recording head pole-tip assembly
+T5	System 250 269	sensitive structure
+T6	Component 278 287	read head
+T7	Component 296 310	recording head
+T8	System 344 361	pole-tip assembly
+T9	Component 375 400	second structural element
+T10	Component 423 447	first structural element
+T11	Component 486 510	first structural element
+T12	Component 524 544	first marker element
+T13	Component 589 599	same layer
+T14	System 605 651	multi-layer lithographically fabricated device
+T15	Component 659 683	first structural element
+T16	Component 689 703	marker element
+T17	Location 710 736	fixed spatial relationship
+T18	Component 744 768	first structural element
+T19	Component 791 811	first marker element
+T20	Component 820 845	second structural element
+T21	Function 863 873	separation
+T22	Component 886 910	first structural element
+T23	Component 919 939	first marker element
+T24	System 943 971	focused particle beam system
+T25	Location 990 1007	relative location
+T26	Component 1015 1051	first and second structural elements
+T27	System 1071 1099	focused particle beam system
+T28	Component 1139 1173	sensitive first structural element
+T29	Component 1197 1222	second structural element
+T30	System 1260 1288	focused particle beam system
+T31	Component 1299 1324	second structural element
+T32	System 1338 1368	desired pole-tip configuration
+T33	System 1385 1415	desired pole-tip configuration
+T34	Component 1456 1479	improved recording head
+T35	Effect 1491 1513	higher storage density
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T14 Arg2:T13
+R3	Form Arg1:T13 Arg2:T15
+R4	Attr Arg1:T26 Arg2:T25
+R5	Causitive Arg1:T30 Arg2:T31
+R6	Purpose Arg1:T3 Arg2:T4
+R7	Form Arg1:T9 Arg2:T8
+R8	Spatial Arg1:T16 Arg2:T18
+R9	Oper Arg1:T21 Arg2:T22
+R10	Oper Arg1:T21 Arg2:T23
+R11	Causitive Arg1:T27 Arg2:T29
+R12	Purpose Arg1:T30 Arg2:T32
+R13	Attr Arg1:T34 Arg2:T35
+R14	InstanceOf Arg1:T6 Arg2:T5
+R15	InstanceOf Arg1:T7 Arg2:T5
+R16	Purpose Arg1:T12 Arg2:T11
+R17	Causitive Arg1:T24 Arg2:T25

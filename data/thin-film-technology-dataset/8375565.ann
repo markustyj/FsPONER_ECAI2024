@@ -1,0 +1,28 @@
+T1	Component 23 33	transducer
+T2	Component 44 63	air-bearing surface
+T6	Component 258 266	NFT film
+T7	Location 304 316	disk portion
+T9	Component 364 372	NFT film
+T10	Component 403 411	ELG film
+T11	Location 417 429	disk portion
+T12	Attribution 447 465	critical dimension
+T13	Location 485 497	ABS location
+T14	Component 549 559	transducer
+T15	Function 565 572	lapping
+T16	Component 65 68	ABS
+T3	Component 114 146	near-field transducer (NFT) film
+T4	Component 164 199	electronic lapping guide (ELG) film
+T5	Component 323 326	NFT
+T8	Component 390 393	ELG
+T17	Component 473 476	NFT
+T18	InfoFlow 598 604	signal
+T19	Component 614 617	ELG
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Alias Arg1:T2 Arg2:T16
+R3	Spatial Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T5 Arg2:T7
+R5	Attr Arg1:T17 Arg2:T12
+R6	Generate Arg1:T19 Arg2:T18
+R9	PartOf Arg1:T10 Arg2:T8
+R7	PartOf Arg1:T9 Arg2:T5
+R8	Manner Arg1:T13 Arg2:T17

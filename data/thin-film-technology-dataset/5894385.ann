@@ -1,0 +1,60 @@
+T1	Component 3 47	orthogonal magnetoresistive (MR) read sensor
+T2	Component 70 88	MR sensing element
+T5	EnergyFlow 155 164	easy axis
+T6	Component 190 193	ABS
+T7	Component 199 208	MR sensor
+T8	Component 221 247	top and bottom flux guides
+T10	Location 267 293	bottom and the top portion
+T11	Component 301 319	MR sensing element
+T12	Component 338 355	bottom flux guide
+T13	Component 387 390	ABS
+T14	Component 392 412	Bottom and top leads
+T15	Component 434 460	bottom and top flux guides
+T16	Function 481 506	spaced-apart relationship
+T17	EnergyFlow 524 537	sense current
+T18	Component 550 568	MR sensing element
+T19	Component 574 592	MR sensing element
+T20	Component 601 612	bottom lead
+T21	Component 662 678	insulating layer
+T22	Component 707 722	sensing element
+T23	Component 731 742	bottom lead
+T24	Component 772 787	sensing element
+T25	Location 797 808	bottom lead
+T26	Effect 819 837	sensing efficiency
+T27	Component 845 860	sensing element
+T28	Attribution 880 884	size
+T29	Component 892 903	bottom lead
+T30	ScientificConcept 923 934	performance
+T31	Component 964 984	orthogonal MR sensor
+T3	Component 118 137	air bearing surface
+T4	Component 139 142	ABS
+T9	ScientificConcept 939 956	manufacturability
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Alias Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T2 Arg2:T5
+R6	PartOf Arg1:T7 Arg2:T8
+R7	PartOf Arg1:T11 Arg2:T10
+R8	Spatial Arg1:T8 Arg2:T10
+R9	Spatial Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T14 Arg2:T15
+R11	Manner Arg1:T16 Arg2:T15
+R12	Manner Arg1:T16 Arg2:T14
+R13	Causitive Arg1:T14 Arg2:T18
+R14	Spatial Arg1:T14 Arg2:T15
+R15	Causitive Arg1:T19 Arg2:T20
+R16	Causitive Arg1:T19 Arg2:T21
+R17	Spatial Arg1:T21 Arg2:T22
+R18	Spatial Arg1:T21 Arg2:T23
+R19	Attr Arg1:T29 Arg2:T28
+R20	Attr Arg1:T31 Arg2:T30
+R21	Attr Arg1:T31 Arg2:T9
+R22	Attr Arg1:T27 Arg2:T26
+R23	Causitive Arg1:T24 Arg2:T25
+R24	Causitive Arg1:T26 Arg2:T28
+#1	AnnotatorNotes R24	参考讲义2第5条标引
+#2	AnnotatorNotes R14	标一种优先级高的关系即可，即spatial关系
+R25	Causitive Arg1:T14 Arg2:T17
+#3	AnnotatorNotes R25	A conduct sense current through B，参照讲义2的第4条
+#4	AnnotatorNotes R10	标一种优先级高的关系即可，即spatial关系

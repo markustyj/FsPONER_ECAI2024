@@ -1,0 +1,51 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 38 63	magnetic gap spacer layer
+T3	Component 87 108	soft magnetic members
+T5	Component 166 191	magnetic gap spacer layer
+T6	Material 205 233	thermally decomposed polymer
+T7	Material 239 256	metallic compound
+T9	Component 314 330	metallic element
+T11	Component 425 439	typical metals
+T14	Material 525 537	alkyle group
+T15	Material 564 580	metallic element
+T16	Material 650 667	metallic compound
+T18	Material 724 741	tetraalkoxysilane
+T19	Material 743 756	organosilanol
+T20	Material 762 783	aluminum isopropylate
+T21	Material 789 806	metallic compound
+T22	PhysicsFlow 823 838	organic solvent
+T23	Attribution 858 865	surface
+T24	Component 888 907	magnetic gap spacer
+T25	Component 913 920	coating
+T26	Measure 942 959	lower temperature
+T27	Material 980 987	polymer
+T28	Component 993 1000	polymer
+T29	Component 1014 1028	adhesive layer
+T30	Component 1050 1066	magnetic members
+T4	Function 146 160	thin film form
+T31	Material 345 351	metals
+T32	Material 356 366	metalloids
+T12	Material 444 454	non-metals
+T8	Material 499 511	alkyle group
+T10	Material 483 491	hydrogen
+T13	Material 672 695	tetraisopropyl titanate
+T17	Material 697 722	tetranormalbutyl titanate
+T33	ScientificConcept 549 556	valence
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Oper Arg1:T4 Arg2:T3
+R4	MadeOf Arg1:T5 Arg2:T6
+R5	MadeOf Arg1:T6 Arg2:T7
+R6	Form Arg1:T15 Arg2:T33
+R7	MadeOf Arg1:T16 Arg2:T13
+R8	MadeOf Arg1:T16 Arg2:T17
+R9	MadeOf Arg1:T16 Arg2:T18
+R10	MadeOf Arg1:T16 Arg2:T19
+R11	MadeOf Arg1:T16 Arg2:T20
+R12	Oper Arg1:T22 Arg2:T21
+R13	Spatial Arg1:T21 Arg2:T23
+R14	Purpose Arg1:T21 Arg2:T24
+R15	Manner Arg1:T26 Arg2:T25
+R16	Form Arg1:T25 Arg2:T27
+R17	Form Arg1:T28 Arg2:T29
+R18	Purpose Arg1:T28 Arg2:T30

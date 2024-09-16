@@ -1,0 +1,12 @@
+T1	Component 3 42	elongated magnetoresistive sensor strip
+T2	Location 79 105	single domain sense region
+T3	Material 109 134	exchange-biasing material
+T4	Component 161 166	strip
+T7	Location 174 178	ends
+T6	Location 205 225	central sense region
+T5	Location 186 199	strip outside
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T6 Arg2:T5
+R4	Attr Arg1:T5 Arg2:T7
+R5	Causitive Arg1:T3 Arg2:T4

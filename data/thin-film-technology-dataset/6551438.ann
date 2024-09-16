@@ -1,0 +1,82 @@
+T1	Component 42 62	magnetic head slider
+T3	Component 277 308	thin film magnetic head devices
+T4	Component 314 319	wafer
+T6	Component 346 351	wafer
+T7	Component 398 402	rail
+T8	Component 455 463	row bars
+T9	Component 542 549	row bar
+T10	Component 575 592	support substrate
+T12	Component 613 628	protective film
+T14	Component 836 853	curing agent film
+T15	Component 867 879	curing agent
+T16	Component 935 943	row bars
+T18	Component 1126 1133	row bar
+T19	Component 1239 1247	row bars
+T20	Component 1317 1334	support substrate
+T21	Component 1376 1393	support substrate
+T22	Component 86 94	row bars
+T23	Effect 119 139	fabrication accuracy
+T2	Component 229 249	magnetic head slider
+T24	Component 379 387	row bars
+T25	Attribution 418 439	predetermined surface
+T11	Shape 598 609	wafer shape
+T26	Component 815 832	support substrate
+T27	Attribution 800 807	surface
+T28	Attribution 961 968	surface
+T29	Component 976 991	protective film
+T17	Component 1043 1060	curing agent film
+T30	Component 1288 1305	support substrate
+T31	Component 1355 1370	protective film
+T32	Component 1459 1467	row bars
+T33	Effect 159 178	manufacturing costs
+T34	Function 195 203	adhesion
+T35	Component 209 223	foreign matter
+T5	Function 323 340	thin film process
+T36	Function 467 483	photolithography
+T37	Attribution 487 494	surface
+T38	Attribution 511 518	surface
+T13	Attribution 1028 1035	surface
+T39	PhysicsFlow 1215 1227	curing agent
+T40	Attribution 1071 1078	surface
+T41	Attribution 1095 1102	surface
+T42	PhysicsFlow 1157 1165	adhesive
+T43	PhysicsFlow 1012 1020	adhesive
+T44	PhysicsFlow 1171 1179	adhesive
+T45	Function 654 668	heat treatment
+T46	Component 674 693	polyimide precursor
+T47	Component 745 764	polyimide precursor
+T48	Material 773 782	polyimide
+T49	Measure 697 708	temperature
+T50	Measure 720 731	temperature
+T51	Function 895 902	setting
+T52	PhysicsFlow 910 918	adhesive
+R1	Spatial Arg1:T35 Arg2:T2
+R2	Oper Arg1:T5 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Form Arg1:T6 Arg2:T24
+R5	Attr Arg1:T8 Arg2:T25
+R6	Spatial Arg1:T7 Arg2:T25
+R7	Form Arg1:T36 Arg2:T7
+R8	Spatial Arg1:T37 Arg2:T38
+R9	Attr Arg1:T9 Arg2:T38
+R10	PartOf Arg1:T11 Arg2:T10
+R11	Spatial Arg1:T37 Arg2:T10
+R12	Attr Arg1:T26 Arg2:T27
+R13	Spatial Arg1:T12 Arg2:T27
+R14	Oper Arg1:T45 Arg2:T46
+R15	Comparison Arg1:T49 Arg2:T50
+R16	Form Arg1:T47 Arg2:T48
+R17	PartOf Arg1:T14 Arg2:T15
+R18	Attr Arg1:T29 Arg2:T28
+R19	Spatial Arg1:T14 Arg2:T28
+R20	Purpose Arg1:T52 Arg2:T16
+R21	Attr Arg1:T52 Arg2:T51
+R22	Purpose Arg1:T14 Arg2:T51
+R23	Spatial Arg1:T19 Arg2:T30
+R24	Spatial Arg1:T20 Arg2:T31
+R25	Attr Arg1:T17 Arg2:T13
+R26	Spatial Arg1:T43 Arg2:T13
+R27	Spatial Arg1:T40 Arg2:T41
+R28	Attr Arg1:T18 Arg2:T41
+R29	Spatial Arg1:T40 Arg2:T42
+#1	AnnotatorNotes R7	form是形成，充当，比如金属充当导体，这里说的是用某种工艺来制造、形成轨迹，是oper

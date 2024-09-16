@@ -1,0 +1,42 @@
+T2	Component 67 84	sacrificial layer
+T5	Component 273 290	sacrificial layer
+T10	Component 826 837	pole layers
+T11	Component 881 899	staggered pole-tip
+T1	Component 26 56	planar thin film magnetic head
+T14	Function 125 152	gap planarization procedure
+T4	Material 181 204	lower pole-tip material
+T15	Material 209 233	nonmagnetic gap material
+T6	Component 337 358	critical layer island
+T16	Attribution 450 455	edges
+T17	Component 463 481	critical gap layer
+T18	Attribution 414 442	ideal planar characteristics
+T19	Component 515 530	entire assembly
+T8	Component 549 577	nonmagnetic insulating layer
+T20	Function 612 633	planarization process
+T21	Component 660 677	sacrificial layer
+T9	Material 683 719	remaining sacrificial layer material
+T22	PhysicsFlow 739 746	solvent
+T23	Shape 798 821	underlying critical gap
+T13	Function 859 869	upper step
+T24	InfoFlow 493 509	island formation
+T25	Function 110 117	control
+T3	Component 154 177	Unbounded planar layers
+T26	Component 389 395	excess
+T7	PhysicsFlow 326 333	solvent
+T12	System 904 942	conformal pole-tip head configurations
+T27	Effect 781 790	integrity
+R1	Purpose Arg1:T2 Arg2:T25
+R2	Oper Arg1:T25 Arg2:T14
+R5	Spatial Arg1:T3 Arg2:T5
+R6	Causitive Arg1:T7 Arg2:T5
+R7	Purpose Arg1:T6 Arg2:T18
+R8	Attr Arg1:T17 Arg2:T16
+R9	Attr Arg1:T16 Arg2:T18
+R10	Spatial Arg1:T19 Arg2:T8
+R11	Causitive Arg1:T22 Arg2:T9
+R12	Attr Arg1:T23 Arg2:T27
+R13	Attr Arg1:T10 Arg2:T27
+R14	PartOf Arg1:T11 Arg2:T13
+R15	PartOf Arg1:T12 Arg2:T13
+R3	MadeOf Arg1:T3 Arg2:T4
+R4	MadeOf Arg1:T3 Arg2:T15

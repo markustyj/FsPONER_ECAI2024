@@ -1,0 +1,60 @@
+T2	Component 127 149	first conductive layer
+T3	Location 165 183	first surface area
+T5	Component 202 219	thin-film battery
+T6	Component 232 245	cathode layer
+T7	Component 249 278	solid-state electrolyte layer
+T8	Component 287 298	anode layer
+T9	Component 330 341	anode layer
+T10	Component 349 362	cathode layer
+T12	Component 397 419	first conductive layer
+T13	Component 424 431	antenna
+T14	System 447 464	support structure
+T15	EnergyFlow 473 506	electronic communications circuit
+T17	Component 651 674	energy-receiving device
+T18	System 690 707	support structure
+T19	EnergyFlow 716 749	electronic communications circuit
+T20	System 765 782	support structure
+T21	EnergyFlow 799 817	recharging circuit
+T22	EnergyFlow 823 841	recharging circuit
+T23	Component 886 909	energy-receiving device
+T25	Component 963 986	energy-receiving device
+T1	Function 369 387	electrical contact
+T4	Component 562 569	battery
+T11	Component 578 585	antenna
+T16	Component 870 877	battery
+T27	Component 926 933	battery
+T28	Component 116 123	support
+T29	Component 95 104	apparatus
+T30	Component 191 198	support
+T31	Component 522 529	support
+T24	System 3 57	combined battery and wireless-communications apparatus
+T26	InfoFlow 600 620	radio communications
+T32	EnergyFlow 940 946	energy
+R1	PartOf Arg1:T29 Arg2:T28
+R2	PartOf Arg1:T29 Arg2:T2
+R3	Attr Arg1:T30 Arg2:T3
+R4	Spatial Arg1:T2 Arg2:T3
+R5	PartOf Arg1:T29 Arg2:T5
+R6	PartOf Arg1:T5 Arg2:T6
+R7	PartOf Arg1:T5 Arg2:T7
+R8	PartOf Arg1:T5 Arg2:T8
+R9	Spatial Arg1:T9 Arg2:T12
+R10	Spatial Arg1:T10 Arg2:T12
+R11	Oper Arg1:T1 Arg2:T10
+R12	Oper Arg1:T1 Arg2:T9
+R13	Oper Arg1:T1 Arg2:T12
+R14	PartOf Arg1:T29 Arg2:T13
+R15	Spatial Arg1:T13 Arg2:T14
+R16	PartOf Arg1:T29 Arg2:T15
+R17	Spatial Arg1:T15 Arg2:T31
+R18	Spatial Arg1:T15 Arg2:T4
+R19	Spatial Arg1:T15 Arg2:T11
+R20	Causitive Arg1:T31 Arg2:T26
+R21	Spatial Arg1:T17 Arg2:T18
+R22	Spatial Arg1:T19 Arg2:T20
+R23	PartOf Arg1:T19 Arg2:T21
+R24	Spatial Arg1:T22 Arg2:T16
+R25	Spatial Arg1:T22 Arg2:T23
+R28	Causitive Arg1:T25 Arg2:T32
+R26	Causitive Arg1:T23 Arg2:T27
+R27	Causitive Arg1:T23 Arg2:T32

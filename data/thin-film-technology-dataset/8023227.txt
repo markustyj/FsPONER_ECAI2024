@@ -1,0 +1,1 @@
+ Disclosed is a perpendicular recording head for a hard disk drive. The perpendicular recording head includes a yoke that has a plurality of grooves essentially perpendicular to a magnetic flux that flows in a vertical direction relative to the yoke. The perpendicular grooves inhibit residual magnetism in the vertical direction and enhance yoke domain stability.

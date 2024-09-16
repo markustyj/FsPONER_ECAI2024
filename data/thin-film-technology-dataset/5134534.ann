@@ -1,0 +1,22 @@
+T1	Component 5 28	thin-film magnetic head
+T2	EnergyFlow 41 57	magnetic circuit
+T3	Component 79 110	upper and lower magnetic layers
+T4	Component 117 121	coil
+T5	Component 132 148	conductive layer
+T6	Component 152 173	magnetic shield layer
+T7	Material 184 203	conductive material
+T8	Component 223 243	upper magnetic layer
+T9	ScientificConcept 253 262	intensity
+T10	EnergyFlow 270 289	magnetic reluctance
+T12	Component 330 351	magnetic shield layer
+T13	Function 297 322	magnetic shielding action
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R4	Spatial Arg1:T6 Arg2:T8
+R5	Attr Arg1:T10 Arg2:T9
+R6	MadeOf Arg1:T4 Arg2:T5
+R7	MadeOf Arg1:T6 Arg2:T7
+R8	Oper Arg1:T13 Arg2:T12
+R9	Attr Arg1:T13 Arg2:T10
+R3	PartOf Arg1:T2 Arg2:T4
+R10	PartOf Arg1:T1 Arg2:T6

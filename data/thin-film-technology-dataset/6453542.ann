@@ -1,0 +1,42 @@
+T2	Component 57 90	noise reduction MR/GMR read heads
+T3	Component 98 114	MR/MGR read head
+T5	Component 236 250	MR/GMR element
+T6	Component 256 265	read head
+T7	ScientificConcept 282 296	readback noise
+T8	Location 330 338	two ends
+T9	Component 346 367	MR/GMR sensor element
+T10	EnergyFlow 422 434	bias current
+T11	Component 455 461	sensor
+T12	Component 471 487	magnetic shields
+T13	EnergyFlow 495 504	potential
+T14	Component 522 533	half-bridge
+T15	Component 562 578	magnetic shields
+T16	Component 610 613	pad
+T17	Location 621 630	mid-point
+T18	Component 649 656	shields
+T19	EnergyFlow 664 686	same average potential
+T20	Component 694 708	sensor element
+T1	Function 25 52	balanced shield connections
+T4	Component 183 214	balanced electrical half-bridge
+T21	Function 307 317	discharges
+T22	EnergyFlow 382 402	different potentials
+T23	ScientificConcept 508 516	constant
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T6 Arg2:T5
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Purpose Arg1:T4 Arg2:T7
+R5	Purpose Arg1:T5 Arg2:T7
+R6	Oper Arg1:T21 Arg2:T7
+R7	Attr Arg1:T9 Arg2:T8
+R8	Manner Arg1:T8 Arg2:T7
+R9	Generate Arg1:T10 Arg2:T22
+R10	Measurement Arg1:T13 Arg2:T23
+R11	Manner Arg1:T11 Arg2:T10
+R12	Manner Arg1:T12 Arg2:T10
+R13	Attr Arg1:T12 Arg2:T13
+R15	Spatial Arg1:T14 Arg2:T15
+R14	PartOf Arg1:T17 Arg2:T16
+R16	Spatial Arg1:T15 Arg2:T16
+R17	Purpose Arg1:T14 Arg2:T18
+R18	Manner Arg1:T19 Arg2:T18
+R19	Comparison Arg1:T18 Arg2:T20

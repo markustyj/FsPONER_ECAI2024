@@ -1,0 +1,34 @@
+T1	Location 43 54	edge region
+T2	Component 60 65	wafer
+T4	System 118 146	radiation targeting assembly
+T5	EnergyFlow 162 176	radiation beam
+T6	Attribution 184 191	surface
+T7	Component 199 204	wafer
+T9	EnergyFlow 259 268	radiation
+T10	Attribution 286 293	surface
+T11	Component 301 306	wafer
+T13	Attribution 366 378	edge surface
+T14	Component 386 391	wafer
+T15	Location 444 455	edge region
+T16	Component 463 468	wafer
+T17	System 22 28	system
+T3	System 79 104	surface analyzer assembly
+T8	System 208 247	reflected radiation collection assembly
+T12	System 331 356	surface analyzer assembly
+T18	Consequence 429 436	defects
+R1	Causitive Arg1:T17 Arg2:T1
+R2	PartOf Arg1:T2 Arg2:T1
+R3	PartOf Arg1:T17 Arg2:T3
+R4	PartOf Arg1:T3 Arg2:T4
+R5	Causitive Arg1:T4 Arg2:T5
+R6	Causitive Arg1:T5 Arg2:T6
+R7	Attr Arg1:T7 Arg2:T6
+R8	PartOf Arg1:T17 Arg2:T8
+R9	Generate Arg1:T8 Arg2:T9
+R10	Generate Arg1:T10 Arg2:T9
+#1	AnnotatorNotes R10	待确定，generate or makemove，答：generate更合适一些，遇到与散发能量、收集能量相关的，都可以标为generate，反射能量也算
+R11	Attr Arg1:T11 Arg2:T10
+R12	Attr Arg1:T14 Arg2:T13
+R13	PartOf Arg1:T16 Arg2:T15
+R14	Attr Arg1:T15 Arg2:T18
+R15	Causitive Arg1:T12 Arg2:T13

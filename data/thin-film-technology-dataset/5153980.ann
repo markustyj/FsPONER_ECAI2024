@@ -1,0 +1,67 @@
+T1	Component 2 25	thin film magnetic head
+T3	Component 76 86	head chips
+T4	Component 96 105	substrate
+T5	Location 109 133	reproducing head portion
+T6	Location 148 165	side edge portion
+T7	Component 173 182	substrate
+T8	Component 190 206	protecting plate
+T9	Location 221 245	reproducing head portion
+T10	Location 254 276	recording head portion
+T11	Location 282 306	reproducing head portion
+T12	Location 315 337	recording head portion
+T13	Component 354 374	lower magentic layer
+T14	Component 379 407	electroconductive coil layer
+T15	Component 412 432	upper magnetic layer
+T16	Component 437 454	insulation layers
+T17	Component 517 526	substrate
+T20	Location 672 694	recording head portion
+T21	Component 702 717	first head chip
+T22	Location 726 750	reproducing head portion
+T23	Component 758 774	second head chip
+T24	Location 782 816	recording/reproducing head portion
+T25	Location 823 848	first traveling direction
+T26	Material 854 879	magnetic recording medium
+T27	Location 889 912	reprducing head portion
+T28	Component 920 935	first head chip
+T29	Location 944 966	recording head portion
+T30	Component 974 990	second head chip
+T31	Location 998 1032	recording/reproducing head portion
+T32	Location 1039 1076	second or reverse traveling direction
+T33	Material 1084 1100	recording medium
+T34	Component 35 62	first and second head chips
+T2	Function 493 509	stacked relation
+T35	Component 550 577	first and second head chips
+T18	Others 594 615	side-by-side relation
+R1	PartOf Arg1:T1 Arg2:T34
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T6 Arg2:T5
+R4	Spatial Arg1:T7 Arg2:T6
+R5	PartOf Arg1:T3 Arg2:T5
+R6	PartOf Arg1:T3 Arg2:T8
+R7	Causitive Arg1:T8 Arg2:T9
+R8	Causitive Arg1:T8 Arg2:T10
+R9	Spatial Arg1:T9 Arg2:T10
+R11	PartOf Arg1:T12 Arg2:T13
+R12	PartOf Arg1:T12 Arg2:T14
+R13	PartOf Arg1:T12 Arg2:T15
+R14	PartOf Arg1:T12 Arg2:T16
+R16	PartOf Arg1:T11 Arg2:T14
+R17	PartOf Arg1:T11 Arg2:T15
+R18	PartOf Arg1:T11 Arg2:T16
+R19	Spatial Arg1:T13 Arg2:T17
+R20	Spatial Arg1:T14 Arg2:T17
+R21	Spatial Arg1:T15 Arg2:T17
+R22	Spatial Arg1:T16 Arg2:T17
+R23	PartOf Arg1:T21 Arg2:T20
+R24	PartOf Arg1:T23 Arg2:T22
+R25	Form Arg1:T20 Arg2:T24
+R26	Form Arg1:T22 Arg2:T24
+R27	Purpose Arg1:T24 Arg2:T25
+R28	Attr Arg1:T26 Arg2:T25
+R29	PartOf Arg1:T28 Arg2:T27
+R30	PartOf Arg1:T30 Arg2:T29
+R31	Form Arg1:T27 Arg2:T31
+R32	Attr Arg1:T33 Arg2:T32
+R33	Form Arg1:T29 Arg2:T31
+R34	Purpose Arg1:T31 Arg2:T32
+R10	PartOf Arg1:T11 Arg2:T13

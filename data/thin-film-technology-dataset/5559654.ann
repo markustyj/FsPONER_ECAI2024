@@ -1,0 +1,34 @@
+T1	Component 26 40	thin film head
+T3	Component 85 94	easy axis
+T4	Component 111 116	track
+T2	Function 45 73	high track density recording
+T5	Component 124 138	narrow poletip
+T9	Component 191 203	plating cell
+T6	EnergyFlow 159 183	very high magnetic field
+T10	EnergyFlow 733 744	large field
+T11	EnergyFlow 646 665	demagnetizing field
+T12	EnergyFlow 687 708	small orienting field
+T13	Function 522 539	vacuum processing
+T14	Function 555 566	depositions
+T15	Function 586 594	pumpdown
+T16	Function 481 503	electroplating process
+T17	Function 455 471	vacuum technique
+T8	Component 606 626	sheet magnetic films
+T7	Location 205 220	Narrow poletips
+T18	Attribution 230 236	widths
+T19	Shape 338 343	sheet
+T20	Shape 383 388	sheet
+T21	Shape 285 290	sheet
+T22	Component 304 318	magnetic layer
+T23	Material 347 359	gap material
+T24	Component 400 414	magnetic layer
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Causitive Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T9 Arg2:T6
+R6	Causitive Arg1:T21 Arg2:T22
+R7	PartOf Arg1:T24 Arg2:T20
+R8	PartOf Arg1:T23 Arg2:T19
+R9	Oper Arg1:T15 Arg2:T14
+R1	Purpose Arg1:T1 Arg2:T2
+R10	Attr Arg1:T18 Arg2:T7

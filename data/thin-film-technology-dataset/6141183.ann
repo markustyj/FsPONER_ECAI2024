@@ -1,0 +1,46 @@
+T3	Material 138 142	NiFe
+T5	Component 366 376	upper pole
+T6	Component 382 386	mask
+T7	Function 401 412	ion milling
+T10	Component 656 677	upper pole seed layer
+T14	Component 29 58	MR read/write data transducer
+T2	Component 2 21	pole-trimmed writer
+T1	Function 89 114	significant re-deposition
+T15	Material 118 134	Al.sub.2 O.sub.3
+T16	Component 163 175	writer poles
+T4	Component 233 249	upper (top) pole
+T17	Component 327 340	lower flanges
+T18	Component 420 430	lower pole
+T19	Effect 435 448	shared shield
+T20	Component 507 513	flange
+T21	Function 553 563	deposition
+T22	Material 569 582	single copper
+T8	Material 584 586	Cu
+T23	Material 591 612	dual Al.sub.2 O.sub.3
+T24	Component 617 641	chromium (Cr) overlayers
+T9	Function 694 712	top pole formation
+T11	Function 717 734	selective removal
+T25	Location 768 787	underlying portions
+T12	Material 795 807	gap material
+T26	Function 819 851	subsequent ion milling operation
+T13	Function 856 874	further processing
+T27	Component 882 897	read/write head
+T28	Function 532 543	conjunction
+R1	Purpose Arg1:T2 Arg2:T14
+R2	Oper Arg1:T1 Arg2:T15
+R3	Oper Arg1:T1 Arg2:T3
+R4	Purpose Arg1:T5 Arg2:T6
+R5	Oper Arg1:T7 Arg2:T18
+R6	Causitive Arg1:T4 Arg2:T17
+R7	Oper Arg1:T7 Arg2:T19
+R8	Oper Arg1:T21 Arg2:T22
+R9	Oper Arg1:T21 Arg2:T8
+R10	Oper Arg1:T21 Arg2:T23
+R11	Spatial Arg1:T24 Arg2:T10
+R12	PartOf Arg1:T12 Arg2:T25
+R13	Oper Arg1:T11 Arg2:T25
+R14	Oper Arg1:T9 Arg2:T25
+R15	Oper Arg1:T26 Arg2:T27
+R16	Oper Arg1:T13 Arg2:T27
+R17	Spatial Arg1:T15 Arg2:T16
+R18	Spatial Arg1:T3 Arg2:T16

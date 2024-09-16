@@ -1,0 +1,39 @@
+T7	Component 262 267	layer
+T8	Material 271 289	MR sensor material
+T9	EnergyFlow 311 325	magnetic field
+T10	Component 367 373	layers
+T11	Material 377 395	MR sensor material
+T12	Component 423 438	MR sensor layer
+T13	Component 447 462	first gap layer
+T14	Component 532 559	first magnetic shield layer
+T1	Component 51 98	shielded magnetoresistive (MR) read transducers
+T2	Component 136 145	full film
+T3	Component 155 171	entire substrate
+T4	Component 177 204	first magnetic shield layer
+T5	Component 208 236	first non-magnetic gap layer
+T6	ScientificConcept 344 359	anisotropy axes
+T20	Location 401 417	chosen direction
+T21	Component 503 522	MR read transducers
+T15	Component 591 603	first shield
+T22	Component 620 639	MR read transducers
+T16	Component 643 659	second gap layer
+T17	Component 666 685	second shield layer
+T18	Component 713 726	second shield
+T23	Component 743 762	MR read transducers
+T24	Function 18 35	batch fabrication
+R1	Oper Arg1:T24 Arg2:T1
+R2	PartOf Arg1:T4 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T3
+R4	Attr Arg1:T8 Arg2:T7
+R5	Attr Arg1:T11 Arg2:T10
+R6	Attr Arg1:T10 Arg2:T6
+R7	Manner Arg1:T20 Arg2:T6
+R8	Causitive Arg1:T5 Arg2:T6
+R9	Causitive Arg1:T7 Arg2:T6
+R10	Purpose Arg1:T14 Arg2:T15
+R11	PartOf Arg1:T22 Arg2:T15
+R12	Spatial Arg1:T12 Arg2:T21
+R13	Spatial Arg1:T13 Arg2:T21
+R14	Purpose Arg1:T16 Arg2:T18
+R15	Purpose Arg1:T17 Arg2:T18
+R16	PartOf Arg1:T23 Arg2:T18

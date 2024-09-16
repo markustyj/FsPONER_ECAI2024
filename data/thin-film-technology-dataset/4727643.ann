@@ -1,0 +1,62 @@
+T1	Component 29 42	magnetic head
+T2	Component 48 67	thin-film technique
+T3	Component 102 113	magnet legs
+T4	Attribution 125 138	pole surfaces
+T5	Material 152 168	recording medium
+T6	Attribution 188 200	common plane
+T7	System 222 241	preliminary product
+T8	Component 249 262	magnetic head
+T9	Location 270 280	end pieces
+T10	Component 288 292	legs
+T11	Location 318 323	plane
+T12	Shape 350 359	small gap
+T13	System 368 401	electrically conducting structure
+T14	Component 472 486	substrate body
+T15	Location 529 533	side
+T16	Material 545 561	recording medium
+T17	Attribution 577 582	plane
+T18	Attribution 590 603	pole surfaces
+T19	Component 631 646	conductor parts
+T20	Location 709 721	area portion
+T21	Component 756 769	magnetic head
+T22	Component 777 791	substrate body
+T23	System 864 883	preliminary product
+T24	Component 891 904	magnetic head
+T25	Location 922 928	region
+T26	Shape 936 939	gap
+T27	Location 952 962	end pieces
+T28	Component 970 981	magnet legs
+T29	Component 994 1005	magnet legs
+T30	Component 1025 1041	thin metal layer
+T31	Component 1086 1100	conductor part
+T32	System 1108 1127	conductor structure
+T33	Component 1137 1154	second magnet leg
+T34	Component 1175 1195	other conductor part
+T35	Location 1203 1209	region
+T36	Location 1217 1226	end piece
+T37	Component 1243 1254	metal layer
+T38	Component 74 78	head
+T39	Function 739 750	manufacture
+R1	Manner Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T38 Arg2:T3
+R3	Attr Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T4 Arg2:T6
+R6	PartOf Arg1:T8 Arg2:T7
+R7	PartOf Arg1:T7 Arg2:T9
+R8	PartOf Arg1:T10 Arg2:T9
+R9	Spatial Arg1:T9 Arg2:T11
+R10	Causitive Arg1:T12 Arg2:T9
+R11	Attr Arg1:T18 Arg2:T17
+R12	Spatial Arg1:T15 Arg2:T16
+R13	Oper Arg1:T39 Arg2:T21
+R14	Spatial Arg1:T21 Arg2:T22
+R15	PartOf Arg1:T24 Arg2:T23
+R16	Spatial Arg1:T26 Arg2:T27
+R17	Spatial Arg1:T27 Arg2:T28
+R18	Spatial Arg1:T26 Arg2:T28
+R19	PartOf Arg1:T32 Arg2:T31
+R20	PartOf Arg1:T35 Arg2:T34
+R21	PartOf Arg1:T36 Arg2:T35
+R22	PartOf Arg1:T26 Arg2:T25
+R23	Spatial Arg1:T33 Arg2:T37

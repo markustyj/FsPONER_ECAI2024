@@ -1,0 +1,44 @@
+T2	Component 35 46	disk drives
+T3	System 75 86	GMR devices
+T4	ScientificConcept 142 153	track pitch
+T5	Attribution 161 172	drive width
+T7	EnergyFlow 248 253	field
+T8	System 275 294	hard bias structure
+T9	Component 358 374	additional layer
+T10	Material 378 400	soft magnetic material
+T11	Component 411 427	hard bias layers
+T12	Component 433 444	added layer
+T14	Component 474 490	hard bias layers
+T15	EnergyFlow 510 522	flux leakage
+T16	Location 532 542	gap region
+T17	Component 546 564	non-magnetic layer
+T18	Component 618 634	hard bias layers
+T19	Component 667 683	conductive leads
+T20	System 745 751	device
+T21	Others 4 30	track density requirements
+T1	Attribution 107 128	narrower track widths
+T22	Attribution 174 195	Narrower track widths
+T23	Attribution 204 213	stability
+T6	Consequence 221 235	amplitude loss
+T24	Consequence 300 312	side reading
+T25	Effect 454 466	flux closure
+T13	Effect 593 610	exchange coupling
+R1	Attr Arg1:T2 Arg2:T21
+R2	Attr Arg1:T3 Arg2:T1
+R3	Purpose Arg1:T1 Arg2:T4
+R4	Attr Arg1:T4 Arg2:T5
+R5	Purpose Arg1:T22 Arg2:T23
+R6	Causitive Arg1:T22 Arg2:T6
+R8	Spatial Arg1:T9 Arg2:T11
+R9	MadeOf Arg1:T9 Arg2:T10
+R10	Oper Arg1:T12 Arg2:T25
+R11	Oper Arg1:T25 Arg2:T14
+R13	Causitive Arg1:T15 Arg2:T16
+R14	Purpose Arg1:T17 Arg2:T13
+R15	Oper Arg1:T13 Arg2:T18
+R16	Comparison Arg1:T1 Arg2:T5
+R7	Generate Arg1:T8 Arg2:T7
+R17	Causitive Arg1:T22 Arg2:T24
+R18	Causitive Arg1:T12 Arg2:T15
+#1	AnnotatorNotes R2	其实并不清楚narrower track widths是否是GMR device的属性，所以这里不要贸然标attr关系，整个句子的翻译是：GMR器件已被推到较窄的轨道宽度以匹配驱动器宽度的轨道间距，所以这里应该标manner
+#2	AnnotatorNotes R6	cause，明显的因果关系

@@ -1,0 +1,52 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 39 52	magnetic core
+T3	Component 56 75	accumulation layers
+T4	EnergyFlow 86 102	magnetic circuit
+T5	Component 130 136	layers
+T6	Component 140 153	magnetic film
+T7	Attribution 161 195	particular magnetic characteristic
+T8	Component 239 252	magnetic film
+T9	Shape 260 273	small pattern
+T10	Component 279 292	magnetic film
+T11	Shape 300 313	large pattern
+T12	Location 324 333	edge part
+T13	Location 353 356	end
+T14	Component 364 388	underlying magnetic film
+T15	Component 409 428	upper magnetic film
+T16	EnergyFlow 435 456	edge-smoothing effect
+T17	Component 563 577	magnetic films
+T18	Component 607 621	magnetic films
+T19	Shape 637 652	smaller pattern
+T20	Component 691 705	film formation
+T21	Location 737 746	end parts
+T22	Component 754 779	underlying magnetic films
+T23	Effect 791 807	levelling action
+T25	Function 929 946	pattern formation
+T26	Component 986 1005	photoresist coating
+T27	Function 1021 1039	production process
+T28	Function 201 213	constitution
+T29	Function 516 533	electrodeposition
+T30	Shape 671 685	larger pattern
+T31	Location 718 728	step parts
+T32	Function 833 857	electrodeposition method
+T24	Function 866 880	film formation
+T33	Component 900 916	smooth shielding
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Form Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Attr Arg1:T6 Arg2:T7
+R7	Oper Arg1:T28 Arg2:T8
+R8	Manner Arg1:T9 Arg2:T8
+R9	Causitive Arg1:T10 Arg2:T8
+R10	Purpose Arg1:T28 Arg2:T12
+R11	PartOf Arg1:T14 Arg2:T13
+R12	Spatial Arg1:T13 Arg2:T15
+R13	Purpose Arg1:T29 Arg2:T17
+R14	Manner Arg1:T19 Arg2:T18
+R15	Manner Arg1:T30 Arg2:T18
+R16	PartOf Arg1:T22 Arg2:T21
+R17	Oper Arg1:T24 Arg2:T33
+R18	Oper Arg1:T25 Arg2:T26
+R19	Purpose Arg1:T25 Arg2:T27

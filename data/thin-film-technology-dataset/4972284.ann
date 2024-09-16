@@ -1,0 +1,57 @@
+T2	Function 454 467	magnetization
+T3	Function 576 589	magnetization
+T4	EnergyFlow 768 782	magnetic field
+T6	Component 837 868	coplanarly deposited MR element
+T11	Component 1105 1129	magnetoresistive element
+T13	Function 86 114	essentially symmetrical form
+T14	Location 140 153	planar region
+T15	EnergyFlow 157 173	transverse field
+T16	EnergyFlow 192 220	longitudinal field component
+T17	Component 293 310	"C" shaped magnet
+T18	EnergyFlow 351 394	unidirectional longitudinal field component
+T19	Component 475 481	magnet
+T20	Function 498 522	symmetric geometric form
+T21	Shape 612 627	geometric shape
+T22	Component 635 641	magnet
+T23	System 715 756	deposited asymmetrical magnetic structure
+T24	Effect 786 805	sufficient strength
+T25	Component 822 831	hard axis
+T5	Attribution 1155 1160	width
+T8	Attribution 1034 1039	width
+T9	Component 1047 1071	magnetoresistive element
+T26	EnergyFlow 1268 1301	increasing demagnetization fields
+T27	Component 1309 1333	magnetoresistive element
+T1	System 23 82	"C" shaped thin film deposited permanent magnetic structure
+T28	Shape 649 658	"C" shape
+T29	Shape 665 674	"L" shape
+T30	EnergyFlow 679 707	resultant field distribution
+T10	Component 1086 1090	head
+T12	EnergyFlow 1166 1189	average hard axis field
+T32	Location 441 450	direction
+T33	Location 559 568	direction
+T34	ScientificConcept 400 408	symmetry
+T31	EnergyFlow 877 947	additional relatively smaller magnitude unidirectional easy axis field
+T35	ScientificConcept 1222 1231	magnitude
+R1	Attr Arg1:T1 Arg2:T13
+R2	Purpose Arg1:T1 Arg2:T14
+R3	PartOf Arg1:T15 Arg2:T14
+R4	PartOf Arg1:T15 Arg2:T16
+R5	Purpose Arg1:T17 Arg2:T18
+R6	Attr Arg1:T2 Arg2:T32
+R7	Oper Arg1:T2 Arg2:T19
+R8	Spatial Arg1:T32 Arg2:T20
+R9	Purpose Arg1:T32 Arg2:T34
+R10	Attr Arg1:T3 Arg2:T33
+R11	Attr Arg1:T22 Arg2:T21
+R12	Attr Arg1:T23 Arg2:T30
+R13	Causitive Arg1:T30 Arg2:T4
+R14	Attr Arg1:T4 Arg2:T24
+R15	Purpose Arg1:T4 Arg2:T25
+R16	PartOf Arg1:T6 Arg2:T25
+R17	PartOf Arg1:T6 Arg2:T31
+R18	Attr Arg1:T9 Arg2:T8
+T7	Measure 982 1012	hard axis bias field magnitude
+R19	Attr Arg1:T11 Arg2:T5
+R20	Attr Arg1:T12 Arg2:T35
+R21	PartOf Arg1:T27 Arg2:T26
+R22	Purpose Arg1:T12 Arg2:T26

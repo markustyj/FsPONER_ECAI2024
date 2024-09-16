@@ -1,0 +1,16 @@
+T1	Component 2 25	magnetic thin film head
+T2	Component 37 66	soft magnetic alloy thin film
+T5	Component 79 90	composition
+T6	ScientificConcept 183 207	atomic composition ratio
+T3	Material 256 266	iron oxide
+T4	Material 298 311	iron nitrides
+T7	ScientificConcept 409 428	composition formula
+T8	Material 280 296	Fe.sub.2 O.sub.3
+T9	Material 325 335	Fe.sub.4 N
+T10	Material 340 350	Fe.sub.3 N
+T11	Material 370 379	alpha.-Fe
+T12	Material 116 140	Fe.sub.X N.sub.Y O.sub.Z
+T13	Value 231 242	four phases
+R1	PartOf Arg1:T1 Arg2:T2
+R4	Alias Arg1:T3 Arg2:T8
+R2	PartOf Arg1:T2 Arg2:T5

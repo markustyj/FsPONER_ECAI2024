@@ -1,0 +1,40 @@
+T2	Function 72 79	etching
+T3	Component 82 93	bottom pole
+T6	Location 263 270	portion
+T7	Component 293 301	top pole
+T10	Component 402 413	bottom pole
+T11	Component 448 465	non-magnetic film
+T13	Component 507 518	bottom pole
+T14	Component 577 585	top pole
+T8	Shape 337 349	magnetic gap
+T16	Component 26 44	thin-film magnetic
+T17	Shape 56 68	mask pattern
+T1	Component 107 134	first and second mask films
+T4	Component 170 181	bottom pole
+T18	Component 187 202	first mask film
+T5	Function 228 242	self-alignment
+T19	Attribution 248 254	length
+T20	Attribution 278 287	side edge
+T21	Component 355 371	second mask film
+T9	Effect 419 444	high dimensional accuracy
+T22	Shape 483 495	mask pattern
+T12	Component 558 567	substrate
+T23	Location 538 552	exposed region
+T15	Shape 606 618	mask pattern
+R1	Oper Arg1:T2 Arg2:T3
+R2	Form Arg1:T1 Arg2:T17
+R3	Attr Arg1:T6 Arg2:T19
+R4	Manner Arg1:T4 Arg2:T17
+R5	PartOf Arg1:T3 Arg2:T17
+R6	Oper Arg1:T5 Arg2:T18
+R7	Attr Arg1:T7 Arg2:T20
+R8	Spatial Arg1:T7 Arg2:T8
+R9	PartOf Arg1:T20 Arg2:T6
+R10	Purpose Arg1:T18 Arg2:T19
+R11	Causitive Arg1:T21 Arg2:T10
+R12	Manner Arg1:T9 Arg2:T21
+R13	Spatial Arg1:T11 Arg2:T22
+R15	PartOf Arg1:T12 Arg2:T23
+R14	PartOf Arg1:T22 Arg2:T13
+R16	Spatial Arg1:T11 Arg2:T23
+R17	Form Arg1:T15 Arg2:T14

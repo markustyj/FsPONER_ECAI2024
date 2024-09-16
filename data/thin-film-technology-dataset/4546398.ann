@@ -1,0 +1,23 @@
+T2	Component 70 81	spiral coil
+T3	Component 98 131	electrically conductive thin film
+T4	Component 139 148	main pole
+T5	Component 154 178	first thin magnetic film
+T6	Location 189 192	end
+T7	Component 240 249	main pole
+T8	Component 258 269	spiral coil
+T9	Component 321 348	perpendicular magnetic head
+T12	Component 442 453	rigid disks
+T13	Function 471 495	high-frequency operation
+T14	Effect 508 549	improved recording/reproducing efficiency
+T1	Component 2 55	perpendicular magnetic recording and reproducing head
+T15	Component 417 429	floppy disks
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T2
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T5 Arg2:T6
+R6	Causitive Arg1:T7 Arg2:T8
+R7	Attr Arg1:T9 Arg2:T14
+R8	Purpose Arg1:T9 Arg2:T13
+R9	Purpose Arg1:T9 Arg2:T15
+R10	Purpose Arg1:T9 Arg2:T12

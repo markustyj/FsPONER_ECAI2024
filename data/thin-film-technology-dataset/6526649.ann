@@ -1,0 +1,66 @@
+T1	Component 39 73	magneto-resistive effect type head
+T2	Component 101 135	magneto-resistive effect type head
+T4	Component 176 210	magneto-resistive effect type head
+T5	Component 270 299	magneto-resistive effect film
+T6	Component 389 400	ion milling
+T9	Component 515 544	magneto-resistive effect film
+T10	Component 576 590	electrode film
+T11	Component 623 652	magneto-resistive effect film
+T12	Function 700 711	ion milling
+T13	Component 754 763	substrate
+T14	Function 786 805	ion beam sputtering
+T15	Component 823 837	electrode film
+T16	Component 886 895	substrate
+T17	Component 965 989	anti-ferromagnetic layer
+T3	Attribution 141 172	stabilized head characteristics
+T21	Shape 310 327	trapezoidal shape
+T23	System 426 444	overhang structure
+T8	Component 464 481	bias magnet films
+T24	Location 502 507	sides
+T25	Attribution 687 692	angle
+T27	ScientificConcept 740 746	normal
+T28	Attribution 764 771	surface
+T7	Component 411 422	resist mask
+T29	Component 670 681	resist mask
+T30	Attribution 777 782	angle
+T32	ScientificConcept 872 878	normal
+T31	Value 846 855	30.degree
+T26	Value 715 723	5.degree
+T33	Attribution 896 903	surface
+T34	Shape 936 953	trapezoidal shape
+T35	Location 1007 1015	position
+T36	Value 1019 1022	30%
+T37	Attribution 1038 1043	depth
+T18	Component 1047 1055	TiW film
+T38	Value 1059 1071	3 nm to 5 nm
+T39	Attribution 1075 1084	thickness
+T19	Component 1101 1110	base film
+T20	Component 1123 1139	bias magnet film
+T22	Attribution 343 367	specified abutting angle
+R1	Attr Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T21 Arg2:T22
+R3	PartOf Arg1:T21 Arg2:T5
+R4	Causitive Arg1:T5 Arg2:T6
+R5	Attr Arg1:T7 Arg2:T23
+R6	Causitive Arg1:T5 Arg2:T7
+R7	Purpose Arg1:T8 Arg2:T24
+R8	PartOf Arg1:T9 Arg2:T24
+R9	Purpose Arg1:T10 Arg2:T11
+R10	Causitive Arg1:T10 Arg2:T29
+R11	Attr Arg1:T12 Arg2:T25
+R12	Measurement Arg1:T25 Arg2:T26
+R13	Attr Arg1:T13 Arg2:T28
+R14	Attr Arg1:T13 Arg2:T27
+R15	Comparison Arg1:T25 Arg2:T27
+R16	Attr Arg1:T14 Arg2:T30
+R17	Measurement Arg1:T30 Arg2:T31
+R18	Comparison Arg1:T30 Arg2:T32
+R19	Attr Arg1:T16 Arg2:T33
+R20	Attr Arg1:T16 Arg2:T32
+R21	Attr Arg1:T17 Arg2:T37
+R22	Measurement Arg1:T37 Arg2:T36
+R23	Manner Arg1:T17 Arg2:T35
+R24	Measurement Arg1:T18 Arg2:T38
+R25	Attr Arg1:T18 Arg2:T39
+R26	PartOf Arg1:T20 Arg2:T19
+R27	Causitive Arg1:T19 Arg2:T18

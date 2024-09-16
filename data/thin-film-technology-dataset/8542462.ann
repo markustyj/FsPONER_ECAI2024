@@ -1,0 +1,54 @@
+T1	Component 32 69	perpendicular magnetic recording head
+T2	EnergyFlow 81 99	main magnetic pole
+T3	Location 109 122	trailing side
+T4	EnergyFlow 148 163	magnetic shield
+T5	Location 173 186	trailing side
+T6	EnergyFlow 241 256	magnetic shield
+T9	Location 378 399	floating surface side
+T13	Component 519 523	head
+T14	Component 540 557	non-magnetic film
+T15	EnergyFlow 581 596	magnetic shield
+T16	Component 627 646	first magnetic film
+T17	EnergyFlow 675 690	magnetic shield
+T18	EnergyFlow 699 717	main magnetic pole
+T19	Location 739 760	floating surface side
+T20	Component 776 780	coil
+T21	EnergyFlow 817 833	magnetic circuit
+T22	EnergyFlow 849 867	main magnetic pole
+T23	Location 131 144	lateral sides
+T24	Location 196 209	lateral sides
+T25	EnergyFlow 217 235	main magnetic pole
+T7	Component 271 295	first soft magnetic film
+T8	Effect 303 342	relatively high saturation flux density
+T10	Component 411 436	second soft magnetic film
+T11	Effect 444 482	relatively low saturation flux density
+T12	Component 490 513	first non-magnetic film
+T26	EnergyFlow 605 623	main magnetic pole
+T27	Location 723 727	side
+T28	EnergyFlow 795 811	magnetic circuit
+T29	Component 876 895	first magnetic film
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T23
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T25 Arg2:T24
+R7	PartOf Arg1:T25 Arg2:T5
+R8	PartOf Arg1:T6 Arg2:T7
+R9	Attr Arg1:T7 Arg2:T8
+R10	PartOf Arg1:T6 Arg2:T10
+R11	Attr Arg1:T10 Arg2:T11
+R12	PartOf Arg1:T6 Arg2:T12
+R13	Manner Arg1:T9 Arg2:T7
+R14	PartOf Arg1:T13 Arg2:T14
+R15	Spatial Arg1:T14 Arg2:T15
+R16	Spatial Arg1:T14 Arg2:T26
+R17	PartOf Arg1:T13 Arg2:T16
+R18	Spatial Arg1:T16 Arg2:T17
+R19	PartOf Arg1:T13 Arg2:T20
+R20	Spatial Arg1:T16 Arg2:T18
+R21	Spatial Arg1:T27 Arg2:T19
+R22	Spatial Arg1:T18 Arg2:T27
+R23	Spatial Arg1:T20 Arg2:T28
+R24	PartOf Arg1:T21 Arg2:T22
+R25	PartOf Arg1:T21 Arg2:T29

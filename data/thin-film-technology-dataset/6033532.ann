@@ -1,0 +1,47 @@
+T1	Component 23 33	oxide film
+T2	Component 43 52	substrate
+T3	Component 59 76	electronic device
+T4	Component 99 127	first metal oxide film layer
+T5	Component 148 157	substrate
+T6	Component 165 182	electronic device
+T7	Function 186 201	bias sputtering
+T8	Component 211 240	second metal oxide film layer
+T9	Function 257 276	ion beam sputtering
+T10	Component 284 312	first metal oxide film layer
+T11	Component 339 367	first metal oxide film layer
+T12	Component 388 397	substrate
+T13	Component 405 422	electronic device
+T14	Function 426 445	ion beam sputtering
+T15	Component 455 484	second metal oxide film layer
+T17	Component 524 552	first metal oxide film layer
+T18	Component 583 611	first metal oxide film layer
+T20	ScientificConcept 637 643	purity
+T21	Component 664 673	substrate
+T22	Component 681 698	electronic device
+T23	Component 708 737	second metal oxide film layer
+T25	ScientificConcept 764 770	purity
+T26	Component 791 819	first metal oxide film layer
+T28	Attribution 870 883	second degree
+T16	Function 501 516	bias sputtering
+T19	ScientificConcept 841 847	purity
+T24	ScientificConcept 887 893	purity
+R1	PartOf Arg1:T3 Arg2:T2
+R2	Spatial Arg1:T1 Arg2:T2
+R3	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T6 Arg2:T5
+R5	Oper Arg1:T7 Arg2:T4
+R6	Oper Arg1:T9 Arg2:T8
+R7	Spatial Arg1:T8 Arg2:T10
+R8	Spatial Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T13 Arg2:T12
+R10	Oper Arg1:T14 Arg2:T11
+R11	Spatial Arg1:T15 Arg2:T17
+R12	Oper Arg1:T16 Arg2:T15
+R13	Spatial Arg1:T18 Arg2:T21
+R14	PartOf Arg1:T22 Arg2:T21
+R15	Attr Arg1:T18 Arg2:T20
+R16	Attr Arg1:T23 Arg2:T25
+R17	Spatial Arg1:T23 Arg2:T26
+T27	Attribution 825 837	first degree
+R18	Attr Arg1:T24 Arg2:T28
+R19	Attr Arg1:T19 Arg2:T27

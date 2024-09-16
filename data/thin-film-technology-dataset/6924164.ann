@@ -1,0 +1,30 @@
+T1	Component 21 37	thin-film device
+T2	Component 50 74	substrate-supply station
+T3	Component 91 100	substrate
+T4	Component 106 115	substrate
+T5	Component 122 133	first layer
+T6	Component 141 150	substrate
+T7	Component 207 219	second layer
+T8	Component 229 240	first layer
+T9	Component 273 285	second layer
+T10	Component 344 353	substrate
+T11	Component 393 410	photovoltaic cell
+T12	Component 437 446	substrate
+T13	Material 452 469	flexible material
+T14	Component 486 490	roll
+T15	EnergyFlow 530 548	integrated circuit
+T16	Component 556 565	substrate
+T17	EnergyFlow 595 613	integrated circuit
+T18	Component 628 635	battery
+T19	Component 645 662	photovoltaic cell
+T20	EnergyFlow 250 256	energy
+R1	PartOf Arg1:T4 Arg2:T5
+R2	Spatial Arg1:T5 Arg2:T6
+R3	Causitive Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T1 Arg2:T2
+R5	Causitive Arg1:T7 Arg2:T8
+R6	Causitive Arg1:T20 Arg2:T9
+R7	Causitive Arg1:T14 Arg2:T13
+R8	MadeOf Arg1:T12 Arg2:T13
+R9	Causitive Arg1:T15 Arg2:T16
+R10	Purpose Arg1:T17 Arg2:T18

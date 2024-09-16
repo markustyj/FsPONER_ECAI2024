@@ -1,0 +1,78 @@
+T1	Component 23 36	magnetic head
+T2	InfoFlow 64 84	magnetic information
+T3	Attribution 123 139	magnetic surface
+T4	Component 335 339	film
+T5	Attribution 349 365	magnetic surface
+T6	Component 410 423	magnetic head
+T7	Component 472 485	magnetic head
+T8	Component 527 531	film
+T9	Component 758 771	magnetic head
+T13	Component 196 204	balancer
+T14	Component 261 274	support plate
+T15	Component 314 323	apparatus
+T16	Component 153 158	lever
+T17	Component 382 395	support plate
+T18	Component 438 442	pins
+T19	Location 504 513	direction
+T21	Component 542 547	pivot
+T22	Component 561 566	lever
+T23	Component 608 617	apparatus
+T25	Location 653 659	center
+T26	PhysicsFlow 663 670	gravity
+T27	Component 705 710	lever
+T28	Component 716 724	balancer
+T29	Component 733 746	support plate
+T30	Component 780 784	pins
+T31	Component 793 802	apparatus
+T32	Component 842 847	lever
+T33	Location 865 874	direction
+T34	Component 888 892	pins
+T35	Attribution 916 920	edge
+T36	Component 953 957	film
+T37	EnergyFlow 967 974	impulse
+T38	Component 993 1002	apparatus
+T39	Location 1019 1028	direction
+T40	ScientificConcept 1056 1075	rotational momentum
+T41	Component 1083 1088	lever
+T11	Location 88 104	precise position
+T12	Component 145 149	film
+T20	Component 302 307	frame
+T43	Component 595 600	frame
+T44	System 678 690	total system
+T10	Component 817 828	coil spring
+T42	Component 1100 1105	pivot
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Attr Arg1:T12 Arg2:T3
+R4	PartOf Arg1:T15 Arg2:T20
+R5	Attr Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T16 Arg2:T13
+R7	PartOf Arg1:T16 Arg2:T14
+R8	Spatial Arg1:T16 Arg2:T20
+R9	PartOf Arg1:T15 Arg2:T4
+R10	Spatial Arg1:T6 Arg2:T17
+R11	Spatial Arg1:T18 Arg2:T17
+R12	Spatial Arg1:T18 Arg2:T7
+R13	Attr Arg1:T8 Arg2:T19
+R14	PartOf Arg1:T23 Arg2:T43
+R15	Spatial Arg1:T22 Arg2:T43
+R17	PartOf Arg1:T44 Arg2:T27
+R18	PartOf Arg1:T44 Arg2:T28
+R19	PartOf Arg1:T44 Arg2:T29
+R20	PartOf Arg1:T29 Arg2:T9
+R21	PartOf Arg1:T29 Arg2:T30
+R22	Spatial Arg1:T21 Arg2:T25
+R23	Attr Arg1:T44 Arg2:T26
+R24	Attr Arg1:T26 Arg2:T25
+R25	PartOf Arg1:T31 Arg2:T10
+R26	Attr Arg1:T36 Arg2:T35
+R27	Spatial Arg1:T34 Arg2:T35
+R28	Attr Arg1:T32 Arg2:T33
+R29	Causitive Arg1:T10 Arg2:T32
+R30	Attr Arg1:T34 Arg2:T33
+R31	Attr Arg1:T35 Arg2:T33
+R32	Causitive Arg1:T37 Arg2:T38
+R33	Manner Arg1:T39 Arg2:T38
+R34	Spatial Arg1:T41 Arg2:T42
+R35	Attr Arg1:T41 Arg2:T40
+R3	Causitive Arg1:T2 Arg2:T11
+R16	Spatial Arg1:T21 Arg2:T22

@@ -1,0 +1,36 @@
+T1	Component 2 30	thin film tape head assembly
+T2	Component 73 94	thin film transducers
+T5	Component 132 137	wafer
+T7	Component 195 216	thin film transducers
+T9	Component 277 285	head bar
+T3	Component 100 113	ceramic wafer
+T4	Component 117 126	substrate
+T6	Component 154 163	head bars
+T14	Attribution 224 228	face
+T10	Component 296 316	head bar subassembly
+T15	Component 320 334	flexible cable
+T16	Component 338 353	electrical pins
+T17	Location 379 391	end sections
+T11	EnergyFlow 436 448	head circuit
+T18	EnergyFlow 453 471	external circuitry
+T12	Component 496 518	head bar subassemblies
+T19	Component 586 603	read/write device
+T13	Component 522 559	multigap thin film tape head assembly
+T20	Location 230 242	End sections
+T8	Component 249 258	cover bar
+T21	Function 402 423	electrical connection
+R1	Spatial Arg1:T2 Arg2:T3
+R2	Spatial Arg1:T2 Arg2:T4
+R3	Form Arg1:T2 Arg2:T1
+R4	Attr Arg1:T7 Arg2:T14
+R5	Spatial Arg1:T20 Arg2:T9
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Purpose Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T15 Arg2:T16
+R9	Spatial Arg1:T15 Arg2:T17
+R10	Spatial Arg1:T16 Arg2:T17
+R11	Purpose Arg1:T17 Arg2:T21
+R12	Oper Arg1:T21 Arg2:T11
+R13	Oper Arg1:T21 Arg2:T18
+R14	Form Arg1:T13 Arg2:T19
+R15	Manner Arg1:T12 Arg2:T13

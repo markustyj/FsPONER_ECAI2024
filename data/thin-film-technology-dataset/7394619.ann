@@ -1,0 +1,41 @@
+T1	Component 4 24	inductive write head
+T2	Component 33 44	write poles
+T3	Shape 49 58	write gap
+T4	EnergyFlow 80 95	magnetic fields
+T5	Location 103 124	cross-track direction
+T6	Component 130 153	magnetic recording disk
+T7	Component 159 169	disk drive
+T8	Component 175 179	disk
+T9	Function 188 202	magnetizations
+T11	Location 249 270	cross-track direction
+T13	Component 362 372	write head
+T14	EnergyFlow 385 395	erase pole
+T15	Shape 403 412	erase gap
+T16	EnergyFlow 425 440	magnetic fields
+T17	Location 447 472	along-the-track direction
+T18	Location 480 485	sides
+T19	Component 493 504	data tracks
+T20	Function 515 545	along-the-track magnetizations
+T12	Component 280 302	concentric data tracks
+T21	EnergyFlow 345 356	guard bands
+T22	EnergyFlow 561 572	guard bands
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T7 Arg2:T6
+R4	Spatial Arg1:T4 Arg2:T6
+R5	Generate Arg1:T3 Arg2:T4
+R6	Generate Arg1:T2 Arg2:T4
+R7	Manner Arg1:T5 Arg2:T4
+R8	PartOf Arg1:T13 Arg2:T14
+R9	PartOf Arg1:T13 Arg2:T15
+R10	Attr Arg1:T19 Arg2:T18
+R11	Manner Arg1:T17 Arg2:T16
+R12	Generate Arg1:T15 Arg2:T16
+R13	Generate Arg1:T14 Arg2:T16
+R14	Spatial Arg1:T16 Arg2:T18
+R15	Purpose Arg1:T20 Arg2:T22
+R16	Causitive Arg1:T12 Arg2:T21
+R17	Manner Arg1:T11 Arg2:T9
+R18	Oper Arg1:T9 Arg2:T8
+T10	Component 210 232	concentric data tracks
+R19	Causitive Arg1:T9 Arg2:T10

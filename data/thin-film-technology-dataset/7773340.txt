@@ -1,0 +1,1 @@
+ A thin-film magnetic recording head utilizing a timing based servo pattern is fabricated by sputtering a magnetically permeable thin film onto a substrate. A gap pattern, preferably a timing based pattern, is defined by the thin film. The gap pattern includes termination patterns or endpoints that are elliptical or diamond-shaped.

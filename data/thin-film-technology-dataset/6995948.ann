@@ -1,0 +1,46 @@
+T1	Component 3 43	magnetoresistive thin-film magnetic head
+T2	Effect 49 74	high corrosion resistance
+T3	Material 79 95	recording medium
+T5	Component 147 162	protective film
+T6	Attribution 172 181	thickness
+T7	Value 185 193	40 .ANG.
+T8	ScientificConcept 213 221	distance
+T9	Component 234 238	head
+T10	Material 247 253	medium
+T11	Component 281 285	film
+T12	Material 304 320	recording medium
+T13	Effect 328 348	high-packing density
+T14	Component 354 399	magnetoresistive type thin-film magnetic head
+T15	Component 425 441	following layers
+T16	Attribution 469 476	surface
+T17	Component 484 488	head
+T18	Material 498 514	recording medium
+T19	Component 522 533	lower layer
+T20	Component 548 557	thin film
+T21	ScientificConcept 569 580	composition
+T22	ScientificConcept 789 801	atomic ratio
+T23	Component 938 949	upper layer
+T24	Component 964 986	diamond-like thin film
+T25	ScientificConcept 998 1009	composition
+T28	Component 1178 1189	lower layer
+T30	System 1288 1308	magnetic head device
+T31	ScientificConcept 103 119	massive capacity
+T4	Attribution 1155 1170	total thickness
+T26	Component 1198 1209	upper layer
+R1	Measurement Arg1:T6 Arg2:T7
+R2	Attr Arg1:T5 Arg2:T6
+R3	Attr Arg1:T1 Arg2:T2
+R4	Attr Arg1:T3 Arg2:T31
+R5	Purpose Arg1:T1 Arg2:T3
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Attr Arg1:T12 Arg2:T13
+R8	Purpose Arg1:T11 Arg2:T12
+R9	Attr Arg1:T17 Arg2:T16
+R10	Causitive Arg1:T17 Arg2:T18
+R11	Spatial Arg1:T15 Arg2:T16
+R12	PartOf Arg1:T19 Arg2:T20
+R13	PartOf Arg1:T20 Arg2:T21
+R14	PartOf Arg1:T23 Arg2:T24
+R15	PartOf Arg1:T24 Arg2:T25
+R16	Attr Arg1:T28 Arg2:T4
+R17	Attr Arg1:T26 Arg2:T4

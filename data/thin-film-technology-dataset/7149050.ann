@@ -1,0 +1,42 @@
+T1	Location 77 94	relative position
+T2	Component 100 115	transducer head
+T3	Material 134 148	storage medium
+T4	System 206 235	head positioning servo system
+T5	System 247 271	transducer head assembly
+T7	System 330 354	transducer head assembly
+T8	Material 412 435	magnetic storage medium
+T9	Material 444 462	diffractive medium
+T10	Component 466 474	detector
+T11	Material 534 557	magnetic storage medium
+T12	Material 566 584	diffractive medium
+T13	Component 592 602	controller
+T14	Location 621 629	position
+T15	Component 637 652	transducer head
+T16	Material 673 696	magnetic storage medium
+T6	Material 275 293	diffractive medium
+T18	EnergyFlow 358 370	light source
+T19	EnergyFlow 489 494	light
+T20	EnergyFlow 504 516	light source
+T17	EnergyFlow 716 730	detected light
+T21	Material 159 186	optically diffractive media
+T22	System 26 33	systems
+R1	Causitive Arg1:T22 Arg2:T1
+R2	Causitive Arg1:T22 Arg2:T21
+R3	PartOf Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T4 Arg2:T6
+R5	PartOf Arg1:T4 Arg2:T18
+R6	PartOf Arg1:T4 Arg2:T10
+R7	PartOf Arg1:T4 Arg2:T13
+R8	Spatial Arg1:T2 Arg2:T3
+R9	Spatial Arg1:T6 Arg2:T7
+R10	Generate Arg1:T20 Arg2:T19
+R11	Causitive Arg1:T20 Arg2:T11
+R12	Causitive Arg1:T20 Arg2:T12
+R13	Purpose Arg1:T10 Arg2:T19
+R14	Causitive Arg1:T18 Arg2:T8
+R15	Causitive Arg1:T18 Arg2:T9
+R16	Purpose Arg1:T13 Arg2:T14
+R17	Spatial Arg1:T15 Arg2:T16
+#1	AnnotatorNotes R1	有 purpose关系的特征词for，所以标引purpose好一些
+R18	Attr Arg1:T15 Arg2:T14
+#2	AnnotatorNotes R18	感应器磁头的位置，用attr标注两者关系

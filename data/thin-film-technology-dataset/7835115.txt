@@ -1,0 +1,1 @@
+ A recording head for use in magnetic storage devices is disclosed. The recording head includes flexure assemblies that can be selectively and electrically charged to provide a motional force to selectively move the flexure assemblies and to cause corresponding movement of a transducer with to a surface of a magnetic medium.

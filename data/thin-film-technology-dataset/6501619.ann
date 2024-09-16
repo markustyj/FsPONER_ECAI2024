@@ -1,0 +1,71 @@
+T1	Component 2 36	thin film magnetic read/write head
+T2	EnergyFlow 49 60	return pole
+T3	Component 67 82	read/write pole
+T4	EnergyFlow 99 110	return pole
+T5	EnergyFlow 116 127	return pole
+T6	Location 134 151	vertical sidewall
+T7	Attribution 164 184	predetermined height
+T8	Component 211 220	substrate
+T9	Component 225 241	insulating layer
+T10	Location 261 269	sidewall
+T11	EnergyFlow 282 293	return pole
+T12	Component 298 313	read/write pole
+T13	Component 319 335	insulating layer
+T14	Shape 351 362	gap spacing
+T15	EnergyFlow 375 386	return pole
+T16	Component 391 406	read/write pole
+T17	Component 412 427	read/write pole
+T18	Component 440 463	magnetic material layer
+T19	Component 494 503	substrate
+T20	Component 523 539	insulating layer
+T21	Attribution 545 554	thickness
+T22	Component 562 585	magnetic material layer
+T23	Attribution 601 610	thickness
+T24	Component 618 633	read/write pole
+T25	EnergyFlow 639 650	return pole
+T26	Component 655 670	read/write pole
+T27	Attribution 676 688	top surfaces
+T28	Attribution 713 718	plane
+T29	Attribution 734 757	top return pole surface
+T30	Component 782 805	magnetic material layer
+T31	Component 826 835	substrate
+T32	Component 841 856	read/write pole
+T33	Component 886 896	core layer
+T34	Component 932 950	solenoidal winding
+T35	Material 954 973	conductive material
+T36	Component 979 989	core layer
+T37	Component 1006 1016	base layer
+T38	EnergyFlow 1041 1052	return pole
+T39	EnergyFlow 1058 1069	return pole
+T40	Component 1074 1084	core layer
+T41	Location 1101 1104	top
+T42	Component 1112 1122	base layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Attr Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T6 Arg2:T8
+R6	PartOf Arg1:T5 Arg2:T6
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T10 Arg2:T11
+R9	Spatial Arg1:T10 Arg2:T12
+R10	Causitive Arg1:T13 Arg2:T14
+R11	PartOf Arg1:T17 Arg2:T18
+R12	Spatial Arg1:T18 Arg2:T19
+R13	Spatial Arg1:T18 Arg2:T20
+R14	Attr Arg1:T22 Arg2:T21
+R15	Attr Arg1:T24 Arg2:T23
+R16	Causitive Arg1:T21 Arg2:T23
+R17	Attr Arg1:T25 Arg2:T27
+R18	Attr Arg1:T26 Arg2:T27
+R19	Causitive Arg1:T29 Arg2:T28
+R20	Spatial Arg1:T28 Arg2:T30
+R21	Spatial Arg1:T28 Arg2:T31
+R22	Causitive Arg1:T32 Arg2:T33
+R23	Causitive Arg1:T33 Arg2:T34
+R24	PartOf Arg1:T35 Arg2:T34
+R25	Causitive Arg1:T36 Arg2:T37
+R26	Causitive Arg1:T37 Arg2:T38
+R27	Attr Arg1:T42 Arg2:T41
+R28	Spatial Arg1:T39 Arg2:T41
+R29	Spatial Arg1:T40 Arg2:T41

@@ -1,0 +1,45 @@
+T1	Component 75 99	electronic lapping guide
+T2	Component 106 133	magnetic read head assembly
+T3	Component 139 169	magnetoresistive head assembly
+T4	Component 181 196	sensing element
+T5	Attribution 208 218	front edge
+T6	Location 225 241	front flux guide
+T7	Attribution 253 262	back edge
+T10	Component 381 396	interface plane
+T11	Attribution 411 418	surface
+T12	Component 424 439	wafer substrate
+T13	Component 445 469	electronic lapping guide
+T14	Material 482 501	conductive material
+T15	Component 527 543	electrical leads
+T16	EnergyFlow 560 570	resistance
+T17	Material 583 602	conductive material
+T18	Material 608 627	conductive material
+T20	Component 689 704	interface plane
+T21	EnergyFlow 710 720	resistance
+T22	Material 728 747	conductive material
+T24	Attribution 824 839	interface plane
+T9	Component 314 329	ront flux guide
+T25	Attribution 330 339	back edge
+T26	Attribution 348 364	common interface
+T19	Attribution 642 671	conductive material back edge
+T23	Attribution 783 809	conductive material length
+R1	Attr Arg1:T4 Arg2:T5
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T6
+R4	Attr Arg1:T6 Arg2:T7
+T8	Component 278 293	sensing element
+T27	Attribution 294 304	front edge
+R5	Attr Arg1:T8 Arg2:T27
+R6	Attr Arg1:T9 Arg2:T25
+R7	Causitive Arg1:T26 Arg2:T10
+R8	Attr Arg1:T12 Arg2:T11
+R9	MadeOf Arg1:T13 Arg2:T14
+R10	Spatial Arg1:T14 Arg2:T15
+R11	Spatial Arg1:T10 Arg2:T11
+R13	Causitive Arg1:T14 Arg2:T16
+R14	Attr Arg1:T18 Arg2:T19
+R15	Spatial Arg1:T19 Arg2:T20
+R16	Attr Arg1:T22 Arg2:T21
+R18	Comparison Arg1:T21 Arg2:T23
+R12	Causitive Arg1:T14 Arg2:T17
+R17	Spatial Arg1:T23 Arg2:T24

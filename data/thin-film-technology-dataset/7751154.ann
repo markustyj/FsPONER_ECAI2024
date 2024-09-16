@@ -1,0 +1,46 @@
+T1	Component 35 44	read head
+T2	Component 98 105	devices
+T3	Component 140 149	read head
+T4	Component 162 171	MR sensor
+T5	Component 179 194	insulator layer
+T6	Component 229 238	MR sensor
+T7	Component 244 253	read head
+T8	Attribution 273 288	bearing surface
+T9	Component 302 317	insulator layer
+T11	Attribution 341 356	bearing surface
+T12	Attribution 383 390	surface
+T13	Component 398 407	MR sensor
+T14	Attribution 416 431	bearing surface
+T15	Component 462 471	MR sensor
+T16	Attribution 493 508	bearing surface
+T17	Component 514 523	MR sensor
+T18	Component 547 563	thin-film layers
+T20	Component 575 607	AMR, GMR, or TGMR sensor element
+T21	Location 641 664	slanted surface portion
+T22	Component 678 693	insulator layer
+T23	Location 713 736	slanted surface portion
+T24	Component 760 769	MR sensor
+T25	Attribution 779 794	bearing surface
+T26	Component 64 93	magnetoresistive (MR) sensors
+T10	Effect 443 453	protection
+T27	Consequence 477 485	exposure
+T19	System 613 618	stack
+T28	ScientificConcept 211 221	same level
+R1	PartOf Arg1:T1 Arg2:T26
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T3 Arg2:T5
+R6	PartOf Arg1:T7 Arg2:T8
+R7	Form Arg1:T9 Arg2:T11
+R8	Spatial Arg1:T13 Arg2:T14
+R9	Attr Arg1:T13 Arg2:T12
+R10	Purpose Arg1:T9 Arg2:T10
+R11	Spatial Arg1:T15 Arg2:T16
+R12	PartOf Arg1:T17 Arg2:T18
+R13	Form Arg1:T18 Arg2:T20
+R14	PartOf Arg1:T19 Arg2:T21
+R15	Spatial Arg1:T22 Arg2:T23
+R16	Spatial Arg1:T24 Arg2:T25
+R5	Manner Arg1:T28 Arg2:T5
+R17	Purpose Arg1:T22 Arg2:T24
+R18	Spatial Arg1:T5 Arg2:T6

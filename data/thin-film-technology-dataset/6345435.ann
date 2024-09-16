@@ -1,0 +1,56 @@
+T2	Component 120 135	full film layer
+T3	Material 139 167	first ferromagnetic material
+T5	Component 348 363	patterned layer
+T7	Component 419 434	full film layer
+T8	Component 470 485	patterned layer
+T9	Material 489 500	photoresist
+T10	Component 523 538	full film layer
+T11	Material 542 570	first ferromagnetic material
+T13	Component 669 684	patterned layer
+T14	Component 723 738	full film layer
+T15	Material 742 770	first ferromagnetic material
+T16	Material 779 802	non-magnetic dielectric
+T17	Component 833 848	patterned layer
+T19	Component 887 891	mask
+T21	Component 45 59	laminated yoke
+T22	Component 66 116	high data rate magnetic read-write transducer head
+T1	Component 183 187	base
+T23	Function 201 208	plating
+T24	Function 212 222	sputtering
+T25	Component 228 232	base
+T26	Component 245 254	read head
+T27	Component 258 282	ferromagnetic pole piece
+T28	Component 290 310	ferromagnetic shield
+T4	Component 334 344	pole piece
+T29	Material 367 396	first non-magnetic dielectric
+T6	Material 438 466	first ferromagnetic material
+T30	Material 579 612	patterned non-magnetic dielectric
+T12	Material 688 717	second ferromagnetic material
+T31	Function 639 663	frame plating deposition
+T32	Material 852 881	second ferromagnetic material
+T18	Function 896 912	ion beam etching
+R1	MadeOf Arg1:T17 Arg2:T32
+R2	MadeOf Arg1:T14 Arg2:T15
+R3	MadeOf Arg1:T14 Arg2:T16
+R4	Form Arg1:T17 Arg2:T19
+R5	Oper Arg1:T18 Arg2:T17
+R6	Purpose Arg1:T17 Arg2:T14
+R7	MadeOf Arg1:T8 Arg2:T9
+R8	MadeOf Arg1:T10 Arg2:T11
+R9	Spatial Arg1:T8 Arg2:T10
+R10	MadeOf Arg1:T10 Arg2:T30
+R11	MadeOf Arg1:T13 Arg2:T12
+R12	Oper Arg1:T31 Arg2:T13
+R13	Purpose Arg1:T8 Arg2:T31
+R14	MadeOf Arg1:T5 Arg2:T29
+R15	MadeOf Arg1:T7 Arg2:T6
+R16	Spatial Arg1:T5 Arg2:T7
+R17	PartOf Arg1:T25 Arg2:T26
+R18	PartOf Arg1:T25 Arg2:T27
+R19	PartOf Arg1:T25 Arg2:T28
+R20	Purpose Arg1:T28 Arg2:T4
+R21	MadeOf Arg1:T2 Arg2:T3
+R22	Spatial Arg1:T2 Arg2:T1
+R23	Purpose Arg1:T23 Arg2:T2
+R24	Purpose Arg1:T24 Arg2:T2
+R25	Purpose Arg1:T21 Arg2:T22

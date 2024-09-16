@@ -1,0 +1,31 @@
+T1	Component 2 18	transducing head
+T2	Component 25 48	magnetoresistive sensor
+T3	Component 52 70	first bias element
+T4	Component 78 97	second bias element
+T5	Component 103 126	magnetoresistive sensor
+T6	Component 153 183	first and second bias elements
+T8	Component 213 231	first bias element
+T9	Location 238 250	first length
+T10	Component 259 278	second bias element
+T11	Attribution 285 298	second length
+T12	Location 304 313	direction
+T13	Component 321 345	first and second lengths
+T14	Location 379 388	direction
+T15	Attribution 396 408	sensor width
+T16	Attribution 414 438	first and second lengths
+T17	Value 446 451	range
+T21	Value 461 470	one-tenth
+T18	Value 480 492	twenty times
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T5 Arg2:T6
+R6	Attr Arg1:T8 Arg2:T9
+R7	Attr Arg1:T10 Arg2:T11
+R8	Attr Arg1:T13 Arg2:T12
+T7	Attribution 195 207	sensor width
+R5	Attr Arg1:T5 Arg2:T7
+R9	Attr Arg1:T15 Arg2:T14
+T19	Attribution 497 509	sensor width
+R10	Measurement Arg1:T16 Arg2:T17
+R11	Comparison Arg1:T16 Arg2:T19

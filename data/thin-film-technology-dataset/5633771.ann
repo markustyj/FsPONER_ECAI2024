@@ -1,0 +1,58 @@
+T1	Component 2 36	magnetoresistance effect type head
+T2	Component 49 78	magnetoresistance effect film
+T5	Component 221 255	magnetoresistance effect type head
+T6	Component 385 403	upper shield layer
+T8	Location 604 634	magnetic field responding part
+T9	Component 642 671	magnetoresistance effect film
+T12	Component 783 801	upper shield layer
+T14	Component 905 934	magnetoresistance effect film
+T15	ScientificConcept 1008 1025	linear resolution
+T16	Effect 1060 1082	high recording density
+T19	Effect 1211 1233	high recording density
+T20	Component 96 101	leads
+T4	Component 182 211	upper and lower shield layers
+T21	Attribution 357 362	width
+T22	Attribution 370 376	surfac
+T23	Component 415 444	magnetoresistance effect film
+T24	Component 491 496	leads
+T25	Attribution 518 523	width
+T26	Component 569 598	magnetoresistance effect film
+T10	Location 709 723	MR film region
+T11	Location 767 775	end part
+T28	Component 813 820	MA film
+T13	Location 826 856	magnetic field responding part
+T29	Location 882 897	protruding part
+T30	Location 951 960	direction
+T31	Attribution 968 975	surface
+T32	Material 987 993	medium
+T17	ScientificConcept 1124 1148	planar recording density
+T18	Component 1173 1185	narrow track
+T3	Location 137 167	magnetic field responding part
+T7	Location 531 561	magnetic field responding part
+T33	EnergyFlow 730 745	magnetic moment
+T27	State 1107 1120	Gb/inch.sup.2
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T20
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T1 Arg2:T4
+R5	PartOf Arg1:T4 Arg2:T5
+R6	Attr Arg1:T22 Arg2:T21
+R7	Attr Arg1:T6 Arg2:T22
+R8	Spatial Arg1:T6 Arg2:T23
+R9	Attr Arg1:T7 Arg2:T25
+R10	PartOf Arg1:T26 Arg2:T7
+R11	PartOf Arg1:T9 Arg2:T8
+R12	Form Arg1:T8 Arg2:T10
+R13	Attr Arg1:T10 Arg2:T33
+R14	PartOf Arg1:T12 Arg2:T11
+R15	Spatial Arg1:T12 Arg2:T28
+R16	Causitive Arg1:T33 Arg2:T11
+R17	Form Arg1:T29 Arg2:T13
+R18	PartOf Arg1:T14 Arg2:T29
+R19	Attr Arg1:T31 Arg2:T30
+R20	Spatial Arg1:T31 Arg2:T32
+R21	Manner Arg1:T30 Arg2:T14
+R22	Measurement Arg1:T17 Arg2:T27
+R23	Comparison Arg1:T16 Arg2:T17
+R24	Attr Arg1:T15 Arg2:T16
+R25	Purpose Arg1:T18 Arg2:T19

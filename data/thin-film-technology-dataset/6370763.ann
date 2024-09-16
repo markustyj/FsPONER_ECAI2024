@@ -1,0 +1,55 @@
+T2	Component 100 114	magnetic heads
+T3	Value 149 166	resistance values
+T4	Component 170 196	process monitoring element
+T5	Component 217 245	wafer magnetic head elements
+T6	Component 250 268	monitoring element
+T7	Value 279 296	resistance values
+T9	Component 353 361	elements
+T10	Component 379 384	wafer
+T11	Component 396 410	magnetic heads
+T12	Attribution 430 447	prescribed height
+T13	Value 468 485	resistance values
+T14	Component 493 511	monitoring element
+T15	Function 520 535	forming process
+T17	Component 590 612	magnetic head elements
+T18	Component 617 635	monitoring element
+T19	Value 712 729	resistance values
+T20	Component 737 755	monitoring element
+T21	Attribution 763 769	height
+T22	Component 777 799	magnetic head elements
+T24	Component 930 948	monitoring element
+T25	Location 956 969	same position
+T26	Component 977 998	magnetoresistive film
+T27	Component 1006 1020	magnetic heads
+T1	Function 15 49	magnetic head manufacturing method
+T28	Value 75 91	resistance value
+T8	Function 307 321	analog fashion
+T29	Shape 325 329	line
+T31	Consequence 835 841	errors
+T32	Component 845 850	masks
+T33	System 865 873	patterns
+T30	Location 914 922	position
+R1	Attr Arg1:T24 Arg2:T30
+R2	PartOf Arg1:T27 Arg2:T26
+R3	Attr Arg1:T26 Arg2:T25
+R4	Spatial Arg1:T30 Arg2:T25
+R5	Purpose Arg1:T30 Arg2:T33
+R6	PartOf Arg1:T32 Arg2:T31
+R7	Attr Arg1:T20 Arg2:T19
+R8	Attr Arg1:T22 Arg2:T21
+T23	Value 541 560	difference .DELTA.I
+R11	Attr Arg1:T17 Arg2:T23
+R12	Attr Arg1:T18 Arg2:T23
+T16	Value 669 688	difference .DELTA.I
+R9	Causitive Arg1:T16 Arg2:T19
+R10	Causitive Arg1:T16 Arg2:T21
+R13	Attr Arg1:T14 Arg2:T13
+R14	Attr Arg1:T11 Arg2:T12
+R15	Spatial Arg1:T9 Arg2:T10
+R16	Manner Arg1:T29 Arg2:T8
+R17	Oper Arg1:T8 Arg2:T7
+R18	Attr Arg1:T9 Arg2:T7
+R19	Spatial Arg1:T5 Arg2:T9
+R20	Spatial Arg1:T6 Arg2:T9
+R21	Purpose Arg1:T1 Arg2:T28
+R22	Attr Arg1:T4 Arg2:T3

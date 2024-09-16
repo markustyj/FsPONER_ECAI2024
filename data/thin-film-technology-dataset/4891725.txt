@@ -1,0 +1,1 @@
+An elongated magnetoresistive sensor strip longitudinally biased to maintain a single domain sense region by exchange-biasing material atomically coupled to the strip at the ends of the strip outside of a central sense region.

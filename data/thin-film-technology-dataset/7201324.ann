@@ -1,0 +1,58 @@
+T1	Component 1 20	Data storage device
+T2	Component 116 125	substrate
+T3	Attribution 146 153	surface
+T4	Component 157 207	high density, magnetically coercive material layer
+T5	Component 237 246	substrate
+T6	InfoFlow 259 275	magnetic signals
+T7	Material 281 311	magnetically coercive material
+T8	Component 324 328	axis
+T9	Function 332 345	magnetization
+T10	Location 368 391	predetermined direction
+T11	Attribution 406 413	surface
+T12	Component 421 430	substrate
+T13	Material 443 468	non-magnetically material
+T14	Component 488 497	substrate
+T15	Component 514 534	exchange break layer
+T16	Material 538 556	protective coating
+T17	Component 574 597	magnetic material layer
+T18	Attribution 608 617	thickness
+T19	Attribution 628 645	maximum thickness
+T20	InfoFlow 679 695	magnetic signals
+T21	Component 716 739	magnetic material layer
+T22	Component 746 756	transducer
+T23	Attribution 763 780	minimum thickness
+T24	Material 794 812	protective coating
+T27	Material 896 914	protective coating
+T28	Component 34 47	portable card
+T29	Component 82 102	magnetic credit card
+T30	Component 49 77	magnetically encodeable card
+T31	Component 434 439	layer
+T32	Function 830 835	usage
+T25	PhysicsFlow 842 890	ambient natural atmosphere operating environment
+T26	Component 940 946	layers
+R3	Purpose Arg1:T1 Arg2:T28
+R4	Attr Arg1:T2 Arg2:T3
+R7	PartOf Arg1:T7 Arg2:T8
+R8	Attr Arg1:T11 Arg2:T12
+R12	MadeOf Arg1:T31 Arg2:T13
+R15	Spatial Arg1:T16 Arg2:T17
+R16	Attr Arg1:T16 Arg2:T18
+R17	Causitive Arg1:T19 Arg2:T20
+R18	Oper Arg1:T32 Arg2:T24
+R19	PartOf Arg1:T27 Arg2:T26
+R1	Purpose Arg1:T1 Arg2:T30
+R2	Purpose Arg1:T1 Arg2:T29
+R20	PartOf Arg1:T1 Arg2:T2
+R5	Spatial Arg1:T4 Arg2:T5
+R6	Purpose Arg1:T4 Arg2:T6
+R9	Attr Arg1:T9 Arg2:T8
+R10	Attr Arg1:T8 Arg2:T10
+R11	Spatial Arg1:T10 Arg2:T11
+R13	Spatial Arg1:T31 Arg2:T14
+R14	Purpose Arg1:T31 Arg2:T15
+R21	Manner Arg1:T20 Arg2:T22
+R22	Measurement Arg1:T18 Arg2:T19
+R23	Measurement Arg1:T18 Arg2:T23
+R24	Manner Arg1:T20 Arg2:T21
+R25	Causitive Arg1:T23 Arg2:T24
+R26	Manner Arg1:T24 Arg2:T25

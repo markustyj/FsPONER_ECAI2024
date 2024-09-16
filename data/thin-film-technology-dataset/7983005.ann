@@ -1,0 +1,69 @@
+T2	Component 7 47	Tunneling Magnetoresistive (TMR) element
+T3	EnergyFlow 52 61	electrode
+T4	Component 75 90	magnetic shield
+T5	Component 224 235	TMR element
+T6	InfoFlow 250 261	read signal
+T7	Location 328 350	thin film head portion
+T8	Component 358 373	insulating film
+T9	Component 388 410	electromagnetic shield
+T10	Component 414 426	read element
+T11	Component 434 447	write element
+T12	Location 481 485	side
+T13	Component 491 497	slider
+T14	Component 499 515	Insulating films
+T15	Component 528 548	constituent elements
+T16	Component 578 593	protection film
+T18	Component 644 671	thin film resistive element
+T20	Component 724 739	insulating film
+T21	Component 745 767	electromagnetic shield
+T22	Component 773 786	magnetic film
+T23	Material 795 804	permalloy
+T24	Component 845 857	read element
+T25	Component 870 882	lower shield
+T26	Component 900 911	TMR element
+T27	Component 920 932	upper shield
+T28	Component 952 965	write element
+T29	Component 978 1003	lower magnetic pole piece
+T30	Component 1008 1033	upper magnetic pole piece
+T31	Component 1041 1045	coil
+T32	Location 1071 1093	thin film head portion
+T1	ScientificConcept 138 143	noise
+T33	EnergyFlow 151 164	heater source
+T34	EnergyFlow 168 193	electromagnetic induction
+T35	Effect 200 216	direct influence
+T36	Component 377 383	heater
+T17	Component 632 638	heater
+T37	System 605 610	group
+T38	Material 680 684	NiCr
+T19	EnergyFlow 887 896	electrode
+T39	EnergyFlow 937 946	electrode
+T40	Location 1111 1126	common terminal
+T41	Component 833 839	heater
+R1	Form Arg1:T3 Arg2:T4
+R2	Generate Arg1:T33 Arg2:T1
+R3	Generate Arg1:T34 Arg2:T1
+R5	PartOf Arg1:T7 Arg2:T8
+R6	PartOf Arg1:T7 Arg2:T36
+R7	PartOf Arg1:T7 Arg2:T9
+R8	PartOf Arg1:T7 Arg2:T11
+R10	MadeOf Arg1:T18 Arg2:T38
+R11	Spatial Arg1:T17 Arg2:T20
+R12	InstanceOf Arg1:T17 Arg2:T18
+R13	InstanceOf Arg1:T21 Arg2:T22
+R14	MadeOf Arg1:T22 Arg2:T23
+R15	PartOf Arg1:T24 Arg2:T25
+R16	PartOf Arg1:T24 Arg2:T19
+R17	PartOf Arg1:T24 Arg2:T26
+R18	PartOf Arg1:T24 Arg2:T27
+R19	PartOf Arg1:T24 Arg2:T39
+R20	PartOf Arg1:T28 Arg2:T29
+R21	PartOf Arg1:T28 Arg2:T30
+R23	Spatial Arg1:T21 Arg2:T41
+R24	Form Arg1:T40 Arg2:T32
+R25	Others Arg1:T1 Arg2:T35
+R26	Causitive Arg1:T14 Arg2:T15
+R4	Spatial Arg1:T16 Arg2:T37
+R9	Attr Arg1:T13 Arg2:T12
+R22	PartOf Arg1:T28 Arg2:T31
+R27	Spatial Arg1:T29 Arg2:T31
+R28	Spatial Arg1:T30 Arg2:T31

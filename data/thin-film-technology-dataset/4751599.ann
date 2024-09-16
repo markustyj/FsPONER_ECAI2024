@@ -1,0 +1,54 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 43 63	lower magnetic layer
+T3	Component 67 89	first insulating layer
+T4	Component 93 107	coil conductor
+T5	Component 111 134	second insulating layer
+T6	Component 138 151	gapping layer
+T7	Component 168 191	second insulating layer
+T8	Attribution 206 209	end
+T9	Function 222 237	sliding contact
+T10	Material 245 270	magnetic recording medium
+T12	Material 329 354	magnetic recording medium
+T13	Component 363 383	upper magnetic layer
+T14	Component 400 413	gapping layer
+T15	Component 419 433	coil conductor
+T16	Component 453 458	turns
+T17	Component 472 486	outermost turn
+T18	Location 528 531	end
+T19	Component 539 552	gapping layer
+T20	Attribution 569 574	width
+T21	Component 624 634	coil turns
+T22	Component 655 669	innermost turn
+T23	Location 712 715	end
+T24	Component 723 736	gapping layer
+T25	Attribution 753 758	width
+T26	Location 829 843	outermost turn
+T27	InfoFlow 285 292	signals
+T11	InfoFlow 312 319	signals
+T28	Component 613 618	turns
+T29	Component 797 802	turns
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Attr Arg1:T6 Arg2:T8
+R8	PartOf Arg1:T1 Arg2:T13
+R9	Spatial Arg1:T13 Arg2:T14
+R10	PartOf Arg1:T16 Arg2:T17
+R11	PartOf Arg1:T15 Arg2:T16
+R12	PartOf Arg1:T17 Arg2:T18
+R13	PartOf Arg1:T19 Arg2:T18
+R14	Attr Arg1:T17 Arg2:T20
+R15	Comparison Arg1:T17 Arg2:T28
+R16	PartOf Arg1:T21 Arg2:T22
+R17	PartOf Arg1:T24 Arg2:T23
+R18	PartOf Arg1:T22 Arg2:T23
+R19	Attr Arg1:T22 Arg2:T25
+R20	Measurement Arg1:T22 Arg2:T29
+R21	Oper Arg1:T9 Arg2:T10
+R22	Causitive Arg1:T8 Arg2:T9
+R23	Purpose Arg1:T8 Arg2:T27
+R24	Purpose Arg1:T8 Arg2:T11
+R25	PartOf Arg1:T12 Arg2:T11

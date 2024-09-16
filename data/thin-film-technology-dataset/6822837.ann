@@ -1,0 +1,54 @@
+T1	Component 2 23	lower electrode layer
+T2	Component 30 50	lower metallic layer
+T3	Component 67 76	substrate
+T4	Component 84 104	TMR multi-layer film
+T5	Component 161 186	lower ferromagnetic layer
+T6	Component 190 210	tunnel barrier layer
+T7	Component 215 240	upper ferromagnetic layer
+T8	Component 244 257	pinning layer
+T9	Component 264 277	capping layer
+T10	Location 284 290	region
+T11	Component 299 307	terminal
+T12	Component 323 350	dummy lower electrode layer
+T13	Component 357 383	dummy lower metallic layer
+T14	Component 402 411	substrate
+T15	Component 419 429	dummy film
+T16	Component 453 463	dummy film
+T17	Component 472 493	same film composition
+T18	Component 509 529	TMR multi-layer film
+T19	Shape 546 551	shape
+T20	Component 557 569	tunnel joint
+T21	Component 575 588	capping layer
+T22	Location 599 612	halfway point
+T23	Component 620 645	lower ferromagnetic layer
+T24	Function 678 693	etching process
+T25	Component 699 709	dummy film
+T26	Function 750 765	etching process
+T27	Function 769 780	measurement
+T29	Component 825 845	TMR multi-layer film
+T30	Component 854 864	dummy film
+T31	Location 897 905	position
+T32	Function 919 926	etching
+T33	Component 124 144	TMR multi-layer film
+T28	Component 797 805	elements
+R1	Spatial Arg1:T1 Arg2:T3
+R2	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T33 Arg2:T5
+R4	PartOf Arg1:T33 Arg2:T6
+R5	PartOf Arg1:T33 Arg2:T7
+R6	PartOf Arg1:T33 Arg2:T8
+R7	PartOf Arg1:T33 Arg2:T9
+R8	Spatial Arg1:T12 Arg2:T14
+R9	Spatial Arg1:T13 Arg2:T14
+R10	PartOf Arg1:T16 Arg2:T17
+R11	Attr Arg1:T20 Arg2:T19
+R12	Spatial Arg1:T22 Arg2:T23
+R13	Spatial Arg1:T21 Arg2:T22
+R14	Generate Arg1:T29 Arg2:T28
+R15	Generate Arg1:T30 Arg2:T28
+R16	Purpose Arg1:T27 Arg2:T28
+R17	Attr Arg1:T32 Arg2:T31
+R18	Purpose Arg1:T27 Arg2:T31
+R19	Manner Arg1:T11 Arg2:T10
+R20	Spatial Arg1:T4 Arg2:T3
+R21	Spatial Arg1:T15 Arg2:T14

@@ -1,0 +1,30 @@
+T2	Component 48 57	substrate
+T3	System 64 81	layered structure
+T4	System 111 128	layered structure
+T5	Component 148 164	thin film layers
+T6	Material 168 190	ferromagnetic material
+T8	Component 287 303	thin film layers
+T11	Component 421 437	thin film layers
+T13	Component 477 505	first permanent magnet layer
+T1	Component 2 36	spin valve magnetoresistive sensor
+T15	Component 96 105	substrate
+T16	Component 222 240	nonmagnetic spacer
+T17	Location 246 255	direction
+T7	Function 259 272	magnetization
+T9	Component 319 347	first permanent magnet layer
+T10	Component 351 380	second permanent magnet layer
+T12	Effect 442 471	longitudinal biasing purposes
+T18	Effect 510 541	significantly higher coercivity
+T14	Component 551 580	second permanent magnet layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T15
+R4	PartOf Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T16
+R6	MadeOf Arg1:T5 Arg2:T6
+R7	Causitive Arg1:T9 Arg2:T17
+R8	Attr Arg1:T7 Arg2:T17
+R9	Attr Arg1:T8 Arg2:T7
+R10	Spatial Arg1:T10 Arg2:T11
+R11	Comparison Arg1:T13 Arg2:T14
+R12	Purpose Arg1:T13 Arg2:T18

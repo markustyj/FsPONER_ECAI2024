@@ -1,0 +1,70 @@
+T1	Component 43 66	thin film magnetic head
+T2	Component 73 92	magnetic transducer
+T3	ScientificConcept 111 132	resistance properties
+T6	Component 180 203	thin film magnetic head
+T7	Component 210 215	stack
+T8	Component 241 256	magnetic layers
+T9	Component 297 315	nonmagnetic layers
+T10	Component 321 326	stack
+T11	Location 345 357	first region
+T12	Location 364 377	second region
+T13	Location 383 392	direction
+T14	Location 410 422	first region
+T15	Location 435 453	projecting portion
+T16	Material 474 489	magnetic medium
+T17	Location 494 511	extending portion
+T18	Location 529 538	direction
+T19	Location 555 573	projecting portion
+T20	Location 589 602	wide portions
+T21	Location 618 627	direction
+T22	Location 649 658	direction
+T23	Location 672 689	extending portion
+T24	Attribution 702 713	end surface
+T25	Location 721 739	projecting portion
+T26	Material 780 795	magnetic medium
+T27	Attribution 807 818	end surface
+T28	Location 834 866	magnetic field capturing portion
+T29	EnergyFlow 883 904	signal magnetic field
+T30	Material 912 927	magnetic medium
+T31	Component 933 938	stack
+T32	Location 947 965	projecting portion
+T33	Location 975 993	projecting portion
+T34	Location 1011 1043	magnetic field capturing portion
+T35	Component 1065 1071	layers
+T36	Component 1079 1084	stack
+T37	Attribution 1123 1129	length
+T38	Attribution 1135 1142	surface
+T39	Material 1154 1169	magnetic medium
+T40	ScientificConcept 1186 1190	rate
+T41	Effect 1194 1211	resistance change
+T42	EnergyFlow 1220 1230	resistance
+T43	InfoFlow 146 174	ultra-high-density recording
+R1	Attr Arg1:T1 Arg2:T3
+R2	Attr Arg1:T2 Arg2:T3
+R3	Purpose Arg1:T3 Arg2:T43
+R4	PartOf Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Manner Arg1:T13 Arg2:T10
+R8	Form Arg1:T10 Arg2:T11
+R9	Form Arg1:T10 Arg2:T12
+R10	PartOf Arg1:T14 Arg2:T15
+R11	PartOf Arg1:T14 Arg2:T17
+R12	PartOf Arg1:T14 Arg2:T20
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Manner Arg1:T18 Arg2:T17
+R15	Spatial Arg1:T18 Arg2:T19
+R16	Manner Arg1:T21 Arg2:T20
+R17	Spatial Arg1:T21 Arg2:T22
+R19	Attr Arg1:T25 Arg2:T24
+R20	Spatial Arg1:T24 Arg2:T26
+R21	Form Arg1:T27 Arg2:T28
+R22	Purpose Arg1:T28 Arg2:T29
+R23	PartOf Arg1:T30 Arg2:T29
+R24	PartOf Arg1:T31 Arg2:T32
+R25	Form Arg1:T33 Arg2:T34
+R26	PartOf Arg1:T36 Arg2:T35
+R27	Attr Arg1:T38 Arg2:T37
+R28	Spatial Arg1:T38 Arg2:T39
+R29	Attr Arg1:T41 Arg2:T40
+R18	Manner Arg1:T22 Arg2:T23

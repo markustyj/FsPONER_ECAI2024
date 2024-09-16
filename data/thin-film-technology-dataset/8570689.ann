@@ -1,0 +1,45 @@
+T2	Component 89 126	first magnetoresistive effect element
+T5	Component 328 340	spacer layer
+T7	Component 522 559	first magnetoresistive effect element
+T10	EnergyFlow 665 679	magnetic field
+T11	Component 755 774	first pinning layer
+T1	Component 32 76	differential magnetoresistive effect element
+T14	Component 136 155	first pinning layer
+T15	Component 159 183	first intermediate layer
+T16	Component 191 207	first free layer
+T3	Component 213 257	differential magnetoresistive effect element
+T4	Component 275 313	second magnetoresistive effect element
+T17	Component 351 388	first magnetoresistive effect element
+T6	Component 394 432	second magnetoresistive effect element
+T18	Component 442 462	second pinning layer
+T19	Component 466 491	second intermediate layer
+T20	Component 499 516	second free layer
+T8	Component 568 606	second magnetoresistive effect element
+T9	EnergyFlow 612 647	in-opposite-phase resistance change
+T21	Location 687 701	same direction
+T22	Attribution 738 747	thickness
+T23	Attribution 789 798	thickness
+T12	Component 806 826	second pinning layer
+T13	Component 862 911	first and second magnetoresistive effect elements
+T24	Component 919 935	CPP-GMR elements
+T25	Component 953 958	heads
+T26	Component 943 951	elements
+T27	Component 964 998	magnetic recording/reading devices
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T14
+R3	PartOf Arg1:T2 Arg2:T15
+R4	PartOf Arg1:T2 Arg2:T16
+R5	PartOf Arg1:T3 Arg2:T4
+R6	Spatial Arg1:T5 Arg2:T17
+R7	Causitive Arg1:T5 Arg2:T4
+R8	PartOf Arg1:T3 Arg2:T6
+R9	PartOf Arg1:T6 Arg2:T18
+R10	PartOf Arg1:T6 Arg2:T19
+R11	PartOf Arg1:T6 Arg2:T20
+R12	Manner Arg1:T21 Arg2:T10
+R13	Generate Arg1:T8 Arg2:T9
+R14	Generate Arg1:T7 Arg2:T9
+R15	Causitive Arg1:T9 Arg2:T10
+R16	Attr Arg1:T11 Arg2:T22
+R17	Attr Arg1:T12 Arg2:T23
+R18	InstanceOf Arg1:T13 Arg2:T24

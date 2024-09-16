@@ -1,0 +1,40 @@
+T1	Component 2 15	magnetic head
+T2	Component 25 49	magnetoresistive element
+T3	Component 55 62	element
+T4	Component 75 85	center tap
+T6	Component 128 148	equipotential strips
+T7	Measure 167 172	angle
+T8	Location 182 204	longitudinal direction
+T9	Value 222 231	45.degree
+T11	Component 273 293	equipotential strips
+T12	Measure 312 317	angle
+T13	Value 335 345	135.degree
+T14	Location 356 378	longitudinal direction
+T15	EnergyFlow 418 432	current source
+T16	InfoFlow 443 457	output signals
+T17	EnergyFlow 515 525	resistance
+T18	Component 533 546	total element
+T19	Value 555 560	value
+T20	EnergyFlow 564 588	external magnetic fields
+T21	Component 612 632	known magnetic heads
+T22	Component 642 666	magnetoresistive element
+T23	InfoFlow 671 684	thermal noise
+T24	Others 494 502	relation
+T5	System 117 124	pattern
+T10	System 262 269	pattern
+T25	Component 384 390	halves
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	Attr Arg1:T6 Arg2:T5
+R4	Manner Arg1:T7 Arg2:T6
+R5	Measurement Arg1:T7 Arg2:T9
+R6	Manner Arg1:T8 Arg2:T9
+R7	Attr Arg1:T11 Arg2:T10
+R8	Manner Arg1:T12 Arg2:T11
+R9	Measurement Arg1:T12 Arg2:T13
+R10	Manner Arg1:T14 Arg2:T13
+R11	Causitive Arg1:T25 Arg2:T15
+R12	Attr Arg1:T25 Arg2:T16
+R13	Attr Arg1:T18 Arg2:T17
+R14	Attr Arg1:T20 Arg2:T19
+R15	PartOf Arg1:T21 Arg2:T22

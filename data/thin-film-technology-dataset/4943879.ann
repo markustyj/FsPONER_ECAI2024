@@ -1,0 +1,48 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 35 55	first magnetic layer
+T3	EnergyFlow 61 93	saturation magnetic flux density
+T6	Component 260 275	magnetic layers
+T7	Component 290 303	magnetic core
+T8	Component 311 315	head
+T11	Component 387 416	electrically insulating layer
+T12	Component 438 453	magnetic layers
+T13	Component 471 481	coil wound
+T14	Component 492 505	magnetic core
+T15	Component 599 609	metal film
+T16	Component 634 654	first magnetic layer
+T17	Component 663 692	electrically insulating layer
+T18	Component 705 734	electrically insulating layer
+T19	Component 761 781	first magnetic layer
+T20	Component 797 807	metal film
+T22	Component 865 876	metal layer
+T23	Component 903 921	non-magnetic layer
+T24	Material 117 128	Ni-Fe alloy
+T4	Component 135 156	second magnetic layer
+T5	EnergyFlow 162 194	saturation magnetic flux density
+T25	Material 217 228	Ni-Fe alloy
+T26	Component 244 254	base layer
+T9	Component 323 354	non-magnetic material gap layer
+T10	Component 570 586	insulating layer
+T21	Component 825 846	second magnetic layer
+T27	Component 930 951	second magnetic layer
+T28	Function 527 558	electrically insulated relation
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T4
+R3	Attr Arg1:T2 Arg2:T3
+R5	Comparison Arg1:T2 Arg2:T24
+R4	Attr Arg1:T4 Arg2:T5
+R6	Comparison Arg1:T4 Arg2:T25
+R7	Attr Arg1:T24 Arg2:T3
+R8	Attr Arg1:T25 Arg2:T5
+R9	PartOf Arg1:T8 Arg2:T7
+R10	Spatial Arg1:T9 Arg2:T6
+R11	Purpose Arg1:T6 Arg2:T7
+R12	Spatial Arg1:T11 Arg2:T12
+R13	Spatial Arg1:T13 Arg2:T14
+R14	PartOf Arg1:T10 Arg2:T13
+R15	Manner Arg1:T28 Arg2:T13
+R16	Spatial Arg1:T15 Arg2:T16
+R17	Spatial Arg1:T15 Arg2:T17
+R18	Spatial Arg1:T20 Arg2:T21
+R19	Spatial Arg1:T22 Arg2:T23
+R20	Spatial Arg1:T22 Arg2:T27

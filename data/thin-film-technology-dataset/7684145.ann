@@ -1,0 +1,6 @@
+T1	Attribution 38 57	magnetic properties
+T2	Component 63 94	magnetic recording medium layer
+T3	System 3 19	metrology system
+T4	InfoFlow 116 139	perpendicular recording
+R1	Attr Arg1:T2 Arg2:T1
+R2	Purpose Arg1:T3 Arg2:T1

@@ -1,0 +1,99 @@
+T3	System 62 93	upper and lower pole structures
+T4	Component 106 124	pedestal pole tips
+T5	Component 149 167	pedestal pole tips
+T6	Material 205 207	Co
+T10	Component 392 409	pedestal pole tip
+T13	Material 600 604	NiFe
+T15	Component 707 711	yoke
+T18	Attribution 817 829	top surfaces
+T19	Component 837 851	conductor coil
+T22	Component 964 978	conductor coil
+T23	Component 988 992	yoke
+T24	Component 1037 1041	yoke
+T25	Component 34 54	thin film write head
+T1	Material 137 143	CoNiFe
+T2	Value 188 191	60%
+T26	Value 201 204	70%
+T27	Value 223 226	10%
+T28	Value 236 239	15%
+T29	Material 240 242	Ni
+T30	System 248 268	upper pole structure
+T7	Location 303 325	laminated yoke portion
+T8	Component 333 355	upper and lower layers
+T31	Component 361 372	lower layer
+T9	System 417 437	upper pole structure
+T11	Material 452 456	FeXN
+T32	Material 507 509	Rh
+T33	Material 511 513	Ta
+T34	Material 515 517	Hf
+T35	Material 519 521	Al
+T36	Material 523 525	Zr
+T37	Material 527 529	Ti
+T38	Material 531 533	Ru
+T39	Material 535 537	Si
+T40	Material 539 541	Cr
+T41	Material 543 544	V
+T42	Material 546 548	Si
+T43	Material 550 552	Sr
+T44	Material 554 556	Nb
+T45	Material 558 560	Mo
+T46	Material 562 564	Ru
+T47	Material 570 572	Pd
+T48	Component 578 589	upper layer
+T12	Value 634 637	15%
+T49	Value 647 650	55%
+T50	Material 654 656	Fe
+T51	Component 688 699	lower layer
+T14	Material 723 736	FeXN material
+T16	Component 747 758	upper layer
+T17	Component 764 773	hard mask
+T52	Component 860 883	upper pedestal pole tip
+T20	Component 907 930	inorganic capping layer
+T21	Location 1010 1024	low apex angle
+R1	Attr Arg1:T19 Arg2:T18
+R2	Attr Arg1:T52 Arg2:T18
+R3	Spatial Arg1:T18 Arg2:T20
+R5	Purpose Arg1:T20 Arg2:T22
+R4	Form Arg1:T22 Arg2:T24
+R6	Purpose Arg1:T22 Arg2:T21
+R7	Spatial Arg1:T22 Arg2:T23
+R8	Form Arg1:T16 Arg2:T17
+R10	PartOf Arg1:T15 Arg2:T51
+R9	Purpose Arg1:T16 Arg2:T14
+R11	Manner Arg1:T14 Arg2:T51
+R12	PartOf Arg1:T48 Arg2:T13
+R13	PartOf Arg1:T13 Arg2:T50
+R14	Measurement Arg1:T50 Arg2:T12
+R15	Measurement Arg1:T50 Arg2:T49
+R16	Spatial Arg1:T31 Arg2:T10
+R17	PartOf Arg1:T9 Arg2:T10
+R18	PartOf Arg1:T31 Arg2:T11
+T53	Material 464 465	X
+R19	PartOf Arg1:T11 Arg2:T53
+R20	PartOf Arg1:T53 Arg2:T32
+R21	PartOf Arg1:T53 Arg2:T33
+R22	PartOf Arg1:T53 Arg2:T34
+R23	PartOf Arg1:T53 Arg2:T35
+R24	PartOf Arg1:T53 Arg2:T36
+R25	PartOf Arg1:T53 Arg2:T37
+R26	PartOf Arg1:T53 Arg2:T38
+R27	PartOf Arg1:T53 Arg2:T39
+R28	PartOf Arg1:T53 Arg2:T40
+R29	PartOf Arg1:T53 Arg2:T41
+R30	PartOf Arg1:T53 Arg2:T42
+R31	PartOf Arg1:T53 Arg2:T43
+R32	PartOf Arg1:T53 Arg2:T44
+R33	PartOf Arg1:T53 Arg2:T45
+R34	PartOf Arg1:T53 Arg2:T46
+R35	PartOf Arg1:T53 Arg2:T47
+R36	PartOf Arg1:T30 Arg2:T7
+R37	PartOf Arg1:T7 Arg2:T8
+R38	MadeOf Arg1:T5 Arg2:T6
+R39	MadeOf Arg1:T5 Arg2:T29
+R40	Measurement Arg1:T6 Arg2:T2
+R41	Measurement Arg1:T6 Arg2:T26
+R42	Measurement Arg1:T29 Arg2:T27
+R43	Measurement Arg1:T29 Arg2:T28
+R44	PartOf Arg1:T25 Arg2:T3
+R45	MadeOf Arg1:T4 Arg2:T1
+R46	PartOf Arg1:T3 Arg2:T4

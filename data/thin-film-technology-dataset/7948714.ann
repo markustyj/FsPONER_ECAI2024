@@ -1,0 +1,37 @@
+T1	Component 3 13	transducer
+T2	Component 25 36	first layer
+T3	Location 72 86	contact region
+T4	Component 97 101	core
+T5	Location 134 151	transducer region
+T6	Component 162 175	first element
+T7	Component 183 193	transducer
+T8	Component 199 209	transducer
+T11	Component 333 337	core
+T13	Component 392 406	second element
+T14	Component 414 424	transducer
+T15	Location 432 449	transducer region
+T16	Component 455 469	second element
+T17	Component 477 487	transducer
+T18	Attribution 494 512	planarized surface
+T19	Attribution 537 555	planarized surface
+T20	Component 563 571	sidewall
+T21	Material 222 263	electrically conductive magnetic deposit.
+T9	Material 268 308	electrically conductive magnetic deposit
+T10	Component 317 325	sidewall
+T12	Material 343 383	electrically conductive magnetic deposit
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Manner Arg1:T3 Arg2:T2
+R3	Form Arg1:T2 Arg2:T4
+R4	Manner Arg1:T5 Arg2:T2
+R5	PartOf Arg1:T7 Arg2:T6
+R6	Form Arg1:T2 Arg2:T6
+R7	PartOf Arg1:T8 Arg2:T21
+R8	Form Arg1:T9 Arg2:T10
+R10	Form Arg1:T12 Arg2:T13
+R11	PartOf Arg1:T14 Arg2:T13
+R12	PartOf Arg1:T17 Arg2:T16
+R13	Attr Arg1:T16 Arg2:T18
+R14	Attr Arg1:T20 Arg2:T19
+R15	Spatial Arg1:T18 Arg2:T19
+R16	Manner Arg1:T15 Arg2:T13
+R9	Causitive Arg1:T10 Arg2:T11

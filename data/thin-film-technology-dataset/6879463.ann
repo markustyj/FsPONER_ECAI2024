@@ -1,0 +1,84 @@
+T1	Component 20 31	head slider
+T2	EnergyFlow 47 61	sticking force
+T3	Component 86 97	head slider
+T4	Component 104 108	disk
+T5	Component 114 129	disk drive unit
+T7	Component 172 183	air bearing
+T8	Location 190 202	head portion
+T9	Component 221 225	disk
+T10	Location 239 256	reverse direction
+T11	Location 258 278	Air bearing portions
+T12	Attribution 286 303	flat top surfaces
+T13	Location 362 366	side
+T14	Component 372 378	slider
+T15	Component 401 405	disk
+T16	Location 412 427	air outflow end
+T17	Component 435 441	slider
+T18	Location 445 457	head portion
+T19	Component 469 482	head elements
+T20	Component 489 504	protection film
+T21	Component 524 537	head elements
+T22	Location 556 571	air outflow end
+T23	Location 586 606	air bearing portions
+T24	Location 616 634	dummy head portion
+T25	Component 653 668	protection film
+T26	Location 687 702	air outflow end
+T27	Attribution 737 749	Top surfaces
+T28	Location 757 769	head portion
+T29	Location 778 796	dummy head portion
+T30	Attribution 829 841	top surfaces
+T31	Location 849 869	air bearing portions
+T32	Attribution 875 887	top surfaces
+T33	Location 895 907	head portion
+T34	Location 916 934	dummy head portion
+T35	Location 942 958	air outflow ends
+T36	Attribution 985 997	top surfaces
+T37	Location 1022 1042	air bearing portions
+T38	EnergyFlow 1056 1074	contact resistance
+T39	Component 1087 1098	head slider
+T40	Component 1107 1111	disk
+T41	Component 1131 1135	disk
+T42	Location 1151 1168	reverse direction
+T43	EnergyFlow 65 73	stiction
+T6	Value 141 151	difference
+T44	Attribution 155 160	level
+T45	Location 351 356	sides
+T46	Location 716 735	air bearing portion
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T43
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Measurement Arg1:T6 Arg2:T44
+R5	Attr Arg1:T7 Arg2:T44
+R6	Attr Arg1:T8 Arg2:T44
+R7	Manner Arg1:T10 Arg2:T9
+R8	Attr Arg1:T11 Arg2:T12
+R9	Attr Arg1:T14 Arg2:T13
+R10	Spatial Arg1:T12 Arg2:T45
+R11	Spatial Arg1:T15 Arg2:T16
+R12	Attr Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T14 Arg2:T15
+R14	PartOf Arg1:T18 Arg2:T19
+R15	PartOf Arg1:T18 Arg2:T20
+R16	Purpose Arg1:T20 Arg2:T21
+R17	Attr Arg1:T28 Arg2:T27
+R18	Generate Arg1:T3 Arg2:T2
+R19	Generate Arg1:T3 Arg2:T43
+R20	Generate Arg1:T4 Arg2:T43
+R21	Generate Arg1:T4 Arg2:T2
+R22	Spatial Arg1:T20 Arg2:T22
+R23	Attr Arg1:T23 Arg2:T22
+R24	PartOf Arg1:T24 Arg2:T25
+R25	Spatial Arg1:T24 Arg2:T26
+R26	Attr Arg1:T46 Arg2:T26
+R27	Attr Arg1:T29 Arg2:T27
+R28	Attr Arg1:T31 Arg2:T30
+R29	Comparison Arg1:T27 Arg2:T30
+R30	Attr Arg1:T33 Arg2:T32
+R31	Attr Arg1:T34 Arg2:T32
+R32	Spatial Arg1:T33 Arg2:T35
+R33	Spatial Arg1:T34 Arg2:T35
+R34	Comparison Arg1:T32 Arg2:T36
+R35	Spatial Arg1:T36 Arg2:T37
+R36	Manner Arg1:T42 Arg2:T41
+R37	Generate Arg1:T39 Arg2:T38
+R38	Generate Arg1:T40 Arg2:T38

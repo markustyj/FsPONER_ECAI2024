@@ -1,0 +1,46 @@
+T1	Attribution 41 54	throat height
+T2	Component 58 105	batch fabricated thin film magnetic transducers
+T3	Function 114 124	deposition
+T4	Component 132 151	transducer elements
+T5	Component 157 166	substrate
+T6	Component 170 204	resistive electrical lapping guide
+T7	Location 234 237	end
+T8	Shape 245 250	array
+T9	Component 254 273	transducer elements
+T10	Component 279 303	electrical lapping guide
+T11	Shape 328 347	switching junctions
+T13	Material 376 407	electrically resistive material
+T14	Component 412 422	conductors
+T15	Shape 437 455	switching junction
+T16	Component 476 485	substrate
+T17	Location 495 525	known switching plane position
+T18	Function 534 541	lapping
+T19	Component 549 573	transducer pole tip ends
+T20	Attribution 579 591	final height
+T21	Shape 597 615	switching junction
+T22	Effect 648 667	accurate indication
+T23	Attribution 675 695	lapped throat height
+T24	Attribution 701 714	throat height
+T25	EnergyFlow 735 754	measured resistance
+T26	Component 762 775	lapping guide
+T27	Location 796 823	switching junction position
+T29	Measure 875 909	Subsequent resistance measurements
+T12	Shape 836 859	said switching junction
+R1	Attr Arg1:T2 Arg2:T1
+R2	Oper Arg1:T3 Arg2:T4
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Attr Arg1:T9 Arg2:T8
+R5	Attr Arg1:T8 Arg2:T7
+R6	Spatial Arg1:T6 Arg2:T7
+R7	PartOf Arg1:T10 Arg2:T11
+R8	Spatial Arg1:T11 Arg2:T13
+R9	Spatial Arg1:T11 Arg2:T14
+R10	Spatial Arg1:T15 Arg2:T16
+R11	Attr Arg1:T16 Arg2:T17
+R12	Oper Arg1:T18 Arg2:T19
+R13	Attr Arg1:T19 Arg2:T20
+R14	Purpose Arg1:T21 Arg2:T22
+R15	Attr Arg1:T23 Arg2:T22
+R16	Attr Arg1:T26 Arg2:T25
+R17	Comparison Arg1:T24 Arg2:T27
+R18	Causitive Arg1:T25 Arg2:T24

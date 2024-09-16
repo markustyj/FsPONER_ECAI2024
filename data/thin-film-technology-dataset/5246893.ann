@@ -1,0 +1,56 @@
+T2	Material 138 154	titanium carbide
+T3	Material 175 191	titanium carbide
+T4	Component 225 246	ceramic sintered body
+T5	Component 519 532	crystal phase
+T6	Component 602 623	ceramic sintered body
+T7	Component 711 732	ceramic sintered body
+T8	Component 764 773	substrate
+T9	Component 780 794	thin film head
+T1	Component 18 50	ceramic sintered body comprising
+T10	Material 99 106	alumina
+T11	Material 196 210	titanium oxide
+T12	Material 363 378	zirconium oxide
+T13	Material 422 440	tetragonal crystal
+T14	Component 485 512	total ceramic sintered body
+T15	Effect 644 663	chipping resistance
+T16	Effect 665 678	machinability
+T17	Effect 683 701	surface smoothness
+T18	Material 538 553	composite oxide
+T19	Value 76 85	60 to 80%
+T20	Attribution 89 95	weight
+T21	Value 115 124	20 to 40%
+T22	Attribution 128 134	weight
+T23	Attribution 286 292	weight
+T24	Value 450 460	0.4 to 11%
+T25	Attribution 464 470	weight
+T26	Material 568 583	magnesium oxide
+T27	Material 588 596	aluminum
+T28	Attribution 311 317	weight
+T29	Value 269 282	1 to 10 parts
+T30	Component 55 70	main components
+T31	Material 160 171	combination
+T32	Value 298 307	100 parts
+T33	Component 336 346	components
+R1	Measurement Arg1:T20 Arg2:T19
+R2	Attr Arg1:T10 Arg2:T20
+R3	MadeOf Arg1:T1 Arg2:T10
+R4	MadeOf Arg1:T1 Arg2:T2
+R5	Measurement Arg1:T22 Arg2:T21
+R6	Attr Arg1:T2 Arg2:T22
+R7	MadeOf Arg1:T1 Arg2:T3
+R8	MadeOf Arg1:T1 Arg2:T11
+R9	Measurement Arg1:T23 Arg2:T29
+R10	Measurement Arg1:T28 Arg2:T32
+R11	Attr Arg1:T33 Arg2:T28
+R12	PartOf Arg1:T4 Arg2:T33
+R13	MadeOf Arg1:T4 Arg2:T12
+R14	Attr Arg1:T6 Arg2:T15
+R15	Attr Arg1:T6 Arg2:T16
+R16	Attr Arg1:T6 Arg2:T17
+R17	PartOf Arg1:T9 Arg2:T8
+R18	Form Arg1:T7 Arg2:T8
+R19	MadeOf Arg1:T4 Arg2:T13
+R20	Measurement Arg1:T25 Arg2:T24
+R21	MadeOf Arg1:T5 Arg2:T18
+R22	MadeOf Arg1:T18 Arg2:T26
+R23	MadeOf Arg1:T18 Arg2:T27

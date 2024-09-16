@@ -1,0 +1,45 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Location 49 67	first core portion
+T3	Shape 80 97	insulative island
+T4	Material 101 119	inorganic material
+T5	Location 123 141	first coil section
+T6	Attribution 188 207	flat common surface
+T7	Shape 217 223	island
+T8	Component 228 237	substrate
+T9	Component 241 269	gap-forming insulating layer
+T10	Location 280 298	first coil section
+T11	Location 307 325	first core portion
+T12	Location 329 348	second core portion
+T13	Component 359 376	gap-forming layer
+T14	EnergyFlow 388 404	magnetic circuit
+T15	Location 414 432	first core portion
+T16	Location 436 455	second coil section
+T17	Location 476 494	first coil section
+T19	Function 526 538	modification
+T20	Component 544 548	head
+T21	Component 561 582	nonmagnetic substrate
+T22	Location 594 606	coil section
+T23	Attribution 630 649	flat common surface
+T24	Material 651 682	Metallic ferromagnetic material
+T25	Location 699 712	core portions
+T26	Location 720 732	coil section
+T27	Shape 159 165	island
+T18	Component 505 509	coil
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	MadeOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T27 Arg2:T5
+R5	Purpose Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Spatial Arg1:T9 Arg2:T11
+R8	Spatial Arg1:T12 Arg2:T13
+R9	Generate Arg1:T12 Arg2:T14
+R10	Generate Arg1:T15 Arg2:T14
+R11	Spatial Arg1:T16 Arg2:T17
+R12	Form Arg1:T16 Arg2:T18
+R13	Oper Arg1:T19 Arg2:T20
+R14	PartOf Arg1:T20 Arg2:T21
+R15	PartOf Arg1:T21 Arg2:T22
+R16	Purpose Arg1:T22 Arg2:T23
+R17	Form Arg1:T24 Arg2:T25
+R18	Spatial Arg1:T25 Arg2:T26

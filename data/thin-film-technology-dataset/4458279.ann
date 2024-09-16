@@ -1,0 +1,19 @@
+T2	System 46 63	grinding patterns
+T3	System 82 112	thin film transducer structure
+T4	Material 127 146	conductive material
+T5	Component 164 184	magnetic pole pieces
+T6	Component 207 218	pole pieces
+T7	Material 224 243	conductive material
+T8	Component 256 267	pole pieces
+T9	Location 305 322	zero throat point
+T10	Component 330 340	transducer
+T11	System 395 411	external pattern
+T12	Function 451 470	single masking step
+T1	Function 0 41	Optically or visually perceptible lapping
+T13	Others 351 385	predetermined aligned relationship
+R1	Spatial Arg1:T4 Arg2:T5
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Spatial Arg1:T7 Arg2:T8
+R4	Purpose Arg1:T7 Arg2:T9
+R5	PartOf Arg1:T10 Arg2:T9
+R6	Spatial Arg1:T7 Arg2:T11

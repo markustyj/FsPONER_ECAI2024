@@ -1,0 +1,31 @@
+T1	System 2 24	magnetic head assembly
+T2	Component 37 47	write head
+T3	Component 65 82	ferrite substrate
+T4	Shape 93 109	recessed channel
+T5	Attribution 117 124	surface
+T6	Component 136 151	conductive coil
+T7	Component 172 187	ferrite closure
+T8	Attribution 197 211	planar surface
+T9	Attribution 234 251	substrate surface
+T10	Shape 267 282	transducing gap
+T11	Component 302 315	recessed coil
+T12	Function 320 329	operation
+T14	Component 370 380	write head
+T15	Effect 387 408	significant reduction
+T16	Function 412 425	Joule heating
+T17	Component 441 465	low resistance substrate
+T18	Effect 491 519	high saturation flux density
+T13	EnergyFlow 331 351	pulsed write current
+R1	Form Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T3 Arg2:T4
+R4	Manner Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T4 Arg2:T6
+R6	Attr Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T8 Arg2:T9
+R8	Form Arg1:T9 Arg2:T10
+R9	Form Arg1:T8 Arg2:T10
+R10	Spatial Arg1:T10 Arg2:T11
+R2	Form Arg1:T7 Arg2:T1
+R11	Form Arg1:T3 Arg2:T1
+R12	Causitive Arg1:T14 Arg2:T13
+R13	Purpose Arg1:T17 Arg2:T18

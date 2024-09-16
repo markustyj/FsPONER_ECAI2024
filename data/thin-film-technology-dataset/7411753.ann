@@ -1,0 +1,24 @@
+T1	Component 3 13	disk drive
+T2	System 19 58	perpendicular magnetic recording system
+T4	State 110 126	magnetized state
+T5	Component 132 142	write head
+T6	Component 148 158	disk drive
+T7	Component 178 190	write driver
+T8	Component 197 216	head amplifier unit
+T9	Component 222 234	write driver
+T10	EnergyFlow 246 259	write current
+T11	Component 267 277	write head
+T13	Component 351 361	write head
+T3	Effect 65 92	magnetization test function
+T14	Function 283 316	perpendicular magnetic recording.
+T12	Component 321 336	degaussing unit
+R1	PartOf Arg1:T2 Arg2:T1
+R2	Purpose Arg1:T1 Arg2:T3
+R3	Purpose Arg1:T1 Arg2:T4
+R4	Attr Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T6 Arg2:T8
+R7	Causitive Arg1:T9 Arg2:T10
+R8	Causitive Arg1:T10 Arg2:T11
+R9	Purpose Arg1:T10 Arg2:T14
+R10	Causitive Arg1:T12 Arg2:T13

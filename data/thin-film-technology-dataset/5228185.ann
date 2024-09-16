@@ -1,0 +1,26 @@
+T1	Component 28 41	magnetic head
+T3	Component 186 203	first core member
+T7	Shape 403 415	magnetic gap
+T8	Attribution 88 95	surface
+T9	Material 124 157	polycrystalline magnetic material
+T4	Component 217 239	metallic magnetic film
+T10	Attribution 251 258	surface
+T5	Component 292 304	core members
+T6	Component 335 352	first core member
+T11	Material 364 385	non-magnetic material
+T2	Component 101 111	core block
+T12	Function 59 69	first step
+T13	Function 161 172	second step
+T14	Function 266 276	third step
+R1	PartOf Arg1:T1 Arg2:T12
+R2	Attr Arg1:T2 Arg2:T8
+R3	MadeOf Arg1:T9 Arg2:T2
+R4	PartOf Arg1:T1 Arg2:T13
+R5	PartOf Arg1:T1 Arg2:T14
+R6	Oper Arg1:T12 Arg2:T8
+R7	Oper Arg1:T13 Arg2:T3
+R8	Manner Arg1:T4 Arg2:T3
+R9	Spatial Arg1:T4 Arg2:T10
+R10	Oper Arg1:T14 Arg2:T5
+R11	Manner Arg1:T11 Arg2:T6
+R12	Purpose Arg1:T6 Arg2:T7

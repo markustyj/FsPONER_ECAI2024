@@ -1,0 +1,66 @@
+T2	Component 113 127	servo elements
+T4	Component 295 316	servo sensor elements
+T6	Component 381 427	soft film biased magnetoresistive sensor layer
+T8	Component 542 563	servo sensor elements
+T9	Component 574 585	thick layer
+T10	Material 589 596	alumina
+T12	Component 659 673	servo elements
+T16	Function 1016 1032	greater distance
+T17	Component 1042 1055	single shield
+T1	Function 2 32	magnetoresistive sensor design
+T20	Function 37 56	fabrication process
+T21	Effect 71 108	improved microtrack profile linearity
+T22	Component 159 198	stable and linear data sensing elements
+T3	Effect 212 247	high density tape head applications
+T23	ScientificConcept 253 262	stability
+T24	ScientificConcept 267 277	uniformity
+T5	Component 436 465	hard bias stabilizing magnets
+T7	ScientificConcept 518 533	grating pattern
+T25	ScientificConcept 350 365	grating profile
+T26	Material 600 615	silicon dioxide
+T11	Component 621 638	outer read shield
+T27	Function 682 699	stripping process
+T13	ScientificConcept 797 825	significant Barkhausen noise
+T14	Location 857 883	grating-stabilized domains
+T28	Location 896 927	active magnetoresistive regions
+T29	Location 936 964	passive hard-biasing regions
+T30	Component 968 979	each sensor
+T15	Component 981 998	Each servo sensor
+T31	Function 1106 1115	reduction
+T18	ScientificConcept 1119 1150	servo sensor frequency response
+T32	Attribution 1158 1178	sufficient bandwidth
+T19	Effect 1183 1208	precise servo positioning
+T33	Shape 747 764	alumina pinhole's
+T34	ScientificConcept 716 733	structural damage
+T35	ScientificConcept 830 841	instability
+T36	Shape 1072 1090	microtrack profile
+R1	Purpose Arg1:T20 Arg2:T21
+R2	Purpose Arg1:T1 Arg2:T21
+R5	Purpose Arg1:T22 Arg2:T3
+R6	Spatial Arg1:T25 Arg2:T6
+R7	Spatial Arg1:T25 Arg2:T5
+R8	Attr Arg1:T4 Arg2:T24
+R9	Attr Arg1:T4 Arg2:T23
+R10	Causitive Arg1:T25 Arg2:T23
+R11	Causitive Arg1:T25 Arg2:T24
+R12	MadeOf Arg1:T9 Arg2:T10
+R13	MadeOf Arg1:T9 Arg2:T26
+R14	Purpose Arg1:T7 Arg2:T8
+R15	Causitive Arg1:T7 Arg2:T9
+#2	AnnotatorNotes R14	用于什么的什么
+R16	Oper Arg1:T27 Arg2:T11
+R17	Purpose Arg1:T33 Arg2:T34
+R20	PartOf Arg1:T30 Arg2:T29
+R21	PartOf Arg1:T30 Arg2:T28
+R22	PartOf Arg1:T28 Arg2:T14
+R23	PartOf Arg1:T29 Arg2:T14
+R24	Spatial Arg1:T15 Arg2:T17
+R25	Purpose Arg1:T15 Arg2:T36
+R26	Oper Arg1:T31 Arg2:T18
+R27	Purpose Arg1:T18 Arg2:T32
+R28	Purpose Arg1:T32 Arg2:T19
+R3	Purpose Arg1:T21 Arg2:T2
+R4	Purpose Arg1:T1 Arg2:T22
+R29	Purpose Arg1:T20 Arg2:T22
+R18	Purpose Arg1:T27 Arg2:T34
+#1	AnnotatorNotes R4	great

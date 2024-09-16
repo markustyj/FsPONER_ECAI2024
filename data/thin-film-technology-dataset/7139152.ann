@@ -1,0 +1,50 @@
+T1	Location 56 73	relative position
+T2	Component 79 94	transducer head
+T3	Material 113 127	storage medium
+T4	System 150 184	previously written data structures
+T5	Component 190 211	magnetic storage tape
+T7	InfoFlow 278 289	read signal
+T8	Component 297 309	read element
+T9	Component 328 343	transducer head
+T10	InfoFlow 349 360	read signal
+T11	Component 378 398	reference data track
+T12	Material 411 434	magnetic storage medium
+T13	Location 454 471	relative position
+T14	Material 477 501	first diffractive medium
+T15	Material 520 545	second diffractive medium
+T16	Material 559 583	first diffractive medium
+T17	Material 607 621	storage medium
+T18	Component 627 642	transducer head
+T19	Material 675 689	storage medium
+T20	InfoFlow 709 720	read signal
+T21	Location 729 746	relative position
+T22	Material 754 778	first diffractive medium
+T23	Material 787 812	second diffractive medium
+T6	Material 216 243	optically diffractive media
+R3	PartOf Arg1:T5 Arg2:T4
+R4	PartOf Arg1:T6 Arg2:T4
+R5	Generate Arg1:T8 Arg2:T7
+R6	PartOf Arg1:T9 Arg2:T8
+R7	Generate Arg1:T11 Arg2:T10
+R8	Causitive Arg1:T10 Arg2:T12
+R9	Manner Arg1:T14 Arg2:T13
+R10	Manner Arg1:T15 Arg2:T13
+R11	Purpose Arg1:T10 Arg2:T13
+R12	Oper Arg1:T16 Arg2:T17
+R13	Causitive Arg1:T18 Arg2:T19
+R14	Causitive Arg1:T19 Arg2:T20
+R1	Manner Arg1:T2 Arg2:T3
+R2	Attr Arg1:T2 Arg2:T1
+R15	Attr Arg1:T22 Arg2:T21
+R16	Attr Arg1:T23 Arg2:T21
+R17	Causitive Arg1:T3 Arg2:T4
+#1	AnnotatorNotes R17	漏标了
+#2	AnnotatorNotes R7	这句话翻译是：读取信号从存储在磁存储介质上的参考数据轨道产生，所以
+#3	AnnotatorNotes T12	这句话翻译是：读取信号从存储在磁存储介质上的参考数据轨道产生，所以是reference data track存储在此存储介质上
+#4	AnnotatorNotes R11	determining和这一句中第四个单词generating是并列的，所read signalhe relative position不存在因果关系
+#5	AnnotatorNotes R9	某物的相对位置，用attr妥当些
+#6	AnnotatorNotes R12	A与B相关，用others标注，oper主要标注操作与操作对象之间的关系，用在这里不合适
+#7	AnnotatorNotes R13	注意reposition，明显是spatial关系
+#8	AnnotatorNotes R14	翻译过来是transducer head根据读信号，相对于存储介质进行重定位，这里“根据读信号”，用manner妥当一些
+R18	Manner Arg1:T19 Arg2:T21
+#9	AnnotatorNotes R18	由于in responce to管到the relative position,所以这里需要进行标注

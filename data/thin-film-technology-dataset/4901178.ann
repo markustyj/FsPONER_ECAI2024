@@ -1,0 +1,48 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 126 135	substrate
+T4	Shape 225 237	magnetic gap
+T5	Component 255 268	magnetic film
+T6	Shape 317 329	magnetic gap
+T7	Shape 372 379	grooves
+T8	Shape 462 474	magnetic gap
+T9	Component 496 510	coil conductor
+T11	Component 588 611	thin film magnetic head
+T14	Attribution 38 54	inclined surface
+T15	Measure 72 88	prescribed angle
+T16	Attribution 105 118	upper surface
+T17	Location 143 151	vicinity
+T18	Attribution 157 178	slide contact surface
+T3	Material 194 219	magnetic recording medium
+T19	Attribution 276 292	inclined surface
+T21	Attribution 344 360	inclined surface
+T23	Component 402 411	substrate
+T24	Attribution 417 433	inclined surface
+T25	Measure 447 454	azimuth
+T10	Location 528 540	flat portion
+T26	Attribution 548 561	upper surface
+T27	Component 569 578	substrate
+T29	Component 687 724	multi-channel thin film magnetic head
+T12	Component 643 681	double azimuth thin film magnetic head
+T13	Measure 302 309	azimuth
+T20	Shape 383 394	protrusions
+R1	Attr Arg1:T1 Arg2:T14
+R2	Attr Arg1:T2 Arg2:T16
+R3	Attr Arg1:T3 Arg2:T18
+R4	Attr Arg1:T18 Arg2:T17
+R5	Spatial Arg1:T14 Arg2:T16
+R6	Manner Arg1:T17 Arg2:T14
+R7	Spatial Arg1:T4 Arg2:T5
+R8	Attr Arg1:T6 Arg2:T13
+R9	Spatial Arg1:T5 Arg2:T19
+R10	Causitive Arg1:T21 Arg2:T13
+R11	Attr Arg1:T8 Arg2:T25
+R12	Causitive Arg1:T24 Arg2:T25
+R13	Causitive Arg1:T7 Arg2:T24
+R14	Causitive Arg1:T20 Arg2:T24
+R15	PartOf Arg1:T23 Arg2:T20
+R16	PartOf Arg1:T23 Arg2:T7
+R17	Attr Arg1:T27 Arg2:T26
+R18	Attr Arg1:T26 Arg2:T10
+R19	Spatial Arg1:T9 Arg2:T10
+R20	PartOf Arg1:T29 Arg2:T12
+R21	Causitive Arg1:T12 Arg2:T11

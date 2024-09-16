@@ -1,0 +1,56 @@
+T1	Material 2 19	magnetic material
+T2	Component 47 71	thin film magnetic layer
+T3	Component 79 93	magnetic heads
+T4	Material 124 141	magnetic material
+T5	Component 147 171	thin film magnetic layer
+T6	Component 187 201	magnetic heads
+T7	Material 207 224	magnetic material
+T8	ScientificConcept 232 253	elemental composition
+T11	Value 307 342	about 40 to about 60 weight percent
+T13	Material 401 418	magnetic material
+T14	Component 438 462	thin film magnetic layer
+T15	Component 480 493	magnetic head
+T16	Function 505 535	electrochemical plating method
+T22	Material 601 617	nickel (II) ions
+T23	Material 622 636	tin (II) ions.
+T24	Component 773 797	thin film magnetic layer
+T25	Effect 808 839	higher saturation magnetization
+T26	Effect 843 860	higher anisotropy
+T27	Effect 864 895	comparable easy axis coercivity
+T29	Effect 934 952	higher resistivity
+T31	Material 1018 1047	nickel-iron 80 : 20 w/w) alloys
+T10	Value 265 300	about 40 to about 60 weight percent
+T9	Material 301 305	iron
+T32	Material 343 349	nickel
+T12	Value 354 391	about 0.002 to about 1 weight percent
+T33	Material 392 395	tin
+T34	PhysicsFlow 549 573	aqueous plating solution
+T17	Material 585 599	iron (II) ions
+T18	Effect 899 927	lower hard axis permittivity
+T19	Component 958 996	conventional thin film magnetic layers
+T20	Material 1007 1047	permalloy (nickel-iron 80:20 w/w) alloys
+R1	Form Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Form Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T6 Arg2:T5
+R5	PartOf Arg1:T7 Arg2:T8
+R6	PartOf Arg1:T8 Arg2:T9
+R7	Measurement Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T8 Arg2:T32
+R9	Measurement Arg1:T32 Arg2:T11
+R10	PartOf Arg1:T8 Arg2:T33
+R11	Measurement Arg1:T33 Arg2:T12
+R12	Form Arg1:T13 Arg2:T14
+R14	Oper Arg1:T16 Arg2:T14
+R13	PartOf Arg1:T15 Arg2:T14
+R15	PartOf Arg1:T34 Arg2:T17
+R16	PartOf Arg1:T34 Arg2:T22
+R17	PartOf Arg1:T34 Arg2:T23
+R18	Attr Arg1:T24 Arg2:T25
+R19	Attr Arg1:T24 Arg2:T26
+R20	Attr Arg1:T24 Arg2:T27
+R21	Attr Arg1:T24 Arg2:T18
+R22	Attr Arg1:T24 Arg2:T29
+R23	Form Arg1:T20 Arg2:T19
+R24	Comparison Arg1:T24 Arg2:T19
+R25	Causitive Arg1:T14 Arg2:T34

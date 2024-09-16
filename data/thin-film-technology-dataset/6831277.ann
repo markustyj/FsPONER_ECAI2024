@@ -1,0 +1,56 @@
+T1	Function 22 31	variation
+T2	Attribution 35 45	dimensions
+T3	Consequence 50 65	alignment error
+T4	Component 69 93	thin film magnetic heads
+T6	Component 129 138	substrate
+T7	Component 189 199	MR element
+T8	Component 206 233	resistance detector element
+T9	Function 267 282	lapping process
+T10	Component 316 323	raw bar
+T11	EnergyFlow 330 348	illuminating light
+T12	Attribution 355 365	wavelength
+T13	Value 369 375	300 nm
+T14	Component 396 401	image
+T15	EnergyFlow 405 418	imaging light
+T16	Component 438 446	elements
+T17	Component 467 472	image
+T18	InfoFlow 479 491	image signal
+T19	Attribution 554 564	dimensions
+T20	Component 572 582	MR element
+T21	Component 591 618	resistance detector element
+T22	Component 633 640	raw bar
+T23	Consequence 646 661	alignment error
+T24	Component 674 684	MR element
+T25	Component 693 720	resistance detector element
+T26	Effect 728 739	high degree
+T5	Component 106 113	raw bar
+T27	Function 500 524	photoelectric conversion
+T28	Function 541 550	variation
+T29	Effect 743 751	accuracy
+R1	PartOf Arg1:T6 Arg2:T5
+R2	Manner Arg1:T4 Arg2:T5
+R3	Attr Arg1:T4 Arg2:T3
+R4	Attr Arg1:T4 Arg2:T2
+T30	Effect 2 8	method
+R5	Purpose Arg1:T30 Arg2:T1
+#1	AnnotatorNotes T30	为何method这个词都没有被标注出来对应实体，答：这个词几乎出现在所有专利中，而且只说方法，具体什么方法没说，没有实质性意义，所以没有标注
+R8	Purpose Arg1:T8 Arg2:T9
+R9	Manner Arg1:T8 Arg2:T10
+R10	Manner Arg1:T7 Arg2:T10
+R11	Attr Arg1:T11 Arg2:T12
+R12	Measurement Arg1:T12 Arg2:T13
+R13	PartOf Arg1:T7 Arg2:T11
+R14	PartOf Arg1:T8 Arg2:T11
+R15	Spatial Arg1:T24 Arg2:T25
+R16	Attr Arg1:T29 Arg2:T26
+R17	Manner Arg1:T20 Arg2:T22
+R18	Manner Arg1:T21 Arg2:T22
+R19	Attr Arg1:T20 Arg2:T19
+R20	Attr Arg1:T21 Arg2:T19
+R21	Oper Arg1:T28 Arg2:T19
+R22	Generate Arg1:T16 Arg2:T15
+R6	Causitive Arg1:T17 Arg2:T18
+R7	Causitive Arg1:T17 Arg2:T27
+R23	Causitive Arg1:T14 Arg2:T15
+R24	Oper Arg1:T1 Arg2:T2
+#2	AnnotatorNotes R24	尺寸变化  需要进行关系标注么 属于哪一类型，答： 这么标也可以

@@ -1,0 +1,64 @@
+T1	Component 23 39	head core slider
+T2	Component 46 71	rigid magnetic disk drive
+T3	Component 85 104	ferrite slider body
+T4	Location 122 142	air bearing portions
+T5	Attribution 156 176	predetermined height
+T6	Location 219 239	transverse direction
+T7	Location 259 268	direction
+T8	Function 272 281	extension
+T9	Location 323 344	ferrite yoke portions
+T10	Component 372 383	slider body
+T11	Location 389 402	yoke portions
+T12	Component 422 433	slider body
+T15	Component 547 558	slider body
+T16	Location 567 580	yoke portions
+T17	Location 604 636	first and a second track portion
+T18	Shape 650 680	first and second magnetic gaps
+T19	Location 709 740	first and second track portions
+T20	Attribution 746 762	sliding surfaces
+T21	Attribution 778 789	same height
+T22	Location 797 817	air bearing portions
+T23	Location 823 842	first track portion
+T24	Function 870 899	information writing operation
+T25	Location 911 931	second track portion
+T26	Function 959 988	information reading operation
+T27	Location 1000 1031	first and second track portions
+T28	Attribution 1039 1049	same width
+T29	Shape 1055 1085	first and second magnetic gaps
+T30	Shape 1122 1135	magnetic gaps
+T31	Measure 1143 1152	same size
+T32	Location 1162 1176	track portions
+T33	Attribution 1182 1198	different widths
+T34	Location 1223 1237	track portions
+T35	Attribution 1243 1259	different widths
+T36	Shape 1274 1287	magnetic gaps
+T37	Measure 1091 1106	different sizes
+T38	Measure 1293 1308	different sizes
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	Attr Arg1:T4 Arg2:T5
+R5	Manner Arg1:T6 Arg2:T4
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Attr Arg1:T8 Arg2:T7
+R8	PartOf Arg1:T1 Arg2:T9
+R9	Form Arg1:T10 Arg2:T9
+R10	Causitive Arg1:T11 Arg2:T12
+T13	Component 444 483	first and a second closed magnetic path
+R11	Purpose Arg1:T12 Arg2:T13
+T14	Component 510 541	first and a second magnetic gap
+R12	Purpose Arg1:T12 Arg2:T14
+R13	Purpose Arg1:T15 Arg2:T17
+R14	Purpose Arg1:T16 Arg2:T17
+R15	PartOf Arg1:T17 Arg2:T18
+R16	Attr Arg1:T19 Arg2:T20
+R17	Attr Arg1:T20 Arg2:T21
+R18	Comparison Arg1:T19 Arg2:T22
+R19	Purpose Arg1:T23 Arg2:T24
+R20	Purpose Arg1:T25 Arg2:T26
+R21	Attr Arg1:T27 Arg2:T28
+R22	Attr Arg1:T29 Arg2:T37
+R23	Attr Arg1:T30 Arg2:T31
+R24	Attr Arg1:T32 Arg2:T33
+R25	Attr Arg1:T34 Arg2:T35
+R26	Attr Arg1:T36 Arg2:T38

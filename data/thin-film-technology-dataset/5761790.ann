@@ -1,0 +1,80 @@
+T1	Component 2 28	composite thin film slider
+T2	Function 68 97	chemical-mechanical polishing
+T3	Component 120 129	substrate
+T4	Component 214 220	slider
+T7	Component 355 364	insulator
+T11	Component 589 600	deposit end
+T12	Component 656 665	insulator
+T13	Component 757 766	substrate
+T14	PhysicsFlow 824 838	lapping slurry
+T15	Component 871 880	substrate
+T16	Component 885 894	insulator
+T17	Component 978 987	insulator
+T19	Component 47 57	R/W device
+T20	Attribution 153 161	distance
+T21	Component 174 184	R/W device
+T22	Component 193 208	recording media
+T23	Attribution 1016 1031	bearing surface
+T18	Component 996 1013	ceramic substrate
+T24	Component 935 949	R/W components
+T25	Component 915 929	R/W components
+T26	Component 776 786	R/W device
+T27	Component 747 753	slider
+T28	Component 623 637	R/W components
+T29	Component 452 466	R/W components
+T30	Component 332 342	R/W device
+T31	Component 377 402	conductive R/W components
+T32	Component 423 434	substrate's
+T33	Location 435 446	deposit end
+T34	Component 608 617	substrate
+T10	Component 543 566	magnetic pole tip layer
+T9	Component 520 535	MR stripe layer
+T8	Component 495 516	magnetic shield layer
+T35	Attribution 710 725	bearing surface
+T36	Component 698 707	substrate
+T37	Component 316 326	R/W device
+T38	Attribution 286 308	planar bearing surface
+T5	Component 232 264	ceramic or non-ceramic substrate
+R1	PartOf Arg1:T1 Arg2:T19
+R2	Oper Arg1:T2 Arg2:T19
+R3	Spatial Arg1:T1 Arg2:T3
+R4	Attr Arg1:T21 Arg2:T20
+R5	Attr Arg1:T22 Arg2:T20
+R6	PartOf Arg1:T4 Arg2:T5
+R7	PartOf Arg1:T5 Arg2:T38
+R8	PartOf Arg1:T4 Arg2:T37
+R9	PartOf Arg1:T30 Arg2:T7
+R10	PartOf Arg1:T30 Arg2:T31
+R12	PartOf Arg1:T32 Arg2:T33
+R13	PartOf Arg1:T29 Arg2:T8
+R14	PartOf Arg1:T29 Arg2:T9
+R15	PartOf Arg1:T29 Arg2:T10
+R16	PartOf Arg1:T34 Arg2:T11
+R17	PartOf Arg1:T36 Arg2:T35
+R18	Spatial Arg1:T28 Arg2:T12
+R19	Spatial Arg1:T12 Arg2:T35
+R20	PartOf Arg1:T13 Arg2:T26
+R21	Causitive Arg1:T13 Arg2:T14
+R22	Causitive Arg1:T14 Arg2:T15
+R23	Causitive Arg1:T14 Arg2:T16
+R24	Manner Arg1:T25 Arg2:T16
+R25	Manner Arg1:T25 Arg2:T15
+R26	PartOf Arg1:T18 Arg2:T23
+R27	Spatial Arg1:T24 Arg2:T17
+R28	Spatial Arg1:T24 Arg2:T23
+#1	AnnotatorNotes R2	虽然有form，但这里说的是某个工艺形成了某零件，还是oper关系
+R29	Causitive Arg1:T1 Arg2:T20
+R30	Spatial Arg1:T31 Arg2:T33
+R11	Spatial Arg1:T7 Arg2:T33
+#2	AnnotatorNotes R11	原来关系终点在substrate上，根据粒度最小原则，转移到deposit end上
+R31	Spatial Arg1:T8 Arg2:T11
+R32	Spatial Arg1:T9 Arg2:T11
+R33	Spatial Arg1:T10 Arg2:T11
+#3	AnnotatorNotes R31	漏标了
+#4	AnnotatorNotes R32	漏标了
+#5	AnnotatorNotes R33	漏标了
+#6	AnnotatorNotes R28	A从B中伸出，spatial更合适些
+#7	AnnotatorNotes R27	Protrude具有空间含义
+#8	AnnotatorNotes R3	protrude具有空间含义
+#9	AnnotatorNotes R19	extend，延伸，具有空间含义
+#10	AnnotatorNotes R21	关系方向反了，使动者-->被动者

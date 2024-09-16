@@ -1,0 +1,34 @@
+T1	Component 26 69	perpendicular magnetic recording transducer
+T2	Component 126 145	metallic underlayer
+T4	Shape 278 284	trench
+T5	Shape 321 327	trench
+T6	Shape 360 366	trench
+T8	Component 465 487	nonmagnetic seed layer
+T9	Material 604 640	perpendicular magnetic pole material
+T11	Component 670 680	seed layer
+T3	Component 212 231	metallic underlayer
+T17	Component 163 172	insulator
+T18	Component 292 301	insulator
+T19	Location 307 313	bottom
+T20	Shape 349 352	top
+T7	Component 397 416	metallic underlayer
+T21	Location 527 533	bottom
+T22	Location 538 543	sides
+T23	Shape 551 557	trench
+T10	Material 711 747	perpendicular magnetic pole material
+T12	Location 751 768	remaining portion
+T13	Material 776 812	perpendicular magnetic pole material
+T14	Component 821 858	perpendicular magnetic recording pole
+R1	Spatial Arg1:T17 Arg2:T3
+R2	PartOf Arg1:T18 Arg2:T4
+R3	Attr Arg1:T5 Arg2:T19
+R4	Attr Arg1:T6 Arg2:T20
+R5	Comparison Arg1:T19 Arg2:T20
+R6	PartOf Arg1:T19 Arg2:T7
+R7	Spatial Arg1:T8 Arg2:T21
+R8	Spatial Arg1:T8 Arg2:T22
+R9	Attr Arg1:T23 Arg2:T21
+R10	Attr Arg1:T23 Arg2:T22
+R11	Spatial Arg1:T9 Arg2:T11
+R12	PartOf Arg1:T13 Arg2:T12
+R13	Form Arg1:T12 Arg2:T14

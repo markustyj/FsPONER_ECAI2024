@@ -1,0 +1,27 @@
+T1	Component 2 24	magneto-resistive head
+T2	Component 44 53	substrate
+T3	Component 57 75	lower shield layer
+T4	Material 86 113	Fe-system magnetic material
+T5	Component 137 146	substrate
+T6	Component 154 182	non-magnetic insulator layer
+T7	Component 202 220	lower shield layer
+T8	Component 226 254	non-magnetic insulator layer
+T10	Attribution 302 319	surface roughness
+T11	Component 327 345	lower shield layer
+T12	Function 367 384	annealing process
+T13	EnergyFlow 393 407	magnetic field
+T14	Attribution 428 452	magnetic characteristics
+T15	Component 460 478	lower shield layer
+T9	Consequence 285 298	deterioration
+T16	Attribution 482 514	desired magnetic characteristics
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	MadeOf Arg1:T4 Arg2:T3
+R4	Spatial Arg1:T3 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Attr Arg1:T11 Arg2:T10
+R8	Attr Arg1:T10 Arg2:T9
+R9	Purpose Arg1:T8 Arg2:T9
+R10	Attr Arg1:T15 Arg2:T14
+#1	AnnotatorNotes T12	在...作用下的...操作 如何标注？

@@ -1,0 +1,48 @@
+T2	Function 78 88	sputtering
+T3	Component 216 221	wafer
+T4	Component 407 425	RF generating tool
+T1	Component 54 74	Thin Dielectric Film
+T10	Function 40 46	Arcing
+T11	EnergyFlow 121 136	electric fields
+T12	Function 147 153	arcing
+T13	System 161 182	conductive structures
+T14	EnergyFlow 238 256	RF electric fields
+T15	Component 264 282	RF generating tool
+T16	Component 288 293	leads
+T17	Location 312 327	first direction
+T18	EnergyFlow 358 367	RF fields
+T19	Location 374 390	second direction
+T20	Component 433 445	sputter tool
+T21	Component 472 477	leads
+T22	Component 501 506	leads
+T23	Shape 535 543	ABS line
+T5	Component 556 565	MR window
+T6	Location 585 601	geometric center
+T24	Component 609 614	leads
+T25	Component 642 659	extraneous window
+T7	Component 667 685	extraneous windows
+T26	Component 702 725	second dielectric layer
+T8	Component 759 763	lead
+T9	Location 774 789	"hot spot" area
+T27	Function 807 813	arcing
+R1	Generate Arg1:T2 Arg2:T11
+R2	Spatial Arg1:T12 Arg2:T13
+R3	Spatial Arg1:T10 Arg2:T1
+R4	PartOf Arg1:T15 Arg2:T14
+R5	Causitive Arg1:T14 Arg2:T3
+R6	Manner Arg1:T17 Arg2:T16
+R7	Spatial Arg1:T16 Arg2:T18
+R8	Manner Arg1:T19 Arg2:T18
+R9	Generate Arg1:T4 Arg2:T18
+R10	InstanceOf Arg1:T20 Arg2:T4
+R11	Purpose Arg1:T21 Arg2:T22
+R12	Manner Arg1:T23 Arg2:T22
+R13	Purpose Arg1:T23 Arg2:T5
+R14	Spatial Arg1:T5 Arg2:T6
+R15	PartOf Arg1:T24 Arg2:T6
+R16	Spatial Arg1:T26 Arg2:T8
+R17	PartOf Arg1:T26 Arg2:T7
+R18	PartOf Arg1:T26 Arg2:T25
+R20	Purpose Arg1:T2 Arg2:T12
+R21	Oper Arg1:T2 Arg2:T1
+R19	Spatial Arg1:T9 Arg2:T27

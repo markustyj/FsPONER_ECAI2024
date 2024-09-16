@@ -1,0 +1,36 @@
+T1	System 2 25	magnetoresistive device
+T2	Component 150 171	first conductive coil
+T4	Component 244 266	first conductive layer
+T5	Component 310 332	first and second poles
+T10	Component 56 66	first pole
+T11	Component 82 93	second pole
+T12	Component 112 122	first pole
+T13	Component 134 144	first pole
+T14	Material 186 211	first insulation material
+T3	Component 293 304	second pole
+T15	Location 340 373	first and second pole tip portion
+T6	Shape 416 425	write gap
+T16	Component 429 448	first pole pedestal
+T17	Component 467 477	first pole
+T18	Location 485 507	first pole tip portion
+T7	Component 516 535	econd pole pedestal
+T19	Component 554 565	second pole
+T20	Location 573 596	second pole tip portion
+T8	Component 625 647	first and second poles
+T21	Component 655 682	additional conductive coils
+T9	Component 709 730	first conductive coil
+R1	PartOf Arg1:T1 Arg2:T10
+R2	Spatial Arg1:T10 Arg2:T11
+R3	Spatial Arg1:T11 Arg2:T12
+R4	Spatial Arg1:T13 Arg2:T2
+R5	Spatial Arg1:T2 Arg2:T14
+R6	Spatial Arg1:T4 Arg2:T3
+R7	PartOf Arg1:T5 Arg2:T15
+R8	Manner Arg1:T15 Arg2:T6
+R9	Manner Arg1:T18 Arg2:T17
+R10	Spatial Arg1:T16 Arg2:T17
+R11	Manner Arg1:T20 Arg2:T19
+R12	Spatial Arg1:T7 Arg2:T19
+R13	Spatial Arg1:T16 Arg2:T8
+R14	Spatial Arg1:T19 Arg2:T8
+R15	Spatial Arg1:T21 Arg2:T9

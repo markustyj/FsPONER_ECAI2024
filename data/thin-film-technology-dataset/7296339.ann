@@ -1,0 +1,21 @@
+T1	Component 41 78	perpendicular magnetic recording head
+T2	System 135 195	chemical mechanical planarization (CMP) uniformity structure
+T3	Shape 206 214	aperture
+T4	Component 237 274	perpendicular magnetic recording pole
+T5	Shape 286 294	aperture
+T6	System 300 324	CMP uniformity structure
+T7	Component 339 356	CMP barrier layer
+T8	Component 411 420	insulator
+T9	Function 427 436	formation
+T10	Component 444 481	perpendicular magnetic recording pole
+T11	Function 499 502	CMP
+T12	Component 530 539	insulator
+T13	Component 565 602	perpendicular magnetic recording pole
+T14	Attribution 620 635	exposed surface
+T15	Component 643 680	perpendicular magnetic recording head
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T5 Arg2:T4
+R3	PartOf Arg1:T6 Arg2:T7
+R4	Oper Arg1:T9 Arg2:T10
+R5	Oper Arg1:T11 Arg2:T12
+R8	Attr Arg1:T15 Arg2:T14

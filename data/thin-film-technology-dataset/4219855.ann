@@ -1,0 +1,45 @@
+T1	Component 2 31	thin film magnetic transducer
+T2	Component 44 66	non-magnetic substrate
+T3	Component 81 101	magnetic pole pieces
+T4	Attribution 109 125	different widths
+T5	Attribution 131 136	width
+T6	Component 144 160	first pole piece
+T7	Component 178 187	substrate
+T8	Component 216 233	second pole piece
+T9	Function 271 286	misregistration
+T10	Component 299 310	pole pieces
+T11	Function 335 346	manufacture
+T13	Attribution 418 422	edge
+T14	Component 430 447	second pole piece
+T15	Location 462 478	extended portion
+T16	Attribution 490 495	angle
+T17	ScientificConcept 503 530	normal magnetic transitions
+T18	Component 546 557	pole pieces
+T19	Attribution 563 568	width
+T20	Component 576 593	second pole piece
+T21	Attribution 620 635	effective width
+T22	Component 643 653	data track
+T23	Material 668 683	magnetic medium
+T24	Attribution 693 709	data track width
+T25	Attribution 743 752	dimension
+T26	Component 760 776	first pole piece
+T27	Function 353 368	misregistration
+T12	Component 393 403	wraparound
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Attr Arg1:T3 Arg2:T4
+R4	Attr Arg1:T6 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Comparison Arg1:T6 Arg2:T8
+R7	Oper Arg1:T9 Arg2:T10
+R8	Attr Arg1:T14 Arg2:T13
+R9	PartOf Arg1:T13 Arg2:T15
+R10	Attr Arg1:T20 Arg2:T19
+R11	Attr Arg1:T22 Arg2:T21
+R12	Comparison Arg1:T19 Arg2:T21
+R13	Spatial Arg1:T22 Arg2:T23
+R14	Attr Arg1:T26 Arg2:T25
+R15	Form Arg1:T15 Arg2:T16
+R16	Causitive Arg1:T18 Arg2:T17
+R17	Attr Arg1:T17 Arg2:T16
+R18	Oper Arg1:T27 Arg2:T12

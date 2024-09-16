@@ -1,0 +1,47 @@
+T3	Component 84 93	substrate
+T5	Component 144 163	CrNi pre-seed layer
+T6	Component 312 327	RuAl seed layer
+T7	Component 396 415	Cr alloy underlayer
+T9	Component 486 501	magnetic layers
+T12	Component 779 798	CrNi pre-seed layer
+T13	Component 820 847	thinner Cr alloy underlayer
+T1	Component 5 28	thin film magnetic disk
+T2	Component 32 63	crystalline CrNi pre-seed layer
+T4	Component 123 138	RuAl seed layer
+T14	Material 102 107	glass
+T15	Component 345 364	Cr alloy underlayer
+T8	Component 434 445	onset layer
+T16	Component 452 466	magnetic layer
+T17	Component 552 565	spacer layers
+T10	Component 571 602	crystalline CrNi pre-seed layer
+T11	Component 619 642	thinner RuAl seed layer
+T18	Effect 172 182	grain size
+T19	Effect 187 203	its distribution
+T20	Effect 218 255	in-plane crystallographic orientation
+T21	Effect 257 272	coercivity (Hc)
+T22	Effect 277 280	SNR
+T23	Effect 660 686	smaller overall grain size
+T24	Effect 701 710	reduction
+T25	Effect 714 732	manufacturing cost
+T26	Effect 881 899	overall grain size
+T27	Material 764 773	ruthenium
+T28	Effect 740 760	relatively high cost
+R1	Spatial Arg1:T2 Arg2:T3
+R2	InstanceOf Arg1:T14 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Purpose Arg1:T5 Arg2:T18
+R5	Purpose Arg1:T5 Arg2:T19
+R6	Purpose Arg1:T5 Arg2:T20
+R7	Purpose Arg1:T5 Arg2:T21
+R8	Purpose Arg1:T5 Arg2:T22
+R9	Spatial Arg1:T6 Arg2:T15
+R10	Spatial Arg1:T7 Arg2:T8
+R11	Spatial Arg1:T7 Arg2:T16
+R12	Causitive Arg1:T9 Arg2:T17
+R13	Causitive Arg1:T10 Arg2:T11
+R14	Purpose Arg1:T10 Arg2:T23
+R15	PartOf Arg1:T27 Arg2:T28
+R16	Purpose Arg1:T25 Arg2:T24
+R17	Purpose Arg1:T28 Arg2:T24
+R18	Causitive Arg1:T12 Arg2:T13
+R19	Purpose Arg1:T12 Arg2:T26

@@ -1,0 +1,42 @@
+T1	System 2 22	magnetic head device
+T2	Component 26 40	thin-film type
+T4	System 103 123	magnetic head device
+T5	Component 130 152	non-magnetic substrate
+T6	Component 157 188	lower and upper magnetic layers
+T7	Component 203 212	substrate
+T8	Component 234 249	magnetic layers
+T9	System 256 280	double-layered structure
+T10	Component 297 317	soft magnetic layers
+T12	Location 379 389	inner side
+T13	EnergyFlow 397 413	magnetic circuit
+T14	EnergyFlow 421 435	coercive force
+T15	Component 461 486	other soft magnetic layer
+T16	Component 492 511	soft magnetic layer
+T17	Effect 523 545	greater coercive force
+T18	Material 598 614	recording medium
+T19	Attribution 622 635	greater width
+T20	Component 645 664	soft magnetic layer
+T21	Effect 672 694	smaller coercive force
+T22	Location 712 721	direction
+T23	Shape 729 734	track
+T3	InfoFlow 48 66	superior recording
+T24	Attribution 71 97	reproducing characterisics
+T11	Component 332 352	soft magnetic layers
+R1	Attr Arg1:T1 Arg2:T2
+R2	Attr Arg1:T1 Arg2:T3
+R3	Attr Arg1:T1 Arg2:T24
+R4	PartOf Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T4 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T7
+R7	PartOf Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T11 Arg2:T12
+R10	PartOf Arg1:T13 Arg2:T12
+R11	Attr Arg1:T11 Arg2:T14
+R12	Comparison Arg1:T11 Arg2:T15
+R13	Attr Arg1:T16 Arg2:T17
+R14	Attr Arg1:T16 Arg2:T19
+R15	Comparison Arg1:T16 Arg2:T20
+R16	Attr Arg1:T20 Arg2:T21
+R17	Attr Arg1:T23 Arg2:T22
+R18	Manner Arg1:T22 Arg2:T20

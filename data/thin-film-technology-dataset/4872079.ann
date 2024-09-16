@@ -1,0 +1,75 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 48 61	magnetic head
+T3	Component 68 79	superstrate
+T4	Material 149 163	magnetic media
+T5	Component 202 215	magnetic head
+T6	Component 227 244	bottom pole piece
+T7	Location 254 271	front gap section
+T8	Location 278 306	rearwardly extending portion
+T9	Location 321 344	predetermined locations
+T10	Component 367 384	bottom pole piece
+T12	Component 414 418	coil
+T14	System 459 479	insulating structure
+T15	Location 489 514	thin gap defining section
+T18	Component 577 594	bottom pole piece
+T19	Location 609 634	thin gap defining portion
+T20	Shape 666 690	magnetic transducing gap
+T24	Component 780 793	coil windings
+T26	Component 832 861	magnetic top pole piece layer
+T28	Attribution 892 915	contoured outer surface
+T29	Location 952 981	rear magnetic closure portion
+T32	System 1071 1091	insulating structure
+T33	Location 1107 1124	front gap section
+T35	Component 1155 1169	top pole piece
+T39	Component 1278 1291	coil windings
+T40	Component 1312 1326	top pole piece
+T42	Component 1356 1369	leveler layer
+T43	Component 1398 1412	top pole piece
+T44	Component 35 44	substrate
+T45	Component 352 361	substrate
+T13	Component 441 454	coil windings
+T16	Location 521 558	thick coil windings enclosing portion
+T17	Component 1132 1149	bottom pole piece
+T21	Component 1335 1352	bottom pole piece
+T22	Location 1387 1390	top
+T25	Component 1426 1437	superstrate
+T30	Location 699 736	thick coil windings enclosing portion
+T23	Component 811 828	bottom pole piece
+T31	Location 871 888	front gap portion
+T37	Location 1005 1022	front gap section
+T38	Location 1038 1063	thin gap defining portion
+T41	Location 1217 1246	rear magnetic closure section
+T36	Shape 1187 1202	transducing gap
+T27	Attribution 651 659	thicknes
+T46	Component 393 407	bottom support
+R1	PartOf Arg1:T1 Arg2:T44
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T6 Arg2:T8
+R7	Manner Arg1:T9 Arg2:T8
+R8	Spatial Arg1:T8 Arg2:T45
+R9	PartOf Arg1:T12 Arg2:T13
+R10	Form Arg1:T10 Arg2:T46
+R11	Attr Arg1:T12 Arg2:T46
+R12	PartOf Arg1:T14 Arg2:T15
+R13	PartOf Arg1:T14 Arg2:T16
+R14	Spatial Arg1:T14 Arg2:T18
+R15	Attr Arg1:T20 Arg2:T27
+R16	Causitive Arg1:T19 Arg2:T27
+R17	Manner Arg1:T23 Arg2:T24
+R18	PartOf Arg1:T26 Arg2:T31
+R19	PartOf Arg1:T26 Arg2:T28
+R20	PartOf Arg1:T26 Arg2:T29
+R21	PartOf Arg1:T32 Arg2:T38
+R22	PartOf Arg1:T29 Arg2:T37
+R23	Spatial Arg1:T37 Arg2:T38
+R24	Spatial Arg1:T32 Arg2:T33
+R25	PartOf Arg1:T17 Arg2:T33
+R26	Spatial Arg1:T35 Arg2:T36
+R27	Spatial Arg1:T35 Arg2:T41
+R28	Spatial Arg1:T39 Arg2:T40
+R29	Spatial Arg1:T39 Arg2:T21
+R30	Spatial Arg1:T42 Arg2:T22
+R31	PartOf Arg1:T43 Arg2:T22

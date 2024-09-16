@@ -1,0 +1,51 @@
+T1	Component 43 57	recording head
+T2	Component 67 92	bi-directional transducer
+T3	System 108 131	magnetic storage device
+T4	Component 150 175	bi-directional transducer
+T5	Component 183 197	recording head
+T6	Component 223 237	recording head
+T7	Function 248 274	vertical fly height motion
+T9	Component 316 326	transducer
+T10	Attribution 356 363	surface
+T11	Material 369 392	magnetic storage medium
+T12	System 404 418	storage device
+T13	Component 439 464	bi-directional transducer
+T14	Location 472 482	fly height
+T15	Location 487 512	track-to-track directions
+T16	Component 525 535	transducer
+T17	Attribution 581 604	magnetic medium surface
+T18	Function 624 654	data read and write operations
+T19	System 663 677	storage device
+T20	Location 706 716	fly height
+T21	Function 721 746	track-to-track adjustment
+T22	Component 789 814	bi-directional transducer
+T24	Function 902 919	transducer motion
+T25	Function 279 308	lateral track-to-track motion
+T8	Function 420 431	Calibration
+T26	Effect 557 571	more precision
+T27	ScientificConcept 679 701	Calibration algorithms
+T28	Function 766 781	possible motion
+T29	ScientificConcept 832 856	multi-function equations
+T23	ScientificConcept 872 889	various variables
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T5 Arg2:T4
+R3	Spatial Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T9 Arg2:T25
+R5	PartOf Arg1:T9 Arg2:T7
+R6	Spatial Arg1:T11 Arg2:T12
+R7	Attr Arg1:T11 Arg2:T10
+R8	Causitive Arg1:T4 Arg2:T7
+R9	Causitive Arg1:T4 Arg2:T25
+R10	Oper Arg1:T8 Arg2:T13
+R11	Manner Arg1:T13 Arg2:T14
+R12	Manner Arg1:T13 Arg2:T15
+R13	Causitive Arg1:T8 Arg2:T16
+R14	Manner Arg1:T16 Arg2:T26
+R15	Spatial Arg1:T16 Arg2:T17
+R16	Oper Arg1:T18 Arg2:T19
+R17	Attr Arg1:T20 Arg2:T27
+R18	Attr Arg1:T21 Arg2:T27
+R19	PartOf Arg1:T22 Arg2:T28
+R20	Purpose Arg1:T29 Arg2:T23
+R21	Others Arg1:T23 Arg2:T24
+R22	Oper Arg1:T28 Arg2:T29

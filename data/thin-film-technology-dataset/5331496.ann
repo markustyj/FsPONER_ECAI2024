@@ -1,0 +1,67 @@
+T2	Component 71 100	thin film magnetic transducer
+T3	Component 113 128	multiple layers
+T4	Component 132 136	film
+T5	EnergyFlow 150 163	magnetic yoke
+T6	Component 205 209	yoke
+T8	Component 260 275	multiple layers
+T9	Component 314 324	transducer
+T10	Component 379 383	coil
+T11	EnergyFlow 597 610	magnetic flux
+T12	Component 693 698	layer
+T13	Component 706 710	film
+T14	Component 742 753	pole pieces
+T16	EnergyFlow 908 921	magnetic flux
+T17	Component 980 989	easy axis
+T18	Component 1000 1010	pole piece
+T20	Component 2 25	thin film magnetic head
+T1	Function 31 38	process
+T21	Component 184 199	electrical coil
+T7	EnergyFlow 223 245	magnetic flux circuits
+T22	Component 279 283	film
+T23	Location 300 306	center
+T24	Shape 351 375	proximal and distal vias
+T25	Component 388 402	multiple turns
+T26	Component 424 428	yoke
+T27	Shape 450 474	distal and proximal vias
+T28	Shape 487 498	distal vias
+T29	Component 519 523	coil
+T30	Shape 532 545	proximal Vias
+T31	Component 566 570	coil
+T32	Function 611 623	interactions
+T33	Component 636 640	coil
+T34	Component 649 653	yoke
+T35	Attribution 771 793	easy axis orientations
+T15	Shape 839 849	distal via
+T36	Shape 870 892	elongated "flux strap"
+T37	Attribution 932 938	length
+T38	Shape 946 949	via
+T39	Location 955 964	direction
+T40	Shape 1035 1054	magnetic flux strap
+R1	Form Arg1:T3 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T5
+R3	PartOf Arg1:T4 Arg2:T3
+R4	Causitive Arg1:T5 Arg2:T21
+R5	Oper Arg1:T1 Arg2:T20
+R6	PartOf Arg1:T6 Arg2:T7
+R7	PartOf Arg1:T22 Arg2:T8
+R8	Spatial Arg1:T7 Arg2:T8
+R9	PartOf Arg1:T9 Arg2:T23
+R10	Spatial Arg1:T23 Arg2:T24
+R11	PartOf Arg1:T10 Arg2:T25
+R12	Spatial Arg1:T25 Arg2:T26
+R13	Spatial Arg1:T33 Arg2:T34
+R14	Oper Arg1:T32 Arg2:T11
+R15	Spatial Arg1:T28 Arg2:T29
+R16	Spatial Arg1:T30 Arg2:T31
+R17	Spatial Arg1:T10 Arg2:T27
+R18	PartOf Arg1:T13 Arg2:T12
+R19	Attr Arg1:T14 Arg2:T35
+R20	Spatial Arg1:T12 Arg2:T14
+R21	Form Arg1:T15 Arg2:T36
+R22	Attr Arg1:T38 Arg2:T37
+R23	Manner Arg1:T37 Arg2:T16
+R24	Purpose Arg1:T15 Arg2:T16
+R25	Causitive Arg1:T18 Arg2:T40
+R26	PartOf Arg1:T18 Arg2:T17
+R27	Attr Arg1:T17 Arg2:T39
+R28	Manner Arg1:T39 Arg2:T16

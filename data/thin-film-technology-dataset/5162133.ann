@@ -1,0 +1,79 @@
+T1	Component 59 80	silicon carbide films
+T2	ScientificConcept 102 122	predetermined stress
+T3	ScientificConcept 142 163	deposition parameters
+T4	PhysicsFlow 217 228	gas mixture
+T6	Material 240 251	SiH.sub.4)//
+T7	Measure 274 284	flow rates
+T8	Value 294 307	1000 sccm/min
+T9	Component 339 355	reaction chamber
+T10	Measure 397 408	temperature
+T11	Measure 438 458	total pressure range
+T14	EnergyFlow 490 498	RF power
+T15	Material 550 556	silane
+T16	EnergyFlow 602 616	glow discharge
+T17	ScientificConcept 648 669	intrinsic film stress
+T18	Measure 727 738	temperature
+T20	Value 748 758	500.degree
+T21	Measure 769 789	total pressure range
+T22	Measure 821 829	RF power
+T23	Value 833 837	75 W
+T24	Value 841 850	13.56 MHz
+T25	Component 856 876	tensile stress films
+T26	Component 898 918	metal absorber layer
+T27	System 922 942	desired mask pattern
+T28	Component 963 977	absorber layer
+T29	Component 987 996	substrate
+T30	Function 1029 1040	wet etching
+T31	Component 1046 1066	resulting X-ray mask
+T32	Effect 1073 1087	smooth surface
+T33	Effect 1089 1120	excellent dimensional stability
+T34	ScientificConcept 1142 1157	X-ray radiation
+T35	Component 85 94	membranes
+T37	Material 262 270	ethylene
+T38	Value 319 330	10 sccm/min
+T39	Material 372 378	silane
+T40	Material 383 391	ethylene
+T41	Value 413 423	400.degree
+T12	Value 468 472	26.6
+T13	Value 476 482	266 Pa
+T42	Value 503 508	100 W
+T43	Value 512 522	13.56, MHz
+T44	Material 561 569	ethylene
+T45	Material 690 696	silane
+T46	Material 701 709	ethylene
+T19	Value 800 809	106.4, Pa
+T47	Location 1017 1025	backside
+T48	ScientificConcept 1125 1137	transparency
+R1	Attr Arg1:T1 Arg2:T2
+R2	Attr Arg1:T35 Arg2:T2
+R3	Causitive Arg1:T1 Arg2:T3
+R4	Causitive Arg1:T35 Arg2:T3
+R8	Measurement Arg1:T7 Arg2:T8
+R5	Measurement Arg1:T7 Arg2:T38
+R6	Measurement Arg1:T10 Arg2:T41
+R7	Attr Arg1:T39 Arg2:T10
+R10	Attr Arg1:T40 Arg2:T10
+T5	Material 232 238	silane
+T36	Material 251 257	helium
+R11	MadeOf Arg1:T4 Arg2:T5
+R12	MadeOf Arg1:T4 Arg2:T36
+R13	MadeOf Arg1:T4 Arg2:T37
+R9	Attr Arg1:T4 Arg2:T7
+R14	Causitive Arg1:T4 Arg2:T9
+R15	Measurement Arg1:T11 Arg2:T12
+R16	Measurement Arg1:T11 Arg2:T13
+R17	Measurement Arg1:T14 Arg2:T42
+R18	Measurement Arg1:T14 Arg2:T43
+R19	Attr Arg1:T45 Arg2:T18
+R20	Attr Arg1:T46 Arg2:T18
+R21	Measurement Arg1:T18 Arg2:T20
+R22	Measurement Arg1:T21 Arg2:T19
+R23	Measurement Arg1:T22 Arg2:T23
+R24	Measurement Arg1:T22 Arg2:T24
+R25	Purpose Arg1:T31 Arg2:T32
+R26	PartOf Arg1:T28 Arg2:T27
+R27	Causitive Arg1:T25 Arg2:T26
+R28	Purpose Arg1:T31 Arg2:T33
+R29	Purpose Arg1:T31 Arg2:T48
+R30	Attr Arg1:T34 Arg2:T48
+R31	Attr Arg1:T30 Arg2:T47

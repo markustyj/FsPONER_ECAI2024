@@ -1,0 +1,30 @@
+T1	Component 2 19	ceramic substrate
+T2	Material 38 59	ceramic base material
+T3	Value 93 95	5 %
+T5	Value 147 156	0.1 .mu.m
+T6	Component 165 194	amorphous aluminum oxide film
+T7	Attribution 202 211	thickness
+T8	Value 215 228	1 to 50 .mu.m
+T9	Attribution 241 248	surface
+T10	Material 257 278	ceramic base material
+T12	Attribution 319 326	surface
+T13	Effect 341 354	high accuracy
+T14	EnergyFlow 381 407	thin film magnetic circuit
+T15	ScientificConcept 67 75	porosity
+T16	ScientificConcept 100 117	surface roughness
+T4	Effect 284 300	high reliability
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T2 Arg2:T15
+R3	Measurement Arg1:T16 Arg2:T5
+R4	Attr Arg1:T2 Arg2:T16
+T11	Value 93 95	5%
+R5	Measurement Arg1:T15 Arg2:T11
+R6	Attr Arg1:T6 Arg2:T7
+R7	Measurement Arg1:T7 Arg2:T8
+R8	MadeOf Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T6 Arg2:T9
+R10	Purpose Arg1:T1 Arg2:T4
+R11	Form Arg1:T1 Arg2:T14
+R12	PartOf Arg1:T1 Arg2:T6
+R13	Attr Arg1:T1 Arg2:T12
+R14	Purpose Arg1:T12 Arg2:T13

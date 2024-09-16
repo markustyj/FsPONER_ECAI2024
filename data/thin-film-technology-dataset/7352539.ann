@@ -1,0 +1,18 @@
+T1	Component 24 47	thin-film magnetic head
+T2	Component 97 108	cover layer
+T3	Component 115 131	insulating layer
+T4	Component 140 161	magnetoresistive film
+T6	Component 208 229	magnetoresistive film
+T7	Component 235 245	protrusion
+T8	Function 267 274	etching
+T9	Component 288 304	insulating layer
+T10	Component 319 330	cover layer
+T12	Component 416 432	insulating layer
+T5	Component 183 193	protrusion
+T13	EnergyFlow 363 376	short-circuit
+R1	Spatial Arg1:T2 Arg2:T3
+R2	Oper Arg1:T8 Arg2:T7
+R3	Causitive Arg1:T9 Arg2:T10
+R4	Spatial Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T2 Arg2:T4
+R6	Purpose Arg1:T2 Arg2:T5

@@ -1,0 +1,1 @@
+ A transducing head includes a substrate, a writer positioned upon the substrate, and a reader positioned adjacent the writer. The writer is in electrical contact with the substrate.

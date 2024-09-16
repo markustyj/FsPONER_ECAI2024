@@ -1,0 +1,65 @@
+T1	System 2 34	thin film magnetic head assembly
+T2	Component 77 92	thin film heads
+T3	Component 109 125	common substrate
+T4	Component 130 150	insulative main body
+T5	Component 185 194	substrate
+T6	Component 211 225	magnetic yokes
+T7	Component 278 287	substrate
+T8	Component 303 312	main body
+T9	Component 318 332	magnetic yokes
+T10	Component 387 407	insulative main body
+T11	System 438 453	coil structures
+T12	Component 478 487	main body
+T13	Component 531 545	magnetic yokes
+T14	System 551 564	head assembly
+T15	Component 581 589	pedestal
+T16	Material 593 612	insulative material
+T17	Component 631 640	main body
+T18	Attribution 658 675	lateral dimension
+T19	Component 698 707	main body
+T20	Component 713 721	pedestal
+T21	Component 755 764	main body
+T22	Component 769 778	substrate
+T23	Component 784 798	magnetic yokes
+T24	Component 814 829	pole piece pair
+T25	Component 848 856	pedestal
+T27	Component 889 926	first and second magnetic pole pieces
+T28	Component 933 948	pole piece pair
+T29	Component 992 1007	pole piece pair
+T30	Component 1014 1029	pole piece pair
+T31	Component 1038 1042	head
+T32	Component 1081 1086	track
+T33	Material 1092 1107	magnetic medium
+T34	Component 1113 1119	tracks
+T35	Shape 1153 1161	geometry
+T36	Component 1170 1185	pole piece pair
+T39	Shape 237 257	different geometries
+T26	Component 863 878	pole piece pair
+T42	Shape 960 978	different geometry
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T5
+R6	Purpose Arg1:T6 Arg2:T39
+R7	Spatial Arg1:T6 Arg2:T7
+R8	PartOf Arg1:T8 Arg2:T6
+R11	PartOf Arg1:T12 Arg2:T11
+R12	Causitive Arg1:T11 Arg2:T13
+R13	PartOf Arg1:T14 Arg2:T15
+R14	MadeOf Arg1:T15 Arg2:T16
+R15	Spatial Arg1:T15 Arg2:T17
+R16	Comparison Arg1:T18 Arg2:T19
+R17	Attr Arg1:T18 Arg2:T15
+R18	Spatial Arg1:T20 Arg2:T21
+R19	Spatial Arg1:T20 Arg2:T22
+R20	PartOf Arg1:T23 Arg2:T24
+R21	Spatial Arg1:T24 Arg2:T25
+R22	PartOf Arg1:T26 Arg2:T27
+R23	Comparison Arg1:T28 Arg2:T29
+R24	Purpose Arg1:T28 Arg2:T42
+R25	Form Arg1:T30 Arg2:T31
+R26	Spatial Arg1:T32 Arg2:T33
+R27	Purpose Arg1:T32 Arg2:T31
+R28	Attr Arg1:T36 Arg2:T35
+#1	AnnotatorNotes R27	语义方向反了，A用来做B这件事，A-》B
+R4	Others Arg1:T34 Arg2:T35
+#2	AnnotatorNotes R4	相容，用others吧

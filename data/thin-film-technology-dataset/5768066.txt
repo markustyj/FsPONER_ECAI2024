@@ -1,0 +1,1 @@
+A magnetoresistive head including a first magnetoresistive element, a second magnetoresistive element, and an antiferromagnetic layer interposed between the first and second magnetoresistive elements. The antiferromagnetic layer may be replaced by two antiferromagnetic sub layers which are formed on the outer sides of the first and second magnetoresistive elements, respectively.

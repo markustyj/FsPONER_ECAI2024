@@ -1,0 +1,32 @@
+T3	System 69 93	head-suspension assembly
+T5	Component 160 193	novel GMR magnetic recording head
+T6	Component 199 226	conductive slider substrate
+T7	Component 232 240	GMR head
+T8	Component 277 286	substrate
+T9	Component 295 311	conducting leads
+T11	Component 352 357	leads
+T12	Component 366 375	substrate
+T13	Function 396 417	electrical connection
+T14	Component 430 438	GMR head
+T15	Component 447 463	slider substrate
+T17	Component 550 569	conducting elements
+T18	Component 679 707	sensitive GMR sensor element
+T2	System 95 98	HSA
+T4	Function 100 120	construction process
+T1	Function 25 48	electrostatic discharge
+T19	Function 50 53	ESD
+T20	Consequence 55 61	damage
+T21	ScientificConcept 319 339	balanced resistances
+T10	System 469 479	entire HSA
+T16	System 607 610	HSA
+T22	EnergyFlow 628 652	accumulated tribocharges
+R1	Alias Arg1:T1 Arg2:T19
+R2	Alias Arg1:T3 Arg2:T2
+R3	Oper Arg1:T4 Arg2:T3
+R4	Oper Arg1:T1 Arg2:T20
+R5	Spatial Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T11 Arg2:T12
+R8	Attr Arg1:T9 Arg2:T21
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Spatial Arg1:T17 Arg2:T16

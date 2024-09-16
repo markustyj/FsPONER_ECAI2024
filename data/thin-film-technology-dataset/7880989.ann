@@ -1,0 +1,50 @@
+T1	EnergyFlow 3 23	write driver circuit
+T2	Component 35 53	first write driver
+T4	Component 95 105	write head
+T7	Component 184 202	first write driver
+T9	EnergyFlow 239 255	first resistance
+T10	Function 278 284	output
+T11	Component 292 310	first write driver
+T12	Component 340 358	first write driver
+T13	Component 362 381	second write driver
+T14	Shape 402 413	second node
+T15	Component 421 431	write head
+T18	Function 497 503	output
+T19	Component 511 530	second write driver
+T21	EnergyFlow 568 585	second resistance
+T22	Function 608 614	output
+T23	Component 622 641	second write driver
+T24	Component 671 690	second write driver
+T3	EnergyFlow 109 128	first feedback path
+T5	Function 149 162	control input
+T6	Function 170 176	output
+T8	EnergyFlow 208 227	first feedback path
+T25	Function 319 332	control input
+T26	Shape 79 89	first node
+T17	Function 476 489	control input
+T16	EnergyFlow 435 455	second feedback path
+T20	EnergyFlow 536 556	second feedback path
+T27	Function 650 663	control input
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T26
+R3	Causitive Arg1:T2 Arg2:T26
+R4	Causitive Arg1:T3 Arg2:T5
+R5	Causitive Arg1:T3 Arg2:T6
+R6	PartOf Arg1:T7 Arg2:T6
+R7	PartOf Arg1:T7 Arg2:T5
+R8	PartOf Arg1:T8 Arg2:T9
+R9	PartOf Arg1:T11 Arg2:T10
+R10	PartOf Arg1:T12 Arg2:T25
+R11	Spatial Arg1:T9 Arg2:T10
+R12	Spatial Arg1:T9 Arg2:T25
+R13	Causitive Arg1:T13 Arg2:T14
+R14	PartOf Arg1:T15 Arg2:T14
+R15	Causitive Arg1:T16 Arg2:T17
+R16	Causitive Arg1:T16 Arg2:T18
+R17	PartOf Arg1:T19 Arg2:T18
+R18	PartOf Arg1:T19 Arg2:T17
+R19	PartOf Arg1:T20 Arg2:T21
+R20	PartOf Arg1:T23 Arg2:T22
+R21	PartOf Arg1:T24 Arg2:T27
+R22	Spatial Arg1:T21 Arg2:T22
+R23	Spatial Arg1:T21 Arg2:T27

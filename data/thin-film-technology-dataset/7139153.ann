@@ -1,0 +1,41 @@
+T1	System 24 42	magnetic structure
+T2	Component 54 62	pole tip
+T3	Component 83 97	pole tip layer
+T4	Material 101 118	magnetic material
+T5	Material 131 159	polyimide precursor material
+T6	Component 179 193	pole tip layer
+T7	Component 207 238	silicon-containing resist layer
+T8	Material 267 295	polyimide precursor material
+T9	Component 315 327	resist layer
+T10	Material 342 355	oxygen plasma
+T11	PhysicsFlow 375 381	resist
+T12	Material 389 408	glass-like material
+T13	Location 410 426	Exposed portions
+T14	Material 434 468	cured polyimide precursor material
+T15	Component 510 524	pole tip layer
+T16	Location 530 546	exposed portions
+T17	Component 554 568	pole tip layer
+T18	Component 595 603	pole tip
+T19	Function 605 634	Chemical mechanical polishing
+T20	Function 636 639	CMP
+T21	Material 677 694	unwanted material
+T22	Component 715 723	pole tip
+T23	Component 122 127	layer
+T24	Component 258 263	layer
+R1	InstanceOf Arg1:T2 Arg2:T1
+R2	MadeOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T2 Arg2:T3
+R4	MadeOf Arg1:T23 Arg2:T5
+R5	Spatial Arg1:T23 Arg2:T6
+R6	Spatial Arg1:T7 Arg2:T24
+R7	MadeOf Arg1:T24 Arg2:T8
+R8	Causitive Arg1:T10 Arg2:T11
+R9	Causitive Arg1:T11 Arg2:T12
+R10	Purpose Arg1:T9 Arg2:T10
+R11	PartOf Arg1:T14 Arg2:T13
+R12	Purpose Arg1:T14 Arg2:T15
+R13	PartOf Arg1:T17 Arg2:T16
+R14	Purpose Arg1:T17 Arg2:T18
+R15	Alias Arg1:T19 Arg2:T20
+R16	Purpose Arg1:T19 Arg2:T21
+R17	Spatial Arg1:T21 Arg2:T22

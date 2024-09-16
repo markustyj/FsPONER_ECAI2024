@@ -1,0 +1,44 @@
+T1	Component 3 26	thin-film magnetic head
+T2	Component 39 56	bottom pole layer
+T3	Component 60 74	top pole layer
+T4	Component 78 97	recording gap layer
+T5	Component 105 119	thin-film coil
+T6	Component 125 139	thin-film coil
+T7	Shape 154 168	helical manner
+T8	Component 180 194	top pole layer
+T9	Component 205 209	coil
+T10	Component 232 249	bottom pole layer
+T11	Component 258 272	top pole layer
+T12	Component 278 292	thin-film coil
+T13	Location 317 341	inner conductor portions
+T14	Location 358 382	outer conductor portions
+T15	Location 403 422	connecting portions
+T16	Location 440 464	inner conductor portions
+T17	Location 472 496	outer conductor portions
+T18	Location 502 526	inner conductor portions
+T19	Component 552 569	bottom pole layer
+T20	Component 578 592	top pole layer
+T21	Location 598 622	outer conductor portions
+T23	Location 662 686	inner conductor portions
+T24	Component 692 706	top pole layer
+T25	Component 736 756	thin insulating film
+T26	Location 803 827	inner conductor portions
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Manner Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T8
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T9 Arg2:T11
+R9	PartOf Arg1:T12 Arg2:T13
+R10	PartOf Arg1:T12 Arg2:T14
+R11	PartOf Arg1:T12 Arg2:T15
+R12	Causitive Arg1:T15 Arg2:T16
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T18 Arg2:T19
+R15	Spatial Arg1:T18 Arg2:T20
+R16	Spatial Arg1:T21 Arg2:T23
+R17	Spatial Arg1:T21 Arg2:T24
+R18	Spatial Arg1:T23 Arg2:T24
+R19	Spatial Arg1:T25 Arg2:T26

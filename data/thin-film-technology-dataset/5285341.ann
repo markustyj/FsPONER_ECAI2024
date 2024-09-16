@@ -1,0 +1,45 @@
+T1	Component 2 25	thin film magnetic head
+T2	Material 41 66	magnetic recording medium
+T3	Component 110 119	substrate
+T5	Component 216 220	core
+T6	Component 236 254	magnetic thin film
+T7	Component 295 300	cores
+T8	Shape 312 324	magnetic gap
+T10	Shape 394 407	magnetic gaps
+T12	Shape 536 548	magnetic gap
+T13	Component 620 625	cores
+T16	Location 76 85	direction
+T4	Component 139 164	magnetic read/write cores
+T17	Component 181 190	substrate
+T18	Component 272 281	substrate
+T9	Component 346 370	magnetic read/write core
+T19	Component 379 388	substrate
+T20	Location 445 458	same position
+T11	Material 504 529	magnetic recording medium
+T21	Component 593 602	substrate
+T22	Attribution 632 647	different width
+T15	Material 691 716	magnetic recording medium
+T14	Attribution 662 677	different width
+T23	Component 678 683	track
+T24	Attribution 565 583	identical distance
+T25	Function 89 97	movement
+T26	Location 475 484	direction
+T27	Function 488 496	movement
+R1	Spatial Arg1:T4 Arg2:T17
+R2	Attr Arg1:T25 Arg2:T16
+R3	Attr Arg1:T2 Arg2:T16
+R4	PartOf Arg1:T1 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T4
+R6	Spatial Arg1:T6 Arg2:T18
+R7	Form Arg1:T6 Arg2:T5
+R8	PartOf Arg1:T7 Arg2:T8
+R9	Attr Arg1:T27 Arg2:T26
+R10	Attr Arg1:T11 Arg2:T27
+R11	Manner Arg1:T20 Arg2:T10
+R12	Attr Arg1:T13 Arg2:T22
+R13	Attr Arg1:T23 Arg2:T14
+R14	Spatial Arg1:T23 Arg2:T15
+R15	Form Arg1:T13 Arg2:T23
+R16	Spatial Arg1:T8 Arg2:T9
+R17	Spatial Arg1:T8 Arg2:T19
+R18	Spatial Arg1:T12 Arg2:T21

@@ -1,0 +1,53 @@
+T3	ScientificConcept 157 193	coplanar thin film permanent magnets
+T4	Component 242 254	domain walls
+T9	Component 422 429	MR film
+T11	Component 499 507	MR layer
+T12	Component 560 563	SAL
+T15	Component 736 744	MR layer
+T16	Component 775 806	permanent magnet layer portions
+T17	Component 839 847	MR layer
+T18	Component 861 889	low energy equilibria device
+T19	Effect 895 911	high sensitivity
+T6	Component 346 354	SAL film
+T8	Component 306 309	SAL
+T21	Component 393 396	MSL
+T22	Function 402 413	conjunction
+T10	System 444 481	SAL biased magnetoresistive structure
+T23	System 484 487	MRS
+T24	Attribution 523 539	shortened length
+T25	Component 568 578	MSL layers
+T5	Component 262 303	magnetoresistive and soft adjacent layers
+T2	Component 119 146	natural flux closure design
+T1	Component 2 59	soft adjacent layer biased magnetoresistive ("MR") device
+T26	Material 582 600	non-magnetic metal
+T13	Component 604 631	dielectric separation layer
+T27	Value 651 667	20-300 angstroms
+T14	Location 723 728	sides
+T28	Component 705 714	MSL layer
+T29	Function 761 771	deposition
+T30	Value 671 674	ANG
+T20	Effect 916 938	superior signal output
+R1	Alias Arg1:T8 Arg2:T5
+R2	Causitive Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T5 Arg2:T4
+R5	Alias Arg1:T10 Arg2:T23
+R6	Oper Arg1:T22 Arg2:T21
+R7	Oper Arg1:T22 Arg2:T9
+T31	System 317 333	device structure
+R8	PartOf Arg1:T31 Arg2:T6
+R10	Spatial Arg1:T21 Arg2:T9
+T7	Component 359 390	overlying magnetic spacer layer
+R4	Alias Arg1:T7 Arg2:T21
+R9	PartOf Arg1:T31 Arg2:T7
+R11	Purpose Arg1:T7 Arg2:T10
+R12	Attr Arg1:T15 Arg2:T14
+R13	Attr Arg1:T11 Arg2:T24
+R14	Alias Arg1:T27 Arg2:T30
+R16	Measurement Arg1:T13 Arg2:T27
+R17	Spatial Arg1:T26 Arg2:T28
+R18	Spatial Arg1:T13 Arg2:T28
+R19	Oper Arg1:T29 Arg2:T16
+R20	Spatial Arg1:T16 Arg2:T17
+R21	Purpose Arg1:T18 Arg2:T19
+R22	Purpose Arg1:T18 Arg2:T20
+R23	Purpose Arg1:T29 Arg2:T18

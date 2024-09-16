@@ -1,0 +1,49 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 38 58	upper magnetic layer
+T3	Component 72 82	first yoke
+T4	Location 119 142	front and rear sections
+T5	Location 174 190	divided sections
+T6	Component 198 223	magneto-resistive element
+T7	Component 227 238	second yoke
+T8	Location 264 277	opposite ends
+T9	Component 285 295	first yoke
+T10	Location 301 320	widthwise direction
+T11	Shape 326 341	recording track
+T12	Component 348 358	third yoke
+T13	Component 380 390	first yoke
+T14	Component 399 410	second yoke
+T15	Effect 424 450	larger magnetic reluctance
+T16	Component 469 491	first and second yokes
+T17	Component 524 553	first, second and third yokes
+T18	Location 602 606	area
+T19	Attribution 612 623	large width
+T20	Material 631 647	recording medium
+T21	Component 662 672	first yoke
+T22	Location 719 723	area
+T23	Attribution 729 740	small width
+T24	Material 748 764	recording medium
+T25	Function 778 796	reproducing output
+T26	Material 821 837	recording medium
+T27	ScientificConcept 852 869	running deviation
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T7
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Attr Arg1:T9 Arg2:T8
+R7	Attr Arg1:T11 Arg2:T10
+R8	Spatial Arg1:T12 Arg2:T13
+R9	Spatial Arg1:T12 Arg2:T14
+R10	Attr Arg1:T12 Arg2:T15
+R11	Comparison Arg1:T12 Arg2:T16
+R12	Manner Arg1:T10 Arg2:T7
+R13	PartOf Arg1:T2 Arg2:T12
+R14	Spatial Arg1:T3 Arg2:T5
+R15	Causitive Arg1:T3 Arg2:T6
+R16	PartOf Arg1:T19 Arg2:T18
+R17	PartOf Arg1:T23 Arg2:T22
+R18	Causitive Arg1:T26 Arg2:T27
+R19	Manner Arg1:T18 Arg2:T17
+R20	Spatial Arg1:T19 Arg2:T20
+R21	Spatial Arg1:T23 Arg2:T24
+R22	Manner Arg1:T22 Arg2:T21

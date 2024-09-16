@@ -1,0 +1,25 @@
+T2	Location 104 118	outer portions
+T3	Component 136 159	hard baked resist layer
+T6	Component 263 271	overhang
+T9	Component 406 429	thin film magnetic head
+T10	Location 442 454	yoke portion
+T11	Component 460 473	magnetic pole
+T17	Function 690 703	process steps
+T1	Component 35 55	overplated component
+T18	Component 74 96	enlarged mushroom head
+T4	Shape 212 217	voids
+T19	ScientificConcept 225 246	redeposition problems
+T5	PhysicsFlow 299 316	hard baked resist
+T7	Function 498 525	mushroom plating techniques
+T8	Component 560 585	mushroom plated component
+T12	Component 613 660	mushroom plated electrical interconnecting stud
+R1	PartOf Arg1:T1 Arg2:T18
+R2	PartOf Arg1:T18 Arg2:T2
+R3	Spatial Arg1:T2 Arg2:T3
+R4	Spatial Arg1:T19 Arg2:T6
+R5	Spatial Arg1:T4 Arg2:T6
+R6	PartOf Arg1:T11 Arg2:T10
+R7	PartOf Arg1:T9 Arg2:T11
+R8	Oper Arg1:T7 Arg2:T11
+R9	InstanceOf Arg1:T8 Arg2:T12
+R10	Oper Arg1:T17 Arg2:T12

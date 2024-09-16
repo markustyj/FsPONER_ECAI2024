@@ -1,0 +1,16 @@
+T1	Component 38 60	magneto-resistive head
+T2	Component 70 106	soft adjacent magnetic biasing layer
+T4	Component 253 289	soft adjacent magnetic biasing layer
+T5	Component 308 331	magnetically soft layer
+T3	Component 124 169	current-carrying magneto-resistive sense film
+T7	Component 176 219	extremely thin electrically insulating film
+T8	Effect 335 362	high electrical resistivity
+T6	Component 402 430	electrically insulating film
+T10	Effect 11 32	optimized performance
+T11	Shape 386 394	pinholes
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T3
+R3	Causitive Arg1:T2 Arg2:T7
+R4	PartOf Arg1:T4 Arg2:T5
+R5	Attr Arg1:T5 Arg2:T8
+R6	PartOf Arg1:T6 Arg2:T11

@@ -1,0 +1,61 @@
+T3	Shape 142 148	recess
+T4	Component 178 187	substrate
+T5	Component 199 224	conductive thin film coil
+T6	Component 254 267	coil windings
+T7	Component 293 302	substrate
+T9	Component 348 365	ferrite substrate
+T10	Shape 382 388	trench
+T11	Shape 403 409	recess
+T12	Location 435 451	front gap region
+T13	Component 498 507	insulator
+T14	Component 534 559	conductive thin film coil
+T15	Component 568 585	ferrite substrate
+T16	Shape 599 609	gap spacer
+T17	Component 619 636	ferrite substrate
+T18	Material 702 722	nonmagnetic material
+T19	Component 732 751	magnetic pole piece
+T21	Component 834 851	ferrite substrate
+T22	Component 896 915	magnetic pole piece
+T23	Shape 937 946	front gap
+T25	Component 2 31	high efficiency write element
+T26	Component 47 63	multiple element
+T1	Component 65 111	multiple track longitudinal magnetic tape head
+T2	Component 117 130	write element
+T27	Attribution 163 170	surface
+T8	Attribution 278 285	surface
+T28	Attribution 318 342	planar substrate surface
+T29	Material 470 493	nonmagnetic composition
+T30	Location 653 668	closure section
+T31	Attribution 821 828	surface
+T20	Material 757 802	high saturation magnetic flux density materia
+T32	Location 674 689	closure section
+T33	Location 856 871	closure section
+T34	Shape 955 963	back gap
+T24	Component 981 1006	magnetic tape head module
+R1	Causitive Arg1:T25 Arg2:T26
+R2	Causitive Arg1:T25 Arg2:T1
+R3	PartOf Arg1:T2 Arg2:T3
+R4	Form Arg1:T3 Arg2:T27
+R5	PartOf Arg1:T4 Arg2:T27
+R6	PartOf Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T6 Arg2:T8
+R8	PartOf Arg1:T7 Arg2:T8
+R9	Form Arg1:T6 Arg2:T28
+R10	PartOf Arg1:T9 Arg2:T10
+R11	PartOf Arg1:T11 Arg2:T10
+R12	Spatial Arg1:T10 Arg2:T12
+R13	Spatial Arg1:T29 Arg2:T10
+R14	Spatial Arg1:T13 Arg2:T14
+R15	Spatial Arg1:T13 Arg2:T15
+R16	Causitive Arg1:T17 Arg2:T30
+R17	Form Arg1:T15 Arg2:T16
+R18	MadeOf Arg1:T32 Arg2:T18
+R19	PartOf Arg1:T18 Arg2:T19
+R20	MadeOf Arg1:T19 Arg2:T20
+R21	Spatial Arg1:T19 Arg2:T31
+R22	Spatial Arg1:T22 Arg2:T23
+R23	Spatial Arg1:T22 Arg2:T34
+R24	Attr Arg1:T24 Arg2:T34
+R25	Attr Arg1:T24 Arg2:T23
+#1	AnnotatorNotes R13	非磁性化合物填充到沟槽中，spatial关系
+R26	Causitive Arg1:T21 Arg2:T33

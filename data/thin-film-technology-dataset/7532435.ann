@@ -1,0 +1,31 @@
+T1	Shape 4 16	optical path
+T2	Component 36 67	laser-assisted transducing head
+T3	Component 119 124	poles
+T4	Component 132 148	transducing head
+T5	Shape 161 170	write gap
+T8	EnergyFlow 275 289	thermal energy
+T9	Shape 321 326	track
+T10	Attribution 332 350	read/write surface
+T11	EnergyFlow 364 374	coercivity
+T12	Material 382 398	recording medium
+T13	Function 417 430	write process
+T14	Shape 20 29	waveguide
+T15	Shape 86 98	optical path
+T16	Component 174 191	solid-state laser
+T6	Component 232 238	slider
+T7	Component 242 246	head
+T17	Shape 300 309	waveguide
+R1	Purpose Arg1:T14 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T4 Arg2:T3
+R4	Spatial Arg1:T15 Arg2:T3
+R5	Spatial Arg1:T15 Arg2:T5
+R6	Spatial Arg1:T16 Arg2:T6
+R7	Spatial Arg1:T16 Arg2:T7
+R8	PartOf Arg1:T10 Arg2:T9
+R9	Attr Arg1:T12 Arg2:T11
+R10	Causitive Arg1:T16 Arg2:T8
+R11	Causitive Arg1:T16 Arg2:T17
+R12	Causitive Arg1:T16 Arg2:T9
+R13	Causitive Arg1:T8 Arg2:T11
+R14	Causitive Arg1:T11 Arg2:T13

@@ -1,0 +1,39 @@
+T1	Component 2 25	magnetic thin film head
+T3	Component 75 93	alternating layers
+T4	Material 97 119	ferromagnetic material
+T5	Material 124 144	nonmagnetic material
+T8	Location 210 234	antiparallel orientation
+T9	Component 247 262	magnetic layers
+T10	EnergyFlow 284 298	external field
+T11	EnergyFlow 300 316	Magnetic biasing
+T12	Component 333 349	permanent magnet
+T13	Component 357 375	alternating layers
+T14	System 388 414	scissor-like configuration
+T15	Component 422 446	adjacent magnetic layers
+T16	Component 452 458	magnet
+T17	Location 472 491	contiguous junction
+T18	Attribution 501 532	multilayered GMR structure edge
+T19	Component 556 575	air bearing surface
+T20	Component 603 609	sensor
+T21	Component 615 648	nonmagnetic, nonconductive spacer
+T2	EnergyFlow 36 59	giant magnetoresistance
+T22	EnergyFlow 61 64	GMR
+T6	Function 156 195	magnetostatic and exchange interactions
+R1	Alias Arg1:T2 Arg2:T22
+R2	Causitive Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T3
+R4	MadeOf Arg1:T3 Arg2:T4
+R5	MadeOf Arg1:T3 Arg2:T5
+R6	Generate Arg1:T3 Arg2:T8
+R7	Spatial Arg1:T8 Arg2:T9
+#1	AnnotatorNotes T10	在...情况下 如何标引？
+R8	Oper Arg1:T6 Arg2:T3
+#2	AnnotatorNotes R8	耦合关系 如何标引？
+R9	Causitive Arg1:T11 Arg2:T12
+R10	Causitive Arg1:T12 Arg2:T13
+R11	PartOf Arg1:T15 Arg2:T14
+R12	Causitive Arg1:T13 Arg2:T14
+R13	Attr Arg1:T17 Arg2:T18
+R14	PartOf Arg1:T17 Arg2:T16
+R15	Spatial Arg1:T16 Arg2:T19
+#3	AnnotatorNotes T20	...通过...，与...分离 如何标引？

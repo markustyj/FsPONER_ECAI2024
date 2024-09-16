@@ -1,0 +1,51 @@
+T1	Component 2 15	magnetic head
+T2	Component 27 52	magnetoresistance element
+T6	Component 194 208	coil conductor
+T8	Component 248 273	magnetoresistance element
+T11	Component 338 363	magnetoresistance element
+T12	Component 395 400	track
+T15	Component 472 497	magnetoresistance element
+T16	EnergyFlow 509 516	current
+T17	InfoFlow 552 558	signal
+T21	Component 700 714	coil conductor
+T22	EnergyFlow 747 754	current
+T26	Shape 99 102	gap
+T3	Location 108 121	first portion
+T4	Location 136 150	second portion
+T5	Material 165 190	magnetic recording medium
+T7	Location 227 240	first portion
+T10	Location 316 330	second portion
+T27	EnergyFlow 289 308	bias magnetic field
+T9	Attribution 384 389	width
+T28	Location 371 380	direction
+T13	Material 408 433	magnetic recording medium
+T14	Component 441 455	lead conductor
+T18	Material 575 600	magnetic recording medium
+T19	Location 622 636	second portion
+T20	Component 644 669	magnetoresistance element
+T23	Component 771 785	lead conductor
+T24	Component 804 818	coil conductor
+T29	Shape 74 78	loop
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T2 Arg2:T29
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Manner Arg1:T3 Arg2:T26
+R6	PartOf Arg1:T2 Arg2:T26
+R7	Spatial Arg1:T6 Arg2:T7
+R8	PartOf Arg1:T8 Arg2:T7
+R9	Spatial Arg1:T13 Arg2:T12
+R10	Attr Arg1:T12 Arg2:T9
+R11	Attr Arg1:T9 Arg2:T28
+R12	Causitive Arg1:T6 Arg2:T27
+R13	Causitive Arg1:T27 Arg2:T10
+R14	PartOf Arg1:T11 Arg2:T10
+R15	Manner Arg1:T28 Arg2:T27
+R16	Spatial Arg1:T14 Arg2:T15
+R18	PartOf Arg1:T20 Arg2:T19
+R19	Manner Arg1:T19 Arg2:T16
+R20	Purpose Arg1:T16 Arg2:T17
+R21	Causitive Arg1:T23 Arg2:T22
+R22	Manner Arg1:T24 Arg2:T22
+#2	AnnotatorNotes R21	提供给引线导体的一部分电流
+R17	Attr Arg1:T18 Arg2:T17

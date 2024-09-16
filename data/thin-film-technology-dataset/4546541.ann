@@ -1,0 +1,70 @@
+T1	Component 22 43	electrical conductors
+T2	Component 49 78	thin film magnetic transducer
+T3	Component 88 107	transducing element
+T4	Component 127 164	substantially planar conductive leads
+T5	System 179 200	predetermined pattern
+T6	Component 238 267	thin film magnetic transducer
+T7	Component 273 282	substrate
+T8	Attribution 294 319	medium contacting surface
+T9	Component 329 345	conductive leads
+T12	Component 415 440	electrical circuit member
+T13	Location 455 459	side
+T14	Component 483 509	planar connecting elements
+T15	Component 523 574	relatively thin diffusible conductive metal coating
+T16	Component 590 606	conductive leads
+T17	Material 630 660	curable epoxy bonding material
+T18	Component 687 713	planar connecting elements
+T19	Component 721 741	thin film transducer
+T20	Material 754 776	epoxy bonding material
+T21	ScientificConcept 812 830	curing temperature
+T22	ScientificConcept 854 880	thermal stress temperature
+T23	Component 886 915	thin film magnetic transducer
+T24	EnergyFlow 944 970	electrical characteristics
+T25	Attribution 979 1003	magnetic characteristics
+T26	Component 1011 1040	thin film magnetic transducer
+T27	Component 1093 1104	subassembly
+T28	Component 1120 1129	substrate
+T29	Component 1151 1177	planar connecting elements
+T30	Component 1185 1210	electrical circuit member
+T31	EnergyFlow 1227 1241	clamping force
+T32	Measure 1247 1258	temperature
+T33	Value 1264 1289	bonding temperature range
+T34	Material 1333 1355	epoxy bonding material
+T35	Shape 1402 1407	space
+T36	Component 1420 1429	substrate
+T37	Component 1438 1463	electrical circuit member
+T38	Component 1482 1498	conductive leads
+T39	Component 1506 1535	thin film magnetic transducer
+T40	Component 1553 1572	connecting elements
+T41	Component 1583 1594	subassembly
+T42	Attribution 373 398	medium contacting surface
+T10	Function 1381 1397	capillary action
+R1	Spatial Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	Form Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Manner Arg1:T42 Arg2:T9
+R9	PartOf Arg1:T14 Arg2:T15
+R10	Spatial Arg1:T15 Arg2:T16
+R8	Manner Arg1:T12 Arg2:T13
+R11	PartOf Arg1:T12 Arg2:T14
+R12	PartOf Arg1:T19 Arg2:T18
+R13	Spatial Arg1:T17 Arg2:T18
+R14	Comparison Arg1:T21 Arg2:T22
+R15	Attr Arg1:T20 Arg2:T21
+R16	Attr Arg1:T23 Arg2:T22
+R17	Attr Arg1:T26 Arg2:T25
+R18	Attr Arg1:T26 Arg2:T24
+R19	Spatial Arg1:T36 Arg2:T37
+R20	PartOf Arg1:T30 Arg2:T29
+R21	Spatial Arg1:T28 Arg2:T29
+R23	Manner Arg1:T32 Arg2:T31
+R22	Measurement Arg1:T32 Arg2:T33
+R24	Oper Arg1:T10 Arg2:T34
+R25	Spatial Arg1:T34 Arg2:T35
+R26	PartOf Arg1:T39 Arg2:T38
+R27	Form Arg1:T38 Arg2:T41
+R28	Form Arg1:T40 Arg2:T41
+R29	Spatial Arg1:T38 Arg2:T40

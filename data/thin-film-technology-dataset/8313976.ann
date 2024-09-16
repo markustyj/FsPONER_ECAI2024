@@ -1,0 +1,39 @@
+T1	Component 3 13	solar cell
+T2	Component 25 34	substrate
+T3	EnergyFlow 38 53	first electrode
+T4	Component 71 80	substrate
+T5	EnergyFlow 92 107	first electrode
+T6	Component 120 148	first transition metal layer
+T7	Component 163 198	p-type semiconductor absorber layer
+T8	EnergyFlow 216 231	first electrode
+T9	Component 236 262	n-type semiconductor layer
+T10	Component 280 315	p-type semiconductor absorber layer
+T11	EnergyFlow 323 339	second electrode
+T12	Component 357 383	n-type semiconductor layer
+T13	Component 389 417	first transition metal layer
+T14	Component 434 448	alkali element
+T16	Component 482 508	lattice distortion element
+T19	Component 547 582	p-type semiconductor absorber layer
+T15	Material 455 470	alkali compound
+T17	Material 514 541	lattice distortion compound
+T18	Material 629 643	alloy material
+T20	Material 594 616	copper indium selenide
+T21	Material 618 621	CIS
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Spatial Arg1:T11 Arg2:T12
+R8	PartOf Arg1:T1 Arg2:T7
+R9	PartOf Arg1:T1 Arg2:T9
+R10	PartOf Arg1:T1 Arg2:T11
+R11	PartOf Arg1:T13 Arg2:T14
+R12	PartOf Arg1:T13 Arg2:T15
+R13	PartOf Arg1:T13 Arg2:T16
+R14	PartOf Arg1:T13 Arg2:T17
+R15	MadeOf Arg1:T19 Arg2:T20
+R16	Alias Arg1:T20 Arg2:T21
+R17	InstanceOf Arg1:T20 Arg2:T18
+R18	InstanceOf Arg1:T21 Arg2:T18

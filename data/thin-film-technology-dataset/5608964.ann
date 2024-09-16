@@ -1,0 +1,33 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 64 79	conductor layer
+T3	Component 107 123	insulating layer
+T4	Shape 166 185	predetermined shape
+T5	Component 214 229	conductor layer
+T6	Material 245 257	Cu--Ag alloy
+T7	Attribution 341 352	gap surface
+T8	Component 430 445	conductor layer
+T10	Component 46 60	magnetic layer
+T11	Component 95 99	coil
+T12	Component 128 134	layers
+T13	Component 191 200	substrate
+T14	Material 261 282	Cu.sub.100-x Ag.sub.x
+T15	ScientificConcept 359 385	surface irregularity level
+T16	Value 400 413	350 Angstroms
+T17	Value 467 482	2 .mu..OMEGA.cm
+T9	Function 502 516	heat treatment
+T18	Value 520 530	450.degree
+T19	Value 535 545	550.degree
+R1	PartOf Arg1:T1 Arg2:T10
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Form Arg1:T2 Arg2:T11
+R4	PartOf Arg1:T1 Arg2:T3
+R5	Alias Arg1:T3 Arg2:T12
+R6	Causitive Arg1:T1 Arg2:T4
+R7	Spatial Arg1:T4 Arg2:T13
+R8	Form Arg1:T6 Arg2:T5
+R9	MadeOf Arg1:T6 Arg2:T14
+R10	Measurement Arg1:T15 Arg2:T16
+R11	Attr Arg1:T7 Arg2:T15
+R12	Measurement Arg1:T9 Arg2:T18
+R13	Measurement Arg1:T9 Arg2:T19
+R14	Measurement Arg1:T8 Arg2:T17

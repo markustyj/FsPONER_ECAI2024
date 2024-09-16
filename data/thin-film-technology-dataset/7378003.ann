@@ -1,0 +1,49 @@
+T1	System 3 31	focused particle beam system
+T2	System 98 115	pole-tip assembly
+T3	Component 128 146	multi-layer device
+T4	Component 156 167	first layer
+T5	Component 175 199	first structural element
+T6	Component 203 215	second layer
+T7	Component 223 248	second structural element
+T8	Component 256 271	shielding layer
+T9	Component 279 296	shielding element
+T10	Component 302 319	shielding element
+T11	Component 346 357	first layer
+T12	Component 366 378	second layer
+T13	System 384 412	focused particle beam system
+T14	Component 423 448	second structural element
+T15	Component 471 495	first structural element
+T16	Location 517 533	selected portion
+T17	Component 541 559	multi-layer device
+T18	Component 574 591	shielding element
+T19	Component 627 651	first structural element
+T20	Component 657 674	shielding element
+T21	Component 689 713	first structural element
+T22	Component 723 748	second structural element
+T24	Component 779 796	shielding element
+T25	Component 830 855	second structural element
+T26	Component 880 904	first structural element
+T27	System 926 954	focused particle beam system
+T28	Component 965 990	second structural element
+T29	System 1004 1034	desired pole-tip configuration
+T30	System 1051 1081	desired pole-tip configuration
+T31	Component 1121 1141	recording transducer
+T32	Effect 1153 1173	high storage density
+R1	Spatial Arg1:T10 Arg2:T11
+R2	Spatial Arg1:T10 Arg2:T12
+R3	Causitive Arg1:T1 Arg2:T2
+R4	Causitive Arg1:T2 Arg2:T3
+R5	PartOf Arg1:T3 Arg2:T4
+R6	PartOf Arg1:T4 Arg2:T5
+R7	PartOf Arg1:T3 Arg2:T6
+R8	PartOf Arg1:T6 Arg2:T7
+R9	PartOf Arg1:T8 Arg2:T9
+R10	PartOf Arg1:T3 Arg2:T8
+R11	Causitive Arg1:T20 Arg2:T21
+R12	Causitive Arg1:T21 Arg2:T22
+R13	Causitive Arg1:T13 Arg2:T14
+R14	PartOf Arg1:T17 Arg2:T16
+R15	Purpose Arg1:T16 Arg2:T18
+R16	Causitive Arg1:T27 Arg2:T28
+R17	Purpose Arg1:T28 Arg2:T29
+R18	Purpose Arg1:T31 Arg2:T32

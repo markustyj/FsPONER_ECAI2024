@@ -1,0 +1,56 @@
+T2	Component 37 50	magnetic disc
+T3	Component 80 103	thin film magnetic head
+T5	Component 150 173	upper magnetic pole tip
+T6	Component 180 203	lower magnetic pole tip
+T7	Shape 226 238	magnetic gap
+T12	Component 574 587	magnetic disc
+T14	Component 677 700	upper magnetic pole tip
+T16	Component 747 770	lower magnetic pole tip
+T17	Component 801 814	magnetic disc
+T19	Component 857 863	tracks
+T1	Component 2 25	magnetic disc apparatus
+T4	System 116 139	magnetic pole structure
+T8	Location 242 265	respective end portions
+T20	Component 326 339	magnetic disc
+T21	Component 367 380	magnetic disc
+T9	Component 415 438	thin film magnetic head
+T10	Component 444 478	upper and lower magnetic pole tips
+T22	Attribution 496 504	contours
+T11	Location 512 535	respective end portions
+T23	Attribution 639 644	width
+T24	Shape 656 668	magnetic gap
+T15	Shape 726 738	magnetic gap
+T13	Attribution 709 714	width
+T25	Value 844 848	1800
+T26	Location 553 557	side
+T27	Value 864 872	per inch
+T28	Component 343 349	device
+T29	Component 388 394	device
+T30	Attribution 600 610	difference
+T31	Others 785 793	relation
+T18	Value 626 630	mu.m
+T32	Attribution 824 837	track density
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T4 Arg2:T6
+R5	Purpose Arg1:T5 Arg2:T7
+R6	Purpose Arg1:T6 Arg2:T7
+R7	Manner Arg1:T8 Arg2:T5
+R8	Manner Arg1:T8 Arg2:T6
+R9	Purpose Arg1:T28 Arg2:T21
+R10	Purpose Arg1:T29 Arg2:T9
+R11	Attr Arg1:T10 Arg2:T22
+R12	Manner Arg1:T11 Arg2:T10
+R13	Manner Arg1:T26 Arg2:T10
+R14	Attr Arg1:T14 Arg2:T23
+R15	Attr Arg1:T16 Arg2:T13
+R16	Manner Arg1:T24 Arg2:T23
+R17	Manner Arg1:T15 Arg2:T13
+R18	Comparison Arg1:T13 Arg2:T23
+R19	Attr Arg1:T17 Arg2:T32
+R20	Measurement Arg1:T32 Arg2:T25
+R21	Attr Arg1:T32 Arg2:T27
+R22	Spatial Arg1:T26 Arg2:T12
+R23	Attr Arg1:T23 Arg2:T18
+R24	Attr Arg1:T13 Arg2:T18

@@ -1,0 +1,31 @@
+T5	Component 295 309	AFe thin films
+T7	Component 372 381	MR layers
+T9	InfoFlow 520 533	output signal
+T10	Component 2 17	read/write head
+T1	Component 29 51	dual element MR sensor
+T2	Component 58 85	superimposed inductive head
+T11	System 130 149	MR sensor structure
+T3	Component 170 200	magnetoresistive (MR) elements
+T12	Component 210 244	antiferromagnetic (AFe) thin films
+T13	Material 260 274	iron manganese
+T4	Component 317 337	exchange bias layers
+T6	Component 347 358	MR elements
+T14	Location 385 404	opposite directions
+T15	Attribution 430 437	surface
+T16	Material 443 458	magnetic medium
+T19	InfoFlow 460 485	Recorded magnetic signals
+T8	ScientificConcept 554 573	increased amplitude
+T18	ScientificConcept 578 608	improved signal-to-noise ratio
+R1	PartOf Arg1:T10 Arg2:T1
+R2	PartOf Arg1:T10 Arg2:T2
+R3	MadeOf Arg1:T12 Arg2:T13
+R4	PartOf Arg1:T11 Arg2:T3
+R5	Spatial Arg1:T3 Arg2:T12
+R6	Form Arg1:T5 Arg2:T4
+R7	PartOf Arg1:T6 Arg2:T4
+R8	Attr Arg1:T16 Arg2:T15
+R9	Spatial Arg1:T7 Arg2:T15
+R10	Manner Arg1:T14 Arg2:T7
+R11	Causitive Arg1:T5 Arg2:T7
+R12	Attr Arg1:T9 Arg2:T8
+R13	Attr Arg1:T9 Arg2:T18

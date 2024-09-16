@@ -1,0 +1,58 @@
+T1	Location 38 58	multi-domain regions
+T2	Component 66 82	soft under layer
+T3	Material 88 116	perpendicular magnetic media
+T4	System 129 157	radiation targeting assembly
+T5	Attribution 202 209	surface
+T6	Component 215 224	substrate
+T7	Component 240 256	soft under layer
+T8	Material 262 290	perpendicular magnetic media
+T9	System 294 323	radiation collecting assembly
+T11	Attribution 367 374	surface
+T12	System 403 438	first radiation collecting assembly
+T14	Component 475 484	processor
+T19	Attribution 697 704	surface
+T21	Location 747 753	region
+T23	Component 790 806	soft under layer
+T24	Material 812 840	perpendicular magnetic media
+T10	Component 378 387	processor
+T25	Component 561 570	processor
+T26	Component 586 595	processor
+T16	Location 670 689	different positions
+T17	Value 606 619	signal values
+T13	Component 446 459	memory module
+T15	Component 490 503	memory module
+T18	InfoFlow 514 532	logic instructions
+T20	EnergyFlow 170 194	polarized radiation beam
+T22	EnergyFlow 338 347	radiation
+T27	EnergyFlow 625 634	radiation
+T28	EnergyFlow 652 666	radiation beam
+T29	Value 721 734	signal values
+T30	EnergyFlow 757 782	multiple magnetic domains
+T31	System 21 27	system
+R1	PartOf Arg1:T31 Arg2:T4
+R2	PartOf Arg1:T3 Arg2:T2
+R3	PartOf Arg1:T2 Arg2:T1
+R4	PartOf Arg1:T15 Arg2:T18
+R5	Attr Arg1:T6 Arg2:T5
+R6	PartOf Arg1:T8 Arg2:T7
+R7	PartOf Arg1:T24 Arg2:T23
+R8	Generate Arg1:T4 Arg2:T20
+R9	Spatial Arg1:T6 Arg2:T7
+R10	Generate Arg1:T9 Arg2:T22
+R11	Causitive Arg1:T10 Arg2:T12
+R12	Spatial Arg1:T13 Arg2:T14
+R13	Attr Arg1:T30 Arg2:T21
+R14	Spatial Arg1:T23 Arg2:T30
+R15	Purpose Arg1:T29 Arg2:T21
+R16	Purpose Arg1:T26 Arg2:T17
+R17	Manner Arg1:T16 Arg2:T28
+R20	Attr Arg1:T27 Arg2:T17
+R21	Causitive Arg1:T20 Arg2:T5
+R22	Causitive Arg1:T25 Arg2:T18
+R18	Attr Arg1:T19 Arg2:T16
+R19	Purpose Arg1:T18 Arg2:T29
+R23	PartOf Arg1:T31 Arg2:T9
+R24	PartOf Arg1:T31 Arg2:T10
+R25	PartOf Arg1:T31 Arg2:T13
+R26	Generate Arg1:T11 Arg2:T22
+R27	Generate Arg1:T28 Arg2:T27

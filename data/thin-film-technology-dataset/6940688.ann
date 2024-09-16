@@ -1,0 +1,17 @@
+T1	Component 36 60	thin film recording head
+T2	EnergyFlow 118 128	first pole
+T3	Component 142 153	second pole
+T4	Shape 170 179	write gap
+T5	EnergyFlow 195 205	first pole
+T6	EnergyFlow 215 226	second pole
+T7	Component 289 293	coil
+T8	Component 316 321	turns
+T9	Component 361 366	turns
+T12	Component 426 431	turns
+T13	EnergyFlow 448 459	second pole
+T10	EnergyFlow 382 407	first and the second pole
+R1	Spatial Arg1:T5 Arg2:T6
+R2	Causitive Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T7 Arg2:T8
+R4	Spatial Arg1:T9 Arg2:T10
+R5	Spatial Arg1:T12 Arg2:T13

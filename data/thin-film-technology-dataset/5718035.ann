@@ -1,0 +1,39 @@
+T1	Component 29 52	thin film magnetic head
+T2	Component 84 89	wafer
+T4	Component 200 232	thin film magnetic head elements
+T5	Component 284 289	wafer
+T6	Component 315 319	bars
+T7	Component 340 344	bars
+T8	Component 373 405	thin film magnetic head elements
+T9	Component 456 460	bars
+T10	Attribution 480 495	first side face
+T11	Component 521 553	thin film magnetic head elements
+T13	Component 593 596	bar
+T14	Attribution 655 670	first side face
+T15	Component 695 698	bar
+T3	Measure 122 143	desired slider length
+T17	Attribution 97 106	thickness
+T18	Component 152 165	magnetic head
+T19	Attribution 240 247	surface
+T20	Component 255 260	wafer
+T21	Component 503 506	bar
+T12	Location 604 608	side
+T22	Attribution 614 630	second side face
+T23	Measure 681 687	length
+T16	Measure 720 741	desired slider length
+T24	Component 750 763	magnetic head
+R1	Purpose Arg1:T3 Arg2:T18
+R2	Attr Arg1:T2 Arg2:T17
+R3	Comparison Arg1:T17 Arg2:T3
+R4	Attr Arg1:T20 Arg2:T19
+R5	Spatial Arg1:T4 Arg2:T19
+R6	PartOf Arg1:T7 Arg2:T8
+R7	Purpose Arg1:T5 Arg2:T6
+R8	Attr Arg1:T21 Arg2:T10
+R9	Spatial Arg1:T14 Arg2:T22
+R10	Attr Arg1:T22 Arg2:T12
+R11	Manner Arg1:T12 Arg2:T13
+R12	Attr Arg1:T15 Arg2:T23
+R13	Comparison Arg1:T23 Arg2:T16
+#1	AnnotatorNotes R1	同最后一行
+R14	Purpose Arg1:T16 Arg2:T24

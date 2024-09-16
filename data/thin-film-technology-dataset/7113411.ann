@@ -1,0 +1,46 @@
+T1	System 3 35	switching power supply apparatus
+T2	Component 45 77	first and second switch circuits
+T3	Component 102 116	switch devices
+T4	EnergyFlow 357 364	voltage
+T5	Component 370 385	third capacitor
+T8	Component 429 449	first switch circuit
+T9	EnergyFlow 482 497	reverse current
+T10	Component 546 555	capacitor
+T12	Component 612 627	second inductor
+T13	EnergyFlow 652 659	voltage
+T14	Component 716 736	first switch circuit
+T15	Component 766 775	capacitor
+T16	Shape 819 830	closed loop
+T18	Component 898 919	second switch circuit
+T19	Component 132 138	diodes
+T20	Component 158 168	capacitors
+T21	Component 194 205	transformer
+T22	Component 213 227	first inductor
+T23	Component 263 278	primary winding
+T24	Component 291 302	transformer
+T25	Component 314 329	second inductor
+T7	Component 458 463	diode
+T26	Component 518 533	second inductor
+T27	EnergyFlow 580 597	excitation energy
+T11	Component 667 682	primary winding
+T6	Component 849 857	inductor
+T28	Component 868 883	primary winding
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T19
+R4	PartOf Arg1:T1 Arg2:T20
+R5	PartOf Arg1:T1 Arg2:T21
+R6	Spatial Arg1:T22 Arg2:T24
+R7	PartOf Arg1:T24 Arg2:T23
+R8	PartOf Arg1:T5 Arg2:T4
+R9	Form Arg1:T15 Arg2:T16
+R10	Form Arg1:T6 Arg2:T16
+R11	Form Arg1:T28 Arg2:T16
+R12	Form Arg1:T18 Arg2:T16
+R13	Purpose Arg1:T5 Arg2:T8
+R14	Purpose Arg1:T7 Arg2:T9
+R15	Manner Arg1:T9 Arg2:T26
+R16	Causitive Arg1:T27 Arg2:T10
+R17	Spatial Arg1:T27 Arg2:T12
+R18	Causitive Arg1:T7 Arg2:T13
+R19	Causitive Arg1:T13 Arg2:T11

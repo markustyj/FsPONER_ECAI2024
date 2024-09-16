@@ -1,0 +1,21 @@
+T1	EnergyFlow 90 104	magnetic poles
+T3	Component 141 151	write pole
+T10	Component 28 48	magnetic write heads
+T11	Component 180 189	substrate
+T12	Material 198 215	side gap material
+T4	Location 239 256	sidewall portions
+T5	Component 264 274	write pole
+T6	Component 290 303	masking layer
+T7	Component 362 372	write pole
+T8	Location 425 440	exposed portion
+T9	Component 448 458	write pole
+T13	Function 75 86	fabrication
+T2	Function 376 403	trailing magnetic pole step
+T14	Function 109 137	trailing magnetic pole steps
+R1	Oper Arg1:T13 Arg2:T1
+R2	Spatial Arg1:T3 Arg2:T11
+R3	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T9 Arg2:T8
+R6	Purpose Arg1:T6 Arg2:T7
+R7	Manner Arg1:T8 Arg2:T2
+R4	Manner Arg1:T4 Arg2:T12

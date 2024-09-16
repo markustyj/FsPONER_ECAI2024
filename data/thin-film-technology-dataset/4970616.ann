@@ -1,0 +1,31 @@
+T1	Component 2 16	recording head
+T2	EnergyFlow 24 46	first and second poles
+T4	Shape 94 98	gap,
+T5	Component 129 138	pole tips
+T8	Shape 524 528	gap,
+T3	Component 256 271	second pole tip
+T6	Shape 365 368	gap
+T11	Attribution 402 407	width
+T12	EnergyFlow 415 420	poles
+T13	Attribution 433 444	outer edges
+T14	Attribution 511 516	width
+T15	Effect 538 557	minimal undershoots
+T9	Component 584 599	thin film heads
+T16	EnergyFlow 565 580	readback pulses
+T10	Component 52 78	first and second pole tips
+T17	Location 101 114	cross-section
+T18	Shape 230 233	gap
+T19	Location 237 250	cross-section
+T7	Function 375 390	pole tip design
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T10 Arg2:T4
+R3	Attr Arg1:T5 Arg2:T17
+R4	Attr Arg1:T3 Arg2:T19
+R5	Attr Arg1:T12 Arg2:T11
+R6	Attr Arg1:T12 Arg2:T14
+R7	Comparison Arg1:T11 Arg2:T14
+R8	Manner Arg1:T13 Arg2:T12
+R9	Manner Arg1:T8 Arg2:T14
+R10	Purpose Arg1:T7 Arg2:T15
+R11	Generate Arg1:T9 Arg2:T16
+R12	PartOf Arg1:T16 Arg2:T15

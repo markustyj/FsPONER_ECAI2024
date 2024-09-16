@@ -1,0 +1,5 @@
+T1	Component 3 26	magnetoresistive sensor
+T2	Effect 34 61	improved free layer biasing
+T3	Effect 66 85	track width control
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T3

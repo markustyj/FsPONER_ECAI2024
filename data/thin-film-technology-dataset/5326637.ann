@@ -1,0 +1,35 @@
+T1	Material 2 27	magnetic recording medium
+T2	Component 52 65	magnetic film
+T5	Material 298 300	Fe
+T8	Attribution 546 563	recording density
+T9	ScientificConcept 596 601	noise
+T10	Material 89 104	oxidized cobalt
+T3	ScientificConcept 114 137	in-plane coercive force
+T4	Component 176 185	substrate
+T11	Value 152 158	500 Oe
+T12	Material 209 233	megnetic recording media
+T13	Component 272 282	underlayer
+T14	Material 294 296	Cr
+T15	Material 307 318	Fe-Co alloy
+T16	Component 330 343	magnetic film
+T17	Component 359 398	perpendicular magnetic anisotropic film
+T6	Material 412 436	partially oxidized metal
+T18	Component 465 478	magnetic film
+T19	Material 484 508	magnetic recording media
+T7	Attribution 568 587	reproduction output
+T20	ScientificConcept 614 623	S/N ratio
+R1	Measurement Arg1:T3 Arg2:T11
+R2	Spatial Arg1:T2 Arg2:T4
+R3	MadeOf Arg1:T2 Arg2:T10
+R4	Attr Arg1:T10 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T4
+R6	MadeOf Arg1:T13 Arg2:T14
+R7	MadeOf Arg1:T13 Arg2:T5
+R8	MadeOf Arg1:T13 Arg2:T15
+R9	Spatial Arg1:T13 Arg2:T16
+R10	MadeOf Arg1:T17 Arg2:T6
+R11	Spatial Arg1:T17 Arg2:T18
+R12	Attr Arg1:T19 Arg2:T8
+R13	Attr Arg1:T19 Arg2:T7
+R14	Attr Arg1:T19 Arg2:T20
+R15	Attr Arg1:T19 Arg2:T9

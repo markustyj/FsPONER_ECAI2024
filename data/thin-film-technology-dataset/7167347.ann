@@ -1,0 +1,31 @@
+T1	EnergyFlow 3 27	magnetoresistance effect
+T2	System 34 54	lamination structure
+T3	Component 68 78	free layer
+T4	Component 102 122	ferromagnetic layers
+T5	Component 126 138	pinned layer
+T6	Component 153 173	ferromagnetic layers
+T7	Location 192 212	nano-contact portion
+T8	Component 227 253	single ferromagnetic layer
+T9	Component 279 289	free layer
+T10	Component 298 310	pinned layer
+T11	Attribution 314 322	distance
+T12	Component 335 345	free layer
+T13	Component 354 366	pinned layer
+T14	Attribution 374 383	thickness
+T15	Location 391 411	nano-contact portion
+T16	Location 419 439	lamination direction
+T17	Value 458 470	Fermi length
+T18	Value 493 499	100 nm
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T5
+R5	PartOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T2 Arg2:T7
+R7	PartOf Arg1:T7 Arg2:T8
+R11	Attr Arg1:T15 Arg2:T14
+R12	Measurement Arg1:T14 Arg2:T17
+R13	Measurement Arg1:T14 Arg2:T18
+R10	Manner Arg1:T16 Arg2:T14
+R8	Spatial Arg1:T7 Arg2:T10
+R9	Spatial Arg1:T7 Arg2:T9

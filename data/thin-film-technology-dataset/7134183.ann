@@ -1,0 +1,16 @@
+T1	Component 24 47	thin-film magnetic head
+T2	Component 97 108	cover layer
+T3	Component 115 131	insulating layer
+T4	Component 140 161	magnetoresistive film
+T5	Shape 183 193	protrusion
+T6	Component 208 229	magnetoresistive film
+T7	Shape 241 251	protrusion
+T8	Component 294 310	insulating layer
+T9	Component 325 336	cover layer
+T10	Consequence 369 382	short-circuit
+T11	Component 422 438	insulating layer
+R1	Spatial Arg1:T8 Arg2:T9
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Purpose Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T5

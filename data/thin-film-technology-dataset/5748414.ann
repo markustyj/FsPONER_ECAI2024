@@ -1,0 +1,61 @@
+T1	System 2 40	magnetoresistive (MR) element assembly
+T3	Component 79 89	MR element
+T4	Component 93 102	bias coil
+T5	Component 108 130	spaced conductor leads
+T6	Component 149 159	MR element
+T7	Shape 178 206	elongated ellipse-like shape
+T8	Location 215 237	elongated sense region
+T9	Location 246 257	end regions
+T10	Shape 273 294	small nonmagnetic gap
+T11	EnergyFlow 316 350	longitudinal demagnetization field
+T12	Component 362 372	MR element
+T13	ScientificConcept 377 386	easy axis
+T14	Function 390 403	magnetization
+T15	Component 421 431	MR element
+T16	Location 450 459	direction
+T17	ScientificConcept 476 485	main axis
+T18	Component 493 500	element
+T19	Component 504 513	bias coil
+T20	Component 536 546	MR element
+T21	EnergyFlow 560 583	longitudinal bias field
+T22	Location 611 633	elongated sense region
+T23	State 639 658	single domain state
+T24	Component 664 704	elongated ellipse-like shaped MR element
+T25	Function 775 784	formation
+T26	State 790 808	multi-domain state
+T27	Location 820 842	elongated sense region
+T28	System 848 867	MR element assembly
+T30	Component 901 908	MR head
+T31	EnergyFlow 924 940	Barkhausen noise
+T32	Function 948 954	output
+T33	Component 962 966	head
+T2	EnergyFlow 48 65	longitudinal bias
+T34	EnergyFlow 716 755	uniformly reduced demagnetization field
+T29	ScientificConcept 882 893	sensitivity
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T5
+R5	Form Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T7 Arg2:T8
+R7	PartOf Arg1:T7 Arg2:T9
+R11	PartOf Arg1:T12 Arg2:T11
+R12	Purpose Arg1:T7 Arg2:T11
+R13	Attr Arg1:T14 Arg2:T13
+R14	Form Arg1:T15 Arg2:T13
+R15	Manner Arg1:T16 Arg2:T13
+R16	Spatial Arg1:T13 Arg2:T17
+R17	Attr Arg1:T18 Arg2:T17
+R18	Spatial Arg1:T19 Arg2:T20
+R19	Generate Arg1:T19 Arg2:T21
+R20	Purpose Arg1:T21 Arg2:T22
+R21	Manner Arg1:T23 Arg2:T22
+R22	Generate Arg1:T24 Arg2:T34
+R23	Purpose Arg1:T34 Arg2:T25
+R24	Oper Arg1:T25 Arg2:T26
+R25	PartOf Arg1:T27 Arg2:T26
+R26	Attr Arg1:T30 Arg2:T29
+R27	Causitive Arg1:T28 Arg2:T29
+R28	Causitive Arg1:T28 Arg2:T31
+R29	Generate Arg1:T33 Arg2:T31
+R8	Oper Arg1:T32 Arg2:T31

@@ -1,0 +1,28 @@
+T1	Component 2 27	lower magnetic pole layer
+T2	Component 38 63	upper magnetic pole layer
+T3	Material 80 97	CoFe.alpha. alloy
+T4	ScientificConcept 111 126	component ratio
+T5	Material 132 134	Co
+T7	ScientificConcept 158 173	component ratio
+T8	Material 179 181	Fe
+T13	Material 287 289	Ni
+T14	Material 294 296	Cr
+T16	Component 325 336	equation X +
+T17	EnergyFlow 383 414	saturated magnetic flux density
+T18	Value 422 427	2.0 T
+T19	Component 443 466	thin-film magnetic head
+T20	Effect 474 498	higher recording density
+T21	Value 138 152	8 to 48 mass %
+T6	Value 185 200	50 to 90 mass %
+T9	ScientificConcept 206 221	component ratio
+T10	Value 301 315	2 to 20 mass %
+R1	MadeOf Arg1:T1 Arg2:T3
+R2	MadeOf Arg1:T2 Arg2:T3
+R3	Measurement Arg1:T4 Arg2:T21
+R4	Measurement Arg1:T7 Arg2:T6
+R5	Measurement Arg1:T9 Arg2:T10
+R6	Attr Arg1:T5 Arg2:T4
+R7	Attr Arg1:T8 Arg2:T7
+R8	Measurement Arg1:T17 Arg2:T18
+R9	Attr Arg1:T19 Arg2:T20
+#1	AnnotatorNotes R1	标得很好！

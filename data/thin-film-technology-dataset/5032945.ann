@@ -1,0 +1,64 @@
+T1	System 0 29	Magnetic thin film structures
+T2	Component 56 64	laminate
+T4	Material 79 99	nonmagnetic material
+T5	Component 119 142	first and second layers
+T6	Material 146 163	magnetic material
+T7	Component 181 199	edge closure layer
+T8	Material 203 220	magnetic material
+T9	Attribution 235 244	side edge
+T10	Component 252 260	laminate
+T11	Component 270 288	edge closure layer
+T12	Function 298 314	magnetic contact
+T13	Component 324 347	first and second layers
+T14	Material 351 368	magnetic material
+T15	Component 374 392	edge closure layer
+T16	Location 404 433	magnetic edge closure domains
+T18	Location 473 497	yoke and poletip regions
+T19	Component 522 545	magnetic recording head
+T21	EnergyFlow 573 589	Barkhausen noise
+T22	Consequence 594 620	wall network instabilities
+T24	Component 688 706	nonmagnetic layers
+T25	Material 754 771	magnetic material
+T26	Component 788 796	laminate
+T27	Component 806 825	edge closure layers
+T28	Component 847 862	magnetic layers
+T29	Component 914 922	laminate
+T31	Attribution 955 965	side edges
+T32	Component 996 1005	top layer
+T33	Function 1011 1035	single plating operation
+T34	Component 1067 1091	side edge closure layers
+T35	Component 1149 1154	layer
+T36	Material 1158 1184	antiferromagnetic material
+T37	Component 1207 1224	nonmagnetic layer
+T38	Component 1240 1255	magnetic layers
+T39	Effect 1267 1288	additional anisotropy
+T3	Component 438 465	magnetic edge-curling walls
+T17	Consequence 507 516	fluxguide
+T20	Component 622 646	Multiple layer laminates
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T2
+R3	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T6 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T7
+R6	PartOf Arg1:T8 Arg2:T7
+R7	Attr Arg1:T10 Arg2:T9
+R8	Spatial Arg1:T8 Arg2:T9
+R9	Oper Arg1:T12 Arg2:T11
+R10	Spatial Arg1:T11 Arg2:T13
+R11	PartOf Arg1:T14 Arg2:T13
+R12	Causitive Arg1:T15 Arg2:T16
+R13	Causitive Arg1:T15 Arg2:T3
+R14	PartOf Arg1:T18 Arg2:T3
+R15	PartOf Arg1:T18 Arg2:T16
+R16	Attr Arg1:T19 Arg2:T17
+R17	PartOf Arg1:T20 Arg2:T24
+R18	Spatial Arg1:T24 Arg2:T25
+R19	PartOf Arg1:T26 Arg2:T27
+R20	Spatial Arg1:T27 Arg2:T28
+R21	PartOf Arg1:T25 Arg2:T26
+R22	Causitive Arg1:T17 Arg2:T21
+R23	Causitive Arg1:T17 Arg2:T22
+R24	Attr Arg1:T36 Arg2:T35
+R25	Spatial Arg1:T36 Arg2:T37
+R26	Spatial Arg1:T36 Arg2:T38
+R27	Purpose Arg1:T36 Arg2:T39

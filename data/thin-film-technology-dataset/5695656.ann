@@ -1,0 +1,58 @@
+T1	Function 2 44	magnetic thin-film head fabrication method
+T2	Component 77 91	thin-film head
+T3	Component 158 168	pole layer
+T4	Component 202 218	upper pole layer
+T8	Component 354 370	insulating layer
+T10	Component 454 470	metal mask layer
+T12	Component 499 509	seed layer
+T13	Component 544 560	insulating layer
+T17	Component 649 665	metal mask layer
+T18	Component 717 733	metal mask layer
+T21	Component 1025 1048	magnetic thin-film head
+T22	ScientificConcept 64 69	yield
+T23	ScientificConcept 108 117	deviation
+T24	Attribution 121 132	line widths
+T25	Location 137 152	various regions
+T5	Component 224 257	to-be-etched magnet-forming layer
+T26	Component 270 286	lower pole layer
+T6	Component 298 317	metallic seed layer
+T7	Component 325 341	upper pole layer
+T9	Component 432 442	seed layer
+T11	Effect 409 424	desired pattern
+T27	Shape 381 389	aperture
+T28	Attribution 478 491	exposed plane
+T29	Function 515 529	plating method
+T14	Location 577 592	exposed portion
+T15	Component 600 620	magnet-forming layer
+T16	Attribution 671 690	predetermined depth
+T30	ScientificConcept 702 709	pattern
+T19	Component 790 807	photoresist layer
+T31	ScientificConcept 813 827	size deviation
+T32	Others 835 853	processed products
+T33	Others 882 894	each product
+T34	Effect 930 945	reproducibility
+T20	Component 953 969	upper pole layer
+T35	ScientificConcept 989 1007	deterioration rate
+T36	ScientificConcept 1071 1093	performance difference
+T37	Others 1106 1114	products
+R1	Purpose Arg1:T1 Arg2:T22
+R2	Attr Arg1:T2 Arg2:T22
+R3	Others Arg1:T24 Arg2:T23
+R4	Manner Arg1:T23 Arg2:T22
+R5	Attr Arg1:T25 Arg2:T24
+R6	PartOf Arg1:T3 Arg2:T25
+R7	Spatial Arg1:T4 Arg2:T5
+R8	Spatial Arg1:T5 Arg2:T26
+R9	Spatial Arg1:T6 Arg2:T7
+R10	Spatial Arg1:T4 Arg2:T26
+R11	Attr Arg1:T8 Arg2:T27
+R12	Attr Arg1:T9 Arg2:T11
+R13	Spatial Arg1:T10 Arg2:T28
+R14	Attr Arg1:T12 Arg2:T28
+R15	Oper Arg1:T29 Arg2:T10
+R16	PartOf Arg1:T15 Arg2:T14
+R19	Attr Arg1:T18 Arg2:T30
+R20	Causitive Arg1:T19 Arg2:T30
+R21	Attr Arg1:T20 Arg2:T34
+R22	Attr Arg1:T21 Arg2:T35
+R17	Attr Arg1:T14 Arg2:T16

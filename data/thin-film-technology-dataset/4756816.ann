@@ -1,0 +1,62 @@
+T1	Material 0 25	Ferromagnetic cobalt-iron
+T2	Material 27 31	CoFe
+T3	Component 58 78	conductive substrate
+T4	Component 89 103	CoFe thin film
+T5	Function 109 138	wet electrodeposition process
+T6	PhysicsFlow 167 209	relatively low toxic plating bath solution
+T7	Material 223 242	constituents cobalt
+T8	Material 247 251	iron
+T10	ScientificConcept 287 300	lesser amount
+T11	Material 304 308	iron
+T12	Material 314 320	cobalt
+T14	Value 357 385	90 % cobalt to 10 % iron ratio
+T15	Component 393 402	thin film
+T16	PhysicsFlow 408 424	plating solution
+T17	Material 434 450	sodium saccharin
+T18	Material 452 474	dodecyl sodium sulfate
+T20	Component 513 527	CoFe thin film
+T21	Function 556 573	disclosed process
+T23	EnergyFlow 606 629	acceptable permeability
+T24	Component 643 656	magnetic head
+T25	Effect 660 693	highly stabilized magnetic domain
+T26	EnergyFlow 722 739	saturation moment
+T27	Material 743 752	Permalloy
+T28	Component 754 768	Magnetic heads
+T29	Effect 824 845	high coercivity media
+T30	Effect 850 872	high density recording
+T9	Material 270 283	soluble salts
+T13	Value 343 360	approximately 90%
+T31	Material 361 367	cobalt
+T32	Value 371 374	10%
+T33	Material 375 379	iron
+T34	PhysicsFlow 479 486	wetting
+T19	PhysicsFlow 491 507	buffering agents
+T22	Attribution 578 604	near zero magnetostriction
+T35	Component 790 794	film
+R1	Alias Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T1 Arg2:T3
+R3	Form Arg1:T1 Arg2:T4
+R4	Causitive Arg1:T5 Arg2:T6
+R5	InstanceOf Arg1:T7 Arg2:T9
+R6	InstanceOf Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T6 Arg2:T7
+R8	PartOf Arg1:T6 Arg2:T8
+R9	Comparison Arg1:T11 Arg2:T12
+R10	Measurement Arg1:T10 Arg2:T11
+R11	PartOf Arg1:T16 Arg2:T17
+R12	PartOf Arg1:T16 Arg2:T18
+R13	PartOf Arg1:T16 Arg2:T34
+R14	PartOf Arg1:T16 Arg2:T19
+R15	MadeOf Arg1:T28 Arg2:T35
+R16	Causitive Arg1:T28 Arg2:T29
+R17	Attr Arg1:T30 Arg2:T29
+R18	Attr Arg1:T31 Arg2:T13
+R19	Attr Arg1:T32 Arg2:T33
+R20	PartOf Arg1:T15 Arg2:T31
+R21	PartOf Arg1:T15 Arg2:T33
+R22	Purpose Arg1:T21 Arg2:T20
+R23	Attr Arg1:T20 Arg2:T22
+R24	Attr Arg1:T20 Arg2:T23
+R25	Form Arg1:T20 Arg2:T24
+R26	Attr Arg1:T20 Arg2:T25
+R27	Attr Arg1:T27 Arg2:T26

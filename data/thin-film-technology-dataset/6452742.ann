@@ -1,0 +1,81 @@
+T1	Component 29 49	thin film write head
+T2	System 57 88	upper and lower pole structures
+T3	Component 146 174	middle coat insulation layer
+T4	Component 193 197	yoke
+T5	System 205 225	lower pole structure
+T6	Component 241 258	pedestal pole tip
+T7	System 266 286	lower pole structure
+T8	Shape 290 296	trench
+T9	Component 314 331	middle coat layer
+T10	Component 361 378	middle coat layer
+T11	Component 382 396	conductor coil
+T13	Component 451 455	coil
+T14	Shape 478 484	trench
+T15	Shape 509 515	trench
+T16	Component 533 544	middle coat
+T17	Component 583 594	resist mask
+T18	Shape 607 613	trench
+T19	Component 636 647	resist mask
+T20	Shape 677 683	trench
+T21	Component 687 707	conductor seed layer
+T22	Component 721 732	resist mask
+T23	Component 747 757	seed layer
+T24	Component 761 775	conductor coil
+T25	Component 794 798	mask
+T26	Component 808 818	seed layer
+T28	Component 893 897	coil
+T29	Function 924 938	trench etching
+T30	Function 943 962	resist mask removal
+T31	Material 964 982	conductor material
+T32	Component 1007 1018	middle coat
+T33	Component 1061 1065	coil
+T34	Shape 1077 1083	trench
+T35	Material 1103 1132	additional conductor material
+T36	Material 1153 1171	conductor material
+T37	Shape 1179 1185	trench
+T38	Component 1194 1205	resist mask
+T39	Component 1218 1222	coil
+T40	Material 1228 1257	additional conductor material
+T41	Shape 1274 1280	trench
+T42	EnergyFlow 1310 1325	coil resistance
+T43	Attribution 1345 1357	stack height
+T45	Effect 1385 1407	write head performance
+T12	Shape 343 351	part way
+T27	Material 414 425	middle coat
+T44	Attribution 1361 1373	yoke lengths
+T46	Function 832 851	resist mask removal
+T47	Component 880 885	turns
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Attr Arg1:T5 Arg2:T4
+R4	Spatial Arg1:T3 Arg2:T6
+R5	PartOf Arg1:T7 Arg2:T6
+R6	PartOf Arg1:T9 Arg2:T8
+R7	Causitive Arg1:T12 Arg2:T10
+R8	Spatial Arg1:T11 Arg2:T27
+R9	Spatial Arg1:T13 Arg2:T14
+R10	Purpose Arg1:T11 Arg2:T13
+R11	Spatial Arg1:T13 Arg2:T15
+R12	Manner Arg1:T12 Arg2:T8
+R13	Causitive Arg1:T16 Arg2:T17
+R14	Causitive Arg1:T17 Arg2:T18
+R15	Spatial Arg1:T22 Arg2:T23
+R16	PartOf Arg1:T25 Arg2:T24
+R17	Causitive Arg1:T20 Arg2:T19
+R18	Oper Arg1:T46 Arg2:T26
+R19	Attr Arg1:T28 Arg2:T47
+R20	Purpose Arg1:T26 Arg2:T47
+R21	PartOf Arg1:T34 Arg2:T33
+R22	Spatial Arg1:T31 Arg2:T32
+R23	Oper Arg1:T29 Arg2:T31
+R24	Oper Arg1:T30 Arg2:T31
+R25	Form Arg1:T31 Arg2:T33
+R26	Spatial Arg1:T35 Arg2:T36
+R27	Causitive Arg1:T38 Arg2:T39
+R28	PartOf Arg1:T37 Arg2:T36
+R29	Causitive Arg1:T38 Arg2:T36
+R30	PartOf Arg1:T41 Arg2:T40
+R31	Causitive Arg1:T40 Arg2:T42
+R32	Manner Arg1:T43 Arg2:T42
+R33	Manner Arg1:T44 Arg2:T42
+R34	Purpose Arg1:T42 Arg2:T45

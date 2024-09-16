@@ -1,0 +1,49 @@
+T1	Component 2 15	magnetic head
+T2	System 28 51	GMR read head structure
+T3	Location 65 83	outer end portions
+T4	Component 91 110	free magnetic layer
+T5	Effect 144 157	stabilization
+T6	Component 192 208	thin film layers
+T7	Location 212 215	top
+T8	Location 223 241	outer end portions
+T9	System 255 301	anti-parallel coupled magnetic field structure
+T10	Component 305 315	seed layer
+T11	System 325 346	BCC crystal structure
+T12	Component 369 395	first magnetic field layer
+T13	System 426 457	anti-parallel coupled structure
+T14	Attribution 463 472	thickness
+T15	Component 480 486	layers
+T16	System 512 537	high coercivity structure
+T17	EnergyFlow 547 564	net magnetization
+T18	Location 572 586	same direction
+T19	EnergyFlow 594 608	magnetic field
+T20	Component 616 635	free magnetic layer
+T21	System 641 672	anti-parallel coupled structure
+T22	Component 695 712	CoFeCr seed layer
+T23	Component 716 743	CoPtCr first magnetic layer
+T24	Component 748 768	Ru nonmagnetic layer
+T25	Component 775 803	CoPtCr second magnetic layer
+T26	System 808 826	enhanced structure
+T27	Component 840 851	CoFe layers
+T28	Component 879 887	Ru layer
+T29	EnergyFlow 408 418	coercivity
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T3
+R3	PartOf Arg1:T8 Arg2:T9
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Attr Arg1:T8 Arg2:T7
+R6	Purpose Arg1:T6 Arg2:T5
+R7	PartOf Arg1:T10 Arg2:T11
+R8	Attr Arg1:T15 Arg2:T14
+R9	PartOf Arg1:T21 Arg2:T22
+R10	PartOf Arg1:T21 Arg2:T23
+R11	PartOf Arg1:T21 Arg2:T24
+R12	PartOf Arg1:T21 Arg2:T25
+R13	PartOf Arg1:T26 Arg2:T27
+R14	Spatial Arg1:T27 Arg2:T28
+R15	PartOf Arg1:T16 Arg2:T17
+R16	Purpose Arg1:T14 Arg2:T16
+R17	PartOf Arg1:T20 Arg2:T19
+R18	Attr Arg1:T19 Arg2:T18
+R19	Attr Arg1:T13 Arg2:T29
+R20	Purpose Arg1:T10 Arg2:T29

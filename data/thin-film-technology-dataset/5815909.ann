@@ -1,0 +1,75 @@
+T1	Component 39 62	thin film magnetic head
+T2	Component 88 106	layered components
+T3	Shape 120 124	vias
+T4	Component 147 180	electrically insulative substrate
+T5	Attribution 196 235	first and second opposed major surfaces
+T6	Attribution 257 278	interior side surface
+T7	Material 303 335	electrically conductive material
+T8	Attribution 374 395	interior side surface
+T9	Component 410 431	via connective member
+T10	Attribution 473 498	first and second surfaces
+T11	Component 506 515	substrate
+T13	Component 557 578	via connective member
+T14	Function 621 650	subsequent etching operations
+T15	Component 654 668	thin film head
+T16	Attribution 688 701	first surface
+T17	Component 709 718	substrate
+T19	Function 788 807	thin film head step
+T20	Component 839 843	coil
+T21	Component 861 865	head
+T22	Function 869 876	etching
+T24	Component 909 914	layer
+T25	Material 918 950	electrically conductive material
+T26	Component 962 966	head
+T27	Component 972 990	via protective cap
+T29	PhysicsFlow 1072 1079	etchant
+T30	Component 1100 1121	via conductive member
+T31	Function 1178 1185	etching
+T32	Component 1191 1212	via connective member
+T33	Component 1235 1239	coil
+T34	Component 1269 1283	thin film head
+T35	Shape 241 244	via
+T36	Shape 284 287	via
+T37	Shape 403 406	via
+T12	Component 519 537	protective via cap
+T38	Component 594 615	via connective member
+T39	Component 766 771	layer
+T40	PhysicsFlow 886 893	etchant
+T23	Function 1057 1064	etching
+T28	Consequence 1143 1174	potentially deleterious effects
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T4 Arg2:T5
+R3	Causitive Arg1:T4 Arg2:T3
+R4	Attr Arg1:T35 Arg2:T6
+R5	Spatial Arg1:T36 Arg2:T7
+R6	Attr Arg1:T37 Arg2:T8
+R7	Attr Arg1:T11 Arg2:T10
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T7 Arg2:T8
+R10	Spatial Arg1:T12 Arg2:T13
+R11	Purpose Arg1:T12 Arg2:T38
+R12	Oper Arg1:T14 Arg2:T38
+R13	Attr Arg1:T17 Arg2:T16
+R14	Spatial Arg1:T15 Arg2:T16
+T18	Component 752 756	head
+R15	Causitive Arg1:T15 Arg2:T18
+R16	MadeOf Arg1:T24 Arg2:T25
+R17	PartOf Arg1:T26 Arg2:T24
+R18	Purpose Arg1:T20 Arg2:T21
+R19	Attr Arg1:T31 Arg2:T28
+R21	Causitive Arg1:T32 Arg2:T33
+R22	Oper Arg1:T22 Arg2:T21
+#1	AnnotatorNotes T30	免于...影响  如何标注？答：这种绝缘、屏蔽关系先不考虑
+#2	AnnotatorNotes R3	通过A来生成B，makemove，依据讲义6第2条
+#3	AnnotatorNotes R5	孔中充满了导电材料，根据讲义6第7条，使用spatial
+#4	AnnotatorNotes R15	这两个实体说的是同一个东西，这种情况下可以不用标
+#5	AnnotatorNotes T40	etching工艺使用etchant来蚀刻layer，想想该怎么标？
+T41	Component 1243 1252	circuitry
+R23	Causitive Arg1:T33 Arg2:T41
+R20	Spatial Arg1:T34 Arg2:T41
+R24	Causitive Arg1:T22 Arg2:T40
+R25	Causitive Arg1:T22 Arg2:T24
+T42	Material 1012 1020	material
+R26	MadeOf Arg1:T27 Arg2:T42
+R27	Causitive Arg1:T42 Arg2:T23
+R28	Causitive Arg1:T42 Arg2:T29

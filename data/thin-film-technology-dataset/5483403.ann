@@ -1,0 +1,24 @@
+T1	System 2 30	thin film magnetic structure
+T2	Component 44 54	flux guide
+T3	System 60 85	magnetic recording system
+T5	EnergyFlow 225 247	single magnetic domain
+T7	ScientificConcept 277 293	Barkhausen noise
+T11	Attribution 90 103	tapered edges
+T13	Attribution 158 171	tapered edges
+T10	Material 372 397	magnetic recording medium
+T9	System 348 362	film structure
+T8	InfoFlow 329 334	signa
+T6	System 255 269	film structure
+R1	Form Arg1:T1 Arg2:T2
+R3	Attr Arg1:T1 Arg2:T11
+T14	Component 148 152	film
+T4	Component 122 140	magnetization axis
+R4	PartOf Arg1:T14 Arg2:T4
+R5	Spatial Arg1:T11 Arg2:T4
+T12	Component 182 203	magnetic edge domains
+R6	Causitive Arg1:T13 Arg2:T12
+R7	PartOf Arg1:T6 Arg2:T5
+R8	Causitive Arg1:T13 Arg2:T5
+R9	Causitive Arg1:T9 Arg2:T8
+R10	Causitive Arg1:T8 Arg2:T10
+R11	Generate Arg1:T8 Arg2:T7

@@ -1,0 +1,27 @@
+T2	Component 57 70	magnetic core
+T3	Component 133 146	magnetic core
+T4	System 251 273	magnetoresistive means
+T5	Component 340 353	magnetic core
+T6	Component 3 23	electromagnetic head
+T1	System 30 44	storage device
+T7	EnergyFlow 81 97	magnetic circuit
+T8	System 105 127	magnetoresistive means
+T9	Shape 168 175	air-gap
+T10	Component 198 208	first pole
+T11	Component 213 224	second pole
+T12	Component 232 245	magnetic core
+T13	Shape 307 314	air-gap
+T14	Location 293 299	region
+T15	EnergyFlow 383 399	magnetic circuit
+R1	Purpose Arg1:T6 Arg2:T1
+R2	PartOf Arg1:T6 Arg2:T2
+R3	PartOf Arg1:T6 Arg2:T8
+R4	Form Arg1:T2 Arg2:T7
+R5	PartOf Arg1:T12 Arg2:T11
+R6	PartOf Arg1:T12 Arg2:T10
+R7	Causitive Arg1:T9 Arg2:T3
+R8	PartOf Arg1:T13 Arg2:T14
+R10	Spatial Arg1:T4 Arg2:T5
+R11	Spatial Arg1:T4 Arg2:T15
+R12	Causitive Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T4 Arg2:T14

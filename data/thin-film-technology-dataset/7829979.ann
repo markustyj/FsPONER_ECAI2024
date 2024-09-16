@@ -1,0 +1,12 @@
+T2	Material 75 112	associated high permeability material
+T3	Material 118 144	high permeability material
+T4	System 159 176	layered structure
+T5	Material 182 202	nickel iron compound
+T6	Component 4 13	apparatus
+T7	EnergyFlow 41 66	transmission line circuit
+T1	Component 25 31	memory
+R1	Causitive Arg1:T6 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T7
+R3	PartOf Arg1:T7 Arg2:T2
+R4	PartOf Arg1:T3 Arg2:T4
+R5	Attr Arg1:T5 Arg2:T4

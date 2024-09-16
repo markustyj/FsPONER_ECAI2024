@@ -1,0 +1,14 @@
+T1	Component 2 39	three terminal magnetoresistance head
+T2	Effect 63 74	high output
+T3	EnergyFlow 81 101	large output current
+T4	Component 117 145	MIS junction multilayer film
+T5	Component 160 182	magnetic semiconductor
+T6	Component 186 216	metal magnetic multilayer film
+T7	Component 224 256	tunnel magnetoresistance element
+T8	Component 279 312	terminal magnetoresistance device
+R1	Causitive Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T4 Arg2:T7
+R5	Causitive Arg1:T4 Arg2:T8
+#1	AnnotatorNotes R1	三相磁阻磁头可以提供高输出，component--purpose-->function

@@ -1,0 +1,1 @@
+An inverted magnetoresistive head is disclosed. The inverted magnetoresistive head includes a reader positioned on top of a writer. The writer includes a bottom pole, a polymer insulator, a write gap, a pole tip and a top pole. The reader includes a bottom shield, a first reader gap, a magnetoresistive element, electrical contacts, a second reader gap and a shield.

@@ -1,0 +1,1 @@
+A process of chemical-mechanical contouring (CMC) using a stair-step etch involves formation of an elevated layer of substrate overlying a device, in the illustrative example a thin-film magnetic head. The elevated layer of substrate is formed into a stair-step structure with the height and width of the stair-steps selected to attain a predetermined shape and size.

@@ -1,0 +1,39 @@
+T2	EnergyFlow 25 37	flex circuit
+T4	Shape 63 82	electrical contacts
+T5	Location 88 98	first side
+T6	EnergyFlow 106 118	flex circuit
+T8	Location 162 173	second side
+T9	EnergyFlow 181 193	flex circuit
+T10	Shape 218 237	electrical contacts
+T12	Shape 256 275	electrical contacts
+T14	Shape 320 339	electrical contacts
+T15	Component 346 366	electronic component
+T16	Component 372 397	compliant support backing
+T17	Component 416 432	support elements
+T19	Shape 476 495	electrical contacts
+T20	EnergyFlow 512 528	contact pressure
+T22	Shape 554 573	electrical contacts
+T24	Shape 596 615	electrical contacts
+T25	Component 625 637	flex circuit
+T3	Component 125 150	compliant support backing
+T7	Component 658 678	electronic component
+T11	Function 704 731	robust electrical contracts
+T13	Effect 748 767	reliable connection
+T18	Component 787 808	electronic components
+T21	Component 818 840	head gimbal assemblies
+R1	PartOf Arg1:T2 Arg2:T4
+R2	Manner Arg1:T5 Arg2:T4
+R3	Attr Arg1:T6 Arg2:T5
+R4	PartOf Arg1:T2 Arg2:T3
+R5	Manner Arg1:T8 Arg2:T3
+R6	Attr Arg1:T9 Arg2:T8
+R7	Spatial Arg1:T10 Arg2:T3
+R8	Spatial Arg1:T12 Arg2:T14
+R10	PartOf Arg1:T16 Arg2:T17
+R11	Causitive Arg1:T17 Arg2:T19
+R12	Purpose Arg1:T17 Arg2:T20
+R13	Spatial Arg1:T25 Arg2:T7
+R14	Purpose Arg1:T11 Arg2:T13
+R15	InstanceOf Arg1:T21 Arg2:T18
+R18	Purpose Arg1:T13 Arg2:T18
+R9	Spatial Arg1:T14 Arg2:T15

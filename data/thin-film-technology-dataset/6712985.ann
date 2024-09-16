@@ -1,0 +1,109 @@
+T1	Component 46 76	thin film magnetic transducers
+T2	Component 85 98	compliant pad
+T3	Attribution 109 116	surface
+T4	Function 122 137	lapping process
+T5	Function 156 171	lapping process
+T6	Function 210 237	ductile element connections
+T8	Component 281 298	shield protrusion
+T9	Material 302 315	lapping media
+T10	Attribution 337 354	interface surface
+T11	Component 360 373	compliant pad
+T12	Attribution 385 402	interface surface
+T13	Attribution 421 428	surface
+T14	Component 434 438	head
+T15	Location 449 455	region
+T16	Shape 490 498	head gap
+T17	Component 504 507	pad
+T18	Component 531 535	head
+T19	Location 541 550	direction
+T20	Shape 567 575	head gap
+T21	Component 590 599	head rail
+T22	Component 613 616	pad
+T23	Component 622 641	soft, compliant pad
+T24	Component 658 667	head rail
+T25	Function 678 695	parallel movement
+T26	Component 701 704	pad
+T27	Component 737 745	elements
+T28	Location 773 776	end
+T29	Component 784 788	head
+T30	Consequence 826 832	damage
+T32	Component 875 892	delicate elements
+T33	Material 898 911	lapping media
+T34	PhysicsFlow 938 946	chemical
+T35	PhysicsFlow 951 968	mechanical agents
+T37	Attribution 1036 1056	desired head profile
+T38	Component 1065 1073	poletips
+T39	PhysicsFlow 1079 1096	chemical etchants
+T41	Material 1151 1177	conventional lapping media
+T42	Attribution 1190 1207	interface surface
+T44	Component 1301 1328	surrounding insulator layer
+T45	Component 1344 1357	compliant pad
+T48	Component 1441 1451	MR element
+T49	Component 1456 1463	shields
+T7	Component 250 252	MR
+T50	Component 257 264	shields
+T51	Component 269 276	poletip
+T52	Component 467 478	transducers
+T53	Function 863 867	stop
+T31	Function 857 862	start
+T54	Function 813 821	bridging
+T55	PhysicsFlow 982 999	chemical etchants
+T36	PhysicsFlow 1118 1129	dilute acid
+T40	PhysicsFlow 1213 1226	added etchant
+T43	Component 1247 1268	iron containing poles
+T56	Component 1284 1292	poletips
+T57	Function 1330 1336	Moving
+T58	PhysicsFlow 1369 1388	mechanical etchants
+T46	Component 1402 1417	element bridges
+T47	Component 1422 1428	smears
+R1	Oper Arg1:T4 Arg2:T1
+R2	Manner Arg1:T2 Arg2:T1
+R3	Causitive Arg1:T3 Arg2:T1
+R5	Spatial Arg1:T7 Arg2:T50
+R6	Spatial Arg1:T50 Arg2:T51
+R7	Spatial Arg1:T51 Arg2:T8
+#1	AnnotatorNotes R7	这种连续的连接关系，也不知如何处理，答：这么处理没问题，空间关系可以传递
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Attr Arg1:T11 Arg2:T10
+R10	Attr Arg1:T14 Arg2:T13
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Purpose Arg1:T52 Arg2:T16
+R13	PartOf Arg1:T15 Arg2:T52
+R14	Spatial Arg1:T14 Arg2:T15
+R15	Causitive Arg1:T21 Arg2:T22
+R16	Spatial Arg1:T17 Arg2:T18
+R17	Manner Arg1:T19 Arg2:T17
+R18	Causitive Arg1:T23 Arg2:T24
+R19	Purpose Arg1:T24 Arg2:T25
+R20	Attr Arg1:T29 Arg2:T28
+R21	Manner Arg1:T27 Arg2:T26
+R22	Purpose Arg1:T26 Arg2:T54
+R23	Purpose Arg1:T26 Arg2:T30
+R24	Oper Arg1:T31 Arg2:T32
+R25	Oper Arg1:T53 Arg2:T32
+R26	PartOf Arg1:T33 Arg2:T34
+R27	PartOf Arg1:T33 Arg2:T35
+R28	Purpose Arg1:T55 Arg2:T37
+R29	Attr Arg1:T38 Arg2:T37
+R30	Manner Arg1:T36 Arg2:T39
+R31	Causitive Arg1:T36 Arg2:T41
+R32	Manner Arg1:T42 Arg2:T41
+R33	Causitive Arg1:T40 Arg2:T43
+R34	Purpose Arg1:T43 Arg2:T56
+R35	Spatial Arg1:T44 Arg2:T56
+R36	Oper Arg1:T57 Arg2:T45
+R37	Purpose Arg1:T58 Arg2:T46
+R38	Purpose Arg1:T58 Arg2:T47
+R39	Spatial Arg1:T48 Arg2:T49
+T59	Component 102 105	mat
+#2	AnnotatorNotes R2	使用A产生了B，A-manner->B,参考讲义2的第一条
+T60	Component 186 191	heads
+#3	AnnotatorNotes T60	命名实体漏标了
+#4	AnnotatorNotes T6	命名实体标引错误
+R40	Causitive Arg1:T5 Arg2:T60
+R41	Purpose Arg1:T60 Arg2:T6
+R4	Spatial Arg1:T46 Arg2:T48
+R42	Spatial Arg1:T46 Arg2:T49
+R43	Spatial Arg1:T47 Arg2:T48
+R44	Spatial Arg1:T47 Arg2:T49
+#5	AnnotatorNotes R42	这几个spatial关系都漏标了

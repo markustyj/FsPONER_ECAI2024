@@ -1,0 +1,62 @@
+T1	Component 49 55	sensor
+T2	Component 74 80	sensor
+T3	Component 318 337	air bearing surface
+T4	Component 677 683	sensor
+T5	Component 768 788	air bearing surfaces
+T6	Attribution 37 43	height
+T7	Component 88 107	air bearing surface
+T8	Attribution 143 163	pre-processing width
+T9	Location 197 200	top
+T10	Material 276 289	same material
+T11	Component 306 312	sensor
+T12	Component 345 368	magnetoresistive sensor
+T13	Location 406 409	top
+T14	Attribution 517 535	post-lapping width
+T15	Component 543 547	base
+T16	Location 575 578	top
+T17	Attribution 663 669	height
+T18	Component 796 801	bases
+T19	Location 829 832	top
+T20	Component 169 173	base
+T21	Shape 179 193	first triangle
+T22	Shape 206 221	second triangle
+T23	Shape 228 256	first and a second rectangle
+T24	Component 374 378	base
+T25	Shape 386 400	first triangle
+T26	Shape 417 432	second triangle
+T27	Shape 441 468	first and second rectangles
+T28	Shape 555 569	first triangle
+T29	Shape 586 601	second triangle
+T30	Shape 610 637	first and second rectangles
+T31	Attribution 722 760	pre-processing and post-lapping widths
+T32	Shape 809 823	first triangle
+T33	Shape 840 855	second triangle
+T34	Shape 864 891	first and second rectangles
+R1	Attr Arg1:T1 Arg2:T6
+R2	PartOf Arg1:T2 Arg2:T7
+R3	MadeOf Arg1:T11 Arg2:T10
+R4	Attr Arg1:T21 Arg2:T20
+R5	Attr Arg1:T22 Arg2:T9
+R6	Attr Arg1:T20 Arg2:T8
+R7	Attr Arg1:T9 Arg2:T8
+R8	Attr Arg1:T23 Arg2:T9
+R10	MadeOf Arg1:T9 Arg2:T10
+R11	MadeOf Arg1:T20 Arg2:T10
+R9	PartOf Arg1:T12 Arg2:T3
+R12	Attr Arg1:T25 Arg2:T24
+R13	Attr Arg1:T26 Arg2:T13
+R14	Attr Arg1:T27 Arg2:T13
+R15	Attr Arg1:T28 Arg2:T15
+R16	Attr Arg1:T29 Arg2:T16
+R17	Attr Arg1:T30 Arg2:T16
+R18	Attr Arg1:T16 Arg2:T14
+R19	Attr Arg1:T15 Arg2:T14
+R20	Attr Arg1:T4 Arg2:T17
+R21	Attr Arg1:T33 Arg2:T19
+R22	Attr Arg1:T34 Arg2:T19
+R23	Attr Arg1:T32 Arg2:T18
+R24	PartOf Arg1:T18 Arg2:T5
+R25	PartOf Arg1:T19 Arg2:T5
+R26	Attr Arg1:T5 Arg2:T31
+R27	Purpose Arg1:T31 Arg2:T17
+#1	AnnotatorNotes R1	great！

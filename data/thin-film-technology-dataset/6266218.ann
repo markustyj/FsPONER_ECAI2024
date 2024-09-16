@@ -1,0 +1,57 @@
+T1	System 2 29	longitudinal bias structure
+T2	Component 54 78	ferromagnetic free layer
+T5	EnergyFlow 122 145	external magnetic field
+T8	Component 317 338	GMR spin valve sensor
+T10	System 395 422	longitudinal bias structure
+T11	Component 440 468	top ferromagnetic bias layer
+T13	Component 538 569	bottom ferromagnetic bias layer
+T17	Component 738 761	exchange-coupling layer
+T19	Component 837 865	top ferromagnetic bias layer
+T20	Component 874 905	bottom ferromagnetic bias layer
+T21	Component 947 970	exchange-coupling layer
+T23	System 1026 1040	bias structure
+T24	System 1109 1136	longitudinal bias structure
+T25	Component 1160 1183	antiferromagnetic layer
+T26	Component 1203 1228	ferromagnetic bias layers
+T28	Component 84 95	sense layer
+T3	Component 163 178	magnetic sensor
+T4	Component 194 218	magnetic readback sensor
+T6	Component 230 271	anisotropic magnetoresistive (AMR) sensor
+T29	Component 273 308	giant magnetoresistive (GMR) sensor
+T7	Component 342 363	GMR multilayer sensor
+T30	Attribution 472 487	first thickness
+T31	EnergyFlow 505 526	first magnetic moment
+T12	Attribution 573 589	second thickness
+T32	EnergyFlow 607 629	second magnetic moment
+T14	EnergyFlow 664 685	first magnetic moment
+T15	Component 701 729	top ferromagnetic bias layer
+T16	Component 783 809	top and bottom bias layers
+T18	Others 979 1018	remnant magnetization thickness product
+T22	System 1242 1276	pinned longitudinal bias structure
+R1	Causitive Arg1:T19 Arg2:T21
+R2	Causitive Arg1:T19 Arg2:T20
+R3	Attr Arg1:T23 Arg2:T18
+R4	PartOf Arg1:T24 Arg2:T25
+R5	Spatial Arg1:T25 Arg2:T26
+R6	Purpose Arg1:T25 Arg2:T22
+R8	Spatial Arg1:T1 Arg2:T28
+R9	Manner Arg1:T5 Arg2:T28
+R10	PartOf Arg1:T3 Arg2:T28
+R11	InstanceOf Arg1:T4 Arg2:T3
+R12	InstanceOf Arg1:T6 Arg2:T4
+R13	InstanceOf Arg1:T29 Arg2:T4
+R14	InstanceOf Arg1:T8 Arg2:T29
+R15	InstanceOf Arg1:T7 Arg2:T8
+T9	Component 367 389	in tunnel valve sensor
+R16	InstanceOf Arg1:T9 Arg2:T8
+R17	Attr Arg1:T11 Arg2:T30
+R19	Attr Arg1:T13 Arg2:T12
+R20	PartOf Arg1:T10 Arg2:T13
+R21	PartOf Arg1:T30 Arg2:T31
+R22	PartOf Arg1:T12 Arg2:T32
+R23	Spatial Arg1:T32 Arg2:T14
+R24	PartOf Arg1:T15 Arg2:T14
+R25	Spatial Arg1:T17 Arg2:T16
+R18	PartOf Arg1:T10 Arg2:T11
+R26	PartOf Arg1:T10 Arg2:T17
+R7	Spatial Arg1:T1 Arg2:T2

@@ -1,0 +1,48 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 57 80	magnetoresistive device
+T3	Component 95 115	first magnetic layer
+T4	Component 119 137	non-magnetic layer
+T5	Component 144 165	second magnetic layer
+T6	Component 170 193	antiferromagnetic layer
+T7	Component 223 243	first magnetic layer
+T8	Component 249 269	hard magnetic layers
+T9	Component 302 323	second magnetic layer
+T10	Location 329 352	magnetization direction
+T11	Component 360 380	first magnetic layer
+T14	Component 449 472	antiferromagnetic layer
+T15	Component 482 503	second magnetic layer
+T16	State 518 537	single domain state
+T17	Location 545 556	x direction
+T18	EnergyFlow 579 598	magnetic anisotropy
+T19	Material 606 622	recording medium
+T20	Measure 641 646	angle
+T21	Location 659 683	magnetization directions
+T22	Component 691 723	first and second magnetic layers
+T23	Function 764 770	change
+T24	EnergyFlow 776 798	leakage magnetic field
+T25	Location 806 817	y direction
+T26	Material 827 843	recording medium
+T27	EnergyFlow 849 868	electric resistance
+T28	Component 876 899	magnetoresistive device
+T29	EnergyFlow 937 953	Barkhausen noise
+T30	Location 284 294	both sides
+T13	Function 412 441	exchange anisotropic coupling
+T12	Location 397 408	y direction
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T30 Arg2:T8
+R7	Attr Arg1:T9 Arg2:T30
+R8	Attr Arg1:T11 Arg2:T10
+R9	Manner Arg1:T12 Arg2:T10
+R10	Oper Arg1:T13 Arg2:T14
+R11	Manner Arg1:T17 Arg2:T15
+R12	Attr Arg1:T22 Arg2:T21
+R13	Oper Arg1:T23 Arg2:T24
+R14	Manner Arg1:T25 Arg2:T24
+R15	Attr Arg1:T28 Arg2:T27
+R16	Attr Arg1:T21 Arg2:T20
+R17	Manner Arg1:T25 Arg2:T26
+R18	Causitive Arg1:T18 Arg2:T19

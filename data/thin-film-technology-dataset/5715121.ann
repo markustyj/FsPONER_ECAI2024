@@ -1,0 +1,46 @@
+T1	Component 2 27	magnetoresistance element
+T2	Component 49 62	magnetic film
+T3	Component 68 84	nonmagnetic film
+T4	Component 93 106	magnetic film
+T5	Component 139 155	nonmagnetic film
+T6	Component 180 201	electrical conductors
+T8	Component 254 268	magnetic films
+T9	EnergyFlow 333 347	magnetic field
+T10	EnergyFlow 363 370	current
+T12	EnergyFlow 409 426	magnetoresistance
+T14	Component 535 539	film
+T17	Component 612 625	magnetic head
+T19	Component 666 670	yoke
+T21	Component 743 769	magnetoresistance elements
+T22	Component 206 216	insulators
+T23	Function 224 241	magnetic coupling
+T7	Attribution 379 389	film plane
+T11	Effect 393 405	large change
+T24	ScientificConcept 447 458	sensitivity
+T13	Component 468 503	Modified magnetoresistance elements
+T16	Component 583 606	interface magnetic film
+T15	Function 554 576	magnetization reversal
+T18	Component 632 641	hard disk
+T20	Component 678 703	magnetoresistance element
+T25	Component 707 720	memory device
+T27	Material 169 176	mixture
+T26	Others 785 815	adding word lines and the like
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T2 Arg2:T3
+R5	Spatial Arg1:T3 Arg2:T4
+R6	MadeOf Arg1:T5 Arg2:T27
+R7	PartOf Arg1:T27 Arg2:T6
+R8	PartOf Arg1:T27 Arg2:T22
+R9	Oper Arg1:T23 Arg2:T8
+R10	Manner Arg1:T7 Arg2:T10
+R11	Causitive Arg1:T10 Arg2:T9
+R13	PartOf Arg1:T13 Arg2:T14
+R14	PartOf Arg1:T13 Arg2:T16
+R16	Causitive Arg1:T19 Arg2:T20
+R17	PartOf Arg1:T25 Arg2:T21
+R18	Causitive Arg1:T20 Arg2:T17
+R12	Attr Arg1:T12 Arg2:T11
+#1	AnnotatorNotes R12	待确定
+R15	Purpose Arg1:T17 Arg2:T18

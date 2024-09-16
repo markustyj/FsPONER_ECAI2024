@@ -1,0 +1,44 @@
+T1	Component 32 49	spin valve sensor
+T2	System 61 81	free layer structure
+T3	System 86 127	anti-parallel (AP) pinned layer structure
+T4	Component 154 175	first AP pinned layer
+T5	Component 183 232	non-magnetic electrically conductive spacer layer
+T6	System 252 272	free layer structure
+T7	System 281 306	AP pinned layer structure
+T9	Component 403 424	first AP pinned layer
+T10	Location 439 450	end regions
+T11	Location 475 489	central region
+T12	Attribution 491 496	Edges
+T13	System 505 532	AFM pinning layer structure
+T14	Attribution 555 563	distance
+T15	Attribution 581 593	sensor edges
+T16	Component 599 620	first AP pinned layer
+T17	Location 643 657	central region
+T18	Location 666 677	end regions
+T19	System 710 755	first and second AFM pinning layer structures
+T21	Component 820 826	sensor
+T22	Component 860 878	self-pinned sensor
+T23	Attribution 887 909	reduced sensor profile
+T24	Location 917 931	central region
+T25	Function 693 700	contact
+T20	Effect 773 800	adequate pinning properties
+T26	Effect 846 854	benefits
+T8	System 308 373	First and second antiferromagnetic (AFM) pinning layer structures
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	PartOf Arg1:T3 Arg2:T4
+R5	Purpose Arg1:T8 Arg2:T9
+R6	Manner Arg1:T8 Arg2:T10
+R7	Manner Arg1:T8 Arg2:T11
+R8	Attr Arg1:T13 Arg2:T12
+R9	Manner Arg1:T16 Arg2:T17
+R10	Manner Arg1:T16 Arg2:T18
+R11	InstanceOf Arg1:T26 Arg2:T23
+R12	Manner Arg1:T23 Arg2:T24
+R13	Purpose Arg1:T20 Arg2:T26
+R14	Attr Arg1:T22 Arg2:T26
+R15	Spatial Arg1:T5 Arg2:T6
+R16	Spatial Arg1:T5 Arg2:T7
+R17	Purpose Arg1:T16 Arg2:T25
+R18	Oper Arg1:T25 Arg2:T19

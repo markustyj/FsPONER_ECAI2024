@@ -1,0 +1,59 @@
+T1	Component 2 11	disk file
+T3	Component 119 123	disk
+T4	Component 138 142	film
+T5	Component 187 206	lubricant reservoir
+T6	PhysicsFlow 228 237	lubricant
+T7	Component 245 249	disk
+T8	Component 283 301	transducer carrier
+T9	PhysicsFlow 415 424	lubricant
+T10	PhysicsFlow 435 444	lubricant
+T11	Component 459 463	disk
+T12	Component 520 539	lubricant reservoir
+T13	PhysicsFlow 572 581	lubricant
+T15	Component 692 708	sealed disk file
+T16	Component 756 765	disk file
+T19	Component 882 913	air-bearing head-disk interface
+T20	PhysicsFlow 922 941	high vapor pressure
+T22	PhysicsFlow 146 183	conventional high viscosity lubricant
+T23	Component 271 275	file
+T24	Component 329 355	high viscosity liquid film
+T25	Component 361 365	file
+T26	Component 307 311	feet
+T27	Attribution 469 488	relatively low rate
+T28	Effect 500 514	high viscosity
+T14	Component 620 650	substantially sealed disk file
+T17	PhysicsFlow 771 794	near vacuum environment
+T18	Component 823 846	conventional disk files
+T29	PhysicsFlow 848 851	air
+T21	PhysicsFlow 949 991	relatively high molecular weight lubricant
+T30	Function 1005 1016	evaporation
+T2	Effect 17 56	substantially reduced head-disk spacing
+T31	Effect 61 86	corresponding improvement
+T32	Function 90 111	recording performance
+T33	Function 739 748	operation
+R1	Attr Arg1:T1 Arg2:T2
+R2	Attr Arg1:T1 Arg2:T32
+R3	Purpose Arg1:T32 Arg2:T31
+R4	Causitive Arg1:T1 Arg2:T3
+T34	Attribution 259 263	life
+R5	Attr Arg1:T23 Arg2:T34
+R6	PartOf Arg1:T7 Arg2:T23
+R7	Spatial Arg1:T6 Arg2:T7
+R8	Purpose Arg1:T5 Arg2:T6
+R9	Causitive Arg1:T1 Arg2:T5
+R10	Causitive Arg1:T1 Arg2:T8
+R11	PartOf Arg1:T8 Arg2:T26
+R12	Manner Arg1:T8 Arg2:T24
+R13	Attr Arg1:T10 Arg2:T28
+R14	Attr Arg1:T10 Arg2:T27
+#1	AnnotatorNotes R14	以较低的速度转出，lubricant与disk的最终状态是脱离的，所以认为二者不需要标注，但rate不知与lubricant是attr还是manner关系,答：rate说的是磁盘的转速，属于磁盘的attr
+R15	PartOf Arg1:T12 Arg2:T13
+R16	PartOf Arg1:T14 Arg2:T12
+R17	Oper Arg1:T33 Arg2:T16
+R18	Manner Arg1:T17 Arg2:T16
+#2	AnnotatorNotes R18	在...环境下 用manner合适吗，答：可以，就是方向反了（已修改）
+R19	Attr Arg1:T21 Arg2:T20
+R20	Spatial Arg1:T4 Arg2:T3
+#3	AnnotatorNotes R20	磁盘上面涂了一层膜，spatial关系，漏标了
+R21	MadeOf Arg1:T4 Arg2:T22
+#4	AnnotatorNotes R21	漏标了

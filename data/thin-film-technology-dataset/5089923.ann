@@ -1,0 +1,26 @@
+T1	Component 4 33	disclosed static reading head
+T3	Component 62 73	micro-heads
+T4	Component 83 100	these micro-heads
+T5	Component 107 128	magnetic circuit body
+T6	Material 137 144	ferrite
+T7	Component 160 164	tape
+T10	Component 213 224	micro-heads
+T11	Shape 245 250	lines
+T12	Component 254 270	excitation wires
+T13	EnergyFlow 285 295	DC current
+T14	Component 303 327	high-frequency component
+T15	Component 344 357	reading wires
+T16	EnergyFlow 371 389	detection circuits
+T17	Component 45 58	dense network
+T2	Component 184 207	narrow Permalloy pieces
+T8	ScientificConcept 333 340	columns
+R1	PartOf Arg1:T1 Arg2:T17
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	MadeOf Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T10 Arg2:T11
+R6	Generate Arg1:T12 Arg2:T13
+R7	Attr Arg1:T13 Arg2:T14
+R8	Spatial Arg1:T8 Arg2:T16
+R9	PartOf Arg1:T15 Arg2:T8
+R10	PartOf Arg1:T12 Arg2:T11

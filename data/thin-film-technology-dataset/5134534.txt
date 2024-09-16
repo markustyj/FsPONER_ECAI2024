@@ -1,0 +1,1 @@
+In a thin-film magnetic head including a magnetic circuit which is composed of upper and lower magnetic layers and a coil made of a conductive layer, a magnetic shield layer made of a conductive material is provided on the upper magnetic layer; and the intensity of the magnetic reluctance of the magnetic shielding action of the magnetic shield layer is arranged to be adjustable.

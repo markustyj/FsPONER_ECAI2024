@@ -1,0 +1,54 @@
+T1	Function 0 26	Read and write performance
+T2	Component 32 55	magnetic thin-film head
+T3	Component 81 113	highly compact multiple-gap head
+T4	Component 119 141	separate magnetic core
+T5	System 146 161	coil structures
+T6	Component 168 177	read head
+T7	Component 184 194	write head
+T9	Component 272 295	thin film magnetic head
+T10	Component 307 330	thin-film magnetic core
+T11	Location 343 360	read core portion
+T12	Location 368 401	interconnected write core portion
+T13	Component 405 424	thin-film read coil
+T14	Location 440 457	read core portion
+T15	Component 465 485	thin-film write coil
+T16	Location 501 519	write core portion
+T17	Location 525 542	read core portion
+T18	Shape 561 578	read magnetic gap
+T19	Location 587 605	write core portion
+T20	Shape 627 645	write magnetic gap
+T21	Shape 651 659	read gap
+T22	Shape 664 673	write gap
+T23	Location 699 714	close proximity
+T24	Location 718 735	abutting sections
+T25	Location 743 760	read core portion
+T26	Location 769 787	write core portion
+T27	Material 811 826	magnetic medium
+T28	Shape 848 856	read gap
+T29	Shape 865 874	write gap
+T8	Effect 237 268	reading and writing performance
+R1	Attr Arg1:T2 Arg2:T1
+#1	AnnotatorNotes R1	读写性能感觉更像是属性而不是操作，答：可以这样标，专利文本情况千变万化，模板不可能包打天下，能在标引中主动思考，很棒！
+R2	Form Arg1:T4 Arg2:T3
+R3	Form Arg1:T5 Arg2:T3
+R4	Purpose Arg1:T3 Arg2:T8
+R5	Attr Arg1:T7 Arg2:T8
+R6	Attr Arg1:T6 Arg2:T8
+R7	PartOf Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T10 Arg2:T11
+R9	PartOf Arg1:T10 Arg2:T12
+R10	PartOf Arg1:T9 Arg2:T13
+R11	Spatial Arg1:T13 Arg2:T14
+R12	PartOf Arg1:T9 Arg2:T15
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Manner Arg1:T18 Arg2:T17
+R15	Manner Arg1:T20 Arg2:T19
+#2	AnnotatorNotes R14	这里感觉并不是gap直接作用于portion，答：本来manner和makemove都可以，不过间隙并非实体，所以这里用manner更合适
+R16	Spatial Arg1:T21 Arg2:T22
+R17	Manner Arg1:T23 Arg2:T22
+R18	Manner Arg1:T23 Arg2:T21
+R19	PartOf Arg1:T25 Arg2:T24
+R20	PartOf Arg1:T26 Arg2:T24
+R21	Spatial Arg1:T27 Arg2:T28
+R22	Spatial Arg1:T28 Arg2:T29
+R23	Spatial Arg1:T27 Arg2:T29

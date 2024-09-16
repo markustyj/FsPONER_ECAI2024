@@ -1,0 +1,34 @@
+T1	Component 54 86	magnetoresistance effect element
+T2	Component 99 103	film
+T3	Component 111 131	spin valve structure
+T5	Component 300 332	magnetoresistance effect element
+T6	Component 345 357	stacked film
+T7	Component 370 379	substrate
+T8	Component 407 425	ferromagnetic film
+T9	Component 602 621	ferromagnetic films
+T11	Component 692 710	ferromagnetic film
+T13	Material 522 524	Co
+T14	Material 526 528	Fe
+T15	Material 534 536	Ni
+T16	Component 540 556	nonmagnetic film
+T17	Component 566 584	ferromagnetic film
+T12	Attribution 759 771	film surface
+T4	Component 138 161	artificial lattice film
+T18	Attribution 169 203	good soft magnetic characteristics
+T19	Component 235 265	high-sensitivity magnetic head
+T10	Attribution 663 683	closest packed plane
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Attr Arg1:T4 Arg2:T18
+R5	Purpose Arg1:T1 Arg2:T19
+R6	PartOf Arg1:T5 Arg2:T6
+R7	Spatial Arg1:T6 Arg2:T7
+R8	MadeOf Arg1:T8 Arg2:T13
+R9	MadeOf Arg1:T8 Arg2:T14
+R10	MadeOf Arg1:T8 Arg2:T15
+R11	Attr Arg1:T11 Arg2:T10
+R12	Spatial Arg1:T10 Arg2:T12
+R13	PartOf Arg1:T7 Arg2:T8
+R14	PartOf Arg1:T7 Arg2:T16
+R15	PartOf Arg1:T7 Arg2:T17

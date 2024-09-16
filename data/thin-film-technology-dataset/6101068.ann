@@ -1,0 +1,36 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 38 48	MR element
+T3	Component 62 81	reproducing element
+T4	Component 88 112	recording induction coil
+T5	Component 118 128	MR element
+T6	EnergyFlow 151 170	lower magnetic pole
+T7	EnergyFlow 178 204	intermediate magnetic pole
+T8	Component 210 234	recording induction coil
+T9	EnergyFlow 259 285	intermediate magnetic pole
+T10	EnergyFlow 293 312	upper magnetic pole
+T11	EnergyFlow 340 359	upper magnetic pole
+T12	Location 367 375	vicinity
+T13	Shape 381 394	recording gap
+T14	Effect 428 465	high saturation magnetic flux density
+T15	Value 469 474	1.4 T
+T16	EnergyFlow 490 516	intermediate magnetic pole
+T17	Effect 550 566	high resistivity
+T18	Value 570 596	80 .mu...OMEGA...multidot.cm
+T19	Value 570 596	80 .mu..OMEGA..multidot.cm
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Form Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T5 Arg2:T7
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T8 Arg2:T10
+R8	Attr Arg1:T13 Arg2:T12
+R9	Manner Arg1:T12 Arg2:T11
+R10	Measurement Arg1:T14 Arg2:T15
+T20	Material 410 418	material
+R11	Attr Arg1:T20 Arg2:T14
+R13	Measurement Arg1:T17 Arg2:T19
+R12	MadeOf Arg1:T11 Arg2:T20
+T21	Material 532 540	material
+R14	MadeOf Arg1:T16 Arg2:T21
+R15	Attr Arg1:T21 Arg2:T17

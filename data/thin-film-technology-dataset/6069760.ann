@@ -1,0 +1,29 @@
+T1	ScientificConcept 26 38	wiggle noise
+T2	EnergyFlow 54 72	data write current
+T3	Component 86 100	thin-film head
+T4	Function 110 130	data write operation
+T5	Component 136 164	disk drive storage apparatus
+T6	Material 174 188	storage medium
+T8	ScientificConcept 296 308	wiggle noise
+T9	Component 322 326	head
+T10	Function 340 361	dummy write operation
+T12	Component 425 444	corresponding track
+T13	Material 452 466	storage medium
+T14	Function 483 502	data read operation
+T15	Location 530 543	target sector
+T16	Function 549 568	data read operation
+T17	Consequence 620 630	read error
+T18	Function 663 682	data read operation
+T7	Consequence 272 282	read error
+T11	Shape 394 419	intersector gap intervals
+T19	Measure 587 612	predetermined retry times
+R1	Purpose Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T5 Arg2:T6
+R3	Causitive Arg1:T2 Arg2:T3
+R4	Oper Arg1:T4 Arg2:T5
+R5	Purpose Arg1:T8 Arg2:T7
+R6	Oper Arg1:T18 Arg2:T17
+R7	Spatial Arg1:T12 Arg2:T13
+R8	Oper Arg1:T10 Arg2:T9
+R9	Causitive Arg1:T10 Arg2:T11
+R10	PartOf Arg1:T12 Arg2:T11

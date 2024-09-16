@@ -1,0 +1,32 @@
+T1	Component 5 36	magnetoresistive thin film head
+T2	Component 49 73	magnetoresistive element
+T3	Component 75 86	lead layers
+T4	EnergyFlow 103 116	sense current
+T5	Component 124 148	magnetoresistive element
+T6	Component 156 172	insulating layer
+T7	Location 189 197	vicinity
+T8	Component 205 229	magnetoresistive element
+T9	Component 235 251	insulating layer
+T11	EnergyFlow 289 311	electrical resistivity
+T13	EnergyFlow 358 378	thermal conductivity
+T14	Value 392 401	100 W/((mK
+T15	Component 408 424	insulating layer
+T16	Material 442 450	silicon,
+T17	Material 451 470	diamond-like carbon
+T18	EnergyFlow 500 522	electrical resistivity
+T19	EnergyFlow 529 549	thermal conductivity
+T10	Value 325 351	1.times.10.sup.4 .OMEGA.cm
+T12	Value 392 402	100 W/(mK)
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Purpose Arg1:T3 Arg2:T4
+R4	Causitive Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Measurement Arg1:T11 Arg2:T10
+R7	Measurement Arg1:T13 Arg2:T12
+R8	Spatial Arg1:T6 Arg2:T8
+R9	MadeOf Arg1:T15 Arg2:T16
+R10	MadeOf Arg1:T15 Arg2:T16
+R11	MadeOf Arg1:T15 Arg2:T17
+R12	Purpose Arg1:T15 Arg2:T18
+R13	Purpose Arg1:T15 Arg2:T19

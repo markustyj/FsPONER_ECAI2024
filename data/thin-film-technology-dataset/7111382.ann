@@ -1,0 +1,25 @@
+T1	EnergyFlow 34 41	current
+T2	Component 63 89	plane thin film read heads
+T3	Component 154 171	lower sensor lead
+T4	Component 183 209	lower sensor lead cladding
+T5	Material 215 241	low sputter yield material
+T6	Component 249 266	lower sensor lead
+T7	Component 278 292	sensor element
+T8	Component 300 317	lower sensor lead
+T9	Component 343 360	upper sensor lead
+T10	Component 376 390	sensor element
+T11	Material 396 422	low sputter yield material
+T12	Material 459 485	lower sensor lead material
+T13	Attribution 491 501	side walls
+T14	Component 509 523	sensor element
+T15	Component 531 545	sensor element
+T16	Function 439 451	redeposition
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T11 Arg2:T16
+R3	PartOf Arg1:T12 Arg2:T16
+R4	Spatial Arg1:T12 Arg2:T13
+R5	PartOf Arg1:T14 Arg2:T13
+R6	PartOf Arg1:T5 Arg2:T4
+R7	Spatial Arg1:T5 Arg2:T6
+R8	Spatial Arg1:T7 Arg2:T8
+R9	Causitive Arg1:T9 Arg2:T10

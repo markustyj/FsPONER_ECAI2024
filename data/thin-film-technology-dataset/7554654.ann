@@ -1,0 +1,24 @@
+T1	Attribution 53 60	surface
+T2	Component 66 71	wafer
+T3	Attribution 79 83	edge
+T4	Component 91 96	wafer
+T5	Location 168 181	defect region
+T6	Attribution 189 196	surface
+T8	Attribution 287 294	surface
+T9	Location 302 315	defect region
+T11	Others 105 116	single tool
+T12	ScientificConcept 40 47	defects
+T13	Component 129 142	scatterometer
+T14	System 203 240	surface profile height measuring tool
+T7	System 323 360	surface profile height measuring tool
+R1	Attr Arg1:T2 Arg2:T1
+R2	Attr Arg1:T4 Arg2:T3
+R3	PartOf Arg1:T6 Arg2:T5
+R4	Attr Arg1:T9 Arg2:T8
+R5	Causitive Arg1:T7 Arg2:T8
+R6	Purpose Arg1:T14 Arg2:T8
+R7	Purpose Arg1:T13 Arg2:T5
+T10	System 22 28	system
+#1	AnnotatorNotes T10	这个system在句子中很重要，和多个实体具有因果关系，所以把它标注来，另外将system和其他实体之间的关系标出来
+R8	Attr Arg1:T1 Arg2:T12
+R9	Attr Arg1:T3 Arg2:T12

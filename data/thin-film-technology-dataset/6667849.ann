@@ -1,0 +1,41 @@
+T1	Component 2 25	thin film magnetic head
+T2	EnergyFlow 54 67	magnetic flux
+T3	Effect 80 114	excellent overwrite characteristic
+T4	Component 178 190	top pole tip
+T5	EnergyFlow 197 208	bottom pole
+T7	EnergyFlow 286 297	bottom pole
+T8	Location 303 311	position
+T9	Location 317 326	front end
+T10	System 334 367	second non-magnetic layer pattern
+T11	Location 392 400	position
+T12	Location 406 415	front end
+T13	System 423 455	first non-magnetic layer pattern
+T14	System 498 530	first non-magnetic layer pattern
+T15	System 539 572	second non-magnetic layer pattern
+T18	EnergyFlow 671 684	magnetic flux
+T19	Component 697 709	top pole tip
+T20	EnergyFlow 718 729	bottom pole
+T21	Function 753 757	flow
+T22	EnergyFlow 765 778	magnetic flux
+T23	Component 786 798	top pole tip
+T24	Effect 823 857	excellent overwrite characteristic
+T6	System 210 254	first and second non-magnetic layer patterns
+T16	System 602 646	first and second non-magnetic layer patterns
+T17	Function 652 663	propagation
+R1	Spatial Arg1:T19 Arg2:T20
+R2	Oper Arg1:T17 Arg2:T18
+R3	Purpose Arg1:T16 Arg2:T17
+R4	Oper Arg1:T21 Arg2:T22
+R5	Purpose Arg1:T16 Arg2:T21
+R6	PartOf Arg1:T23 Arg2:T22
+R7	Purpose Arg1:T21 Arg2:T24
+R8	Attr Arg1:T9 Arg2:T8
+R9	PartOf Arg1:T10 Arg2:T9
+R10	PartOf Arg1:T13 Arg2:T12
+R11	Attr Arg1:T12 Arg2:T11
+R12	Spatial Arg1:T8 Arg2:T11
+R13	Spatial Arg1:T14 Arg2:T15
+R14	Spatial Arg1:T4 Arg2:T5
+R15	Spatial Arg1:T7 Arg2:T6
+R16	Purpose Arg1:T1 Arg2:T2
+R17	Purpose Arg1:T1 Arg2:T3

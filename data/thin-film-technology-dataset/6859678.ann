@@ -1,0 +1,62 @@
+T1	Component 59 83	magnetoresistive element
+T2	Component 134 147	magnetic head
+T3	Attribution 178 188	properties
+T4	Component 195 219	magnetoresistive element
+T5	Function 251 263	distribution
+T6	InfoFlow 291 308	wafer information
+T7	Function 350 361	wafer stage
+T8	Value 395 411	resistance value
+T9	Component 417 430	final MR film
+T10	Value 451 458	S value
+T11	ScientificConcept 505 523	statistical scheme
+T12	Function 534 548	polishing step
+T13	Function 616 631	polishing stage
+T14	Value 667 683	resistance value
+T15	Component 691 704	final MR film
+T17	Value 741 748	K value
+T18	ScientificConcept 797 815	statistical scheme
+T20	Function 860 874	polishing step
+T21	Value 898 905	S value
+T22	Value 914 921	K value
+T23	EnergyFlow 932 945	MR resistance
+T24	Value 965 988	target resistance value
+T25	Component 29 38	apparatus
+T26	Component 104 113	apparatus
+T27	Function 165 174	variation
+T28	Function 224 233	variation
+T29	Attribution 320 333	various types
+T31	InfoFlow 550 574	ongoing-work-information
+T32	Attribution 586 599	various types
+T33	ScientificConcept 603 610	factors
+T16	Others 720 737	regular intervals
+T34	Value 241 247	median
+T35	Function 280 289	polishing
+T36	Function 380 389	influence
+T37	Function 650 659	influence
+T38	Function 991 1000	polishing
+R1	Attr Arg1:T4 Arg2:T3
+R2	Oper Arg1:T27 Arg2:T3
+R3	Oper Arg1:T28 Arg2:T34
+R4	PartOf Arg1:T6 Arg2:T29
+T30	ScientificConcept 337 344	factors
+R5	Causitive Arg1:T17 Arg2:T18
+R6	Measurement Arg1:T23 Arg2:T24
+T19	ScientificConcept 826 848	MR resistance estimate
+R7	Others Arg1:T19 Arg2:T21
+R8	Others Arg1:T19 Arg2:T22
+R9	Purpose Arg1:T25 Arg2:T1
+R10	Purpose Arg1:T26 Arg2:T2
+R11	Causitive Arg1:T2 Arg2:T27
+R12	Causitive Arg1:T2 Arg2:T28
+R13	Attr Arg1:T5 Arg2:T34
+R14	Attr Arg1:T30 Arg2:T29
+R15	Measurement Arg1:T9 Arg2:T8
+R16	Causitive Arg1:T10 Arg2:T11
+R18	Causitive Arg1:T36 Arg2:T8
+R19	Attr Arg1:T33 Arg2:T32
+R20	PartOf Arg1:T31 Arg2:T32
+R21	Causitive Arg1:T33 Arg2:T37
+R22	Causitive Arg1:T37 Arg2:T14
+R23	Measurement Arg1:T15 Arg2:T14
+R24	Manner Arg1:T31 Arg2:T16
+R17	Causitive Arg1:T30 Arg2:T36

@@ -1,0 +1,1 @@
+ An apparatus includes: a first layer having a near field transducer positioned in a waveguide cladding; a second layer having a magnetic pole piece; a third layer including a solid immersion mirror; a first lapping guide positioned in the first layer; a second lapping guide positioned in the second layer; and a third lapping guide positioned in the third layer.

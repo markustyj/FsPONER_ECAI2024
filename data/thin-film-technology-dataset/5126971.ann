@@ -1,0 +1,63 @@
+T1	Component 2 31	thin film magnetic core array
+T3	Component 54 95	individual thin film core memory elements
+T4	Component 110 119	substrate
+T5	Component 137 158	SENSE conductor leads
+T6	Component 179 192	core elements
+T7	Component 201 213	contact pads
+T8	Component 250 255	array
+T9	Component 262 295	thin film magnetic memory element
+T10	Component 307 318	bottom pole
+T11	Component 322 330	top pole
+T12	Shape 341 361	closed magnetic path
+T13	Component 371 379	top pole
+T15	Component 411 416	leads
+T16	Component 437 441	core
+T17	Material 447 466	insulation material
+T18	Component 499 504	leads
+T19	Component 534 545	pole pieces
+T20	Component 551 561	SENSE lead
+T21	Component 571 576	array
+T22	Component 593 624	miniature thin film transformer
+T23	InfoFlow 645 652	signals
+T24	Component 667 691	individual core elements
+T25	Component 697 708	transformer
+T26	Component 715 726	bottom pole
+T27	Component 730 738	top pole
+T28	Shape 749 769	closed magnetic path
+T29	Component 779 790	bottom pole
+T30	Component 804 815	central leg
+T31	Component 838 858	top and bottom poles
+T32	Component 874 903	electrically conductive coils
+T33	Location 927 933	region
+T34	Component 946 966	top and bottom poles
+T2	Location 233 242	periphery
+R1	PartOf Arg1:T1 Arg2:T3
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Spatial Arg1:T5 Arg2:T6
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Attr Arg1:T8 Arg2:T2
+R6	Spatial Arg1:T7 Arg2:T2
+R7	PartOf Arg1:T1 Arg2:T5
+R8	PartOf Arg1:T9 Arg2:T10
+R9	PartOf Arg1:T9 Arg2:T11
+R10	Form Arg1:T11 Arg2:T12
+R11	Form Arg1:T13 Arg2:T12
+R12	Spatial Arg1:T15 Arg2:T16
+R13	Purpose Arg1:T17 Arg2:T18
+R14	Causitive Arg1:T20 Arg2:T22
+R15	PartOf Arg1:T21 Arg2:T20
+R16	Causitive Arg1:T22 Arg2:T23
+R17	Generate Arg1:T24 Arg2:T23
+R18	PartOf Arg1:T25 Arg2:T26
+R19	PartOf Arg1:T25 Arg2:T27
+R20	Form Arg1:T27 Arg2:T28
+R21	Form Arg1:T29 Arg2:T28
+R22	Spatial Arg1:T30 Arg2:T31
+R23	PartOf Arg1:T25 Arg2:T30
+R24	PartOf Arg1:T25 Arg2:T32
+R25	PartOf Arg1:T34 Arg2:T33
+R26	PartOf Arg1:T33 Arg2:T32
+T14	System 385 394	structure
+R27	PartOf Arg1:T9 Arg2:T14
+R28	Spatial Arg1:T14 Arg2:T15
+R29	PartOf Arg1:T9 Arg2:T17

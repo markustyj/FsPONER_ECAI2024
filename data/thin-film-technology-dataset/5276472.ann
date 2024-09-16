@@ -1,0 +1,40 @@
+T3	Component 164 170	camera
+T4	Component 222 228	camera
+T5	Component 288 292	film
+T6	Component 312 318	camera
+T7	InfoFlow 351 371	digital audio signal
+T8	Component 389 403	magnetic layer
+T9	InfoFlow 450 470	digital audio signal
+T1	Component 26 50	photographic film camera
+T2	Component 71 96	individual exposed frames
+T12	Component 326 345	next exposure frame
+T13	Component 418 422	film
+T14	Component 431 444	photofinisher
+T10	InfoFlow 532 540	bar code
+T11	InfoFlow 544 570	binary coded blister marks
+T15	Function 613 632	subsequent playback
+T16	Component 598 608	photoprint
+T17	InfoFlow 496 522	suitable encodement format
+T18	Function 239 254	playback review
+T19	InfoFlow 132 156	temporary storage memory
+T20	Function 180 188	playback
+T21	Component 199 206	speaker
+T22	Function 259 266	editing
+T23	InfoFlow 0 5	Audio
+R2	Generate Arg1:T21 Arg2:T23
+R3	PartOf Arg1:T4 Arg2:T21
+R4	Oper Arg1:T18 Arg2:T23
+R5	Oper Arg1:T22 Arg2:T23
+R1	Oper Arg1:T20 Arg2:T23
+R6	PartOf Arg1:T3 Arg2:T19
+R7	Manner Arg1:T19 Arg2:T23
+R8	Manner Arg1:T1 Arg2:T23
+R9	PartOf Arg1:T6 Arg2:T5
+R10	Spatial Arg1:T8 Arg2:T13
+R11	Manner Arg1:T8 Arg2:T7
+R12	InstanceOf Arg1:T10 Arg2:T17
+R13	InstanceOf Arg1:T11 Arg2:T17
+R14	Oper Arg1:T15 Arg2:T17
+R15	Manner Arg1:T16 Arg2:T17
+R16	Manner Arg1:T14 Arg2:T9
+R17	Purpose Arg1:T9 Arg2:T17

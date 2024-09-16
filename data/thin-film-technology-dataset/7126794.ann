@@ -1,0 +1,61 @@
+T1	Component 16 39	thin film magnetic head
+T3	Measure 111 115	size
+T4	Effect 137 161	higher recording density
+T5	Effect 179 197	higher read output
+T6	Component 241 260	magnetic disk drive
+T7	Component 271 294	thin film magnetic head
+T8	Component 298 320	heat dissipation layer
+T9	EnergyFlow 338 342	heat
+T10	Component 358 382	magnetic transducer film
+T11	Component 422 446	magnetic transducer film
+T12	Location 452 456	side
+T13	Component 462 466	side
+T14	Location 487 491	side
+T15	Material 501 517	recording medium
+T16	Component 524 533	gap layer
+T17	Component 574 598	magnetic transducer film
+T18	Component 613 626	shield layers
+T19	Component 645 654	gap layer
+T20	Attribution 674 685	end surface
+T21	Component 693 717	magnetic transducer film
+T22	Location 723 727	side
+T23	Component 733 737	side
+T24	Location 758 762	side
+T25	Material 774 790	recording medium
+T26	Attribution 817 831	thin thickness
+T28	EnergyFlow 883 887	heat
+T29	Component 905 929	magnetic transducer film
+T31	Effect 1046 1054	increase
+T32	EnergyFlow 1058 1079	electrical resistance
+T33	Effect 1104 1122	higher read output
+T34	Consequence 65 91	excessive temperature rise
+T2	Value 845 849	2 nm
+T27	Value 853 858	30 nm
+T35	Consequence 997 1013	temperature rise
+R1	Purpose Arg1:T32 Arg2:T31
+R2	Generate Arg1:T29 Arg2:T28
+R3	Purpose Arg1:T28 Arg2:T35
+R4	Purpose Arg1:T1 Arg2:T34
+R5	Attr Arg1:T1 Arg2:T3
+R6	Causitive Arg1:T6 Arg2:T7
+R7	Attr Arg1:T1 Arg2:T4
+R8	Purpose Arg1:T1 Arg2:T5
+R9	Purpose Arg1:T8 Arg2:T9
+R11	Spatial Arg1:T17 Arg2:T18
+R12	Spatial Arg1:T13 Arg2:T14
+R13	Spatial Arg1:T14 Arg2:T15
+R10	Generate Arg1:T10 Arg2:T9
+R14	Spatial Arg1:T10 Arg2:T11
+R15	PartOf Arg1:T11 Arg2:T12
+R16	Attr Arg1:T21 Arg2:T20
+R17	Spatial Arg1:T19 Arg2:T20
+R19	Spatial Arg1:T23 Arg2:T24
+R20	Spatial Arg1:T24 Arg2:T25
+R21	Measurement Arg1:T26 Arg2:T2
+R22	Measurement Arg1:T26 Arg2:T27
+R18	PartOf Arg1:T21 Arg2:T22
+R23	PartOf Arg1:T21 Arg2:T23
+R24	PartOf Arg1:T11 Arg2:T13
+R25	PartOf Arg1:T21 Arg2:T24
+R26	PartOf Arg1:T11 Arg2:T14
+R27	Attr Arg1:T23 Arg2:T26

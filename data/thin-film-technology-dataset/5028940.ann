@@ -1,0 +1,62 @@
+T1	System 2 27	photographic still camera
+T2	Component 39 52	magnetic head
+T3	Attribution 84 100	magnetic surface
+T4	Component 104 121	photographic film
+T5	Component 127 131	head
+T6	Component 150 158	carriage
+T7	Component 181 192	film platen
+T8	Function 197 205	movement
+T9	Component 222 228	platen
+T10	Location 250 267	longitudinal axis
+T11	Component 275 279	film
+T12	Component 283 289	spring
+T13	Component 305 313	carriage
+T14	Component 331 342	spring arms
+T15	Location 377 394	longitudinal axis
+T16	Component 402 406	film
+T17	Component 425 429	pins
+T18	Component 449 464	carriage engage
+T19	Attribution 468 472	edge
+T20	Component 480 484	film
+T21	Effect 499 519	precise relationship
+T22	Shape 532 558	recorded information track
+T23	Attribution 567 576	film edge
+T24	Component 580 592	pressure pad
+T25	Component 623 629	spring
+T26	Component 640 644	film
+T27	Component 667 671	head
+T28	Component 677 692	platen carriage
+T29	Component 694 698	head
+T31	Component 711 724	pressure head
+T32	System 732 748	modular assembly
+T33	System 790 815	photographic still camera
+T34	Function 357 365	carriage
+T35	Component 604 615	another arm
+T30	Component 700 706	spring
+R1	PartOf Arg1:T1 Arg2:T2
+T36	InfoFlow 67 78	information
+R2	Purpose Arg1:T2 Arg2:T36
+R3	Attr Arg1:T4 Arg2:T3
+R4	Spatial Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T11 Arg2:T10
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Purpose Arg1:T6 Arg2:T8
+R10	Spatial Arg1:T12 Arg2:T13
+R11	PartOf Arg1:T12 Arg2:T14
+R12	Causitive Arg1:T14 Arg2:T34
+R13	Manner Arg1:T15 Arg2:T34
+R14	PartOf Arg1:T16 Arg2:T15
+R9	Manner Arg1:T9 Arg2:T8
+R15	Spatial Arg1:T17 Arg2:T18
+R16	Attr Arg1:T20 Arg2:T19
+R17	Purpose Arg1:T17 Arg2:T21
+R18	PartOf Arg1:T25 Arg2:T35
+R19	Causitive Arg1:T35 Arg2:T24
+R20	Causitive Arg1:T24 Arg2:T26
+R21	Spatial Arg1:T26 Arg2:T27
+R22	PartOf Arg1:T32 Arg2:T28
+R23	PartOf Arg1:T32 Arg2:T29
+R24	PartOf Arg1:T32 Arg2:T30
+R25	PartOf Arg1:T32 Arg2:T31
+R26	Spatial Arg1:T32 Arg2:T33

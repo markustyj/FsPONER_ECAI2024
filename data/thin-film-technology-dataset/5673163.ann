@@ -1,0 +1,74 @@
+T2	Component 60 69	pole-tips
+T3	Component 203 212	pole-tips
+T4	EnergyFlow 240 250	flux lines
+T6	Attribution 420 446	written medium track width
+T7	Location 489 508	pinched-gap segment
+T8	EnergyFlow 529 552	magnetization coherency
+T9	Effect 557 576	virtual elimination
+T11	Function 701 741	Photolithographic definition and etching
+T13	Location 889 908	pinched-gap segment
+T14	Component 958 978	inductive TFH device
+T15	Component 1065 1074	pole-tips
+T16	Component 1082 1102	inductive TFH device
+T17	Component 1144 1152	pole-tip
+T18	Component 1175 1190	magnetic shield
+T1	Component 3 52	inductive pinched-gap thin film head (TFH) device
+T19	Function 83 102	substantial contact
+T20	Location 146 165	pinched-gap segment
+T21	Location 106 115	two areas
+T22	Function 171 190	substantial contact
+T23	Attribution 270 274	edge
+T24	Attribution 280 287	corners
+T25	Function 299 313	write operatio
+T5	EnergyFlow 320 340	write magnetic field
+T26	Location 382 401	pinched-gap segment
+T27	Attribution 476 481	width
+T28	Effect 514 525	high degree
+T29	EnergyFlow 606 645	improved (medium) signal-to-noise ratio
+T30	Effect 658 678	substantial increase
+T10	EnergyFlow 686 699	track density
+T31	Shape 749 757	gap-vias
+T32	Component 765 780	bottom pole-tip
+T33	Component 812 824	top pole-tip
+T34	Function 794 804	deposition
+T12	Function 838 868	precise and consistent control
+T35	Attribution 876 881	width
+T36	Component 918 931	written track
+T37	Component 1014 1047	magnetoresistive (MR) read device
+T38	Component 1199 1211	read element
+T39	Component 1219 1228	MR device
+T40	Value 945 952	1 .mu.m
+T41	EnergyFlow 584 600	track-edge noise
+T42	Function 1000 1006	tandem
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Oper Arg1:T19 Arg2:T2
+R4	Manner Arg1:T21 Arg2:T19
+R5	Oper Arg1:T3 Arg2:T22
+R6	Causitive Arg1:T22 Arg2:T4
+R7	Generate Arg1:T23 Arg2:T4
+R8	Generate Arg1:T24 Arg2:T4
+R9	Spatial Arg1:T5 Arg2:T26
+R10	Manner Arg1:T27 Arg2:T6
+R11	Attr Arg1:T7 Arg2:T27
+R12	Measurement Arg1:T8 Arg2:T28
+R13	Oper Arg1:T9 Arg2:T41
+R14	Oper Arg1:T30 Arg2:T10
+R15	Purpose Arg1:T29 Arg2:T30
+R16	Oper Arg1:T11 Arg2:T31
+R17	Oper Arg1:T34 Arg2:T33
+R18	PartOf Arg1:T32 Arg2:T31
+R19	Causitive Arg1:T32 Arg2:T12
+R20	Oper Arg1:T12 Arg2:T35
+R21	Attr Arg1:T13 Arg2:T35
+R22	Attr Arg1:T36 Arg2:T35
+R23	Measurement Arg1:T35 Arg2:T40
+R24	Oper Arg1:T42 Arg2:T14
+R25	Spatial Arg1:T14 Arg2:T37
+R26	PartOf Arg1:T16 Arg2:T15
+R27	Comparison Arg1:T15 Arg2:T17
+R28	PartOf Arg1:T39 Arg2:T38
+R29	Form Arg1:T14 Arg2:T18
+R30	Purpose Arg1:T18 Arg2:T38
+R3	Purpose Arg1:T1 Arg2:T20
+#1	AnnotatorNotes R12	没有具体的数值，不确定
+#2	AnnotatorNotes R15	同上

@@ -1,0 +1,44 @@
+T1	Function 61 76	lapping process
+T2	Component 96 111	read/write head
+T3	Component 128 165	primary magnetoresistive read element
+T4	Attribution 173 194	desired stripe height
+T5	Component 199 221	improved lapping guide
+T6	Component 253 287	secondary magnetoresistive element
+T7	Component 295 310	read/write head
+T8	Component 345 365	same read/write head
+T9	Component 371 403	primary magnetoresistive element
+T10	Component 451 461	disc drive
+T11	Component 468 485	secondary element
+T12	Component 523 538	primary element
+T13	Effect 553 571	smaller tolerances
+T14	Attribution 600 609	top edges
+T15	Component 617 647	primary and secondary elements
+T16	Component 666 700	secondary magnetoresistive element
+T17	Component 741 756	primary element
+T18	Component 774 808	secondary magnetoresistive element
+T19	ScientificConcept 831 851	identical dimensions
+T20	Component 859 874	primary element
+T21	Component 896 913	secondary element
+T22	Component 932 947	primary element
+T23	EnergyFlow 963 983	magnetic sensitivity
+T24	Function 992 999	lapping
+T25	EnergyFlow 1005 1025	magnetic sensitivity
+T26	Component 1033 1067	secondary magnetoresistive element
+T28	EnergyFlow 1120 1140	magnetic sensitivity
+T29	Component 1148 1185	primary magnetoresistive read element
+T30	Others 727 732	proxy
+R1	PartOf Arg1:T2 Arg2:T3
+R2	Attr Arg1:T3 Arg2:T4
+R5	Spatial Arg1:T11 Arg2:T12
+R6	Attr Arg1:T15 Arg2:T14
+R8	Attr Arg1:T18 Arg2:T19
+R9	Attr Arg1:T20 Arg2:T19
+R10	Attr Arg1:T21 Arg2:T23
+R11	Attr Arg1:T22 Arg2:T23
+R12	Attr Arg1:T26 Arg2:T25
+R13	Attr Arg1:T29 Arg2:T28
+R14	Purpose Arg1:T1 Arg2:T2
+R4	Form Arg1:T7 Arg2:T5
+R3	PartOf Arg1:T7 Arg2:T6
+R7	Form Arg1:T16 Arg2:T30
+R15	Attr Arg1:T17 Arg2:T30

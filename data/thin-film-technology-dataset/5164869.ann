@@ -1,0 +1,49 @@
+T2	Component 96 114	open magnetic yoke
+T3	Component 122 134	outside legs
+T5	Component 171 182	central leg
+T6	Shape 193 200	opening
+T7	Component 218 228	MR element
+T8	Component 245 255	outer legs
+T9	Location 278 281	end
+T12	Shape 323 338	transducing gap
+T13	Component 351 362	pole pieces
+T14	Component 372 383	central leg
+T15	Component 410 421	pole pieces
+T16	Location 429 432	end
+T17	Component 453 463	outer legs
+T18	Location 471 480	other end
+T19	System 491 526	symmetrical magnetic yoke structure
+T20	Component 532 540	windings
+T21	Location 556 565	direction
+T22	EnergyFlow 578 582	flux
+T23	Component 618 626	windings
+T24	Component 664 676	outside legs
+T25	Shape 697 712	transducing gap
+T26	Component 725 736	pole pieces
+T27	EnergyFlow 754 762	net flux
+T28	Component 775 786	central leg
+T4	Component 149 156	winding
+T30	Component 290 313	confronting pole pieces
+T1	Component 3 81	integrated inductive write, magnetoresistive (MR) read thin film magnetic head
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Spatial Arg1:T8 Arg2:T9
+R8	Form Arg1:T8 Arg2:T30
+R9	Attr Arg1:T30 Arg2:T12
+R11	Spatial Arg1:T14 Arg2:T15
+R12	Spatial Arg1:T15 Arg2:T16
+R13	Spatial Arg1:T17 Arg2:T18
+R14	Form Arg1:T17 Arg2:T19
+R15	Spatial Arg1:T14 Arg2:T17
+R16	Form Arg1:T14 Arg2:T19
+R17	Manner Arg1:T21 Arg2:T20
+R18	Spatial Arg1:T25 Arg2:T26
+R19	Causitive Arg1:T22 Arg2:T23
+R20	PartOf Arg1:T24 Arg2:T22
+R21	Manner Arg1:T28 Arg2:T27
+R4	PartOf Arg1:T2 Arg2:T5
+R22	Spatial Arg1:T22 Arg2:T25
+R10	Spatial Arg1:T12 Arg2:T13

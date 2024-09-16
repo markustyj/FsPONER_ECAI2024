@@ -1,0 +1,57 @@
+T1	Component 24 47	thin film magnetic head
+T4	Component 226 249	soft magnetic thin film
+T6	ScientificConcept 350 373	external magnetic field
+T9	Component 488 506	head core assembly
+T14	Component 745 768	soft magnetic thin film
+T15	EnergyFlow 792 815	external magnetic field
+T18	Component 981 1010	soft magnetic alloy thin film
+T19	Component 1071 1094	soft magnetic thin film
+T21	EnergyFlow 1199 1222	external magnetic field
+T23	Component 1348 1366	head core assembly
+T3	Component 126 165	soft magnetic amorphous alloy thin film
+T5	Component 299 338	soft magnetic amorphous alloy thin film
+T8	Component 441 480	soft magnetic amorphous alloy thin film
+T25	Location 514 523	direction
+T10	Shape 563 586	head core magnetic path
+T2	Component 78 110	lower and upper, magnetic layers
+T26	Shape 171 190	given pattern shape
+T7	Function 409 432	in-field heat treatment
+T11	EnergyFlow 597 625	uniaxial magnetic anisotropy
+T12	Component 633 672	soft magnetic amorphous alloy thin film
+T13	Function 681 695	heat treatment
+T27	EnergyFlow 703 726	external magnetic field
+T16	Function 827 850	in-field heat treatment
+T28	Shape 1016 1035	given pattern shape
+T20	Component 1144 1187	soft magnetic electroplated alloy thin film
+T29	Function 1258 1288	in-field electroplating action
+T22	Component 1297 1340	soft magnetic electroplated alloy thin film
+T30	Location 1374 1383	direction
+T24	Shape 1423 1446	head core magnetic path
+T31	Attribution 1389 1400	right angle
+T32	Attribution 529 540	right angle
+T33	Location 548 557	direction
+T17	Component 915 947	lower and upper, magnetic layers
+T34	Location 1408 1417	direction
+T35	Function 773 784	application
+R1	Attr Arg1:T3 Arg2:T26
+R2	Form Arg1:T3 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T2
+R4	Causitive Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T9 Arg2:T8
+R6	Attr Arg1:T10 Arg2:T33
+R8	Causitive Arg1:T8 Arg2:T6
+R9	Manner Arg1:T25 Arg2:T6
+R11	Generate Arg1:T12 Arg2:T11
+R12	Purpose Arg1:T14 Arg2:T35
+R13	Oper Arg1:T35 Arg2:T15
+R14	Oper Arg1:T13 Arg2:T27
+R15	Purpose Arg1:T27 Arg2:T11
+R16	Attr Arg1:T18 Arg2:T28
+R17	Form Arg1:T18 Arg2:T17
+R18	Causitive Arg1:T19 Arg2:T20
+R19	Causitive Arg1:T22 Arg2:T21
+R20	PartOf Arg1:T23 Arg2:T22
+R22	Attr Arg1:T24 Arg2:T34
+R24	Manner Arg1:T30 Arg2:T21
+R10	Spatial Arg1:T33 Arg2:T25
+R7	Spatial Arg1:T34 Arg2:T30

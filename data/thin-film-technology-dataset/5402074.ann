@@ -1,0 +1,19 @@
+T1	Component 128 142	overcoat layer
+T2	Location 150 154	core
+T3	Component 160 180	thin film transducer
+T5	ScientificConcept 359 370	wafer level
+T9	EnergyFlow 195 217	core-to-coil impedance
+T10	EnergyFlow 222 239	breakdown voltage
+T4	Function 247 258	manufacture
+T11	Function 263 276	final testing
+T12	EnergyFlow 316 351	existing process feedback circuitry
+T13	Component 446 474	permanent dedicated terminal
+T6	System 482 499	support structure
+T7	Function 71 99	convenient electrical access
+T8	Function 396 413	machining process
+R1	PartOf Arg1:T3 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T2
+R3	Manner Arg1:T5 Arg2:T12
+R4	Spatial Arg1:T13 Arg2:T6
+R5	Purpose Arg1:T1 Arg2:T9
+R6	Purpose Arg1:T1 Arg2:T10

@@ -1,0 +1,1 @@
+A method for making a thin-film magnetic head with a magnetoresistive layer having a desired shaped to facilitate narrowing of the track width, wherein the surface, in the depth direction, is not curved, and wherein the shape and magnetic anisotropy of each sublayer of the magnetoresistive layer is stabilized to ensure improved reading characteristics.

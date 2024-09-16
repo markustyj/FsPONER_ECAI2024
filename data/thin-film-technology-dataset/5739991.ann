@@ -1,0 +1,47 @@
+T1	Component 2 26	composite thin film head
+T2	Location 39 68	magnetoresistive head portion
+T3	Location 76 98	inductive head portion
+T4	Location 140 162	inductive head portion
+T5	Component 176 192	lower core layer
+T6	Component 219 235	gap spacer layer
+T9	Component 294 310	upper core layer
+T10	Component 345 361	gap spacer layer
+T11	Component 367 383	lower core layer
+T14	Component 431 447	upper core layer
+T15	Component 477 493	upper core layer
+T18	Location 579 608	magnetoresistive head portion
+T21	Component 125 134	substrate
+T22	Location 209 213	side
+T7	Location 256 285	magnetoresistive head portion
+T8	Location 333 337	side
+T12	Location 396 408	core portion
+T13	Attribution 459 469	same width
+T23	Location 501 509	vicinity
+T24	Attribution 515 534	medium-opposed face
+T16	Location 542 556	shield portion
+T17	Attribution 618 630	larger width
+T19	Location 640 652	core portion
+T20	Location 660 668	vicinity
+T25	Attribution 676 695	medium-opposed face
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T21
+R4	Spatial Arg1:T2 Arg2:T21
+R5	PartOf Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T4 Arg2:T9
+R7	Attr Arg1:T6 Arg2:T22
+R8	Spatial Arg1:T5 Arg2:T22
+R9	Spatial Arg1:T5 Arg2:T7
+R10	Attr Arg1:T10 Arg2:T8
+R11	Spatial Arg1:T9 Arg2:T8
+R12	PartOf Arg1:T11 Arg2:T12
+R13	Spatial Arg1:T12 Arg2:T14
+R14	Attr Arg1:T24 Arg2:T23
+R15	Attr Arg1:T15 Arg2:T13
+R16	Attr Arg1:T12 Arg2:T13
+R17	Manner Arg1:T23 Arg2:T12
+R18	Spatial Arg1:T16 Arg2:T18
+R19	Attr Arg1:T25 Arg2:T20
+R20	Manner Arg1:T20 Arg2:T19
+R21	Attr Arg1:T16 Arg2:T17
+R22	Attr Arg1:T19 Arg2:T17

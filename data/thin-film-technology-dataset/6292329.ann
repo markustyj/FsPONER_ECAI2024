@@ -1,0 +1,51 @@
+T1	Component 2 37	thin-film single magnetic pole head
+T3	Component 96 114	main magnetic pole
+T4	Material 199 251	double-layer perpendicular magnetic recording medium
+T5	Component 279 314	thin-film single magnetic pole head
+T6	Component 326 344	main magnetic pole
+T7	Component 361 384	soft magnetic thin film
+T8	Component 406 420	thin-film coil
+T9	Component 440 458	main magnetic pole
+T10	Component 492 508	conductor layers
+T11	Component 622 638	conductor layers
+T12	Component 732 746	thin-film coil
+T13	Component 779 797	main magnetic pole
+T14	Component 880 894	thin-film coil
+T15	Component 939 957	main magnetic pole
+T16	Component 971 1010	perpendicular magnetic recording medium
+T17	Component 1086 1104	main magnetic pole
+T18	Function 52 90	highly efficient magnetic energization
+T2	Attribution 134 167	optimum recording characteristics
+T19	State 259 273	high frequency
+T20	Component 391 402	return yoke
+T21	ScientificConcept 578 590	right angles
+T22	Component 598 616	main magnetic pole
+T23	Location 667 688	up-and-down direction
+T24	Component 710 728	main magnetic pole
+T25	Component 848 858	conductors
+T26	Location 918 931	foremost part
+T27	Attribution 1011 1025	facing surface
+T28	Location 1065 1078	foremost part
+T29	State 1110 1125	high efficiency
+R1	Purpose Arg1:T1 Arg2:T18
+R2	Oper Arg1:T18 Arg2:T3
+R4	Attr Arg1:T1 Arg2:T2
+R5	Spatial Arg1:T2 Arg2:T4
+R6	PartOf Arg1:T5 Arg2:T6
+R7	PartOf Arg1:T6 Arg2:T7
+R8	PartOf Arg1:T6 Arg2:T20
+R9	Purpose Arg1:T8 Arg2:T9
+R10	PartOf Arg1:T8 Arg2:T10
+R11	Spatial Arg1:T10 Arg2:T22
+R12	Manner Arg1:T21 Arg2:T10
+R13	Manner Arg1:T23 Arg2:T11
+R15	Purpose Arg1:T12 Arg2:T13
+R16	PartOf Arg1:T13 Arg2:T25
+R17	PartOf Arg1:T15 Arg2:T26
+R18	Spatial Arg1:T14 Arg2:T26
+R19	Attr Arg1:T16 Arg2:T27
+R20	Purpose Arg1:T14 Arg2:T28
+R21	PartOf Arg1:T17 Arg2:T28
+R23	Manner Arg1:T29 Arg2:T17
+R3	Attr Arg1:T4 Arg2:T19
+R22	Spatial Arg1:T11 Arg2:T24

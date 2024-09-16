@@ -1,0 +1,29 @@
+T1	System 3 27	inductive head structure
+T2	Component 42 81	magnetoresistance effect composite head
+T3	Component 94 108	inductive head
+T4	Component 115 144	magnetoresistance effect head
+T5	System 150 174	inductive head structure
+T6	Component 187 205	magnetic gap layer
+T7	Component 220 252	first and second magnetic layers
+T8	EnergyFlow 263 277	magnetic poles
+T9	Component 283 303	first magnetic layer
+T10	Component 334 363	magnetoresistance effect head
+T11	Component 369 387	magnetic gap layer
+T12	Material 404 453	non-magnetic and electrically insulative material
+T13	Material 467 516	non-magnetic and electrically insulative material
+T14	Effect 523 542	higher etching rate
+T15	Function 546 566	reactive ion etching
+T16	Material 583 600	magnetic material
+T17	Component 608 629	second magnetic layer
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Form Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T9 Arg2:T10
+R8	MadeOf Arg1:T11 Arg2:T12
+R9	PartOf Arg1:T11 Arg2:T13
+R10	Attr Arg1:T15 Arg2:T14
+R11	Attr Arg1:T17 Arg2:T16
+R12	Comparison Arg1:T13 Arg2:T16

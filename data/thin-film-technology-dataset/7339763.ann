@@ -1,0 +1,50 @@
+T1	Component 3 34	disk drive thin-film write head
+T2	Component 41 69	first ferromagnetic pole tip
+T3	Component 86 105	pedestal pole layer
+T4	Component 112 125	capping layer
+T5	Component 133 152	pedestal pole layer
+T6	Location 156 175	substantial portion
+T7	Component 183 202	pedestal pole layer
+T8	Material 218 236	lower-moment alloy
+T9	Component 245 258	capping layer
+T10	Material 274 293	higher-moment alloy
+T11	Material 341 359	lower-moment alloy
+T12	Component 367 386	pedestal pole layer
+T13	Component 392 411	pedestal pole layer
+T15	Component 467 478	upper layer
+T16	Effect 503 516	higher moment
+T17	Component 526 539	capping layer
+T18	Material 549 559	CoFe alloy
+T19	Attribution 565 570	width
+T20	Component 578 597	pedestal pole layer
+T21	Location 637 650	pole tip area
+T22	Location 664 685	reduced pole tip area
+T23	Function 694 707	increased use
+T25	Component 740 763	thinner protective film
+T26	Component 790 799	pole tips
+T27	Consequence 805 814	corrosion
+T28	Component 421 428	bilayer
+T14	Material 436 457	different NiFe alloys
+T29	Component 486 493	bilayer
+T24	Material 711 730	lower-moment alloys
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T7 Arg2:T6
+R6	MadeOf Arg1:T6 Arg2:T8
+R7	MadeOf Arg1:T9 Arg2:T10
+R9	MadeOf Arg1:T12 Arg2:T11
+R8	Purpose Arg1:T10 Arg2:T11
+R10	MadeOf Arg1:T28 Arg2:T14
+R11	Attr Arg1:T20 Arg2:T19
+R12	Purpose Arg1:T19 Arg2:T21
+R13	PartOf Arg1:T29 Arg2:T15
+R14	Purpose Arg1:T15 Arg2:T16
+R15	MadeOf Arg1:T17 Arg2:T18
+R16	InstanceOf Arg1:T13 Arg2:T28
+R17	Oper Arg1:T23 Arg2:T24
+R18	Purpose Arg1:T26 Arg2:T27
+R19	Causitive Arg1:T22 Arg2:T25
+R20	Causitive Arg1:T24 Arg2:T25
+R21	Purpose Arg1:T25 Arg2:T26

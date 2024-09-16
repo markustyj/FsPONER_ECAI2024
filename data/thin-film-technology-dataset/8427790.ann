@@ -1,0 +1,33 @@
+T1	Component 3 26	thin film magnetic head
+T2	Component 38 62	magnetoresistive element
+T3	Attribution 72 103	recording-medium-facing-surface
+T4	Material 132 157	magnetic recording medium
+T5	Component 161 180	magnetic bias layer
+T6	Attribution 194 198	side
+T7	Attribution 215 246	recording-medium-facing-surface
+T8	Component 254 278	magnetoresistive element
+T9	EnergyFlow 295 314	bias magnetic field
+T10	Component 322 346	magnetoresistive element
+T11	Location 352 361	direction
+T12	Attribution 380 411	recording-medium-facing-surface
+T13	System 419 441	resistive film pattern
+T14	Attribution 453 484	recording-medium-facing-surface
+T15	System 490 512	resistive film pattern
+T16	Location 535 539	side
+T17	Component 549 573	magnetoresistive element
+T18	Location 579 600	track-width direction
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Manner Arg1:T6 Arg2:T5
+R6	Attr Arg1:T8 Arg2:T7
+R8	Causitive Arg1:T5 Arg2:T9
+R9	Causitive Arg1:T9 Arg2:T10
+R10	Manner Arg1:T11 Arg2:T10
+R7	Spatial Arg1:T6 Arg2:T7
+R11	PartOf Arg1:T1 Arg2:T13
+R12	Attr Arg1:T13 Arg2:T14
+R13	Spatial Arg1:T15 Arg2:T17
+R14	Manner Arg1:T18 Arg2:T15
+R15	Spatial Arg1:T10 Arg2:T12

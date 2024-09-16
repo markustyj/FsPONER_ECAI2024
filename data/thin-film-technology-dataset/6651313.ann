@@ -1,0 +1,47 @@
+T1	Component 42 61	magnetic write head
+T4	Component 205 220	thin film layer
+T5	Component 293 301	FIB tool
+T6	Component 332 337	layer
+T7	Attribution 404 417	lateral edges
+T8	Component 428 436	pole tip
+T9	Component 489 494	layer
+T10	Component 536 544	pole tip
+T12	Component 730 738	FIB tool
+T13	Component 772 787	thin film layer
+T2	Component 64 91	focused ion beam (FIB) tool
+T14	Attribution 116 126	side edges
+T3	Attribution 163 183	narrowed track width
+T16	Location 360 368	location
+T15	Component 258 266	pole tip
+T17	Component 379 387	pole tip
+T18	Attribution 549 568	sharp lateral edges
+T19	Attribution 586 599	rounded edges
+T11	Component 678 693	thin film layer
+T20	Function 818 835	milling operation
+T21	EnergyFlow 135 139	pole
+T22	Function 194 201	milling
+T23	Material 224 232	material
+T24	Component 272 285	milling boxes
+T25	Function 389 396	Milling
+T26	Material 498 506	material
+T27	Measure 462 479	appropriate depth
+T28	Function 700 724	preferred implementation
+T29	Function 621 653	prior art FIB processing methods
+R1	Causitive Arg1:T12 Arg2:T13
+R2	Oper Arg1:T20 Arg2:T12
+R3	Attr Arg1:T10 Arg2:T18
+R4	Oper Arg1:T29 Arg2:T19
+R5	Comparison Arg1:T18 Arg2:T19
+R6	MadeOf Arg1:T9 Arg2:T26
+R7	Oper Arg1:T25 Arg2:T7
+R8	Attr Arg1:T7 Arg2:T27
+R9	Attr Arg1:T8 Arg2:T7
+R10	PartOf Arg1:T5 Arg2:T24
+R11	Attr Arg1:T17 Arg2:T16
+R12	Spatial Arg1:T24 Arg2:T6
+R13	Spatial Arg1:T6 Arg2:T16
+R14	MadeOf Arg1:T4 Arg2:T23
+R15	Spatial Arg1:T4 Arg2:T15
+R16	Attr Arg1:T21 Arg2:T14
+R17	Causitive Arg1:T2 Arg2:T14
+R19	Purpose Arg1:T2 Arg2:T3

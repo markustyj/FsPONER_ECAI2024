@@ -1,0 +1,60 @@
+T1	Component 27 50	thin film magnetic head
+T4	Component 133 142	substrate
+T6	Component 189 208	lower yoke assembly
+T7	Component 240 260	lower magnetic layer
+T8	Component 277 286	substrate
+T9	Component 291 318	first and second side poles
+T10	Component 385 404	insulative pedestal
+T11	System 455 474	lower yoke assembly
+T12	Attribution 497 520	uppermost lateral plane
+T14	Component 543 571	First and second pole pieces
+T15	Component 590 617	first and second side poles
+T18	Component 724 732	pedestal
+T19	Component 754 764	wear layer
+T20	Component 769 780	pole pieces
+T22	Component 830 850	magnetic pole pieces
+T23	Component 883 893	wear layer
+T24	Component 916 926	wear layer
+T25	Component 959 969	wear layer
+T26	Component 978 989	pole pieces
+T27	Component 1047 1051	head
+T28	ScientificConcept 1110 1121	pole pieces
+T2	System 74 96	magnetic yoke assembly
+T3	Function 149 183	semiconductor thin film techniques
+T5	Component 360 381	lower magnetic layer.
+T30	Component 421 426	frame
+T13	System 528 541	yoke assembly
+T31	Shape 626 634	openings
+T32	Component 642 650	pedestal
+T16	Component 654 701	diamond-like carbon (DLC) protective wear layer
+T17	Component 737 748	pole pieces
+T21	Attribution 806 824	upper head surface
+T33	Function 1069 1084	wear protection
+T29	Material 1142 1166	magnetic recording media
+R1	Oper Arg1:T3 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T4
+R3	PartOf Arg1:T6 Arg2:T7
+R4	Spatial Arg1:T7 Arg2:T8
+R5	PartOf Arg1:T6 Arg2:T9
+T34	Location 348 352	ends
+R6	Attr Arg1:T5 Arg2:T34
+R7	Spatial Arg1:T9 Arg2:T34
+R8	Spatial Arg1:T10 Arg2:T30
+R9	Attr Arg1:T13 Arg2:T12
+T35	Location 444 447	top
+R10	Attr Arg1:T11 Arg2:T35
+R11	Manner Arg1:T35 Arg2:T10
+R12	Manner Arg1:T12 Arg2:T10
+R13	Spatial Arg1:T14 Arg2:T15
+R15	PartOf Arg1:T32 Arg2:T31
+R16	Spatial Arg1:T16 Arg2:T18
+R17	Spatial Arg1:T16 Arg2:T17
+R18	Form Arg1:T19 Arg2:T21
+R19	Form Arg1:T20 Arg2:T21
+T36	Attribution 868 875	surface
+R20	Attr Arg1:T23 Arg2:T36
+R21	Spatial Arg1:T22 Arg2:T36
+R22	Spatial Arg1:T28 Arg2:T29
+R23	Oper Arg1:T33 Arg2:T27
+R24	PartOf Arg1:T1 Arg2:T2
+R14	Causitive Arg1:T14 Arg2:T31

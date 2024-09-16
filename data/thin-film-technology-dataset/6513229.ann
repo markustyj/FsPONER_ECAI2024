@@ -1,0 +1,65 @@
+T1	Component 69 76	sliders
+T2	Component 106 113	sliders
+T3	Component 118 142	thin-film magnetic heads
+T4	Component 181 208	circular-plate-shaped wafer
+T5	Component 260 267	sliders
+T6	Component 285 312	circular-plate-shaped wafer
+T7	Component 357 364	sliders
+T8	Component 424 431	sliders
+T10	Material 491 507	slider materials
+T11	Material 587 603	slider materials
+T13	Attribution 714 736	medium facing surfaces
+T15	Component 826 843	slider aggregates
+T16	Component 918 923	Rails
+T19	Component 1011 1028	slider aggregates
+T20	Location 241 249	sections
+T21	Location 338 346	sections
+T22	Location 380 391	orientation
+T23	Location 405 413	sections
+T9	Component 443 474	thin-film magnetic head element
+T24	Attribution 525 531	widths
+T25	Component 553 558	wafer
+T26	Location 625 633	sections
+T27	Component 644 651	sliders
+T12	Attribution 700 707	surface
+T14	Material 767 783	slider materials
+T28	Location 890 898	sections
+T29	Component 909 916	sliders
+T30	Attribution 940 947	surface
+T18	Component 988 1005	slider aggregates
+T31	Function 653 663	Processing
+T32	Function 674 681	lapping
+T17	Material 958 964	medium
+T33	Attribution 972 980	surfaces
+R1	PartOf Arg1:T3 Arg2:T2
+R2	Causitive Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T6 Arg2:T21
+R4	MadeOf Arg1:T21 Arg2:T7
+R5	Manner Arg1:T21 Arg2:T22
+R6	MadeOf Arg1:T20 Arg2:T5
+#1	AnnotatorNotes R6	变成为滑块的部分 是用madeof还是其他关系 不确定，答：这块用form比较适合
+R7	MadeOf Arg1:T23 Arg2:T8
+R8	PartOf Arg1:T23 Arg2:T9
+R9	Attr Arg1:T10 Arg2:T24
+R10	PartOf Arg1:T25 Arg2:T10
+R11	PartOf Arg1:T11 Arg2:T26
+R12	Form Arg1:T26 Arg2:T27
+R13	PartOf Arg1:T15 Arg2:T28
+R14	MadeOf Arg1:T28 Arg2:T29
+R15	Spatial Arg1:T16 Arg2:T30
+R16	PartOf Arg1:T31 Arg2:T32
+R17	Spatial Arg1:T31 Arg2:T12
+R18	Attr Arg1:T14 Arg2:T13
+R19	Attr Arg1:T18 Arg2:T33
+#2	AnnotatorNotes T13	与第8句实体标注不统一，答：已经将第8句修改过
+#3	AnnotatorNotes R2	注意，manufacture的宾语是slider
+R20	PartOf Arg1:T4 Arg2:T20
+#4	AnnotatorNotes R20	in which 表明包含关系
+#5	AnnotatorNotes R4	form表示作为，充当，用在这里比较合适
+R21	Form Arg1:T30 Arg2:T17
+#6	AnnotatorNotes R21	漏标了
+R22	Spatial Arg1:T17 Arg2:T33
+#7	AnnotatorNotes R22	漏标了
+#8	AnnotatorNotes R14	form合适
+#9	AnnotatorNotes R17	操作在xx上面实施，使用oper关系
+R23	Form Arg1:T12 Arg2:T13

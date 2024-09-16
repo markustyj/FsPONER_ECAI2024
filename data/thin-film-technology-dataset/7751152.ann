@@ -1,0 +1,65 @@
+T2	Component 25 40	hard disk drive
+T3	Component 57 60	arm
+T4	Component 66 70	head
+T5	Component 111 114	arm
+T6	Component 136 151	head suspension
+T7	Location 189 199	rigid part
+T8	Location 206 220	resilient part
+T9	Component 256 260	head
+T10	Location 283 292	front end
+T11	Component 347 351	disk
+T12	Component 368 383	hard disk drive
+T13	Component 389 393	head
+T14	Component 442 449	flexure
+T16	Component 476 480	head
+T17	Attribution 502 521	disk-facing surface
+T18	Location 529 539	rigid part
+T19	Component 544 547	arm
+T20	Component 581 596	hard disk drive
+T22	Location 650 664	resilient part
+T23	Location 687 695	base end
+T24	Location 703 713	rigid part
+T25	Attribution 717 736	disk-facing surface
+T26	Component 744 747	arm
+T27	Location 799 809	rigid part
+T1	Component 3 18	head suspension
+T28	ScientificConcept 86 98	minimum step
+T29	Component 121 130	load beam
+T30	Component 163 172	load beam
+T31	Component 226 235	load beam
+T32	ScientificConcept 244 248	load
+T33	Component 300 309	load beam
+T34	ScientificConcept 410 436	read/write wiring patterns
+T15	ScientificConcept 620 627	spindle
+T21	Component 633 636	arm
+T35	Attribution 780 791	thicknesses
+T36	Component 814 818	head
+T37	Component 455 462	flexure
+R1	Attr Arg1:T26 Arg2:T25
+R2	Attr Arg1:T27 Arg2:T35
+R3	Attr Arg1:T36 Arg2:T35
+R4	Purpose Arg1:T1 Arg2:T2
+R5	Spatial Arg1:T28 Arg2:T5
+R6	Spatial Arg1:T28 Arg2:T29
+R7	PartOf Arg1:T6 Arg2:T30
+R8	PartOf Arg1:T30 Arg2:T7
+R9	PartOf Arg1:T30 Arg2:T8
+R10	PartOf Arg1:T1 Arg2:T28
+R11	PartOf Arg1:T14 Arg2:T34
+R12	Spatial Arg1:T13 Arg2:T34
+R13	Causitive Arg1:T37 Arg2:T16
+R14	Attr Arg1:T18 Arg2:T17
+R15	Spatial Arg1:T37 Arg2:T17
+R16	Spatial Arg1:T19 Arg2:T20
+R17	Spatial Arg1:T19 Arg2:T15
+R18	Causitive Arg1:T21 Arg2:T22
+R19	Spatial Arg1:T22 Arg2:T23
+R20	Attr Arg1:T24 Arg2:T23
+R21	Causitive Arg1:T31 Arg2:T32
+R22	Causitive Arg1:T32 Arg2:T9
+R23	Attr Arg1:T33 Arg2:T10
+R24	Spatial Arg1:T11 Arg2:T12
+R25	Spatial Arg1:T9 Arg2:T10
+R26	Causitive Arg1:T9 Arg2:T11
+R27	PartOf Arg1:T1 Arg2:T3
+R28	PartOf Arg1:T1 Arg2:T4

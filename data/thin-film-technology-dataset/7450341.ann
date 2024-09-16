@@ -1,0 +1,35 @@
+T1	Component 4 51	arbitrary gap thin film magnetic recording head
+T2	Component 79 88	substrate
+T3	Shape 190 207	integrated subgap
+T4	System 212 239	subpole substrate structure
+T5	Component 245 259	recording head
+T7	System 337 370	low permeability subgap structure
+T8	Component 375 403	electrically conductive coil
+T9	System 441 457	subgap structure
+T10	EnergyFlow 514 530	magnetic circuit
+T11	Component 534 572	highly permeable magnetic surface film
+T12	EnergyFlow 588 595	subpole
+T13	System 628 650	arbitrary gap patterns
+T14	Component 663 680	surface thin film
+T15	Attribution 715 735	tape bearing surface
+T16	Component 743 747	head
+T17	System 792 804	gap patterns
+T19	Function 98 157	traditional vertical planar thin film head wafer technology
+T6	EnergyFlow 279 320	magnetically permeable thin film subpoles
+T20	System 469 498	subpoles and subgap structure
+T21	System 760 790	various element configurations
+T18	Function 809 836	head-to-tape medium contact
+R1	Oper Arg1:T19 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T1
+R3	Oper Arg1:T19 Arg2:T3
+R4	Oper Arg1:T19 Arg2:T4
+R5	PartOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T9 Arg2:T8
+R7	Form Arg1:T20 Arg2:T10
+R8	Attr Arg1:T16 Arg2:T15
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Causitive Arg1:T14 Arg2:T21
+R11	Causitive Arg1:T14 Arg2:T17
+R12	Causitive Arg1:T14 Arg2:T18
+R14	Causitive Arg1:T11 Arg2:T12
+R13	Causitive Arg1:T7 Arg2:T6

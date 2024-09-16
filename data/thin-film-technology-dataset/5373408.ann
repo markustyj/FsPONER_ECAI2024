@@ -1,0 +1,28 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 146 156	thin films
+T3	Component 183 199	insulation layer
+T5	Component 294 304	thin films
+T6	EnergyFlow 378 391	magnetization
+T8	InfoFlow 451 462	data signal
+T9	Component 45 72	shaping magnetic thin films
+T10	Material 95 104	Permalloy
+T11	System 119 140	stepped configuration
+T12	Component 216 231	electrical coil
+T4	Component 277 288	double yoke
+T14	Shape 310 317	corners
+T15	Location 325 338	stepped areas
+T16	Location 353 365	domain sites
+T17	Component 399 407	P2 layer
+T7	Component 246 263	second pole layer
+R1	Form Arg1:T9 Arg2:T1
+R2	MadeOf Arg1:T9 Arg2:T10
+R3	Attr Arg1:T10 Arg2:T11
+R4	Spatial Arg1:T3 Arg2:T12
+R5	Spatial Arg1:T3 Arg2:T7
+R6	Spatial Arg1:T2 Arg2:T3
+R7	Form Arg1:T2 Arg2:T4
+R8	PartOf Arg1:T5 Arg2:T14
+R9	Manner Arg1:T15 Arg2:T5
+R10	Causitive Arg1:T15 Arg2:T16
+R11	Attr Arg1:T17 Arg2:T6
+R12	Purpose Arg1:T5 Arg2:T8

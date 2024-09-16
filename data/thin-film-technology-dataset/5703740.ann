@@ -1,0 +1,82 @@
+T5	ScientificConcept 201 219	toroidal coil turn
+T7	ScientificConcept 362 382	device thermal noise
+T8	ScientificConcept 422 460	device operational frequency bandwidth
+T10	Component 547 560	magnetic core
+T12	EnergyFlow 838 854	magnetic circuit
+T13	Component 875 888	magnetic core
+T14	Location 1003 1035	larger back-closure contact area
+T15	EnergyFlow 1050 1074	magnetic core reluctance
+T17	ScientificConcept 1323 1341	intended easy axis
+T1	Component 2 50	low-noise toroidal thin film head ("TFH") device
+T2	Effect 55 89	low coil resistance and inductance
+T3	Effect 115 183	very high magnetic recording areal densities and channel frequencies
+T4	Measure 189 195	length
+T19	Value 234 240	20-30%
+T20	Measure 253 259	length
+T21	ScientificConcept 266 278	average turn
+T6	Function 286 324	conventional planar spiral coil design
+T22	Effect 345 354	reduction
+T23	Value 393 397	6 dB
+T24	Effect 406 414	increase
+T25	Value 477 480	3-5
+T26	ScientificConcept 529 538	each turn
+T9	Value 576 580	100%
+T27	ScientificConcept 604 636	write and read-back efficiencies
+T28	ScientificConcept 487 520	toroidal coil coupling efficiency
+T29	Location 658 697	non-via large back-closure contact area
+T11	EnergyFlow 722 751	bottom and top magnetic poles
+T30	Attribution 758 786	their entire back-side width
+T31	ScientificConcept 1092 1109	device efficiency
+T32	Component 1128 1156	soft non-magnetic seed-layer
+T16	Material 1166 1170	gold
+T33	ScientificConcept 1183 1201	interference noise
+T34	Component 1213 1252	conventional magnetic (NiFe) seed-layer
+T35	Component 1302 1312	seed-layer
+T18	EnergyFlow 1412 1433	plated magnetic poles
+T36	Effect 1369 1404	strong magnetic uniaxial anisotropy
+T38	Component 1576 1588	Planar TFH's
+T39	Component 1590 1607	Pinched-Gap TFH's
+T40	Component 1633 1658	Magnetoresistive (MR) TFH
+T41	Location 820 830	loose ends
+T42	Shape 895 943	gradual, smooth toroidal (or a horse-shoe) shape
+T44	Shape 964 969	nooks
+T45	Shape 971 979	crevices
+T43	Location 952 962	loose ends
+T46	Function 1254 1294	Slight mechanical texturing (scratching)
+T47	Effect 1465 1486	significant reduction
+T48	ScientificConcept 1522 1534	device noise
+T49	ScientificConcept 1490 1500	Barkhausen
+T50	ScientificConcept 1505 1518	other sources
+T37	Component 1556 1574	conventional TFH's
+T51	ScientificConcept 1613 1629	various versions
+T52	EnergyFlow 792 815	all other open branches
+T53	Shape 984 997	sharp corners
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T3
+R3	Attr Arg1:T5 Arg2:T4
+R4	Attr Arg1:T21 Arg2:T20
+R5	Comparison Arg1:T4 Arg2:T20
+R6	Attr Arg1:T6 Arg2:T21
+R7	Measurement Arg1:T7 Arg2:T23
+R8	Oper Arg1:T22 Arg2:T7
+R9	Oper Arg1:T24 Arg2:T8
+R10	Measurement Arg1:T28 Arg2:T9
+R11	Purpose Arg1:T28 Arg2:T27
+R12	Spatial Arg1:T29 Arg2:T11
+R13	Manner Arg1:T30 Arg2:T11
+R14	PartOf Arg1:T12 Arg2:T41
+R15	Attr Arg1:T13 Arg2:T42
+R16	Purpose Arg1:T14 Arg2:T15
+R17	Purpose Arg1:T14 Arg2:T31
+R18	MadeOf Arg1:T32 Arg2:T16
+R19	Generate Arg1:T34 Arg2:T33
+R20	Causitive Arg1:T32 Arg2:T33
+R21	Manner Arg1:T17 Arg2:T35
+R22	Oper Arg1:T46 Arg2:T35
+R23	Purpose Arg1:T35 Arg2:T36
+R24	Attr Arg1:T18 Arg2:T36
+R25	Attr Arg1:T48 Arg2:T50
+R26	Oper Arg1:T47 Arg2:T49
+R27	Oper Arg1:T47 Arg2:T50
+R28	Attr Arg1:T40 Arg2:T51
+#1	AnnotatorNotes R18	一个是元件，一个是制作元件的材料，用madeof更合适一些

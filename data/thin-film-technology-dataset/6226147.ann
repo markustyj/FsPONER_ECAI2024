@@ -1,0 +1,25 @@
+T1	Component 2 25	thin-film magnetic head
+T3	Component 80 94	coil conductor
+T4	Component 126 140	coil conductor
+T5	Shape 165 172	grooves
+T6	EnergyFlow 186 207	electrical resistance
+T7	Component 215 229	coil conductor
+T8	Shape 254 261	grooves
+T9	Component 308 322	coil conductor
+T11	EnergyFlow 37 63	thin-film magnetic circuit
+T2	Attribution 113 120	surface
+T12	Effect 237 248	skin effect
+T13	Attribution 293 300	surface
+T14	Component 348 362	coil conductor
+T10	Location 336 340	axis
+R1	Attr Arg1:T3 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T11
+R3	PartOf Arg1:T11 Arg2:T3
+R4	PartOf Arg1:T4 Arg2:T5
+R6	Purpose Arg1:T12 Arg2:T6
+R5	Purpose Arg1:T5 Arg2:T6
+R7	Attr Arg1:T9 Arg2:T13
+R8	Spatial Arg1:T8 Arg2:T13
+R9	PartOf Arg1:T14 Arg2:T10
+R10	Spatial Arg1:T8 Arg2:T10
+R11	Attr Arg1:T7 Arg2:T6

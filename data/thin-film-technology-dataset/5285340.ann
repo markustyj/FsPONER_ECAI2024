@@ -1,0 +1,48 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 38 63	first magnetic yoke layer
+T3	Location 81 96	back gap region
+T4	Component 126 145	air bearing surface
+T6	Component 201 226	first magnetic yoke layer
+T7	Location 234 249	back gap region
+T8	Component 271 274	ABS
+T14	Component 588 591	ABS
+T15	Component 601 621	first pole tip layer
+T16	Component 642 667	first magnetic yoke layer
+T19	Attribution 102 114	sensing edge
+T20	Component 147 150	ABS
+T5	Component 159 185	second magnetic yoke layer
+T9	Component 324 349	first magnetic yoke layer
+T21	Function 399 431	single photolithographic process
+T11	Component 446 466	first pole tip layer
+T12	Component 495 516	second pole tip layer
+T13	Component 543 580	first and second magnetic yoke layers
+T17	Component 676 697	second pole tip layer
+T18	Component 718 744	second magnetic yoke layer
+T22	Component 752 755	ABS
+T10	System 353 371	pole tip structure
+T23	Component 470 487	gap forming layer
+T24	Location 280 288	position
+T25	Function 625 632	contact
+T26	Shape 378 386	geometry
+T27	Function 701 708	contact
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Alias Arg1:T4 Arg2:T20
+R3	InstanceOf Arg1:T4 Arg2:T19
+R4	Manner Arg1:T3 Arg2:T2
+R5	Manner Arg1:T19 Arg2:T2
+R6	PartOf Arg1:T1 Arg2:T5
+R7	Spatial Arg1:T5 Arg2:T6
+R8	Manner Arg1:T7 Arg2:T5
+R9	Manner Arg1:T8 Arg2:T5
+R10	Spatial Arg1:T8 Arg2:T9
+R11	Oper Arg1:T21 Arg2:T10
+R12	Attr Arg1:T10 Arg2:T26
+R13	PartOf Arg1:T10 Arg2:T11
+R14	PartOf Arg1:T10 Arg2:T23
+R15	PartOf Arg1:T10 Arg2:T12
+R16	Spatial Arg1:T12 Arg2:T13
+R17	Spatial Arg1:T15 Arg2:T16
+R18	Spatial Arg1:T17 Arg2:T18
+R20	Spatial Arg1:T17 Arg2:T22
+#3	AnnotatorNotes R20	ABS处的第二磁轭层
+R19	Spatial Arg1:T12 Arg2:T14

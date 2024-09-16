@@ -1,0 +1,26 @@
+T1	Component 2 34	horizontal magnetic reading head
+T2	Function 41 64	perpendicular recording
+T3	Component 86 100	magnetic layer
+T4	Component 185 190	plane
+T5	Component 455 459	head
+T6	Component 471 485	conductor coil
+T7	Component 70 83	magnetic tape
+T8	EnergyFlow 196 204	monopole
+T9	Component 134 141	spacers
+T10	Component 213 246	U-shaped magnetoresistant element
+T11	Component 269 276	ribbons
+T12	EnergyFlow 301 309	monopole
+T13	Component 346 353	spacers
+T14	Component 361 375	magnetic layer
+T15	Component 385 392	ribbons
+T16	Component 409 432	magnetoresistant bridge
+R1	PartOf Arg1:T5 Arg2:T6
+R2	Purpose Arg1:T1 Arg2:T2
+R3	Spatial Arg1:T1 Arg2:T7
+R4	PartOf Arg1:T8 Arg2:T4
+R5	Spatial Arg1:T9 Arg2:T4
+R6	PartOf Arg1:T10 Arg2:T11
+R7	Spatial Arg1:T11 Arg2:T12
+R8	PartOf Arg1:T14 Arg2:T13
+R9	PartOf Arg1:T13 Arg2:T11
+R10	Manner Arg1:T15 Arg2:T16

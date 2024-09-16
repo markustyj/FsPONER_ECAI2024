@@ -1,0 +1,50 @@
+T1	Component 90 112	first conductive layer
+T2	Component 137 150	cathode layer
+T3	Component 155 166	anode layer
+T4	Component 175 192	electrolyte layer
+T5	Component 240 251	anode layer
+T6	Component 261 274	cathode layer
+T7	EnergyFlow 288 293	anode
+T8	Material 328 350	intercalation material
+T9	Component 394 407	cathode layer
+T10	Component 415 426	anode layer
+T11	Component 461 483	first conductive layer
+T12	EnergyFlow 492 510	electrical circuit
+T13	Component 614 631	photovoltaic cell
+T14	Component 639 658	thin-film capacitor
+T15	Component 685 694	substrate
+T16	Material 706 713	polymer
+T17	Attribution 723 736	melting point
+T18	Component 806 815	substrate
+T19	Material 827 832	glass
+T20	Location 908 912	back
+T22	Component 3 19	combined battery
+T23	Component 24 40	device apparatus
+T24	Component 69 78	apparatus
+T25	Component 116 123	battery
+T26	EnergyFlow 301 308	cathode
+T27	Component 356 363	battery
+T28	Function 433 451	electrical contact
+T29	Component 570 577	battery
+T30	Value 757 779	700 degrees centigrade
+T31	Component 874 881	battery
+T21	Component 918 953	liquid-crystal display (LCD) device
+R1	PartOf Arg1:T24 Arg2:T1
+R2	PartOf Arg1:T24 Arg2:T25
+R3	PartOf Arg1:T25 Arg2:T2
+R4	PartOf Arg1:T24 Arg2:T3
+R5	PartOf Arg1:T24 Arg2:T4
+R6	Spatial Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T4 Arg2:T6
+R8	MadeOf Arg1:T7 Arg2:T8
+R9	MadeOf Arg1:T26 Arg2:T8
+R10	Spatial Arg1:T9 Arg2:T11
+R11	Spatial Arg1:T10 Arg2:T11
+R12	Spatial Arg1:T12 Arg2:T29
+R13	PartOf Arg1:T24 Arg2:T12
+R14	Measurement Arg1:T17 Arg2:T30
+R15	Attr Arg1:T16 Arg2:T17
+R16	MadeOf Arg1:T15 Arg2:T16
+R17	MadeOf Arg1:T18 Arg2:T19
+R18	Spatial Arg1:T31 Arg2:T21
+R19	Attr Arg1:T21 Arg2:T20

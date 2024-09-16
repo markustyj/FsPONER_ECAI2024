@@ -1,0 +1,23 @@
+T1	Component 3 34	magnetoresistive (MR) read head
+T2	Component 61 70	MR sensor
+T3	Component 80 90	free layer
+T4	Component 97 109	pinned layer
+T5	Component 113 140	multi-layer hard bias layer
+T6	Component 156 166	free layer
+T7	Component 174 183	MR sensor
+T10	Component 241 252	lower layer
+T11	Component 260 275	hard bias layer
+T14	Component 350 360	free layer
+T15	Component 368 377	MR sensor
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T7 Arg2:T6
+R5	Causitive Arg1:T5 Arg2:T6
+R7	PartOf Arg1:T11 Arg2:T10
+R8	PartOf Arg1:T15 Arg2:T14
+T8	Measure 198 235	the moment (Ms) and the thickness (t)
+T9	Measure 305 342	the moment (Ms) and the thickness (t)
+R6	Comparison Arg1:T8 Arg2:T9
+R9	Attr Arg1:T10 Arg2:T8
+R10	Attr Arg1:T14 Arg2:T9

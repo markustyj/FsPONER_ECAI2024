@@ -1,0 +1,67 @@
+T1	Component 2 25	magnetoresistive sensor
+T2	ScientificConcept 37 51	magnetic field
+T4	Component 84 107	ferromagnetic thin film
+T5	Location 180 207	terminal electrode portions
+T6	Location 295 310	corner portions
+T8	Component 360 369	substrate
+T9	Location 394 409	corner portions
+T10	Location 461 488	terminal electrode portions
+T11	Location 518 533	corner portions
+T13	EnergyFlow 573 587	magnetic field
+T15	Component 622 645	ferromagnetic thin film
+T17	Component 691 700	substrate
+T18	Location 782 809	terminal electrode portions
+T19	Location 828 843	corner portions
+T20	Component 851 860	substrate
+T21	EnergyFlow 920 934	magnetic field
+T23	Component 987 997	resin mold
+T24	Component 1065 1075	resin mold
+T3	Component 133 165	insulating rectangular substrate
+T28	Location 212 227	wiring portions
+T29	Component 236 259	magnetoresistive sensor
+T30	Value 265 278	surface level
+T7	Location 337 352	surface portion
+T31	Component 433 442	substrate
+T12	Value 545 564	lower surface level
+T14	Location 729 744	corner portions
+T16	Component 753 776	magnetoresistive sensor
+T22	Location 935 952	detecting portion
+T32	Location 1044 1059	bonded portions
+T33	Value 1104 1117	surface level
+T25	Location 1125 1139	molded portion
+T34	Location 52 69	detecting portion
+T35	Location 122 126	side
+T36	Location 421 425	side
+T37	Location 588 605	detecting portion
+T38	Attribution 676 683	surface
+T39	Attribution 899 906	surface
+T40	Attribution 1171 1178	surface
+T41	Value 867 872	level
+T26	Location 1192 1224	magnetic field detecting portion
+T27	Effect 1017 1024	purpose
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T3 Arg2:T35
+R3	PartOf Arg1:T2 Arg2:T5
+R4	PartOf Arg1:T2 Arg2:T28
+R5	Form Arg1:T4 Arg2:T34
+R6	PartOf Arg1:T2 Arg2:T34
+R7	Spatial Arg1:T4 Arg2:T35
+R8	PartOf Arg1:T8 Arg2:T7
+R9	Measurement Arg1:T6 Arg2:T30
+R10	Attr Arg1:T31 Arg2:T36
+R11	Measurement Arg1:T11 Arg2:T12
+R12	Spatial Arg1:T9 Arg2:T36
+R13	PartOf Arg1:T13 Arg2:T37
+R14	Spatial Arg1:T10 Arg2:T11
+R15	Form Arg1:T15 Arg2:T37
+R16	Attr Arg1:T17 Arg2:T38
+R17	Spatial Arg1:T15 Arg2:T38
+R18	Spatial Arg1:T18 Arg2:T19
+R19	PartOf Arg1:T20 Arg2:T19
+R20	Measurement Arg1:T20 Arg2:T41
+R21	PartOf Arg1:T21 Arg2:T22
+R22	Measurement Arg1:T25 Arg2:T33
+R23	Purpose Arg1:T23 Arg2:T27
+R24	Spatial Arg1:T40 Arg2:T26
+R25	Spatial Arg1:T39 Arg2:T21
+R26	Purpose Arg1:T24 Arg2:T33

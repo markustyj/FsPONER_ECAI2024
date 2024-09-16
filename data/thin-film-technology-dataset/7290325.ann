@@ -1,0 +1,46 @@
+T1	Component 66 79	magnetic head
+T2	Component 112 136	magnetoresistive devices
+T3	Component 140 156	reference device
+T4	Component 164 181	monitoring device
+T5	Component 193 209	reference device
+T6	Attribution 221 242	desired stripe height
+T7	Component 257 281	magnetoresistive devices
+T8	Component 286 303	monitoring device
+T10	Component 334 358	air/tape bearing surface
+T11	Attribution 399 412	stripe height
+T12	Component 420 444	magnetoresistive devices
+T13	Component 449 466	monitoring device
+T14	Component 492 508	reference device
+T15	EnergyFlow 516 526	resistance
+T16	EnergyFlow 528 535	voltage
+T17	Attribution 569 591	similar characteristic
+T18	Component 599 616	monitoring device
+T19	Attribution 630 644	characteristic
+T20	Component 652 669	monitoring device
+T23	Component 734 749	bearing surface
+T24	Attribution 760 774	characteristic
+T25	Component 782 799	monitoring device
+T26	Component 808 824	reference device
+T27	Attribution 869 882	stripe height
+T28	Component 890 907	monitoring device
+T29	Component 912 936	magnetoresistive devices
+T30	Component 976 992	reference device
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Attr Arg1:T5 Arg2:T6
+R5	Comparison Arg1:T5 Arg2:T7
+R6	Comparison Arg1:T5 Arg2:T8
+R7	Attr Arg1:T12 Arg2:T11
+R8	Attr Arg1:T13 Arg2:T11
+R9	Attr Arg1:T14 Arg2:T15
+R10	Attr Arg1:T14 Arg2:T16
+R11	Attr Arg1:T18 Arg2:T17
+R12	Attr Arg1:T20 Arg2:T19
+R13	Attr Arg1:T25 Arg2:T24
+R14	Attr Arg1:T26 Arg2:T24
+R15	Attr Arg1:T28 Arg2:T27
+R16	Attr Arg1:T29 Arg2:T27
+R17	Comparison Arg1:T28 Arg2:T30
+R18	Comparison Arg1:T29 Arg2:T30
+R19	Comparison Arg1:T25 Arg2:T26

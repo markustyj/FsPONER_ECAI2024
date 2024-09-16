@@ -1,0 +1,41 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 56 65	substrate
+T3	Component 69 80	first layer
+T4	Material 84 101	magnetic material
+T5	Location 111 131	first offset portion
+T6	Component 135 147	second layer
+T7	Material 151 168	magnetic material
+T8	Location 178 199	second offset portion
+T9	Location 214 234	first offset portion
+T10	Component 242 247	layer
+T11	Material 251 269	conductor material
+T12	Shape 290 296	cavity
+T14	Location 316 331	offset portions
+T15	Location 355 369	offset portion
+T16	Component 377 397	first magnetic layer
+T17	Shape 419 425	recess
+T18	Component 433 442	substrate
+T19	Location 471 485	offset portion
+T20	Component 493 513	first magnetic layer
+T21	Component 538 555	insulation layers
+T22	Attribution 574 585	top surface
+T23	Component 593 602	substrate
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	MadeOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T3 Arg2:T5
+R5	MadeOf Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T1 Arg2:T6
+R7	PartOf Arg1:T6 Arg2:T8
+R8	Spatial Arg1:T8 Arg2:T9
+R9	MadeOf Arg1:T10 Arg2:T11
+R10	PartOf Arg1:T1 Arg2:T10
+R11	Causitive Arg1:T14 Arg2:T12
+R12	Spatial Arg1:T10 Arg2:T12
+R13	Attr Arg1:T18 Arg2:T17
+R14	PartOf Arg1:T16 Arg2:T15
+R15	Spatial Arg1:T15 Arg2:T17
+R16	PartOf Arg1:T20 Arg2:T19
+R17	Attr Arg1:T23 Arg2:T22
+R18	Spatial Arg1:T19 Arg2:T21
+R19	Spatial Arg1:T21 Arg2:T22

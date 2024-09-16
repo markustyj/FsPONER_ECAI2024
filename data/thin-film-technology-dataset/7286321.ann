@@ -1,0 +1,39 @@
+T1	Shape 10 15	space
+T2	Component 32 48	lower core layer
+T3	Component 53 67	upheaval layer
+T4	Component 75 89	back gap layer
+T5	Component 116 133	first coil pieces
+T6	Location 148 164	height direction
+T7	Component 184 205	coil insulating layer
+T8	Component 214 235	coil insulating layer
+T9	Component 241 255	upheaval layer
+T10	Component 263 278	layered product
+T11	Component 293 307	back gap layer
+T12	Component 324 342	second coil pieces
+T13	Location 363 379	height direction
+T14	Component 388 404	insulating layer
+T15	Component 431 447	lower core layer
+T16	Component 456 473	first coil pieces
+T17	Component 475 488	raised layers
+T18	Component 509 526	first coil pieces
+T19	Component 551 569	second coil pieces
+T20	Attribution 573 592	connection surfaces
+T21	Component 610 631	coil insulating layer
+T22	Component 639 652	raised layers
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T1 Arg2:T4
+R4	Manner Arg1:T6 Arg2:T5
+R5	Manner Arg1:T7 Arg2:T5
+R6	Spatial Arg1:T10 Arg2:T11
+R7	Spatial Arg1:T8 Arg2:T12
+R8	Spatial Arg1:T9 Arg2:T12
+R9	Spatial Arg1:T10 Arg2:T12
+R10	Manner Arg1:T13 Arg2:T12
+R11	Spatial Arg1:T12 Arg2:T14
+R12	Spatial Arg1:T15 Arg2:T17
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T18 Arg2:T19
+R16	Spatial Arg1:T19 Arg2:T20
+R15	Spatial Arg1:T21 Arg2:T22
+R17	Spatial Arg1:T20 Arg2:T21

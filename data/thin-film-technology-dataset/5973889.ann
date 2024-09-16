@@ -1,0 +1,66 @@
+T1	Component 0 28	Single-channel magnetic head
+T2	Attribution 38 47	head face
+T3	Location 71 86	first direction
+T4	Component 102 125	magnetic record carrier
+T5	Component 172 185	magnetic head
+T6	Location 196 212	second direction
+T7	Location 236 251	first direction
+T8	Component 257 270	magnetic head
+T9	Component 290 296	layers
+T10	Location 318 333	first direction
+T11	Location 355 358	top
+T12	Location 404 420	second direction
+T13	Location 427 442	third direction
+T15	Component 532 566	magnetoresistive measuring element
+T16	Component 574 596	first magnetic element
+T17	Component 607 630	second magnetic element
+T18	Component 641 658	magnetic elements
+T19	Component 698 715	measuring element
+T20	Component 767 784	magnetic elements
+T21	EnergyFlow 799 816	measuring current
+T22	Component 833 850	measuring element
+T23	Location 872 887	third direction
+T24	Component 894 910	magnetic element
+T25	Attribution 918 939	electric contact face
+T26	Component 962 997	stable single-channel magnetic head
+T27	Attribution 1007 1042	narrow, well-defined scanning width
+T28	Component 1057 1073	magnetic element
+T30	ScientificConcept 1115 1128	extensiveness
+T31	Location 1152 1168	second direction
+T32	Location 1181 1196	third direction
+T33	Location 1224 1240	second direction
+T34	Attribution 1265 1280	effective width
+T35	Component 1292 1309	measuring element
+T36	Location 1318 1333	third direction
+T37	Component 1339 1364	relevant magnetic element
+T38	Location 1437 1453	second direction
+T14	Location 467 497	first and the second direction
+T29	Attribution 1098 1107	head face
+T39	ScientificConcept 1203 1216	extensiveness
+T40	Effect 1371 1408	larger relative magnetic permeability
+R1	Attr Arg1:T1 Arg2:T2
+R2	Manner Arg1:T3 Arg2:T2
+R3	Spatial Arg1:T6 Arg2:T7
+R4	Manner Arg1:T6 Arg2:T4
+R5	PartOf Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T9 Arg2:T11
+R8	Manner Arg1:T12 Arg2:T9
+R6	Manner Arg1:T10 Arg2:T9
+R9	Spatial Arg1:T13 Arg2:T14
+R10	Attr Arg1:T24 Arg2:T25
+R11	Attr Arg1:T26 Arg2:T27
+R12	Comparison Arg1:T39 Arg2:T34
+R13	Attr Arg1:T35 Arg2:T34
+R15	Attr Arg1:T33 Arg2:T39
+R16	Purpose Arg1:T37 Arg2:T40
+R17	Comparison Arg1:T36 Arg2:T38
+R18	Comparison Arg1:T31 Arg2:T32
+R14	Attr Arg1:T28 Arg2:T30
+R19	Attr Arg1:T31 Arg2:T30
+R20	Attr Arg1:T32 Arg2:T30
+R21	Attr Arg1:T36 Arg2:T40
+R22	Attr Arg1:T38 Arg2:T40
+R23	Spatial Arg1:T19 Arg2:T20
+R24	Purpose Arg1:T19 Arg2:T21
+R25	Causitive Arg1:T21 Arg2:T22
+R26	Manner Arg1:T23 Arg2:T21

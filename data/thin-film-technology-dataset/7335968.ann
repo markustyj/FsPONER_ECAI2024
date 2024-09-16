@@ -1,0 +1,50 @@
+T1	EnergyFlow 3 28	transmission line circuit
+T2	Effect 54 90	improved transmission line operation
+T3	EnergyFlow 94 113	integrated circuits
+T4	EnergyFlow 119 144	transmission line circuit
+T5	Component 156 167	first layer
+T6	Material 171 203	electrically conductive material
+T7	Component 209 218	substrate
+T8	Component 222 233	first layer
+T9	Material 237 256	insulating material
+T10	Component 274 285	first layer
+T11	Material 293 325	electrically conductive material
+T12	Component 339 368	high permeability metal lines
+T13	Component 387 398	first layer
+T14	Material 402 421	insulating material
+T15	Component 437 466	high permeability metal lines
+T16	Component 517 535	transmission lines
+T17	Component 553 564	first layer
+T18	Material 568 587	insulating material
+T19	Component 632 661	high permeability metal lines
+T20	Component 665 677	second layer
+T21	Material 681 700	insulating material
+T22	Component 718 736	transmission lines
+T23	Component 745 774	high permeability metal lines
+T24	EnergyFlow 780 805	transmission line circuit
+T25	Component 825 837	second layer
+T26	Material 841 873	electrically conductive material
+T27	Component 881 893	second layer
+T28	Material 897 916	insulating material
+T29	Component 486 503	hexaferrite films
+R1	Spatial Arg1:T2 Arg2:T3
+R2	Purpose Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T4 Arg2:T5
+R4	MadeOf Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T5 Arg2:T7
+R6	MadeOf Arg1:T8 Arg2:T9
+R7	MadeOf Arg1:T10 Arg2:T11
+R8	Spatial Arg1:T8 Arg2:T10
+R9	Spatial Arg1:T12 Arg2:T13
+R10	MadeOf Arg1:T13 Arg2:T14
+R11	PartOf Arg1:T15 Arg2:T29
+R12	Spatial Arg1:T16 Arg2:T17
+R13	MadeOf Arg1:T17 Arg2:T18
+R14	Spatial Arg1:T16 Arg2:T19
+R15	MadeOf Arg1:T20 Arg2:T21
+R16	MadeOf Arg1:T25 Arg2:T26
+R17	MadeOf Arg1:T27 Arg2:T28
+R18	Spatial Arg1:T20 Arg2:T22
+R19	Spatial Arg1:T20 Arg2:T23
+R20	PartOf Arg1:T24 Arg2:T25
+R21	Spatial Arg1:T27 Arg2:T25

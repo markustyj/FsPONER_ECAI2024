@@ -1,0 +1,56 @@
+T1	Component 28 58	magnetic recording head writer
+T2	Component 64 70	writer
+T3	EnergyFlow 82 102	bottom magnetic pole
+T4	Shape 109 118	write gap
+T5	Component 135 146	bottom pole
+T6	Shape 153 164	coil trench
+T7	EnergyFlow 179 190	bottom pole
+T8	EnergyFlow 194 211	top magnetic pole
+T10	Component 247 258	first layer
+T11	Component 269 288	front and back tips
+T13	Component 376 392	pole cover layer
+T14	Component 426 436	thin layer
+T15	Material 440 459	insulating material
+T17	Location 489 495	bottom
+T18	Shape 503 514	coil trench
+T19	Component 518 529	bottom coil
+T20	Component 547 563	pole cover layer
+T21	Location 571 577	bottom
+T22	Shape 585 596	coil trench
+T23	Component 601 616	coil insulation
+T24	Component 637 650	coil elements
+T25	Shape 655 676	adjacent trench walls
+T26	Component 692 696	coil
+T27	Component 700 708	top coil
+T29	Component 744 777	planarized bottom coil insulation
+T30	Component 786 807	top pole second layer
+T31	Component 827 835	top coil
+T32	Shape 294 312	spaced apart walls
+T28	Component 714 724	insulation
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T2 Arg2:T4
+R3	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T7 Arg2:T6
+R5	PartOf Arg1:T2 Arg2:T6
+R6	PartOf Arg1:T10 Arg2:T11
+R7	Attr Arg1:T11 Arg2:T32
+T9	Location 337 350	trench bottom
+T12	Location 360 372	trench sides
+R8	Spatial Arg1:T32 Arg2:T9
+R9	Causitive Arg1:T9 Arg2:T12
+R10	MadeOf Arg1:T14 Arg2:T15
+R11	Attr Arg1:T18 Arg2:T17
+R13	Spatial Arg1:T19 Arg2:T20
+R14	Spatial Arg1:T20 Arg2:T21
+R15	Attr Arg1:T22 Arg2:T21
+R16	PartOf Arg1:T13 Arg2:T14
+T16	Location 479 484	sides
+R12	Purpose Arg1:T14 Arg2:T16
+R17	Purpose Arg1:T14 Arg2:T17
+R18	Attr Arg1:T18 Arg2:T16
+R19	Spatial Arg1:T23 Arg2:T24
+R20	Spatial Arg1:T23 Arg2:T25
+R21	Causitive Arg1:T23 Arg2:T26
+R22	Spatial Arg1:T30 Arg2:T31
+R23	PartOf Arg1:T27 Arg2:T28
+R24	Spatial Arg1:T27 Arg2:T29

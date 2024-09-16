@@ -1,0 +1,42 @@
+T1	Component 3 33	thin film servo head apparatus
+T3	Component 105 118	magnetic tape
+T4	Component 124 154	thin film servo head apparatus
+T5	Component 179 200	thin film servo heads
+T6	Component 213 222	substrate
+T7	Component 228 237	substrate
+T8	Shape 258 268	servo gaps
+T9	Component 293 314	thin film servo heads
+T11	Component 373 394	Thin film servo heads
+T12	Effect 409 419	high labor
+T13	Effect 421 448	low yield machining process
+T14	Component 465 507	conventional ferrite composite servo heads
+T15	Component 509 530	Thin film servo heads
+T17	Effect 587 605	manufacturing time
+T18	Effect 610 614	cost
+T19	Component 655 676	thin film servo heads
+T22	Shape 733 742	servo gap
+T23	Component 770 779	substrate
+T24	Shape 795 805	servo gaps
+T25	Component 813 834	thin film servo heads
+T27	Function 61 73	verification
+T2	Component 77 99	time-based servo marks
+T10	Component 349 371	time-based servo marks
+T28	Shape 552 556	bulk
+T16	Component 560 576	substrate wafers
+T20	Component 693 718	time-based servo markings
+T21	Component 864 889	time-based servo markings
+R1	Oper Arg1:T27 Arg2:T3
+R2	PartOf Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T6 Arg2:T5
+R5	PartOf Arg1:T9 Arg2:T8
+R10	Causitive Arg1:T20 Arg2:T19
+R11	PartOf Arg1:T25 Arg2:T24
+R6	Purpose Arg1:T11 Arg2:T13
+R13	Purpose Arg1:T1 Arg2:T27
+R4	Spatial Arg1:T8 Arg2:T10
+R14	Purpose Arg1:T11 Arg2:T12
+R7	Spatial Arg1:T15 Arg2:T16
+R8	Purpose Arg1:T15 Arg2:T17
+R9	Purpose Arg1:T15 Arg2:T18
+R15	Manner Arg1:T19 Arg2:T22
+R12	Spatial Arg1:T24 Arg2:T21

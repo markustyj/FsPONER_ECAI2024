@@ -1,0 +1,25 @@
+T2	Component 81 98	ceramic substrate
+T3	System 160 193	intermediate multilayer structure
+T4	Component 215 232	FeAlSi alloy film
+T6	System 264 297	intermediate multilayer structure
+T10	System 2 46	thin-film magnetic head supporting structure
+T1	Component 60 77	FeAlSi alloy film
+T11	Effect 108 126	structural support
+T12	Component 134 151	FeAlSi alloy film
+T13	Component 241 258	ceramic substrate
+T5	Component 309 316	Cr film
+T7	Component 324 331	Fe film
+T8	Component 374 391	ceramic substrate
+R1	PartOf Arg1:T10 Arg2:T1
+R2	Purpose Arg1:T2 Arg2:T11
+R3	Oper Arg1:T11 Arg2:T12
+R4	PartOf Arg1:T10 Arg2:T2
+R5	PartOf Arg1:T10 Arg2:T3
+R7	PartOf Arg1:T6 Arg2:T5
+R8	PartOf Arg1:T6 Arg2:T7
+R9	Spatial Arg1:T5 Arg2:T8
+R10	Spatial Arg1:T7 Arg2:T8
+#1	AnnotatorNotes R3	对feAISi alloy film进行结构支撑，操作和操作施加的对象，用oper
+R11	Spatial Arg1:T3 Arg2:T4
+#2	AnnotatorNotes R11	漏标了，A在B和C中间，ABC均是实物的话，A-spatial->B,A-spatial->C
+R6	Spatial Arg1:T3 Arg2:T13

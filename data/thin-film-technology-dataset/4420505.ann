@@ -1,0 +1,25 @@
+T1	Component 13 36	thin film magnetic head
+T2	Effect 44 71	good low frequency response
+T3	Function 108 130	movable mask technique
+T4	Component 141 170	first deposited magnetic film
+T5	Shape 190 197	tapered
+T6	Attribution 202 214	knife-,, edge
+T7	Material 216 235	Gap spacer material
+T8	Attribution 261 276	film knife-edge
+T9	Component 292 312	second magnetic film
+T10	Attribution 335 345	knife-edge
+T11	Component 365 379	same substrate
+T12	Component 398 417	first magnetic film
+T13	Component 449 482	slant gap thin film magnetic head
+T14	Effect 490 517	good low frequency response
+T15	Function 99 102	use
+T16	Attribution 202 214	knife-, edge
+R1	Purpose Arg1:T1 Arg2:T2
+R3	Attr Arg1:T4 Arg2:T16
+R2	Attr Arg1:T16 Arg2:T5
+R4	Purpose Arg1:T3 Arg2:T16
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Spatial Arg1:T9 Arg2:T11
+R8	Causitive Arg1:T11 Arg2:T12
+R9	Purpose Arg1:T13 Arg2:T14

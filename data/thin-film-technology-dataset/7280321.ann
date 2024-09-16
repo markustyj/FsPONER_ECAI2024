@@ -1,0 +1,33 @@
+T1	Component 3 24	magnetoresistive head
+T2	Component 47 68	magnetoresistive film
+T3	Component 88 106	lower shield layer
+T4	Component 114 132	upper shield layer
+T5	Component 146 164	lower shield layer
+T6	Component 171 189	non-magnetic layer
+T7	Component 213 231	lower shield layer
+T8	Component 240 258	upper shield layer
+T10	Component 340 358	lower shield layer
+T11	Component 367 385	upper shield layer
+T12	Location 423 431	vicinity
+T13	Component 439 460	magnetoresistive film
+T14	Component 469 484	insulating film
+T15	Component 509 527	lower shield layer
+T16	Component 536 554	upper shield layer
+T17	Component 568 586	lower shield layer
+T18	Component 595 613	non-magnetic layer
+T19	Attribution 667 673	height
+T20	Consequence 693 703	difference
+T21	ScientificConcept 707 712	level
+T22	Location 722 730	boundary
+T9	ScientificConcept 286 296	separation
+T23	Location 319 327	boundary
+T24	ScientificConcept 407 417	separation
+R1	Spatial Arg1:T3 Arg2:T4
+R2	Spatial Arg1:T10 Arg2:T11
+R3	Spatial Arg1:T15 Arg2:T16
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T1 Arg2:T2
+R6	Comparison Arg1:T9 Arg2:T24
+R7	Manner Arg1:T12 Arg2:T13
+R8	Spatial Arg1:T17 Arg2:T18
+R9	Spatial Arg1:T24 Arg2:T13

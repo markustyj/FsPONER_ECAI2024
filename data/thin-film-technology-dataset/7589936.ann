@@ -1,0 +1,58 @@
+T1	Component 3 9	slider
+T2	System 23 40	disk drive system
+T3	Component 48 63	read/write head
+T4	Component 75 85	write coil
+T5	Component 99 115	write transducer
+T6	Component 121 131	write coil
+T8	Location 224 228	ends
+T9	Component 236 246	write coil
+T10	Component 288 298	write coil
+T11	EnergyFlow 383 397	write currents
+T12	EnergyFlow 517 524	current
+T14	EnergyFlow 589 597	currents
+T15	Location 622 635	opposite ends
+T16	Component 643 653	write coil
+T17	EnergyFlow 674 697	magnetic fringing field
+T18	EnergyFlow 719 734	currents/fields
+T20	Component 793 803	write coil
+T22	Component 138 148	center tap
+T23	Component 177 186	conductor
+T24	Component 254 270	other conductors
+T25	Location 317 330	opposite ends
+T26	EnergyFlow 336 363	opposite but equal currents
+T27	State 415 425	write mode
+T28	State 458 468	write mode
+T29	State 490 500	write mode
+T30	Component 550 560	center tap
+T13	Effect 768 785	power dissipation
+T19	State 858 868	write mode
+T31	Effect 893 912	pole tip protrusion
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T6 Arg2:T22
+R6	Purpose Arg1:T22 Arg2:T23
+R7	Spatial Arg1:T22 Arg2:T8
+R8	PartOf Arg1:T9 Arg2:T8
+R9	Spatial Arg1:T22 Arg2:T24
+R10	Manner Arg1:T26 Arg2:T25
+R11	Oper Arg1:T10 Arg2:T25
+R12	Generate Arg1:T20 Arg2:T13
+R13	Comparison Arg1:T13 Arg2:T19
+R14	Comparison Arg1:T19 Arg2:T31
+R15	Manner Arg1:T12 Arg2:T30
+R16	Measurement Arg1:T12 Arg2:T14
+R17	PartOf Arg1:T16 Arg2:T15
+R18	Manner Arg1:T14 Arg2:T15
+R19	Oper Arg1:T11 Arg2:T27
+R20	Oper Arg1:T11 Arg2:T28
+R22	Purpose Arg1:T18 Arg2:T17
+#1	AnnotatorNotes R3	主语判断错误
+#2	AnnotatorNotes R2	逻辑主语判断错误
+#3	AnnotatorNotes R9	实体判断错误
+#4	AnnotatorNotes R19	方向反了，操作-oper->物品
+#5	AnnotatorNotes R20	方向反了
+#6	AnnotatorNotes R11	manner
+#7	AnnotatorNotes R10	write--makemove-->opposite ends
+#9	AnnotatorNotes R13	比较的是write coil 和write mode中的能量消散，既然在write mode中power dissipation被省略了，那么对比关系就只把write mode和write coil涵盖进来即可，注意：参与对比的两个事物一定是同类事物

@@ -1,0 +1,59 @@
+T1	System 2 34	thin film magnetic head assembly
+T2	Component 69 79	disk drive
+T4	Component 160 166	slider
+T7	Component 225 233	pedestal
+T8	Component 242 261	air bearing surface
+T9	Component 277 285	wear pad
+T10	Component 303 311	pedestal
+T11	Component 332 341	pole tips
+T12	Shape 346 361	transducing gap
+T13	Component 385 393	wear pad
+T14	Component 417 430	magnetic disk
+T16	Component 489 497	wear pad
+T17	Component 544 557	magnetic disk
+T19	Component 749 759	front pads
+T20	Component 780 784	disk
+T21	Component 793 801	rear pad
+T22	Component 821 831	transducer
+T23	Component 855 868	rotating disk
+T25	Effect 46 63	contact recording
+T26	Component 93 111	air bearing slider
+T3	Component 131 154	single air bearing rail
+T27	Location 202 213	leg portion
+T5	Component 369 379	transducer
+T6	Component 455 465	disk drive
+T28	Attribution 471 481	small area
+T29	Attribution 529 536	surface
+T30	Effect 566 584	frictional effects
+T31	ScientificConcept 633 642	wear life
+T32	Component 650 663	magnetic head
+T33	Component 696 715	contact head slider
+T34	Function 723 736	tripad design
+T36	Component 891 901	disk drive
+T24	Shape 184 192	L-shaped
+R1	Purpose Arg1:T1 Arg2:T25
+R2	PartOf Arg1:T1 Arg2:T26
+R3	Form Arg1:T3 Arg2:T26
+R4	Oper Arg1:T25 Arg2:T2
+R5	Attr Arg1:T4 Arg2:T24
+R6	PartOf Arg1:T4 Arg2:T27
+R7	Attr Arg1:T7 Arg2:T8
+R8	PartOf Arg1:T27 Arg2:T7
+R9	Spatial Arg1:T9 Arg2:T10
+R10	PartOf Arg1:T5 Arg2:T12
+R11	PartOf Arg1:T5 Arg2:T11
+R12	Spatial Arg1:T9 Arg2:T11
+R13	Spatial Arg1:T9 Arg2:T12
+R14	Spatial Arg1:T13 Arg2:T14
+R15	Attr Arg1:T16 Arg2:T28
+R16	Attr Arg1:T17 Arg2:T29
+R17	Spatial Arg1:T28 Arg2:T29
+R18	Attr Arg1:T32 Arg2:T31
+R19	Purpose Arg1:T28 Arg2:T30
+R20	Purpose Arg1:T28 Arg2:T31
+R21	Spatial Arg1:T19 Arg2:T20
+R22	Causitive Arg1:T21 Arg2:T22
+R23	Spatial Arg1:T21 Arg2:T23
+R24	Oper Arg1:T34 Arg2:T33
+R25	PartOf Arg1:T33 Arg2:T19
+R26	PartOf Arg1:T33 Arg2:T21

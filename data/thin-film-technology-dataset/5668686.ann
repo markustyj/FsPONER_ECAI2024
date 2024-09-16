@@ -1,0 +1,39 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 130 148	lower shield layer
+T3	Component 179 186	MR film
+T4	Shape 204 210	trench
+T6	Component 339 346	MR film
+T7	Component 364 382	lower shield layer
+T8	Component 435 442	MR film
+T10	Component 615 622	MR head
+T13	Effect 54 84	magneto-resistance (MR) effect
+T5	Attribution 241 260	flat bottom surface
+T14	Attribution 265 290	opposite slanted surfaces
+T15	Location 301 311	both sides
+T16	Attribution 319 333	bottom surface
+T17	Attribution 450 469	flat bottom surface
+T18	Effect 479 511	effective magnetic active region
+T11	Component 687 700	narrow tracks
+T12	Shape 216 231	gull-wing shape
+T19	Shape 400 415	gull-wing shape
+T20	Location 558 567	side-lobe
+T9	Function 645 682	high density recording and reproducin
+T21	Location 515 527	track center
+T22	Attribution 575 599	off-track characteristic
+T23	Function 89 113	its manufacturing method
+T24	Location 421 427	region
+R1	Oper Arg1:T23 Arg2:T1
+R2	Attr Arg1:T1 Arg2:T13
+R3	Purpose Arg1:T2 Arg2:T3
+R4	Manner Arg1:T4 Arg2:T2
+R5	PartOf Arg1:T12 Arg2:T4
+R6	Attr Arg1:T12 Arg2:T5
+R7	Attr Arg1:T12 Arg2:T14
+R8	Spatial Arg1:T15 Arg2:T14
+R10	Spatial Arg1:T6 Arg2:T7
+R12	PartOf Arg1:T8 Arg2:T24
+R13	Spatial Arg1:T8 Arg2:T17
+R14	Form Arg1:T24 Arg2:T18
+R15	Oper Arg1:T9 Arg2:T11
+R16	Attr Arg1:T10 Arg2:T22
+R17	Attr Arg1:T16 Arg2:T15

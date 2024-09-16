@@ -1,0 +1,55 @@
+T1	Component 2 21	magnetic transducer
+T3	Attribution 68 83	sensing surface
+T4	Component 102 118	dielectric layer
+T5	InfoFlow 174 186	data signals
+T6	Component 226 242	dielectric layer
+T7	Component 265 278	sensing layer
+T8	Component 452 462	transducer
+T10	Effect 689 713	reduced signal amplitude
+T13	ScientificConcept 862 872	saturation
+T14	Component 880 890	transducer
+T18	Component 32 61	giant magnetoresistive sensor
+T2	Attribution 126 155	magnetically recorded surface
+T19	Component 210 220	transducer
+T20	Effect 284 293	corrosion
+T21	Attribution 328 342	record surface
+T22	Effect 295 318	electrostatic discharge
+T23	Effect 344 361	mechanical damage
+T24	ScientificConcept 367 377	asperities
+T25	ScientificConcept 379 397	thermal asperities
+T26	Function 426 439	close contact
+T27	Attribution 471 485	record surface
+T28	Effect 491 497	damage
+T29	Function 503 511	exposure
+T30	Function 519 537	lapping operations
+T31	Effect 571 591	readback pulse width
+T32	Effect 596 615	offtrack assymmetry
+T33	Effect 630 645	servo linearity
+T9	Effect 666 683	recording density
+T34	Component 749 782	giant magnetoresistive transducer
+T11	Effect 791 817	intrinsically large output
+T35	Component 834 853	recessed transducer
+T12	EnergyFlow 902 920	record medium flux
+T15	Effect 970 989	readback efficiency
+T16	Effect 924 949	reduced signal amplitudes
+R1	Causitive Arg1:T1 Arg2:T18
+R2	Attr Arg1:T18 Arg2:T3
+R3	Causitive Arg1:T4 Arg2:T3
+R4	Causitive Arg1:T3 Arg2:T2
+R6	Purpose Arg1:T19 Arg2:T5
+R10	Purpose Arg1:T33 Arg2:T9
+R11	Attr Arg1:T34 Arg2:T11
+R13	Attr Arg1:T14 Arg2:T13
+R14	Purpose Arg1:T35 Arg2:T13
+R16	Causitive Arg1:T12 Arg2:T16
+R17	Purpose Arg1:T6 Arg2:T7
+R8	Oper Arg1:T20 Arg2:T7
+R18	Oper Arg1:T22 Arg2:T21
+R19	Oper Arg1:T23 Arg2:T24
+R20	Purpose Arg1:T26 Arg2:T25
+R21	Spatial Arg1:T8 Arg2:T27
+R22	Purpose Arg1:T29 Arg2:T28
+R23	Purpose Arg1:T12 Arg2:T13
+R15	Purpose Arg1:T13 Arg2:T15
+R5	PartOf Arg1:T2 Arg2:T5
+R7	Causitive Arg1:T34 Arg2:T10

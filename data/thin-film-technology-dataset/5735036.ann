@@ -1,0 +1,32 @@
+T1	Component 24 43	air bearing surface
+T2	Component 49 70	magnetoresistive head
+T3	Component 132 151	air bearing surface
+T4	Component 204 223	air bearing surface
+T5	ScientificConcept 265 282	longitudinal axis
+T6	Component 290 303	head elements
+T7	ScientificConcept 91 101	likelihood
+T8	Function 310 326	oscillatory path
+T9	Attribution 336 362	stationary lapping surface
+T10	Measure 422 428	length
+T11	Component 436 444	elements
+T12	Component 475 483	elements
+T13	Others 533 555	earlier lapping phases
+T14	Others 583 603	linear lapping phase
+T15	EnergyFlow 105 124	interelement shorts
+T16	Others 178 198	linear lapping phase
+T17	Component 395 403	elements
+T18	ScientificConcept 368 377	scratches
+T19	ScientificConcept 489 509	transverse scratches
+T20	ScientificConcept 381 387	smears
+T21	ScientificConcept 513 519	smears
+R1	Attr Arg1:T15 Arg2:T7
+R2	PartOf Arg1:T2 Arg2:T1
+R3	Spatial Arg1:T15 Arg2:T3
+R4	Attr Arg1:T6 Arg2:T5
+R5	Spatial Arg1:T4 Arg2:T5
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Attr Arg1:T11 Arg2:T10
+R8	Attr Arg1:T17 Arg2:T20
+R9	Attr Arg1:T17 Arg2:T18
+R10	Manner Arg1:T10 Arg2:T17
+R11	Manner Arg1:T8 Arg2:T4

@@ -1,0 +1,26 @@
+T1	Component 3 24	magnetoresistive head
+T2	System 28 41	CPP structure
+T3	Component 54 80	insulating protective film
+T4	Component 133 151	lower shield layer
+T5	Component 163 180	non-magnetic film
+T6	Location 221 225	area
+T7	Component 233 251	lower shield layer
+T8	Attribution 276 283	surface
+T9	Component 291 300	substrate
+T10	Component 310 331	magnetoresistive film
+T11	Consequence 374 380	damage
+T12	Component 402 423	magnetoresistive film
+T14	Component 511 534	upper and lower shields
+T15	Location 112 120	boundary
+T16	Function 484 499	current leakage
+T13	ScientificConcept 458 476	fraction defective
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T3 Arg2:T15
+R4	Spatial Arg1:T15 Arg2:T4
+R5	Spatial Arg1:T15 Arg2:T5
+R6	Attr Arg1:T7 Arg2:T6
+R7	Purpose Arg1:T3 Arg2:T6
+R8	Attr Arg1:T9 Arg2:T8
+R9	Spatial Arg1:T7 Arg2:T9
+R10	Oper Arg1:T16 Arg2:T14

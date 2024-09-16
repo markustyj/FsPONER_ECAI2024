@@ -1,0 +1,34 @@
+T1	System 2 21	thin film structure
+T2	Component 44 50	shield
+T3	Component 57 69	read element
+T4	Component 75 91	transducing head
+T5	Component 99 124	first ferromagnetic layer
+T6	Component 128 154	second ferromagnetic layer
+T7	Component 161 183	first decoupling layer
+T8	Component 189 211	first decoupling layer
+T9	Component 238 263	first ferromagnetic layer
+T10	Component 272 298	second ferromagnetic layer
+T11	Component 303 312	easy axis
+T12	Component 320 345	first ferromagnetic layer
+T13	Component 378 387	easy axis
+T14	Component 395 421	second ferromagnetic layer
+T15	Component 427 449	first decoupling layer
+T16	Function 459 472	magnetization
+T17	Component 480 505	first ferromagnetic layer
+T18	Function 544 557	magnetization
+T19	Component 565 591	second ferromagnetic layer
+R1	PartOf Arg1:T1 Arg2:T5
+R2	PartOf Arg1:T1 Arg2:T6
+R3	PartOf Arg1:T1 Arg2:T7
+R4	Purpose Arg1:T1 Arg2:T2
+R5	PartOf Arg1:T3 Arg2:T2
+R6	PartOf Arg1:T4 Arg2:T3
+R7	Spatial Arg1:T8 Arg2:T9
+R8	Spatial Arg1:T8 Arg2:T10
+R9	Attr Arg1:T12 Arg2:T11
+R10	Attr Arg1:T14 Arg2:T13
+R11	Spatial Arg1:T11 Arg2:T13
+R12	Attr Arg1:T17 Arg2:T16
+R13	Attr Arg1:T19 Arg2:T18
+R14	Spatial Arg1:T16 Arg2:T18
+R15	Causitive Arg1:T15 Arg2:T16

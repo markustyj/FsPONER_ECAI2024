@@ -1,0 +1,32 @@
+T1	Function 6 40	magnetic head manufacturing method
+T2	Attribution 44 59	floated surface
+T3	Component 68 73	block
+T4	Component 81 110	plural magnetic head elements
+T5	Component 136 145	substrate
+T6	Function 172 193	grinding/lapping step
+T7	Function 199 220	grinding/lapping step
+T9	Measure 272 277	angle
+T10	Attribution 285 300	floated surface
+T11	Component 308 313	block
+T13	Component 376 385	substrate
+T14	Attribution 403 418	floated surface
+T15	Function 436 458	finishing lapping step
+T16	Attribution 474 489	floated surface
+T17	Measure 496 501	angle
+T8	Function 233 253	angle adjusting step
+T18	Function 518 538	angle adjusting step
+T12	Attribution 334 370	magnetic-head-element formed surface
+R1	Attr Arg1:T3 Arg2:T2
+R2	Oper Arg1:T6 Arg2:T2
+R3	Causitive Arg1:T3 Arg2:T4
+R4	Causitive Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Oper Arg1:T8 Arg2:T9
+R7	Attr Arg1:T11 Arg2:T10
+R8	Attr Arg1:T10 Arg2:T9
+R9	Attr Arg1:T13 Arg2:T12
+R10	Oper Arg1:T15 Arg2:T16
+R11	Oper Arg1:T18 Arg2:T17
+R12	Attr Arg1:T16 Arg2:T17
+R13	Causitive Arg1:T8 Arg2:T14
+R14	PartOf Arg1:T7 Arg2:T15

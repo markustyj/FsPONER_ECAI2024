@@ -1,0 +1,47 @@
+T2	Component 39 62	magnetoresistive device
+T3	Component 83 99	functional layer
+T4	Component 105 114	substrate
+T5	Component 126 142	first mask layer
+T6	Component 153 169	functional layer
+T7	PhysicsFlow 181 197	patterned resist
+T8	Component 205 221	first mask layer
+T9	Component 235 251	first mask layer
+T10	PhysicsFlow 265 271	resist
+T11	PhysicsFlow 286 292	resist
+T12	Component 304 321	second mask layer
+T14	Component 354 371	second mask layer
+T15	Attribution 402 406	edge
+T16	Component 414 430	first mask layer
+T17	Component 448 465	second mask layer
+T18	Location 471 490	thickness direction
+T19	Component 498 507	substrate
+T20	Component 527 544	second mask layer
+T21	Attribution 550 559	side face
+T22	Component 586 602	first mask layer
+T23	Component 623 639	functional layer
+T24	Component 650 660	first mask
+T26	Component 682 698	functional layer
+T27	Component 712 729	second mask layer
+T1	Function 5 32	thin-film patterning method
+T28	Function 325 348	atomic layer deposition
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T1 Arg2:T7
+R7	Spatial Arg1:T7 Arg2:T8
+R8	PartOf Arg1:T1 Arg2:T9
+R9	PartOf Arg1:T1 Arg2:T11
+R10	PartOf Arg1:T1 Arg2:T12
+R11	Purpose Arg1:T10 Arg2:T9
+R12	Oper Arg1:T28 Arg2:T12
+R13	Attr Arg1:T16 Arg2:T15
+R14	PartOf Arg1:T1 Arg2:T17
+R15	Attr Arg1:T19 Arg2:T18
+R16	Manner Arg1:T18 Arg2:T17
+R17	Spatial Arg1:T20 Arg2:T21
+R18	PartOf Arg1:T1 Arg2:T22
+R19	Spatial Arg1:T23 Arg2:T24
+R20	PartOf Arg1:T1 Arg2:T26
+R21	Purpose Arg1:T27 Arg2:T26

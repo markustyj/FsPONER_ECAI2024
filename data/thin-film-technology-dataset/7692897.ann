@@ -1,0 +1,16 @@
+T1	Component 3 19	transducing head
+T2	Component 31 40	substrate
+T3	Component 44 50	writer
+T4	Component 71 80	substrate
+T5	Component 88 94	reader
+T6	Component 119 125	writer
+T7	Component 131 137	writer
+T9	Component 172 181	substrate
+T10	Function 144 162	electrical contact
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T6
+R7	Oper Arg1:T10 Arg2:T9
+R8	Oper Arg1:T10 Arg2:T7

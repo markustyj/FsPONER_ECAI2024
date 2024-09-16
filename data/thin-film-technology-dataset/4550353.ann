@@ -1,0 +1,72 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 35 48	magnetic core
+T3	Component 108 127	first magnetic core
+T4	Component 143 152	substrate
+T5	Attribution 166 189	predetermined thickness
+T6	Location 195 211	pole chip region
+T7	Attribution 226 235	thickness
+T8	Attribution 252 275	predetermined thickness
+T9	Location 281 292	back region
+T10	Shape 304 316	magnetic gap
+T11	Component 338 352	conductor coil
+T12	Shape 370 382	magnetic gap
+T15	Component 441 460	first magnetic film
+T16	Component 502 507	layer
+T17	Component 513 533	second magnetic core
+T18	Component 560 579	first magnetic core
+T19	Location 587 598	back region
+T20	Component 606 626	second magnetic film
+T21	Component 656 681	inorganic insulating film
+T23	Component 722 742	second magnetic core
+T24	Location 765 781	pole chip region
+T25	Component 792 812	second magnetic film
+T26	Component 829 854	inorganic insulating film
+T27	Component 877 896	first magnetic film
+T28	Attribution 912 921	thickness
+T29	Component 929 948	first magnetic film
+T30	Component 1001 1024	thin-film magnetic head
+T31	Component 1034 1047	magnetic film
+T32	Attribution 1062 1085	predetermined thickness
+T33	Location 1093 1109	pole chip region
+T34	Attribution 1116 1125	thickness
+T35	Attribution 1142 1165	predetermined thickness
+T36	Location 1173 1184	back region
+T37	ScientificConcept 1213 1234	conversion efficiency
+T38	Component 1242 1246	head
+T39	ScientificConcept 1269 1279	resolution
+T40	EnergyFlow 1313 1337	magnetization saturation
+T41	System 52 73	double step structure
+T22	Effect 1284 1296	reproduction
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T2 Arg2:T41
+R3	Spatial Arg1:T3 Arg2:T4
+R5	PartOf Arg1:T4 Arg2:T6
+R4	Attr Arg1:T6 Arg2:T5
+R6	Comparison Arg1:T7 Arg2:T8
+R7	Attr Arg1:T9 Arg2:T7
+R8	PartOf Arg1:T4 Arg2:T9
+R9	Spatial Arg1:T11 Arg2:T12
+R11	PartOf Arg1:T17 Arg2:T16
+T13	Component 409 437	inter-layer, insulating film
+R10	Spatial Arg1:T11 Arg2:T13
+R12	Form Arg1:T15 Arg2:T16
+R13	Spatial Arg1:T15 Arg2:T18
+R14	Manner Arg1:T19 Arg2:T18
+R15	Form Arg1:T21 Arg2:T23
+R16	Manner Arg1:T24 Arg2:T23
+R17	Causitive Arg1:T21 Arg2:T20
+R18	Spatial Arg1:T10 Arg2:T3
+R19	Spatial Arg1:T15 Arg2:T10
+R20	Spatial Arg1:T20 Arg2:T15
+R21	Purpose Arg1:T26 Arg2:T27
+R22	Attr Arg1:T29 Arg2:T28
+R23	PartOf Arg1:T30 Arg2:T31
+R24	Attr Arg1:T33 Arg2:T32
+R25	PartOf Arg1:T31 Arg2:T33
+R26	Comparison Arg1:T34 Arg2:T35
+R27	Attr Arg1:T36 Arg2:T34
+R28	PartOf Arg1:T31 Arg2:T36
+R29	Attr Arg1:T38 Arg2:T37
+R30	Purpose Arg1:T39 Arg2:T22
+R31	Attr Arg1:T38 Arg2:T40
+R32	Attr Arg1:T38 Arg2:T39

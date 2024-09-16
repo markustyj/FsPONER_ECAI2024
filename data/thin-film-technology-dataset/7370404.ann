@@ -1,0 +1,47 @@
+T1	Component 3 20	spin valve sensor
+T2	Component 26 35	read head
+T3	Component 42 54	spacer layer
+T4	System 82 119	self-pinned AP pinned layer structure
+T5	System 126 146	free layer structure
+T6	System 152 172	free layer structure
+T7	Component 205 238	first and second hard bias layers
+T8	Component 288 305	spin valve sensor
+T9	System 311 336	AP pinned layer structure
+T10	Component 344 371	antiparallel coupling layer
+T11	Component 403 436	first and second AP pinned layers
+T12	Function 478 495	resetting process
+T13	EnergyFlow 515 531	magnetic moments
+T14	Component 539 555	AP pinned layers
+T16	Measure 582 593	acute angle
+T17	Attribution 601 613	head surface
+T18	Attribution 619 624	plane
+T19	Component 661 667	layers
+T20	Component 675 681	sensor
+T21	Function 687 704	resetting process
+T23	Component 736 751	AP pinned layer
+T24	Component 819 836	spin valve sensor
+T25	Attribution 250 280	first and second side surfaces
+T26	Component 373 376	APC
+T15	Attribution 641 653	major planes
+T22	EnergyFlow 570 575	field
+T27	EnergyFlow 791 800	circuitry
+R1	PartOf Arg1:T2 Arg2:T1
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T3 Arg2:T5
+R5	Alias Arg1:T10 Arg2:T26
+R6	Causitive Arg1:T6 Arg2:T7
+R7	Attr Arg1:T8 Arg2:T25
+R8	Spatial Arg1:T7 Arg2:T25
+R9	PartOf Arg1:T9 Arg2:T10
+R11	Purpose Arg1:T12 Arg2:T13
+R12	Attr Arg1:T14 Arg2:T13
+R13	Manner Arg1:T16 Arg2:T22
+R14	Spatial Arg1:T18 Arg2:T15
+R15	PartOf Arg1:T20 Arg2:T19
+R16	Attr Arg1:T19 Arg2:T15
+R17	Causitive Arg1:T13 Arg2:T22
+R18	Causitive Arg1:T22 Arg2:T17
+R19	Attr Arg1:T18 Arg2:T17
+R20	Oper Arg1:T21 Arg2:T23
+R10	Spatial Arg1:T10 Arg2:T11

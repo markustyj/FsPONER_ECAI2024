@@ -1,0 +1,21 @@
+T1	Function 5 49	thin-film magnetic head manufacturing method
+T2	Component 111 134	magnetoresistive sensor
+T3	Others 148 170	finish tolerance range
+T4	Component 308 311	ABS
+T5	Component 317 327	slider bar
+T6	Component 347 373	thin-film magnetic element
+T7	System 54 63	apparatus
+T8	Function 65 72	lapping
+T9	Attribution 96 105	MR height
+T10	Others 179 191	lapping time
+T11	Function 214 221	lapping
+T12	Others 232 250	predetermined time
+T13	Effect 287 296	recession
+T14	Attribution 334 341	surface
+T15	Material 385 401	recording medium
+R1	Attr Arg1:T2 Arg2:T9
+R2	Measurement Arg1:T9 Arg2:T3
+R3	PartOf Arg1:T5 Arg2:T4
+R4	Attr Arg1:T6 Arg2:T14
+R5	Spatial Arg1:T14 Arg2:T15
+R6	Spatial Arg1:T4 Arg2:T14

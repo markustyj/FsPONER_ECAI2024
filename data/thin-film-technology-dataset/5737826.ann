@@ -1,0 +1,28 @@
+T1	Component 2 43	thin-film head electromagnetic transducer
+T2	ScientificConcept 52 63	pole pieces
+T3	ScientificConcept 119 130	pole pieces
+T4	Component 219 230	acute angle
+T5	Shape 79 82	gap
+T6	Attribution 88 95	surface
+T7	Attribution 137 148	linear edge
+T8	Shape 174 177	gap
+T9	Shape 190 202	linear edges
+T10	Attribution 238 249	linear edge
+T11	Shape 263 266	gap
+T12	ScientificConcept 306 310	axis
+T13	Attribution 332 343	linear edge
+T14	Shape 357 360	gap
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Form Arg1:T2 Arg2:T5
+R3	Attr Arg1:T3 Arg2:T6
+R4	PartOf Arg1:T6 Arg2:T7
+R5	Form Arg1:T7 Arg2:T8
+R6	PartOf Arg1:T6 Arg2:T9
+R10	Spatial Arg1:T12 Arg2:T13
+R11	Form Arg1:T13 Arg2:T14
+R7	Manner Arg1:T4 Arg2:T9
+R8	Spatial Arg1:T9 Arg2:T10
+R12	Form Arg1:T9 Arg2:T11
+R13	Spatial Arg1:T9 Arg2:T12
+#1	AnnotatorNotes R13	linear edge和一个轴对称邻接，所以linear edge和axis是spatial
+R9	Form Arg1:T10 Arg2:T11

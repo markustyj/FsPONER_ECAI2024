@@ -1,0 +1,1 @@
+ An MOS write transistor is connected to write coils of a magnetoresistive memory cell. The MOS write transistor controls passage of a write current into the write coils of the magnetoresistive memory cell. An array of MOS write transistors and an associated array of magnetoresistive memory cells are within a magnetoresistive memory array circuit.

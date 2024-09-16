@@ -1,0 +1,47 @@
+T1	Component 0 23	Thin-film magnetic head
+T3	Component 78 91	magnetic head
+T5	Material 152 168	recording medium
+T6	Component 202 206	head
+T10	Component 384 404	first magnetic shank
+T11	Component 414 429	magnetic shanks
+T12	Component 464 477	magnetic head
+T14	EnergyFlow 609 622	magnetic pole
+T15	Component 630 650	first magnetic shank
+T16	Effect 657 670	greater width
+T17	EnergyFlow 680 693	magnetic pole
+T19	Component 733 748	magnetic shanks
+T2	System 30 45	layer structure
+T20	Function 50 72	vertical magnetization
+T4	Function 110 130	thin-film technology
+T7	Component 218 252	ring core head magnetic guide body
+T8	Component 260 291	first and second magnetic shank
+T9	EnergyFlow 325 339	magnetic poles
+T21	Effect 345 359	write function
+T22	Location 549 563	margin regions
+T23	Component 567 578	data tracks
+T13	Location 601 604	end
+T18	Component 701 722	second magnetic shank
+T24	Material 782 795	same material
+T25	Location 814 825	end regions
+T26	EnergyFlow 843 857	magnetic poles
+T27	Effect 444 457	read function
+T28	ScientificConcept 528 541	data residues
+T29	Function 505 524	concomitant reading
+R1	Purpose Arg1:T2 Arg2:T20
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Oper Arg1:T4 Arg2:T3
+R4	PartOf Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Form Arg1:T8 Arg2:T9
+R7	Purpose Arg1:T10 Arg2:T21
+R8	Purpose Arg1:T11 Arg2:T27
+R9	PartOf Arg1:T23 Arg2:T22
+R10	Oper Arg1:T29 Arg2:T28
+R11	PartOf Arg1:T22 Arg2:T28
+R12	PartOf Arg1:T15 Arg2:T14
+R13	PartOf Arg1:T18 Arg2:T17
+R14	Attr Arg1:T14 Arg2:T16
+R15	Comparison Arg1:T14 Arg2:T17
+R16	MadeOf Arg1:T19 Arg2:T24
+R17	Spatial Arg1:T25 Arg2:T26
+R18	Manner Arg1:T25 Arg2:T19

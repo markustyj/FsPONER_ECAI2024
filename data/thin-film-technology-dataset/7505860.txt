@@ -1,0 +1,1 @@
+ A method for dynamic electrical testing of head gimbal assemblies may include initiating an automated continuous process that includes selecting an unmounted head gimbal assembly; aligning the unmounted head gimbal assembly; loading the unmounted head gimbal assembly to a disc; and testing the unmounted head gimbal assembly.

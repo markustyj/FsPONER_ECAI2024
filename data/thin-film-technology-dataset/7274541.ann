@@ -1,0 +1,22 @@
+T1	Function 4 13	formation
+T2	Component 20 32	upper shield
+T3	Component 38 61	magnetic thin film head
+T5	EnergyFlow 83 98	current density
+T6	Function 102 116	electroplating
+T7	Function 163 185	upper shield formation
+T9	Attribution 210 233	magnetic characteristic
+T10	Location 254 263	direction
+T11	Attribution 267 281	film thickness
+T12	Component 343 366	magnetic thin film head
+T4	Measure 144 148	time
+T13	Function 65 79	electroplating
+T14	Consequence 399 416	noise-after-write
+T15	Consequence 421 439	output fluctuation
+T16	Component 189 205	film composition
+R1	Attr Arg1:T6 Arg2:T5
+R2	PartOf Arg1:T3 Arg2:T2
+R3	Attr Arg1:T11 Arg2:T10
+R4	Attr Arg1:T10 Arg2:T9
+R5	Purpose Arg1:T12 Arg2:T14
+R6	Purpose Arg1:T12 Arg2:T15
+R7	Oper Arg1:T13 Arg2:T3

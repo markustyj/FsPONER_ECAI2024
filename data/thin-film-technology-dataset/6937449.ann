@@ -1,0 +1,33 @@
+T1	Component 13 42	spin-valve type magnetic head
+T3	Attribution 75 86	track width
+T4	Effect 101 115	high stability
+T5	Component 119 132	magnetic head
+T6	Component 179 219	spin-valve type magnetoresistive element
+T7	Component 231 281	single magnetic domain turning ferromagnetic layer
+T8	Component 297 321	soft magnetic free layer
+T9	Component 328 357	non-magnetic separating layer
+T10	Component 363 387	soft magnetic free layer
+T11	Component 396 446	single magnetic domain turning ferromagnetic layer
+T12	Location 484 487	end
+T13	Attribution 491 502	track width
+T14	EnergyFlow 506 529	closed magnetic circuit
+T15	Component 548 567	soft magnetic layer
+T16	Function 572 585	magnetization
+T17	Location 613 622	direction
+T18	EnergyFlow 657 680	external magnetic field
+T2	Effect 50 66	high read output
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Attr Arg1:T1 Arg2:T3
+R3	Purpose Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T7 Arg2:T8
+R5	PartOf Arg1:T5 Arg2:T6
+R6	Oper Arg1:T16 Arg2:T15
+R7	Spatial Arg1:T11 Arg2:T12
+R8	Attr Arg1:T13 Arg2:T12
+R9	Attr Arg1:T16 Arg2:T17
+R10	Spatial Arg1:T16 Arg2:T18
+R11	Causitive Arg1:T7 Arg2:T9
+R12	Spatial Arg1:T10 Arg2:T12
+R13	Causitive Arg1:T10 Arg2:T11
+R14	PartOf Arg1:T6 Arg2:T7
+#1	AnnotatorNotes R14	漏了

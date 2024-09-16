@@ -1,0 +1,34 @@
+T1	Component 2 25	magnetic thin film head
+T3	Component 60 77	dielectric member
+T4	Location 94 105	facing ends
+T5	Component 109 121	pole members
+T6	Location 129 139	gap region
+T7	Attribution 145 154	thickness
+T8	Component 178 190	pole members
+T9	Location 198 208	gap region
+T10	Component 227 244	dielectric member
+T11	Attribution 261 270	thickness
+T12	Component 295 307	pole members
+T13	Component 314 331	dielectric member
+T14	Location 339 345	region
+T16	ScientificConcept 393 400	density
+T17	EnergyFlow 408 421	magnetic flux
+T18	ScientificConcept 477 493	write capability
+T19	Component 501 505	head
+T2	Effect 349 376	reduced thickness functions
+T15	Location 430 436	region
+R1	PartOf Arg1:T1 Arg2:T3
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Attr Arg1:T5 Arg2:T4
+R4	Manner Arg1:T6 Arg2:T5
+R5	Attr Arg1:T8 Arg2:T7
+R6	Manner Arg1:T9 Arg2:T8
+R7	Attr Arg1:T2 Arg2:T14
+R8	Spatial Arg1:T13 Arg2:T14
+R9	Attr Arg1:T19 Arg2:T18
+R10	Attr Arg1:T17 Arg2:T16
+R11	Manner Arg1:T15 Arg2:T17
+R12	Purpose Arg1:T13 Arg2:T16
+R13	Purpose Arg1:T13 Arg2:T18
+R14	Attr Arg1:T12 Arg2:T11
+R15	Causitive Arg1:T7 Arg2:T10

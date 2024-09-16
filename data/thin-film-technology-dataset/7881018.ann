@@ -1,0 +1,39 @@
+T1	Component 3 45	differential giant magnetoresistive sensor
+T2	InfoFlow 60 75	magnetic signal
+T3	Component 81 100	differential sensor
+T4	System 107 116	structure
+T5	Component 163 199	differential magnetoresistive sensor
+T6	Component 209 258	first and second magnetoresistive sensor elements
+T7	Component 299 309	inner lead
+T8	Component 333 365	first and second sensor elements
+T9	Component 370 398	first and second outer leads
+T10	Component 412 427	sensor elements
+T11	System 440 481	antiparallel coupled free layer structure
+T12	Component 491 501	free layer
+T13	Component 517 532	sensor elements
+T14	Component 570 580	inner lead
+T15	EnergyFlow 614 627	sense current
+T16	Component 650 656	sensor
+T17	Component 702 712	free layer
+T18	Component 721 735	sensor element
+T19	System 757 779	pinned layer structure
+T20	ScientificConcept 140 157	spin torque noise
+T21	System 265 285	three lead structure
+T22	System 586 606	three lead structure
+T23	EnergyFlow 667 676	electrons
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	Causitive Arg1:T4 Arg2:T20
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T5 Arg2:T21
+R6	PartOf Arg1:T21 Arg2:T7
+R7	Spatial Arg1:T7 Arg2:T8
+R8	Spatial Arg1:T7 Arg2:T9
+R9	PartOf Arg1:T10 Arg2:T11
+R10	PartOf Arg1:T13 Arg2:T12
+R11	Spatial Arg1:T12 Arg2:T14
+R12	Causitive Arg1:T22 Arg2:T15
+R13	Causitive Arg1:T15 Arg2:T16
+R14	Causitive Arg1:T23 Arg2:T17
+R15	PartOf Arg1:T18 Arg2:T17
+R16	Causitive Arg1:T23 Arg2:T19

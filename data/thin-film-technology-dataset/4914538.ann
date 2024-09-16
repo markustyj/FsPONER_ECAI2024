@@ -1,0 +1,21 @@
+T1	Component 2 25	magnetoresistive sensor
+T3	Component 93 102	thin film
+T4	Material 106 114	tungsten
+T9	Component 256 275	thin film overlayer
+T5	Component 124 143	thin film overlayer
+T6	Component 165 185	thin film underlayer
+T7	Component 192 211	thin film overlayer
+T8	Component 227 247	thin film underlayer
+T10	Material 333 335	Ti
+T11	Material 337 339	Ta
+T12	Material 341 343	Cr
+T13	Material 345 347	Zr
+T14	Material 349 351	Hf
+T15	Material 357 360	TiW
+T2	System 33 79	spaced electrically conductive lead structures
+R1	PartOf Arg1:T1 Arg2:T2
+R3	Attr Arg1:T4 Arg2:T3
+R4	PartOf Arg1:T3 Arg2:T5
+R2	PartOf Arg1:T1 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T6
+R6	PartOf Arg1:T1 Arg2:T7

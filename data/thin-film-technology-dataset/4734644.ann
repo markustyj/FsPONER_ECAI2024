@@ -1,0 +1,38 @@
+T1	Component 2 36	yoke type magnetic transducer head
+T2	EnergyFlow 49 73	magnetoresistance effect
+T3	Location 85 125	magnetoresistance effect sensing portion
+T4	Location 169 185	cut-away portion
+T5	EnergyFlow 191 207	magnetic circuit
+T6	Shape 221 234	operation gap
+T7	Component 241 254	magnetic yoke
+T8	Location 285 301	cut-away portion
+T9	EnergyFlow 317 342	first bias magnetic field
+T10	Location 361 401	magnetoresistance effect sensing portion
+T11	EnergyFlow 407 426	first magnetic flux
+T12	EnergyFlow 452 459	current
+T13	Location 482 522	magnetoresistance effect sensing portion
+T14	EnergyFlow 534 541	current
+T15	Location 569 609	magnetoresistance effect sensing portion
+T16	Component 616 630	bias conductor
+T17	Component 649 668	hard magnetic layer
+T18	EnergyFlow 686 706	second magnetic flux
+T19	EnergyFlow 718 744	second bias magnetic field
+T20	Location 763 803	magnetoresistance effect sensing portion
+T21	Component 832 845	magnetic yoke
+T22	EnergyFlow 848 861	magnetic flux
+T23	EnergyFlow 899 918	first magnetic flux
+T24	Component 944 957	magnetic yoke
+R1	PartOf Arg1:T1 Arg2:T3
+R2	Purpose Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T5 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T5 Arg2:T7
+R6	Causitive Arg1:T9 Arg2:T10
+R7	Causitive Arg1:T11 Arg2:T9
+R8	Causitive Arg1:T12 Arg2:T13
+R9	Causitive Arg1:T14 Arg2:T15
+R10	Causitive Arg1:T14 Arg2:T16
+R11	Generate Arg1:T17 Arg2:T18
+R12	Causitive Arg1:T18 Arg2:T19
+R13	Causitive Arg1:T19 Arg2:T20
+R14	Causitive Arg1:T23 Arg2:T24

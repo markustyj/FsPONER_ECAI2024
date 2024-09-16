@@ -1,0 +1,73 @@
+T1	System 3 36	thin-film magnetic head structure
+T2	Component 82 105	thin-film magnetic head
+T3	Component 129 153	main magnetic pole layer
+T4	Location 166 188	magnetic pole end part
+T5	Location 194 198	side
+T6	Attribution 204 227	medium-opposing surface
+T7	Material 239 255	recording medium
+T8	Component 259 277	write shield layer
+T9	Location 291 313	magnetic pole end part
+T10	Component 330 349	recording gap layer
+T11	Location 357 385	medium-opposing surface side
+T13	Component 424 442	write shield layer
+T14	Component 446 470	main magnetic pole layer
+T15	Component 490 514	main magnetic pole layer
+T16	Location 526 549	base magnetic pole part
+T17	Location 565 587	magnetic pole end part
+T19	Attribution 637 660	medium-opposing surface
+T20	Location 670 692	magnetic pole end part
+T21	Location 701 728	embedded magnetic pole part
+T22	Shape 743 758	base depression
+T23	Location 777 800	base magnetic pole part
+T24	System 806 839	thin-film magnetic head structure
+T25	Location 851 874	yoke magnetic pole part
+T26	Location 889 912	base magnetic pole part
+T27	Location 950 958	position
+T28	Attribution 986 1009	medium-opposing surface
+T29	Component 1019 1038	recording gap layer
+T30	Component 1047 1074	intervening insulative film
+T31	Location 1096 1123	embedded magnetic pole part
+T32	Location 1128 1151	yoke magnetic pole part
+T33	Location 1157 1165	position
+T34	Attribution 1193 1216	medium-opposing surface
+T35	Component 1226 1245	recording gap layer
+T36	System 43 56	configuration
+T12	Component 393 407	thin-film coil
+T18	Shape 594 609	base depression
+T37	Location 917 944	embedded magnetic pole part
+R1	PartOf Arg1:T1 Arg2:T36
+R2	Causitive Arg1:T36 Arg2:T2
+R3	PartOf Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T3 Arg2:T8
+R7	PartOf Arg1:T3 Arg2:T12
+R8	Attr Arg1:T6 Arg2:T5
+R10	Causitive Arg1:T8 Arg2:T10
+R9	Manner Arg1:T9 Arg2:T8
+R11	Manner Arg1:T11 Arg2:T10
+R12	Spatial Arg1:T13 Arg2:T12
+R13	Spatial Arg1:T14 Arg2:T12
+R14	PartOf Arg1:T15 Arg2:T16
+R15	PartOf Arg1:T16 Arg2:T17
+R16	PartOf Arg1:T16 Arg2:T18
+R17	PartOf Arg1:T15 Arg2:T21
+R18	Comparison Arg1:T19 Arg2:T20
+R19	Spatial Arg1:T18 Arg2:T19
+R20	Spatial Arg1:T18 Arg2:T20
+R21	Spatial Arg1:T21 Arg2:T23
+R22	Spatial Arg1:T21 Arg2:T22
+R23	PartOf Arg1:T24 Arg2:T25
+R24	PartOf Arg1:T24 Arg2:T30
+R25	Spatial Arg1:T25 Arg2:T26
+R26	Spatial Arg1:T25 Arg2:T37
+R27	Spatial Arg1:T37 Arg2:T27
+R28	Comparison Arg1:T28 Arg2:T29
+R29	Spatial Arg1:T27 Arg2:T28
+R30	Spatial Arg1:T27 Arg2:T29
+R31	Spatial Arg1:T31 Arg2:T32
+R32	Spatial Arg1:T30 Arg2:T31
+R33	Spatial Arg1:T30 Arg2:T32
+R34	Comparison Arg1:T34 Arg2:T35
+R35	Spatial Arg1:T33 Arg2:T34
+R36	Spatial Arg1:T33 Arg2:T35

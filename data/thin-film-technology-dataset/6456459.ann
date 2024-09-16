@@ -1,0 +1,56 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Function 90 105	precise control
+T3	Component 111 124	magnetic pole
+T4	Attribution 125 130	width
+T5	Component 186 190	pole
+T6	Attribution 191 196	width
+T7	Function 220 235	precise control
+T8	ScientificConcept 241 254	throat height
+T9	Component 263 286	thin-film magnetic head
+T10	Location 307 319	pole portion
+T11	Component 325 342	bottom pole layer
+T12	Component 350 366	insulating layer
+T13	Location 383 395	yoke portion
+T14	Component 403 420	bottom pole layer
+T15	ScientificConcept 426 439	throat height
+T16	Component 501 517	insulating layer
+T17	Location 480 492	pole portion
+T18	Location 523 535	pole portion
+T19	Component 544 560	insulating layer
+T20	Component 568 580	flat surface
+T21	Attribution 586 590	side
+T22	Component 596 615	recording gap layer
+T23	Component 619 633	top pole layer
+T24	Location 646 658	pole portion
+T25	Attribution 668 673	width
+T26	ScientificConcept 689 710	recording track width
+T27	Location 718 730	yoke portion
+T28	Attribution 740 745	width
+T29	Location 771 783	pole portion
+T30	Location 816 828	pole portion
+T31	Location 856 868	pole portion
+T32	Location 877 889	yoke portion
+T33	Component 908 932	flat recording gap layer
+T34	Shape 834 843	interface
+R1	Attr Arg1:T3 Arg2:T4
+R2	Oper Arg1:T2 Arg2:T4
+R3	Oper Arg1:T7 Arg2:T8
+R4	PartOf Arg1:T9 Arg2:T11
+R5	PartOf Arg1:T9 Arg2:T12
+R6	PartOf Arg1:T11 Arg2:T10
+R7	Spatial Arg1:T13 Arg2:T12
+R8	Spatial Arg1:T13 Arg2:T10
+R9	PartOf Arg1:T14 Arg2:T13
+T35	Shape 458 467	interface
+R10	Spatial Arg1:T17 Arg2:T16
+R11	Attr Arg1:T22 Arg2:T21
+R12	Spatial Arg1:T20 Arg2:T21
+R13	Form Arg1:T18 Arg2:T20
+R14	Form Arg1:T19 Arg2:T20
+R15	Spatial Arg1:T34 Arg2:T33
+R16	PartOf Arg1:T23 Arg2:T24
+R17	Attr Arg1:T24 Arg2:T25
+R18	Causitive Arg1:T25 Arg2:T26
+R19	PartOf Arg1:T23 Arg2:T27
+R20	Attr Arg1:T27 Arg2:T28
+R21	Causitive Arg1:T27 Arg2:T30

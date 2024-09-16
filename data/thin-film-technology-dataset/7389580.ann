@@ -1,0 +1,50 @@
+T1	Component 37 71	solid-state energy-storage devices
+T2	Component 82 99	fabrication films
+T3	Component 138 142	film
+T4	Component 149 170	energy-storage device
+T5	Component 201 221	first material layer
+T6	Component 241 250	substrate
+T7	EnergyFlow 252 258	Energy
+T8	Component 308 312	film
+T9	ScientificConcept 318 324	energy
+T10	Material 347 361	energized ions
+T11	Material 367 382	second material
+T12	EnergyFlow 384 400	Supplying energy
+T13	Component 417 425	material
+T14	Component 437 441	film
+T15	ScientificConcept 485 491	growth
+T16	Component 517 521	film
+T17	Function 549 560	fabrication
+T18	Component 564 579	ultrathin films
+T19	Component 588 605	electrolyte films
+T20	Component 610 626	dielectric films
+T21	Function 123 134	anneal step
+T22	Material 287 295	material
+T23	ScientificConcept 496 509	stoichiometry
+T24	System 14 20	system
+R1	PartOf Arg1:T24 Arg2:T2
+R2	Purpose Arg1:T24 Arg2:T1
+R3	PartOf Arg1:T4 Arg2:T3
+R6	Causitive Arg1:T7 Arg2:T22
+R7	MadeOf Arg1:T8 Arg2:T22
+R9	PartOf Arg1:T11 Arg2:T10
+R10	Causitive Arg1:T12 Arg2:T13
+R11	Causitive Arg1:T12 Arg2:T14
+R12	Attr Arg1:T16 Arg2:T23
+R13	Attr Arg1:T16 Arg2:T15
+R14	Oper Arg1:T17 Arg2:T18
+R15	InstanceOf Arg1:T19 Arg2:T18
+R16	InstanceOf Arg1:T20 Arg2:T18
+T25	Component 104 111	devices
+R17	PartOf Arg1:T25 Arg2:T21
+T26	Location 227 235	location
+R4	Attr Arg1:T6 Arg2:T26
+R5	Spatial Arg1:T3 Arg2:T6
+R18	Form Arg1:T5 Arg2:T3
+T27	Function 339 343	form
+R8	Manner Arg1:T9 Arg2:T27
+R19	Attr Arg1:T10 Arg2:T27
+R20	Purpose Arg1:T2 Arg2:T25
+R21	Manner Arg1:T5 Arg2:T26
+#1	AnnotatorNotes R21	漏标了，将A放置在B位置，B非事物，则可以标引manner，详情见讲义二第11条
+#2	AnnotatorNotes R1	这个文档标得很好！

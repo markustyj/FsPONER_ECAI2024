@@ -1,0 +1,77 @@
+T5	Component 160 174	thin film head
+T12	Component 393 401	pedestal
+T17	Location 629 644	lateral portion
+T23	Shape 884 901	upper sensor lead
+T25	Location 955 970	lateral portion
+T27	System 1046 1072	magnetoresistive structure
+T28	Material 1211 1237	magnetoresistive materials
+T1	System 33 111	thin film magnetoresistive current perpendicular to the plane read head device
+T3	Component 215 236	lower pedestal shield
+T4	Shape 240 257	lower sensor lead
+T6	System 261 287	magnetoresistive structure
+T7	Shape 292 309	upper sensor lead
+T8	Component 318 339	upper pedestal shield
+T9	Component 345 357	sensor leads
+T10	System 410 436	magnetoresistive structure
+T33	Location 467 482	between portion
+T14	Location 551 566	lateral portion
+T35	Location 572 591	projecting portions
+T36	EnergyFlow 669 684	lead resistance
+T18	Measure 708 737	pedestal-to-pedestal distance
+T37	Location 743 762	projecting portions
+T19	Location 768 785	recessed portions
+T20	Component 793 805	sensor leads
+T21	Component 822 830	pedestal
+T38	Location 836 855	projecting portions
+T22	Component 869 878	pedestals
+T39	Location 981 997	recessed portion
+T26	System 1014 1040	magnetoresistive structure
+T40	Material 1085 1117	giant magnetoresistive materials
+T41	Component 1163 1173	multilayer
+T42	Component 1175 1185	spin valve
+T43	EnergyFlow 1285 1301	lower resistance
+T29	Component 1302 1314	sensor leads
+T30	Measure 1338 1346	distance
+T44	Component 1355 1371	shield pedestals
+T31	ScientificConcept 1391 1408	high data density
+T45	Effect 1429 1452	magnetoresistive effect
+T11	Component 484 511	Either or both sensor leads
+T13	Location 600 621	greater cross-section
+T15	PhysicsFlow 652 656	lead
+T2	Function 126 137	fabrication
+R2	Oper Arg1:T2 Arg2:T1
+R3	PartOf Arg1:T5 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T5 Arg2:T7
+R7	PartOf Arg1:T5 Arg2:T8
+T16	Location 365 372	portion
+R8	Spatial Arg1:T16 Arg2:T12
+R9	Spatial Arg1:T16 Arg2:T10
+T24	Location 444 451	portion
+R10	Spatial Arg1:T24 Arg2:T33
+R11	PartOf Arg1:T9 Arg2:T16
+R12	PartOf Arg1:T9 Arg2:T24
+T34	Location 523 530	portion
+R13	PartOf Arg1:T11 Arg2:T34
+R14	Spatial Arg1:T34 Arg2:T14
+R15	Causitive Arg1:T35 Arg2:T13
+R16	PartOf Arg1:T15 Arg2:T17
+R17	Causitive Arg1:T13 Arg2:T17
+R20	Purpose Arg1:T19 Arg2:T21
+R21	Form Arg1:T37 Arg2:T19
+R24	Spatial Arg1:T38 Arg2:T22
+T46	Location 918 925	portion
+R25	PartOf Arg1:T23 Arg2:T46
+R26	Spatial Arg1:T46 Arg2:T25
+R27	Purpose Arg1:T39 Arg2:T26
+R29	Causitive Arg1:T27 Arg2:T40
+R30	Causitive Arg1:T27 Arg2:T41
+R31	Causitive Arg1:T27 Arg2:T42
+R32	Causitive Arg1:T27 Arg2:T28
+R33	Attr Arg1:T29 Arg2:T43
+R18	Causitive Arg1:T13 Arg2:T36
+R19	Causitive Arg1:T13 Arg2:T18
+R23	Form Arg1:T46 Arg2:T39
+R1	PartOf Arg1:T20 Arg2:T19
+#1	AnnotatorNotes R2	great

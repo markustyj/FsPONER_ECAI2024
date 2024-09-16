@@ -1,0 +1,31 @@
+T1	Component 48 73	grounded conductive layer
+T2	Component 86 92	heater
+T3	Component 101 135	lower magnetoresistive (MR) shield
+T4	System 143 168	read/write head structure
+T5	Component 174 199	grounded conductive layer
+T6	EnergyFlow 266 273	charges
+T7	Component 281 296	lower MR shield
+T8	EnergyFlow 316 323	voltage
+T9	Component 340 346	heater
+T10	Component 369 382	magnetic head
+T11	Component 408 429	read/write components
+T12	Component 433 439	heater
+T13	Component 471 492	read/write components
+T14	Component 500 525	grounded conductive layer
+T15	Component 547 553	heater
+T16	Component 575 596	read/write components
+T17	Function 250 262	accumulation
+R1	PartOf Arg1:T4 Arg2:T1
+R2	Spatial Arg1:T1 Arg2:T2
+R3	Spatial Arg1:T1 Arg2:T3
+R4	Oper Arg1:T17 Arg2:T6
+R5	Purpose Arg1:T5 Arg2:T17
+R6	Causitive Arg1:T8 Arg2:T9
+R7	Generate Arg1:T7 Arg2:T6
+R8	PartOf Arg1:T10 Arg2:T11
+R9	Spatial Arg1:T12 Arg2:T13
+R10	PartOf Arg1:T10 Arg2:T12
+R11	PartOf Arg1:T10 Arg2:T14
+R12	Spatial Arg1:T14 Arg2:T15
+R13	Spatial Arg1:T14 Arg2:T16
+#1	AnnotatorNotes R1	介词是in+事物，用ownership标引

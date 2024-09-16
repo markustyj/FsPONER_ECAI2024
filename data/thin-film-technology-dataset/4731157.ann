@@ -1,0 +1,32 @@
+T1	Component 5 27	magnetic material film
+T3	Location 85 110	elongated central portion
+T4	ScientificConcept 120 136	rectilinear axis
+T5	Component 140 144	coil
+T6	Shape 162 169	channel
+T7	Location 188 203	central portion
+T8	Component 245 261	dielectric layer
+T9	Shape 265 279	second channel
+T10	Component 295 311	dielectric layer
+T11	Attribution 321 340	planar lateral edge
+T12	ScientificConcept 357 361	axis
+T13	Location 369 384	central portion
+T14	Component 391 409	thin magnetic film
+T15	Component 426 442	dielectric layer
+T16	Function 470 473	RIE
+T17	Component 492 496	wall
+T18	Attribution 504 516	lateral edge
+T19	Component 522 535	magnetic film
+T20	Attribution 618 630	lateral edge
+T21	Shape 645 659	second channel
+T22	Material 677 707	third hard dielectric material
+T24	Shape 40 66	first wide, closed channel
+R1	Attr Arg1:T3 Arg2:T4
+R2	Manner Arg1:T6 Arg2:T5
+R3	Spatial Arg1:T5 Arg2:T7
+R4	Causitive Arg1:T8 Arg2:T5
+R5	Attr Arg1:T10 Arg2:T11
+R6	Spatial Arg1:T11 Arg2:T12
+R7	Attr Arg1:T13 Arg2:T12
+R8	Oper Arg1:T16 Arg2:T15
+R9	Spatial Arg1:T17 Arg2:T18
+R10	Causitive Arg1:T22 Arg2:T21

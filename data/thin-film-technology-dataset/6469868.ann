@@ -1,0 +1,61 @@
+T1	Attribution 44 59	characteristics
+T2	Component 65 88	thin-film magnetic head
+T3	Attribution 111 120	frequency
+T4	Component 167 190	thin-film magnetic head
+T5	Component 210 239	nonmagnetic conductive member
+T6	Component 279 293	top pole layer
+T7	Component 300 334	induction-type magnetic transducer
+T8	EnergyFlow 350 363	eddy currents
+T9	Component 387 416	nonmagnetic conductive member
+T10	EnergyFlow 422 435	write current
+T11	EnergyFlow 441 454	eddy currents
+T12	EnergyFlow 466 480	magnetic field
+T13	Component 494 509	magnetic layers
+T14	Component 528 557	nonmagnetic conductive member
+T15	Component 581 595	top pole layer
+T16	EnergyFlow 608 621	eddy currents
+T17	Component 643 657	top pole layer
+T18	Component 673 702	nonmagnetic conductive member
+T19	Effect 789 798	reduction
+T20	Attribution 802 811	intensity
+T21	EnergyFlow 817 837	write magnetic field
+T22	EnergyFlow 845 858	eddy currents
+T23	EnergyFlow 891 904	write current
+T24	EnergyFlow 925 945	write magnetic field
+T25	Effect 953 961	decrease
+T26	Attribution 965 973	gradient
+T27	Function 977 981	rise
+T28	EnergyFlow 987 1007	write magnetic field
+T29	Component 9 15	object
+T30	Others 96 100	case
+T31	InfoFlow 124 128	data
+T32	Location 269 273	part
+T33	Function 564 571	contact
+T34	Function 748 758	reductions
+T35	Attribution 762 777	characteristics
+T36	Effect 863 871	increase
+T37	Function 909 919	generation
+T38	Others 1024 1028	time
+T39	Function 875 880	delay
+R1	Attr Arg1:T2 Arg2:T1
+R2	Attr Arg1:T31 Arg2:T3
+R3	PartOf Arg1:T7 Arg2:T6
+R4	PartOf Arg1:T6 Arg2:T32
+R5	Spatial Arg1:T5 Arg2:T32
+R6	PartOf Arg1:T4 Arg2:T5
+R7	Generate Arg1:T9 Arg2:T8
+R8	Generate Arg1:T13 Arg2:T12
+R9	Causitive Arg1:T11 Arg2:T12
+R10	Spatial Arg1:T14 Arg2:T15
+R11	Generate Arg1:T17 Arg2:T16
+R13	Attr Arg1:T21 Arg2:T20
+R14	Purpose Arg1:T22 Arg2:T19
+R15	Oper Arg1:T19 Arg2:T20
+R16	Oper Arg1:T34 Arg2:T35
+R19	Causitive Arg1:T9 Arg2:T10
+R12	Purpose Arg1:T16 Arg2:T18
+R20	Attr Arg1:T24 Arg2:T37
+R18	Attr Arg1:T27 Arg2:T26
+R21	Oper Arg1:T25 Arg2:T26
+R17	Attr Arg1:T28 Arg2:T27
+R22	Oper Arg1:T36 Arg2:T39

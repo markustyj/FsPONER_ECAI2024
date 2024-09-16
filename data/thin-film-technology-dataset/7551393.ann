@@ -1,0 +1,36 @@
+T1	Component 3 22	tape recording head
+T2	Shape 48 77	multiple plane transducer row
+T4	Component 144 153	substrate
+T5	Location 220 229	direction
+T6	Location 251 260	direction
+T7	Function 264 277	linear motion
+T8	Component 285 299	recording tape
+T9	Component 309 323	recording head
+T10	Component 329 358	multiple plane recording head
+T12	Component 399 403	head
+T14	Component 486 497	data tracks
+T15	Component 503 526	magnetic recording tape
+T16	Shape 599 606	spacing
+T18	Location 647 659	single plane
+T19	Attribution 100 106	planes
+T20	Shape 110 127	transducer arrays
+T3	Effect 370 391	significant advantage
+T11	Function 449 469	simultaneous reading
+T21	Function 474 481	writing
+T22	Component 614 641	read (or write) transducers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T20 Arg2:T19
+R3	PartOf Arg1:T2 Arg2:T19
+R4	Spatial Arg1:T20 Arg2:T4
+R5	Oper Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Causitive Arg1:T10 Arg2:T3
+T13	Attribution 413 436	single transducer plane
+R8	Attr Arg1:T12 Arg2:T13
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Oper Arg1:T21 Arg2:T14
+R11	Oper Arg1:T11 Arg2:T14
+R12	Causitive Arg1:T10 Arg2:T11
+R13	Causitive Arg1:T10 Arg2:T21
+R14	Manner Arg1:T18 Arg2:T22
+R15	Attr Arg1:T22 Arg2:T16

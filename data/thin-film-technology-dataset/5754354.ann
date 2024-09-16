@@ -1,0 +1,50 @@
+T1	Component 2 26	magnetic disk drive unit
+T2	Component 38 58	first read amplifier
+T3	Component 75 89	inductive head
+T4	Component 93 114	second read amplifier
+T5	Component 130 152	magneto-resistive head
+T6	Component 156 177	selective output unit
+T7	Function 202 208	output
+T8	Component 216 236	first read amplifier
+T9	Function 243 249	output
+T10	Component 257 278	second read amplifier
+T11	Function 295 310	selected output
+T12	Component 316 327	demodulator
+T13	Component 335 347	control unit
+T14	InfoFlow 364 388	switching control signal
+T15	InfoFlow 403 420	servo information
+T16	Attribution 436 448	data surface
+T17	Material 454 479	magnetic recording medium
+T18	Component 485 497	control unit
+T19	InfoFlow 511 535	switching control signal
+T20	Component 556 577	selective output unit
+T21	Function 591 597	output
+T22	Component 605 625	first read amplifier
+T23	Component 646 660	inductive head
+T24	System 669 681	constitution
+T25	InfoFlow 683 700	servo information
+T27	System 741 785	relatively simple data-surface servo pattern
+T26	Effect 801 841	high-precision off-tracking compensation
+T28	ScientificConcept 722 732	wide range
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Oper Arg1:T7 Arg2:T8
+R7	Oper Arg1:T9 Arg2:T10
+R8	Purpose Arg1:T6 Arg2:T7
+R9	Purpose Arg1:T6 Arg2:T11
+R10	Oper Arg1:T11 Arg2:T12
+R11	Purpose Arg1:T13 Arg2:T14
+R12	PartOf Arg1:T1 Arg2:T13
+R13	PartOf Arg1:T17 Arg2:T16
+R14	Spatial Arg1:T15 Arg2:T16
+R15	Causitive Arg1:T18 Arg2:T19
+R16	Causitive Arg1:T18 Arg2:T20
+R17	Causitive Arg1:T20 Arg2:T21
+R18	Spatial Arg1:T22 Arg2:T23
+R19	Oper Arg1:T21 Arg2:T22
+R20	Causitive Arg1:T27 Arg2:T25
+R21	Manner Arg1:T28 Arg2:T25
+R22	Manner Arg1:T24 Arg2:T25

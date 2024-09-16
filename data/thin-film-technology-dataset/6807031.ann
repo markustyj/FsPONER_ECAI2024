@@ -1,0 +1,49 @@
+T1	Component 2 18	transducing head
+T2	Component 43 58	magnetic layers
+T3	Component 82 97	magnetic layers
+T4	Location 123 137	reader portion
+T5	Component 145 161	transducing head
+T6	Component 189 204	magnetic layers
+T7	Component 220 224	pole
+T8	Location 230 244	writer portion
+T9	Component 252 268	transducing head
+T10	Component 309 324	magnetic layers
+T11	System 340 359	thin film structure
+T12	Component 369 374	first
+T13	Component 411 435	nonmagnetic spacer layer
+T14	Component 443 453	bias layer
+T15	Component 459 471	spacer layer
+T16	Component 498 503	first
+T17	Component 512 539	second ferromagnetic layers
+T18	Component 545 555	bias layer
+T19	Component 583 608	first ferromagnetic layer
+T20	Component 614 640	second ferromagnetic layer
+T23	Component 747 772	first ferromagnetic layer
+T24	ScientificConcept 777 786	easy axis
+T25	Component 794 820	second ferromagnetic layer
+T26	ScientificConcept 853 862	easy axis
+T27	Component 870 895	first ferromagnetic layer
+T28	Component 110 117	shields
+T29	Component 381 407	second ferromagnetic layer
+T30	System 647 680	thickness-magnetic moment product
+T31	System 706 739	thickness-magnetic moment product
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T3 Arg2:T28
+R3	PartOf Arg1:T4 Arg2:T28
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Purpose Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T9 Arg2:T8
+R7	PartOf Arg1:T8 Arg2:T7
+R8	Form Arg1:T11 Arg2:T10
+R9	PartOf Arg1:T11 Arg2:T12
+R10	PartOf Arg1:T11 Arg2:T29
+R11	PartOf Arg1:T11 Arg2:T13
+R12	PartOf Arg1:T11 Arg2:T14
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T18 Arg2:T19
+R15	PartOf Arg1:T20 Arg2:T30
+R16	PartOf Arg1:T23 Arg2:T31
+R17	Comparison Arg1:T30 Arg2:T31
+R18	PartOf Arg1:T25 Arg2:T24
+R19	Spatial Arg1:T24 Arg2:T26
+R20	PartOf Arg1:T27 Arg2:T26

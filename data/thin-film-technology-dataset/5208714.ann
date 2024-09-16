@@ -1,0 +1,78 @@
+T1	Component 3 19	interleaved head
+T2	System 85 110	magnetic recording system
+T3	Component 222 232	tape drive
+T4	Component 321 337	interleaved head
+T6	Shape 634 643	read gaps
+T7	Component 727 743	write transducer
+T8	Component 755 774	thin film conductor
+T11	Component 822 832	pole piece
+T15	Location 1007 1023	back gap regions
+T16	Component 1031 1047	write transducer
+T17	Component 1105 1130	magneto resistive element
+T18	Component 1139 1149	conductors
+T19	Component 1170 1195	magneto resistive element
+T20	Component 68 81	magnetic tape
+T21	Function 119 148	bi-directional transportation
+T22	Material 156 166	tape media
+T23	Component 178 194	interleaved head
+T24	Effect 276 297	bi-directional motion
+T25	Material 305 315	tape media
+T26	Shape 238 257	reel-to-reel format
+T5	Component 398 436	alternating read and write transducers
+T27	Shape 470 481	single line
+T28	Component 523 536	magnetic tape
+T29	Shape 588 598	write gaps
+T30	Component 670 681	read module
+T31	Component 695 720	magneto-resistive element
+T9	Component 785 814	nickel zinc ferrite substrate
+T10	Component 839 864	nickel zinc closure piece
+T12	Component 872 889	second pole piece
+T13	Component 931 948	write transducers
+T14	Component 964 986	write back gap islands
+T32	Component 1229 1239	tape drive
+T33	Attribution 1088 1097	thickness
+T34	Component 198 208	controller
+T35	Component 351 357	module
+T36	Component 369 375	module
+T37	Function 507 515	movement
+T38	Component 546 553	modules
+T39	Component 606 612	module
+T40	Component 657 663	module
+T41	Component 956 962	module
+T42	EnergyFlow 911 919	leveling
+T43	Function 1203 1221	read/write network
+T44	Function 24 60	reading and writing data transitions
+T45	Material 1065 1073	material
+R1	Purpose Arg1:T1 Arg2:T44
+R2	Oper Arg1:T44 Arg2:T20
+R3	Purpose Arg1:T2 Arg2:T21
+R4	Oper Arg1:T21 Arg2:T22
+R5	Spatial Arg1:T22 Arg2:T23
+R6	PartOf Arg1:T4 Arg2:T35
+R7	PartOf Arg1:T36 Arg2:T5
+R8	PartOf Arg1:T30 Arg2:T31
+R9	PartOf Arg1:T7 Arg2:T8
+R10	PartOf Arg1:T41 Arg2:T13
+R11	PartOf Arg1:T16 Arg2:T15
+R12	PartOf Arg1:T15 Arg2:T14
+R13	MadeOf Arg1:T16 Arg2:T45
+R14	Attr Arg1:T16 Arg2:T33
+R15	PartOf Arg1:T32 Arg2:T43
+R16	Spatial Arg1:T19 Arg2:T18
+R17	Spatial Arg1:T18 Arg2:T43
+R18	Manner Arg1:T42 Arg2:T13
+R19	Form Arg1:T9 Arg2:T11
+R20	Form Arg1:T10 Arg2:T12
+R21	Causitive Arg1:T8 Arg2:T9
+R22	Causitive Arg1:T8 Arg2:T10
+R23	PartOf Arg1:T39 Arg2:T29
+R24	PartOf Arg1:T40 Arg2:T6
+R25	Spatial Arg1:T29 Arg2:T6
+R26	Spatial Arg1:T5 Arg2:T27
+R27	Oper Arg1:T37 Arg2:T28
+R28	Manner Arg1:T5 Arg2:T37
+R29	Causitive Arg1:T34 Arg2:T3
+R30	Manner Arg1:T3 Arg2:T26
+R31	Purpose Arg1:T34 Arg2:T24
+R32	Purpose Arg1:T25 Arg2:T24
+#1	AnnotatorNotes T24	为何这个不标注operation？上面bi-directional transportation为operation

@@ -1,0 +1,25 @@
+T1	System 22 54	thin film magnetic head assembly
+T2	Component 92 123	first magnetic pole piece layer
+T3	Component 138 176	nonmagnetic material gap forming layer
+T4	Component 195 211	protective layer
+T5	Material 215 238	etch resistant material
+T6	Component 251 261	insulation
+T7	Component 298 313	conductive coil
+T10	Component 366 381	conductive coil
+T11	Component 403 419	protective layer
+T12	Component 448 458	insulation
+T13	Component 475 492	gap forming layer
+T14	Attribution 554 572	desired gap length
+T15	Component 590 622	second magnetic pole piece layer
+T16	EnergyFlow 657 673	magnetic circuit
+T17	Component 317 343	leveling pad of insulation
+T8	Function 527 543	processing steps
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T17 Arg2:T10
+R7	Spatial Arg1:T11 Arg2:T12
+R8	Oper Arg1:T8 Arg2:T13
+R9	Purpose Arg1:T15 Arg2:T16

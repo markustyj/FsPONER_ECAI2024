@@ -1,0 +1,5 @@
+T2	Component 61 71	MR element
+T3	Component 79 93	thin film head
+T4	Component 2 56	combined transverse and longitudinal biasing conductor
+R1	Purpose Arg1:T4 Arg2:T2
+R2	Purpose Arg1:T4 Arg2:T3

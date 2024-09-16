@@ -1,0 +1,59 @@
+T1	System 5 24	photographic system
+T2	System 152 181	thin film magnetic head array
+T3	Attribution 189 215	nonplanar magnetic surface
+T4	Function 223 236	data transfer
+T5	System 247 255	assembly
+T6	Component 270 276	platen
+T7	Attribution 319 329	film plane
+T8	System 333 352	magnetic head array
+T9	Component 363 395	first and second thin film heads
+T12	Component 423 443	third thin film head
+T13	Component 468 490	first and second heads
+T14	Shape 506 526	equilateral triangle
+T15	Component 547 567	head mounting spring
+T16	Location 581 584	end
+T17	Component 592 598	platen
+T18	Location 612 620	free end
+T19	System 638 657	magnetic head array
+T21	Component 734 749	mounting spring
+T22	Function 759 764	pitch
+T23	Function 769 782	roll movement
+T24	System 790 803	head assembly
+T25	Component 811 825	loading spring
+T26	System 842 861	magnetic head array
+T27	Component 884 908	magnetically coated film
+T29	System 973 1003	three head magnetic head array
+T30	System 126 134	assembly
+T31	Component 97 121	magnetically coated film
+T32	Component 289 313	magnetically coated film
+T10	Location 536 543	centers
+T11	Component 670 694	magnetically coated film
+T20	Attribution 719 729	film plane
+T33	Function 930 937	contact
+R1	PartOf Arg1:T1 Arg2:T31
+R2	PartOf Arg1:T1 Arg2:T30
+R3	PartOf Arg1:T5 Arg2:T6
+R4	Purpose Arg1:T6 Arg2:T32
+R5	Spatial Arg1:T32 Arg2:T7
+R6	PartOf Arg1:T1 Arg2:T8
+R7	PartOf Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T8 Arg2:T12
+R9	PartOf Arg1:T1 Arg2:T15
+R10	PartOf Arg1:T1 Arg2:T25
+R11	Spatial Arg1:T15 Arg2:T16
+R12	Attr Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T12 Arg2:T13
+R14	PartOf Arg1:T10 Arg2:T14
+R15	Form Arg1:T9 Arg2:T14
+R16	Form Arg1:T12 Arg2:T14
+R17	PartOf Arg1:T15 Arg2:T18
+R18	Purpose Arg1:T18 Arg2:T19
+R19	Spatial Arg1:T19 Arg2:T11
+R20	Oper Arg1:T23 Arg2:T24
+R21	Oper Arg1:T22 Arg2:T24
+R22	Purpose Arg1:T25 Arg2:T26
+R23	Spatial Arg1:T26 Arg2:T27
+#2	AnnotatorNotes T21	这语句感觉有点问题，是the film plane of the mounting spring么
+T28	ScientificConcept 948 965	center of gravity
+R24	Attr Arg1:T29 Arg2:T28
+R25	Spatial Arg1:T33 Arg2:T28

@@ -1,0 +1,22 @@
+T1	Component 2 16	thin film head
+T2	Component 30 40	tape drive
+T3	Location 52 64	read portion
+T4	Location 68 81	write portion
+T5	Component 89 125	giant magnetoresistive (GMR) element
+T6	Location 142 154	read portion
+T7	Location 160 183	read and write portions
+T8	Component 191 211	tape bearing surface
+T9	Attribution 215 230	sensing surface
+T10	Component 238 249	GMR element
+T11	Component 271 291	tape bearing surface
+T12	Function 309 324	lapping process
+T13	Material 343 351	material
+R1	PartOf Arg1:T1 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T4
+R3	PartOf Arg1:T1 Arg2:T5
+R4	Spatial Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Attr Arg1:T10 Arg2:T9
+R7	Oper Arg1:T12 Arg2:T9
+R8	MadeOf Arg1:T9 Arg2:T13
+R9	Purpose Arg1:T1 Arg2:T2

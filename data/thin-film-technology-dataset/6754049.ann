@@ -1,0 +1,29 @@
+T2	Component 86 110	additional coil windings
+T3	EnergyFlow 120 127	current
+T4	Location 134 152	opposite direction
+T5	Component 180 184	core
+T6	Effect 190 208	magnetic influence
+T7	Component 216 236	recording transducer
+T8	Component 244 260	sense transducer
+T9	EnergyFlow 291 301	inductance
+T10	Component 309 314	coils
+T11	Component 333 353	recording transducer
+T12	Function 379 403	high-frequency operation
+T13	EnergyFlow 419 432	magnetic flux
+T14	Component 448 453	coils
+T15	Component 477 495	recording pole tip
+T16	Effect 520 542	recording capabilities
+T1	InfoFlow 0 23	Perpendicular recording
+T17	Component 28 64	magnetoresistive sensing transducers
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T17 Arg2:T2
+R3	Generate Arg1:T2 Arg2:T3
+R4	Manner Arg1:T4 Arg2:T3
+R5	Causitive Arg1:T7 Arg2:T8
+R6	Purpose Arg1:T10 Arg2:T11
+R7	Attr Arg1:T10 Arg2:T9
+R8	Purpose Arg1:T9 Arg2:T12
+R9	Purpose Arg1:T13 Arg2:T16
+R10	Causitive Arg1:T14 Arg2:T13
+R11	Causitive Arg1:T15 Arg2:T13
+R12	Purpose Arg1:T7 Arg2:T6

@@ -1,0 +1,43 @@
+T1	Component 17 27	metal film
+T2	Component 61 71	metal film
+T3	Component 126 135	substrate
+T4	Component 236 245	substrate
+T6	Component 289 298	substrate
+T7	Location 323 339	indented portion
+T8	Component 362 371	substrate
+T9	Component 382 392	metal film
+T10	Location 474 490	indented portion
+T11	Component 499 518	magnetic transducer
+T12	Attribution 33 40	surface
+T13	Component 46 55	substrate
+T14	Attribution 111 118	surface
+T15	Location 199 224	required indented portion
+T16	PhysicsFlow 264 271	etchant
+T5	Attribution 347 354	surface
+T17	Attribution 446 451	depth
+T18	Effect 538 561	high degree of accuracy
+T19	Effect 576 585	reduction
+T20	ScientificConcept 640 663	industrial productivity
+T21	Function 95 101	manner
+T22	ScientificConcept 152 159	pattern
+T23	ScientificConcept 184 191	pattern
+T24	Component 398 402	mask
+T25	ScientificConcept 460 467	pattern
+T26	ScientificConcept 589 605	pattern accuracy
+R1	Attr Arg1:T13 Arg2:T12
+R2	Spatial Arg1:T1 Arg2:T12
+R3	Attr Arg1:T3 Arg2:T14
+R4	Attr Arg1:T15 Arg2:T23
+R5	Oper Arg1:T21 Arg2:T2
+R6	Attr Arg1:T14 Arg2:T22
+R7	Causitive Arg1:T16 Arg2:T6
+R8	Form Arg1:T9 Arg2:T24
+R9	Attr Arg1:T8 Arg2:T5
+R10	Form Arg1:T6 Arg2:T7
+R11	PartOf Arg1:T5 Arg2:T7
+R12	Spatial Arg1:T16 Arg2:T4
+R14	Attr Arg1:T10 Arg2:T25
+R15	Attr Arg1:T10 Arg2:T17
+R13	PartOf Arg1:T8 Arg2:T9
+R16	Spatial Arg1:T10 Arg2:T11
+R17	Oper Arg1:T19 Arg2:T26

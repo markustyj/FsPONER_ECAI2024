@@ -1,0 +1,52 @@
+T1	Component 3 34	magnetoresistive (MR) read head
+T2	Component 60 72	shield layer
+T3	Location 80 96	recessed portion
+T4	Location 103 121	protruding portion
+T5	Location 137 153	recessed portion
+T6	Component 175 184	MR sensor
+T7	Location 196 214	vertical alignment
+T8	Location 224 242	protruding portion
+T9	Component 250 262	shield layer
+T10	Component 297 306	gap layer
+T11	Component 336 345	MR sensor
+T12	Component 368 378	gap layers
+T13	Location 400 416	recessed portion
+T14	Component 424 436	shield layer
+T15	Attribution 456 474	combined thickness
+T16	Component 482 492	gap layers
+T17	Component 520 529	MR sensor
+T18	Location 538 556	protruding portion
+T19	Component 564 576	shield layer
+T20	Location 614 630	recessed portion
+T21	Component 638 650	shield layer
+T22	Effect 661 679	optimum insulation
+T24	Consequence 749 774	detrimental ramifications
+T25	Function 778 797	reflective notching
+T26	EnergyFlow 806 824	swing curve effect
+T23	Component 710 726	planar gap layer
+T27	Attribution 727 735	surfaces
+T28	Function 446 452	design
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T4
+R3	PartOf Arg1:T2 Arg2:T3
+R4	Spatial Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	PartOf Arg1:T9 Arg2:T8
+R7	Attr Arg1:T8 Arg2:T7
+R8	Spatial Arg1:T6 Arg2:T8
+R9	PartOf Arg1:T1 Arg2:T10
+R10	Spatial Arg1:T10 Arg2:T11
+R12	PartOf Arg1:T14 Arg2:T13
+R13	Spatial Arg1:T12 Arg2:T13
+R11	Attr Arg1:T16 Arg2:T15
+R14	PartOf Arg1:T19 Arg2:T18
+R15	Spatial Arg1:T17 Arg2:T18
+R16	PartOf Arg1:T21 Arg2:T20
+R17	Attr Arg1:T23 Arg2:T27
+R18	Attr Arg1:T25 Arg2:T24
+R19	Purpose Arg1:T22 Arg2:T24
+R20	Purpose Arg1:T22 Arg2:T26
+#1	AnnotatorNotes R9	跨句子的实体关系不用标引，否则标引工作就太复杂了
+#2	AnnotatorNotes R5	同上
+#3	AnnotatorNotes R7	vertical alignment说的是两个portion以哪种方式/哪种相对位置存在于空间，用manner好些
+#4	AnnotatorNotes R11	这个句子翻译如下：通过这种设计，间隙层的组合厚度在MR传感器和屏蔽层的突出部分附近较薄，而在屏蔽层的凹陷部分附近较厚，从而可以看出，间隙层和屏蔽层的凹陷部分、和MR传感器、屏蔽层的突出部分是临近的，即它们之间存在spatial关系

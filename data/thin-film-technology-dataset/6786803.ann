@@ -1,0 +1,27 @@
+T1	System 3 35	onboard electronic lapping guide
+T2	Component 50 72	magneto-resistive head
+T3	Component 82 114	magneto-resistive sensor element
+T4	Effect 128 152	electrical communication
+T5	Component 168 191	sensor electrical leads
+T6	Component 197 210	lapping guide
+T7	Component 223 265	electronic lapping guide resistive element
+T8	Component 313 336	sensor electrical leads
+T9	Component 342 359	resistive element
+T10	Attribution 366 386	predetermined height
+T11	Location 392 409	lapping direction
+T12	EnergyFlow 439 460	electrical resistance
+T13	EnergyFlow 482 497	lapping current
+T14	Attribution 521 545	resistive element height
+T15	Function 564 571	lapping
+T16	Function 575 589	lapping method
+T17	Component 618 650	onboard electronic lapping guide
+T18	Effect 279 303	electrical communication
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Purpose Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T6 Arg2:T7
+R5	Purpose Arg1:T6 Arg2:T18
+R6	Generate Arg1:T9 Arg2:T12
+R7	Attr Arg1:T9 Arg2:T10
+R8	Manner Arg1:T10 Arg2:T11
+R9	Oper Arg1:T15 Arg2:T14

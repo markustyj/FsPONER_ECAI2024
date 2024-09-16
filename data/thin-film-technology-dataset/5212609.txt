@@ -1,0 +1,1 @@
+A magnetoresistive head is disclosed. It comprises a lower gap film, a magnetoresistive film, a bias film, an electrode, an upper gap film, and upper shield film provided in sequence on a substrate. A protective film is provided under the upper shield film to prevent the upper gap film and electrode from the undesirable etching during patterning the upper shield film.

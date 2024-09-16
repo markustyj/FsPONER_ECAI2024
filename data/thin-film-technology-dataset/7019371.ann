@@ -1,0 +1,53 @@
+T1	Component 3 35	current-in-plane magnetic sensor
+T2	Component 48 60	sensor stack
+T3	Component 71 94	first and second layers
+T4	Material 98 120	ferromagnetic material
+T5	Component 124 146	first nano-oxide layer
+T6	Component 174 185	first layer
+T7	Material 189 211	ferromagnetic material
+T8	Component 219 224	layer
+T9	Material 228 249	non-magnetic material
+T10	Component 273 296	first and second layers
+T11	Material 300 322	ferromagnetic material
+T12	Attribution 336 345	thickness
+T13	Component 353 371	non-magnetic layer
+T14	EnergyFlow 395 421	antiferromagnetic coupling
+T15	Component 434 471	first and second ferromagnetic layers
+T16	EnergyFlow 475 496	magnetic field source
+T17	Function 527 540	magnetization
+T18	Component 548 571	first and second layers
+T19	Material 575 597	ferromagnetic material
+T20	Value 626 635	90.degree
+T21	Component 667 677	first lead
+T22	Location 693 702	first end
+T23	Component 710 722	sensor stack
+T24	Component 730 741	second lead
+T25	Location 757 767	second end
+T26	Component 775 787	sensor stack
+T27	Component 789 800	Disc drives
+T28	Component 814 846	current-in-plane magnetic sensor
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	Spatial Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T1 Arg2:T8
+R6	Spatial Arg1:T8 Arg2:T10
+R7	Spatial Arg1:T8 Arg2:T11
+R8	Attr Arg1:T13 Arg2:T12
+R9	Purpose Arg1:T12 Arg2:T14
+R10	Oper Arg1:T17 Arg2:T18
+R11	Attr Arg1:T23 Arg2:T22
+R12	Attr Arg1:T26 Arg2:T25
+R13	Spatial Arg1:T21 Arg2:T22
+R14	Spatial Arg1:T24 Arg2:T25
+R15	MadeOf Arg1:T3 Arg2:T4
+R16	MadeOf Arg1:T6 Arg2:T7
+R17	Causitive Arg1:T8 Arg2:T9
+R18	MadeOf Arg1:T18 Arg2:T19
+R19	PartOf Arg1:T1 Arg2:T16
+R20	Purpose Arg1:T16 Arg2:T17
+R21	PartOf Arg1:T1 Arg2:T21
+R22	PartOf Arg1:T1 Arg2:T24
+R23	PartOf Arg1:T1 Arg2:T27
+R24	Causitive Arg1:T27 Arg2:T28
+R25	MadeOf Arg1:T10 Arg2:T11

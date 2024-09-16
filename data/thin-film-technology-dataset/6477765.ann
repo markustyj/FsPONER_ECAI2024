@@ -1,0 +1,72 @@
+T1	Component 47 82	thin film magnetic write transducer
+T2	System 91 127	resulting write transducer structure
+T3	Function 156 165	formation
+T4	EnergyFlow 171 182	bottom pole
+T5	Component 190 206	write transducer
+T6	Component 212 222	base layer
+T7	Component 226 235	substrate
+T8	Function 261 270	formation
+T9	Component 276 291	write gap layer
+T10	Component 308 312	coil
+T11	Component 330 351	coil insulating layer
+T12	Component 355 380	thin top pole inner layer
+T13	System 408 424	entire structure
+T14	Component 434 460	thick top pole outer layer
+T15	Component 480 500	top pole inner layer
+T16	Component 518 538	top pole outer layer
+T17	Component 570 586	photoresist mask
+T18	Shape 604 618	top pole shape
+T19	Component 633 653	top pole inner layer
+T20	Component 674 694	top pole outer layer
+T21	Component 700 704	mask
+T22	EnergyFlow 710 718	top pole
+T23	Location 747 765	parallel sidewalls
+T25	Component 825 841	photoresist mask
+T26	Function 849 856	plating
+T27	Component 864 884	top pole outer layer
+T28	Function 889 900	ion milling
+T29	Component 908 928	top pole inner layer
+T30	Effect 938 962	good dimensional control
+T33	Attribution 981 986	width
+T35	EnergyFlow 1019 1027	top pole
+T36	Component 1039 1050	inner layer
+T37	Component 1104 1115	outer layer
+T38	EnergyFlow 1192 1203	bottom pole
+T39	Component 1230 1236	layers
+T40	Component 1253 1268	top pole layers
+T41	Function 293 302	formation
+T42	Function 318 327	formation
+T24	Component 786 812	writing narrow data tracks
+T43	Function 814 817	Use
+T31	EnergyFlow 970 978	top pole
+T32	System 996 1011	layer structure
+T34	Effect 1068 1093	optimal write performance
+T44	Function 1130 1156	fabrication considerations
+R1	Spatial Arg1:T4 Arg2:T6
+R2	Spatial Arg1:T4 Arg2:T7
+R3	Oper Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Oper Arg1:T8 Arg2:T9
+R6	Oper Arg1:T41 Arg2:T10
+R7	Oper Arg1:T42 Arg2:T11
+R8	Spatial Arg1:T12 Arg2:T13
+R9	Spatial Arg1:T14 Arg2:T15
+R10	Causitive Arg1:T17 Arg2:T18
+R11	Form Arg1:T17 Arg2:T16
+R12	Form Arg1:T20 Arg2:T21
+R13	Causitive Arg1:T21 Arg2:T19
+R14	PartOf Arg1:T22 Arg2:T23
+R15	Purpose Arg1:T23 Arg2:T24
+R16	Oper Arg1:T26 Arg2:T27
+R17	Oper Arg1:T28 Arg2:T29
+R18	Oper Arg1:T43 Arg2:T25
+R19	Attr Arg1:T31 Arg2:T33
+R20	Purpose Arg1:T25 Arg2:T30
+R21	Oper Arg1:T30 Arg2:T31
+R22	PartOf Arg1:T35 Arg2:T32
+R23	PartOf Arg1:T32 Arg2:T36
+R24	PartOf Arg1:T32 Arg2:T37
+R25	Purpose Arg1:T36 Arg2:T34
+R26	Purpose Arg1:T37 Arg2:T44
+R27	PartOf Arg1:T38 Arg2:T39
+R28	Causitive Arg1:T39 Arg2:T40

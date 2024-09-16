@@ -1,0 +1,43 @@
+T1	Component 2 17	read/write head
+T2	Component 29 42	bottom shield
+T3	Component 49 62	shared shield
+T4	Component 68 81	shared shield
+T5	EnergyFlow 93 105	first domain
+T6	EnergyFlow 125 140	closure domains
+T7	Component 146 161	read/write head
+T8	Component 178 201	magnetoresistive sensor
+T9	Component 224 243	air bearing surface
+T10	Component 256 269	bottom shield
+T11	Component 278 291	shared shield
+T12	Component 297 320	magnetoresistive sensor
+T13	Component 332 347	magnetoresistor
+T14	EnergyFlow 365 377	first domain
+T15	Material 379 400	Non-magnetic material
+T16	Component 415 438	magnetoresistive sensor
+T17	Component 448 461	bottom shield
+T18	Component 470 483	shared shield
+T19	Component 489 502	shared shield
+T20	Shape 514 528	shaped feature
+T21	Location 545 566	unambiguous direction
+T22	Function 570 583	magnetization
+T23	EnergyFlow 592 604	first domain
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T4 Arg2:T6
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T10 Arg2:T11
+R9	Spatial Arg1:T9 Arg2:T11
+R10	PartOf Arg1:T12 Arg2:T13
+R11	Spatial Arg1:T13 Arg2:T14
+R12	Causitive Arg1:T15 Arg2:T16
+R13	Spatial Arg1:T16 Arg2:T17
+R14	Spatial Arg1:T16 Arg2:T18
+R15	Oper Arg1:T22 Arg2:T23
+R16	Attr Arg1:T22 Arg2:T21
+R17	Purpose Arg1:T20 Arg2:T21
+R18	Attr Arg1:T19 Arg2:T20
+#1	AnnotatorNotes R18	特点不知道算不算属性，答：可以所谓属性
+#2	AnnotatorNotes R2	标得不错！

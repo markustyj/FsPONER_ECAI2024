@@ -1,0 +1,31 @@
+T1	Component 15 34	magnetic transducer
+T2	EnergyFlow 43 67	magnetoresistance effect
+T3	Component 82 103	magnetoresistive film
+T4	Component 107 125	hard magnetic film
+T6	Component 190 205	conductive film
+T7	EnergyFlow 220 227	current
+T8	EnergyFlow 245 278	transverse biasing magnetic field
+T9	Component 286 307	magnetoresistive film
+T10	Component 319 334	conductive film
+T11	Function 352 370	electrical contact
+T12	Function 382 403	electrical insulation
+T13	Component 413 434	magnetoresistive film
+T14	Component 444 463	magnetic transducer
+T15	Attribution 479 486	heights
+T16	EnergyFlow 536 569	transverse biasing magnetic field
+T17	Effect 621 648	optimum bias field strength
+T5	EnergyFlow 141 174	transverse biasing magnetic field
+T18	Component 494 517	respective constituents
+R1	Attr Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Purpose Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Causitive Arg1:T8 Arg2:T9
+R7	Purpose Arg1:T7 Arg2:T8
+R8	Manner Arg1:T6 Arg2:T7
+R9	Oper Arg1:T11 Arg2:T13
+R10	Oper Arg1:T12 Arg2:T13
+R11	Spatial Arg1:T10 Arg2:T13
+R12	Attr Arg1:T18 Arg2:T15
+R13	PartOf Arg1:T14 Arg2:T18

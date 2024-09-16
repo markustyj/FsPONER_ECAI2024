@@ -1,0 +1,36 @@
+T1	Component 22 45	thin film magnetic head
+T2	Component 59 68	pole tips
+T4	Component 166 189	thin film magnetic head
+T5	Component 228 248	first magnetic layer
+T6	Material 300 319	insulating material
+T7	Component 390 404	thin film head
+T8	Component 425 441	photoresist mask
+T11	System 556 569	head assembly
+T12	Component 578 587	pole tips
+T16	Attribution 86 105	predetermined width
+T3	System 137 160	magnetic yoke structure
+T17	Function 210 220	deposition
+T18	Function 272 282	deposition
+T19	Component 290 294	coil
+T20	Component 328 332	coil
+T21	Function 345 355	deposition
+T22	Component 363 384	second magnetic layer
+T23	Location 468 482	specific parts
+T9	Location 490 505	pole tip region
+T10	Function 514 535	ion milling operation
+T24	Attribution 597 616	predetermined width
+T13	Component 622 635	shaping layer
+T14	Component 644 665	second magnetic layer
+T15	System 700 723	magnetic yoke structure
+R1	Attr Arg1:T2 Arg2:T16
+R2	Oper Arg1:T17 Arg2:T5
+R3	Oper Arg1:T18 Arg2:T19
+R4	PartOf Arg1:T20 Arg2:T6
+R5	Oper Arg1:T21 Arg2:T22
+R6	Causitive Arg1:T8 Arg2:T7
+R7	Causitive Arg1:T7 Arg2:T23
+R8	PartOf Arg1:T9 Arg2:T23
+R9	Causitive Arg1:T10 Arg2:T11
+R10	Causitive Arg1:T11 Arg2:T12
+R11	Attr Arg1:T12 Arg2:T24
+R12	PartOf Arg1:T14 Arg2:T13

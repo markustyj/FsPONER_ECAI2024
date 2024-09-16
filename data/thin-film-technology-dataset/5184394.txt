@@ -1,0 +1,1 @@
+A thin film magnetic read/write head deposited upon a magnetic substrate and including a shallow top pole take-off angle reduces leading and trailing undershoots in an isolated pulse signal. The undershoots are reduced by minimizing the magnetic discontinuities across the recording surface of the head, except for the recording gap.

@@ -1,0 +1,32 @@
+T1	Component 26 49	thin-film magnetic head
+T2	PhysicsFlow 95 115	electron beam resist
+T3	EnergyFlow 135 149	electron beams
+T4	Component 170 200	electrically conductive member
+T5	Component 222 243	magnetoresistive film
+T6	Component 255 276	magnetoresistive film
+T7	Component 346 370	magnetoresistive devices
+T8	EnergyFlow 440 454	electron beams
+T9	Component 497 527	electrically conductive member
+T10	EnergyFlow 551 565	electron beams
+T11	Attribution 624 641	writing precision
+T12	Component 661 682	magnetoresistive film
+T13	Function 686 711	electron beam lithography
+T14	Location 396 413	forming positions
+T15	Location 299 327	individual forming positions
+T16	Location 475 482	outside
+T17	Attribution 596 610	rectilinearity
+T18	Function 207 214	contact
+T19	Function 419 430	irradiation
+R1	Causitive Arg1:T2 Arg2:T3
+R2	Oper Arg1:T18 Arg2:T4
+R3	Oper Arg1:T18 Arg2:T5
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T15
+R6	PartOf Arg1:T7 Arg2:T15
+R7	Oper Arg1:T19 Arg2:T8
+T20	EnergyFlow 372 379	charges
+R8	Causitive Arg1:T20 Arg2:T9
+R9	Others Arg1:T20 Arg2:T14
+R10	Attr Arg1:T10 Arg2:T17
+R11	Oper Arg1:T13 Arg2:T12
+R12	Attr Arg1:T12 Arg2:T11

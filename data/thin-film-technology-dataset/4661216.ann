@@ -1,0 +1,30 @@
+T1	Material 28 63	high cobalt magnetic alloy material
+T2	Component 92 107	thin film heads
+T3	Material 113 186	ternary cobalt-nickel-iron (CoNiFe) alloy electroplating bath composition
+T4	Component 198 228	high cobalt magnetic thin film
+T5	Effect 236 265	high saturation magnetization
+T6	EnergyFlow 269 297	magnetostriction coefficient
+T7	Effect 330 344	low coercivity
+T8	Function 369 379	deposition
+T9	Material 387 409	soft magnetic material
+T10	Component 421 435	thin film head
+T11	Value 465 474	14K gauss
+T12	EnergyFlow 543 569	near zero magnetostriction
+T13	Function 77 88	fabrication
+T14	PhysicsFlow 2 6	bath
+T15	ScientificConcept 442 449	4.pi.Ms
+T17	ScientificConcept 476 478	Hc
+T18	Value 492 495	20e
+T19	EnergyFlow 497 518	1-10 MHZ permeability
+T16	Value 527 531	1000
+R1	Oper Arg1:T13 Arg2:T2
+R2	Purpose Arg1:T14 Arg2:T1
+R3	Purpose Arg1:T1 Arg2:T13
+R4	Causitive Arg1:T3 Arg2:T4
+R5	Attr Arg1:T4 Arg2:T5
+R6	Attr Arg1:T4 Arg2:T6
+R7	Attr Arg1:T4 Arg2:T7
+R8	Oper Arg1:T8 Arg2:T9
+R9	Measurement Arg1:T15 Arg2:T11
+R10	Measurement Arg1:T17 Arg2:T18
+R11	Measurement Arg1:T19 Arg2:T16

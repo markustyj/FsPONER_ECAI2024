@@ -1,0 +1,65 @@
+T1	Component 2 29	magnetoresistive transducer
+T2	Component 41 67	magnetoresistive (MR) film
+T3	Component 87 108	domain control layers
+T4	Attribution 119 126	surface
+T5	Component 132 160	lower non-magnetic gap layer
+T6	Component 162 173	Lead layers
+T7	Component 192 213	domain control layers
+T8	Component 218 246	upper non-magnetic gap layer
+T9	Component 254 272	upper shield layer
+T10	Component 316 323	MR film
+T11	Component 332 343	lead layers
+T12	Component 349 367	upper shield layer
+T13	Attribution 386 394	surfaces
+T14	Component 402 412	MR element
+T15	Component 421 432	lead layers
+T16	Shape 438 451	flat boundary
+T17	Function 470 492	residual magnetization
+T18	Component 521 539	upper shield layer
+T19	Location 547 556	direction
+T20	Function 564 577	magnetization
+T21	Component 597 618	domain control layers
+T22	Component 629 647	upper shield layer
+T23	EnergyFlow 674 696	applied magnetic field
+T24	Function 705 718	magnetization
+T25	Component 726 747	domain control layers
+T26	Function 753 775	residual magnetization
+T27	Attribution 809 823	flat interface
+T28	Component 831 849	upper shield layer
+T29	Component 855 869	magnetic poles
+T30	Attribution 901 910	interface
+T31	Component 918 936	upper shield layer
+T32	EnergyFlow 942 965	longitudinal bias field
+T33	Function 1021 1043	residual magnetization
+T34	Component 1051 1069	upper shield layer
+T35	Function 1071 1080	Reduction
+T36	EnergyFlow 1088 1111	longitudinal bias field
+T37	Attribution 455 464	interface
+T38	Function 1002 1013	interaction
+R1	Oper Arg1:T35 Arg2:T36
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Attr Arg1:T5 Arg2:T4
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T2 Arg2:T3
+R6	Spatial Arg1:T3 Arg2:T4
+R7	Spatial Arg1:T8 Arg2:T10
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Spatial Arg1:T8 Arg2:T11
+R10	Spatial Arg1:T9 Arg2:T11
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Attr Arg1:T14 Arg2:T13
+R13	Attr Arg1:T15 Arg2:T13
+R14	Spatial Arg1:T15 Arg2:T37
+R15	Spatial Arg1:T15 Arg2:T16
+R16	Attr Arg1:T20 Arg2:T19
+R17	Attr Arg1:T28 Arg2:T27
+R18	Spatial Arg1:T26 Arg2:T27
+R19	Attr Arg1:T31 Arg2:T30
+R21	Causitive Arg1:T38 Arg2:T34
+R22	Attr Arg1:T33 Arg2:T38
+R23	Oper Arg1:T24 Arg2:T25
+R24	Causitive Arg1:T22 Arg2:T23
+R25	Oper Arg1:T17 Arg2:T18
+R26	Oper Arg1:T20 Arg2:T21
+R20	Causitive Arg1:T32 Arg2:T38
+R27	Manner Arg1:T19 Arg2:T17

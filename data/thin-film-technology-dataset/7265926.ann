@@ -1,0 +1,62 @@
+T1	System 3 33	disk drive data storage system
+T2	Component 48 61	magnetic disk
+T3	Component 64 68	head
+T4	Component 93 97	disk
+T5	EnergyFlow 103 112	circuitry
+T6	EnergyFlow 129 142	first voltage
+T7	Location 154 164	first node
+T8	EnergyFlow 181 195	second voltage
+T9	Location 207 218	second node
+T10	EnergyFlow 234 268	first and second voltage circuitry
+T11	Component 281 297	first transistor
+T12	Attribution 316 326	first type
+T13	Location 346 356	first node
+T14	Component 360 376	first transistor
+T15	Attribution 395 406	second type
+T16	Location 426 437	second node
+T17	Component 441 458	second transistor
+T18	Attribution 479 489	first type
+T19	Location 509 520	second node
+T20	Component 528 545	second transistor
+T21	Attribution 566 577	second type
+T22	Location 597 601	node
+T23	Others 663 680	first time period
+T24	InfoFlow 684 704	first biasing signal
+T25	InfoFlow 718 739	second biasing signal
+T26	EnergyFlow 751 760	circuitry
+T27	Others 785 803	second time period
+T28	InfoFlow 807 827	third biasing signal
+T29	InfoFlow 841 862	fourth biasing signal
+T30	InfoFlow 81 85	data
+T31	System 607 613	system
+T32	EnergyFlow 629 638	circuitry
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T5
+R4	Oper Arg1:T30 Arg2:T4
+R5	Causitive Arg1:T6 Arg2:T7
+R6	Causitive Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T10 Arg2:T14
+R9	PartOf Arg1:T10 Arg2:T17
+R10	PartOf Arg1:T10 Arg2:T20
+R15	Spatial Arg1:T11 Arg2:T13
+R16	Spatial Arg1:T14 Arg2:T16
+R17	Spatial Arg1:T17 Arg2:T19
+R18	Spatial Arg1:T20 Arg2:T22
+R19	PartOf Arg1:T31 Arg2:T32
+R20	PartOf Arg1:T31 Arg2:T26
+R21	Attr Arg1:T24 Arg2:T23
+R22	Attr Arg1:T25 Arg2:T23
+R23	Attr Arg1:T28 Arg2:T27
+R24	Purpose Arg1:T5 Arg2:T6
+R25	Purpose Arg1:T5 Arg2:T8
+R11	Attr Arg1:T11 Arg2:T12
+R12	Attr Arg1:T14 Arg2:T15
+R13	Attr Arg1:T17 Arg2:T18
+R14	Attr Arg1:T20 Arg2:T21
+R26	Generate Arg1:T32 Arg2:T24
+R27	Generate Arg1:T32 Arg2:T25
+R28	Attr Arg1:T29 Arg2:T27
+R29	Generate Arg1:T26 Arg2:T28
+R30	Generate Arg1:T26 Arg2:T29

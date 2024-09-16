@@ -1,0 +1,34 @@
+T1	Component 28 51	thin film magnetic head
+T4	Component 137 167	lower thin film magnetic layer
+T5	Component 183 197	lower pole tip
+T7	Component 271 295	thin film magnetic layer
+T11	Component 441 446	coils
+T12	Component 473 501	top thin film magnetic layer
+T13	Component 521 530	top layer
+T2	Location 105 121	pole tip portion
+T3	Component 129 133	head
+T16	Effect 63 97	improved dimensions and tolerances
+T6	Component 228 238	thin layer
+T17	Component 263 267	head
+T18	Shape 252 255	gap
+T19	Location 326 334	vicinity
+T20	Component 342 350	pole tip
+T8	Component 383 387	head
+T21	Component 426 436	insulation
+T22	Component 544 564	already formed layer
+T14	Component 580 594	top pole piece
+T15	Component 405 422	successive layers
+T10	EnergyFlow 365 375	upper pole
+R1	PartOf Arg1:T3 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T16
+R3	Attr Arg1:T2 Arg2:T16
+R4	PartOf Arg1:T4 Arg2:T5
+R5	Purpose Arg1:T6 Arg2:T18
+R6	Attr Arg1:T17 Arg2:T18
+R7	Causitive Arg1:T7 Arg2:T19
+R8	Causitive Arg1:T19 Arg2:T10
+R9	Spatial Arg1:T20 Arg2:T19
+R10	PartOf Arg1:T8 Arg2:T10
+R11	Attr Arg1:T15 Arg2:T21
+R12	PartOf Arg1:T22 Arg2:T14
+R13	Spatial Arg1:T13 Arg2:T22

@@ -1,0 +1,138 @@
+T1	Component 56 74	improved thin film
+T2	EnergyFlow 88 101	magnetic flux
+T3	Component 134 152	magnetic thin film
+T4	Material 181 183	Fe
+T5	Function 187 206	reactive sputtering
+T6	Material 213 219	N.sub.
+T7	Component 231 240	thin film
+T8	Component 358 372	deposited film
+T11	Effect 574 593	improved coercivity
+T12	EnergyFlow 597 615	higher resistivity
+T13	Value 646 664	.gamma.--Fe.sub.4 N
+T14	EnergyFlow 676 703	expanding lattice constants
+T15	EnergyFlow 788 804	sputtering power
+T17	ScientificConcept 832 841	flow rate
+T19	EnergyFlow 858 872	substrate bias
+T21	Value 926 932	3-4 kW
+T22	Value 944 957	15-30 percent
+T23	Material 961 968	N.sub.2
+T24	Material 992 995	FeX
+T25	Material 1046 1048	Rh
+T26	Material 1050 1052	Ta
+T27	Material 1054 1056	Hf
+T28	Material 1058 1060	Al
+T29	Material 1062 1064	Zr
+T30	Material 1066 1068	Ti
+T31	Material 1070 1072	Ru
+T32	Material 1074 1076	Si
+T33	Material 1078 1080	Cr
+T34	Material 1082 1083	V
+T35	Material 1085 1087	Si
+T36	Material 1089 1091	Sr
+T37	Material 1093 1095	Nb
+T38	Material 1097 1099	Mo
+T39	Material 1101 1103	Ru
+T40	Material 1109 1111	Pd
+T42	Component 1208 1218	FeXN films
+T43	Value 1226 1244	resistivity values
+T44	Value 1264 1280	50 .mu...OMEGA.cm
+T45	Value 1351 1368	coercivity values
+T47	Value 1401 1405	3 Oe
+T49	System 1514 1531	shield structures
+T50	Component 1535 1549	magnetic heads
+T51	Effect 1604 1630	high frequency performance
+T52	Material 253 262	alpha.-Fe
+T53	Material 268 285	gamma.-Fe.sub.4 N
+T54	Material 333 350	gamma.-Fe.sub.4 N
+T55	Value 309 328	relative percentage
+T56	Material 439 448	alpha.-Fe
+T57	Material 458 475	gamma.-Fe.sub.4 N
+T9	ScientificConcept 397 424	expanding lattice constants
+T58	Material 489 506	gamma.-Fe.sub.4 N
+T59	Attribution 517 528	resistivity
+T10	ScientificConcept 545 562	lattice constants
+T60	Value 632 642	percentage
+T61	Material 647 664	gamma.-Fe.sub.4 N
+T62	Material 718 727	alpha.-Fe
+T63	Material 737 754	gamma.-Fe.sub.4 N
+T16	Value 806 828	N.sub.2 gas percentage
+T18	Material 845 852	N.sub.2
+T20	EnergyFlow 895 916	high sputtering power
+T41	Material 1124 1144	expanding .alpha.-Fe
+T64	ScientificConcept 1150 1185	gamma.-Fe.sub.2 N lattice constants
+T65	Value 1264 1280	50 .mu..OMEGA.cm
+T66	Value 1282 1298	80 .mu..OMEGA.cm
+T67	Value 1300 1317	100 .mu..OMEGA.cm
+T68	Value 1319 1336	115 .mu..OMEGA.cm
+T69	Value 1462 1467	12 kG
+T70	Value 1471 1476	17 kG
+T46	Value 1385 1390	10 Oe
+T71	Value 1392 1396	5 Oe
+T48	EnergyFlow 1506 1510	pole
+T72	Function 1554 1566	data storage
+T73	Component 1571 1592	retrieval apparatuses
+T74	Value 1424 1430	values
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Manner Arg1:T4 Arg2:T3
+R3	Oper Arg1:T5 Arg2:T4
+R4	PartOf Arg1:T7 Arg2:T52
+R5	PartOf Arg1:T7 Arg2:T53
+R6	Purpose Arg1:T6 Arg2:T7
+R7	Attr Arg1:T54 Arg2:T55
+R8	PartOf Arg1:T8 Arg2:T54
+R9	Purpose Arg1:T54 Arg2:T9
+R10	Attr Arg1:T56 Arg2:T9
+R11	Attr Arg1:T57 Arg2:T9
+R12	Causitive Arg1:T58 Arg2:T59
+R13	Causitive Arg1:T58 Arg2:T10
+R14	Purpose Arg1:T10 Arg2:T11
+R15	Manner Arg1:T12 Arg2:T11
+R16	Attr Arg1:T61 Arg2:T60
+R17	Purpose Arg1:T61 Arg2:T14
+R18	Attr Arg1:T62 Arg2:T14
+R19	Attr Arg1:T63 Arg2:T14
+R20	Manner Arg1:T15 Arg2:T14
+R21	Manner Arg1:T16 Arg2:T14
+R22	Attr Arg1:T18 Arg2:T17
+R23	Manner Arg1:T18 Arg2:T14
+R24	Manner Arg1:T19 Arg2:T14
+R25	Measurement Arg1:T20 Arg2:T21
+R26	Measurement Arg1:T23 Arg2:T22
+R27	Causitive Arg1:T23 Arg2:T24
+R28	Causitive Arg1:T20 Arg2:T24
+R29	PartOf Arg1:T24 Arg2:T25
+R30	PartOf Arg1:T24 Arg2:T26
+R31	PartOf Arg1:T24 Arg2:T27
+R32	PartOf Arg1:T24 Arg2:T28
+R33	PartOf Arg1:T24 Arg2:T29
+R34	PartOf Arg1:T24 Arg2:T30
+R35	PartOf Arg1:T24 Arg2:T31
+R36	PartOf Arg1:T24 Arg2:T32
+R37	PartOf Arg1:T24 Arg2:T33
+R38	PartOf Arg1:T24 Arg2:T34
+R39	PartOf Arg1:T24 Arg2:T35
+R40	PartOf Arg1:T24 Arg2:T36
+R41	PartOf Arg1:T24 Arg2:T37
+R42	PartOf Arg1:T24 Arg2:T38
+R43	PartOf Arg1:T24 Arg2:T39
+R44	PartOf Arg1:T24 Arg2:T40
+R45	Purpose Arg1:T24 Arg2:T41
+R46	Purpose Arg1:T24 Arg2:T64
+R47	Attr Arg1:T42 Arg2:T43
+R48	Measurement Arg1:T43 Arg2:T65
+R49	Measurement Arg1:T43 Arg2:T66
+R50	Measurement Arg1:T43 Arg2:T67
+R51	Measurement Arg1:T43 Arg2:T68
+R52	Attr Arg1:T42 Arg2:T45
+R53	Measurement Arg1:T45 Arg2:T46
+R54	Measurement Arg1:T45 Arg2:T71
+R55	Measurement Arg1:T45 Arg2:T47
+R56	Attr Arg1:T42 Arg2:T74
+R57	Measurement Arg1:T74 Arg2:T69
+R58	Measurement Arg1:T74 Arg2:T70
+R59	PartOf Arg1:T50 Arg2:T49
+R60	PartOf Arg1:T50 Arg2:T48
+R61	Oper Arg1:T72 Arg2:T50
+R62	PartOf Arg1:T50 Arg2:T73
+R63	Purpose Arg1:T73 Arg2:T51
+R64	Purpose Arg1:T72 Arg2:T51

@@ -1,0 +1,51 @@
+T1	Component 70 83	helical coils
+T2	Component 94 118	magnetic recording heads
+T3	Component 137 161	magnetic recording heads
+T4	System 172 193	bottom coil structure
+T5	System 197 215	top coil structure
+T6	System 221 242	connecting structures
+T7	System 273 303	top and bottom coil structures
+T8	Component 307 321	test component
+T9	Component 343 348	wafer
+T10	Component 364 388	magnetic recording heads
+T11	Component 394 408	test component
+T12	System 420 441	bottom coil structure
+T13	System 478 496	top coil structure
+T14	System 561 582	bottom coil structure
+T15	System 603 633	top and bottom coil structures
+T16	Component 694 706	helical coil
+T17	EnergyFlow 729 739	resistance
+T18	System 747 768	connecting structures
+T19	Component 776 788	helical coil
+T20	EnergyFlow 825 835	resistance
+T21	System 843 864	bottom coil structure
+T22	EnergyFlow 870 880	resistance
+T23	System 888 906	top coil structure
+T24	EnergyFlow 916 932	total resistance
+T25	Component 940 952	helical coil
+T26	EnergyFlow 55 66	resistances
+T27	Component 120 133	Helical coils
+T28	EnergyFlow 584 595	Resistances
+T29	Component 654 668	test component
+T30	EnergyFlow 672 688	total resistance
+T32	Component 1 28	Test methods and components
+R1	Purpose Arg1:T32 Arg2:T26
+R2	Attr Arg1:T1 Arg2:T26
+R3	Spatial Arg1:T1 Arg2:T2
+R4	PartOf Arg1:T27 Arg2:T4
+R5	PartOf Arg1:T27 Arg2:T5
+R6	PartOf Arg1:T27 Arg2:T6
+R7	Spatial Arg1:T6 Arg2:T7
+R8	Spatial Arg1:T8 Arg2:T9
+R10	PartOf Arg1:T11 Arg2:T12
+R11	PartOf Arg1:T11 Arg2:T13
+R12	Others Arg1:T13 Arg2:T14
+R13	Attr Arg1:T15 Arg2:T28
+R14	Attr Arg1:T16 Arg2:T30
+R15	Attr Arg1:T18 Arg2:T17
+R16	Attr Arg1:T21 Arg2:T20
+R17	Attr Arg1:T23 Arg2:T22
+R18	Attr Arg1:T25 Arg2:T24
+R19	Spatial Arg1:T10 Arg2:T9
+R20	Spatial Arg1:T18 Arg2:T19
+R9	Spatial Arg1:T27 Arg2:T3

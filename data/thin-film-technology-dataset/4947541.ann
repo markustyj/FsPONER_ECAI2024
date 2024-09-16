@@ -1,0 +1,69 @@
+T1	Component 2 12	lower core
+T3	Component 60 75	protection film
+T5	Component 145 155	lower core
+T6	Component 206 221	protection film
+T7	Component 246 256	lower core
+T8	Component 296 311	protection film
+T9	Component 328 338	lower core
+T11	Component 431 446	protection film
+T12	Component 455 465	lower core
+T14	Component 522 531	gap layer
+T15	Component 570 585	protection film
+T16	Component 615 625	upper core
+T17	Shape 643 649	recess
+T18	Component 660 670	lower core
+T19	Component 678 687	gap layer
+T20	Component 754 764	upper core
+T21	Component 785 795	lower core
+T23	Component 934 944	lower core
+T24	Component 1024 1034	lower core
+T25	Component 1117 1127	upper core
+T27	Attribution 30 37	surface
+T28	Component 43 48	wafer
+T2	Effect 105 127	lower ion milling rate
+T4	Component 184 194	lower core
+T29	Component 267 271	film
+T30	Attribution 281 288	surface
+T31	Component 502 512	lower core
+T32	Shape 485 491	recess
+T13	Attribution 549 557	surfaces
+T33	Component 594 603	lower cor
+T34	EnergyFlow 742 746	pole
+T35	EnergyFlow 773 777	pole
+T36	Location 1097 1109	surplus part
+T37	Effect 1156 1175	read/write function
+T38	Component 1181 1185	head
+T39	Component 1226 1241	adjacent tracks
+T26	Component 1338 1359	upper and lower cores
+T40	Consequence 1187 1197	cross-talk
+T41	Component 1280 1290	upper core
+T42	EnergyFlow 1301 1325	magnetic shortcircuiting
+T43	Material 376 385	ion beams
+T10	Effect 866 886	constant track width
+T22	Function 895 910	mass production
+T44	Function 1243 1261	Conducting milling
+R1	Attr Arg1:T28 Arg2:T27
+R2	Spatial Arg1:T1 Arg2:T27
+R3	Attr Arg1:T5 Arg2:T2
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Spatial Arg1:T7 Arg2:T29
+R6	Purpose Arg1:T6 Arg2:T7
+R7	Attr Arg1:T8 Arg2:T30
+R8	Attr Arg1:T9 Arg2:T30
+R9	Purpose Arg1:T43 Arg2:T11
+R10	Purpose Arg1:T43 Arg2:T12
+R11	PartOf Arg1:T31 Arg2:T32
+R12	Attr Arg1:T15 Arg2:T13
+R13	Attr Arg1:T33 Arg2:T13
+R14	Spatial Arg1:T14 Arg2:T13
+R15	Spatial Arg1:T19 Arg2:T18
+R16	Spatial Arg1:T19 Arg2:T16
+R17	PartOf Arg1:T18 Arg2:T17
+R18	Spatial Arg1:T16 Arg2:T17
+R19	PartOf Arg1:T20 Arg2:T34
+R20	PartOf Arg1:T21 Arg2:T35
+R21	Attr Arg1:T23 Arg2:T10
+R23	PartOf Arg1:T25 Arg2:T36
+R24	Attr Arg1:T38 Arg2:T37
+R25	Generate Arg1:T26 Arg2:T42
+R26	Purpose Arg1:T44 Arg2:T42

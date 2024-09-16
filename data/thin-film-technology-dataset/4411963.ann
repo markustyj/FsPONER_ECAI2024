@@ -1,0 +1,60 @@
+T1	Component 2 11	thin film
+T2	Material 15 42	magnetic recording material
+T3	Component 71 81	base layer
+T4	Material 85 89	gold
+T5	Material 94 102	tantalum
+T6	Component 108 126	polished substrate
+T7	Component 130 146	protective layer
+T8	Material 150 154	gold
+T9	Material 159 167	tantalum
+T10	Component 196 219	magnetic recording film
+T11	Component 223 244	solid lubricant layer
+T12	Material 253 259	carbon
+T13	Material 287 295	graphite
+T14	Material 297 301	gold
+T15	Material 303 309	silver
+T16	Material 311 314	tin
+T17	Material 316 336	molybdenum disulfide
+T18	Material 342 360	tungsten disulfide
+T19	Component 405 421	protective layer
+T20	Function 432 436	wear
+T21	Location 442 470	recording contacting portion
+T22	Component 478 492	recording head
+T23	Material 520 544	solid lubricant material
+T25	Material 590 598	tantalum
+T26	Material 600 607	niobium
+T27	Material 609 617	tungsten
+T28	Material 622 630	nitrides
+T29	Component 698 715	recording members
+T30	Component 721 727	layers
+T31	Component 769 794	evacuated sputter chamber
+T32	Component 808 824	recording layers
+T33	Material 829 848	protective coatings
+T34	Function 865 883	continuous process
+T35	Component 903 907	pump
+T36	Material 385 388	ion
+T24	Material 552 581	suitable protective materials
+T37	Material 635 643	carbides
+T38	Material 652 658	metals
+R1	MadeOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T3 Arg2:T4
+R3	MadeOf Arg1:T3 Arg2:T5
+R4	Spatial Arg1:T3 Arg2:T6
+R5	Spatial Arg1:T1 Arg2:T3
+R6	MadeOf Arg1:T7 Arg2:T8
+R7	MadeOf Arg1:T7 Arg2:T9
+R8	Spatial Arg1:T7 Arg2:T10
+R10	Spatial Arg1:T11 Arg2:T19
+R9	MadeOf Arg1:T11 Arg2:T12
+R11	Purpose Arg1:T11 Arg2:T20
+R12	PartOf Arg1:T22 Arg2:T21
+R13	Causitive Arg1:T23 Arg2:T21
+R14	InstanceOf Arg1:T25 Arg2:T24
+R15	InstanceOf Arg1:T26 Arg2:T24
+R16	InstanceOf Arg1:T27 Arg2:T24
+R17	InstanceOf Arg1:T28 Arg2:T24
+R18	Attr Arg1:T38 Arg2:T37
+R19	InstanceOf Arg1:T37 Arg2:T24
+R20	PartOf Arg1:T31 Arg2:T30
+R21	Manner Arg1:T34 Arg2:T32
+R22	Manner Arg1:T34 Arg2:T33

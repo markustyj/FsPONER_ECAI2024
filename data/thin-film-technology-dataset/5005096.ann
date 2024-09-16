@@ -1,0 +1,28 @@
+T1	Component 2 39	magnetoresistive (MR) read transducer
+T2	Component 54 62	MR layer
+T3	Location 70 89	passive end regions
+T4	Location 105 126	central active region
+T5	EnergyFlow 130 147	longitudinal bias
+T6	Component 165 174	thin film
+T7	Material 178 200	hard magnetic material
+T8	Location 208 219	end regions
+T9	Component 234 243	thin film
+T10	Material 247 269	hard magnetic material
+T11	Component 289 297	MR layer
+T12	Component 303 327	nonmagnetic spacer layer
+T13	EnergyFlow 338 369	magnetostatic longitudinal bias
+T15	Location 409 428	passive end regions
+T16	Component 436 444	MR layer
+T17	State 450 462	stable state
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T7 Arg2:T6
+R5	PartOf Arg1:T8 Arg2:T7
+R6	Causitive Arg1:T6 Arg2:T5
+R7	PartOf Arg1:T10 Arg2:T9
+R8	Spatial Arg1:T9 Arg2:T11
+R9	Spatial Arg1:T9 Arg2:T12
+R10	Purpose Arg1:T13 Arg2:T15
+R11	PartOf Arg1:T16 Arg2:T15
+R12	Manner Arg1:T17 Arg2:T15

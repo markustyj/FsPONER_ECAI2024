@@ -1,0 +1,1 @@
+A thin film magnetic read/write head is electrically grounded. The pole pieces or core of the thin film head is electrically connected to the base substrate of the thin film head. Electrical connection is through a conductive stud extending through a base coat layer and sandwiched between the core and the base substrate of the thin film magnetic read/write head.

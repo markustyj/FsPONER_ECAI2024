@@ -1,0 +1,17 @@
+T3	Component 54 72	magnetic substrate
+T5	Attribution 273 290	recording surface
+T1	Component 2 36	thin film magnetic read/write head
+T2	Function 129 161	leading and trailing undershoots
+T6	InfoFlow 168 189	isolated pulse signal
+T7	Function 195 206	undershoots
+T8	EnergyFlow 237 261	magnetic discontinuities
+T9	Component 298 302	head
+T10	Shape 319 332	recording gap
+T4	Measure 89 120	shallow top pole take-off angle
+R1	Attr Arg1:T9 Arg2:T5
+R2	Spatial Arg1:T8 Arg2:T5
+R3	Purpose Arg1:T8 Arg2:T7
+R4	Spatial Arg1:T1 Arg2:T3
+R5	PartOf Arg1:T1 Arg2:T4
+R6	Oper Arg1:T2 Arg2:T6
+R7	Purpose Arg1:T1 Arg2:T2

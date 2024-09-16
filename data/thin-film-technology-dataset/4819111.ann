@@ -1,0 +1,35 @@
+T1	Component 2 35	thin film magnetic recording head
+T2	Shape 42 51	flux path
+T4	Location 110 124	throat section
+T5	EnergyFlow 132 144	leading pole
+T6	EnergyFlow 164 177	trailing pole
+T7	EnergyFlow 194 215	stray magnetic fields
+T8	Location 233 237	area
+T9	ScientificConcept 248 258	saturation
+T10	System 301 327	just-recorded data pattern
+T11	Material 335 341	medium
+T12	EnergyFlow 353 365	leading pole
+T13	System 402 414	data pattern
+T14	EnergyFlow 445 458	trailing pole
+T15	Location 505 523	cross section area
+T16	Shape 531 540	flux path
+T17	Location 548 575	leading pole throat section
+T18	Location 604 630	minimum cross section area
+T19	EnergyFlow 655 667	leading pole
+T20	EnergyFlow 678 691	trailing pole
+T21	Location 699 713	throat section
+T3	EnergyFlow 76 95	magnetic saturation
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T5 Arg2:T4
+R3	Manner Arg1:T4 Arg2:T3
+R4	Manner Arg1:T6 Arg2:T3
+R5	PartOf Arg1:T9 Arg2:T8
+R6	Generate Arg1:T8 Arg2:T7
+R7	PartOf Arg1:T11 Arg2:T10
+R8	Spatial Arg1:T12 Arg2:T14
+R9	Attr Arg1:T16 Arg2:T15
+R10	PartOf Arg1:T17 Arg2:T16
+R11	Comparison Arg1:T15 Arg2:T18
+R12	Attr Arg1:T19 Arg2:T18
+R13	Attr Arg1:T20 Arg2:T18
+R14	InstanceOf Arg1:T17 Arg2:T21

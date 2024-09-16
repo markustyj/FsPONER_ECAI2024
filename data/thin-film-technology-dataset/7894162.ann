@@ -1,0 +1,30 @@
+T1	Component 3 33	slider mounted read/write head
+T4	Shape 106 111	ridge
+T5	Attribution 128 145	interfacial plane
+T6	Attribution 169 178	ABS plane
+T7	Component 186 192	slider
+T8	Shape 198 203	ridge
+T9	Function 227 242	lapping process
+T10	Component 269 284	read/write head
+T11	Component 297 313	slider substrate
+T13	Component 366 377	strong base
+T14	Attribution 395 401	height
+T15	Shape 409 414	ridge
+T17	Value 428 446	approximately 2 nm
+T2	Function 78 100	head-disk interactions
+T3	PhysicsFlow 326 341	abrasive slurry
+T12	Material 386 389	KOH
+T16	EnergyFlow 52 70	thermal asperities
+R1	Attr Arg1:T7 Arg2:T6
+R2	Spatial Arg1:T6 Arg2:T5
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Causitive Arg1:T1 Arg2:T16
+R5	Oper Arg1:T2 Arg2:T4
+R6	Spatial Arg1:T10 Arg2:T11
+R7	Oper Arg1:T9 Arg2:T10
+R8	Oper Arg1:T9 Arg2:T8
+R9	Causitive Arg1:T8 Arg2:T3
+R10	Measurement Arg1:T14 Arg2:T17
+R11	Attr Arg1:T15 Arg2:T14
+R12	InstanceOf Arg1:T12 Arg2:T13
+R13	Causitive Arg1:T3 Arg2:T13

@@ -1,0 +1,40 @@
+T2	Component 38 68	thin film magnetic transducers
+T3	Component 104 124	magnetic transducers
+T5	Component 266 277	beam member
+T6	Component 313 324	beam member
+T7	Component 428 447	pressure transducer
+T8	EnergyFlow 486 496	resistance
+T9	Component 512 523	MR elements
+T11	Component 601 621	pressure transducers
+T1	System 2 24	lapping control system
+T13	Component 81 90	substrate
+T14	Component 137 166	magnetoresistive (MR) element
+T4	Shape 218 241	elongated H-shaped slot
+T15	Attribution 251 255	edge
+T16	Component 198 204	holder
+T17	ScientificConcept 360 393	substantially quadratic curvature
+T18	Component 469 480	beam member
+T10	InfoFlow 558 572	control signal
+T12	Component 703 721	desired MR element
+T19	Attribution 722 728	height
+T20	ScientificConcept 412 420	pressure
+T21	Function 646 668	proper BALANCE and BOW
+T22	Location 455 461	middle
+T23	Shape 176 179	row
+T24	Shape 293 296	row
+R1	Purpose Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T13
+R3	PartOf Arg1:T3 Arg2:T14
+R4	Spatial Arg1:T23 Arg2:T16
+R5	PartOf Arg1:T16 Arg2:T4
+R6	Manner Arg1:T15 Arg2:T4
+R8	Form Arg1:T16 Arg2:T5
+R9	Spatial Arg1:T5 Arg2:T24
+R10	Manner Arg1:T17 Arg2:T6
+R11	Attr Arg1:T18 Arg2:T22
+R12	Attr Arg1:T7 Arg2:T20
+R13	PartOf Arg1:T18 Arg2:T7
+R14	Attr Arg1:T9 Arg2:T8
+R15	Attr Arg1:T12 Arg2:T19
+R16	Purpose Arg1:T10 Arg2:T11
+R17	Purpose Arg1:T11 Arg2:T21

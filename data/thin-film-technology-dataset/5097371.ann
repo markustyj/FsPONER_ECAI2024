@@ -1,0 +1,45 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 38 51	magnetic yoke
+T3	Component 59 91	first and second flux conductors
+T4	Component 105 131	magneto-resistance element
+T5	Attribution 161 170	head face
+T6	Location 179 191	edge portion
+T7	Component 204 230	magneto-resistance element
+T8	Attribution 260 269	head face
+T9	Location 281 300	second edge portion
+T10	Component 311 331	first flux conductor
+T11	Attribution 353 362	head face
+T12	Location 383 401	first edge portion
+T13	Component 415 436	second flux conductor
+T15	Location 484 503	second edge portion
+T16	Component 514 527	magnetic head
+T17	Component 552 572	third flux conductor
+T18	Attribution 600 609	head face
+T19	Location 629 640	end portion
+T20	Component 653 673	first flux conductor
+T21	Location 695 713	first edge portion
+T22	Shape 722 737	transducing gap
+T23	Component 750 767	inductive element
+T24	Component 796 801	first
+T25	Component 810 831	third flux conductors
+T26	Attribution 458 467	head face
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	Manner Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T7 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T8
+R7	Comparison Arg1:T6 Arg2:T9
+R8	PartOf Arg1:T16 Arg2:T17
+R9	Spatial Arg1:T22 Arg2:T24
+R10	Spatial Arg1:T22 Arg2:T25
+R11	Spatial Arg1:T23 Arg2:T24
+R12	Spatial Arg1:T23 Arg2:T25
+R13	Spatial Arg1:T10 Arg2:T11
+R14	Spatial Arg1:T10 Arg2:T12
+R15	Spatial Arg1:T13 Arg2:T26
+R16	Spatial Arg1:T13 Arg2:T15
+R17	Spatial Arg1:T17 Arg2:T18
+R18	Spatial Arg1:T18 Arg2:T19
+R19	PartOf Arg1:T20 Arg2:T19
+R20	Spatial Arg1:T19 Arg2:T21

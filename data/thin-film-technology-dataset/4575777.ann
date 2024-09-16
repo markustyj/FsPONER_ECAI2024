@@ -1,0 +1,45 @@
+T1	Component 2 41	magnetic recording and reproducing head
+T2	Function 62 94	perpendicular magnetization mode
+T4	Material 141 166	magnetic recording medium
+T5	Component 172 176	head
+T6	Component 186 210	first and second members
+T7	Shape 242 245	gap
+T8	Material 273 284	said medium
+T9	Component 301 313	first member
+T10	Component 325 338	magnetic pole
+T11	Component 342 375	high permeable magnetic thin film
+T12	Component 385 388	tip
+T13	Material 405 411	medium
+T14	Component 415 425	first coil
+T15	Component 446 455	thin film
+T16	Component 464 477	second member
+T17	Component 489 500	second coil
+T18	Component 506 509	tip
+T19	Component 517 526	thin film
+T20	Component 537 548	second coil
+T21	Component 554 567	second member
+T22	Component 576 587	second coil
+T23	Component 592 601	thin film
+T24	Component 637 646	thin film
+T25	Component 651 661	first coil
+R1	PartOf Arg1:T5 Arg2:T6
+R2	PartOf Arg1:T9 Arg2:T10
+R3	Spatial Arg1:T12 Arg2:T13
+R4	Spatial Arg1:T14 Arg2:T15
+R5	PartOf Arg1:T16 Arg2:T17
+R6	Oper Arg1:T2 Arg2:T1
+R7	Causitive Arg1:T8 Arg2:T7
+R8	Causitive Arg1:T6 Arg2:T7
+R9	PartOf Arg1:T11 Arg2:T10
+R10	PartOf Arg1:T11 Arg2:T12
+R11	PartOf Arg1:T19 Arg2:T18
+R12	Spatial Arg1:T18 Arg2:T20
+R13	PartOf Arg1:T21 Arg2:T22
+R14	PartOf Arg1:T21 Arg2:T23
+T3	Effect 615 624	recording
+T26	Effect 675 686	reproducing
+R15	Purpose Arg1:T25 Arg2:T26
+R16	Purpose Arg1:T24 Arg2:T26
+R17	Purpose Arg1:T23 Arg2:T3
+R18	Purpose Arg1:T22 Arg2:T3
+R19	Purpose Arg1:T21 Arg2:T3

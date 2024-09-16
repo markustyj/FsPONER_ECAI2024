@@ -1,0 +1,29 @@
+T1	Component 2 25	magnetoresistive sensor
+T3	Component 80 102	magnetoresistive layer
+T4	Component 122 138	permanent magnet
+T6	Component 210 232	magnetoresistive layer
+T10	Component 460 476	permanent magnet
+T12	Component 547 569	magnetoresistive layer
+T2	Effect 38 68	permanent magnet stabilization
+T5	Component 157 190	first and second current contacts
+T7	Location 245 266	active sensing region
+T13	Attribution 281 296	first thickness
+T8	Location 315 333	under layer region
+T9	Location 353 376	each under layer region
+T14	Attribution 399 415	second thickness
+T15	Attribution 438 453	first thickness
+T11	Location 508 526	under layer region
+T16	Location 656 669	active region
+T17	Component 584 609	first and second contacts
+R1	PartOf Arg1:T1 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T4
+R3	PartOf Arg1:T1 Arg2:T5
+R4	Purpose Arg1:T1 Arg2:T2
+R5	Comparison Arg1:T14 Arg2:T15
+R6	PartOf Arg1:T6 Arg2:T7
+R7	Attr Arg1:T7 Arg2:T13
+R8	PartOf Arg1:T6 Arg2:T8
+R9	Attr Arg1:T8 Arg2:T14
+R10	PartOf Arg1:T12 Arg2:T11
+R11	Spatial Arg1:T10 Arg2:T11
+R12	Causitive Arg1:T17 Arg2:T16

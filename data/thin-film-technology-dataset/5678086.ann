@@ -1,0 +1,79 @@
+T5	Component 330 339	MOF layer
+T9	ScientificConcept 558 580	sixth order polynomial
+T10	Shape 607 616	base line
+T16	ScientificConcept 732 754	sixth order polynomial
+T22	EnergyFlow 968 992	electrical lapping guide
+T23	Component 1013 1022	substrate
+T25	Component 1058 1080	magnetic head elements
+T30	EnergyFlow 1234 1258	electrical lapping guide
+T1	System 0 63	Magnetic recording and reproducing linear thin film head arrays
+T2	InfoFlow 111 122	information
+T3	Component 128 157	magnetics-on-film (MOF) layer
+T4	Effect 274 289	high compliance
+T6	ScientificConcept 179 202	photographic filmstrips
+T33	System 222 235	configuration
+T34	Effect 299 325	relatively stiff filmstrip
+T35	Component 252 262	such heads
+T36	Function 240 248	mounting
+T37	ScientificConcept 410 419	filmstrip
+T38	Location 165 175	image area
+T32	System 354 388	other filmstrip handling apparatus
+T39	Others 343 350	cameras
+T40	Function 445 464	film transport path
+T7	ScientificConcept 470 479	filmstrip
+T41	ScientificConcept 490 517	convex cross film curvature
+T8	Location 525 539	MOF layer side
+T42	ScientificConcept 588 598	even terms
+T11	Component 639 660	thin film head layers
+T12	Component 692 708	linear substrate
+T15	Function 625 635	deposition
+T43	ScientificConcept 762 772	even terms
+T44	Function 785 795	deposition
+T17	Component 803 819	thin film layers
+T13	Component 664 673	each head
+T14	System 681 686	array
+T18	System 825 842	linear head array
+T19	ScientificConcept 860 880	cross film curvature
+T20	Attribution 890 910	lapped head surfaces
+T21	Shape 932 941	base line
+T45	System 1042 1054	linear array
+T24	Shape 1089 1098	base line
+T26	Attribution 1112 1137	head element layer height
+T27	Function 1159 1186	head fabrication processing
+T28	Effect 1205 1226	electrical resistance
+T29	ScientificConcept 1281 1297	convex curvature
+T31	Attribution 1305 1317	head surface
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T6 Arg2:T38
+R3	PartOf Arg1:T38 Arg2:T3
+R4	Oper Arg1:T36 Arg2:T35
+R5	Oper Arg1:T33 Arg2:T35
+R6	Purpose Arg1:T33 Arg2:T4
+R7	Purpose Arg1:T36 Arg2:T4
+R9	PartOf Arg1:T32 Arg2:T5
+#1	AnnotatorNotes T34	不是很理解with的关系
+R8	Oper Arg1:T40 Arg2:T7
+R10	Attr Arg1:T8 Arg2:T41
+R11	Others Arg1:T9 Arg2:T42
+R12	Oper Arg1:T15 Arg2:T11
+R13	PartOf Arg1:T13 Arg2:T11
+R14	PartOf Arg1:T14 Arg2:T13
+R16	Others Arg1:T9 Arg2:T41
+#2	AnnotatorNotes R16	不确定
+#3	AnnotatorNotes R11	不确定
+R17	Others Arg1:T16 Arg2:T10
+#4	AnnotatorNotes R17	同上
+R18	Others Arg1:T16 Arg2:T43
+#5	AnnotatorNotes R18	同上
+R19	Oper Arg1:T44 Arg2:T17
+R20	Spatial Arg1:T20 Arg2:T21
+R21	Attr Arg1:T18 Arg2:T19
+#6	AnnotatorNotes R21	同上
+R22	Spatial Arg1:T22 Arg2:T23
+R23	Oper Arg1:T27 Arg2:T26
+R24	Manner Arg1:T28 Arg2:T27
+R25	Attr Arg1:T30 Arg2:T28
+R26	Attr Arg1:T31 Arg2:T29
+R27	PartOf Arg1:T25 Arg2:T45
+R28	PartOf Arg1:T24 Arg2:T45
+R15	Spatial Arg1:T12 Arg2:T11

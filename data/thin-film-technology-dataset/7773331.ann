@@ -1,0 +1,51 @@
+T1	EnergyFlow 5 33	optimum head-field intensity
+T3	Attribution 136 157	recording track width
+T4	Material 164 192	information recording medium
+T5	Value 218 223	60 nm
+T8	Attribution 461 482	recording track width
+T9	EnergyFlow 523 537	magnetic field
+T10	EnergyFlow 574 587	magnetic pole
+T11	Location 630 636	center
+T12	Material 644 672	information recording medium
+T13	Location 680 689	direction
+T14	Attribution 697 706	thickness
+T15	Component 808 812	head
+T16	Material 821 827	medium
+T17	Location 835 843	position
+T18	Component 851 855	head
+T21	Value 76 98	560.times.10.sup.3 A/m
+T2	EnergyFlow 38 58	saturation recording
+T22	Value 310 356	Y.gtoreq.(X.sup.2-119.times.X+4135).times.1000
+T23	Value 361 408	Y.ltoreq.(X.sup.2-119.times.X+const).times.1000
+T24	ScientificConcept 433 453	nondimensional value
+T7	Value 494 505	10.sup.-9 m
+T25	ScientificConcept 552 557	units
+T26	Function 592 614	head-field application
+T27	Value 726 768	const=-0.8.times.v.sup.2+33.7.times.v+4250
+T19	Value 869 877	20 m/sec
+T28	Value 882 892	const=4600
+T29	ScientificConcept 776 793	relative velocity
+T30	ScientificConcept 900 908	velocity
+T20	Value 936 944	20 m/sec
+T6	EnergyFlow 229 257	optimum head-field intensity
+T31	ScientificConcept 561 564	A/m
+R1	Measurement Arg1:T1 Arg2:T21
+R2	Attr Arg1:T2 Arg2:T1
+R3	Attr Arg1:T4 Arg2:T3
+R4	Measurement Arg1:T4 Arg2:T5
+R5	Measurement Arg1:T6 Arg2:T22
+R6	Measurement Arg1:T6 Arg2:T23
+R7	Attr Arg1:T8 Arg2:T24
+R8	Manner Arg1:T13 Arg2:T12
+R9	Measurement Arg1:T18 Arg2:T19
+R11	Measurement Arg1:T30 Arg2:T20
+R12	Measurement Arg1:T24 Arg2:T7
+R13	InstanceOf Arg1:T31 Arg2:T25
+R14	Attr Arg1:T9 Arg2:T25
+R15	Spatial Arg1:T11 Arg2:T12
+R16	Attr Arg1:T13 Arg2:T14
+R17	Oper Arg1:T26 Arg2:T10
+R18	PartOf Arg1:T9 Arg2:T10
+R20	Spatial Arg1:T15 Arg2:T16
+R21	Attr Arg1:T29 Arg2:T18
+R22	Attr Arg1:T18 Arg2:T17

@@ -1,0 +1,1 @@
+ An inductor comprises a substrate comprising a semiconductor material, a first dielectric layer over the substrate, a magnetic layer over the first dielectric layer, a second dielectric layer over the magnetic layer, and a conductor over the second dielectric layer.

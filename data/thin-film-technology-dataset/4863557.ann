@@ -1,0 +1,27 @@
+T1	Component 112 135	thin-film magnetic head
+T2	Component 230 239	substrate
+T7	Component 472 476	mask
+T8	Function 485 496	ion milling
+T9	Function 23 46	pattern forming process
+T10	Function 72 83	lithography
+T11	Function 88 104	fine fabrication
+T12	Attribution 249 264	stepped surface
+T13	Function 268 279	dry etching
+T4	Component 301 312	resist film
+T14	Function 323 344	plasma polymerization
+T15	Function 346 367	Plasma polymerization
+T5	Component 376 410	uniform photosensitive resist film
+T16	Attribution 416 431	stepped surface
+T6	Component 441 452	resist film
+T17	Component 504 513	substrate
+T3	Component 294 298	mask
+R1	Oper Arg1:T9 Arg2:T1
+R2	Purpose Arg1:T10 Arg2:T11
+R3	PartOf Arg1:T2 Arg2:T12
+R4	Causitive Arg1:T2 Arg2:T13
+R5	Form Arg1:T14 Arg2:T4
+R6	Form Arg1:T15 Arg2:T5
+R7	Spatial Arg1:T5 Arg2:T16
+R8	Form Arg1:T6 Arg2:T7
+R9	PartOf Arg1:T17 Arg2:T7
+R10	Purpose Arg1:T7 Arg2:T8

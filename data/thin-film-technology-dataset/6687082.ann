@@ -1,0 +1,74 @@
+T1	Component 2 15	magnetic head
+T2	Component 50 63	magnetic head
+T3	Component 70 114	magnetic recording and reproducing apparatus
+T4	Component 125 129	head
+T5	Component 189 200	plated film
+T6	Effect 211 241	large saturation magnetization
+T7	Effect 272 288	high resistivity
+T8	Component 328 339	plated film
+T9	Component 356 369	magnetic head
+T10	Effect 375 404	high frequency characteristic
+T11	Component 513 526	magnetic head
+T12	Effect 535 543	low cost
+T13	Effect 552 582	large saturation magnetization
+T14	Effect 597 636	excellent high frequency characteristic
+T15	Effect 652 674	high density recording
+T16	Component 678 691	magnetic head
+T17	Component 704 708	coil
+T18	Component 722 739	insulation layers
+T19	Component 762 781	first magnetic core
+T20	Component 802 822	second magnetic core
+T21	Component 866 885	first magnetic core
+T22	Shape 906 919	recording gap
+T23	EnergyFlow 960 973	magnetic flux
+T24	Component 981 1012	first and second magnetic cores
+T25	Component 1042 1046	coil
+T26	Shape 1069 1082	recording gap
+T27	Component 1121 1152	first and second magnetic cores
+T28	Component 1184 1211	first plated magnetic layer
+T29	Component 1218 1246	second plated magnetic layer
+T30	Component 1267 1294	first plated magnetic layer
+T31	Location 1314 1323	near side
+T32	Shape 1331 1344	recording gap
+T33	Function 1350 1374	saturation magnetization
+T34	Component 1382 1409	first plated magnetic layer
+T35	Value 1413 1425	1.7 T (tesla
+T36	Component 1464 1491	first plated magnetic layer
+T37	Attribution 1521 1530	thickness
+T38	Component 1538 1565	first plated magnetic layer
+T39	Attribution 1594 1605	resistivity
+T40	Component 1613 1641	second plated magnetic layer
+T41	Attribution 1672 1681	thickness
+T42	Component 1689 1717	second plated magnetic layer
+T43	EnergyFlow 1445 1456	resistivity
+R2	Causitive Arg1:T3 Arg2:T4
+R4	Purpose Arg1:T5 Arg2:T6
+R5	Purpose Arg1:T5 Arg2:T7
+R6	Causitive Arg1:T9 Arg2:T8
+R7	Purpose Arg1:T8 Arg2:T10
+R8	Purpose Arg1:T11 Arg2:T12
+R9	Purpose Arg1:T11 Arg2:T13
+R10	Purpose Arg1:T14 Arg2:T15
+R11	Causitive Arg1:T18 Arg2:T17
+R12	PartOf Arg1:T16 Arg2:T17
+R13	Spatial Arg1:T17 Arg2:T19
+R14	Spatial Arg1:T17 Arg2:T20
+R15	Spatial Arg1:T20 Arg2:T21
+R16	Manner Arg1:T22 Arg2:T20
+R17	Attr Arg1:T24 Arg2:T23
+R18	Generate Arg1:T26 Arg2:T23
+R19	Causitive Arg1:T25 Arg2:T24
+R20	PartOf Arg1:T27 Arg2:T28
+R21	PartOf Arg1:T27 Arg2:T29
+R22	Attr Arg1:T32 Arg2:T31
+R23	Spatial Arg1:T30 Arg2:T31
+R24	Oper Arg1:T33 Arg2:T34
+R25	Attr Arg1:T33 Arg2:T35
+R26	Attr Arg1:T36 Arg2:T43
+R27	Attr Arg1:T38 Arg2:T37
+R28	Attr Arg1:T40 Arg2:T39
+R29	Attr Arg1:T42 Arg2:T41
+#2	AnnotatorNotes R8	purpose关系，事物--》功能，标注purpose，意思是说这个磁头是低功耗的
+R30	Purpose Arg1:T11 Arg2:T14
+#3	AnnotatorNotes R30	漏标了，这个function和前面的两个function是并列的，逻辑主语都是磁头
+#4	AnnotatorNotes R22	side的话用attr合适一点，当然ownership也行

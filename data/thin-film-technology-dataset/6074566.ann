@@ -1,0 +1,74 @@
+T1	Component 2 32	thin film inductive write head
+T2	Material 37 72	minimal organic insulation material
+T3	Component 93 115	encapsulating overcoat
+T4	Function 137 148	fabrication
+T7	Material 209 236	organic insulative material
+T8	Component 262 281	head top pole piece
+T9	Material 300 327	organic insulation material
+T10	Component 358 372	head gap layer
+T11	Location 380 386	region
+T12	Component 399 402	ABS
+T13	Component 411 415	coil
+T14	Function 421 428	etching
+T16	Component 453 470	second pole piece
+T17	Component 483 487	mask
+T18	Material 500 538	planarized organic insulation material
+T19	Component 583 587	coil
+T20	Component 620 631	pole pieces
+T21	Material 642 669	organic insulation material
+T22	Location 695 701	region
+T23	Component 709 728	planarization layer
+T24	Component 744 763	ferromagnetic layer
+T25	Component 772 789	second pole piece
+T26	Component 821 843	encapsulating overcoat
+T27	Component 876 885	gap layer
+T28	Component 931 939	overcoat
+T29	Material 960 987	organic insulation material
+T30	Location 994 1013	substantial portion
+T31	System 1021 1041	write head structure
+T32	Component 1071 1081	write head
+T33	Material 1095 1122	organic insulation material
+T34	Component 1143 1152	gap layer
+T35	Component 1165 1175	coil turns
+T36	Component 1198 1202	coil
+T37	Component 1233 1250	second pole piece
+T38	Location 1256 1262	region
+T39	Component 1275 1285	coil turns
+T40	Component 1309 1313	coil
+T41	Material 1329 1346	overcoat material
+T42	Function 1358 1384	head encapsulation process
+T5	Function 160 194	reactive ion etching (RIE) process
+T6	Function 342 345	RIE
+T15	Location 446 449	top
+T43	Material 910 923	same material
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Oper Arg1:T5 Arg2:T7
+R4	Causitive Arg1:T6 Arg2:T9
+R5	Causitive Arg1:T9 Arg2:T10
+R6	Manner Arg1:T11 Arg2:T10
+R7	Spatial Arg1:T11 Arg2:T12
+R8	Spatial Arg1:T11 Arg2:T13
+R9	PartOf Arg1:T4 Arg2:T5
+R10	Form Arg1:T15 Arg2:T17
+R11	Form Arg1:T16 Arg2:T17
+R12	Spatial Arg1:T19 Arg2:T20
+R13	Spatial Arg1:T18 Arg2:T19
+R14	Spatial Arg1:T22 Arg2:T21
+R15	Form Arg1:T21 Arg2:T23
+R16	Spatial Arg1:T26 Arg2:T27
+R18	Form Arg1:T43 Arg2:T28
+R19	PartOf Arg1:T31 Arg2:T30
+R20	MadeOf Arg1:T32 Arg2:T33
+R21	Spatial Arg1:T34 Arg2:T35
+R22	Manner Arg1:T34 Arg2:T33
+R24	PartOf Arg1:T39 Arg2:T38
+R25	Causitive Arg1:T41 Arg2:T38
+R23	PartOf Arg1:T36 Arg2:T35
+R26	Purpose Arg1:T24 Arg2:T25
+R27	PartOf Arg1:T40 Arg2:T39
+R28	Spatial Arg1:T24 Arg2:T23
+#1	AnnotatorNotes R28	漏标了
+#3	AnnotatorNotes R20	写磁头包含有机绝缘材料，应该是ownership关系
+#4	AnnotatorNotes R22	绝缘材料被移动到间隙层下面，spatial关系
+R17	MadeOf Arg1:T26 Arg2:T43

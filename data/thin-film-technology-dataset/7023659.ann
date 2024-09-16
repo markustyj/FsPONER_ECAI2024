@@ -1,0 +1,30 @@
+T1	Component 16 41	first antistripping layer
+T2	Component 55 79	first non-magnetic layer
+T3	Component 89 111	first conductive layer
+T4	Component 125 145	first magnetic layer
+T5	Component 155 180	magnetic separation layer
+T6	ScientificConcept 185 193	adhesion
+T7	Component 206 228	first conductive layer
+T8	Component 240 265	magnetic separation layer
+T9	Component 296 316	first magnetic layer
+T10	Component 364 390	second antistripping layer
+T11	Component 404 429	second non-magnetic layer
+T12	Component 439 462	second conductive layer
+T13	Component 476 497	second magnetic layer
+T14	Component 507 525	magnetic gap layer
+T15	Component 551 574	second conductive layer
+T16	Component 586 604	magnetic gap layer
+T17	Component 635 656	second magnetic layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T3 Arg2:T5
+R5	Attr Arg1:T7 Arg2:T6
+R6	Attr Arg1:T8 Arg2:T6
+R7	PartOf Arg1:T10 Arg2:T11
+R8	PartOf Arg1:T10 Arg2:T12
+R9	Spatial Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T12 Arg2:T14
+T18	ScientificConcept 530 538	adhesion
+R11	Attr Arg1:T15 Arg2:T18
+R12	Attr Arg1:T16 Arg2:T18

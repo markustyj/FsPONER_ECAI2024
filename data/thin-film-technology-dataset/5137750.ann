@@ -1,0 +1,67 @@
+T1	Component 2 36	thin film magnetic read/write head
+T2	Component 59 80	Al.sub.2 O.sub.3 dams
+T3	Component 86 107	Al.sub.2 O.sub.3 dams
+T4	Component 127 144	sacrificial layer
+T5	Component 171 188	bottom pole layer
+T6	Component 193 215	Al.sub.2 O.sub.3 layer
+T7	Component 238 255	sacrificial layer
+T8	Component 266 283	sacrificial layer
+T9	Component 300 322	Al.sub.2 O.sub.3 layer
+T10	Component 350 364	top pole piece
+T11	Component 383 400	sacrificial layer
+T12	Function 418 425	lapping
+T13	Function 432 454	selected chemical etch
+T14	Function 456 471	partial lapping
+T15	Function 475 488	chemical etch
+T16	Function 501 514	chemical etch
+T17	Component 522 539	sacrificial layer
+T18	Material 566 582	Al.sub.2 O.sub.3
+T19	Component 596 612	photoresist dams
+T20	Component 640 659	encapsulation layer
+T21	Component 668 685	sacrificial layer
+T24	Component 739 761	Al.sub.2 O.sub.3 layer
+T25	EnergyFlow 775 784	zero bias
+T26	Function 799 822	selective chemical etch
+T27	Component 830 847	sacrificial layer
+T28	Component 853 876	thin film magnetic head
+T29	Component 906 915	pole tips
+T30	Attribution 933 958	outside pole face contour
+T31	Attribution 998 1014	pole tip contour
+T32	Location 1023 1033	gap region
+T33	ScientificConcept 1051 1068	undershoot effect
+T34	EnergyFlow 1072 1087	readback pulses
+T35	InfoFlow 1093 1108	readback signal
+T36	Attribution 1114 1129	altered contour
+T38	EnergyFlow 1193 1225	leading and trailing undershoots
+T39	Component 1244 1264	shielded probe heads
+T40	Function 1269 1287	vertical recording
+T41	Attribution 1290 1308	gap region contour
+T42	Effect 1337 1354	similar reduction
+T43	EnergyFlow 1358 1376	leading undershoot
+T44	Function 706 731	physical or thermal shock
+T22	Component 1150 1174	top and bottom pole tips
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T3 Arg2:T4
+R4	Spatial Arg1:T6 Arg2:T7
+R5	Oper Arg1:T12 Arg2:T11
+R6	Oper Arg1:T13 Arg2:T11
+R7	PartOf Arg1:T28 Arg2:T29
+R8	Causitive Arg1:T29 Arg2:T30
+R9	Spatial Arg1:T31 Arg2:T32
+R10	Attr Arg1:T34 Arg2:T33
+R11	PartOf Arg1:T35 Arg2:T34
+R12	Spatial Arg1:T36 Arg2:T22
+R13	Purpose Arg1:T36 Arg2:T38
+R15	Purpose Arg1:T41 Arg2:T42
+R16	Causitive Arg1:T42 Arg2:T43
+R18	Oper Arg1:T16 Arg2:T17
+R19	Causitive Arg1:T17 Arg2:T18
+R20	Oper Arg1:T44 Arg2:T24
+R21	Oper Arg1:T26 Arg2:T27
+R22	Spatial Arg1:T24 Arg2:T25
+R3	Spatial Arg1:T4 Arg2:T5
+T23	Component 329 333	dams
+R23	Form Arg1:T9 Arg2:T23
+R24	Spatial Arg1:T23 Arg2:T10
+R14	Purpose Arg1:T39 Arg2:T40
+R17	Attr Arg1:T39 Arg2:T41

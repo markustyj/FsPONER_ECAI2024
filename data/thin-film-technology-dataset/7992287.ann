@@ -1,0 +1,43 @@
+T1	Component 28 38	transducer
+T2	System 81 100	transducer assembly
+T3	Component 113 123	transducer
+T4	Component 158 174	flexible carrier
+T5	Component 180 190	transducer
+T6	Attribution 197 208	top surface
+T7	ScientificConcept 221 235	first distance
+T8	Component 245 252	carrier
+T9	Component 256 262	spacer
+T10	Component 316 326	transducer
+T11	Component 332 338	spacer
+T12	Attribution 345 356	top surface
+T13	ScientificConcept 369 384	second distance
+T14	Component 394 401	carrier
+T15	ScientificConcept 407 422	second distance
+T16	ScientificConcept 440 454	first distance
+T17	Attribution 476 492	target thickness
+T18	Component 501 511	transducer
+T19	Component 515 527	lapping tool
+T20	Attribution 553 564	top surface
+T21	Component 572 582	transducer
+T22	Component 638 650	lapping tool
+T23	Component 664 678	lapping spacer
+T24	Component 46 68	ink jet imaging device
+T25	Component 289 296	carrier
+T26	Component 606 614	detector
+R1	Purpose Arg1:T1 Arg2:T24
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T2 Arg2:T3
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Attr Arg1:T5 Arg2:T6
+R6	Causitive Arg1:T6 Arg2:T7
+R8	Spatial Arg1:T9 Arg2:T25
+R9	Attr Arg1:T11 Arg2:T12
+R10	Causitive Arg1:T12 Arg2:T13
+R11	Causitive Arg1:T12 Arg2:T14
+R12	Comparison Arg1:T15 Arg2:T16
+R13	Attr Arg1:T18 Arg2:T17
+R14	Comparison Arg1:T15 Arg2:T17
+R15	Attr Arg1:T21 Arg2:T20
+R16	Causitive Arg1:T22 Arg2:T23
+R7	Causitive Arg1:T6 Arg2:T8
+R17	Spatial Arg1:T19 Arg2:T20

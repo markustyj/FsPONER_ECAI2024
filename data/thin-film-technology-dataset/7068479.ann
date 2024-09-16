@@ -1,0 +1,51 @@
+T1	Component 3 35	magnetoresistance effect element
+T2	Component 53 62	substrate
+T3	System 70 96	layer lamination structure
+T4	Component 113 122	substrate
+T5	Component 140 152	buffer layer
+T6	Component 157 181	anti-ferromagnetic layer
+T7	Component 185 197	pinned layer
+T8	Component 202 218	insulating layer
+T9	Location 242 262	nano-contact portion
+T10	Attribution 272 281	dimension
+T11	Measure 299 311	Fermi length
+T12	Component 315 325	free layer
+T13	Component 340 359	ferromagnetic layer
+T14	Component 366 388	domain stability layer
+T15	Component 440 449	substrate
+T16	Component 455 467	pinned layer
+T17	Component 485 510	first ferromagnetic layer
+T18	Component 514 532	non-magnetic layer
+T19	Component 539 565	second ferromagnetic layer
+T20	Location 596 600	side
+T21	Component 608 632	anti-ferromagnetic layer
+T23	Component 679 697	non-magnetic layer
+T24	Component 701 720	ferromagnetic layer
+T25	Component 728 752	anti-ferromagnetic layer
+T26	Location 785 789	side
+T27	Component 797 807	free layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	PartOf Arg1:T1 Arg2:T7
+R7	PartOf Arg1:T1 Arg2:T8
+R8	PartOf Arg1:T8 Arg2:T9
+R9	Attr Arg1:T9 Arg2:T10
+R10	PartOf Arg1:T1 Arg2:T12
+R11	PartOf Arg1:T12 Arg2:T13
+R12	PartOf Arg1:T12 Arg2:T14
+R13	Spatial Arg1:T13 Arg2:T15
+R14	Spatial Arg1:T14 Arg2:T15
+R15	Spatial Arg1:T16 Arg2:T17
+R16	Spatial Arg1:T16 Arg2:T18
+R17	Spatial Arg1:T16 Arg2:T19
+R18	Attr Arg1:T21 Arg2:T20
+R19	Manner Arg1:T20 Arg2:T19
+T22	Component 642 666	domain stability control
+R20	PartOf Arg1:T22 Arg2:T23
+R21	PartOf Arg1:T22 Arg2:T24
+R22	PartOf Arg1:T22 Arg2:T25
+R23	Attr Arg1:T27 Arg2:T26
+R24	Manner Arg1:T26 Arg2:T25

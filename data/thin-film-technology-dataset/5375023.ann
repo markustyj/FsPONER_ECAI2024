@@ -1,0 +1,33 @@
+T1	Component 2 26	thin film inductive head
+T2	Component 34 53	staggered pole-tips
+T8	Component 262 281	air bearing surface
+T11	Component 456 465	pole-tips
+T14	Location 61 94	self-aligned recording gap region
+T3	Location 100 120	recording gap region
+T4	Component 135 159	stepped pole-tip element
+T5	Attribution 206 219	gap thickness
+T15	Component 225 240	pole-tip layers
+T6	Location 292 305	throat region
+T7	Attribution 345 358	gap thickness
+T9	System 364 404	self-aligned staggered pole-tip geometry
+T16	Attribution 421 443	submicron track widths
+T10	System 503 529	self-aligned configuration
+T17	Consequence 537 554	submicron masking
+T18	Consequence 559 584	registration difficulties
+T19	Attribution 590 615	stepped pole-tip surfaces
+T12	Consequence 635 655	side-writing problem
+T20	Component 689 704	thin film poles
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T14
+R3	Causitive Arg1:T4 Arg2:T3
+T13	Component 169 174	steps
+R4	PartOf Arg1:T4 Arg2:T13
+R5	Comparison Arg1:T13 Arg2:T5
+R6	Form Arg1:T15 Arg2:T6
+R7	Comparison Arg1:T6 Arg2:T7
+R8	Manner Arg1:T8 Arg2:T15
+R9	Purpose Arg1:T9 Arg2:T16
+R10	Purpose Arg1:T10 Arg2:T17
+R11	Purpose Arg1:T10 Arg2:T18
+R12	Purpose Arg1:T19 Arg2:T12
+R13	Purpose Arg1:T12 Arg2:T20

@@ -1,0 +1,32 @@
+T1	Component 3 26	magnetic recording tape
+T2	Component 39 58	elongated substrate
+T3	Location 65 78	magnetic side
+T4	Location 84 97	magnetic side
+T5	Component 109 122	support layer
+T6	Component 139 148	substrate
+T7	Component 155 179	magnetic recording layer
+T8	Component 196 209	support layer
+T9	Attribution 222 248	magnetic recording surface
+T10	Component 262 271	substrate
+T11	Component 277 301	magnetic recording layer
+T12	Material 311 329	magnetic particles
+T14	Location 418 431	magnetic side
+T13	PhysicsFlow 336 345	lubricant
+T18	ScientificConcept 361 385	net uncompressed density
+T19	Value 398 412	30 MB/in.sup.2
+T15	Location 439 465	extracted BET surface area
+T16	Value 482 495	1.0 m.sup.2/g
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T4 Arg2:T7
+R5	Spatial Arg1:T5 Arg2:T6
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Causitive Arg1:T8 Arg2:T9
+R9	PartOf Arg1:T11 Arg2:T12
+R10	PartOf Arg1:T11 Arg2:T13
+R11	Causitive Arg1:T11 Arg2:T18
+R12	Measurement Arg1:T18 Arg2:T19
+R13	PartOf Arg1:T14 Arg2:T15
+R14	Measurement Arg1:T15 Arg2:T16

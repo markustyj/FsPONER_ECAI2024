@@ -1,0 +1,31 @@
+T1	Component 29 52	thin-film magnetic head
+T2	Component 85 99	thin-film coil
+T3	Component 125 139	thin-film coil
+T4	Component 149 164	flat first coil
+T5	Component 170 181	single turn
+T6	Component 185 201	flat second coil
+T8	Component 240 250	first coil
+T11	Component 289 304	flat third coil
+T12	Component 310 321	single turn
+T13	Component 340 362	first and second coils
+T16	Component 425 435	third coil
+T20	Component 539 560	first three-turn coil
+T21	Component 566 588	second and third coils
+T22	Component 629 651	second three-turn coil
+T23	Component 657 678	first three-turn coil
+T24	Component 687 709	second three-turn coil
+T7	Location 256 277	inner and outer sides
+T9	Component 370 386	flat fourth coil
+T10	Location 441 462	inner and outer sides
+T14	Component 476 498	first and fourth coils
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T4 Arg2:T5
+R3	Manner Arg1:T7 Arg2:T8
+R4	Spatial Arg1:T6 Arg2:T8
+R5	Attr Arg1:T11 Arg2:T12
+R6	Spatial Arg1:T11 Arg2:T13
+R7	Manner Arg1:T10 Arg2:T16
+R8	Spatial Arg1:T9 Arg2:T16
+R9	Form Arg1:T14 Arg2:T20
+R10	Form Arg1:T21 Arg2:T22
+R11	Spatial Arg1:T23 Arg2:T24

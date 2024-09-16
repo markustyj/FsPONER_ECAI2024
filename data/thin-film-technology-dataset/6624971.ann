@@ -1,0 +1,49 @@
+T1	Component 16 39	thin film magnetic head
+T2	Component 280 292	top pole tip
+T4	Component 479 502	thin film magnetic head
+T5	Component 546 558	top pole tip
+T6	EnergyFlow 567 575	top pole
+T7	Location 653 672	connection portions
+T12	Attribution 80 90	pole width
+T13	Attribution 147 157	pole width
+T14	Location 214 247	throat height zero (TH0) position
+T15	Attribution 265 274	edge face
+T16	Attribution 305 314	flat face
+T17	Location 320 332	TH0 position
+T3	Component 384 396	top pole tip
+T18	Attribution 410 423	throat height
+T19	Attribution 449 473	recording characteristic
+T20	Effect 526 540	high precision
+T21	Location 716 731	width direction
+T8	EnergyFlow 741 771	magnetic flux propagation loss
+T9	EnergyFlow 784 808	magnetic flux saturation
+T10	Location 856 862	region
+T11	Component 868 889	large magnetic volume
+T22	Location 897 903	region
+T23	Component 909 930	small magnetic volume
+T24	Component 829 842	magnetic flux
+T25	Effect 58 74	accurate control
+T26	Effect 97 132	sufficient overwrite characteristic
+T27	Shape 622 645	sufficient contact area
+T28	Function 367 376	formation
+R1	Attr Arg1:T2 Arg2:T15
+R3	Causitive Arg1:T15 Arg2:T14
+R2	Spatial Arg1:T2 Arg2:T16
+R4	Purpose Arg1:T9 Arg2:T8
+R5	Attr Arg1:T11 Arg2:T10
+R6	Attr Arg1:T23 Arg2:T22
+R7	Spatial Arg1:T24 Arg2:T10
+R8	Spatial Arg1:T24 Arg2:T22
+R9	Manner Arg1:T21 Arg2:T7
+R10	Oper Arg1:T25 Arg2:T12
+R11	Purpose Arg1:T1 Arg2:T25
+R12	Purpose Arg1:T1 Arg2:T26
+R13	Attr Arg1:T7 Arg2:T27
+R14	Causitive Arg1:T5 Arg2:T27
+R15	Causitive Arg1:T6 Arg2:T27
+R16	Attr Arg1:T3 Arg2:T28
+R17	Attr Arg1:T4 Arg2:T19
+R18	Purpose Arg1:T18 Arg2:T19
+R19	Purpose Arg1:T17 Arg2:T18
+R20	Manner Arg1:T20 Arg2:T18
+#1	AnnotatorNotes R11	标得不错

@@ -1,0 +1,20 @@
+T1	Component 16 44	perpendicular recording head
+T2	Component 51 66	hard disk drive
+T3	Component 72 100	perpendicular recording head
+T4	Component 112 116	yoke
+T5	Shape 141 148	grooves
+T6	EnergyFlow 180 193	magnetic flux
+T7	Location 210 228	vertical direction
+T8	Component 245 249	yoke
+T9	Shape 255 276	perpendicular grooves
+T10	Location 311 329	vertical direction
+T11	EnergyFlow 285 303	residual magnetism
+T12	Effect 342 363	yoke domain stability
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R4	Manner Arg1:T7 Arg2:T6
+R5	Causitive Arg1:T9 Arg2:T11
+R6	Manner Arg1:T10 Arg2:T11
+R7	Causitive Arg1:T9 Arg2:T12
+R8	Spatial Arg1:T5 Arg2:T6
+R3	PartOf Arg1:T4 Arg2:T5

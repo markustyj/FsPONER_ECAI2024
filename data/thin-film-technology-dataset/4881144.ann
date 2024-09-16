@@ -1,0 +1,46 @@
+T1	Component 5 28	thin film magnetic head
+T3	EnergyFlow 152 171	upper magnetic pole
+T4	Component 245 268	thin film magnetic head
+T5	Component 293 313	surface active layer
+T6	Component 375 397	first insulating layer
+T8	Component 447 451	coil
+T9	Component 469 491	first insulating layer
+T10	Component 504 524	surface active layer
+T13	EnergyFlow 51 70	lower magnetic pole
+T14	Component 74 82	gap laye
+T15	Component 87 109	first insulating layer
+T16	Component 113 117	coil
+T2	Component 121 144	second insulating layer
+T17	Component 201 210	substrate
+T18	Material 322 336	aluminum oxide
+T7	Component 406 429	second insulating layer
+T19	Component 549 553	coil
+T20	Component 562 585	second insulating layer
+T21	Component 667 674	bubbles
+T11	Component 683 698	coil conductors
+T22	Attribution 742 749	surface
+T12	Component 757 780	second insulating layer
+T24	EnergyFlow 838 857	upper magnetic pole
+T25	ScientificConcept 726 734	flatness
+T26	Consequence 796 807	degradation
+R1	Spatial Arg1:T13 Arg2:T17
+R2	Spatial Arg1:T14 Arg2:T17
+R3	Spatial Arg1:T15 Arg2:T17
+R4	Spatial Arg1:T16 Arg2:T17
+R5	Spatial Arg1:T2 Arg2:T17
+R6	Spatial Arg1:T3 Arg2:T17
+R7	PartOf Arg1:T1 Arg2:T13
+R8	PartOf Arg1:T1 Arg2:T14
+R9	PartOf Arg1:T1 Arg2:T15
+R10	PartOf Arg1:T1 Arg2:T16
+R11	PartOf Arg1:T1 Arg2:T2
+R12	PartOf Arg1:T1 Arg2:T3
+R13	MadeOf Arg1:T5 Arg2:T18
+R15	Spatial Arg1:T5 Arg2:T6
+R16	Spatial Arg1:T5 Arg2:T7
+R14	Spatial Arg1:T8 Arg2:T9
+R17	Spatial Arg1:T10 Arg2:T19
+R18	Spatial Arg1:T10 Arg2:T20
+R19	Spatial Arg1:T21 Arg2:T11
+R20	Attr Arg1:T22 Arg2:T25
+R21	Attr Arg1:T12 Arg2:T22

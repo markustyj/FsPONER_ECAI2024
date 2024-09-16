@@ -1,0 +1,58 @@
+T1	Component 37 51	existing layer
+T2	Component 85 95	metal mask
+T3	PhysicsFlow 130 142	reactive gas
+T4	Material 167 172	metal
+T5	Attribution 183 190	surface
+T7	Material 227 232	metal
+T8	Component 244 254	metal mask
+T9	Function 273 284	wet etching
+T10	Component 293 311	wet etch stop film
+T11	Component 327 341	existing layer
+T12	PhysicsFlow 369 380	wet etchant
+T13	Material 409 434	cobalt-zirconium-tantalum
+T14	EnergyFlow 459 468	top poles
+T15	Component 473 489	tape write heads
+T16	Material 493 497	gold
+T17	Component 500 522	Au) wet etch stop film
+T18	Component 547 556	CZT layer
+T19	Component 566 585	titanium (Ti) layer
+T20	Component 602 618	photoresist mask
+T21	Material 637 639	Ti
+T22	Component 667 677	metal mask
+T23	Material 692 700	nitrogen
+T27	Component 757 770	exposed layer
+T28	Material 774 776	Ti
+T29	Material 785 801	titanium nitride
+T30	Material 803 806	TiN
+T31	ScientificConcept 826 837	slower rate
+T32	Material 843 845	Ti
+T33	System 0 15	Microstructures
+T6	Material 20 23	ion
+T34	ScientificConcept 207 217	lower rate
+T35	Material 436 439	CZT
+T24	Material 730 745	argon (Ar) ions
+T25	Material 702 709	N.sub.2
+R1	Oper Arg1:T9 Arg2:T8
+R2	Causitive Arg1:T10 Arg2:T11
+R3	Form Arg1:T35 Arg2:T14
+R4	Purpose Arg1:T14 Arg2:T15
+R5	Alias Arg1:T13 Arg2:T35
+R6	Causitive Arg1:T17 Arg2:T18
+R7	Attr Arg1:T5 Arg2:T34
+R8	Comparison Arg1:T5 Arg2:T7
+R9	Spatial Arg1:T6 Arg2:T1
+R11	Form Arg1:T3 Arg2:T5
+R12	MadeOf Arg1:T27 Arg2:T28
+R13	Purpose Arg1:T27 Arg2:T29
+R14	Alias Arg1:T29 Arg2:T30
+R15	Attr Arg1:T29 Arg2:T31
+R16	Comparison Arg1:T29 Arg2:T32
+R17	InstanceOf Arg1:T33 Arg2:T6
+R18	Purpose Arg1:T20 Arg2:T22
+R19	Purpose Arg1:T21 Arg2:T22
+R20	Alias Arg1:T23 Arg2:T25
+R21	Causitive Arg1:T27 Arg2:T23
+R22	Causitive Arg1:T27 Arg2:T24
+R23	Causitive Arg1:T6 Arg2:T2
+R24	Causitive Arg1:T6 Arg2:T3
+R10	Causitive Arg1:T3 Arg2:T4

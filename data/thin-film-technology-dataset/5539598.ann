@@ -1,0 +1,24 @@
+T2	Component 132 141	MR sensor
+T5	Component 262 271	MR sensor
+T10	Material 429 463	high resistivity magnetic material
+T1	Component 2 29	magneto-resistive (MR) head
+T11	Function 99 126	additional processing steps
+T12	Function 55 78	electrostatic discharge
+T3	Component 154 197	soft film biased (SFB) magnetic read sensor
+T4	Material 221 256	high resistivity magnetic materials
+T6	Component 319 328	MR shield
+T7	Component 295 305	MR shields
+T13	Component 382 390	resistor
+T14	Component 396 404	resistor
+T15	Component 478 486	resistor
+T16	Function 512 524	process step
+T17	Component 532 541	MR sensor
+R1	PartOf Arg1:T2 Arg2:T3
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Spatial Arg1:T5 Arg2:T7
+R4	Causitive Arg1:T6 Arg2:T13
+R6	MadeOf Arg1:T14 Arg2:T10
+R7	Oper Arg1:T16 Arg2:T15
+R8	Oper Arg1:T16 Arg2:T17
+T8	Component 348 376	MR sensor ground signal lead
+R5	Spatial Arg1:T6 Arg2:T8

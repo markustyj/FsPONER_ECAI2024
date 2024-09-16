@@ -1,0 +1,70 @@
+T1	Component 2 25	thin film magnetic head
+T3	Component 90 108	magnetic gap layer
+T9	Component 363 381	magnetic gap layer
+T11	Component 476 489	magnetic head
+T12	Location 715 744	magnetizing inverting portion
+T14	InfoFlow 844 861	reproduced signal
+T16	Location 1053 1078	reduced thickness portion
+T18	EnergyFlow 1194 1213	Magnetic saturation
+T19	Location 1233 1258	reduced thickness portion
+T21	Location 37 55	projecting portion
+T2	Attribution 68 75	surface
+T22	Location 128 141	pole portions
+T4	Component 145 176	upper and lower magnetic layers
+T23	Location 182 200	projecting portion
+T5	Attribution 227 255	foremost exposed end surface
+T6	Location 263 275	pole portion
+T24	Attribution 318 346	foremost exposed end surface
+T8	Location 389 401	pole portion
+T10	Location 438 447	direction
+T25	Function 451 468	relative movement
+T26	Material 508 523	magnetic medium
+T27	Attribution 561 574	certain width
+T29	Location 582 591	direction
+T30	Function 599 616	relative movement
+T31	Location 637 666	magnetizing inverting portion
+T7	ScientificConcept 818 828	undershoot
+T13	Location 890 910	reduced peak portion
+T15	Attribution 915 943	reproduction characteristics
+T28	Consequence 987 1000	reading error
+T32	Component 1112 1143	upper and lower magnetic layers
+T17	Location 1151 1159	vicinity
+T33	Location 1165 1192	throat height zero position
+T34	EnergyFlow 1265 1291	proper magnetic saturation
+T20	Attribution 306 310	edge
+T35	Attribution 680 691	entire edge
+R1	PartOf Arg1:T1 Arg2:T21
+R2	Spatial Arg1:T21 Arg2:T2
+R3	Spatial Arg1:T2 Arg2:T3
+R4	PartOf Arg1:T4 Arg2:T22
+R5	PartOf Arg1:T22 Arg2:T3
+R6	Spatial Arg1:T23 Arg2:T5
+R7	Attr Arg1:T6 Arg2:T5
+R8	Attr Arg1:T24 Arg2:T20
+R9	PartOf Arg1:T8 Arg2:T9
+R10	Spatial Arg1:T24 Arg2:T9
+T36	ScientificConcept 419 423	line
+R11	Spatial Arg1:T36 Arg2:T10
+R12	Oper Arg1:T25 Arg2:T11
+R13	Spatial Arg1:T11 Arg2:T26
+R14	Attr Arg1:T25 Arg2:T10
+R15	Spatial Arg1:T20 Arg2:T36
+R16	Manner Arg1:T31 Arg2:T30
+R17	Attr Arg1:T30 Arg2:T29
+T37	Attribution 529 533	edge
+R18	Attr Arg1:T37 Arg2:T27
+R19	Spatial Arg1:T35 Arg2:T12
+T38	Attribution 795 799	edge
+T39	Location 780 787	portion
+R20	Spatial Arg1:T35 Arg2:T39
+R21	PartOf Arg1:T38 Arg2:T39
+R22	Generate Arg1:T14 Arg2:T7
+R23	Spatial Arg1:T16 Arg2:T32
+R24	Spatial Arg1:T33 Arg2:T17
+R25	Spatial Arg1:T17 Arg2:T32
+T40	Component 1299 1303	pole
+R28	Purpose Arg1:T7 Arg2:T13
+R29	Purpose Arg1:T7 Arg2:T15
+R30	Purpose Arg1:T7 Arg2:T28
+R26	Attr Arg1:T19 Arg2:T18
+R27	Manner Arg1:T40 Arg2:T34

@@ -1,0 +1,24 @@
+T1	System 2 55	ferromagnetic thin-film based magnetoresistive device
+T2	Component 63 102	first ferromagnetic material based film
+T4	Material 186 208	intergranular material
+T5	Component 214 263	smaller electrical conductivity first nonmagnetic
+T6	System 269 275	device
+T7	Component 288 306	intermediate layer
+T8	Component 320 359	first ferromagnetic material based film
+T9	Component 366 377	second film
+T12	Component 406 424	intermediate layer
+T13	Material 430 466	substantially ferromagnetic material
+T14	Component 472 482	first film
+T16	Material 110 170	electrically conductive, ferromagnetic material nanogranules
+T3	Value 496 505	1.0 .mu.m
+T10	Attribution 506 511	thick
+R1	PartOf Arg1:T6 Arg2:T7
+R2	Spatial Arg1:T7 Arg2:T8
+R3	Spatial Arg1:T9 Arg2:T12
+R4	MadeOf Arg1:T12 Arg2:T13
+R6	Attr Arg1:T14 Arg2:T10
+R7	PartOf Arg1:T1 Arg2:T2
+R8	PartOf Arg1:T4 Arg2:T16
+R9	PartOf Arg1:T1 Arg2:T16
+R10	MadeOf Arg1:T5 Arg2:T4
+R5	Measurement Arg1:T10 Arg2:T3

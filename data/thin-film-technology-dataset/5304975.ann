@@ -1,0 +1,17 @@
+T1	Component 2 34	magnetoresistance effect element
+T5	EnergyFlow 227 242	magnetic moment
+T6	Component 46 56	multilayer
+T7	Component 78 109	magnetic and nonmagnetic layers
+T2	EnergyFlow 123 147	magnetoresistance effect
+T3	Component 156 177	reversal assist layer
+T4	Component 250 264	magnetic layer
+T8	Effect 213 221	reversal
+T9	Component 192 202	multilayer
+R1	PartOf Arg1:T1 Arg2:T6
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T9
+R4	PartOf Arg1:T6 Arg2:T7
+R5	Purpose Arg1:T7 Arg2:T2
+R6	Attr Arg1:T4 Arg2:T5
+R7	Purpose Arg1:T3 Arg2:T8
+R8	Attr Arg1:T5 Arg2:T8

@@ -1,0 +1,48 @@
+T1	Component 3 35	magnetoresistance effect element
+T2	Component 48 58	free layer
+T3	Component 73 92	ferromagnetic layer
+T4	Component 96 108	pinned layer
+T5	Component 123 142	ferromagnetic layer
+T6	Component 150 155	layer
+T7	Component 177 187	free layer
+T8	Component 196 208	pinned layer
+T9	Location 236 256	nano-contact portion
+T10	Component 299 309	free layer
+T11	Component 318 330	pinned layer
+T12	Location 336 356	nano-contact portion
+T13	Measure 402 408	length
+T14	Location 416 442	layer lamination direction
+T15	Measure 449 455	length
+T16	Location 461 470	direction
+T17	Location 485 511	layer lamination direction
+T19	Location 551 571	nano-contact portion
+T20	Location 591 605	inside portion
+T21	Component 622 635	magnetic wall
+T23	ScientificConcept 363 372	dimension
+T18	Measure 533 545	Fermi length
+T24	Component 662 681	Bloch magnetic wall
+T25	Component 683 701	Neel magnetic wall
+T22	Component 707 723	combination wall
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T1 Arg2:T6
+R6	Spatial Arg1:T6 Arg2:T7
+R7	Spatial Arg1:T6 Arg2:T8
+R8	PartOf Arg1:T6 Arg2:T9
+R9	Spatial Arg1:T9 Arg2:T10
+R10	Spatial Arg1:T9 Arg2:T11
+R11	Attr Arg1:T12 Arg2:T23
+R12	Attr Arg1:T14 Arg2:T13
+R13	Attr Arg1:T23 Arg2:T13
+R14	Measurement Arg1:T13 Arg2:T18
+R15	Measurement Arg1:T15 Arg2:T18
+R16	PartOf Arg1:T19 Arg2:T20
+R17	PartOf Arg1:T21 Arg2:T24
+R18	PartOf Arg1:T21 Arg2:T25
+R19	PartOf Arg1:T21 Arg2:T22
+R20	PartOf Arg1:T19 Arg2:T21
+R21	Attr Arg1:T23 Arg2:T15
+R22	Attr Arg1:T16 Arg2:T15
+R23	Others Arg1:T16 Arg2:T17

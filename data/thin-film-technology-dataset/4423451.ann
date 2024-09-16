@@ -1,0 +1,44 @@
+T1	Component 2 42	thin film magnetic read/write transducer
+T2	Component 49 58	substrate
+T3	Material 62 79	magnetic material
+T4	Component 98 119	disparate pole pieces
+T5	Material 141 164	movable magnetic medium
+T6	Component 170 191	disparate pole pieces
+T7	Component 220 238	leading pole piece
+T8	Location 245 272	greater distal surface area
+T9	Component 282 301	trailing pole piece
+T10	Attribution 337 370	leading pole piece distal surface
+T11	Attribution 385 401	greater distance
+T12	Component 427 446	trailing pole piece
+T13	Attribution 479 513	trailing pole piece distal surface
+T14	Attribution 532 543	acute angle
+T15	Material 551 557	medium
+T16	Attribution 567 593	leading pole piece surface
+T17	Attribution 606 618	lesser angle
+T18	Material 638 644	medium
+T19	Component 650 671	disparate pole pieces
+T20	EnergyFlow 748 770	writing magnetic field
+T21	Attribution 803 824	non-linear properties
+T22	Material 832 838	medium
+T23	Function 850 867	recording process
+T24	Function 309 332	alternative arrangement
+T25	Material 411 417	medium
+T26	Function 463 474	arrangement
+T27	ScientificConcept 712 740	compensating non-linearities
+R1	MadeOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T2
+R3	Form Arg1:T2 Arg2:T4
+R4	Attr Arg1:T7 Arg2:T8
+R6	Comparison Arg1:T9 Arg2:T7
+R7	Purpose Arg1:T6 Arg2:T7
+R5	Spatial Arg1:T13 Arg2:T15
+R8	Manner Arg1:T14 Arg2:T13
+R9	Spatial Arg1:T16 Arg2:T18
+R10	Manner Arg1:T17 Arg2:T16
+R11	Spatial Arg1:T10 Arg2:T25
+R12	Spatial Arg1:T10 Arg2:T12
+R13	Attr Arg1:T22 Arg2:T21
+R14	Attr Arg1:T23 Arg2:T21
+R16	Purpose Arg1:T27 Arg2:T21
+R17	Causitive Arg1:T19 Arg2:T27
+R15	Causitive Arg1:T27 Arg2:T20

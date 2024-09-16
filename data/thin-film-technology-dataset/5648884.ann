@@ -1,0 +1,13 @@
+T1	Component 2 16	magnetic layer
+T3	Component 43 59	insulating ridge
+T4	Function 116 133	longitudinal mode
+T5	Component 152 166	magnetic layer
+T6	Component 69 95	multilayer magnetoresistor
+T7	Component 97 99	MR
+T2	Component 223 237	read-only head
+T9	Component 243 258	read-write head
+T10	Effect 191 209	magnetic recording
+R1	Attr Arg1:T1 Arg2:T3
+R2	Alias Arg1:T6 Arg2:T7
+R3	Manner Arg1:T4 Arg2:T6
+R4	Spatial Arg1:T6 Arg2:T5

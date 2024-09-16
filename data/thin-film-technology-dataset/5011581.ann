@@ -1,0 +1,46 @@
+T1	Component 2 27	ternary FeCoNi alloy film
+T2	Effect 41 67	high magnetic flux density
+T3	Component 117 135	cathodic electrode
+T4	EnergyFlow 145 162	electrolytic bath
+T5	Material 194 196	Fe
+T6	Material 198 200	Co
+T7	Material 205 212	Ni ions
+T8	Material 218 226	sulfates
+T9	Material 228 242	hydrochlorides
+T10	Material 246 254	mixtures
+T11	Material 302 304	Fe
+T12	Material 306 308	Co
+T13	Material 313 315	Ni
+T14	EnergyFlow 322 326	bath
+T15	ScientificConcept 359 365	ratios
+T17	EnergyFlow 404 408	bath
+T18	EnergyFlow 429 462	electrodepositing current density
+T20	Function 94 111	electrodeposition
+T21	Function 167 184	electrodeposition
+T22	Material 274 298	respective divalent ions
+T23	Component 340 351	composition
+T16	Attribution 369 396	divalent ion concentrations
+R1	Attr Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T4 Arg2:T21
+R3	Causitive Arg1:T4 Arg2:T20
+R4	Oper Arg1:T20 Arg2:T3
+R5	PartOf Arg1:T8 Arg2:T7
+R6	PartOf Arg1:T8 Arg2:T6
+R7	PartOf Arg1:T8 Arg2:T5
+R8	PartOf Arg1:T9 Arg2:T7
+R9	PartOf Arg1:T9 Arg2:T5
+R10	PartOf Arg1:T9 Arg2:T6
+R11	PartOf Arg1:T10 Arg2:T5
+R12	PartOf Arg1:T10 Arg2:T6
+R13	PartOf Arg1:T10 Arg2:T7
+R14	PartOf Arg1:T10 Arg2:T22
+R15	InstanceOf Arg1:T11 Arg2:T22
+R16	InstanceOf Arg1:T12 Arg2:T22
+R17	InstanceOf Arg1:T13 Arg2:T22
+R18	PartOf Arg1:T4 Arg2:T5
+R19	PartOf Arg1:T4 Arg2:T6
+R20	PartOf Arg1:T4 Arg2:T7
+R21	PartOf Arg1:T14 Arg2:T23
+R22	Attr Arg1:T23 Arg2:T15
+R23	Attr Arg1:T15 Arg2:T16
+R24	PartOf Arg1:T17 Arg2:T23

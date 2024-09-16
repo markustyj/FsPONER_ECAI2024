@@ -1,0 +1,36 @@
+T2	Component 68 82	thin film coil
+T12	Component 395 413	top thin film coil
+T15	Component 485 504	air bearing surface
+T18	Component 3 18	insulating film
+T1	Location 37 55	first yoke portion
+T3	Location 94 110	inclined portion
+T4	Location 117 141	air bearing surface side
+T5	Location 145 164	second pole portion
+T6	Component 170 190	second magnetic film
+T7	Component 207 238	first pole portion via gap film
+T8	Location 242 261	second yoke portion
+T9	Component 279 294	insulating film
+T19	Location 313 332	second pole portion
+T10	Location 341 353	rear portion
+T11	Location 373 391	first yoke portion
+T13	Location 423 448	coil winding body portion
+T14	Location 511 536	coil winding body portion
+T20	Attribution 454 469	small thickness
+T16	Attribution 542 558	larger thickness
+T17	Attribution 571 580	thickness
+R1	Manner Arg1:T18 Arg2:T1
+R2	PartOf Arg1:T18 Arg2:T3
+R3	Manner Arg1:T3 Arg2:T4
+R4	Causitive Arg1:T18 Arg2:T2
+R5	PartOf Arg1:T6 Arg2:T5
+R6	Spatial Arg1:T5 Arg2:T7
+R7	Spatial Arg1:T8 Arg2:T9
+R8	Spatial Arg1:T10 Arg2:T11
+R9	PartOf Arg1:T8 Arg2:T10
+R11	Spatial Arg1:T8 Arg2:T19
+R12	PartOf Arg1:T12 Arg2:T13
+R10	Attr Arg1:T13 Arg2:T20
+R13	Spatial Arg1:T13 Arg2:T15
+R14	PartOf Arg1:T12 Arg2:T14
+R15	Attr Arg1:T14 Arg2:T16
+R16	Measurement Arg1:T16 Arg2:T17

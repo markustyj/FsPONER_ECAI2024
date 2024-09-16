@@ -1,0 +1,31 @@
+T1	Component 2 31	thin film magnetic transducer
+T2	Component 43 47	yoke
+T3	Component 70 74	arms
+T4	Component 147 151	yoke
+T6	Component 209 212	arm
+T7	Component 307 316	easy axes
+T8	Function 320 333	magnetization
+T10	EnergyFlow 474 478	flux
+T11	Component 94 99	coils
+T5	Function 163 189	multiple flux interactions
+T12	Location 237 255	elongated segments
+T13	Location 365 375	directions
+T14	Location 407 415	segments
+T15	Location 425 433	segments
+T16	Component 439 443	arms
+T17	Component 532 541	easy axes
+T9	Function 379 394	flux conduction
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T11
+R4	Purpose Arg1:T4 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T12
+R6	Attr Arg1:T8 Arg2:T7
+R7	PartOf Arg1:T6 Arg2:T7
+R8	Attr Arg1:T9 Arg2:T13
+R9	Spatial Arg1:T7 Arg2:T13
+R10	Causitive Arg1:T7 Arg2:T14
+R11	Spatial Arg1:T10 Arg2:T17
+R12	Purpose Arg1:T15 Arg2:T10
+R13	Purpose Arg1:T16 Arg2:T10
+R14	InstanceOf Arg1:T16 Arg2:T15

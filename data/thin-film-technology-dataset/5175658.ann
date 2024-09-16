@@ -1,0 +1,39 @@
+T1	Component 2 22	magnetic head slider
+T2	Component 32 50	protective coating
+T3	Component 58 63	rails
+T4	Component 77 95	protective coating
+T6	Component 207 225	protective coating
+T7	Component 246 265	air bearing surface
+T8	Component 273 279	slider
+T9	Component 290 314	thin film magnetic heads
+T10	Component 375 380	rails
+T11	Component 425 443	protective coating
+T12	Component 457 470	magnetic head
+T13	Function 482 506	rail fabrication process
+T14	System 525 550	magnetic recording system
+T15	Component 564 577	magnetic head
+T17	Component 109 128	thin adhesion layer
+T18	Component 132 142	thin layer
+T5	Material 146 175	amorphous hydrogenated carbon
+T19	Component 183 201	thin masking layer
+T20	Shape 364 371	pattern
+T21	Component 400 419	air bearing surface
+T22	Effect 583 587	wear
+T23	Effect 592 608	corrosion damage
+T16	Measure 331 347	chosen dimension
+R2	PartOf Arg1:T1 Arg2:T3
+R1	Spatial Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T17
+R4	PartOf Arg1:T5 Arg2:T18
+R5	PartOf Arg1:T4 Arg2:T18
+R6	PartOf Arg1:T4 Arg2:T19
+R7	Spatial Arg1:T6 Arg2:T7
+R8	PartOf Arg1:T8 Arg2:T7
+R9	Causitive Arg1:T9 Arg2:T16
+R10	PartOf Arg1:T10 Arg2:T20
+R11	Causitive Arg1:T21 Arg2:T20
+R12	Purpose Arg1:T11 Arg2:T12
+R13	Purpose Arg1:T14 Arg2:T15
+R14	Purpose Arg1:T15 Arg2:T22
+R15	Purpose Arg1:T15 Arg2:T23
+R16	Causitive Arg1:T14 Arg2:T11

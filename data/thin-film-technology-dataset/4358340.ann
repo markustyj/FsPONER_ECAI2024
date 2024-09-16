@@ -1,0 +1,44 @@
+T1	Component 32 49	submicron devices
+T2	Function 70 91	submicron lithography
+T3	Function 93 136	Vertical "zero undercut" etching techniques
+T4	Attribution 175 194	submicron thickness
+T5	Component 200 235	deposited thin film conductor layer
+T6	Component 242 268	thin film insulation layer
+T7	Attribution 274 295	submicron gate widths
+T9	Component 334 341	devices
+T10	Component 353 377	MOS field effect devices
+T11	Function 396 406	conversion
+T12	Component 435 460	thin film conductor layer
+T13	Attribution 464 483	submicron thickness
+T14	Function 493 506	vertical step
+T15	Attribution 515 542	adjacent insulator surfaces
+T17	Component 612 627	conductor layer
+T18	Function 657 670	vertical step
+T19	Component 676 696	remaining insulation
+T20	Component 748 762	insulated gate
+T21	Attribution 784 799	submicron width
+T22	Attribution 827 836	thickness
+T23	Component 844 859	conductor layer
+T24	Function 17 28	fabrication
+T25	Function 63 66	use
+T8	Attribution 318 330	wide variety
+T26	Component 712 721	conductor
+T16	Location 582 604	only remaining portion
+R1	Oper Arg1:T24 Arg2:T1
+R2	Attr Arg1:T9 Arg2:T8
+R3	InstanceOf Arg1:T10 Arg2:T9
+R4	Attr Arg1:T5 Arg2:T4
+R5	Attr Arg1:T6 Arg2:T4
+R6	Attr Arg1:T5 Arg2:T7
+R7	Attr Arg1:T6 Arg2:T7
+R10	Causitive Arg1:T9 Arg2:T5
+R11	Causitive Arg1:T9 Arg2:T6
+R8	Purpose Arg1:T3 Arg2:T4
+R9	Attr Arg1:T12 Arg2:T13
+R12	PartOf Arg1:T17 Arg2:T16
+R13	Spatial Arg1:T16 Arg2:T18
+R14	Spatial Arg1:T14 Arg2:T15
+R15	Spatial Arg1:T12 Arg2:T14
+R16	Attr Arg1:T23 Arg2:T22
+R17	Attr Arg1:T20 Arg2:T21
+R18	Comparison Arg1:T21 Arg2:T22

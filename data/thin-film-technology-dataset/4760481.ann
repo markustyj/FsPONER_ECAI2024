@@ -1,0 +1,59 @@
+T1	Component 15 38	thin film magnetic head
+T2	Location 70 82	main portion
+T3	Component 88 92	coil
+T4	Material 107 113	copper
+T5	Component 117 135	copper alloy layer
+T6	Attribution 144 157	upper surface
+T7	Component 176 190	thin film mask
+T8	Material 205 213	titanium
+T9	Material 215 229	titanium oxide
+T10	Material 231 239	chromium
+T11	Material 247 261	chromium oxide
+T12	Component 267 280	magnetic head
+T13	Consequence 328 355	projecting etching residues
+T14	Location 363 381	upper edge portion
+T15	Component 389 393	coil
+T16	Location 422 442	cross-sectional area
+T17	ScientificConcept 451 466	winding density
+T18	Component 474 478	coil
+T19	Component 502 516	thin film mask
+T20	Material 529 537	titanium
+T21	Material 545 559	titanium oxide
+T22	Component 563 597	titanium diffusion prevention film
+T23	Material 612 620	chromium
+T24	Component 661 675	thin film mask
+T25	Material 684 690	copper
+T26	Material 694 706	copper alloy
+T27	Function 720 737	resistance change
+T28	Component 745 749	coil
+T29	Function 780 794	heat treatment
+T30	Function 800 818	production process
+T31	Function 829 838	formation
+T32	Component 846 850	coil
+T33	ScientificConcept 859 875	head reliability
+R1	PartOf Arg1:T3 Arg2:T2
+R2	MadeOf Arg1:T3 Arg2:T4
+R3	MadeOf Arg1:T3 Arg2:T5
+R4	Attr Arg1:T3 Arg2:T6
+R5	PartOf Arg1:T3 Arg2:T7
+R6	MadeOf Arg1:T7 Arg2:T8
+R7	MadeOf Arg1:T7 Arg2:T9
+R8	MadeOf Arg1:T7 Arg2:T10
+R9	MadeOf Arg1:T7 Arg2:T11
+R10	PartOf Arg1:T1 Arg2:T3
+R11	PartOf Arg1:T15 Arg2:T14
+R12	Attr Arg1:T18 Arg2:T17
+R13	Purpose Arg1:T12 Arg2:T13
+R14	Spatial Arg1:T13 Arg2:T14
+R15	Attr Arg1:T18 Arg2:T16
+R16	Purpose Arg1:T12 Arg2:T16
+R17	Purpose Arg1:T12 Arg2:T17
+R18	MadeOf Arg1:T19 Arg2:T20
+R19	MadeOf Arg1:T19 Arg2:T21
+R20	MadeOf Arg1:T22 Arg2:T23
+R21	Spatial Arg1:T22 Arg2:T24
+R22	Spatial Arg1:T22 Arg2:T25
+R23	Spatial Arg1:T22 Arg2:T26
+R24	Oper Arg1:T27 Arg2:T28
+R25	Oper Arg1:T29 Arg2:T30
+R27	Oper Arg1:T31 Arg2:T32

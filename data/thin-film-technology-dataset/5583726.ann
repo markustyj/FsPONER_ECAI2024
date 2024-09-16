@@ -1,0 +1,65 @@
+T2	Component 37 45	MR layer
+T3	Component 67 80	shield layers
+T4	Component 158 166	MR layer
+T5	Material 174 190	recording medium
+T8	ScientificConcept 275 285	flux guide
+T9	Component 310 318	MR layer
+T10	Location 397 411	effective area
+T11	Component 493 498	track
+T12	Component 588 604	flux guide layer
+T13	ScientificConcept 666 679	Magnetic flux
+T15	Component 743 751	MR layer
+T16	EnergyFlow 778 790	current flow
+T17	Component 801 821	recording coil layer
+T18	Component 836 865	electrically conductive layer
+T1	Component 2 29	magneto-resistive (MR) head
+T19	EnergyFlow 123 136	magnetic flux
+T20	Shape 201 204	gap
+T6	Component 219 232	shield layers
+T7	Component 258 271	shield layers
+T21	Shape 327 330	gap
+T22	EnergyFlow 376 378	MR
+T23	Component 419 426	MR head
+T24	Attribution 453 458	width
+T25	Attribution 484 489	width
+T26	Material 506 522	recording medium
+T27	Component 538 546	MR layer
+T28	Location 564 568	side
+T29	Location 620 632	narrow space
+T30	Location 645 651	corner
+T31	Location 659 664	space
+T14	EnergyFlow 709 722	sense current
+T32	Shape 696 699	gap
+R1	PartOf Arg1:T1 Arg2:T2
+T33	Others 51 56	space
+R2	Form Arg1:T3 Arg2:T33
+R3	PartOf Arg1:T2 Arg2:T33
+R6	Causitive Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T5 Arg2:T20
+R8	Form Arg1:T6 Arg2:T20
+R9	Spatial Arg1:T8 Arg2:T9
+R10	Spatial Arg1:T8 Arg2:T21
+T34	Location 342 345	end
+R11	Spatial Arg1:T34 Arg2:T22
+R12	Attr Arg1:T8 Arg2:T34
+R13	Spatial Arg1:T22 Arg2:T10
+R14	PartOf Arg1:T23 Arg2:T10
+T35	Location 432 443	another end
+R15	Attr Arg1:T8 Arg2:T35
+R16	Attr Arg1:T35 Arg2:T24
+R17	Attr Arg1:T11 Arg2:T25
+R18	PartOf Arg1:T26 Arg2:T11
+R19	Comparison Arg1:T35 Arg2:T11
+T36	Location 526 530	side
+R20	Attr Arg1:T27 Arg2:T36
+R21	Spatial Arg1:T36 Arg2:T28
+R22	Spatial Arg1:T28 Arg2:T12
+R23	Manner Arg1:T29 Arg2:T36
+R24	Manner Arg1:T30 Arg2:T29
+R25	Attr Arg1:T31 Arg2:T30
+R29	Causitive Arg1:T19 Arg2:T7
+R4	Causitive Arg1:T1 Arg2:T19
+R5	Manner Arg1:T4 Arg2:T19
+R26	Manner Arg1:T15 Arg2:T14
+R27	Manner Arg1:T17 Arg2:T16
+R28	Manner Arg1:T18 Arg2:T16

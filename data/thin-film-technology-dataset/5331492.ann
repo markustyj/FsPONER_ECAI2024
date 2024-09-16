@@ -1,0 +1,52 @@
+T1	System 2 22	magnetic disk system
+T2	Component 35 48	magnetic head
+T3	Component 93 106	magnetic disk
+T4	Material 112 128	recording medium
+T5	Shape 135 153	magnetic disk unit
+T6	System 163 189	head positioning mechanism
+T7	Component 210 223	magnetic head
+T9	Component 251 264	magnetic disk
+T10	InfoFlow 281 298	servo information
+T11	Component 325 338	magnetic head
+T12	Component 352 359	MR film
+T13	Shape 422 427	track
+T14	Component 450 478	current supplying electrodes
+T15	Component 527 540	magnetic film
+T16	Attribution 583 594	track width
+T17	Component 601 627	signal detecting electrode
+T18	Component 649 677	current supplying electrodes
+T19	Component 730 756	signal detecting electrode
+T20	System 823 843	magnetic disk system
+T21	Effect 859 877	accurate alignment
+T22	Component 885 898	magnetic head
+T23	Shape 229 243	selected track
+T8	Component 306 319	magnetic disk
+T25	Attribution 411 416	width
+T26	Component 435 448	magnetic disk
+T28	Component 704 711	MR film
+T29	Attribution 717 722	width
+T30	Component 789 817	current supplying electrodes
+T24	Shape 912 925	spaced tracks
+R1	Attr Arg1:T19 Arg2:T29
+R2	Comparison Arg1:T19 Arg2:T30
+R3	Manner Arg1:T21 Arg2:T22
+R4	Spatial Arg1:T22 Arg2:T24
+R5	PartOf Arg1:T1 Arg2:T2
+R6	PartOf Arg1:T1 Arg2:T5
+R7	Form Arg1:T3 Arg2:T4
+R8	PartOf Arg1:T5 Arg2:T6
+R9	PartOf Arg1:T9 Arg2:T23
+R10	Spatial Arg1:T7 Arg2:T23
+R11	Purpose Arg1:T6 Arg2:T7
+R12	PartOf Arg1:T8 Arg2:T10
+R13	Purpose Arg1:T2 Arg2:T3
+R14	PartOf Arg1:T11 Arg2:T12
+R15	Attr Arg1:T13 Arg2:T25
+R16	PartOf Arg1:T26 Arg2:T13
+R17	Manner Arg1:T25 Arg2:T12
+R18	PartOf Arg1:T11 Arg2:T14
+R19	PartOf Arg1:T11 Arg2:T17
+R20	Spatial Arg1:T17 Arg2:T18
+R21	Spatial Arg1:T18 Arg2:T28
+R22	Manner Arg1:T16 Arg2:T15
+R23	Spatial Arg1:T14 Arg2:T15

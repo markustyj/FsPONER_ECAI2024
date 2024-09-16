@@ -1,0 +1,55 @@
+T1	EnergyFlow 3 23	write driver circuit
+T2	Material 30 53	magnetic storage medium
+T3	Component 79 89	write head
+T5	EnergyFlow 132 152	first driver circuit
+T6	Function 162 173	first input
+T7	Function 177 189	first output
+T8	Shape 217 227	first node
+T9	EnergyFlow 235 254	first feedback path
+T10	Function 267 278	first input
+T11	Function 287 299	first output
+T12	EnergyFlow 303 324	second driver circuit
+T13	Function 331 343	second input
+T14	Function 347 360	second output
+T15	Shape 388 399	second node
+T16	EnergyFlow 407 427	second feedback path
+T17	Function 440 452	second input
+T18	Function 461 474	second output
+T19	EnergyFlow 478 505	first write current circuit
+T21	EnergyFlow 525 532	current
+T22	Component 545 555	write head
+T23	Location 561 576	first direction
+T24	EnergyFlow 580 608	second write current circuit
+T26	EnergyFlow 628 635	current
+T27	Component 648 658	write head
+T28	Location 664 680	second direction
+T29	EnergyFlow 684 703	first boost circuit
+T30	Measure 716 739	first transition period
+T31	EnergyFlow 748 755	current
+T32	Location 771 786	first direction
+T33	EnergyFlow 791 798	current
+T34	Location 814 830	second direction
+T4	Shape 97 119	first and second nodes
+R1	PartOf Arg1:T1 Arg2:T5
+R2	PartOf Arg1:T12 Arg2:T13
+R3	Causitive Arg1:T14 Arg2:T15
+R4	Spatial Arg1:T17 Arg2:T18
+R5	PartOf Arg1:T12 Arg2:T16
+R6	PartOf Arg1:T5 Arg2:T6
+R7	PartOf Arg1:T5 Arg2:T7
+R8	Causitive Arg1:T7 Arg2:T8
+R9	PartOf Arg1:T5 Arg2:T9
+R10	Spatial Arg1:T10 Arg2:T11
+R11	Purpose Arg1:T1 Arg2:T2
+R13	PartOf Arg1:T12 Arg2:T14
+R15	Causitive Arg1:T19 Arg2:T21
+R16	Causitive Arg1:T19 Arg2:T22
+R17	Causitive Arg1:T24 Arg2:T26
+R18	Causitive Arg1:T24 Arg2:T27
+R20	Purpose Arg1:T29 Arg2:T30
+R21	Manner Arg1:T34 Arg2:T33
+R22	Manner Arg1:T32 Arg2:T31
+R23	PartOf Arg1:T3 Arg2:T4
+R12	Causitive Arg1:T2 Arg2:T3
+R14	Manner Arg1:T23 Arg2:T21
+R19	Manner Arg1:T28 Arg2:T26

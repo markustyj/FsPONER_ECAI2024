@@ -1,0 +1,57 @@
+T2	Component 72 87	thin film heads
+T3	Component 103 134	compatible metallic mask layers
+T4	PhysicsFlow 154 156	HF
+T5	Function 179 199	deep alumina etching
+T6	Component 214 233	studless TFH device
+T7	Component 244 265	coil and bonding pads
+T8	Component 348 370	alumina overcoat layer
+T9	Function 427 434	etching
+T10	Shape 438 457	scribe-line grooves
+T11	Component 490 495	wafer
+T13	Shape 539 546	grooves
+T1	Component 89 92	TFH
+T19	Component 29 49	thick alumina layers
+T20	PhysicsFlow 160 173	water etchant
+T21	Value 149 152	1:2
+T22	Shape 314 318	vias
+T23	Component 385 397	bonding pads
+T24	Component 524 530	slider
+T25	Material 562 578	alumina chipping
+T14	Function 622 652	sawing and machining operation
+T15	Function 723 732	formation
+T16	Effect 736 751	precise craters
+T17	System 756 775	recessed structures
+T26	Effect 795 826	planarity and alleviate problem
+T18	Component 883 894	TFH devices
+T27	Effect 862 879	elevated features
+T28	Location 461 478	street and alleys
+T12	Function 500 520	sawing and machining
+T29	Effect 586 603	stress and damage
+T30	Function 666 681	pattern-etching
+T31	Material 689 706	alumina undercoat
+T32	ScientificConcept 839 857	adverse topography
+R1	Alias Arg1:T2 Arg2:T1
+R2	Manner Arg1:T20 Arg2:T19
+R3	Causitive Arg1:T3 Arg2:T19
+R4	Causitive Arg1:T4 Arg2:T19
+R5	Oper Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T8 Arg2:T22
+R7	Spatial Arg1:T8 Arg2:T23
+#1	AnnotatorNotes T28	不理解，感觉是以这种形状
+R8	Oper Arg1:T9 Arg2:T10
+R9	Purpose Arg1:T10 Arg2:T12
+R10	Oper Arg1:T12 Arg2:T24
+R11	Manner Arg1:T28 Arg2:T10
+R12	Spatial Arg1:T10 Arg2:T11
+#2	AnnotatorNotes R12	物体和穿过它的凹槽，不确定关系
+R13	Causitive Arg1:T13 Arg2:T25
+R14	Oper Arg1:T14 Arg2:T29
+R15	Oper Arg1:T30 Arg2:T31
+R16	Oper Arg1:T15 Arg2:T16
+R17	PartOf Arg1:T17 Arg2:T16
+R18	Attr Arg1:T18 Arg2:T27
+#3	AnnotatorNotes T26	这个实体标注有问题，两个应该不是一块的
+R19	Measurement Arg1:T4 Arg2:T21
+#4	AnnotatorNotes R19	这个也不是一个直接的度量
+R20	Purpose Arg1:T30 Arg2:T15
+#5	AnnotatorNotes R20	两个操作的促进关系，感觉makemove也不合适

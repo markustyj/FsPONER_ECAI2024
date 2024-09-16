@@ -1,0 +1,62 @@
+T1	Component 3 26	composite magnetic head
+T2	Component 40 55	DC-erasing head
+T3	Component 90 111	driving magnetic tape
+T6	Component 153 166	magnetic tape
+T7	Location 193 202	direction
+T8	Function 210 223	magnetization
+T11	Location 281 290	direction
+T12	Location 298 318	lengthwise direction
+T13	Component 326 339	magnetic tape
+T14	Component 343 361	servo writing head
+T15	Component 398 411	magnetic tape
+T16	InfoFlow 432 444	servo signal
+T17	Location 465 474	direction
+T18	Function 482 495	magnetization
+T20	Location 537 554	reverse direction
+T21	Location 562 571	direction
+T22	Component 588 603	DC erasing head
+T23	Component 612 627	AC-erasing head
+T24	Component 655 668	magnetic tape
+T25	Function 694 707	magnetization
+T27	Component 732 745	magnetic tape
+T28	Component 764 782	servo writing head
+T29	Component 791 806	AC-erasing head
+T31	Component 841 862	driving magnetic tape
+T32	Component 879 894	DC-erasing head
+T33	Component 904 919	DC-erasing head
+T34	Component 925 943	servo writing head
+T35	Component 952 967	AC-erasing head
+T4	Component 135 145	servo band
+T5	Component 231 241	servo band
+T9	Component 246 256	servo band
+T10	Component 503 513	servo band
+T19	Component 715 724	data band
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T28 Arg2:T31
+R3	Spatial Arg1:T29 Arg2:T31
+R4	Spatial Arg1:T33 Arg2:T34
+R5	Spatial Arg1:T29 Arg2:T32
+R6	Spatial Arg1:T28 Arg2:T32
+R7	Spatial Arg1:T33 Arg2:T35
+R8	Spatial Arg1:T34 Arg2:T35
+R9	PartOf Arg1:T1 Arg2:T14
+R10	PartOf Arg1:T1 Arg2:T23
+R11	Spatial Arg1:T2 Arg2:T3
+R12	PartOf Arg1:T6 Arg2:T4
+R13	Oper Arg1:T8 Arg2:T5
+R15	PartOf Arg1:T13 Arg2:T12
+R16	PartOf Arg1:T12 Arg2:T11
+R18	Spatial Arg1:T14 Arg2:T15
+R19	Generate Arg1:T14 Arg2:T16
+R20	Oper Arg1:T18 Arg2:T10
+R22	PartOf Arg1:T22 Arg2:T21
+R23	Spatial Arg1:T17 Arg2:T21
+R24	Spatial Arg1:T21 Arg2:T20
+R25	Spatial Arg1:T23 Arg2:T24
+R26	Oper Arg1:T25 Arg2:T19
+R27	PartOf Arg1:T27 Arg2:T19
+#1	AnnotatorNotes T7	direction是magnetization的方向，即磁化方向，而方向具有普适性，所以应该在这两者之间建立attr关系
+#2	AnnotatorNotes R23	按照《语义关系标引说明三补充版for team2.docx》上来
+R14	Attr Arg1:T8 Arg2:T7
+R17	Attr Arg1:T18 Arg2:T17
+R21	Spatial Arg1:T7 Arg2:T11

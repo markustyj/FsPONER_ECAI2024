@@ -1,0 +1,46 @@
+T2	Attribution 64 79	special utility
+T3	Function 94 122	closely packed interconnects
+T4	Component 126 150	magnetic recording heads
+T5	Component 165 234	higher density magnetoresistive and giant magnetoresistive tape heads
+T7	Effect 317 360	significantly higher interconnect densities
+T8	Effect 377 393	increased number
+T9	Shape 397 405	channels
+T10	Component 426 476	single computer mass storage device recording head
+T11	Component 480 512	resultant stronger encapsulation
+T12	Component 529 533	stud
+T13	Effect 551 580	increased channel reliability
+T14	Effect 586 605	improved uniformity
+T15	Component 613 633	photoresist aperture
+T16	System 664 678	stud structure
+T17	EnergyFlow 684 718	lower current spreading resistance
+T18	Attribution 734 765	wider underlying stud base size
+T19	Effect 777 792	stud uniformity
+T20	Effect 806 826	improved stud yields
+T23	Effect 911 915	cost
+T24	Function 931 958	additional photolithography
+T1	Function 2 35	multi-step stud design and method
+T6	Function 240 289	multi-step stud fabrication process and structure
+T25	Value 406 420	per millimeter
+T21	Effect 833 848	increased yield
+T22	Function 963 980	plating processes
+T27	Function 863 902	conventional single step stud processes
+R1	Oper Arg1:T3 Arg2:T4
+R2	Purpose Arg1:T1 Arg2:T2
+R3	InstanceOf Arg1:T5 Arg2:T4
+R4	Purpose Arg1:T2 Arg2:T3
+R5	Causitive Arg1:T11 Arg2:T12
+R6	Purpose Arg1:T11 Arg2:T13
+R7	Attr Arg1:T6 Arg2:T7
+R8	PartOf Arg1:T10 Arg2:T9
+R9	Manner Arg1:T25 Arg2:T9
+R10	Measurement Arg1:T9 Arg2:T8
+R11	Purpose Arg1:T6 Arg2:T8
+R12	Attr Arg1:T15 Arg2:T14
+R13	Spatial Arg1:T15 Arg2:T16
+R14	Purpose Arg1:T17 Arg2:T19
+R16	Purpose Arg1:T18 Arg2:T17
+R15	Purpose Arg1:T19 Arg2:T20
+R17	Comparison Arg1:T21 Arg2:T27
+R18	Purpose Arg1:T21 Arg2:T23
+R19	Others Arg1:T21 Arg2:T24
+R20	Others Arg1:T21 Arg2:T22

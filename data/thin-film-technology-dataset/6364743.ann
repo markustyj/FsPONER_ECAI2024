@@ -1,0 +1,30 @@
+T1	Component 2 26	lapping monitor resistor
+T2	Component 31 52	thin film transducers
+T3	Component 71 87	insulation layer
+T4	Attribution 100 118	critical dimension
+T5	Component 130 152	first conductive layer
+T6	Component 175 192	conductive blocks
+T7	Component 197 213	insulating layer
+T8	Component 252 274	first conductive layer
+T9	Component 282 305	second conductive layer
+T10	Component 328 345	conductive blocks
+T11	Component 351 374	second conductive layer
+T12	Component 408 430	first conductive layer
+T13	Component 455 471	insulating layer
+T15	Component 545 569	lapping monitor resistor
+T16	Function 534 537	use
+T14	Attribution 511 524	lapping depth
+R1	Oper Arg1:T16 Arg2:T15
+R2	Purpose Arg1:T16 Arg2:T14
+R3	Spatial Arg1:T11 Arg2:T12
+R4	Spatial Arg1:T11 Arg2:T13
+R5	Purpose Arg1:T1 Arg2:T2
+R6	Purpose Arg1:T3 Arg2:T4
+R7	Attr Arg1:T1 Arg2:T4
+R8	PartOf Arg1:T1 Arg2:T5
+R9	PartOf Arg1:T1 Arg2:T7
+R10	PartOf Arg1:T1 Arg2:T9
+R11	PartOf Arg1:T5 Arg2:T6
+R12	Spatial Arg1:T7 Arg2:T8
+R13	PartOf Arg1:T9 Arg2:T10
+R14	Manner Arg1:T3 Arg2:T1

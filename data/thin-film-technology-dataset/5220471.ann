@@ -1,0 +1,36 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 38 44	slider
+T5	Component 220 226	slider
+T7	Component 377 383	slider
+T11	Component 541 547	slider
+T12	Component 51 74	reading/writing element
+T3	Attribution 90 101	end surface
+T13	Component 109 115	slider
+T14	Component 129 152	reading/writing element
+T4	Attribution 171 182	end surface
+T15	Location 190 212	longitudinal direction
+T16	Location 236 258	longitudinal direction
+T17	Location 267 282	width direction
+T6	Material 327 352	magnetic recording medium
+T18	Component 361 367	slider
+T19	Attribution 305 312	surface
+T8	Shape 390 403	linear groove
+T20	Attribution 411 418	surface
+T21	Attribution 432 439	surface
+T9	Shape 456 481	magnetic recording medium
+T22	Location 518 533	width direction
+T23	Location 562 584	longitudinal direction
+T10	Location 490 510	intermediate portion
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T12
+R4	Attr Arg1:T13 Arg2:T3
+R3	Spatial Arg1:T12 Arg2:T3
+R5	PartOf Arg1:T3 Arg2:T14
+R6	Spatial Arg1:T14 Arg2:T4
+R8	Manner Arg1:T15 Arg2:T4
+R9	Attr Arg1:T5 Arg2:T15
+R7	Attr Arg1:T11 Arg2:T22
+R10	Attr Arg1:T11 Arg2:T23
+R11	Manner Arg1:T19 Arg2:T16
+R12	Manner Arg1:T19 Arg2:T17
+R13	Spatial Arg1:T19 Arg2:T6

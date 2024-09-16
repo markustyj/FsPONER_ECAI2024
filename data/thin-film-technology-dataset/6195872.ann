@@ -1,0 +1,83 @@
+T1	Component 28 51	thin film magnetic head
+T2	Component 130 144	thin film coil
+T4	Component 241 267	first thin film coil layer
+T5	Component 275 289	thin film coil
+T7	Shape 420 440	coil-shaped recesses
+T8	Component 448 470	first insulating layer
+T9	Function 476 496	reactive ion etching
+T10	Component 591 604	coil windings
+T11	Component 612 632	thin film coil layer
+T13	Material 729 761	electrically conductive material
+T14	Component 865 907	deposited electrically conductive material
+T15	Component 931 953	first insulating layer
+T16	Component 1128 1136	recesses
+T17	Component 1096 1109	coil windings
+T18	Component 1160 1182	first insulating layer
+T19	Component 1258 1280	first insulating layer
+T22	Component 1421 1443	first insulating layer
+T24	Component 64 84	first magnetic layer
+T25	Component 88 109	second magnetic layer
+T26	Component 113 122	gap layer
+T27	Component 171 192	thin film coil layers
+T3	Component 340 372	first inorganic insulating layer
+T6	Component 390 410	first magnetic layer
+T28	Shape 511 519	recesses
+T29	Attribution 527 532	width
+T30	Attribution 539 546	spacing
+T31	Attribution 568 573	width
+T32	Attribution 580 587	spacing
+T33	Attribution 657 662	depth
+T34	Attribution 686 692	height
+T35	Component 700 713	coil windings
+T12	Shape 773 781	recesses
+T36	Function 787 812	chemical vapor deposition
+T37	Shape 827 835	recesses
+T38	Attribution 916 923	surface
+T39	Material 985 1027	deposited electrically conductive material
+T40	Material 1043 1085	deposited electrically conductive material
+T41	Attribution 1145 1152	surface
+T42	Attribution 1204 1216	flat surface
+T43	Attribution 1235 1250	exposed surface
+T44	Attribution 1285 1299	upper surfaces
+T45	Component 1307 1320	coil windings
+T20	Component 1336 1359	second insulating layer
+T21	Attribution 1367 1379	flat surface
+T46	Attribution 1398 1413	exposed surface
+T47	Attribution 1452 1466	upper surfaces
+T48	Component 1474 1487	coil windings
+R1	PartOf Arg1:T1 Arg2:T24
+R2	PartOf Arg1:T1 Arg2:T25
+R3	PartOf Arg1:T1 Arg2:T26
+R4	PartOf Arg1:T1 Arg2:T2
+R5	PartOf Arg1:T2 Arg2:T27
+R6	PartOf Arg1:T5 Arg2:T4
+R7	Spatial Arg1:T3 Arg2:T6
+R8	Spatial Arg1:T7 Arg2:T8
+R9	Oper Arg1:T9 Arg2:T7
+R10	Attr Arg1:T28 Arg2:T29
+R11	Attr Arg1:T28 Arg2:T30
+R12	Attr Arg1:T10 Arg2:T32
+R13	Attr Arg1:T10 Arg2:T31
+R14	PartOf Arg1:T11 Arg2:T10
+R15	Comparison Arg1:T29 Arg2:T31
+R16	Comparison Arg1:T30 Arg2:T32
+R17	Attr Arg1:T28 Arg2:T33
+R18	Comparison Arg1:T33 Arg2:T34
+R19	Attr Arg1:T35 Arg2:T34
+R20	Oper Arg1:T36 Arg2:T13
+R21	Spatial Arg1:T13 Arg2:T12
+R22	Spatial Arg1:T37 Arg2:T14
+R23	Attr Arg1:T15 Arg2:T38
+R24	Spatial Arg1:T38 Arg2:T39
+R25	Spatial Arg1:T17 Arg2:T16
+R26	Attr Arg1:T18 Arg2:T41
+R27	Form Arg1:T41 Arg2:T42
+R28	PartOf Arg1:T42 Arg2:T43
+R29	Attr Arg1:T19 Arg2:T43
+R30	Attr Arg1:T45 Arg2:T44
+R31	PartOf Arg1:T42 Arg2:T44
+R32	Spatial Arg1:T20 Arg2:T21
+R34	PartOf Arg1:T20 Arg2:T47
+R35	Attr Arg1:T48 Arg2:T47
+R36	Attr Arg1:T22 Arg2:T46
+R33	PartOf Arg1:T20 Arg2:T46

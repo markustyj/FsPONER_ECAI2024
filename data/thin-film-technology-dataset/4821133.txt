@@ -1,0 +1,1 @@
+A magnetoresistive sensor element having bottleneck shaped ends. The sensor element has a highly stable, single domain central region, which eliminates Barkhausen noise.

@@ -1,0 +1,45 @@
+T1	Location 66 74	position
+T2	Component 80 94	recording head
+T3	System 101 125	existing data structures
+T4	Material 129 151	magnetic storage media
+T5	Component 184 198	recording head
+T6	Shape 217 229	active track
+T7	Component 235 256	magnetic storage tape
+T8	Component 262 276	recording head
+T9	Component 289 302	write element
+T10	Component 309 321	read element
+T11	State 327 353	known spatial relationship
+T12	Component 367 379	read element
+T13	Shape 428 443	reference track
+T14	Component 453 466	write element
+T15	Shape 484 496	active track
+T16	Component 500 510	controller
+T17	Location 524 541	relative position
+T18	Component 549 567	transducer element
+T19	Shape 575 590	reference track
+T20	Component 611 625	recording head
+T21	Shape 647 659	active track
+T22	Component 665 677	read element
+T23	Component 687 710	backward channel reader
+T24	Component 714 736	dedicated read element
+T25	Component 744 758	recording head
+T28	Shape 771 787	reference tracks
+T26	Function 795 823	read and/or write operations
+R1	PartOf Arg1:T8 Arg2:T9
+R2	PartOf Arg1:T8 Arg2:T10
+R3	Attr Arg1:T2 Arg2:T1
+R4	Spatial Arg1:T3 Arg2:T4
+R5	Causitive Arg1:T1 Arg2:T3
+R6	PartOf Arg1:T7 Arg2:T6
+R7	Causitive Arg1:T14 Arg2:T15
+R8	Purpose Arg1:T12 Arg2:T13
+R10	Causitive Arg1:T16 Arg2:T17
+R11	Spatial Arg1:T18 Arg2:T19
+R9	PartOf Arg1:T18 Arg2:T17
+R12	Causitive Arg1:T16 Arg2:T20
+R13	Causitive Arg1:T20 Arg2:T21
+R14	InstanceOf Arg1:T22 Arg2:T23
+R15	InstanceOf Arg1:T22 Arg2:T24
+R16	PartOf Arg1:T25 Arg2:T24
+R17	PartOf Arg1:T25 Arg2:T23
+R18	Purpose Arg1:T25 Arg2:T28

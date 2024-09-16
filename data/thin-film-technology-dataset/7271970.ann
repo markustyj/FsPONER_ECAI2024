@@ -1,0 +1,39 @@
+T1	Component 3 29	conventional magnetic head
+T2	System 36 45	structure
+T3	Component 58 68	MR element
+T4	Component 75 92	recording element
+T5	EnergyFlow 125 149	recording magnetic field
+T6	Location 157 187	magnetically sensitive portion
+T7	Component 193 213	reproduction element
+T8	Function 234 245	performance
+T9	Component 253 263	MR element
+T10	Effect 289 300	reliability
+T11	Component 308 327	magnetic disk drive
+T12	Component 336 346	MR element
+T13	Component 364 383	magnetic disk drive
+T14	Component 391 412	composite magnet head
+T15	Component 439 460	reproduction elements
+T16	Component 484 512	magnetically sensitive layer
+T17	Component 518 538	reproduction element
+T18	Component 546 569	composite magnetic head
+T20	Component 631 648	recording element
+T21	EnergyFlow 687 711	recording magnetic field
+T22	Location 719 749	magnetically sensitive portion
+T23	Component 758 778	reproduction element
+T24	Consequence 110 119	influence
+T19	Function 597 623	ormal direction projection
+T25	Consequence 672 681	influence
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T5 Arg2:T24
+R3	Attr Arg1:T9 Arg2:T8
+R4	Manner Arg1:T6 Arg2:T7
+R5	Attr Arg1:T11 Arg2:T10
+R6	Causitive Arg1:T11 Arg2:T12
+R7	Causitive Arg1:T13 Arg2:T14
+R8	PartOf Arg1:T14 Arg2:T15
+R9	PartOf Arg1:T17 Arg2:T16
+R10	PartOf Arg1:T18 Arg2:T17
+R11	Attr Arg1:T20 Arg2:T19
+R12	Attr Arg1:T23 Arg2:T22
+R13	Attr Arg1:T21 Arg2:T25
+R14	Manner Arg1:T22 Arg2:T21

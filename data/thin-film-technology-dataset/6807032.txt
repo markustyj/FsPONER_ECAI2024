@@ -1,0 +1,1 @@
+A ferromagnetic shield material having a minimized anisotropic magneto-resistance effect permits the use of a combined shield/electrical lead for magneto-resistive read elements. The shields/electrical leads may therefore be placed closer together, maximizing the recording density that may be read by a magnetic recording head using a read element having such shields/leads.

@@ -1,0 +1,39 @@
+T1	Material 134 159	magnetic recording medium
+T2	Component 185 200	electrode layer
+T3	EnergyFlow 225 241	sheet resistance
+T4	Component 249 264	electrode layer
+T5	Material 358 383	magnetic recording medium
+T6	EnergyFlow 484 500	sheet resistance
+T7	Component 508 522	laminated body
+T9	Attribution 64 80	extending length
+T10	Location 88 106	vertical direction
+T11	Attribution 115 127	opposed face
+T12	Location 171 177	inside
+T13	Attribution 288 304	extending length
+T14	Location 312 330	vertical direction
+T15	Attribution 339 351	opposed face
+T16	Location 395 401	inside
+T17	Component 409 423	laminated body
+T18	Component 449 456	element
+T19	Attribution 554 576	output characteristics
+T8	Component 584 626	spin-valve type thin film magnetic element
+T20	Attribution 432 441	elevation
+T21	Function 656 668	side-reading
+T22	Function 674 684	generating
+R1	Manner Arg1:T10 Arg2:T1
+R2	Manner Arg1:T10 Arg2:T9
+R3	Attr Arg1:T2 Arg2:T12
+R4	Attr Arg1:T4 Arg2:T3
+R5	Attr Arg1:T14 Arg2:T13
+R6	Manner Arg1:T14 Arg2:T5
+R7	PartOf Arg1:T17 Arg2:T16
+R8	Attr Arg1:T18 Arg2:T20
+R9	Attr Arg1:T7 Arg2:T6
+R10	Attr Arg1:T8 Arg2:T19
+R11	Spatial Arg1:T11 Arg2:T1
+R12	Spatial Arg1:T15 Arg2:T5
+R14	Purpose Arg1:T21 Arg2:T19
+#1	AnnotatorNotes R2	这个关系说的是在垂直方向上的延伸长度，即延伸长度所在方向，用manner做标记
+#2	AnnotatorNotes R1	(vertical direction,opposed face,magnetic recording medium)这个三元组表示的是从A到B的方向，缺了A或B，方向C不复存在，按照讲义2更新版的第3条规定，不用标记方向和A、B的关系，仅标记AB之间关系即可
+R15	Manner Arg1:T12 Arg2:T9
+#3	AnnotatorNotes R14	purpose没问题，但方向反了，注意什么是因，什么是果

@@ -1,0 +1,93 @@
+T1	Component 2 50	thermally-assisted magnetic recording disk drive
+T2	Location 77 89	small region
+T3	Component 97 111	magnetic layer
+T4	Component 119 123	disk
+T5	EnergyFlow 145 162	Curie temperature
+T6	EnergyFlow 171 182	write field
+T7	Component 199 229	thin film inductive write head
+T8	Component 235 265	thin film inductive write head
+T9	Component 278 307	electrically resistive heater
+T10	Shape 323 332	write gap
+T11	Component 345 354	pole tips
+T12	Component 362 372	write head
+T13	Component 378 394	resistive heater
+T14	Component 417 447	first and second spacer layers
+T15	Component 477 486	pole tips
+T16	Component 494 504	write head
+T19	Component 568 581	spacer layers
+T20	Component 618 627	pole tips
+T21	Component 641 657	electrical leads
+T22	EnergyFlow 669 687	electrical current
+T23	Location 693 702	direction
+T24	Component 734 739	layer
+T25	Material 743 768	resistive heater material
+T28	Component 818 831	spacer layers
+T29	Material 846 865	insulating material
+T30	Component 870 886	electrical leads
+T31	Component 915 919	film
+T32	Component 932 945	spacer layers
+T33	Location 971 975	side
+T34	Component 983 999	resistive heater
+T35	Attribution 1005 1010	width
+T36	Component 1018 1034	resistive heater
+T37	Attribution 1052 1057	width
+T38	Component 1065 1074	pole tips
+T39	Location 1096 1102	region
+T40	Component 1110 1124	magnetic layer
+T41	Component 1132 1136	disk
+T42	Component 1159 1175	resistive heater
+T43	Component 1198 1207	pole tips
+T44	Component 1215 1225	write head
+T45	Attribution 1231 1247	data track width
+T46	Component 1255 1259	disk
+T47	Attribution 1278 1283	width
+T48	Component 1291 1307	resistive heater
+T49	Component 1332 1352	write head pole tips
+T17	Function 953 960	contact
+T18	ScientificConcept 1320 1328	geometry
+T26	Component 775 812	current-in-the plane (CIP) embodiment
+T27	Component 511 562	current-perpendicular-to-the plane (CPP) embodiment
+R1	PartOf Arg1:T3 Arg2:T2
+R3	Causitive Arg1:T1 Arg2:T2
+R4	Attr Arg1:T2 Arg2:T5
+R5	Causitive Arg1:T7 Arg2:T6
+R6	PartOf Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T12 Arg2:T11
+R8	Spatial Arg1:T10 Arg2:T11
+R10	PartOf Arg1:T16 Arg2:T15
+R11	Spatial Arg1:T14 Arg2:T15
+R12	Spatial Arg1:T13 Arg2:T14
+R13	Form Arg1:T20 Arg2:T21
+R14	Purpose Arg1:T21 Arg2:T22
+R15	Manner Arg1:T23 Arg2:T22
+R16	Attr Arg1:T25 Arg2:T24
+R18	MadeOf Arg1:T28 Arg2:T29
+R19	Spatial Arg1:T31 Arg2:T32
+R20	Form Arg1:T30 Arg2:T31
+R21	Attr Arg1:T34 Arg2:T33
+R22	Spatial Arg1:T30 Arg2:T33
+R23	Attr Arg1:T36 Arg2:T35
+R24	Attr Arg1:T38 Arg2:T37
+R25	Comparison Arg1:T35 Arg2:T37
+R26	PartOf Arg1:T40 Arg2:T39
+R27	Spatial Arg1:T40 Arg2:T41
+R28	Causitive Arg1:T42 Arg2:T39
+R29	Causitive Arg1:T43 Arg2:T39
+R30	PartOf Arg1:T44 Arg2:T43
+R31	Attr Arg1:T46 Arg2:T45
+R32	Attr Arg1:T48 Arg2:T47
+R33	Attr Arg1:T49 Arg2:T18
+R34	Causitive Arg1:T47 Arg2:T45
+R17	Spatial Arg1:T24 Arg2:T21
+R9	Spatial Arg1:T9 Arg2:T10
+T50	InfoFlow 59 63	data
+R35	Causitive Arg1:T1 Arg2:T50
+R2	Spatial Arg1:T3 Arg2:T4
+R36	PartOf Arg1:T27 Arg2:T19
+#1	AnnotatorNotes R36	漏标了，从句首in可以看出两者包含关系
+R37	PartOf Arg1:T27 Arg2:T20
+#2	AnnotatorNotes R37	漏标了
+R38	Spatial Arg1:T26 Arg2:T28
+#3	AnnotatorNotes R38	漏标了
+R39	PartOf Arg1:T26 Arg2:T30
+#4	AnnotatorNotes R39	漏标了

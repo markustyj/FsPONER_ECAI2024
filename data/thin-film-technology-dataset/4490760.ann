@@ -1,0 +1,69 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 35 53	magnetic substrate
+T3	Material 64 71	ferrite
+T4	Material 73 100	iron-aluminum-silicon alloy
+T5	Material 104 117	like material
+T6	Component 126 146	upper magnetic layer
+T7	Component 161 179	magnetic substrate
+T8	Component 187 207	lower magnetic layer
+T9	Component 214 230	conductive layer
+T10	Component 273 293	upper magnetic layer
+T11	Component 312 330	magnetic substrate
+T12	Component 360 380	upper magnetic layer
+T13	Component 399 419	lower magnetic layer
+T14	Component 430 448	non-magnetic layer
+T16	Material 465 478	like material
+T17	Shape 494 506	magnetic gap
+T18	Component 512 532	lower magnetic layer
+T19	Component 534 553	magnetic substrate,
+T20	Component 554 574	upper magnetic layer
+T21	Component 583 601	non-magnetic layer
+T22	EnergyFlow 624 647	closed magnetic circuit
+T23	Shape 651 657	groove
+T24	Component 681 701	lower magnetic layer
+T25	Component 710 728	magnetic substrate
+T26	Attribution 748 760	side surface
+T27	Component 768 786	magnetic substrate
+T28	Material 805 830	magnetic recording medium
+T29	Shape 836 842	recess
+T30	Material 860 881	non-magnetic material
+T31	Material 890 895	glass
+T32	Attribution 938 964	definite pole piece length
+T33	Effect 978 989	improvement
+T34	Attribution 993 1038	short-wavelength reproduction characteristics
+T35	Function 605 616	combination
+T15	Material 452 461	SiO.sub.2
+R1	PartOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T2 Arg2:T3
+R3	MadeOf Arg1:T2 Arg2:T4
+R4	MadeOf Arg1:T2 Arg2:T5
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T6 Arg2:T8
+R7	Spatial Arg1:T6 Arg2:T9
+R8	PartOf Arg1:T1 Arg2:T6
+R9	PartOf Arg1:T1 Arg2:T8
+R10	PartOf Arg1:T1 Arg2:T9
+R11	Spatial Arg1:T10 Arg2:T11
+R12	MadeOf Arg1:T17 Arg2:T15
+R13	MadeOf Arg1:T17 Arg2:T16
+R14	MadeOf Arg1:T14 Arg2:T15
+R15	MadeOf Arg1:T14 Arg2:T16
+R16	Spatial Arg1:T12 Arg2:T14
+R17	Spatial Arg1:T14 Arg2:T13
+R18	Oper Arg1:T35 Arg2:T21
+R19	Oper Arg1:T35 Arg2:T20
+R20	Oper Arg1:T35 Arg2:T19
+R21	Oper Arg1:T35 Arg2:T18
+R22	Form Arg1:T18 Arg2:T22
+R23	Form Arg1:T19 Arg2:T22
+R24	Form Arg1:T21 Arg2:T22
+R25	Form Arg1:T20 Arg2:T22
+R26	Spatial Arg1:T24 Arg2:T25
+R27	Attr Arg1:T27 Arg2:T26
+R28	Spatial Arg1:T27 Arg2:T28
+R29	Spatial Arg1:T23 Arg2:T26
+R30	Spatial Arg1:T23 Arg2:T24
+R31	InstanceOf Arg1:T31 Arg2:T30
+R32	Spatial Arg1:T29 Arg2:T30
+R33	Purpose Arg1:T32 Arg2:T33
+R34	Purpose Arg1:T34 Arg2:T33

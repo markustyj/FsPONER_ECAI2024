@@ -1,0 +1,80 @@
+T1	System 2 48	magnetoresistive (MR) read transducer assembly
+T2	Component 62 80	thin film MR layer
+T3	Location 118 129	end regions
+T4	EnergyFlow 133 146	exchange bias
+T5	Component 162 171	thin film
+T6	Material 175 201	antiferromagnetic material
+T7	Location 250 261	end regions
+T8	Component 269 277	MR layer
+T9	Component 284 293	thin film
+T10	Material 297 319	soft magnetic material
+T11	System 345 364	transducer assembly
+T12	EnergyFlow 370 387	longitudinal bias
+T13	Function 404 421	exchange coupling
+T14	Component 434 443	thin film
+T15	Material 447 473	antiferromagnetic material
+T16	Component 487 495	MR layer
+T17	Component 504 513	thin film
+T18	Material 517 539	soft magnetic material
+T19	Location 547 558	end regions
+T20	Component 573 582	thin film
+T21	Material 586 608	soft magnetic material
+T22	Component 631 639	MR layer
+T23	Location 647 661	central region
+T24	Component 674 682	MR layer
+T25	Component 688 704	decoupling layer
+T26	Function 726 743	exchange coupling
+T27	Location 792 806	central region
+T28	Component 828 839	bias source
+T29	Component 843 858	conductor leads
+T30	Component 886 894	MR layer
+T31	Location 906 916	end region
+T32	EnergyFlow 922 937	transverse bias
+T33	Location 970 984	central region
+T34	Component 992 1000	MR layer
+T35	EnergyFlow 1014 1026	bias current
+T36	Component 1035 1051	decoupling layer
+T38	Component 1119 1134	conductor leads
+T39	InfoFlow 1139 1152	output signal
+T40	Component 1203 1211	MR layer
+T41	EnergyFlow 1233 1239	fields
+T42	Component 1269 1277	MR layer
+T43	EnergyFlow 752 767	transverse bias
+T44	Function 812 822	connection
+T45	System 1091 1111	signal sensing means
+T37	Function 1075 1085	connection
+T46	Effect 1177 1195	resistance changes
+T47	ScientificConcept 1217 1225	function
+R1	PartOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T5 Arg2:T6
+R3	Spatial Arg1:T5 Arg2:T7
+R4	PartOf Arg1:T8 Arg2:T7
+R5	MadeOf Arg1:T9 Arg2:T10
+R6	Causitive Arg1:T9 Arg2:T11
+R7	Oper Arg1:T13 Arg2:T12
+R8	MadeOf Arg1:T14 Arg2:T15
+R9	MadeOf Arg1:T17 Arg2:T18
+R10	Manner Arg1:T19 Arg2:T12
+R11	Spatial Arg1:T14 Arg2:T16
+R12	Spatial Arg1:T16 Arg2:T17
+R13	Spatial Arg1:T14 Arg2:T17
+R14	MadeOf Arg1:T20 Arg2:T21
+R15	Spatial Arg1:T20 Arg2:T22
+R16	PartOf Arg1:T24 Arg2:T23
+R18	Causitive Arg1:T25 Arg2:T20
+R19	Causitive Arg1:T25 Arg2:T26
+R17	Oper Arg1:T44 Arg2:T28
+R20	Spatial Arg1:T28 Arg2:T29
+R21	Spatial Arg1:T29 Arg2:T30
+R22	Manner Arg1:T27 Arg2:T43
+R23	Manner Arg1:T23 Arg2:T20
+R24	Manner Arg1:T33 Arg2:T32
+R25	PartOf Arg1:T34 Arg2:T33
+R26	Generate Arg1:T34 Arg2:T35
+R27	PartOf Arg1:T34 Arg2:T36
+R28	Oper Arg1:T37 Arg2:T45
+R29	Spatial Arg1:T45 Arg2:T38
+R30	Purpose Arg1:T39 Arg2:T46
+R31	Attr Arg1:T41 Arg2:T47
+R32	Generate Arg1:T42 Arg2:T41
+R33	Attr Arg1:T40 Arg2:T46

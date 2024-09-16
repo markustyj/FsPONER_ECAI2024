@@ -1,0 +1,38 @@
+T2	Component 74 94	reading head element
+T4	Component 165 185	reading head element
+T5	Component 194 215	lead conductor layers
+T7	Component 302 322	reading head element
+T11	Function 583 603	reactive ion etching
+T1	Component 28 66	composite type thin-film magnetic head
+T3	Component 102 133	inductive writing head element,
+T15	Component 221 243	first insulation layer
+T6	Component 265 288	second insulation layer
+T8	Component 331 352	lead conductor layers
+T9	Component 374 393	second shield layer
+T16	Component 401 424	second insulation layer
+T17	Component 447 469	hird insulation layer,
+T18	Shape 492 501	via holes
+T19	Shape 508 521	back gap hole
+T20	Shape 527 536	via holes
+T21	Function 605 608	RIE
+T12	Component 642 665	second insulation layer
+T13	Component 674 696	third insulation layer
+T22	Shape 712 721	via holes
+T14	Component 730 752	third insulation layer
+T23	Shape 768 781	back gap hole
+T10	Shape 541 554	back gap hole
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Purpose Arg1:T6 Arg2:T7
+R4	Spatial Arg1:T4 Arg2:T15
+R5	Spatial Arg1:T5 Arg2:T15
+R6	Purpose Arg1:T6 Arg2:T8
+R7	Spatial Arg1:T9 Arg2:T16
+R8	Alias Arg1:T11 Arg2:T21
+R9	Spatial Arg1:T13 Arg2:T22
+R10	Spatial Arg1:T14 Arg2:T23
+R11	Purpose Arg1:T11 Arg2:T12
+R12	Purpose Arg1:T11 Arg2:T13
+R13	Purpose Arg1:T11 Arg2:T14
+R14	Oper Arg1:T11 Arg2:T10
+R15	Oper Arg1:T11 Arg2:T20

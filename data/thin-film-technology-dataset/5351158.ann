@@ -1,0 +1,41 @@
+T1	Component 27 41	thin film head
+T2	Component 67 97	magnetic field sensing element
+T3	Component 128 143	electrode layer
+T5	Component 213 243	magnetic field sensing element
+T6	ScientificConcept 255 268	sense current
+T7	Component 276 306	magnetic field sensing element
+T8	EnergyFlow 319 332	sense current
+T9	Component 391 407	insulating layer
+T10	Component 458 496	bias magnetic field creating conductor
+T11	Component 511 527	insulating layer
+T14	Component 690 705	electrode layer
+T16	Component 727 765	bias magnetic field creating conductor
+T17	EnergyFlow 2 26	magnetoresistance-effect
+T18	Component 54 63	substrate
+T19	Component 114 123	substrate
+T20	Location 192 205	opposite ends
+T22	EnergyFlow 365 386	signal magnetic field
+T23	Component 424 454	magnetic field sensing element
+T24	Component 555 585	magnetic field sensing element
+T25	Component 593 617	magnetic shielding layer
+T12	Component 632 662	magnetic field sensing element
+T26	Shape 784 802	conductive pattern
+R1	PartOf Arg1:T26 Arg2:T16
+R2	PartOf Arg1:T26 Arg2:T14
+R3	Purpose Arg1:T1 Arg2:T17
+R4	PartOf Arg1:T1 Arg2:T18
+R5	PartOf Arg1:T1 Arg2:T2
+R6	PartOf Arg1:T1 Arg2:T3
+R7	PartOf Arg1:T1 Arg2:T10
+R8	PartOf Arg1:T1 Arg2:T25
+R9	Spatial Arg1:T2 Arg2:T19
+R10	PartOf Arg1:T5 Arg2:T20
+R11	Manner Arg1:T20 Arg2:T3
+R12	Manner Arg1:T22 Arg2:T8
+R14	PartOf Arg1:T1 Arg2:T9
+R15	Spatial Arg1:T9 Arg2:T23
+R16	Spatial Arg1:T10 Arg2:T11
+R18	Causitive Arg1:T25 Arg2:T12
+R17	Manner Arg1:T24 Arg2:T10
+R13	Purpose Arg1:T6 Arg2:T7
+R19	Purpose Arg1:T3 Arg2:T6

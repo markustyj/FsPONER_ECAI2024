@@ -1,0 +1,67 @@
+T1	Component 2 25	thin-film magnetic head
+T3	Component 58 79	nonmagnetic substrate
+T4	Material 86 102	recording medium
+T5	Component 150 174	magnetic conduction body
+T6	EnergyFlow 188 201	magnetic flux
+T7	Component 212 229	outer magnet legs
+T8	Component 236 262	further central magnet leg
+T9	Component 268 273	poles
+T10	Material 294 310	recording medium
+T11	Location 360 369	direction
+T12	Function 373 379	motion
+T13	Component 387 391	head
+T14	Attribution 402 426	predetermined gap widths
+T15	Component 457 475	current conductors
+T16	System 481 508	write/read coil arrangement
+T17	Component 550 568	central magnet leg
+T18	Component 575 602	respective outer magnet leg
+T19	Component 631 644	magnetic head
+T20	EnergyFlow 674 696	magnetic writing field
+T21	ScientificConcept 702 715	field pattern
+T22	ScientificConcept 731 769	pronounced largely symmetrical maximum
+T23	Component 795 813	current conductors
+T24	System 821 837	coil arrangement
+T25	Shape 857 870	further space
+T26	Location 881 904	current flow directions
+T27	Component 912 930	current conductors
+T28	Location 943 953	both sides
+T29	Component 961 979	central magnet leg
+T30	Component 1046 1064	central magnet leg
+T31	Location 1086 1094	vicinity
+T32	Component 1102 1106	pole
+T33	Effect 1110 1141	higher saturation magnetization
+T34	Component 1151 1168	outer magnet legs
+T35	Component 1184 1195	magnet legs
+T36	EnergyFlow 1203 1222	magnetic saturation
+T37	Component 1239 1250	central leg
+T38	Function 33 52	layer-wise build-up
+T2	Shape 524 530	spaces
+R1	Oper Arg1:T38 Arg2:T1
+R2	Spatial Arg1:T1 Arg2:T3
+R3	Purpose Arg1:T1 Arg2:T4
+R4	Causitive Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T1 Arg2:T5
+R6	PartOf Arg1:T5 Arg2:T7
+R7	PartOf Arg1:T5 Arg2:T8
+R8	Spatial Arg1:T9 Arg2:T10
+R9	Oper Arg1:T12 Arg2:T13
+R10	Attr Arg1:T12 Arg2:T11
+R11	Attr Arg1:T9 Arg2:T14
+R12	PartOf Arg1:T16 Arg2:T15
+R13	Spatial Arg1:T2 Arg2:T17
+R14	Spatial Arg1:T2 Arg2:T18
+R15	Manner Arg1:T2 Arg2:T15
+R16	Generate Arg1:T19 Arg2:T20
+R17	Attr Arg1:T20 Arg2:T21
+R18	Attr Arg1:T21 Arg2:T22
+R19	PartOf Arg1:T24 Arg2:T23
+R20	Manner Arg1:T25 Arg2:T23
+R21	Attr Arg1:T27 Arg2:T26
+R22	PartOf Arg1:T29 Arg2:T28
+R23	Spatial Arg1:T27 Arg2:T28
+R24	PartOf Arg1:T32 Arg2:T31
+R25	Manner Arg1:T31 Arg2:T30
+R26	Attr Arg1:T30 Arg2:T33
+R27	Comparison Arg1:T30 Arg2:T34
+R28	Manner Arg1:T36 Arg2:T35
+R29	Comparison Arg1:T35 Arg2:T37

@@ -1,0 +1,39 @@
+T3	InfoFlow 71 89	reproduced signals
+T4	InfoFlow 156 174	reproduced signals
+T5	Component 224 247	thin-film magnetic head
+T6	Component 259 304	two-layered magneto-resistance effect element
+T7	Component 318 354	first magneto-resistance effect film
+T12	Component 648 673	first and second MR films
+T1	Component 2 56	magneto-resistance effect type thin-film magnetic head
+T2	Effect 97 122	magneto-resistance effect
+T16	Effect 178 204	magneto-resistance effects
+T8	Component 361 398	second magneto-resistance effect film
+T9	Attribution 420 430	same width
+T10	Component 438 474	first magneto-resistance effect film
+T11	Component 491 519	non-magnetic insulating film
+T17	Function 542 565	magneto-static coupling
+T18	Component 590 615	first and second MR films
+T19	State 621 635	magnetic state
+T13	Attribution 693 707	film thickness
+T14	Component 779 805	single-layer magnetic head
+T15	Component 823 843	single-layer MR film
+T20	Effect 860 880	high playback output
+T21	Effect 728 743	playback output
+R4	PartOf Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T6 Arg2:T8
+R7	Attr Arg1:T10 Arg2:T9
+R9	Attr Arg1:T7 Arg2:T9
+R10	Attr Arg1:T8 Arg2:T9
+R11	Oper Arg1:T17 Arg2:T18
+R12	Attr Arg1:T12 Arg2:T19
+R13	Form Arg1:T15 Arg2:T14
+R14	Purpose Arg1:T14 Arg2:T20
+R15	Others Arg1:T13 Arg2:T21
+#1	AnnotatorNotes R15	贡献，关系不确定。答：可以标为others，因为这种关系我们语义关系没涵盖到
+R1	Causitive Arg1:T1 Arg2:T2
+R16	Causitive Arg1:T1 Arg2:T16
+R2	Causitive Arg1:T1 Arg2:T3
+R3	Causitive Arg1:T1 Arg2:T4
+R8	Spatial Arg1:T11 Arg2:T7
+R17	Spatial Arg1:T11 Arg2:T8

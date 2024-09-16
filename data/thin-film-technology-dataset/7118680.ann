@@ -1,0 +1,17 @@
+T1	Component 28 100	current-perpendicular-to-plane (CPP) giant magnetoresistive (GMR) sensor
+T2	Component 108 133	synthetic spin valve type
+T3	Function 171 205	electron-beam lithographic process
+T5	Component 335 366	capped ferromagnetic free layer
+T6	Component 375 412	conducting, non-magnetic spacer layer
+T7	Component 418 424	sensor
+T8	Effect 443 461	reduced resistance
+T9	Effect 466 487	increased sensitivity
+T4	Function 221 262	primary and secondary electron absorption
+T10	Function 267 315	first and second self-aligned lift-off processes
+R1	Attr Arg1:T7 Arg2:T8
+R2	Attr Arg1:T7 Arg2:T9
+R3	PartOf Arg1:T2 Arg2:T1
+R4	Causitive Arg1:T3 Arg2:T4
+R5	Causitive Arg1:T3 Arg2:T10
+R6	Purpose Arg1:T3 Arg2:T5
+R7	Purpose Arg1:T3 Arg2:T6

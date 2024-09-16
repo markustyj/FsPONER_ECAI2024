@@ -1,0 +1,86 @@
+T1	Component 33 46	magnetic head
+T2	Effect 54 78	improved characteristics
+T3	System 88 111	magnetoresistive device
+T4	EnergyFlow 121 128	current
+T5	Component 146 156	film plane
+T6	System 167 177	TMR device
+T7	Component 184 203	first magnetic head
+T8	ScientificConcept 239 243	area
+T9	Component 249 267	non-magnetic layer
+T10	Attribution 284 309	device cross-section area
+T11	ScientificConcept 319 323	area
+T12	Component 329 333	yoke
+T13	Attribution 350 359	yoke area
+T14	Location 378 387	direction
+T15	Attribution 409 416	surface
+T16	Component 424 433	substrate
+T17	Component 449 453	yoke
+T18	System 462 485	magnetoresistive device
+T19	Attribution 507 532	device cross-section area
+T20	Attribution 561 570	yoke area
+T21	Consequence 582 601	resistance increase
+T22	Attribution 609 634	device cross-section area
+T23	Component 655 675	second magnetic head
+T24	System 704 727	magnetoresistive device
+T25	Component 743 752	substrate
+T26	Component 760 764	yoke
+T27	Component 785 803	non-magnetic layer
+T28	System 821 827	device
+T29	Component 834 853	third magnetic head
+T30	Component 884 894	free layer
+T31	System 902 925	magnetoresistive device
+T32	Component 948 962	magnetic films
+T33	Component 980 997	non-magnetic film
+T34	Attribution 1038 1047	thickness
+T35	Component 1055 1073	non-magnetic layer
+T36	Value 1091 1095	2 nm
+T37	Value 1114 1119	10 nm
+T38	Function 1125 1147	magnetostatic coupling
+T39	Component 1166 1186	fourth magnetic head
+T40	Shape 1215 1227	magnetic gap
+T41	System 1256 1279	magnetoresistive device
+T42	Component 1288 1302	magnetic films
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T1 Arg2:T3
+R3	Causitive Arg1:T4 Arg2:T5
+R4	InstanceOf Arg1:T6 Arg2:T3
+T43	Component 211 228	present invention
+R5	PartOf Arg1:T43 Arg2:T7
+R6	Attr Arg1:T9 Arg2:T8
+R7	Causitive Arg1:T8 Arg2:T10
+R8	Attr Arg1:T12 Arg2:T11
+R9	Causitive Arg1:T11 Arg2:T13
+R10	Attr Arg1:T16 Arg2:T15
+R11	Manner Arg1:T14 Arg2:T15
+R12	Comparison Arg1:T19 Arg2:T20
+T44	Component 683 700	present invention
+R13	PartOf Arg1:T44 Arg2:T23
+T45	Component 861 878	present invention
+R14	PartOf Arg1:T45 Arg2:T29
+T46	Component 1194 1211	present invention
+R15	PartOf Arg1:T46 Arg2:T39
+R16	Spatial Arg1:T24 Arg2:T25
+R17	Spatial Arg1:T26 Arg2:T27
+R18	PartOf Arg1:T28 Arg2:T27
+R19	PartOf Arg1:T31 Arg2:T30
+R20	PartOf Arg1:T30 Arg2:T32
+R21	PartOf Arg1:T30 Arg2:T33
+R22	PartOf Arg1:T23 Arg2:T24
+R23	PartOf Arg1:T23 Arg2:T26
+R24	PartOf Arg1:T29 Arg2:T30
+R25	Attr Arg1:T35 Arg2:T34
+R26	Comparison Arg1:T34 Arg2:T36
+R27	Comparison Arg1:T34 Arg2:T37
+R28	Spatial Arg1:T40 Arg2:T41
+R29	Attr Arg1:T22 Arg2:T21
+#1	AnnotatorNotes R29	截面的磁性增强被抑制 是makemove 还是purpose还是一种属性，答：makemove不合适，因为“磁阻增强”是个效果，其他两种都行
+#2	AnnotatorNotes R7	as这里当“作为”讲，那么这里就是一个form关系
+#3	AnnotatorNotes R9	标引form
+R30	Spatial Arg1:T16 Arg2:T17
+R31	Spatial Arg1:T16 Arg2:T18
+#4	AnnotatorNotes R30	漏标了
+#5	AnnotatorNotes R31	漏标了
+R32	PartOf Arg1:T39 Arg2:T40
+R33	PartOf Arg1:T39 Arg2:T42
+#6	AnnotatorNotes R32	句首有in，所以应该标ownership，漏标了
+#7	AnnotatorNotes R33	句首有in，所以应该标ownership，漏标了

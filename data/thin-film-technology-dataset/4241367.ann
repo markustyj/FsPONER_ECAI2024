@@ -1,0 +1,41 @@
+T1	Component 26 49	thin film magnetic head
+T2	Component 75 96	conductive body layer
+T3	Component 109 136	magnetic material substrate
+T4	Shape 142 149	grooves
+T5	Shape 164 170	groove
+T6	Material 191 212	non-magnetic material
+T7	Component 217 233	insulating layer
+T8	Attribution 248 252	face
+T9	Component 260 287	magnetic material substrate
+T10	Component 302 324	conductive body layers
+T11	Component 332 355	magnetic material layer
+T12	Component 370 391	insulating body layer
+T13	Shape 415 421	groove
+T14	Function 426 454	electrolytic etching process
+T15	Component 462 471	substrate
+T16	Function 479 496	annealing process
+T17	Component 504 527	substrate surface layer
+T18	Attribution 555 577	straight-line property
+T19	Shape 585 591	groove
+T20	Location 600 614	groove section
+T21	Effect 638 660	better reproducibility
+T22	Shape 628 631	arc
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T2
+R4	Causitive Arg1:T5 Arg2:T6
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Attr Arg1:T9 Arg2:T8
+R7	Spatial Arg1:T11 Arg2:T12
+R8	PartOf Arg1:T7 Arg2:T10
+R9	PartOf Arg1:T7 Arg2:T11
+R10	Oper Arg1:T14 Arg2:T15
+R11	Oper Arg1:T16 Arg2:T17
+R12	Attr Arg1:T19 Arg2:T18
+R13	Attr Arg1:T20 Arg2:T18
+R14	Attr Arg1:T19 Arg2:T22
+R15	Attr Arg1:T20 Arg2:T22
+R16	Purpose Arg1:T19 Arg2:T21
+R17	Purpose Arg1:T20 Arg2:T21
+R18	Purpose Arg1:T14 Arg2:T18
+R19	Purpose Arg1:T16 Arg2:T18

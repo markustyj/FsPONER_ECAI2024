@@ -1,0 +1,79 @@
+T1	Component 2 15	magnetic head
+T3	Component 58 83	heat-resistant thin films
+T6	Material 185 206	non-magnetic material
+T9	Material 288 307	ferromagnetic oxide
+T11	Attribution 409 426	gap forming faces
+T12	Material 538 557	ferromagnetic oxide
+T13	Component 597 621	heat-resistant thin film
+T14	Component 715 738	ferromagnetic thin film
+T15	Component 866 890	heat-resistant thin film
+T17	Component 1033 1058	heat-resistant thin films
+T20	Component 1155 1185	ferromagnetic metal thin films
+T21	Shape 1268 1280	magnetic gap
+T2	Component 36 56	magnetic core halves
+T22	Component 88 112	ferromagnetic thin films
+T4	Component 126 146	magnetic core halves
+T5	Shape 235 247	magnetic gap
+T23	Material 215 224	SiO.sub.2
+T7	Component 253 273	magnetic core halves
+T8	Material 316 323	ferrite
+T24	Shape 391 403	magnetic gap
+T25	PhysicsFlow 441 465	phosphoric acid solution
+T26	Attribution 576 593	gap forming faces
+T27	Material 517 530	grown crystal
+T28	Material 627 650	heat-resistant material
+T29	Material 659 668	SiO.sub.2
+T30	Attribution 694 711	gap forming faces
+T31	Material 744 772	ferromagnetic metal material
+T32	Material 781 788	sendust
+T33	Material 807 831	heat-resistant thin film
+T34	Attribution 849 858	thickness
+T35	Value 907 911	1 nm
+T36	Attribution 949 954	width
+T37	Shape 962 974	magnetic gap
+T16	Component 989 1004	SiO.sub.2 films
+T38	Value 1008 1012	5 nm
+T39	Attribution 1016 1025	thickness
+T18	Attribution 1077 1105	respective gap forming faces
+T19	Component 1110 1123	sendust films
+T40	Value 1127 1134	3 .mu.m
+T41	Attribution 1138 1147	thickness
+T42	Component 1204 1230	respective SiO.sub.2 films
+T43	Attribution 1250 1260	gap length
+T44	Value 1291 1300	0.2 .mu.m
+T45	Function 487 505	reverse sputtering
+T10	Attribution 333 350	gap forming faces
+T46	Value 924 933	one tenth
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T22
+R4	Spatial Arg1:T4 Arg2:T6
+R5	InstanceOf Arg1:T23 Arg2:T6
+R6	Purpose Arg1:T4 Arg2:T5
+R7	MadeOf Arg1:T7 Arg2:T9
+R8	InstanceOf Arg1:T8 Arg2:T9
+R9	Attr Arg1:T7 Arg2:T10
+R10	Purpose Arg1:T10 Arg2:T24
+R11	Causitive Arg1:T25 Arg2:T11
+R12	Oper Arg1:T45 Arg2:T11
+R13	PartOf Arg1:T12 Arg2:T27
+R14	Spatial Arg1:T27 Arg2:T26
+R15	InstanceOf Arg1:T29 Arg2:T28
+R16	PartOf Arg1:T28 Arg2:T13
+R17	Spatial Arg1:T13 Arg2:T30
+R18	PartOf Arg1:T31 Arg2:T14
+R19	InstanceOf Arg1:T32 Arg2:T31
+R20	Spatial Arg1:T14 Arg2:T33
+R21	Attr Arg1:T15 Arg2:T34
+R22	Measurement Arg1:T34 Arg2:T35
+R23	Attr Arg1:T37 Arg2:T36
+R24	Attr Arg1:T21 Arg2:T43
+R25	Measurement Arg1:T43 Arg2:T44
+R26	Measurement Arg1:T36 Arg2:T46
+R27	Attr Arg1:T17 Arg2:T39
+R28	Measurement Arg1:T39 Arg2:T38
+R29	InstanceOf Arg1:T16 Arg2:T17
+R30	Spatial Arg1:T16 Arg2:T18
+R31	Spatial Arg1:T20 Arg2:T42
+R32	Measurement Arg1:T41 Arg2:T40
+R33	Attr Arg1:T19 Arg2:T41

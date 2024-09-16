@@ -1,0 +1,35 @@
+T1	Effect 55 69	great accuracy
+T2	Attribution 87 91	edge
+T3	Attribution 97 101	face
+T4	Component 107 112	prism
+T5	Location 118 140	predetermined position
+T6	Attribution 177 181	face
+T7	Function 196 206	deposition
+T8	Material 210 229	insulating material
+T9	Attribution 307 326	transducing surface
+T10	System 332 363	disk memory transducer assembly
+T11	Attribution 376 389	throat height
+T12	Component 397 411	thin-film head
+T13	Attribution 426 434	end face
+T14	System 442 450	assembly
+T15	Effect 457 470	precise value
+T16	Function 36 47	manufacture
+T17	Attribution 154 161	feature
+T18	Function 235 256	preferred application
+T19	Component 25 32	article
+R1	Oper Arg1:T16 Arg2:T19
+R2	Attr Arg1:T3 Arg2:T2
+R3	Attr Arg1:T4 Arg2:T3
+R4	Oper Arg1:T7 Arg2:T8
+R5	Spatial Arg1:T2 Arg2:T5
+R6	Spatial Arg1:T17 Arg2:T6
+R8	Attr Arg1:T10 Arg2:T9
+R9	Attr Arg1:T12 Arg2:T11
+R10	Attr Arg1:T14 Arg2:T13
+R11	Measurement Arg1:T11 Arg2:T15
+R13	Causitive Arg1:T18 Arg2:T9
+R14	Purpose Arg1:T18 Arg2:T11
+R7	Purpose Arg1:T2 Arg2:T1
+R12	Attr Arg1:T17 Arg2:T5
+R15	Form Arg1:T7 Arg2:T17
+R16	Spatial Arg1:T12 Arg2:T13

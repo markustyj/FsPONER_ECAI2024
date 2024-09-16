@@ -1,0 +1,50 @@
+T1	Component 3 28	integrated thin film head
+T2	EnergyFlow 60 73	short-circuit
+T3	Component 84 94	lead layer
+T4	Component 96 112	upper lead layer
+T5	Component 117 130	shield layers
+T6	Component 134 152	lower shield layer
+T7	Component 165 174	substrate
+T8	Component 178 197	lower readgap layer
+T9	Component 212 230	lower shield layer
+T10	Component 235 250	MR sensor layer
+T11	Component 265 284	lower readgap layer
+T12	Component 288 298	lead layer
+T13	Component 316 331	MR sensor layer
+T14	Component 336 352	upper lead layer
+T15	Component 390 400	lead layer
+T16	Component 405 424	upper readgap layer
+T17	Component 445 460	MR sensor layer
+T18	Component 462 472	lead layer
+T19	Component 477 493	upper lead layer
+T20	Component 501 519	upper shield layer
+T21	Component 534 553	upper readgap layer
+T22	Component 571 581	lead layer
+T23	Component 602 618	upper lead layer
+T24	Component 672 688	upper lead layer
+T25	Location 378 382	part
+T26	Location 559 563	part
+T27	Function 585 592	contact
+T28	Function 363 370	contact
+T29	Location 646 650	part
+T30	Function 655 662	contact
+R1	PartOf Arg1:T22 Arg2:T26
+R2	Spatial Arg1:T6 Arg2:T7
+R3	Spatial Arg1:T8 Arg2:T9
+R4	Spatial Arg1:T10 Arg2:T11
+R5	Spatial Arg1:T20 Arg2:T21
+R6	Purpose Arg1:T1 Arg2:T2
+R7	Spatial Arg1:T2 Arg2:T3
+R8	PartOf Arg1:T1 Arg2:T4
+R9	PartOf Arg1:T1 Arg2:T5
+R10	PartOf Arg1:T1 Arg2:T6
+R11	PartOf Arg1:T1 Arg2:T8
+R12	PartOf Arg1:T1 Arg2:T10
+R13	Spatial Arg1:T12 Arg2:T13
+R14	PartOf Arg1:T15 Arg2:T25
+R15	Spatial Arg1:T14 Arg2:T25
+R16	Purpose Arg1:T16 Arg2:T17
+R19	Spatial Arg1:T26 Arg2:T23
+R20	Comparison Arg1:T26 Arg2:T29
+R17	Purpose Arg1:T16 Arg2:T18
+R18	Purpose Arg1:T16 Arg2:T19

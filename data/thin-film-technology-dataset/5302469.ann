@@ -1,0 +1,17 @@
+T1	Component 2 25	soft magnetic thin film
+T2	ScientificConcept 60 84	atomic ratio composition
+T7	Material 160 177	Group 3A elements
+T8	Material 182 199	Group 4A elements
+T6	ScientificConcept 104 111	formula
+T12	Effect 421 446	good corrosion resistance
+T13	Material 120 121	M
+T9	Effect 355 382	improved frequency response
+T10	Component 138 145	element
+T3	Effect 257 294	high saturation magnetic flux density
+T4	Effect 299 325	high magnetic permeability
+T5	Effect 332 350	low coercive force
+T11	Effect 384 409	high electric resistivity
+R1	Attr Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T1 Arg2:T13
+R3	InstanceOf Arg1:T13 Arg2:T7
+R4	InstanceOf Arg1:T13 Arg2:T8

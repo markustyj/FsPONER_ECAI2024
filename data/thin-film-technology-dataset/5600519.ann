@@ -1,0 +1,30 @@
+T1	Component 2 25	thin film magnetic head
+T3	Component 102 119	zero throat point
+T5	EnergyFlow 186 198	flux density
+T6	ScientificConcept 249 259	saturation
+T7	Component 338 357	air bearing surface
+T8	EnergyFlow 389 399	saturation
+T9	EnergyFlow 431 442	write field
+T10	EnergyFlow 464 472	currents
+T12	Attribution 39 44	width
+T2	Component 52 89	first and second magnetic yoke layers
+T4	Component 128 144	yoke flare point
+T13	Measure 209 215	length
+T14	Measure 234 240	length
+T15	EnergyFlow 280 294	single current
+T16	EnergyFlow 314 319	field
+T17	Shape 327 330	gap
+T18	Measure 408 414	length
+T11	ScientificConcept 483 499	saturation value
+R1	Attr Arg1:T2 Arg2:T12
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Spatial Arg1:T2 Arg2:T4
+R4	Manner Arg1:T13 Arg2:T5
+R5	Manner Arg1:T15 Arg2:T6
+R6	Oper Arg1:T6 Arg2:T14
+R7	PartOf Arg1:T1 Arg2:T2
+R8	Spatial Arg1:T16 Arg2:T17
+R9	Spatial Arg1:T17 Arg2:T7
+R10	Oper Arg1:T8 Arg2:T18
+R11	Measurement Arg1:T10 Arg2:T11
+R12	Attr Arg1:T9 Arg2:T10

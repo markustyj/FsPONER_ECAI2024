@@ -1,0 +1,63 @@
+T1	Function 2 41	magnetic thin film manufacturing method
+T2	Function 64 73	treatment
+T3	Component 96 108	plating bath
+T4	Component 119 137	magnetic thin film
+T5	Attribution 155 162	surface
+T6	Component 195 207	plating bath
+T7	Material 238 242	ions
+T8	Material 277 291	Fe.sup.2 + ions
+T9	Material 293 307	Ni.sup.2 + ions
+T10	Material 312 326	Co.sup.2 + ions
+T11	Material 332 346	fine particles
+T12	Material 353 372	insulating material
+T13	Component 394 406	plating bath
+T14	Function 460 499	magnetic thin film manufacturing method
+T15	Material 578 582	ions
+T16	Material 617 631	Fe.sup.2 + ions
+T17	Material 633 647	Ni.sup.2 + ions
+T18	Material 652 666	Co.sup.2 + ions
+T19	Component 727 739	plating bath
+T20	Component 746 757	acidic bath
+T21	Material 771 785	fine particles
+T22	Material 792 811	insulating material
+T23	Component 838 850	plating bath
+T26	Component 54 60	object
+T27	Component 170 176	object
+T28	Function 180 189	treatment
+T29	Material 277 291	Fe.sup.2+ ions
+T30	Material 293 307	Ni.sup.2+ ions
+T31	Material 312 326	Co.sup.2+ ions
+T32	Material 617 631	Fe.sup.2+ ions
+T33	Material 633 647	Ni.sup.2+ ions
+T34	Material 652 666	Co.sup.2+ ions
+T35	Material 692 700	sulfates
+T36	Material 708 717	chlorides
+T37	Material 855 874	colloidal particles
+T24	Material 878 887	SiO.sub.2
+T25	Material 895 911	Al.sub.2 O.sub.3
+R1	Attr Arg1:T2 Arg2:T26
+R2	Causitive Arg1:T26 Arg2:T3
+R3	Spatial Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T27 Arg2:T5
+R5	Attr Arg1:T28 Arg2:T27
+R6	PartOf Arg1:T6 Arg2:T7
+R7	InstanceOf Arg1:T29 Arg2:T7
+R8	InstanceOf Arg1:T30 Arg2:T7
+R9	InstanceOf Arg1:T31 Arg2:T7
+R10	PartOf Arg1:T12 Arg2:T11
+R11	Spatial Arg1:T11 Arg2:T13
+R12	InstanceOf Arg1:T32 Arg2:T15
+R13	InstanceOf Arg1:T33 Arg2:T15
+R14	InstanceOf Arg1:T34 Arg2:T15
+R15	Causitive Arg1:T35 Arg2:T32
+R16	Causitive Arg1:T35 Arg2:T33
+R17	Causitive Arg1:T35 Arg2:T34
+R18	Causitive Arg1:T36 Arg2:T32
+R19	Causitive Arg1:T36 Arg2:T33
+R20	Causitive Arg1:T36 Arg2:T34
+R21	InstanceOf Arg1:T19 Arg2:T20
+R22	PartOf Arg1:T22 Arg2:T21
+R23	Spatial Arg1:T21 Arg2:T23
+R24	InstanceOf Arg1:T21 Arg2:T37
+R25	MadeOf Arg1:T37 Arg2:T24
+R26	MadeOf Arg1:T37 Arg2:T25

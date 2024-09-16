@@ -1,0 +1,87 @@
+T1	Component 38 61	thin film magnetic head
+T4	Component 181 200	magnetic transducer
+T6	Component 308 320	pinned layer
+T7	Component 388 411	antiferromagnetic layer
+T8	Component 603 615	pinned layer
+T9	Component 624 647	antiferromagnetic layer
+T10	Attribution 656 677	medium facing surface
+T11	Attribution 765 786	medium facing surface
+T12	Attribution 829 850	medium facing surface
+T13	Shape 856 861	stack
+T14	Component 922 934	pinned layer
+T15	Attribution 991 1012	medium facing surface
+T16	Component 1020 1043	antiferromagnetic layer
+T17	Attribution 1104 1125	medium facing surface
+T20	Component 1222 1245	antiferromagnetic layer
+T21	Component 1288 1307	magnetic transducer
+T22	Component 15 34	magnetic transducer
+T23	Effect 119 129	efficiency
+T2	Function 133 149	heat dissipation
+T3	Component 214 237	nonmagnetic metal layer
+T5	Component 241 251	free layer
+T24	Attribution 266 273	surface
+T25	Component 281 304	nonmagnetic metal layer
+T26	Attribution 341 348	surface
+T27	Component 356 379	nonmagnetic metal layer
+T28	Attribution 424 431	surface
+T29	Component 439 451	pinned layer
+T30	Attribution 457 464	surface
+T31	Attribution 485 492	surface
+T32	Component 513 536	nonmagnetic metal layer
+T33	Attribution 542 550	end face
+T34	Component 558 568	free layer
+T35	Component 574 597	nonmagnetic metal layer
+T36	Attribution 688 695	surface
+T37	EnergyFlow 706 729	external magnetic field
+T38	Attribution 733 748	tapered surface
+T39	Attribution 804 812	end face
+T40	Component 877 887	free layer
+T41	Component 893 916	nonmagnetic metal layer
+T42	Component 943 966	antiferromagnetic layer
+T43	Attribution 1052 1065	opposite face
+T18	Component 1133 1143	free layer
+T44	Attribution 1152 1165	opposite face
+T19	Function 1196 1212	heat dissipation
+T45	Function 1273 1280	heating
+T46	Effect 153 175	MR element functioning
+T47	Attribution 970 978	distance
+T48	Attribution 1083 1091	distance
+T49	Value 1175 1192	sufficient amount
+R1	Oper Arg1:T45 Arg2:T21
+R2	Measurement Arg1:T19 Arg2:T49
+R3	Attr Arg1:T20 Arg2:T19
+R4	Attr Arg1:T16 Arg2:T15
+R5	Spatial Arg1:T15 Arg2:T43
+R6	Attr Arg1:T18 Arg2:T17
+R7	Spatial Arg1:T17 Arg2:T44
+R8	Comparison Arg1:T47 Arg2:T48
+R9	Spatial Arg1:T38 Arg2:T11
+R10	Attr Arg1:T13 Arg2:T12
+R11	Spatial Arg1:T39 Arg2:T12
+R12	Spatial Arg1:T38 Arg2:T39
+R13	PartOf Arg1:T38 Arg2:T40
+R14	PartOf Arg1:T38 Arg2:T41
+R15	PartOf Arg1:T38 Arg2:T14
+R16	PartOf Arg1:T38 Arg2:T42
+R17	Attr Arg1:T34 Arg2:T33
+R18	Spatial Arg1:T36 Arg2:T37
+R19	Form Arg1:T33 Arg2:T10
+R20	Form Arg1:T35 Arg2:T10
+R21	Form Arg1:T8 Arg2:T10
+R22	Form Arg1:T9 Arg2:T10
+R23	Form Arg1:T10 Arg2:T36
+R24	Attr Arg1:T2 Arg2:T23
+R25	Form Arg1:T46 Arg2:T4
+R26	PartOf Arg1:T46 Arg2:T3
+R27	PartOf Arg1:T46 Arg2:T5
+R28	PartOf Arg1:T46 Arg2:T6
+R29	PartOf Arg1:T46 Arg2:T7
+R30	Attr Arg1:T25 Arg2:T24
+R31	Spatial Arg1:T5 Arg2:T24
+R32	Attr Arg1:T27 Arg2:T26
+R33	Spatial Arg1:T6 Arg2:T26
+R34	Attr Arg1:T29 Arg2:T28
+R35	Spatial Arg1:T7 Arg2:T28
+R36	Spatial Arg1:T30 Arg2:T31
+R37	Spatial Arg1:T31 Arg2:T32
+#1	AnnotatorNotes T22	标得不错

@@ -1,0 +1,40 @@
+T1	Component 119 146	perpendicular magnetic head
+T2	Component 168 192	perpendicular write head
+T4	Component 219 229	write head
+T5	Component 241 257	first pole layer
+T6	Component 261 271	coil layer
+T7	Component 275 292	second pole layer
+T8	Component 299 309	write pole
+T9	Component 343 361	magnetic read head
+T11	Component 393 417	perpendicular write head
+T13	Component 444 453	read head
+T14	Component 465 477	shield layer
+T15	Component 484 490	sensor
+T17	Component 550 556	sensor
+T18	Location 569 583	flare position
+T19	Component 591 599	pole tip
+T20	Attribution 616 629	sensor height
+T21	Location 641 655	flare position
+T22	Component 663 671	pole tip
+T23	Attribution 725 734	back edge
+T24	Component 742 748	sensor
+T25	Component 39 60	sub-micron write head
+T3	Component 517 527	write pole
+T10	Function 690 717	same photo-lithography step
+T12	ScientificConcept 61 77	flare definition
+R1	Form Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T4 Arg2:T6
+R4	PartOf Arg1:T4 Arg2:T7
+R5	PartOf Arg1:T4 Arg2:T8
+R6	Spatial Arg1:T9 Arg2:T11
+R7	PartOf Arg1:T13 Arg2:T14
+R8	PartOf Arg1:T13 Arg2:T15
+R9	Attr Arg1:T22 Arg2:T21
+R10	Attr Arg1:T24 Arg2:T23
+R11	Attr Arg1:T19 Arg2:T18
+R12	Causitive Arg1:T3 Arg2:T17
+R15	Purpose Arg1:T3 Arg2:T18
+R16	Purpose Arg1:T3 Arg2:T20
+R13	Causitive Arg1:T10 Arg2:T23
+R14	Oper Arg1:T10 Arg2:T21

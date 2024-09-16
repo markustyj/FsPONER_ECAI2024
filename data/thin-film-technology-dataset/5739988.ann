@@ -1,0 +1,25 @@
+T5	Component 202 210	MR layer
+T7	EnergyFlow 328 335	current
+T10	Effect 483 511	spin valve sensor GMR effect
+T1	Component 2 46	spin valve magnetoresistive (MR) read sensor
+T2	Function 71 106	free and pinned layer magnetization
+T3	EnergyFlow 174 181	current
+T4	Measure 236 265	substantially 45 degree angle
+T6	Function 286 310	free layer magnetization
+T11	Measure 343 358	45 degree angle
+T8	Function 379 403	free layer magnetization
+T12	Effect 415 425	AMR effect
+T9	Component 450 463	free MR layer
+T13	Effect 530 561	overall magnetoresistive effect
+T14	Value 571 574	25%
+T15	Value 578 581	33%
+T17	Function 145 165	quiescent conditions
+R2	Manner Arg1:T5 Arg2:T3
+R3	Manner Arg1:T4 Arg2:T3
+R4	Spatial Arg1:T3 Arg2:T6
+R5	Manner Arg1:T11 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Purpose Arg1:T7 Arg2:T13
+R8	Purpose Arg1:T7 Arg2:T12
+R9	Causitive Arg1:T12 Arg2:T10
+R10	Purpose Arg1:T9 Arg2:T12

@@ -1,0 +1,76 @@
+T1	System 2 8	camera
+T2	Component 24 34	photo film
+T3	Component 44 58	magnetic layer
+T4	Component 102 120	film support plate
+T5	Component 148 161	magnetic head
+T6	Component 238 242	core
+T7	Component 259 269	coil wound
+T8	Component 283 287	core
+T9	Location 352 359	portion
+T10	Component 383 397	shielding case
+T12	Component 510 514	film
+T13	Component 567 570	pad
+T14	Component 653 657	film
+T15	Component 747 750	pad
+T16	Component 805 808	pad
+T17	Component 871 884	magnetic head
+T18	Component 915 919	film
+T19	Component 954 968	exposure frame
+T20	Component 1007 1011	film
+T21	Component 1024 1037	magnetic head
+T22	Component 1057 1072	recording layer
+T23	Component 71 85	exposure frame
+T24	Component 134 144	photo film
+T25	Component 181 199	film support plate
+T26	Component 216 230	shielding case
+T27	Component 327 336	shielding
+T28	Component 417 432	recording layer
+T29	ScientificConcept 450 459	curvature
+T30	Location 480 502	longitudinal direction
+T31	Component 438 445	lo core
+T11	Component 549 563	exposure frame
+T32	Component 585 598	magnetic head
+T33	Material 615 634	inflexible material
+T34	Component 665 678	magnetic head
+T35	Component 684 695	projections
+T36	Component 715 729	exposure frame
+T37	Location 772 787	width direction
+T38	Component 795 799	film
+T39	Component 832 836	film
+T40	Function 856 863	contact
+T41	Component 894 909	recording layer
+T42	Component 977 995	film support plate
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T23
+R3	Causitive Arg1:T4 Arg2:T24
+R4	PartOf Arg1:T1 Arg2:T4
+R5	Spatial Arg1:T5 Arg2:T25
+R6	PartOf Arg1:T5 Arg2:T26
+R7	PartOf Arg1:T5 Arg2:T6
+R8	Spatial Arg1:T6 Arg2:T7
+R9	PartOf Arg1:T27 Arg2:T8
+R10	PartOf Arg1:T8 Arg2:T9
+R11	Spatial Arg1:T9 Arg2:T10
+R12	Purpose Arg1:T10 Arg2:T28
+R13	Attr Arg1:T31 Arg2:T29
+R14	Manner Arg1:T30 Arg2:T29
+R15	Attr Arg1:T12 Arg2:T30
+R16	Spatial Arg1:T31 Arg2:T11
+R17	Spatial Arg1:T13 Arg2:T32
+R18	MadeOf Arg1:T13 Arg2:T33
+R19	Spatial Arg1:T13 Arg2:T14
+R20	PartOf Arg1:T34 Arg2:T14
+R21	Spatial Arg1:T35 Arg2:T36
+R22	Causitive Arg1:T35 Arg2:T15
+R23	Manner Arg1:T37 Arg2:T15
+R24	Attr Arg1:T38 Arg2:T37
+R25	Spatial Arg1:T16 Arg2:T39
+R26	Purpose Arg1:T16 Arg2:T40
+R27	Spatial Arg1:T17 Arg2:T41
+R28	Spatial Arg1:T18 Arg2:T19
+R29	Spatial Arg1:T18 Arg2:T42
+T43	InfoFlow 1045 1049	data
+R30	Causitive Arg1:T21 Arg2:T43
+R31	Causitive Arg1:T43 Arg2:T22
+R32	Oper Arg1:T40 Arg2:T17
+R33	Oper Arg1:T40 Arg2:T41

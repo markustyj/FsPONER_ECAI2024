@@ -1,0 +1,43 @@
+T2	Component 72 87	thin film heads
+T3	Component 103 134	compatible metallic mask layers
+T5	Component 202 221	studless TFH device
+T6	Component 232 253	coil and bonding pads
+T7	Component 336 358	alumina overcoat layer
+T9	Shape 426 445	scribe-line grooves
+T10	Component 478 483	wafer
+T12	Shape 527 534	grooves
+T13	Component 550 566	alumina chipping
+T1	Component 13 49	pattern-etching thick alumina layers
+T18	Component 89 92	TFH
+T20	Function 167 187	deep alumina etching
+T4	Shape 302 306	vias
+T21	Function 415 422	etching
+T8	PhysicsFlow 141 161	wet chemical etchant
+T19	Component 373 385	bonding pads
+T11	PhysicsFlow 512 519	sliders
+T22	Others 449 466	street and alleys
+T14	Function 610 641	sawing and machining operations
+T23	Function 654 669	pattern-etching
+T15	Component 677 694	alumina undercoat
+T24	System 744 763	recessed structures
+T16	Effect 783 815	planarity and alleviate problems
+T17	Component 871 882	TFH devices
+T25	Effect 724 739	precise craters
+T26	ScientificConcept 827 845	adverse topography
+T27	ScientificConcept 850 867	elevated features
+T28	Effect 574 602	stress and damage introduced
+R1	Alias Arg1:T2 Arg2:T18
+R2	PartOf Arg1:T2 Arg2:T1
+R3	Causitive Arg1:T2 Arg2:T3
+R4	Causitive Arg1:T2 Arg2:T8
+R5	Oper Arg1:T20 Arg2:T5
+R6	PartOf Arg1:T5 Arg2:T6
+R7	Causitive Arg1:T7 Arg2:T4
+R8	Causitive Arg1:T4 Arg2:T19
+R9	Oper Arg1:T21 Arg2:T9
+R10	Spatial Arg1:T10 Arg2:T22
+R11	Purpose Arg1:T12 Arg2:T13
+R12	Oper Arg1:T14 Arg2:T28
+R13	Oper Arg1:T23 Arg2:T15
+R14	Purpose Arg1:T25 Arg2:T24
+R15	Attr Arg1:T17 Arg2:T27

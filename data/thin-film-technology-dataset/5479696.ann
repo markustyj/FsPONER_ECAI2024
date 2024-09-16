@@ -1,0 +1,65 @@
+T1	Component 41 52	erase bands
+T2	Component 78 84	tracks
+T3	Component 156 169	magnetic head
+T4	Shape 179 188	write gap
+T5	Component 193 206	trailing pole
+T7	Component 280 293	magnetic head
+T11	Component 394 408	inductive head
+T12	Component 420 438	leading write pole
+T14	Shape 509 518	write gap
+T16	Location 614 640	non-parallel side portions
+T17	Location 732 745	side portions
+T18	Material 771 787	recording medium
+T19	Material 868 874	medium
+T20	Component 932 943	erase bands
+T23	Location 1085 1111	non-parallel side portions
+T25	Attribution 64 69	width
+T27	Material 105 121	recording medium
+T6	Location 212 233	non-parallel portions
+T8	Component 306 326	inductive write head
+T9	Component 334 361	magneto-resistive read head
+T10	System 367 388	single head structure
+T13	Component 445 464	trailing write pole
+T28	Shape 490 503	recording gap
+T15	Location 536 551	central portion
+T30	Location 570 589	desired orientation
+T31	Attribution 648 664	divergent angles
+T32	Location 685 700	central portion
+T36	Location 882 897	central portion
+T38	Function 905 923	angled transitions
+T21	Component 952 967	adjacent tracks
+T40	Function 1002 1018	data transitions
+T22	Location 1035 1050	central portion
+T41	Component 1058 1067	write gap
+T42	Attribution 1072 1077	width
+T43	Component 1199 1204	drive
+T33	Function 752 763	transitions
+T34	Function 836 852	data transitions
+T26	Function 709 726	recording process
+R1	Attr Arg1:T3 Arg2:T4
+R2	PartOf Arg1:T3 Arg2:T5
+R5	PartOf Arg1:T5 Arg2:T6
+R6	Causitive Arg1:T7 Arg2:T8
+R7	Causitive Arg1:T8 Arg2:T9
+R8	PartOf Arg1:T10 Arg2:T7
+R9	PartOf Arg1:T11 Arg2:T12
+R10	PartOf Arg1:T11 Arg2:T13
+R11	Causitive Arg1:T13 Arg2:T28
+R12	Form Arg1:T15 Arg2:T14
+R13	Manner Arg1:T30 Arg2:T15
+R14	Spatial Arg1:T14 Arg2:T16
+R15	Attr Arg1:T14 Arg2:T31
+R16	Causitive Arg1:T17 Arg2:T33
+R17	Causitive Arg1:T33 Arg2:T18
+R18	Causitive Arg1:T36 Arg2:T34
+R19	Causitive Arg1:T34 Arg2:T19
+R20	Attr Arg1:T23 Arg2:T42
+R22	Oper Arg1:T38 Arg2:T20
+R23	Spatial Arg1:T20 Arg2:T21
+R24	PartOf Arg1:T41 Arg2:T22
+R25	Causitive Arg1:T22 Arg2:T40
+R3	Spatial Arg1:T2 Arg2:T27
+R4	Attr Arg1:T1 Arg2:T25
+R26	Spatial Arg1:T1 Arg2:T2
+T24	ScientificConcept 1162 1191	expected servo position error
+R21	Attr Arg1:T43 Arg2:T24

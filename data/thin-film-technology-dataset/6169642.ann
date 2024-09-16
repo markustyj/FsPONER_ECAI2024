@@ -1,0 +1,74 @@
+T1	Component 2 25	thin-film magnetic head
+T2	System 68 98	three-layer pole tip structure
+T4	Component 141 160	recording gap layer
+T6	Attribution 230 242	rear surface
+T9	Component 425 445	upper auxiliary pole
+T11	Component 515 534	air bearing surface
+T12	Component 542 562	lower auxiliary pole
+T13	Component 579 583	yoke
+T14	Attribution 688 701	rear surfaces
+T16	Component 745 767	lower insulating layer
+T18	Component 854 868	coil conductor
+T19	Attribution 883 894	top surface
+T20	Component 933 955	upper insulating layer
+T22	Component 999 1021	upper insulating layer
+T23	Component 1048 1070	lower insulating layer
+T24	Attribution 1105 1116	top surface
+T25	Component 1124 1146	lower insulating layer
+T26	Attribution 1173 1184	top surface
+T27	System 1192 1222	three-layer pole tip structure
+T28	Component 1263 1277	coil conductor
+T29	Component 36 55	air bearing surface
+T30	Component 115 137	lower pole tip element
+T3	Component 168 190	upper pole tip element
+T5	Attribution 213 226	side surfaces
+T31	Attribution 247 258	top surface
+T32	Component 262 282	lower auxiliary pole
+T33	Component 316 338	lower pole tip element
+T7	Component 343 363	upper auxiliary pole
+T34	Component 397 419	upper pole tip element
+T8	Location 482 494	rear portion
+T10	Component 602 622	lower auxiliary pole
+T35	Component 626 648	lower insulating layer
+T36	Attribution 666 679	side surfaces
+T37	System 709 739	three-layer pole tip structure
+T15	Component 794 825	lower and upper auxiliary poles
+T17	Attribution 839 850	top surface
+T38	Component 902 924	lower insulating layer
+T39	Component 969 983	coil conductor
+T21	Component 1079 1099	upper auxiliary pole
+R1	PartOf Arg1:T1 Arg2:T29
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T2 Arg2:T30
+R4	PartOf Arg1:T2 Arg2:T4
+R5	PartOf Arg1:T2 Arg2:T3
+R6	Attr Arg1:T2 Arg2:T5
+R7	Attr Arg1:T2 Arg2:T6
+R8	Attr Arg1:T2 Arg2:T31
+R9	PartOf Arg1:T2 Arg2:T32
+R10	Spatial Arg1:T32 Arg2:T33
+R11	Spatial Arg1:T7 Arg2:T34
+R12	PartOf Arg1:T2 Arg2:T7
+R13	Manner Arg1:T8 Arg2:T9
+R14	Spatial Arg1:T9 Arg2:T11
+R15	Spatial Arg1:T11 Arg2:T12
+R17	Form Arg1:T10 Arg2:T13
+R16	Form Arg1:T9 Arg2:T13
+R18	PartOf Arg1:T2 Arg2:T35
+R19	Attr Arg1:T37 Arg2:T14
+R20	Attr Arg1:T37 Arg2:T36
+R21	Spatial Arg1:T35 Arg2:T36
+R22	Spatial Arg1:T35 Arg2:T14
+R23	Spatial Arg1:T16 Arg2:T15
+R24	Attr Arg1:T16 Arg2:T17
+R25	PartOf Arg1:T2 Arg2:T18
+R26	Attr Arg1:T38 Arg2:T19
+R27	Spatial Arg1:T18 Arg2:T19
+R28	PartOf Arg1:T2 Arg2:T20
+R29	Spatial Arg1:T20 Arg2:T39
+R30	Spatial Arg1:T22 Arg2:T23
+R31	Spatial Arg1:T22 Arg2:T21
+R32	Attr Arg1:T25 Arg2:T24
+R33	Attr Arg1:T27 Arg2:T26
+R34	Comparison Arg1:T24 Arg2:T26
+#1	AnnotatorNotes R29	cover具有明显的位置含义，用spatial更合适

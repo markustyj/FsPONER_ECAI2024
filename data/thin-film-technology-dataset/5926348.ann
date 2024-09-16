@@ -1,0 +1,53 @@
+T1	Component 2 39	magneto-resistance type magnetic head
+T2	Component 50 54	base
+T3	Location 58 83	longitudinal bias portion
+T4	Component 101 105	base
+T5	Attribution 119 143	first upper flat surface
+T6	Location 150 171	first slanted portion
+T7	EnergyFlow 190 222	longitudinal bias magnetic field
+T8	Location 226 238	lead portion
+T9	Location 265 290	longitudinal bias portion
+T10	Location 310 334	first upper flat portion
+T11	Location 353 374	first slanted portion
+T12	Location 382 407	longitudinal bias portion
+T13	Location 421 433	lead portion
+T14	Material 445 466	non-magnetic material
+T15	Attribution 477 502	second upper flat surface
+T16	Location 509 531	second slanted portion
+T17	Location 549 582	first and second slanted portions
+T18	Attribution 607 622	slanted surface
+T19	Component 630 663	magneto-resistance material layer
+T20	Location 680 705	longitudinal bias portion
+T21	Location 714 726	lead portion
+T22	Component 740 773	magneto-resistance material layer
+T23	Attribution 795 808	upper surface
+T24	Component 816 820	base
+T25	Location 855 888	exposed longitudinal bias portion
+T26	Attribution 901 916	slanted surface
+T27	Location 924 949	longitudinal bias portion
+T28	Component 963 996	magneto-resistance material layer
+T29	Attribution 1018 1033	slanted surface
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T8
+R4	PartOf Arg1:T1 Arg2:T19
+R5	Spatial Arg1:T3 Arg2:T4
+R6	PartOf Arg1:T3 Arg2:T5
+R7	PartOf Arg1:T3 Arg2:T6
+R8	Generate Arg1:T3 Arg2:T7
+R9	Spatial Arg1:T8 Arg2:T9
+R10	Purpose Arg1:T9 Arg2:T10
+R11	Purpose Arg1:T9 Arg2:T11
+R12	PartOf Arg1:T12 Arg2:T11
+R13	MadeOf Arg1:T13 Arg2:T14
+R14	PartOf Arg1:T13 Arg2:T15
+R15	PartOf Arg1:T13 Arg2:T16
+R16	Form Arg1:T17 Arg2:T18
+R17	Spatial Arg1:T19 Arg2:T20
+R18	Spatial Arg1:T19 Arg2:T21
+R19	Spatial Arg1:T22 Arg2:T23
+R20	PartOf Arg1:T24 Arg2:T23
+R21	Causitive Arg1:T22 Arg2:T25
+R22	PartOf Arg1:T27 Arg2:T26
+R23	Causitive Arg1:T22 Arg2:T26
+R24	Spatial Arg1:T28 Arg2:T29

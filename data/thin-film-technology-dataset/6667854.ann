@@ -1,0 +1,34 @@
+T1	Component 5 18	magnetic head
+T2	Component 22 34	head element
+T3	Attribution 81 89	end face
+T4	Component 95 111	slider substrate
+T5	Component 120 135	insulating film
+T6	Attribution 190 198	end face
+T7	Component 225 231	slider
+T8	Component 325 341	slider substrate
+T9	Component 362 378	slider substrate
+T10	Shape 402 407	bumps
+T11	Component 427 443	slider substrate
+T12	Consequence 449 469	electrostatic damage
+T13	Attribution 159 167	end face
+T14	Attribution 267 275	end face
+T15	Shape 39 44	bumps
+T16	Shape 301 306	bumps
+T17	EnergyFlow 347 354	charges
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T15
+R3	Attr Arg1:T4 Arg2:T3
+R4	Spatial Arg1:T2 Arg2:T3
+R5	Spatial Arg1:T15 Arg2:T3
+R6	Attr Arg1:T4 Arg2:T13
+R7	Spatial Arg1:T13 Arg2:T6
+R8	Spatial Arg1:T5 Arg2:T13
+R9	Attr Arg1:T7 Arg2:T14
+R10	Spatial Arg1:T14 Arg2:T16
+R11	PartOf Arg1:T16 Arg2:T8
+R12	PartOf Arg1:T9 Arg2:T17
+R13	Spatial Arg1:T9 Arg2:T10
+R14	Oper Arg1:T12 Arg2:T11
+R15	Spatial Arg1:T2 Arg2:T15
+#1	AnnotatorNotes R15	漏标了，head element and bumps connected thereto, 翻译过来就是磁头元素以及与之连接的突出部位，所以两者是spatial关系
+#2	AnnotatorNotes R11	in，包含关系

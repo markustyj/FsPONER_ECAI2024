@@ -1,0 +1,23 @@
+T3	Component 67 78	pole pieces
+T5	Component 94 108	thin film head
+T6	Component 142 156	base substrate
+T8	Component 251 266	base coat layer
+T9	Component 294 298	core
+T10	Component 307 321	base substrate
+T1	Component 2 36	thin film magnetic read/write head
+T2	Component 82 86	core
+T4	Component 164 178	thin film head
+T7	Component 329 363	thin film magnetic read/write head
+T11	Function 180 201	Electrical connection
+T12	Component 215 230	conductive stud
+R1	PartOf Arg1:T5 Arg2:T2
+R2	PartOf Arg1:T5 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T6
+R4	Spatial Arg1:T3 Arg2:T6
+R5	Spatial Arg1:T2 Arg2:T6
+R6	Spatial Arg1:T12 Arg2:T8
+R7	Spatial Arg1:T12 Arg2:T9
+R8	Spatial Arg1:T12 Arg2:T10
+R9	PartOf Arg1:T7 Arg2:T10
+R10	PartOf Arg1:T7 Arg2:T9
+R11	Oper Arg1:T11 Arg2:T12

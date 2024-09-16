@@ -1,0 +1,34 @@
+T1	Component 2 16	thin film head
+T2	Component 28 39	GMR element
+T5	Component 303 320	nonmagnetic layer
+T9	Component 422 457	high coercivity ferromagnetic layer
+T12	Component 575 610	high coercivity ferromagnetic layer
+T14	Component 655 690	high coercivity ferromagnetic layer
+T15	Component 53 76	antiferromagnetic layer
+T16	Component 80 93	pinning layer
+T17	Component 97 125	nonmagnetic conductive layer
+T18	Component 129 148	free magnetic layer
+T3	Component 168 224	right and the left laminated longitudinal biasing layers
+T4	Component 238 252	biasing layers
+T19	Component 264 299	high coercivity ferromagnetic layer
+T6	Component 327 361	low coercivity ferromagnetic layer
+T7	Component 378 397	free magnetic layer
+T8	Component 405 416	GMR element
+T10	Component 462 496	low coercivity ferromagnetic layer
+T11	Component 548 565	nonmagnetic layer
+T13	Component 615 634	free magnetic layer
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Form Arg1:T15 Arg2:T2
+R3	Form Arg1:T16 Arg2:T2
+R4	Form Arg1:T17 Arg2:T2
+R5	Form Arg1:T18 Arg2:T2
+R6	Form Arg1:T3 Arg2:T2
+R7	PartOf Arg1:T4 Arg2:T19
+R8	PartOf Arg1:T4 Arg2:T5
+R9	PartOf Arg1:T4 Arg2:T6
+R10	PartOf Arg1:T8 Arg2:T7
+R11	Spatial Arg1:T6 Arg2:T7
+R12	Causitive Arg1:T9 Arg2:T11
+R13	Causitive Arg1:T9 Arg2:T10
+R14	Causitive Arg1:T12 Arg2:T13
+R15	Spatial Arg1:T13 Arg2:T14

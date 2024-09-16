@@ -1,0 +1,42 @@
+T1	Component 29 43	thin-film head
+T2	Component 95 114	soft magnetic layer
+T3	Material 120 130	iron alloy
+T4	Material 145 152	silicon
+T5	Material 157 165	aluminum
+T6	Component 176 186	base layer
+T7	Component 192 201	substrate
+T8	Component 217 233	insulating layer
+T9	Component 241 270	patterned soft magnetic layer
+T10	Function 285 314	chemical-mechanical polishing
+T11	Attribution 320 327	surface
+T12	Component 335 361	laminated insulating layer
+T13	Component 370 399	patterned soft magnetic layer
+T14	Component 436 454	lower shield layer
+T17	PhysicsFlow 561 573	first slurry
+T18	Component 589 611	lower shield gap layer
+T19	Component 618 647	magnetoresistive effect layer
+T20	Component 655 673	lower shield layer
+T21	PhysicsFlow 407 424	first acid slurry
+T16	PhysicsFlow 488 504	second weak acid
+T22	PhysicsFlow 509 523	neutral slurry
+T23	ScientificConcept 531 533	pH
+T24	Function 3 23	manufacturing method
+T25	Function 460 480	mechanical polishing
+R1	Oper Arg1:T24 Arg2:T1
+R2	MadeOf Arg1:T2 Arg2:T3
+R4	MadeOf Arg1:T3 Arg2:T4
+R5	MadeOf Arg1:T3 Arg2:T5
+R6	Attr Arg1:T12 Arg2:T11
+R3	Spatial Arg1:T2 Arg2:T7
+R7	Oper Arg1:T10 Arg2:T11
+R8	Causitive Arg1:T2 Arg2:T6
+R9	Spatial Arg1:T8 Arg2:T9
+R10	Oper Arg1:T10 Arg2:T13
+R11	Oper Arg1:T25 Arg2:T14
+R12	Causitive Arg1:T13 Arg2:T21
+R13	Causitive Arg1:T14 Arg2:T16
+R14	Spatial Arg1:T18 Arg2:T20
+R15	Spatial Arg1:T19 Arg2:T20
+R16	Causitive Arg1:T14 Arg2:T22
+R17	Measurement Arg1:T23 Arg2:T22
+R18	Comparison Arg1:T22 Arg2:T17

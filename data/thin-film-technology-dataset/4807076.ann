@@ -1,0 +1,26 @@
+T1	Component 2 25	thin film magnetic head
+T2	Function 41 68	vertical magnetic recording
+T3	EnergyFlow 78 96	main magnetic pole
+T4	Material 155 171	recording medium
+T5	EnergyFlow 180 203	auxiliary magnetic pole
+T6	EnergyFlow 229 247	main magnetic pole
+T7	EnergyFlow 258 281	closed magnetic circuit
+T8	Attribution 294 303	dimension
+T9	EnergyFlow 311 334	auxiliary magnetic pole
+T10	EnergyFlow 367 385	main magnetic pole
+T11	Location 393 396	end
+T12	Material 408 424	recording medium
+T14	Location 438 456	tracking direction
+T15	ScientificConcept 468 491	reproduction efficiency
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T1 Arg2:T3
+R3	Spatial Arg1:T3 Arg2:T4
+R4	PartOf Arg1:T1 Arg2:T5
+R5	Form Arg1:T5 Arg2:T7
+R6	Form Arg1:T6 Arg2:T7
+R7	Attr Arg1:T9 Arg2:T8
+R8	PartOf Arg1:T10 Arg2:T11
+R9	Spatial Arg1:T11 Arg2:T12
+R10	Comparison Arg1:T8 Arg2:T11
+R11	Measurement Arg1:T8 Arg2:T14
+R12	Purpose Arg1:T8 Arg2:T15

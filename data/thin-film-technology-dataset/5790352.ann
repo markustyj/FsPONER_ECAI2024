@@ -1,0 +1,27 @@
+T1	Component 3 10	MR head
+T2	Component 23 30	MR film
+T3	Component 61 72	lead layers
+T4	Attribution 125 134	thickness
+T5	EnergyFlow 139 149	resistance
+T6	Component 207 214	MR head
+T7	Component 226 236	write pole
+T8	Component 257 275	thinner lead layer
+T9	Component 305 312	MR film
+T10	Component 325 335	write pole
+T11	Component 359 377	thicker lead layer
+T12	Component 439 457	thinner lead layer
+T13	EnergyFlow 476 513	single-ended preamplification circuit
+T14	Component 521 539	thicker lead layer
+T15	Others 558 564	ground
+T16	EnergyFlow 568 585	reference voltage
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Causitive Arg1:T2 Arg2:T3
+R3	Attr Arg1:T3 Arg2:T4
+R4	Attr Arg1:T2 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T7
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Spatial Arg1:T7 Arg2:T9
+R8	Spatial Arg1:T10 Arg2:T11
+R9	Spatial Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T14 Arg2:T15
+R11	Spatial Arg1:T14 Arg2:T16

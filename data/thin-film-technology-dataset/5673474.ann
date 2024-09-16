@@ -1,0 +1,84 @@
+T1	Component 39 62	thin film magnetic head
+T2	Component 81 91	seed layer
+T3	Component 106 115	substrate
+T5	System 176 208	magnetic head related structures
+T6	Component 248 268	lower magnetic layer
+T7	Component 286 295	substrate
+T8	Component 325 341	insulative layer
+T9	Component 383 408	aforementioned seed layer
+T10	Component 424 428	seed
+T11	Component 490 505	magnetic layers
+T12	Component 535 555	lower magnetic layer
+T13	EnergyFlow 579 594	first side pole
+T14	Component 614 639	aforementioned seed layer
+T15	Component 672 687	magnetic layers
+T16	Component 723 743	lower magnetic layer
+T19	EnergyFlow 828 855	first and second side poles
+T20	EnergyFlow 969 985	first upper pole
+T21	EnergyFlow 1041 1057	first upper pole
+T22	Location 1069 1076	gap end
+T23	Material 1122 1142	nonmagnetic material
+T24	Location 1169 1176	gap end
+T27	Location 1288 1295	gap end
+T28	Component 68 77	substrate
+T4	Component 145 156	common seed
+T29	Component 235 244	substrate
+T30	Component 368 377	substrate
+T31	Shape 302 309	opening
+T32	Component 453 473	lower magnetic layer
+T33	Function 437 444	plating
+T34	Location 524 527	end
+T35	Component 645 649	seed
+T36	Location 712 715	end
+T17	EnergyFlow 767 783	second side pole
+T18	Component 797 812	same seed layer
+T37	Component 818 822	seed
+T38	Location 876 896	upper and lower ends
+T39	Location 902 912	lower ends
+T40	Location 933 937	ends
+T41	Component 945 965	lower magnetic layer
+T42	Location 1003 1012	upper end
+T43	EnergyFlow 1020 1035	first side pole
+T44	EnergyFlow 1088 1104	second side pole
+T45	Location 1108 1118	gap region
+T46	EnergyFlow 1184 1200	first upper pole
+T25	EnergyFlow 1204 1221	second upper pole
+T47	Location 1239 1248	upper end
+T26	EnergyFlow 1256 1272	second side pole
+T48	Location 1309 1319	gap region
+R1	Spatial Arg1:T1 Arg2:T28
+R2	Spatial Arg1:T2 Arg2:T3
+R3	Form Arg1:T2 Arg2:T4
+R4	Spatial Arg1:T5 Arg2:T29
+R5	Spatial Arg1:T6 Arg2:T7
+R6	Manner Arg1:T31 Arg2:T6
+R7	Spatial Arg1:T8 Arg2:T30
+R8	Form Arg1:T9 Arg2:T10
+R9	Purpose Arg1:T4 Arg2:T5
+R10	Purpose Arg1:T10 Arg2:T33
+R11	Oper Arg1:T33 Arg2:T32
+R12	Spatial Arg1:T11 Arg2:T34
+R13	PartOf Arg1:T12 Arg2:T34
+R14	Form Arg1:T11 Arg2:T13
+R15	Form Arg1:T14 Arg2:T35
+R16	Causitive Arg1:T14 Arg2:T11
+R17	Spatial Arg1:T15 Arg2:T36
+R18	PartOf Arg1:T16 Arg2:T36
+R19	Form Arg1:T15 Arg2:T17
+R20	Causitive Arg1:T18 Arg2:T15
+R21	Form Arg1:T18 Arg2:T37
+R22	Spatial Arg1:T39 Arg2:T40
+R23	PartOf Arg1:T41 Arg2:T40
+R24	PartOf Arg1:T19 Arg2:T38
+R25	PartOf Arg1:T43 Arg2:T42
+R26	Spatial Arg1:T20 Arg2:T42
+R27	PartOf Arg1:T21 Arg2:T22
+R28	Spatial Arg1:T22 Arg2:T44
+R29	MadeOf Arg1:T45 Arg2:T23
+R30	Spatial Arg1:T45 Arg2:T24
+R31	PartOf Arg1:T46 Arg2:T24
+R32	Spatial Arg1:T25 Arg2:T47
+R33	PartOf Arg1:T26 Arg2:T47
+R34	PartOf Arg1:T25 Arg2:T27
+R35	Spatial Arg1:T27 Arg2:T48
+R36	PartOf Arg1:T8 Arg2:T31

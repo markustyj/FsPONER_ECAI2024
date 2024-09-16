@@ -1,0 +1,44 @@
+T1	Component 27 40	magnetic head
+T2	Component 52 96	magnetic recording and reproducing substrate
+T3	Shape 180 187	grooves
+T7	Component 305 321	insulating layer
+T8	Component 354 368	conductor coil
+T9	Component 436 452	insulating layer
+T12	Attribution 585 601	polished surface
+T13	Component 2 11	thin-film
+T14	Attribution 106 150	mechanochemically polished principal surface
+T15	Material 202 222	nonmagnetic material
+T16	Component 291 299	substrat
+T6	Material 325 340	inorganic oxide
+T18	Component 411 429	magnetic substrate
+T20	Attribution 503 518	exposed surface
+T10	Component 609 625	insulating layer
+T11	EnergyFlow 666 675	main pole
+T21	Attribution 377 403	polished principle surface
+T22	Attribution 267 283	polished surface
+T17	EnergyFlow 568 577	main pole
+T23	Component 558 567	thin-film
+T4	Component 226 251	thin-film conducting coil
+T5	Shape 465 473	via hole
+T19	Component 633 652	protective overcoat
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T14
+R3	PartOf Arg1:T14 Arg2:T3
+R4	Causitive Arg1:T3 Arg2:T15
+R5	PartOf Arg1:T1 Arg2:T4
+R6	Spatial Arg1:T4 Arg2:T22
+R7	PartOf Arg1:T16 Arg2:T22
+R8	PartOf Arg1:T1 Arg2:T7
+R9	Attr Arg1:T1 Arg2:T13
+R10	MadeOf Arg1:T7 Arg2:T6
+R11	Causitive Arg1:T7 Arg2:T8
+R12	Causitive Arg1:T7 Arg2:T21
+R13	PartOf Arg1:T18 Arg2:T21
+R14	PartOf Arg1:T9 Arg2:T5
+R15	PartOf Arg1:T9 Arg2:T20
+R16	PartOf Arg1:T1 Arg2:T23
+R17	Attr Arg1:T23 Arg2:T17
+R18	Spatial Arg1:T17 Arg2:T12
+R19	PartOf Arg1:T10 Arg2:T12
+R20	PartOf Arg1:T1 Arg2:T19
+R21	Causitive Arg1:T19 Arg2:T11

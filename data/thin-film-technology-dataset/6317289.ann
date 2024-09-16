@@ -1,0 +1,89 @@
+T3	Component 54 65	GMR element
+T4	Component 84 100	shield gap layer
+T5	Component 114 134	first magnetic layer
+T7	Component 174 185	bottom pole
+T9	Component 239 265	inorganic insulating layer
+T10	Location 275 290	cut-out portion
+T11	Component 374 389	write gap layer
+T12	Component 397 417	first magnetic layer
+T15	Location 518 533	cut-out portion
+T17	Location 575 593	connecting portion
+T18	Component 656 671	write gap layer
+T19	Location 683 698	cut-out portion
+T20	Component 706 732	inorganic insulating layer
+T21	Function 759 766	etching
+T23	Component 817 837	first magnetic layer
+T24	Component 935 949	thin film coil
+T25	Component 957 972	write gap layer
+T30	Attribution 1200 1210	side walls
+T31	Component 1236 1259	thin film magnetic head
+T33	ScientificConcept 1344 1354	saturation
+T34	EnergyFlow 1372 1385	magnetic flux
+T35	Component 1405 1428	thin film magnetic head
+T36	Component 16 35	bottom shield layer
+T1	Component 41 50	substrate
+T2	Component 150 160	top shield
+T6	Component 192 230	inductive type thin film magnetic head
+T8	Attribution 300 305	depth
+T37	Attribution 317 338	desired throat height
+T38	Location 344 356	pole portion
+T39	Component 422 448	inorganic insulating layer
+T40	Component 452 473	second magnetic layer
+T13	Location 494 506	pole portion
+T14	Component 537 568	said inorganic insulating layer
+T16	Component 614 640	inorganic insulating layer
+T41	Location 777 789	pole portion
+T22	Component 795 799	mask
+T42	Attribution 868 877	thickness
+T43	System 890 904	trim structure
+T44	Component 993 1019	inorganic insulating layer
+T45	Component 1023 1043	third magnetic layer
+T26	Component 1068 1088	third magnetic layer
+T27	Attribution 1129 1136	surface
+T46	Location 1144 1156	pole portion
+T28	Component 1164 1185	second magnetic layer
+T29	Location 1218 1230	pole portion
+T47	Component 1266 1282	narrow pole chip
+T48	Attribution 1294 1305	track width
+T32	Attribution 1320 1333	throat height
+T49	ScientificConcept 1359 1366	leakage
+T50	Effect 1438 1463	high recording efficiency
+T51	Effect 1491 1501	high yield
+R1	Spatial Arg1:T36 Arg2:T1
+R2	Attr Arg1:T38 Arg2:T37
+R3	Attr Arg1:T10 Arg2:T8
+R4	Comparison Arg1:T8 Arg2:T37
+R5	PartOf Arg1:T9 Arg2:T10
+R6	PartOf Arg1:T4 Arg2:T3
+R7	Spatial Arg1:T11 Arg2:T12
+R8	Spatial Arg1:T11 Arg2:T39
+R9	PartOf Arg1:T6 Arg2:T2
+R10	PartOf Arg1:T6 Arg2:T7
+R11	Form Arg1:T5 Arg2:T2
+R12	Form Arg1:T5 Arg2:T7
+R13	Spatial Arg1:T24 Arg2:T25
+R14	Spatial Arg1:T25 Arg2:T44
+R15	Attr Arg1:T46 Arg2:T27
+R16	PartOf Arg1:T28 Arg2:T46
+R17	PartOf Arg1:T29 Arg2:T30
+R18	Spatial Arg1:T26 Arg2:T27
+R19	Spatial Arg1:T26 Arg2:T30
+R20	Purpose Arg1:T47 Arg2:T48
+R21	PartOf Arg1:T31 Arg2:T47
+R22	Purpose Arg1:T35 Arg2:T50
+R23	Causitive Arg1:T51 Arg2:T35
+R24	Oper Arg1:T33 Arg2:T34
+R25	Oper Arg1:T49 Arg2:T34
+R26	PartOf Arg1:T40 Arg2:T13
+R27	PartOf Arg1:T14 Arg2:T15
+R28	Spatial Arg1:T15 Arg2:T13
+R29	PartOf Arg1:T40 Arg2:T17
+R30	Manner Arg1:T16 Arg2:T17
+R31	Spatial Arg1:T19 Arg2:T20
+R32	Form Arg1:T41 Arg2:T22
+R33	PartOf Arg1:T19 Arg2:T18
+R34	Oper Arg1:T21 Arg2:T41
+R35	Attr Arg1:T23 Arg2:T42
+R36	Form Arg1:T23 Arg2:T43
+#1	AnnotatorNotes R28	原标注ownership，改成spatial，虽然我说过within可以标注为ownership，但同一个实物有两个主体比较奇怪，而且当前含义确实说的是A放置B内部，同时A的主体非常确定，就是第二磁化层
+R37	Oper Arg1:T21 Arg2:T18

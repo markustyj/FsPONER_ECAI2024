@@ -1,0 +1,62 @@
+T2	Component 54 91	thin film magnetoresistive transducer
+T6	Component 363 387	magnetoresistive members
+T10	Component 504 528	magnetoresistive members
+T13	Component 688 712	magnetoresistive members
+T17	Component 843 869	bias conductor arrangement
+T18	Component 889 913	magnetoresistive members
+T19	System 998 1024	bias conductor arrangement
+T22	Component 1297 1321	magnetoresistive members
+T1	System 2 33	magnetoresistive head structure
+T26	Component 120 166	perpendicular and longitudinal recording heads
+T3	Component 192 258	first and second dielectrically separated magnetoresistive members
+T4	Component 295 311	Sense conductors
+T5	EnergyFlow 415 429	sense currents
+T7	Material 559 569	dielectric
+T27	EnergyFlow 596 608	bias current
+T11	Component 620 636	common conductor
+T12	Location 669 680	second ends
+T28	Location 283 293	first ends
+T29	Location 345 355	first ends
+T30	Location 741 752	second ends
+T15	EnergyFlow 795 818	sense and bias currents
+T16	Shape 775 786	return path
+T14	Function 936 969	longitudinal transition detection
+T31	Location 1045 1049	side
+T20	Component 1057 1086	first magnetoresistive member
+T32	Location 1112 1116	side
+T33	Component 1128 1153	magnetoresistive elements
+T34	Function 1176 1210	perpendicular transition detection
+T21	Component 1241 1267	nonmagnetic shield members
+T23	EnergyFlow 1355 1381	extraneous magnetic fields
+T24	ScientificConcept 1394 1404	resolution
+T35	EnergyFlow 1475 1483	voltages
+T25	Component 1502 1525	magnetoresistive member
+T8	System 441 475	bias current conductor arrangement
+R1	Causitive Arg1:T1 Arg2:T2
+R2	Purpose Arg1:T2 Arg2:T26
+R3	PartOf Arg1:T3 Arg2:T28
+R4	Spatial Arg1:T4 Arg2:T29
+R5	PartOf Arg1:T6 Arg2:T29
+R6	Purpose Arg1:T4 Arg2:T5
+R7	Spatial Arg1:T8 Arg2:T10
+R8	Spatial Arg1:T8 Arg2:T7
+R9	Spatial Arg1:T10 Arg2:T7
+R10	Purpose Arg1:T8 Arg2:T27
+R11	Spatial Arg1:T11 Arg2:T12
+R12	PartOf Arg1:T13 Arg2:T12
+R13	Purpose Arg1:T11 Arg2:T30
+R14	Causitive Arg1:T11 Arg2:T16
+R15	Causitive Arg1:T11 Arg2:T15
+R16	Purpose Arg1:T17 Arg2:T14
+R17	Spatial Arg1:T17 Arg2:T18
+R18	PartOf Arg1:T20 Arg2:T31
+R19	Manner Arg1:T31 Arg2:T19
+R20	PartOf Arg1:T33 Arg2:T32
+R21	Manner Arg1:T32 Arg2:T19
+R22	Purpose Arg1:T19 Arg2:T34
+R23	Spatial Arg1:T21 Arg2:T22
+R24	Purpose Arg1:T22 Arg2:T23
+R25	Purpose Arg1:T22 Arg2:T24
+T9	System 1406 1438	Differential amplification means
+R26	Purpose Arg1:T9 Arg2:T35
+R27	Manner Arg1:T25 Arg2:T35

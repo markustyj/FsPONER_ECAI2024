@@ -1,0 +1,35 @@
+T1	Component 3 17	recording head
+T2	System 29 53	magnetic storage devices
+T3	Component 72 86	recording head
+T4	Component 98 108	transducer
+T5	Attribution 160 167	surface
+T6	Material 175 198	magnetic storage medium
+T7	Effect 217 237	improved positioning
+T8	Component 245 255	transducer
+T9	Component 370 395	recording head transducer
+T10	System 419 439	interleaver assembly
+T12	Location 507 524	magnetic portions
+T15	Component 263 277	recording head
+T16	Function 278 303	read and write operations
+T17	System 462 480	flexure assemblies
+T11	Effect 529 564	selective, bi-directional actuation
+T18	Component 491 496	motor
+T19	EnergyFlow 589 610	electrostatic charges
+T13	System 631 649	flexure assemblies
+T14	Effect 654 673	selective actuation
+T20	Component 702 724	piezoelectric elements
+T21	Effect 753 772	selective actuation
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	Attr Arg1:T6 Arg2:T5
+R4	Spatial Arg1:T4 Arg2:T5
+R5	Causitive Arg1:T4 Arg2:T7
+R6	Attr Arg1:T8 Arg2:T7
+R7	Oper Arg1:T16 Arg2:T15
+R8	PartOf Arg1:T10 Arg2:T17
+R9	Purpose Arg1:T12 Arg2:T11
+R10	PartOf Arg1:T18 Arg2:T12
+R11	Causitive Arg1:T10 Arg2:T18
+R12	Purpose Arg1:T19 Arg2:T14
+R13	Causitive Arg1:T13 Arg2:T19
+R14	Purpose Arg1:T20 Arg2:T21

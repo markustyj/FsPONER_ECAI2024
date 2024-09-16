@@ -1,0 +1,47 @@
+T1	Component 3 27	main magnetic pole layer
+T2	Component 44 60	insulating layer
+T3	Attribution 78 99	high-flatness surface
+T4	Component 107 117	yoke layer
+T6	Component 168 192	main magnetic pole layer
+T7	EnergyFlow 214 232	main magnetic pole
+T8	Component 238 262	main magnetic pole layer
+T9	Attribution 269 286	front end surface
+T10	Shape 299 304	shape
+T11	Attribution 312 322	width size
+T12	Location 349 358	direction
+T13	Attribution 362 373	track width
+T14	Attribution 381 398	front end surface
+T15	Component 428 457	auxiliary magnetic pole layer
+T16	Component 461 498	perpendicular magnetic recording head
+T17	Shape 552 560	fringing
+T18	System 566 583	recording pattern
+T19	Component 602 626	main magnetic pole layer
+T20	Effect 632 653	high pattern accuracy
+T21	EnergyFlow 690 714	recording magnetic field
+T22	Location 720 728	fore end
+T23	Component 736 760	main magnetic pole layer
+T5	Component 127 137	large film
+T24	Attribution 138 147	thickness
+T25	Function 538 548	occurrence
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Generate Arg1:T2 Arg2:T3
+#1	AnnotatorNotes T24	这里是否实体识别标注有误，thickness在这里作为属性的话总感觉说不通，个人理解为层，而非厚度
+R4	Attr Arg1:T8 Arg2:T9
+R5	Manner Arg1:T9 Arg2:T10
+R6	Attr Arg1:T10 Arg2:T11
+R7	Spatial Arg1:T14 Arg2:T15
+R8	Manner Arg1:T11 Arg2:T12
+R9	Causitive Arg1:T16 Arg2:T25
+R10	Oper Arg1:T25 Arg2:T17
+R12	Attr Arg1:T23 Arg2:T22
+#2	AnnotatorNotes R2	A被磨平为B，即A产生了B，不知道这种理解对不对
+R3	PartOf Arg1:T4 Arg2:T5
+R13	Spatial Arg1:T5 Arg2:T6
+R14	PartOf Arg1:T7 Arg2:T6
+#3	AnnotatorNotes R14	这里的of看上去是描述main magnetic pole layer 和 main magnetic pole之间的关系，但是这两个之间的关系不知该如何理解
+#4	AnnotatorNotes T13	direction of track width 如何理解？
+R15	Manner Arg1:T18 Arg2:T25
+R11	Manner Arg1:T20 Arg2:T19
+R16	Causitive Arg1:T21 Arg2:T22
+R17	Causitive Arg1:T16 Arg2:T19
+R18	Causitive Arg1:T16 Arg2:T21

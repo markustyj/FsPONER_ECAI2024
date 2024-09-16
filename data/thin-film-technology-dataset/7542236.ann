@@ -1,0 +1,32 @@
+T1	Component 3 21	magnetic head part
+T2	Component 42 63	reproducing head part
+T3	System 73 83	GMR device
+T4	Component 90 109	recording head part
+T5	Component 123 159	inductive electromagnetic transducer
+T6	Component 185 192	support
+T7	Component 198 211	magnetic head
+T8	Component 252 257	poles
+T9	Component 303 323	heater electrode pad
+T10	Attribution 338 351	first surface
+T11	Component 357 368	head slider
+T12	Component 374 384	other pole
+T13	Component 416 425	substrate
+T14	Component 443 450	support
+T15	Attribution 481 495	second surface
+T16	Component 503 514	head slider
+T17	Component 237 243	heater
+T18	Component 265 271	heater
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T1 Arg2:T2
+R3	PartOf Arg1:T1 Arg2:T4
+R4	Spatial Arg1:T5 Arg2:T6
+R5	Purpose Arg1:T4 Arg2:T5
+R6	PartOf Arg1:T7 Arg2:T17
+R7	PartOf Arg1:T18 Arg2:T8
+R8	Attr Arg1:T11 Arg2:T10
+R9	Spatial Arg1:T9 Arg2:T10
+R10	Spatial Arg1:T8 Arg2:T9
+R11	Spatial Arg1:T12 Arg2:T13
+R12	Form Arg1:T13 Arg2:T14
+R13	Attr Arg1:T16 Arg2:T15
+R14	Manner Arg1:T15 Arg2:T12

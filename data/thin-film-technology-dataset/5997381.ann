@@ -1,0 +1,56 @@
+T1	Component 2 16	lapping sensor
+T2	Attribution 45 58	throat height
+T3	Component 64 91	thin film recording element
+T4	Function 101 127	mechanical lapping process
+T5	Component 133 150	recording element
+T6	Function 170 195	photolithographic process
+T7	Location 206 226	zero throat location
+T8	Component 232 246	lapping sensor
+T9	Component 258 271	sensor device
+T10	InfoFlow 290 303	output signal
+T11	Attribution 322 335	throat height
+T12	Function 347 362	lapping process
+T13	Component 370 388	calibration switch
+T15	Component 426 439	sensor device
+T16	Component 445 451	switch
+T17	Function 477 507	same photolithographic process
+T18	Component 515 532	recording element
+T19	InfoFlow 550 563	output signal
+T20	Function 575 590	lapping process
+T21	Effect 607 627	low resistance value
+T22	ScientificConcept 636 653	selected distance
+T23	Location 663 683	zero throat location
+T24	Component 691 708	recording element
+T25	Effect 730 751	high resistance value
+T26	InfoFlow 782 802	switch output signal
+T27	Effect 812 832	low resistance value
+T28	Effect 840 861	high resistance value
+T29	Function 873 888	lapping process
+T30	InfoFlow 914 941	sensor device output signal
+T31	ScientificConcept 949 966	selected distance
+T32	Location 976 996	zero throat location
+T33	Component 1004 1021	recording element
+T34	Component 1054 1068	lapping sensor
+T14	Function 392 416	electrical communication
+R1	Attr Arg1:T3 Arg2:T2
+R2	Purpose Arg1:T1 Arg2:T2
+R3	Oper Arg1:T6 Arg2:T5
+R4	PartOf Arg1:T5 Arg2:T7
+R5	PartOf Arg1:T8 Arg2:T9
+R6	Oper Arg1:T17 Arg2:T16
+R7	Generate Arg1:T9 Arg2:T10
+R8	Oper Arg1:T14 Arg2:T13
+R9	Oper Arg1:T14 Arg2:T15
+R10	Others Arg1:T10 Arg2:T11
+R11	Generate Arg1:T16 Arg2:T19
+R13	PartOf Arg1:T24 Arg2:T23
+R14	Others Arg1:T19 Arg2:T25
+R15	Others Arg1:T19 Arg2:T21
+R16	Attr Arg1:T23 Arg2:T22
+R17	PartOf Arg1:T33 Arg2:T32
+R18	Attr Arg1:T32 Arg2:T31
+R19	Purpose Arg1:T26 Arg2:T30
+R20	Causitive Arg1:T30 Arg2:T31
+R21	Measurement Arg1:T27 Arg2:T26
+R22	Measurement Arg1:T28 Arg2:T26
+R12	Form Arg1:T16 Arg2:T18

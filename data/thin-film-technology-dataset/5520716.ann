@@ -1,0 +1,64 @@
+T2	Attribution 163 188	average particle diameter
+T3	System 226 242	sintered product
+T4	Attribution 274 299	average particle diameter
+T5	Attribution 322 347	average particle diameter
+T6	Component 355 371	sintered product
+T7	Attribution 415 440	average particle diameter
+T8	Shape 444 457	TiC particles
+T10	Component 669 678	substrate
+T12	Shape 727 734	grooves
+T14	Component 787 806	air bearing surface
+T15	Component 816 822	slider
+T16	Component 858 874	sintered product
+T17	Component 1008 1027	air bearing surface
+T18	Component 1035 1041	slider
+T19	Component 1055 1069	thin-film head
+T1	System 3 41	Al.sub.2 O.sub.3 -TiC sintered product
+T11	Material 53 69	Al.sub.2 O.sub.3
+T20	Component 75 89	main component
+T21	Material 105 108	TiC
+T22	Measure 143 149	weight
+T23	Shape 192 218	Al.sub.2 O.sub.3 particles
+T24	Shape 303 316	TiC particles
+T25	Value 402 409	1 .mu.m
+T26	Value 477 486	0.9 .mu.m
+T27	Material 570 573	TiC
+T28	Material 549 565	Al.sub.2 O.sub.3
+T29	ScientificConcept 516 537	grain boundary phases
+T9	System 613 651	Al.sub.2 O.sub.3 -TiC sintered product
+T30	Component 687 700	magnetic head
+T13	Attribution 772 779	surface
+T31	Material 848 852	ions
+T32	Location 741 757	stepped portions
+T33	Component 1174 1187	magnetic head
+T34	Effect 1155 1166	reliability
+T35	Effect 1105 1124	excellent precision
+T36	Material 950 954	ions
+T37	Effect 884 909	excellent surface quality
+R1	PartOf Arg1:T1 Arg2:T11
+R2	InstanceOf Arg1:T11 Arg2:T20
+R3	PartOf Arg1:T1 Arg2:T21
+R4	Attr Arg1:T21 Arg2:T22
+R5	Attr Arg1:T23 Arg2:T2
+R6	PartOf Arg1:T3 Arg2:T23
+R7	Attr Arg1:T24 Arg2:T4
+R8	Comparison Arg1:T4 Arg2:T2
+R9	Attr Arg1:T6 Arg2:T5
+R10	Measurement Arg1:T5 Arg2:T25
+R11	Attr Arg1:T8 Arg2:T7
+R12	Measurement Arg1:T7 Arg2:T26
+R13	Form Arg1:T9 Arg2:T10
+R14	PartOf Arg1:T30 Arg2:T10
+R15	Attr Arg1:T14 Arg2:T13
+R16	PartOf Arg1:T9 Arg2:T12
+R17	PartOf Arg1:T9 Arg2:T32
+R18	PartOf Arg1:T13 Arg2:T32
+R19	PartOf Arg1:T15 Arg2:T14
+R21	PartOf Arg1:T18 Arg2:T17
+R20	Causitive Arg1:T31 Arg2:T32
+R22	Purpose Arg1:T16 Arg2:T37
+R23	Causitive Arg1:T36 Arg2:T16
+R24	InstanceOf Arg1:T19 Arg2:T18
+R25	Purpose Arg1:T17 Arg2:T35
+R26	Attr Arg1:T33 Arg2:T34
+R27	Purpose Arg1:T17 Arg2:T34

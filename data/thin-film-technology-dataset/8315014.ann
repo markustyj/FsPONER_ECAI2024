@@ -1,0 +1,44 @@
+T1	Component 16 53	perpendicular magnetic recording head
+T2	Component 98 135	perpendicular magnetic recording head
+T3	EnergyFlow 147 156	main pole
+T4	Component 169 177	pole tip
+T5	EnergyFlow 189 213	recording magnetic field
+T6	Material 219 235	recording medium
+T7	Component 239 243	coil
+T8	EnergyFlow 260 269	main pole
+T10	Material 356 372	recording medium
+T11	Component 393 401	pole tip
+T12	Component 409 420	return yoke
+T13	EnergyFlow 431 444	magnetic path
+T14	EnergyFlow 453 477	recording magnetic field
+T15	EnergyFlow 496 505	main pole
+T17	Component 539 543	coil
+T18	EnergyFlow 562 571	main pole
+T19	Component 602 606	coil
+T20	EnergyFlow 624 633	main pole
+T21	Component 679 683	coil
+T22	EnergyFlow 701 710	main pole
+T23	EnergyFlow 300 324	recording magnetic field
+T16	Measure 587 592	times
+T24	Measure 664 669	times
+T9	Shape 275 289	solenoid shape
+R1	PartOf Arg1:T2 Arg2:T3
+R3	Causitive Arg1:T4 Arg2:T5
+R4	Causitive Arg1:T5 Arg2:T6
+R2	PartOf Arg1:T2 Arg2:T7
+R5	Spatial Arg1:T7 Arg2:T8
+R6	Manner Arg1:T9 Arg2:T7
+T25	InfoFlow 339 350	information
+R7	Causitive Arg1:T23 Arg2:T25
+R8	Causitive Arg1:T25 Arg2:T10
+R9	Manner Arg1:T11 Arg2:T23
+R10	Form Arg1:T12 Arg2:T13
+R11	Purpose Arg1:T13 Arg2:T14
+R12	Spatial Arg1:T19 Arg2:T20
+R13	Comparison Arg1:T19 Arg2:T21
+R14	Spatial Arg1:T21 Arg2:T22
+R15	Spatial Arg1:T17 Arg2:T18
+R16	Form Arg1:T15 Arg2:T13
+R17	Form Arg1:T17 Arg2:T13
+R18	PartOf Arg1:T3 Arg2:T4
+R19	PartOf Arg1:T2 Arg2:T12

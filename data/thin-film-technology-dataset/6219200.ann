@@ -1,0 +1,27 @@
+T1	Component 2 25	thin-film magnetic head
+T2	Component 53 66	magnetic film
+T3	Component 86 95	substrate
+T4	Component 107 126	air bearing surface
+T5	Component 153 166	magnetic film
+T6	Component 327 346	air bearing surface
+T7	Component 416 429	magnetic disk
+T8	Attribution 39 47	end face
+T9	Component 134 147	magnetic head
+T10	Material 205 221	metallic element
+T11	Material 249 264	abrasive grains
+T13	Material 280 313	hydroxide of the metallic element
+T14	ScientificConcept 400 410	bit length
+T15	Effect 459 480	higher record density
+R1	Attr Arg1:T2 Arg2:T8
+R3	PartOf Arg1:T9 Arg2:T4
+R4	PartOf Arg1:T4 Arg2:T3
+R5	Spatial Arg1:T8 Arg2:T3
+R6	MadeOf Arg1:T5 Arg2:T10
+R9	PartOf Arg1:T11 Arg2:T13
+R7	Causitive Arg1:T11 Arg2:T10
+R10	Attr Arg1:T7 Arg2:T14
+R11	Purpose Arg1:T14 Arg2:T15
+R12	Attr Arg1:T6 Arg2:T15
+R2	PartOf Arg1:T1 Arg2:T2
+#1	AnnotatorNotes R3	air bearing surface特殊处理，与其他surface不一样，其他surface可以用attr，air bearing surface使用ownership
+#2	AnnotatorNotes R7	语义方向反了

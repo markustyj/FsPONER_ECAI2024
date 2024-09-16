@@ -1,0 +1,32 @@
+T1	Component 2 23	magnetoresistive head
+T2	Shape 31 59	separate write and read gaps
+T3	Component 72 90	leading write pole
+T4	Component 94 120	trailing write/shield pole
+T5	Component 128 149	following shield pole
+T6	Component 162 201	elongated magnetoresistive sensor strip
+T7	Location 211 231	central sense region
+T8	Shape 250 258	read gap
+T9	Component 284 302	leading write pole
+T10	Measure 309 315	length
+T11	Location 337 357	central sense region
+T12	Component 365 371	sensor
+T13	Attribution 386 397	track width
+T14	Component 407 427	trailing/shield pole
+T15	Measure 476 490	overall length
+T16	Component 498 527	magnetoresistive sensor strip
+T17	Component 432 448	following shield
+T18	Measure 457 468	same length
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T5
+R5	PartOf Arg1:T6 Arg2:T7
+R6	PartOf Arg1:T8 Arg2:T6
+R7	Attr Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T12 Arg2:T11
+R9	Manner Arg1:T11 Arg2:T9
+R10	Causitive Arg1:T9 Arg2:T13
+R11	Attr Arg1:T16 Arg2:T15
+R12	Attr Arg1:T14 Arg2:T18
+R13	Attr Arg1:T17 Arg2:T18
+R14	Comparison Arg1:T18 Arg2:T15

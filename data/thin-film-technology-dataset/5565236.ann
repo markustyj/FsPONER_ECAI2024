@@ -1,0 +1,46 @@
+T1	Component 23 53	giant magnetoresistance sensor
+T3	Component 142 147	layer
+T4	Material 154 167	copper matrix
+T5	Shape 173 191	magnetic particles
+T8	Component 229 247	magnetic particles
+T11	Shape 413 431	magnetic particles
+T12	Component 460 474	granular layer
+T13	Shape 521 539	magnetic particles
+T14	ScientificConcept 551 560	easy axes
+T15	Shape 568 573	plane
+T16	Shape 592 610	magnetic particles
+T17	EnergyFlow 736 750	magnetic field
+T18	ScientificConcept 765 775	saturation
+T19	Component 803 816	granular film
+T20	Shape 822 840	magnetic particles
+T21	Component 864 880	saturation field
+T22	Material 437 454	nickel-iron alloy
+T6	Material 197 216	nickel cobalt alloy
+T2	Component 106 129	oriented granular layer
+T7	EnergyFlow 255 293	magnetocrystalline anisotropy constant
+T9	Component 374 395	silver or gold matrix
+T10	System 498 505	texture
+T23	Component 581 586	layer
+T24	Value 658 677	40 to 400 angstroms
+T25	Location 622 639	largest dimension
+T26	EnergyFlow 844 858	low anisotropy
+T27	Measure 777 786	DELTA.R/R
+T28	Measure 892 901	DELTA.R/R
+T29	Value 919 930	10 to 20 Oe
+R1	MadeOf Arg1:T3 Arg2:T4
+R2	PartOf Arg1:T4 Arg2:T5
+R3	PartOf Arg1:T6 Arg2:T5
+R4	Attr Arg1:T8 Arg2:T7
+R5	Causitive Arg1:T12 Arg2:T13
+R7	Attr Arg1:T23 Arg2:T15
+R8	Causitive Arg1:T13 Arg2:T15
+R9	Measurement Arg1:T25 Arg2:T24
+R10	Attr Arg1:T16 Arg2:T25
+R11	Attr Arg1:T20 Arg2:T26
+R12	PartOf Arg1:T19 Arg2:T20
+R13	Measurement Arg1:T28 Arg2:T29
+T30	Measure 320 355	0 to 3.times.10.sup.4 ergs/cm.sup.3
+R15	Measurement Arg1:T7 Arg2:T30
+R6	Attr Arg1:T12 Arg2:T14
+R14	Purpose Arg1:T17 Arg2:T18
+R16	Purpose Arg1:T21 Arg2:T28

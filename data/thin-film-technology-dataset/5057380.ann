@@ -1,0 +1,22 @@
+T1	Component 15 38	soft magnetic thin film
+T2	Component 48 65	basic composition
+T3	Material 69 75	FecoNi
+T4	Material 79 85	FeCoDy
+T5	Component 118 135	single layer film
+T6	EnergyFlow 155 187	saturation magnetic flux density
+T7	EnergyFlow 196 210	coercive force
+T8	Attribution 215 239	soft magnetic properties
+T9	Component 277 308	defined soft magnetic thin film
+T10	Component 316 351	first soft magnetic thin film layer
+T11	Component 359 390	second magnetic thin film layer
+T12	System 406 424	crystal structures
+T15	Component 432 477	first and the second soft magnetic thin films
+R1	PartOf Arg1:T1 Arg2:T2
+R2	MadeOf Arg1:T2 Arg2:T3
+R3	MadeOf Arg1:T2 Arg2:T4
+R4	Form Arg1:T1 Arg2:T5
+R5	Purpose Arg1:T5 Arg2:T6
+R6	Purpose Arg1:T5 Arg2:T7
+R7	Form Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T15 Arg2:T12
+R9	PartOf Arg1:T10 Arg2:T11

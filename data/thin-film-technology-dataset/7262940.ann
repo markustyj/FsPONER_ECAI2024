@@ -1,0 +1,56 @@
+T1	Component 3 36	separate read/write magnetic head
+T2	Component 73 94	magnetoresistive head
+T3	Component 107 128	magnetoresistive film
+T4	Component 151 163	lower shield
+T5	Component 174 186	upper shield
+T6	Component 221 230	substrate
+T7	Component 249 259	electrodes
+T8	Component 293 314	magnetoresistive film
+T9	Component 326 359	inductive magnetic thin film head
+T10	Component 372 376	coil
+T11	Component 390 406	lower pole piece
+T12	Component 417 433	upper pole piece
+T13	Component 472 484	upper shield
+T14	Component 495 516	magnetoresistive head
+T15	Component 527 542	separation film
+T16	Component 591 608	magnetic gap film
+T17	Component 619 645	interlayer insulating film
+T18	Component 676 693	read head element
+T19	Component 705 724	air bearing surface
+T20	Function 732 748	heat deformation
+T21	Measure 770 789	ambient temperature
+T22	Component 825 837	lower shield
+T23	Component 849 861	upper shield
+T24	Value 905 914	0.4 .mu.m
+T26	Shape 650 668	Reduced protrusion
+T27	Function 759 766	changes
+T28	Value 877 880	sum
+T29	Attribution 890 901	thicknesses
+T25	Value 937 946	3.4 .mu.m
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R5	Spatial Arg1:T4 Arg2:T6
+R6	Spatial Arg1:T5 Arg2:T6
+R7	Spatial Arg1:T7 Arg2:T8
+R8	PartOf Arg1:T1 Arg2:T7
+R9	PartOf Arg1:T1 Arg2:T9
+R10	PartOf Arg1:T9 Arg2:T10
+R13	PartOf Arg1:T14 Arg2:T13
+R14	Causitive Arg1:T10 Arg2:T16
+R15	Causitive Arg1:T10 Arg2:T17
+R11	Spatial Arg1:T11 Arg2:T12
+R3	Spatial Arg1:T4 Arg2:T5
+R4	Attr Arg1:T18 Arg2:T26
+R17	Attr Arg1:T29 Arg2:T28
+R18	Measurement Arg1:T28 Arg2:T24
+R19	Measurement Arg1:T28 Arg2:T25
+R20	Spatial Arg1:T12 Arg2:T13
+R21	Spatial Arg1:T11 Arg2:T13
+R22	Spatial Arg1:T18 Arg2:T19
+R23	Causitive Arg1:T26 Arg2:T22
+R24	Causitive Arg1:T26 Arg2:T23
+R25	Purpose Arg1:T22 Arg2:T28
+R26	Purpose Arg1:T23 Arg2:T28
+R12	Causitive Arg1:T21 Arg2:T27
+R27	Causitive Arg1:T27 Arg2:T20
+R16	Oper Arg1:T20 Arg2:T18

@@ -1,0 +1,63 @@
+T1	Component 2 34	narrow track width magnetic head
+T2	Function 58 86	integrated circuit formation
+T3	Function 106 125	evaporation plating
+T4	Function 127 143	chemical etching
+T5	Component 219 229	center tap
+T6	System 235 281	conventional thin film magnetic head structure
+T7	Component 292 297	coils
+T8	Component 314 319	turns
+T9	Component 323 336	magnetic head
+T10	Component 385 389	coil
+T11	Component 423 433	center tap
+T12	EnergyFlow 439 464	electrostatic capacitance
+T13	Location 473 480	section
+T14	Component 515 519	coil
+T15	Shape 541 556	precise pattern
+T16	Function 570 592	photoetching technique
+T17	Component 617 633	conductive films
+T18	Component 685 698	magnetic core
+T19	Component 727 743	conductive films
+T20	Component 769 787	alternating layers
+T21	Component 795 811	conductive films
+T22	Shape 847 859	magnetic gap
+T23	Component 895 899	coil
+T24	Component 903 913	center tap
+T25	Location 932 950	connection portion
+T26	Component 978 982	coil
+T27	Location 989 1002	coil terminal
+T28	Location 1030 1048	opposite free ends
+T29	Component 1056 1060	coil
+T30	Component 1072 1095	thin film magnetic head
+T31	Component 1105 1120	multi-turn coil
+T32	Component 1128 1138	center tap
+T33	Location 407 415	sections
+T34	Shape 751 763	same pattern
+T35	Location 879 887	sections
+T36	Location 962 970	sections
+T37	Component 705 708	set
+R1	InstanceOf Arg1:T3 Arg2:T2
+R2	InstanceOf Arg1:T4 Arg2:T2
+R3	Oper Arg1:T2 Arg2:T1
+R4	PartOf Arg1:T6 Arg2:T7
+R5	PartOf Arg1:T7 Arg2:T8
+R6	PartOf Arg1:T6 Arg2:T5
+R7	PartOf Arg1:T9 Arg2:T10
+R8	Causitive Arg1:T10 Arg2:T33
+R9	Causitive Arg1:T11 Arg2:T10
+R10	Attr Arg1:T13 Arg2:T12
+R11	Form Arg1:T14 Arg2:T15
+R12	Oper Arg1:T16 Arg2:T14
+R13	Causitive Arg1:T17 Arg2:T18
+R14	PartOf Arg1:T37 Arg2:T19
+R15	Attr Arg1:T19 Arg2:T34
+R16	Attr Arg1:T21 Arg2:T20
+R17	Spatial Arg1:T20 Arg2:T22
+R18	Causitive Arg1:T22 Arg2:T35
+R19	PartOf Arg1:T23 Arg2:T35
+R20	Spatial Arg1:T24 Arg2:T25
+R21	PartOf Arg1:T26 Arg2:T36
+R22	PartOf Arg1:T36 Arg2:T25
+R23	Spatial Arg1:T27 Arg2:T28
+R24	PartOf Arg1:T29 Arg2:T28
+R25	PartOf Arg1:T30 Arg2:T31
+R26	PartOf Arg1:T31 Arg2:T32

@@ -1,0 +1,29 @@
+T1	Component 3 10	MR head
+T2	Component 37 47	MR element
+T3	Component 68 86	sapphire substrate
+T4	ScientificConcept 94 133	particular crystallographic orientation
+T5	Component 140 162	sapphire closure piece
+T6	ScientificConcept 177 216	particular crystallographic orientation
+T7	Component 230 239	substrate
+T8	Component 248 258	MR element
+T9	Location 299 311	{ 1120 } plane
+T10	Component 321 333	{ 1100 } plane
+T11	Attribution 356 368	wear surface
+T12	Component 374 387	closure piece
+T13	Material 441 452	MR material
+T14	Location 461 473	{ 1100 } plane
+T15	Attribution 490 502	wear surface
+T16	Component 468 473	plane
+T17	Component 306 311	plane
+T18	Component 328 333	plane
+T19	Component 424 429	plane
+R1	Spatial Arg1:T2 Arg2:T3
+R2	Attr Arg1:T3 Arg2:T4
+R3	Attr Arg1:T5 Arg2:T6
+R5	PartOf Arg1:T7 Arg2:T8
+R6	Spatial Arg1:T8 Arg2:T17
+R7	InstanceOf Arg1:T18 Arg2:T11
+R8	PartOf Arg1:T12 Arg2:T19
+R9	Spatial Arg1:T19 Arg2:T13
+R10	InstanceOf Arg1:T16 Arg2:T15
+R11	PartOf Arg1:T12 Arg2:T16

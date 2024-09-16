@@ -1,0 +1,25 @@
+T1	Component 3 18	insulating film
+T7	ScientificConcept 191 217	low reemission coefficient
+T8	Component 236 266	substantially continuous layer
+T9	Component 270 295	insulative amorphous film
+T10	Component 318 327	substrate
+T11	ScientificConcept 344 366	reemission coefficient
+T12	ScientificConcept 395 421	low reemission coefficient
+T13	Value 431 435	0.25
+T14	ScientificConcept 442 458	high coefficient
+T15	Value 468 472	0.7.
+T2	Attribution 43 65	surface irregularities
+T16	EnergyFlow 69 76	RF bias
+T4	Function 145 166	Controlled sputtering
+T5	Value 372 391	second higher level
+T3	Material 94 116	smooth polycrystalline
+T6	Attribution 120 143	micro-roughened surface
+R1	Attr Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T16 Arg2:T3
+R3	Spatial Arg1:T16 Arg2:T6
+R4	Manner Arg1:T7 Arg2:T4
+R5	Attr Arg1:T9 Arg2:T8
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Causitive Arg1:T11 Arg2:T5
+R8	Measurement Arg1:T12 Arg2:T13
+R9	Measurement Arg1:T14 Arg2:T15

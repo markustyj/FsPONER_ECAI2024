@@ -1,0 +1,49 @@
+T1	Component 2 22	first magnetic layer
+T2	Component 40 62	non-magnetic substrate
+T3	Component 66 75	gap layer
+T4	Component 95 115	first magnetic layer
+T5	Component 119 133	conductor coil
+T6	Component 150 166	insulation layer
+T7	Component 186 195	gap layer
+T8	Component 199 220	second magnetic layer
+T9	Component 240 249	gap layer
+T10	Component 258 274	insulation layer
+T11	Shape 278 290	magnetic gap
+T12	Component 316 348	first and second magnetic layers
+T13	Location 354 367	front portion
+T14	Material 377 393	recording medium
+T15	Component 403 424	second magnetic layer
+T16	Component 448 468	first magnetic layer
+T17	Location 474 486	back portion
+T18	Component 504 508	mask
+T19	Material 517 528	metal oxide
+T20	Component 538 559	second magnetic layer
+T21	Component 565 586	second magnetic layer
+T22	Component 592 601	gap layer
+T23	Component 611 631	first magnetic layer
+T24	Shape 650 669	predetermined shape
+T25	Location 690 701	tip portion
+T26	Function 705 716	dry etching
+T27	Component 726 766	high performance thin-film magnetic head
+T28	Attribution 778 789	same widths
+T29	Component 798 830	first and second magnetic layers
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T4
+R3	Spatial Arg1:T5 Arg2:T6
+R4	Spatial Arg1:T5 Arg2:T7
+R5	Spatial Arg1:T8 Arg2:T9
+R6	Spatial Arg1:T9 Arg2:T10
+R7	Spatial Arg1:T13 Arg2:T14
+R8	Spatial Arg1:T11 Arg2:T12
+R9	Spatial Arg1:T11 Arg2:T13
+R10	Spatial Arg1:T15 Arg2:T16
+R11	Spatial Arg1:T16 Arg2:T17
+R12	MadeOf Arg1:T18 Arg2:T19
+R13	Spatial Arg1:T18 Arg2:T20
+R14	Attr Arg1:T27 Arg2:T28
+R15	Attr Arg1:T29 Arg2:T28
+R16	Purpose Arg1:T21 Arg2:T24
+R17	Purpose Arg1:T22 Arg2:T24
+R18	Purpose Arg1:T23 Arg2:T24
+R19	Oper Arg1:T26 Arg2:T18
+R20	Spatial Arg1:T18 Arg2:T25

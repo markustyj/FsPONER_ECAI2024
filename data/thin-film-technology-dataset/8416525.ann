@@ -1,0 +1,38 @@
+T1	Material 24 38	magnetic media
+T2	Component 61 105	integrated thin film magnetic recording head
+T3	Component 115 132	recording element
+T4	Component 138 155	recording element
+T9	System 295 344	integrated electrically conductive coil structure
+T10	Component 376 389	subgap member
+T11	Component 417 449	first and second subpole members
+T12	Component 455 472	recording element
+T14	Component 555 575	first subpole member
+T15	Component 583 604	second subpole member
+T17	Location 669 678	direction
+T19	Component 701 739	magnetically permeable thin film layer
+T20	Location 775 784	direction
+T21	Attribution 788 804	thin film growth
+T24	Material 907 921	magnetic media
+T25	Component 931 954	magnetic recording head
+T26	Material 969 983	magnetic media
+T5	Component 165 230	first and second magnetically permeable thin film subpole members
+T6	Component 246 290	substantially low permeability subgap member
+T7	Component 489 527	magnetically permeable thin film layer
+T8	Attribution 682 693	film growth
+T13	Component 812 877	first and second magnetically permeable thin film subpole members
+T16	Function 631 663	arbitrary recording gap patterns
+R1	PartOf Arg1:T2 Arg2:T3
+R2	PartOf Arg1:T4 Arg2:T5
+R3	Causitive Arg1:T6 Arg2:T5
+R4	PartOf Arg1:T10 Arg2:T9
+R5	Spatial Arg1:T9 Arg2:T11
+R6	PartOf Arg1:T12 Arg2:T7
+R7	Attr Arg1:T8 Arg2:T17
+R8	Attr Arg1:T19 Arg2:T8
+R9	Spatial Arg1:T8 Arg2:T21
+R10	Attr Arg1:T21 Arg2:T20
+R11	Attr Arg1:T13 Arg2:T21
+R12	Spatial Arg1:T24 Arg2:T25
+R13	Spatial Arg1:T7 Arg2:T14
+R14	Spatial Arg1:T7 Arg2:T15
+R15	PartOf Arg1:T7 Arg2:T16

@@ -1,0 +1,28 @@
+T2	System 57 72	VGMR structures
+T4	Function 209 223	magnetizations
+T5	Component 258 265	sensors
+T7	Component 441 457	permanent magnet
+T1	Component 2 40	Vertical Giant Magnetoresistive Sensor
+T10	Component 42 46	VGMR
+T11	EnergyFlow 121 144	external magnetic field
+T3	InfoFlow 158 177	differential signal
+T12	EnergyFlow 198 203	field
+T6	Function 297 323	antiparallel magnetization
+T13	System 410 430	additional structure
+T8	EnergyFlow 461 474	current strip
+T9	System 492 507	VGMR structures
+T14	EnergyFlow 352 373	magnetic compositions
+T15	System 385 395	structures
+R1	Alias Arg1:T1 Arg2:T10
+R2	PartOf Arg1:T1 Arg2:T2
+R4	Attr Arg1:T5 Arg2:T4
+R5	PartOf Arg1:T15 Arg2:T14
+R6	InstanceOf Arg1:T7 Arg2:T13
+R7	InstanceOf Arg1:T8 Arg2:T13
+R8	Causitive Arg1:T6 Arg2:T14
+R9	Causitive Arg1:T6 Arg2:T13
+#1	AnnotatorNotes R8	通过...实现 标makemove还是operation还是purpose，通过A实现B，A-makemove-》B
+R3	Others Arg1:T2 Arg2:T11
+R10	Generate Arg1:T2 Arg2:T3
+R11	Others Arg1:T3 Arg2:T12
+#2	AnnotatorNotes R9	和第一个makemove同理

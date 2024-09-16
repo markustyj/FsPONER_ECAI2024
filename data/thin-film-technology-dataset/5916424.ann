@@ -1,0 +1,36 @@
+T1	Component 0 34	Thin-film magnetic recording heads
+T2	System 155 183	focused particle beam system
+T3	Component 200 227	pattern recognition element
+T4	Component 249 276	pattern recognition element
+T6	Component 335 349	recording head
+T7	Component 369 378	processor
+T8	InfoFlow 391 410	instruction signals
+T9	Component 425 446	focused particle beam
+T10	Location 457 474	selected portions
+T11	Component 482 496	recording head
+T12	System 519 536	pole-tip assembly
+T13	Component 544 558	recording head
+T14	System 564 592	focused particle beam system
+T15	Component 604 628	precision milling device
+T17	Component 696 710	recording head
+T18	Shape 733 741	geometry
+T20	Shape 788 798	geometries
+T21	Attribution 809 827	contoured surfaces
+T16	InfoFlow 649 671	coordinate information
+T5	Shape 302 329	pole-tip assembly footprint
+T19	Shape 749 776	pole-tip assembly footprint
+R1	PartOf Arg1:T2 Arg2:T3
+R2	Causitive Arg1:T3 Arg2:T4
+R3	Causitive Arg1:T4 Arg2:T5
+R4	Attr Arg1:T6 Arg2:T5
+R5	Generate Arg1:T7 Arg2:T8
+R6	Causitive Arg1:T8 Arg2:T9
+R7	Causitive Arg1:T9 Arg2:T10
+R8	PartOf Arg1:T11 Arg2:T10
+R9	PartOf Arg1:T13 Arg2:T12
+R10	PartOf Arg1:T14 Arg2:T15
+R11	Causitive Arg1:T15 Arg2:T16
+R12	Causitive Arg1:T16 Arg2:T17
+R13	Attr Arg1:T19 Arg2:T18
+R14	Attr Arg1:T20 Arg2:T21
+R15	PartOf Arg1:T19 Arg2:T20

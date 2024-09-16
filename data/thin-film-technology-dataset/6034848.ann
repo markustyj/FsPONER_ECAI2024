@@ -1,0 +1,66 @@
+T1	Component 15 45	merged thin film magnetic head
+T2	Component 55 73	first shield layer
+T6	Component 167 178	read sensor
+T7	Location 199 214	pole tip region
+T8	Component 220 270	combined second shield and bottom pole piece layer
+T10	Component 305 323	first shield layer
+T11	Location 331 343	pole tip end
+T12	Location 351 362	yoke region
+T13	Component 376 387	read sensor
+T14	Component 438 456	first shield layer
+T15	Location 464 479	back gap region
+T16	Shape 483 500	patterned opening
+T17	Component 520 570	combined second shield and bottom pole piece layer
+T19	Location 578 589	yoke region
+T20	Component 612 630	first shield layer
+T21	Attribution 642 668	flat planarization surface
+T22	Component 693 722	stacked thin film coil layers
+T23	Shape 743 760	patterned opening
+T24	Component 768 788	top pole piece layer
+T25	Component 802 816	thin film coil
+T26	Location 824 835	yoke region
+T27	Component 850 867	bottom pole piece
+T28	Location 875 890	pole tip region
+T29	Component 903 911	pole tip
+T30	Shape 916 919	gap
+T31	Component 946 963	bottom pole piece
+T32	Location 971 986	back gap region
+T33	Shape 992 1009	patterned opening
+T34	Component 1028 1046	first shield layer
+T35	Function 1058 1067	provision
+T36	Component 1073 1089	multi-layer coil
+T37	Effect 1110 1121	low profile
+T38	Component 1129 1133	head
+T5	Component 145 153	sandwich
+R1	PartOf Arg1:T1 Arg2:T2
+R5	Attr Arg1:T12 Arg2:T11
+R4	Causitive Arg1:T8 Arg2:T10
+R7	Spatial Arg1:T12 Arg2:T13
+R8	Manner Arg1:T11 Arg2:T10
+R11	Manner Arg1:T15 Arg2:T14
+R12	Causitive Arg1:T8 Arg2:T14
+R14	PartOf Arg1:T17 Arg2:T16
+R19	Causitive Arg1:T16 Arg2:T20
+R20	Form Arg1:T16 Arg2:T21
+R21	Manner Arg1:T19 Arg2:T16
+R22	PartOf Arg1:T23 Arg2:T22
+R23	Causitive Arg1:T33 Arg2:T34
+R24	Oper Arg1:T35 Arg2:T36
+R25	Causitive Arg1:T24 Arg2:T25
+R26	Manner Arg1:T26 Arg2:T25
+R27	Causitive Arg1:T24 Arg2:T27
+R28	Manner Arg1:T28 Arg2:T27
+R29	Causitive Arg1:T24 Arg2:T31
+R30	Manner Arg1:T32 Arg2:T31
+R31	Purpose Arg1:T38 Arg2:T37
+#1	AnnotatorNotes R25	overlay，叠加，用spatial更合适一些
+#2	AnnotatorNotes R27	spatial
+#3	AnnotatorNotes R29	spatial
+T3	Component 80 130	combined second shield and bottom pole piece layer
+R2	Manner Arg1:T5 Arg2:T3
+R3	PartOf Arg1:T1 Arg2:T3
+R6	Manner Arg1:T7 Arg2:T2
+R9	Manner Arg1:T7 Arg2:T3
+R13	Causitive Arg1:T2 Arg2:T6
+R10	Causitive Arg1:T6 Arg2:T3
+R15	Manner Arg1:T5 Arg2:T2

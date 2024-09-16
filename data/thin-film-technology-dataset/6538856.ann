@@ -1,0 +1,50 @@
+T2	Component 58 75	spin valve sensor
+T5	EnergyFlow 167 180	sense current
+T7	Component 267 273	layers
+T8	Component 281 298	spin valve sensor
+T10	Component 337 355	first shield layer
+T14	Component 471 488	spin valve sensor
+T16	Attribution 32 36	edge
+T1	Component 42 52	free layer
+T3	EnergyFlow 93 106	sense current
+T17	Attribution 123 129	planes
+T4	Attribution 137 150	film surfaces
+T6	Attribution 229 242	film surfaces
+T9	Component 304 321	second lead layer
+T18	Component 363 372	read head
+T11	EnergyFlow 396 409	sense current
+T12	Attribution 426 439	film surfaces
+T13	Component 447 457	free layer
+T15	Effect 494 515	sufficient resistance
+T19	InfoFlow 576 592	playback signals
+T20	Component 2 12	first lead
+T21	Attribution 215 221	planes
+T22	Component 250 259	remainder
+T23	Function 378 388	conduction
+R1	Attr Arg1:T1 Arg2:T16
+R2	Spatial Arg1:T20 Arg2:T16
+R3	PartOf Arg1:T2 Arg2:T1
+R4	Purpose Arg1:T20 Arg2:T3
+R5	Attr Arg1:T4 Arg2:T17
+R6	Spatial Arg1:T3 Arg2:T17
+R7	Attr Arg1:T6 Arg2:T21
+R8	Attr Arg1:T22 Arg2:T6
+R9	PartOf Arg1:T7 Arg2:T22
+R10	PartOf Arg1:T8 Arg2:T7
+R11	PartOf Arg1:T18 Arg2:T10
+R12	Manner Arg1:T5 Arg2:T21
+R13	Causitive Arg1:T3 Arg2:T9
+#1	AnnotatorNotes R13	电流传导至第二层  和电流穿过线圈 属于同一种情况吗？我这里算一种处理成makemove了，答：按照manner处理吧
+R14	Attr Arg1:T13 Arg2:T12
+R15	Spatial Arg1:T11 Arg2:T12
+R16	PartOf Arg1:T14 Arg2:T15
+R17	Attr Arg1:T11 Arg2:T23
+R18	Causitive Arg1:T23 Arg2:T14
+T24	EnergyFlow 532 552	processing circuitry
+R19	Generate Arg1:T24 Arg2:T19
+R20	Purpose Arg1:T23 Arg2:T24
+#2	AnnotatorNotes R12	关系的方向反了
+R21	Form Arg1:T9 Arg2:T10
+#3	AnnotatorNotes R21	充当，form关系
+#4	AnnotatorNotes R16	attr更合适一些，感应器的电阻
+#5	AnnotatorNotes R18	传导性为自旋阀感应器提供了足够的电阻，purpose更合适一些，makemove主要指实体之间的驱动关系

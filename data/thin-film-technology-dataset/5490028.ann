@@ -1,0 +1,58 @@
+T1	Component 2 25	thin film magnetic head
+T2	Component 45 54	substrate
+T3	Component 71 89	lower shield layer
+T5	Component 127 140	magnetic yoke
+T6	Component 160 178	lower shield layer
+T7	Component 193 197	yoke
+T8	Component 232 245	magnetic yoke
+T9	Component 267 285	lower shield layer
+T10	Component 292 308	insulative layer
+T14	Component 472 492	lower magnetic layer
+T17	Component 584 602	lower shield layer
+T20	Component 689 700	side shield
+T22	Component 779 798	insulative pedestal
+T23	Component 828 838	side poles
+T25	Component 909 936	first and second side poles
+T26	Material 963 984	non-magnetic material
+T27	Component 97 106	substrate
+T4	Component 110 121	lower layer
+T28	Component 205 211	shield
+T11	Component 345 381	first and second magnetic side poles
+T12	Component 500 504	yoke
+T15	System 508 529	side shield structure
+T16	System 615 643	resultant side pole structur
+T18	Component 648 660	shield cover
+T19	Location 678 681	top
+T21	System 730 749	side pole structure
+T29	Location 949 959	gap region
+T30	Location 897 901	tops
+T31	Shape 764 771	opening
+T32	Location 816 820	tops
+T24	Component 847 878	First and second magnetic poles
+T13	Function 425 443	plating operations
+T33	Location 462 466	ends
+T34	Location 567 576	periphery
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T27
+R3	Causitive Arg1:T1 Arg2:T3
+R4	PartOf Arg1:T5 Arg2:T4
+R5	Spatial Arg1:T4 Arg2:T6
+R6	Purpose Arg1:T4 Arg2:T7
+R7	Causitive Arg1:T7 Arg2:T28
+R8	Causitive Arg1:T10 Arg2:T8
+R9	Attr Arg1:T20 Arg2:T19
+R10	Spatial Arg1:T18 Arg2:T19
+R11	Attr Arg1:T23 Arg2:T32
+R12	Oper Arg1:T13 Arg2:T11
+R13	Spatial Arg1:T11 Arg2:T33
+R14	Attr Arg1:T14 Arg2:T33
+R15	PartOf Arg1:T12 Arg2:T14
+R16	Spatial Arg1:T15 Arg2:T34
+R17	Attr Arg1:T17 Arg2:T34
+R18	Purpose Arg1:T15 Arg2:T16
+R19	Purpose Arg1:T18 Arg2:T21
+R20	Attr Arg1:T25 Arg2:T30
+R21	PartOf Arg1:T26 Arg2:T29
+R22	Spatial Arg1:T24 Arg2:T30
+R23	Purpose Arg1:T31 Arg2:T22
+R24	Causitive Arg1:T18 Arg2:T31

@@ -1,0 +1,23 @@
+T1	Component 2 20	magnetic converter
+T2	Component 30 54	magnetoresistive element
+T3	EnergyFlow 60 70	resistance
+T4	EnergyFlow 107 126	alternating current
+T5	Measure 136 145	frequency
+T6	Value 167 179	8.rho.//..mu.D
+T7	EnergyFlow 200 211	resistivity
+T8	EnergyFlow 222 243	magnetic permeability
+T9	Location 254 267	cross-section
+T10	Component 275 282	element
+T11	Function 295 315	current distribution
+T12	Attribution 339 344	edges
+T13	Component 352 359	element
+T14	EnergyFlow 371 400	resultant lateral skin effect
+T15	Value 167 179	8.rho./.mu.D
+R1	PartOf Arg1:T1 Arg2:T2
+R2	Attr Arg1:T4 Arg2:T5
+R3	Measurement Arg1:T5 Arg2:T15
+R4	Causitive Arg1:T3 Arg2:T4
+R5	Attr Arg1:T2 Arg2:T3
+R6	Attr Arg1:T13 Arg2:T12
+R7	Spatial Arg1:T11 Arg2:T12
+R8	Attr Arg1:T10 Arg2:T9

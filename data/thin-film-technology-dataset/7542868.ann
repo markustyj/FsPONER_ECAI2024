@@ -1,0 +1,24 @@
+T1	System 23 43	head gimbal assembly
+T2	Component 49 53	disc
+T3	System 76 106	unmounted head gimbal assembly
+T5	Component 160 171	fixed plate
+T6	Component 175 186	pivot plate
+T7	Component 226 237	fixed plate
+T8	Component 245 256	pivot plate
+T10	System 303 332	attached head gimbal assembly
+T11	Attribution 344 351	surface
+T12	Component 359 363	disc
+T13	Component 112 127	four bar loader
+T14	Component 133 148	four bar loader
+T4	Component 194 210	four bar linkage
+T15	Component 262 277	four bar loader
+R1	Spatial Arg1:T1 Arg2:T2
+R2	Spatial Arg1:T3 Arg2:T13
+R3	PartOf Arg1:T14 Arg2:T5
+R4	PartOf Arg1:T14 Arg2:T6
+R5	PartOf Arg1:T14 Arg2:T4
+R6	Spatial Arg1:T7 Arg2:T8
+R7	Causitive Arg1:T4 Arg2:T7
+R8	Purpose Arg1:T15 Arg2:T10
+R9	Attr Arg1:T12 Arg2:T11
+R10	Manner Arg1:T11 Arg2:T10

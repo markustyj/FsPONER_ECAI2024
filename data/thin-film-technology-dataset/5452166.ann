@@ -1,0 +1,69 @@
+T3	System 57 74	pole tip assembly
+T4	System 152 169	pole tip assembly
+T5	System 258 275	pole tip assembly
+T6	ScientificConcept 306 324	feature tolerances
+T8	System 406 423	pole tip assembly
+T9	Shape 430 463	generally hexagonal configuration
+T12	Shape 577 605	surrounding hexagonal trench
+T14	Attribution 707 723	surrounding face
+T16	Component 932 955	improved recording head
+T17	Component 1002 1006	head
+T18	Function 1043 1054	ion milling
+T19	Component 1071 1075	head
+T21	Function 1153 1164	ion milling
+T22	Component 3 45	improved thin film magnetic recording head
+T1	Shape 87 121	precisely formed physical geometry
+T2	Shape 127 144	physical geometry
+T23	Effect 180 199	deleterious effects
+T24	Function 207 218	undershoots
+T25	Function 287 302	precise control
+T26	ScientificConcept 332 355	0.2 micrometer accuracy
+T7	System 364 381	pole tip assembly
+T27	Location 551 569	raised gap portion
+T10	Location 471 502	raised hexagonal center portion
+T28	Component 514 544	leading and trailing pole tips
+T11	Location 626 647	raised center portion
+T29	Location 653 674	raised center portion
+T13	Component 731 745	recording head
+T30	Location 783 828	elliptical or circular raised center portions
+T31	Shape 834 859	variously shaped trenches
+T15	Function 878 888	evacuation
+T32	Component 892 898	debris
+T33	Function 978 985	lapping
+T34	Attribution 990 994	face
+T35	Component 1018 1037	air bearing surface
+T36	Attribution 1059 1063	face
+T37	Effect 1088 1104	desired features
+T38	Component 1124 1146	pole tip configuration
+T20	Measure 1188 1193	depth
+T40	Function 1234 1249	precise control
+T41	ScientificConcept 1257 1275	feature tolerances
+T42	Value 1207 1220	2 micrometers
+R1	PartOf Arg1:T22 Arg2:T3
+R2	Attr Arg1:T3 Arg2:T1
+R3	Attr Arg1:T4 Arg2:T2
+R4	Causitive Arg1:T2 Arg2:T23
+R5	Purpose Arg1:T24 Arg2:T23
+R6	Attr Arg1:T7 Arg2:T6
+R7	Causitive Arg1:T5 Arg2:T25
+R8	Oper Arg1:T25 Arg2:T6
+R9	Attr Arg1:T8 Arg2:T9
+R10	PartOf Arg1:T9 Arg2:T10
+R11	PartOf Arg1:T10 Arg2:T28
+R12	PartOf Arg1:T10 Arg2:T27
+R13	PartOf Arg1:T9 Arg2:T12
+R14	Spatial Arg1:T12 Arg2:T11
+R15	Attr Arg1:T13 Arg2:T14
+R16	Spatial Arg1:T29 Arg2:T14
+R17	Purpose Arg1:T31 Arg2:T15
+R18	Oper Arg1:T15 Arg2:T32
+R19	Attr Arg1:T17 Arg2:T34
+R20	Oper Arg1:T33 Arg2:T34
+R21	Form Arg1:T34 Arg2:T35
+R22	Oper Arg1:T18 Arg2:T36
+R23	Attr Arg1:T19 Arg2:T36
+R24	Form Arg1:T36 Arg2:T37
+R25	Measurement Arg1:T20 Arg2:T42
+R26	Causitive Arg1:T20 Arg2:T40
+R27	Oper Arg1:T40 Arg2:T41
+R28	Measurement Arg1:T6 Arg2:T26

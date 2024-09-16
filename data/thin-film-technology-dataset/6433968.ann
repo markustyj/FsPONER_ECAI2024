@@ -1,0 +1,50 @@
+T1	Component 2 34	merged thin film read/write head
+T2	Component 44 56	read element
+T3	Component 66 84	first shield layer
+T4	Component 88 107	second shield layer
+T5	Component 114 138	magnetoresistive element
+T6	Component 160 190	first and second shield layers
+T7	Component 194 211	thin spacer layer
+T8	Material 215 235	nonmagnetic material
+T9	Component 252 271	second shield layer
+T10	Component 279 302	inductive write element
+T11	Component 312 331	first pole pedestal
+T12	Component 348 360	spacer layer
+T13	EnergyFlow 367 378	second pole
+T14	Component 398 406	pedestal
+T15	Shape 412 415	gap
+T16	Component 421 429	pedestal
+T17	Location 441 456	tapered portion
+T18	Function 474 483	formation
+T19	EnergyFlow 487 510	pinned magnetic domains
+T20	Component 518 526	pedestal
+T21	Effect 541 562	improved flux passage
+T22	Component 588 617	thin nonmagnetic spacer layer
+T23	Attribution 623 638	tapered feature
+T24	Component 646 654	pedestal
+T25	ScientificConcept 666 679	popcorn noise
+T26	Component 687 699	read element
+T27	Function 567 578	combination
+R1	PartOf Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T2 Arg2:T3
+R3	PartOf Arg1:T2 Arg2:T4
+R4	PartOf Arg1:T2 Arg2:T5
+R5	Spatial Arg1:T5 Arg2:T6
+R6	PartOf Arg1:T2 Arg2:T7
+R7	MadeOf Arg1:T7 Arg2:T8
+R8	Spatial Arg1:T7 Arg2:T9
+R9	PartOf Arg1:T2 Arg2:T10
+R10	PartOf Arg1:T10 Arg2:T11
+R11	Spatial Arg1:T11 Arg2:T12
+R12	Spatial Arg1:T11 Arg2:T13
+R13	Spatial Arg1:T13 Arg2:T14
+R14	Manner Arg1:T15 Arg2:T13
+R15	PartOf Arg1:T16 Arg2:T17
+R16	Oper Arg1:T18 Arg2:T19
+R17	Purpose Arg1:T17 Arg2:T18
+R18	PartOf Arg1:T20 Arg2:T19
+R19	Purpose Arg1:T17 Arg2:T21
+R20	Oper Arg1:T27 Arg2:T22
+R21	Attr Arg1:T24 Arg2:T23
+R22	Causitive Arg1:T23 Arg2:T25
+R23	PartOf Arg1:T26 Arg2:T25

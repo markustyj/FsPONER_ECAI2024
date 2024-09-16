@@ -1,0 +1,67 @@
+T1	System 2 33	contact magnetic storage system
+T3	Material 219 234	slider material
+T4	Component 356 362	slider
+T6	Measure 484 499	operating speed
+T7	Component 504 510	slider
+T8	Material 550 564	storage medium
+T13	Component 879 885	slider
+T14	Attribution 906 928	storage medium surface
+T15	Component 978 984	slider
+T16	Material 130 159	rigid magnetic storage medium
+T2	Function 167 183	system operation
+T17	Measure 189 213	selected operating speed
+T18	Attribution 241 276	load versus friction characteristic
+T19	Location 303 323	negative load region
+T20	Component 387 397	access arm
+T5	State 403 436	zero or negative external loading
+T21	System 443 479	conventional magnetic storage system
+T22	Attribution 535 542	surface
+T23	Attribution 581 590	thickness
+T24	Component 598 606	air film
+T9	Attribution 620 649	moving storage medium surface
+T10	Attribution 688 703	non-linear load
+T25	Attribution 711 735	friction characteristics
+T26	Material 743 758	slider material
+T11	Effect 762 777	restoring force
+T27	Measure 794 816	system operating speed
+T12	Component 849 860	air bearing
+T28	ScientificConcept 837 841	lift
+T29	Material 992 1006	storage medium
+T30	Effect 937 953	substantial wear
+T31	Effect 957 963	damage
+T33	System 1111 1142	contact magnetic storage system
+T34	Component 74 98	magnetic read/write head
+T35	Component 47 53	slider
+T36	Function 106 122	physical contact
+T37	Material 1008 1076	Various single crystal, polycrystalline and some amorphous materials
+R1	PartOf Arg1:T1 Arg2:T35
+R2	Purpose Arg1:T35 Arg2:T36
+R3	Oper Arg1:T36 Arg2:T34
+R4	Spatial Arg1:T34 Arg2:T16
+R5	Manner Arg1:T17 Arg2:T2
+R6	Oper Arg1:T2 Arg2:T1
+R7	Attr Arg1:T3 Arg2:T18
+R8	Manner Arg1:T19 Arg2:T3
+R9	Spatial Arg1:T4 Arg2:T20
+R10	Manner Arg1:T5 Arg2:T4
+R11	Attr Arg1:T8 Arg2:T22
+R12	Attr Arg1:T24 Arg2:T23
+R13	Spatial Arg1:T24 Arg2:T9
+R14	Spatial Arg1:T7 Arg2:T22
+R15	Manner Arg1:T23 Arg2:T7
+R16	PartOf Arg1:T21 Arg2:T7
+R17	Attr Arg1:T21 Arg2:T6
+R18	Attr Arg1:T26 Arg2:T25
+R19	Attr Arg1:T26 Arg2:T10
+R20	Attr Arg1:T12 Arg2:T28
+R21	Purpose Arg1:T10 Arg2:T11
+R22	Purpose Arg1:T25 Arg2:T11
+R23	Manner Arg1:T27 Arg2:T11
+R24	Purpose Arg1:T11 Arg2:T28
+R25	Spatial Arg1:T13 Arg2:T14
+R26	Purpose Arg1:T11 Arg2:T13
+R27	Oper Arg1:T31 Arg2:T15
+R28	Oper Arg1:T31 Arg2:T29
+R29	Oper Arg1:T30 Arg2:T15
+R30	Oper Arg1:T30 Arg2:T29
+R31	Purpose Arg1:T37 Arg2:T33

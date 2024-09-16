@@ -1,0 +1,35 @@
+T1	Component 15 38	thin film magnetic head
+T2	Effect 46 80	superior overwrite characteristics
+T3	Attribution 101 129	locally minimized pole width
+T4	Component 172 185	top pole chip
+T5	Component 198 217	first magnetic film
+T6	Location 228 245	top layer portion
+T7	Component 253 266	top pole chip
+T8	Component 274 294	second magnetic film
+T9	Location 305 325	bottom layer portion
+T10	Component 333 346	top pole chip
+T11	Component 357 388	first and second magnetic films
+T12	Material 403 420	magnetic material
+T13	Effect 430 456	high magnetic flux density
+T14	Value 460 469	1.5 tesla
+T15	Attribution 493 503	pole width
+T17	Value 534 543	0.3 .mu.m
+T18	Function 557 567	saturation
+T19	EnergyFlow 571 584	magnetic flux
+T20	Component 592 605	top pole chip
+T21	Effect 638 672	superior overwrite characteristics
+T22	Function 146 159	manufacturing
+R1	Attr Arg1:T1 Arg2:T2
+R2	Attr Arg1:T1 Arg2:T3
+R3	PartOf Arg1:T4 Arg2:T5
+R4	PartOf Arg1:T7 Arg2:T6
+R5	PartOf Arg1:T4 Arg2:T8
+R6	PartOf Arg1:T10 Arg2:T9
+R7	MadeOf Arg1:T11 Arg2:T12
+R8	Attr Arg1:T12 Arg2:T13
+R9	Measurement Arg1:T13 Arg2:T14
+R10	Oper Arg1:T18 Arg2:T19
+R11	Spatial Arg1:T19 Arg2:T20
+R12	Measurement Arg1:T15 Arg2:T17
+R13	InstanceOf Arg1:T5 Arg2:T6
+R14	InstanceOf Arg1:T8 Arg2:T9

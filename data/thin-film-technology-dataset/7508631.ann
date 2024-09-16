@@ -1,0 +1,66 @@
+T1	System 6 26	magnetic disk device
+T2	Effect 28 42	cost reduction
+T3	Effect 86 94	increase
+T4	ScientificConcept 98 115	recording density
+T5	Effect 120 128	increase
+T6	ScientificConcept 132 140	capacity
+T7	System 148 154	device
+T8	Effect 158 172	size reduction
+T9	ScientificConcept 191 202	reliability
+T10	System 239 259	magnetic disk device
+T11	Component 266 279	magnetic disk
+T12	Component 302 322	magnetic head slider
+T13	Attribution 356 363	surface
+T14	Component 371 384	magnetic disk
+T15	Component 392 406	driving device
+T16	Component 422 442	magnetic head slider
+T17	Location 448 464	radial direction
+T18	Attribution 472 479	surface
+T19	Component 487 500	magnetic disk
+T20	Component 506 526	magnetic head slider
+T21	Location 533 565	silicon slider-substrate-portion
+T22	Location 572 594	thin-film head portion
+T23	Location 618 642	slider substrate portion
+T24	Function 651 668	thin-film process
+T25	Component 682 701	air-bearing surface
+T26	Location 717 741	slider substrate portion
+T27	Location 747 769	thin-film head portion
+T28	Attribution 817 824	surface
+T29	Component 832 845	magnetic disk
+T30	Component 853 876	ceramic insulation film
+T31	Material 881 888	alumina
+T33	ScientificConcept 935 946	coefficient
+T35	Location 1002 1034	silicon slider-substrate-portion
+T36	ScientificConcept 68 80	productivity
+T37	Component 774 805	recording/reproduction elements
+T38	Material 893 915	silicon-based ceramics
+T32	ScientificConcept 950 966	linear expansion
+R1	Purpose Arg1:T36 Arg2:T2
+R2	Attr Arg1:T7 Arg2:T6
+R3	Attr Arg1:T7 Arg2:T4
+R6	Purpose Arg1:T8 Arg2:T9
+R7	PartOf Arg1:T10 Arg2:T11
+R8	Attr Arg1:T14 Arg2:T13
+R9	Spatial Arg1:T13 Arg2:T12
+R10	PartOf Arg1:T10 Arg2:T12
+R11	PartOf Arg1:T10 Arg2:T15
+R12	Purpose Arg1:T15 Arg2:T16
+R13	Manner Arg1:T17 Arg2:T16
+R14	Attr Arg1:T19 Arg2:T18
+R15	Manner Arg1:T17 Arg2:T18
+R16	PartOf Arg1:T20 Arg2:T21
+R17	PartOf Arg1:T20 Arg2:T22
+R18	Spatial Arg1:T22 Arg2:T23
+R19	Oper Arg1:T24 Arg2:T22
+R20	Form Arg1:T22 Arg2:T25
+R21	Form Arg1:T26 Arg2:T25
+R22	PartOf Arg1:T27 Arg2:T37
+R23	Attr Arg1:T29 Arg2:T28
+R24	Spatial Arg1:T37 Arg2:T28
+R25	PartOf Arg1:T30 Arg2:T31
+R26	PartOf Arg1:T30 Arg2:T38
+R27	Attr Arg1:T30 Arg2:T33
+R28	Attr Arg1:T32 Arg2:T33
+R29	Comparison Arg1:T35 Arg2:T30
+R4	Purpose Arg1:T4 Arg2:T3
+R5	Purpose Arg1:T5 Arg2:T4

@@ -1,0 +1,38 @@
+T1	Component 3 7	head
+T2	Component 14 29	hard disk drive
+T3	Component 35 39	head
+T4	Component 51 60	substrate
+T5	Component 64 77	write element
+T6	Component 81 93	read element
+T7	Component 100 114	heater element
+T8	Component 120 124	head
+T9	Component 141 153	buffer layer
+T10	Component 166 178	read element
+T11	Component 187 196	substrate
+T12	Component 204 218	first resistor
+T13	Component 236 250	heater element
+T14	Component 259 271	buffer layer
+T15	Component 277 289	buffer layer
+T16	Component 363 367	head
+T17	Component 377 381	disk
+T18	Component 389 394	drive
+T19	Component 294 302	resistor
+T20	EnergyFlow 313 322	impedance
+T21	ScientificConcept 339 344	noise
+R1	Purpose Arg1:T1 Arg2:T2
+R2	PartOf Arg1:T3 Arg2:T4
+R3	PartOf Arg1:T3 Arg2:T5
+R4	PartOf Arg1:T3 Arg2:T6
+R5	PartOf Arg1:T3 Arg2:T7
+R6	PartOf Arg1:T8 Arg2:T9
+R7	Spatial Arg1:T9 Arg2:T10
+R8	Spatial Arg1:T9 Arg2:T11
+R9	Spatial Arg1:T12 Arg2:T13
+R10	Spatial Arg1:T12 Arg2:T14
+R11	PartOf Arg1:T8 Arg2:T12
+R12	Generate Arg1:T15 Arg2:T20
+R13	Generate Arg1:T19 Arg2:T20
+R14	PartOf Arg1:T18 Arg2:T17
+R16	Causitive Arg1:T20 Arg2:T21
+R17	Causitive Arg1:T21 Arg2:T16
+R15	Causitive Arg1:T21 Arg2:T17
