@@ -3,9 +3,10 @@ FsPONER: Few-shot Prompt Optimization for Named Entity Recognition in Domain-spe
 
 Link to the paper: https://arxiv.org/abs/2407.08035
 
-![alt text](image.png) The optimized prompt structure.
 
-![alt text](image-1.png) The evaluation results.
+<img src=image.png alt="The optimized prompt structure." width="500" height="300">
+
+![The evaluation results.](image-1.png) 
 
 ### data 
 data/assembly_dataset, data/fabNER, data/thin-film-technology-dataset store the original data of the three industrial datasets
