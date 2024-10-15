@@ -3,7 +3,7 @@ FsPONER: Few-shot Prompt Optimization for Named Entity Recognition in Domain-spe
 
 Link to the paper: https://arxiv.org/abs/2407.08035
 
-### The optimized prompt structure.
+#### The optimized prompt structure.
 <figure>
   <div style="text-align: center;">
   <img src=prompt_structure.png alt="Description" width="420">
@@ -27,16 +27,16 @@ Please also check the clean script for few-shot selection methods (random, embed
 ### requirements
 The requirements: please see *requirements_finetune_llama2.txt* and *requirements_gpt_prompting_hf38.txt*
 
-
-#### notebooks with eva prefix are evaluation results
-#### notebooks with formal_finetune are the scripts to fine-tune LLaMA 2
-#### notebooks with get_results are the scripts to get completions from LLaMA 2-chat, Vicuna...
+### Some notes
+notebooks with **eva** prefix are evaluation results
+notebooks with **formal_finetune** are the scripts to fine-tune LLaMA 2
+notebooks with **get_results** are the scripts to get completions from LLaMA 2-chat, Vicuna...
 
 <br>
 
 ### A short overview of evaluation results
 <figure>
   <div style="text-align: center;">
-  <img src=eva_overview.png alt="Description" width="480">
+  <img src=eva_overview.png alt="Description" width="666">
   <figcaption></figcaption>
 </figure>
