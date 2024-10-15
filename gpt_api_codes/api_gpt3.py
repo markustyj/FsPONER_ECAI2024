@@ -2,18 +2,18 @@
 import os
 import openai
 
-openai.api_type = "azure"
-openai.api_base = "https://openai-aiattack-000518-eastus-01.openai.azure.com/"
-openai.api_version = "2022-12-01"
-openai.api_key =    "1f4b80860e134ab4be99a0766dbd8813" # os.getenv("OPENAI_API_KEY") #
+openai.api_type = ""
+openai.api_base = ""
+openai.api_version = ""
+openai.api_key =    "" # os.getenv("OPENAI_API_KEY") #
 
 
 def gpt_complete(prompt_text ):
     
-    openai.api_type = "azure"
-    openai.api_base = "https://openai-aiattack-000518-eastus-01.openai.azure.com/"
-    openai.api_version = "2022-12-01"
-    openai.api_key =    "1f4b80860e134ab4be99a0766dbd8813" # os.getenv("OPENAI_API_KEY") #
+    openai.api_type = ""
+    openai.api_base = ""
+    openai.api_version = ""
+    openai.api_key =    "" # os.getenv("OPENAI_API_KEY") #
     # does not have access to ChatCompletion as well
     response = openai.Completion.create(  
         engine='text-davinci-003',

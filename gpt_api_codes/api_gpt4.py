@@ -2,27 +2,19 @@
 import os
 import openai
 
-# {
-#   "deployment_name": "gpt-4-32k",
-#   "openai_api_key": "d702a80d85b64465b5c40d726d95fc88",
-#   "openai_api_base": "https://openai-aiattack-000518-canadaeast-02-smrattack.openai.azure.com/",
-#   "openai_api_version": "2023-07-01-preview"
-# }
 
-openai.api_type = "azure"
-#openai.api_base = "https://smrattack-openai-msa000898-francecentral-04.openai.azure.com/"
-openai.api_base = "https://openai-aiattack-000518-canadaeast-02-smrattack.openai.azure.com/"
-openai.api_version = "2023-07-01-preview"
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = "d702a80d85b64465b5c40d726d95fc88"
+openai.api_type = ""
+openai.api_base = ""
+openai.api_version = ""
+openai.api_key = ""
 
 
 def gpt_complete(prompt_text):
     
-    openai.api_type = "azure"
-    openai.api_base = "https://openai-aiattack-000518-canadaeast-02-smrattack.openai.azure.com/"
-    openai.api_version = "2023-07-01-preview"
-    openai.api_key = "d702a80d85b64465b5c40d726d95fc88"
+    openai.api_type = ""
+    openai.api_base = ""
+    openai.api_version = ""
+    openai.api_key = ""
 
     response = openai.ChatCompletion.create(
         #engine="gpt-4",
