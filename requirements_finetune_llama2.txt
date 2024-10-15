@@ -4,7 +4,7 @@ pip install datasets
 pip install scipy
 pip install tensorboardX
 
-# libraries for fine-tuning Salmon
+# libraries for fine-tuning Bert in Salmon (currently unavailable, please fine-tune BERT using your own code)
 pip install seqeval
 pip install scikit-learn
 
