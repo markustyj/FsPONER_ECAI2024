@@ -28,7 +28,7 @@ Please also check the clean script for few-shot selection methods (random, embed
 The requirements: please see ***requirements_finetune_llama2.txt*** and ***requirements_gpt_prompting_hf38.txt***
 
 ### Some notes
-notebooks with ***eva*** prefix are evaluation results
+notebooks with ***eva*** prefix are evaluation results --> F1 score, precision, recall
 
 notebooks with ***formal_finetune*** are the scripts to fine-tune LLaMA 2
 
