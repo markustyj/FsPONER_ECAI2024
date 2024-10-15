@@ -29,7 +29,9 @@ The requirements: please see *requirements_finetune_llama2.txt* and *requirement
 
 ### Some notes
 notebooks with **eva** prefix are evaluation results
-notebooks with **formal_finetune** are the scripts to fine-tune LLaMA 2
+
+notebooks with ***formal_finetune*** are the scripts to fine-tune LLaMA 2
+
 notebooks with **get_results** are the scripts to get completions from LLaMA 2-chat, Vicuna...
 
 <br>
