@@ -139,18 +139,7 @@ def get_prompt( fewshot_sen_one_sentence, fewshot_dem_one_sentence, num_examples
             "You are a named entity extractor in the domain of thin film head technology. The task is to label the entity types in the given sentence.\n"\
             "The optional entities include Component, Location, Function, EnergyFlow (Energy Flow), Attribution, Material, Effect, System, ScientificConcept (Scientific Concept), "\
             "Shape,  Value, InfoFlow (Information Flow), Consequence, PhysicsFlow (Physics Flow), Measure, State, AnnotatorNotes. "\
-            "\nBelow are some examples:\n\n"
-        # instruction = "Instruction:\n"\
-        #     "You are a named entity extractor in the domain of thin film head technology. The task is to label the entity types in the given sentence.\n"\
-        #     "The optional entities include: "\
-        #     "Component, Location, Function, Attribution, Material, Effect, System, Shape,  Value, Consequence, Measure, State, "\
-        #     "EnergyFlow: Energy Flow, "\
-        #     "ScientificConcept: Scientific Concept, "\
-        #     "InfoFlow: Information Flow, "\
-        #     "PhysicsFlow: Physics Flow, "\
-        #     "AnnotatorNotes: Annotation Notes. "\
-        #     "\nBelow are some examples:\n\n"
-        
+            "\nBelow are some examples:\n\n"        
     elif dataset == "fabner":
         instruction = "Instruction:\n"\
             "You are a named entity extractor in manufacturing domain. The task is to label the entity types in the given sentence.\n" \
@@ -379,25 +368,3 @@ def get_phrase_in_sentence(demonstrations_dev):
     return entity_list 
 
 
-# def fit_bow_tfidf(text_dataset_array):
-#     """
-#     Fits a BoW model and uses a TF-IDF transformer on it to compute TF-IDF scores.
-#     :param text_dataset_array: numpy array of strings, or pandas series. This means you can pass all values of a
-#     pandas data frame like this df["column_name"]
-#     :return: tuple(word count matrix, TF-IDF matrix, BoW model, TF-IDF transformer)
-#     """
-#     # Extracting features from text files
-#     # max_df = 0.50 means "ignore terms that appear in more than 50% of the documents".
-#     # min_df = 0.01 means "ignore terms that appear in less than 1% of the documents".
-#     # vectorizer = StemmedTfidfVectorizer(min_df=0.0004, max_df=0.9983, analyzer="word")
-
-#     # count_vectorizer = CountVectorizer(min_df=0.0004, max_df=0.9983, stop_words=ENGLISH_STOP_WORDS)
-#     count_vectorizer = CountVectorizer(min_df=0.0004, max_df=0.9983, stop_words=ENGLISH_STOP_WORDS)
-
-#     X_train_counts = count_vectorizer.fit_transform(text_dataset_array)
-
-#     # TF-IDF
-#     tfidf_transformer = TfidfTransformer()
-#     X_train_tfidf = tfidf_transformer.fit_transform(X_train_counts)
-
-#     return X_train_counts, X_train_tfidf, count_vectorizer, tfidf_transformer

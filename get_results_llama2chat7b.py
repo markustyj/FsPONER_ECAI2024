@@ -11,10 +11,9 @@ from timeit import default_timer
 import nltk
 nltk.download('punkt')
 
-#login
-#huggingface-cli login --token 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
+
 from huggingface_hub import login
-login(token = "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")
+login(token = "")
 
 
 model = "NousResearch/Llama-2-7b-chat-hf"

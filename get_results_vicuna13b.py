@@ -12,10 +12,6 @@ from timeit import default_timer
 import nltk
 nltk.download('punkt')
 
-#login
-#huggingface-cli login --token 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
-#from huggingface_hub import login
-#login(token = "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")
 
 model = "lmsys/vicuna-13b-v1.5"
 tokenizer = AutoTokenizer.from_pretrained(model,  trust_remote_code=True)
