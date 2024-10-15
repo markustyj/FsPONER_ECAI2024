@@ -3,8 +3,11 @@ FsPONER: Few-shot Prompt Optimization for Named Entity Recognition in Domain-spe
 
 Link to the paper: https://arxiv.org/abs/2407.08035
 
-
-<img src=image.png alt="The optimized prompt structure." width="500" height="300">
+<figure>
+  <div style="text-align: center;">
+  <img src=image.png alt="Description" width="500">
+  <figcaption>The optimized prompt structure.</figcaption>
+</figure>
 
 ![The evaluation results.](image-1.png) 
 
