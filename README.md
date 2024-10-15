@@ -3,13 +3,13 @@ FsPONER: Few-shot Prompt Optimization for Named Entity Recognition in Domain-spe
 
 Link to the paper: https://arxiv.org/abs/2407.08035
 
+### The optimized prompt structure.
 <figure>
   <div style="text-align: center;">
-  <img src=image.png alt="Description" width="500">
-  <figcaption>The optimized prompt structure.</figcaption>
+  <img src=prompt_structure.png alt="Description" width="360">
+  <figcaption></figcaption>
 </figure>
 
-![The evaluation results.](image-1.png) 
 
 ### data 
 data/assembly_dataset, data/fabNER, data/thin-film-technology-dataset store the original data of the three industrial datasets
@@ -31,3 +31,11 @@ The requirements: please see requirements_finetune_llama2.txt and requirements_g
 #### notebooks with eva prefix are evaluation results
 #### notebooks with formal_finetune are the scripts to fine-tune LLaMA 2
 #### notebooks with get_results are the scripts to get completions from LLaMA 2-chat, Vicuna...
+
+
+### A short overview of evaluation results
+<figure>
+  <div style="text-align: center;">
+  <img src=eva_overview.png alt="Description" width="360">
+  <figcaption></figcaption>
+</figure>
