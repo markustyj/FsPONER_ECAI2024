@@ -11,23 +11,23 @@ Link to the paper: https://arxiv.org/abs/2407.08035
 </figure>
 
 
-### data 
+## data 
 ***data/assembly_dataset***, ***data/fabNER***, ***data/thin-film-technology-dataset*** store the original data of the three industrial datasets
 
 ***data/immutable_data_formal*** stores the corresponding few-shot examples for each input sentence in the test dataset
 
-### eva_results
+## eva_results
 contain the generated completions from LLMs, based on the proposed few-shot prompting methods
 
-### gpt_api_codes
+## gpt_api_codes
 the code to set up the OpenAI LLMs and construct the prompt with selected few-shot examples 
 
 Please check the clean script for few-shot selection methods (random, embedding-based, TFIDF-based) in https://github.com/markustyj/re_genai/blob/main/data/few_shot_list_creation.py
 
-### requirements
+## requirements
 The requirements: please see ***requirements_finetune_llama2.txt*** and ***requirements_gpt_prompting_hf38.txt***
 
-### Some notes
+## Some notes
 notebooks with ***eva*** prefix are evaluation results --> F1 score, precision, recall
 
 notebooks with ***formal_finetune*** are the scripts to fine-tune LLaMA 2
