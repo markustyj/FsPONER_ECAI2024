@@ -22,7 +22,7 @@ contain the generated completions from LLMs, based on the proposed few-shot prom
 ## folder - gpt_api_codes
 the code to set up the OpenAI LLMs and construct the prompt with selected few-shot examples 
 
-Please check the clean script for few-shot selection methods (random, embedding-based, TFIDF-based) in https://github.com/markustyj/re_genai/blob/main/data/few_shot_list_creation.py
+Please check the clean script for few-shot selection methods (random, embedding-based, TFIDF-based) in https://github.com/markustyj/FsPONER_ECAI2024/blob/main/few_shot_list_creation.py
 
 ## requirements
 The requirements: please see ***requirements_finetune_llama2.txt*** and ***requirements_gpt_prompting_hf38.txt***
